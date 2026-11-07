@@ -130,7 +130,7 @@ def copy_app(src: Path, dst: Path) -> int:
         dirs[:] = [d for d in dirs if d not in SKIP and not (rel == Path(".") and d == "data")]
         (dst / rel).mkdir(parents=True, exist_ok=True)
         for f in files:
-            if f.endswith(".pyc") or f == OLD_NOTE:
+            if f.endswith(".pyc") or f == OLD_NOTE or (rel == Path(".") and f.startswith("INSTALL or UPDATE")):
                 continue
             shutil.copy2(Path(root) / f, dst / rel / f)
             n += 1
@@ -221,6 +221,9 @@ def main() -> int:
             shutil.rmtree(p, ignore_errors=True)
         print("Previous version kept in", dest)
     n = copy_app(SRC, app)
+    start_src = SRC / "windows" / "Start Deviant Forge.bat"  # GitHub's code zip keeps it in windows/
+    if not (app / "Start Deviant Forge.bat").exists() and start_src.is_file():
+        shutil.copy2(start_src, app / "Start Deviant Forge.bat")
     print(f"Copied {n} files.")
 
     olds = find_old_copies([app, SRC, backups])

@@ -9,8 +9,8 @@ Deviant Forge runs on your own computer and opens in your browser. It only reads
 ## Install on Windows
 
 1. Install **Python 3.10 or newer** from [python.org](https://www.python.org/downloads/windows/). During setup, tick **"Add python.exe to PATH"**.
-2. Download **Deviant-Forge-…-windows.zip** from the [latest release](https://github.com/NightforgeLabs/deviant-forge/releases/latest).
-3. Right-click the zip, choose **Extract All…**, then double-click **"INSTALL or UPDATE - double-click me.bat"** in the extracted folder.
+2. Open the [latest release](https://github.com/NightforgeLabs/deviant-forge/releases/latest). Under **Assets**, download **Source code (zip)**.
+3. Right-click the zip and choose **Extract All…**. Then double-click **"INSTALL or UPDATE - double-click me.bat"** in the extracted folder.
 4. From then on, open it with the **Deviant Forge** shortcut on your Desktop.
 
 ## Updates
@@ -19,8 +19,8 @@ When a new version is published, Deviant Forge shows a green bar at the top: **"
 
 When you press it, the app:
 
-1. Downloads the update from this repo's Releases.
-2. Checks it against the release's `SHA256SUMS.txt`.
+1. Downloads that release's code zip from GitHub.
+2. Checks that every file is intact and that the zip is the version it claims to be.
 3. Keeps your previous version as a backup.
 4. Installs the update and restarts.
 
@@ -30,12 +30,12 @@ The update check is a single request to GitHub. To turn it off, set the environm
 
 ## Linux
 
-Download **deviant-forge-…-linux.tgz** from the latest release and extract it. Then run `python3 server.py` and open <http://127.0.0.1:8765>. In the app, **Download update** saves a verified package to `/tmp/forge-update.tgz` and shows the command to install it.
+Download **Source code (tar.gz)** from the latest release and extract it. Then run `python3 server.py` and open <http://127.0.0.1:8765>. In the app, **Download update** saves a checked package to `/tmp/forge-update.tgz` and shows the command to install it.
 
 ## For developers
 
-- `VERSION` holds the app version, and each release is tagged `v<VERSION>`.
-- `python3 tools/build_release.py` builds the Windows zip, the Linux tgz and `SHA256SUMS.txt` into `dist/`.
+- `VERSION` holds the app version. Each release is tagged `v<VERSION>`, and the updater downloads GitHub's code zip for that tag.
+- `python3 tools/build_release.py` builds a friendlier Windows zip and a Linux tgz into `dist/` for sharing by hand.
 - To run the tests: `python3 -m unittest tests.test_forge_optimizer`.
 - `TECHNICAL_README.md` and `docs/` hold the engine notes, and `docs/FORGE_HANDOFF.md` holds the changelog.
 

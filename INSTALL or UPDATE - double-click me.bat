@@ -1,7 +1,9 @@
 @echo off
 title Deviant Forge installer
 cd /d "%~dp0"
-if not exist "%~dp0app\forge_install.py" (
+set "INST=%~dp0app\forge_install.py"
+if not exist "%INST%" set "INST=%~dp0forge_install.py"
+if not exist "%INST%" (
   echo.
   echo   The zip is not extracted yet.
   echo   Close this window, right-click the Deviant Forge zip and choose "Extract All...",
@@ -21,6 +23,6 @@ if not defined PY (
   pause
   exit /b 1
 )
-%PY% "%~dp0app\forge_install.py"
+%PY% "%INST%"
 echo.
 pause

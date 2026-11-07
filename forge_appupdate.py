@@ -3,11 +3,12 @@
 How it works
   - check(): asks GitHub for the newest release of REPO (one small request, no account needed).
     The answer is cached for 6 hours; the Updates page can force a fresh check.
-  - install(): downloads the release file for this computer, checks it against SHA256SUMS.txt from
-    the same release, then
-      Windows: unpacks it next to the saved data and starts its INSTALL step (forge_install.py --auto),
+  - install(): downloads that release's code zip, which GitHub makes for every release tag, over HTTPS.
+    It checks that every file in the zip is intact (CRC) and that its VERSION file says the same
+    version as the release. If the release text has a "sha256: <hex>" line, the zip must match it. Then:
+      Windows: unpacks it next to the saved data and starts its installer (forge_install.py --auto),
                which stops this copy, keeps a backup, installs, and starts the new version.
-      Linux:   saves it as /tmp/forge-update.tgz and shows the usual install command.
+      Linux:   repacks it as /tmp/forge-update.tgz and shows the usual install command.
   - Player data (data/) is never part of a release, and any release file that tries to write into
     data/ or outside its folder is refused.
 
@@ -22,6 +23,8 @@ import re
 import shutil
 import subprocess
 import sys
+import tarfile
+import io
 import threading
 import time
 import urllib.request
@@ -33,7 +36,6 @@ REPO = os.environ.get("DF_UPDATE_REPO", "NightforgeLabs/deviant-forge")
 API = f"https://api.github.com/repos/{REPO}/releases/latest"
 PAGE = f"https://github.com/{REPO}/releases/latest"
 TTL = 6 * 3600
-SUMS = "SHA256SUMS.txt"
 
 _lock = threading.Lock()
 _st: dict = {"checked_at": 0.0, "release": None, "error": None}
@@ -74,7 +76,8 @@ def _get(url: str, timeout: float = 8.0):
 def parse_release(d: dict) -> dict:
     tag = str(d.get("tag_name") or "")
     return {"version": tag.lstrip("vV"), "name": d.get("name") or tag, "notes": (d.get("body") or "").strip(),
-            "url": d.get("html_url") or PAGE, "published": d.get("published_at"),
+            "url": d.get("html_url") or PAGE, "published": d.get("published_at"), "tag": tag,
+            "zip": f"https://github.com/{REPO}/archive/refs/tags/{tag}.zip" if tag else None,
             "assets": [{"name": a.get("name"), "url": a.get("browser_download_url"), "size": a.get("size")}
                        for a in d.get("assets") or []]}
 
@@ -123,8 +126,8 @@ def status(refresh: bool = False) -> dict:
     cur = current()
     latest = rel["version"] if rel else None
     return {"enabled": enabled(), "repo": REPO, "page": PAGE, "current": cur, "latest": latest,
-            "available": bool(rel and newer(latest, cur) and pick_asset(rel)),
-            "notes": rel["notes"] if rel else "", "release_url": rel["url"] if rel else PAGE,
+            "available": bool(rel and rel.get("zip") and newer(latest, cur)),
+            "notes": re.sub(r"(?im)^sha256:.*$", "", rel["notes"]).strip() if rel else "", "release_url": rel["url"] if rel else PAGE,
             "published": rel["published"] if rel else None,
             "checked_at": time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime(at)) if at else None,
             "error": err, "platform": platform(), "job": job}
@@ -153,11 +156,15 @@ def sha256(p: Path) -> str:
 
 
 def parse_sums(text: str) -> dict:
+    """'<64 hex>  name' lines (SHA256SUMS style), and a bare 'sha256: <hex>' line stored under ''."""
     out = {}
     for line in text.splitlines():
         m = re.match(r"^([0-9a-fA-F]{64})\s+\*?(.+)$", line.strip())
         if m:
             out[m.group(2).strip()] = m.group(1).lower()
+        m = re.match(r"^sha256:\s*([0-9a-fA-F]{64})\s*$", line.strip(), re.I)
+        if m:
+            out[""] = m.group(1).lower()
     return out
 
 
@@ -174,10 +181,42 @@ def safe_extract(zpath: Path, dest: Path) -> None:
 
 
 def find_installer(root: Path) -> Path | None:
-    for p in sorted(root.rglob("forge_install.py")):
-        if p.parent.name == "app" and (p.parent / "server.py").is_file():
-            return p
-    return None
+    """forge_install.py next to server.py, closest to the top (GitHub zips have one top folder)."""
+    hits = [p for p in root.rglob("forge_install.py") if (p.parent / "server.py").is_file()]
+    return min(hits, key=lambda p: len(p.parts)) if hits else None
+
+
+def check_zip(zpath: Path, version: str) -> Path:
+    """Every member intact, and the VERSION inside says `version`. Returns the VERSION path in the zip."""
+    with zipfile.ZipFile(zpath) as z:
+        bad = z.testzip()
+        if bad:
+            raise RuntimeError(f"the download is damaged ({bad}); try again")
+        vers = [n for n in z.namelist() if n.endswith("/VERSION") and n.count("/") <= 2]
+        if not vers:
+            raise RuntimeError("the download has no VERSION file")
+        v = z.read(min(vers, key=len)).decode().strip()
+    if v != version:
+        raise RuntimeError(f"the download says version {v}, expected {version}")
+    return PurePosixPath(min(vers, key=len))
+
+
+def repack_linux(zpath: Path, out: Path) -> int:
+    """GitHub zip -> tgz with paths relative to the app folder (what install-forge-update.sh expects)."""
+    n = 0
+    with zipfile.ZipFile(zpath) as z, tarfile.open(out, "w:gz") as t:
+        for m in z.infolist():
+            if m.is_dir():
+                continue
+            p = PurePosixPath(m.filename)
+            rel = PurePosixPath(*p.parts[1:]) if len(p.parts) > 1 else p
+            if rel.parts[0] in ("data", "windows", ".github") or rel.suffix == ".pyc":
+                continue
+            data = z.read(m)
+            ti = tarfile.TarInfo(str(rel)); ti.size = len(data); ti.mtime = time.time()
+            ti.mode = 0o755 if rel.suffix == ".sh" else 0o644
+            t.addfile(ti, io.BytesIO(data)); n += 1
+    return n
 
 
 def _download(url: str, dest: Path, size: int | None) -> None:
@@ -198,35 +237,34 @@ def _run_install() -> None:
     try:
         with _lock:
             rel = _st["release"]
-        if not rel:
-            raise RuntimeError("no release information yet; press Check again")
-        asset = pick_asset(rel)
-        sums = next((a for a in rel["assets"] if a["name"] == SUMS), None)
-        if not asset or not sums:
-            raise RuntimeError("this release has no file for this computer")
-        _set(stage="downloading", pct=3, msg=f"Downloading {asset['name']}", target=rel["version"])
+        if not rel or not rel.get("zip"):
+            raise RuntimeError("no release information yet; press check now")
+        ver = rel["version"]
+        _set(stage="downloading", pct=3, msg=f"Downloading Deviant Forge {ver}", target=ver)
         udir = updates_dir()
         udir.mkdir(parents=True, exist_ok=True)
         if os.name == "nt":  # keep only this download
             for old in udir.iterdir():
                 shutil.rmtree(old, ignore_errors=True) if old.is_dir() else old.unlink(missing_ok=True)
-        pkg = udir / (asset["name"] if os.name == "nt" else "forge-update.tgz")
-        _download(asset["url"], pkg, asset.get("size"))
-        _set(stage="checking", pct=92, msg="Checking the download is complete and unchanged")
-        with _get(sums["url"], timeout=15) as r:
-            want = parse_sums(r.read().decode("utf-8", "replace")).get(asset["name"])
-        got = sha256(pkg)
-        if not want or want != got:
+        pkg = udir / f"deviant-forge-{ver}.zip"
+        _download(rel["zip"], pkg, None)
+        _set(stage="checking", pct=92, msg="Checking the download is complete")
+        want = parse_sums(rel.get("notes") or "").get("")
+        if want and sha256(pkg) != want:
             pkg.unlink(missing_ok=True)
-            raise RuntimeError("the download did not match its checksum, so it was deleted. Try again later.")
+            raise RuntimeError("the download did not match the checksum in the release notes, so it was deleted")
+        check_zip(pkg, ver)
         if os.name != "nt":
-            md5 = hashlib.md5(pkg.read_bytes()).hexdigest()
-            cmd = f"md5sum {pkg} && bash {APP / 'tools' / 'install-forge-update.sh'}"
-            _set(stage="ready_manual", pct=100, msg=f"Downloaded and verified (md5 {md5}). Run this in a terminal:",
+            out = udir / "forge-update.tgz"
+            repack_linux(pkg, out)
+            pkg.unlink(missing_ok=True)
+            md5 = hashlib.md5(out.read_bytes()).hexdigest()
+            cmd = f"md5sum {out} && bash {APP / 'tools' / 'install-forge-update.sh'}"
+            _set(stage="ready_manual", pct=100, msg=f"Downloaded and checked (md5 {md5}). Run this in a terminal:",
                  command=cmd)
             return
         _set(stage="unpacking", pct=95, msg="Unpacking")
-        dest = udir / f"v{rel['version']}"
+        dest = udir / f"v{ver}"
         safe_extract(pkg, dest)
         inst = find_installer(dest)
         if not inst:

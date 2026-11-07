@@ -16,9 +16,9 @@ Updates:
   When a new version is out, Deviant Forge shows a green bar at the top:
   "Deviant Forge <version> is ready". Press "Update now" (or "Later").
   It downloads the update, checks it, installs it and restarts by itself.
-  You can also download the newest zip from
+  You can also open
       https://github.com/NightforgeLabs/deviant-forge/releases/latest
-  and do the 3 steps above again - that works too.
+  download "Source code (zip)" and do the 3 steps above again - that works too.
 
 Good to know:
 

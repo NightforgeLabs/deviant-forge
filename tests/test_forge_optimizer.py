@@ -1029,3 +1029,22 @@ class AppUpdateTests(unittest.TestCase):
                 zf.writestr("Deviant Forge/app/gamedata/x.json", "{}")
             au.safe_extract(z, Path(t) / "ok")
             self.assertTrue(str(au.find_installer(Path(t) / "ok")).endswith("app/forge_install.py"))
+
+    def test_github_code_zip(self):
+        import tempfile, tarfile, zipfile, forge_appupdate as au
+        with tempfile.TemporaryDirectory() as t:
+            z = Path(t) / "gh.zip"
+            with zipfile.ZipFile(z, "w") as zf:
+                for n, b in (("VERSION", "2030.01.01.01\n"), ("server.py", ""), ("forge_install.py", ""),
+                             ("windows/Start Deviant Forge.bat", "x"), ("tools/install-forge-update.sh", "#!"), ("tests/t.py", "")):
+                    zf.writestr(f"deviant-forge-2030.01.01.01/{n}", b)
+            au.check_zip(z, "2030.01.01.01")
+            with self.assertRaises(RuntimeError):
+                au.check_zip(z, "2030.01.01.02")
+            au.safe_extract(z, Path(t) / "x")
+            self.assertEqual(au.find_installer(Path(t) / "x").parent.name, "deviant-forge-2030.01.01.01")
+            au.repack_linux(z, Path(t) / "u.tgz")
+            names = tarfile.open(Path(t) / "u.tgz").getnames()
+            self.assertIn("server.py", names); self.assertIn("tools/install-forge-update.sh", names)
+            self.assertFalse(any(n.startswith(("windows", "deviant-forge-")) for n in names))
+            self.assertEqual(au.parse_sums("x\nsha256: " + "c" * 64)[""], "c" * 64)

@@ -23,9 +23,9 @@ from pathlib import Path, PurePosixPath
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 NEVER = {"data", "__pycache__", ".git", "dist", ".github"}
-NOT_IN_APP = {"tests", "research", "desktop", "windows", "install-desktop.sh", "launch-desktop.sh", "launch.sh",
+NOT_IN_APP = {"INSTALL or UPDATE - double-click me.bat", "tests", "research", "desktop", "windows", "install-desktop.sh", "launch-desktop.sh", "launch.sh",
               "tools/install-forge-update.sh"}
-NOT_IN_LINUX = {"windows", "research", "desktop"}
+NOT_IN_LINUX = {"INSTALL or UPDATE - double-click me.bat", "windows", "research", "desktop"}
 
 
 def files(skip: set[str]) -> list[Path]:
@@ -79,8 +79,8 @@ def main() -> int:
     names = [f"{top}/app/{p.relative_to(ROOT).as_posix()}" for p in app_files]
     guard(names)
     with zipfile.ZipFile(win, "w") as z:
-        for n in ("INSTALL or UPDATE - double-click me.bat", "READ ME FIRST - Windows.txt"):
-            z.writestr(zinfo(f"{top}/{n}"), (ROOT / "windows" / n).read_bytes())
+        z.writestr(zinfo(f"{top}/INSTALL or UPDATE - double-click me.bat"), (ROOT / "INSTALL or UPDATE - double-click me.bat").read_bytes())
+        z.writestr(zinfo(f"{top}/READ ME FIRST - Windows.txt"), (ROOT / "windows" / "READ ME FIRST - Windows.txt").read_bytes())
         z.writestr(zinfo(f"{top}/app/Start Deviant Forge.bat"), (ROOT / "windows" / "Start Deviant Forge.bat").read_bytes())
         for p, n in zip(app_files, names):
             z.writestr(zinfo(n), p.read_bytes())
