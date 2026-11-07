@@ -1,0 +1,335 @@
+{
+  "build_id": "26267212",
+  "source_sha256": {
+    "damage_formula.pyc": "244bf28269e6b46ae9fafc164c14f33e95822616775abaf64484224c119117ee",
+    "CompFormulaAdapter.pyc": "a2f4bbf5a29e2b951f2eec8eb73925890c00cc9d178fc0bf32fb01bf262b53bd"
+  },
+  "native_property_map_sha256": "a45580bf1d71592fa155308f409f3a685b50a9b9ee82bdf1a918f55330a4238e",
+  "property_rows": {
+    "attack_type_dam_add_rate_dot": {
+      "bounds": [
+        72198,
+        72241
+      ],
+      "sha256": "b716e8297ae2b014f4e43615bc53a82b63f0d0643588e6fe9d8db6d59bad2483",
+      "fields": {
+        "attr_chs_name": 3378,
+        "attr_id": "E43",
+        "calc_type": 0,
+        "ent_type": 0,
+        "init_val": 0.0,
+        "lib_no": 0,
+        "max_val": 10.0,
+        "parent_attr_key": "attack_type_dam_add_rate",
+        "val_type": 2,
+        "min_val": -0.9
+      }
+    },
+    "element_type_dam_add_rate_lightning": {
+      "bounds": [
+        83462,
+        83505
+      ],
+      "sha256": "a778c655fd31b7dc484e1e738c032d4f590a277c664e7ec8c2e2f6662284a9e9",
+      "fields": {
+        "attr_chs_name": 14642,
+        "attr_id": "E34",
+        "calc_type": 0,
+        "ent_type": 0,
+        "init_val": 0.0,
+        "lib_no": 0,
+        "max_val": 10.0,
+        "parent_attr_key": "element_type_dam_add_rate",
+        "val_type": 2,
+        "min_val": -0.9
+      }
+    },
+    "keyword_proc_dam_add_rate_surge": {
+      "bounds": [
+        105721,
+        105765
+      ],
+      "sha256": "d8d2969be7e89840191ab8ef53b7c3a6d87bf7afbf85efee3a4c3cfd46d24189",
+      "fields": {
+        "attr_chs_name": 36900,
+        "attr_id": "E121",
+        "calc_type": 0,
+        "ent_type": 0,
+        "init_val": 0.0,
+        "lib_no": 0,
+        "max_val": 10.0,
+        "parent_attr_key": "keyword_proc_dam_add_rate",
+        "val_type": 2,
+        "min_val": -0.9
+      }
+    },
+    "final_dam_add_rate": {
+      "bounds": [
+        73224,
+        73266
+      ],
+      "sha256": "60020165ae83756d24bc3f35488fe5289722c43017201921afbf16831ad4407a",
+      "fields": {
+        "attr_chs_name": 4404,
+        "attr_id": "E98",
+        "calc_type": 0,
+        "ent_type": 0,
+        "init_val": 0.0,
+        "lib_no": 0,
+        "max_val": 10.0,
+        "parent_attr_key": "",
+        "val_type": 2,
+        "min_val": -0.9
+      }
+    }
+  },
+  "affix_rows": {
+    "E4300": {
+      "bounds": [
+        51106,
+        51142
+      ],
+      "sha256": "e6d975bba7db438ccf037e751089559a2b0458eb5b9be4d578e9b27dfd59c48c",
+      "fields": {
+        "affix_name": 7134,
+        "attr_id": "E43",
+        "effect_range": 1,
+        "format": 7121,
+        "type": 1
+      }
+    },
+    "E3400": {
+      "bounds": [
+        50926,
+        50962
+      ],
+      "sha256": "7c29aae59598d9f3238514e7f0e0f24bff01a33401bacbadae1806dc01d0abe1",
+      "fields": {
+        "affix_name": 6954,
+        "attr_id": "E34",
+        "effect_range": 1,
+        "format": 6941,
+        "type": 1
+      }
+    },
+    "E12100": {
+      "bounds": [
+        50602,
+        50638
+      ],
+      "sha256": "ca8078921cdee7b51994aa876965af18bd620cde7ea6612914756d9837ad452a",
+      "fields": {
+        "affix_name": 6630,
+        "attr_id": "E121",
+        "effect_range": 1,
+        "format": 6617,
+        "type": 1
+      }
+    }
+  },
+  "graph_nodes": {
+    "2": [
+      "NumberExpr",
+      4
+    ],
+    "53": [
+      "BinopListExpr",
+      1,
+      "+",
+      24
+    ],
+    "86": [
+      "FunctionExpr",
+      "max",
+      53,
+      0
+    ],
+    "113": [
+      "NameExpr",
+      "final_element_type_dam_add_rate",
+      86
+    ],
+    "120": [
+      "NameExpr",
+      "attack_type_dam_add_rate",
+      -1
+    ],
+    "139": [
+      "NameExpr",
+      "BB.bound_attack_type_dam_add_rate",
+      -1
+    ],
+    "140": [
+      "NameExpr",
+      "final_attack_type_dam_add_rate",
+      139
+    ],
+    "141": [
+      "BinopListExpr",
+      1,
+      "+",
+      140
+    ],
+    "142": [
+      "NameExpr",
+      "final_skill_rate",
+      141
+    ],
+    "170": [
+      "BinopListExpr",
+      168,
+      "==",
+      2
+    ],
+    "182": [
+      "NameExpr",
+      "attack_is_buff",
+      170
+    ],
+    "247": [
+      "NameExpr",
+      "is_keyword_type",
+      246
+    ],
+    "248": [
+      "BinopListExpr",
+      247,
+      "*",
+      15,
+      "+",
+      179
+    ],
+    "249": [
+      "NameExpr",
+      "final_keyword_damage_add_rate",
+      248
+    ],
+    "250": [
+      "BinopListExpr",
+      1,
+      "+",
+      249
+    ],
+    "286": [
+      "NameExpr",
+      "final_dam_add_rate",
+      -1
+    ],
+    "287": [
+      "BinopListExpr",
+      1,
+      "+",
+      286
+    ],
+    "301": [
+      "BinopListExpr",
+      142,
+      "*",
+      250,
+      "*",
+      14,
+      "*",
+      300,
+      "*",
+      113,
+      "*",
+      240,
+      "*",
+      244,
+      "*",
+      149,
+      "*",
+      287
+    ],
+    "308": [
+      "BinopListExpr",
+      155,
+      "*",
+      144,
+      "*",
+      147,
+      "*",
+      289,
+      "*",
+      101,
+      "*",
+      124,
+      "*",
+      285,
+      "*",
+      307,
+      "*",
+      167
+    ]
+  },
+  "adapter_method_body": {
+    "CompFormulaAdapter.get_keyword_proc_dam_add_rate": {
+      "offset": 71731,
+      "sha256": "6bb21d1ffbb8dc82fa9ef3d14c68f83aec7933738ff95c848282998332ef784f",
+      "names": [
+        "_get_attacker_prop_val",
+        "FormulaManagerHelper",
+        "get_keyword_attr_name_by_tag",
+        "int"
+      ],
+      "constants": [
+        "keyword_type",
+        "keyword_proc_dam_add_rate"
+      ]
+    },
+    "CompFormulaAdapter.get_bound_element_type_dam_add_rate": {
+      "offset": 72968,
+      "sha256": "865c02eeb55715e9faca327ddd4aaf610e9f4f239684dd7364f725b2cedd7fa3",
+      "names": [
+        "_get_attacker_prop_val",
+        "FormulaManagerHelper",
+        "get_element_attr_name_by_tag",
+        "int",
+        "get_element_position_attr_name_by_tag",
+        "abs",
+        "AffixUtils",
+        "adjust_attr_val"
+      ],
+      "constants": [
+        "attack_delta_position_height",
+        "element_type",
+        "element_type_dam_add_rate",
+        "element_type_position_dam_add_rate"
+      ]
+    },
+    "CompFormulaAdapter.get_bound_attack_type_dam_add_rate": {
+      "offset": 73950,
+      "sha256": "0ead37a19beb432683a365cb041cca0d5e162ba5d8c2bad1eddd15bd79eae560",
+      "names": [
+        "_get_attacker_prop_val",
+        "int",
+        "FormulaManagerHelper",
+        "get_attack_type_position_attr_name_by_tag",
+        "get_attack_type_attr_name_by_tag",
+        "abs",
+        "AffixUtils",
+        "adjust_attr_val"
+      ],
+      "constants": [
+        "attack_delta_position_height",
+        "attack_type_dam_add_rate",
+        "formula_attack_type",
+        "attack_type_position_dam_add_rate"
+      ]
+    }
+  },
+  "synthetic_two_abs_dot_modifiers": {
+    "base_attack": 100.0,
+    "modifier_a": 0.1,
+    "modifier_b": 0.2,
+    "same_bucket_pre_round": 130.0
+  },
+  "limits": [
+    "No selected owned-item affix activation proven.",
+    "AUG NodeDurativeAttack executor to hit_info leaves is absent.",
+    "Element tag 3 and keyword 302 are not yet bound to their name-table suffixes.",
+    "AUG is_keyword_damage=0 does not prove the formula keyword_type leaf is nonzero."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

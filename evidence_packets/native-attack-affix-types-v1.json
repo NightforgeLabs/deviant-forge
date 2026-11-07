@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_archive_sha256": "8007b2e16b71d10ac1e0b215f12a4bd68387c22b304e031c60f9a00b0c3c876a",
+  "source_copies": {
+    "affix_prototype_data.pyc": {
+      "path": "rawcaptures/affix_inputs/affix_prototype_data.pyc",
+      "pyc_sha256": "a5732321ba5f84fa62fbfca910be49a93a26723d361a43afa28ea1a906d45d17",
+      "literal_sha256": "7ed99f64c6fa46cf91d7080fa66606984c27d98adcaf9daf3d2c1cf9f50717f3"
+    },
+    "char_property_data.pyc": {
+      "path": "rawcaptures/affix_inputs/char_property_data.pyc",
+      "pyc_sha256": "74e5e434d0a34140822f5644c9116d93ff7b560c69f61a98b34b9fcd038ae967",
+      "literal_sha256": "b2119ebce482e99843e5e0e3248daeaddef01d707d462d72c76858e358c87c7e"
+    }
+  },
+  "method": "Safe static CPython 3.11 marshal reader extracts only literal bytes. Native ordered typed descriptors bind source fields inside exact indexed bounded rows. D0100/D0102/attack share D01; D1100/structure_attack independently share D11. Char property rows have a common leading schema anchor and select float32 alternatives; no game code is run.",
+  "native_descriptors": {
+    "affix_prototype_data": [
+      [
+        "affix_name",
+        11
+      ],
+      [
+        "attr_id",
+        5
+      ],
+      [
+        "effect_range",
+        1
+      ],
+      [
+        "format",
+        11
+      ],
+      [
+        "type",
+        1
+      ]
+    ],
+    "char_property_data": [
+      [
+        "attr_chs_name",
+        11
+      ],
+      [
+        "attr_id",
+        5
+      ],
+      [
+        "calc_type",
+        1
+      ],
+      [
+        "ent_type",
+        1
+      ],
+      [
+        "init_val",
+        18
+      ],
+      [
+        "init_val",
+        34
+      ],
+      [
+        "lib_no",
+        1
+      ],
+      [
+        "max_val",
+        18
+      ],
+      [
+        "max_val",
+        34
+      ],
+      [
+        "min_val",
+        18
+      ],
+      [
+        "min_val",
+        34
+      ],
+      [
+        "parent_attr_key",
+        5
+      ],
+      [
+        "val_type",
+        1
+      ]
+    ]
+  },
+  "rows": {
+    "D0100": {
+      "index_key": "D0100",
+      "literal_row_bounds": [
+        49243,
+        49278
+      ],
+      "row_sha256": "2f56c1220050e3ce6a1e7529f3ae6f0c6139bdd927456cfe2d86480104f5a73b",
+      "typed_fields_end_offset": 49252,
+      "fields": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 5271,
+          "decoded_value": 5271,
+          "literal_byte_offset": 49245,
+          "raw_hex": "9729",
+          "body_relative_pointer": 5271,
+          "target_literal_byte_offset": 49235
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 6,
+          "decoded_value": "D01",
+          "literal_byte_offset": 49247,
+          "raw_hex": "06"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 49248,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 5258,
+          "decoded_value": 5258,
+          "literal_byte_offset": 49249,
+          "raw_hex": "8a29",
+          "body_relative_pointer": 5258,
+          "target_literal_byte_offset": 49222
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 49251,
+          "raw_hex": "01"
+        }
+      }
+    },
+    "D0101": {
+      "index_key": "D0101",
+      "literal_row_bounds": [
+        47740,
+        47775
+      ],
+      "row_sha256": "f102d63044ea93dc00ec39fcd11a985fdfbf3555e626cb74403e511034d34eeb",
+      "typed_fields_end_offset": 47749,
+      "fields": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 3768,
+          "decoded_value": 3768,
+          "literal_byte_offset": 47742,
+          "raw_hex": "b81d",
+          "body_relative_pointer": 3768,
+          "target_literal_byte_offset": 47732
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 6,
+          "decoded_value": "D01",
+          "literal_byte_offset": 47744,
+          "raw_hex": "06"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 47745,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 3755,
+          "decoded_value": 3755,
+          "literal_byte_offset": 47746,
+          "raw_hex": "ab1d",
+          "body_relative_pointer": 3755,
+          "target_literal_byte_offset": 47719
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 2,
+          "decoded_value": 2,
+          "literal_byte_offset": 47748,
+          "raw_hex": "02"
+        }
+      }
+    },
+    "D0102": {
+      "index_key": "D0102",
+      "literal_row_bounds": [
+        49314,
+        49349
+      ],
+      "row_sha256": "4ae30ebdc3a7f9511e4816bd943dfe221688a93a56734cb50ece7dcdad967f2a",
+      "typed_fields_end_offset": 49323,
+      "fields": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 5342,
+          "decoded_value": 5342,
+          "literal_byte_offset": 49316,
+          "raw_hex": "de29",
+          "body_relative_pointer": 5342,
+          "target_literal_byte_offset": 49306
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 6,
+          "decoded_value": "D01",
+          "literal_byte_offset": 49318,
+          "raw_hex": "06"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 2,
+          "decoded_value": 2,
+          "literal_byte_offset": 49319,
+          "raw_hex": "02"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 5329,
+          "decoded_value": 5329,
+          "literal_byte_offset": 49320,
+          "raw_hex": "d129",
+          "body_relative_pointer": 5329,
+          "target_literal_byte_offset": 49293
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 2,
+          "decoded_value": 2,
+          "literal_byte_offset": 49322,
+          "raw_hex": "02"
+        }
+      }
+    },
+    "D1100": {
+      "index_key": "D1100",
+      "literal_row_bounds": [
+        49349,
+        49384
+      ],
+      "row_sha256": "8e6a1bf7cf7ff656ba5038263b35135c50e3126f0cf730212d1da8441de48951",
+      "typed_fields_end_offset": 49358,
+      "fields": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 5377,
+          "decoded_value": 5377,
+          "literal_byte_offset": 49351,
+          "raw_hex": "812a",
+          "body_relative_pointer": 5377,
+          "target_literal_byte_offset": 49341
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 14,
+          "decoded_value": "D11",
+          "literal_byte_offset": 49353,
+          "raw_hex": "0e"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 49354,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 5364,
+          "decoded_value": 5364,
+          "literal_byte_offset": 49355,
+          "raw_hex": "f429",
+          "body_relative_pointer": 5364,
+          "target_literal_byte_offset": 49328
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 49357,
+          "raw_hex": "01"
+        }
+      }
+    },
+    "attack": {
+      "index_key": "attack",
+      "literal_row_bounds": [
+        71574,
+        71612
+      ],
+      "row_sha256": "36cb6fffe5f91f225068b339f9b4d83cfbd26b2d43be8d31bab27d6ecf3c71aa",
+      "schema_anchor": {
+        "value": 3423,
+        "literal_byte_offset": 71576,
+        "raw_hex": "df1a"
+      },
+      "typed_fields_end_offset": 71599,
+      "fields": {
+        "attr_chs_name": {
+          "field": "attr_chs_name",
+          "type_code": 11,
+          "raw_value": 2754,
+          "decoded_value": 2754,
+          "literal_byte_offset": 71578,
+          "raw_hex": "c215",
+          "body_relative_pointer": 2754,
+          "target_literal_byte_offset": 71566
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 1000,
+          "decoded_value": "D01",
+          "literal_byte_offset": 71580,
+          "raw_hex": "e807"
+        },
+        "calc_type": {
+          "field": "calc_type",
+          "type_code": 1,
+          "raw_value": 0,
+          "decoded_value": 0,
+          "literal_byte_offset": 71582,
+          "raw_hex": "00"
+        },
+        "ent_type": {
+          "field": "ent_type",
+          "type_code": 1,
+          "raw_value": 0,
+          "decoded_value": 0,
+          "literal_byte_offset": 71583,
+          "raw_hex": "00"
+        },
+        "init_val": {
+          "field": "init_val",
+          "type_code": 18,
+          "raw_value": 0.0,
+          "decoded_value": 0.0,
+          "literal_byte_offset": 71584,
+          "raw_hex": "00000000"
+        },
+        "lib_no": {
+          "field": "lib_no",
+          "type_code": 1,
+          "raw_value": 0,
+          "decoded_value": 0,
+          "literal_byte_offset": 71588,
+          "raw_hex": "00"
+        },
+        "max_val": {
+          "field": "max_val",
+          "type_code": 18,
+          "raw_value": 130000.0,
+          "decoded_value": 130000.0,
+          "literal_byte_offset": 71589,
+          "raw_hex": "00e8fd47"
+        },
+        "min_val": {
+          "field": "min_val",
+          "type_code": 18,
+          "raw_value": 0.0,
+          "decoded_value": 0.0,
+          "literal_byte_offset": 71593,
+          "raw_hex": "00000000"
+        },
+        "parent_attr_key": {
+          "field": "parent_attr_key",
+          "type_code": 5,
+          "raw_value": 10,
+          "decoded_value": "",
+          "literal_byte_offset": 71597,
+          "raw_hex": "0a"
+        },
+        "val_type": {
+          "field": "val_type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 71598,
+          "raw_hex": "01"
+        }
+      }
+    },
+    "structure_attack": {
+      "index_key": "structure_attack",
+      "literal_row_bounds": [
+        74768,
+        74806
+      ],
+      "row_sha256": "97daad9829129f55d987479a4d1a63536efdfdb4e2877bffc5c6d803540cb378",
+      "schema_anchor": {
+        "value": 3423,
+        "literal_byte_offset": 74770,
+        "raw_hex": "df1a"
+      },
+      "typed_fields_end_offset": 74793,
+      "fields": {
+        "attr_chs_name": {
+          "field": "attr_chs_name",
+          "type_code": 11,
+          "raw_value": 5948,
+          "decoded_value": 5948,
+          "literal_byte_offset": 74772,
+          "raw_hex": "bc2e",
+          "body_relative_pointer": 5948,
+          "target_literal_byte_offset": 74760
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 1029,
+          "decoded_value": "D11",
+          "literal_byte_offset": 74774,
+          "raw_hex": "8508"
+        },
+        "calc_type": {
+          "field": "calc_type",
+          "type_code": 1,
+          "raw_value": 0,
+          "decoded_value": 0,
+          "literal_byte_offset": 74776,
+          "raw_hex": "00"
+        },
+        "ent_type": {
+          "field": "ent_type",
+          "type_code": 1,
+          "raw_value": 0,
+          "decoded_value": 0,
+          "literal_byte_offset": 74777,
+          "raw_hex": "00"
+        },
+        "init_val": {
+          "field": "init_val",
+          "type_code": 18,
+          "raw_value": 0.0,
+          "decoded_value": 0.0,
+          "literal_byte_offset": 74778,
+          "raw_hex": "00000000"
+        },
+        "lib_no": {
+          "field": "lib_no",
+          "type_code": 1,
+          "raw_value": 0,
+          "decoded_value": 0,
+          "literal_byte_offset": 74782,
+          "raw_hex": "00"
+        },
+        "max_val": {
+          "field": "max_val",
+          "type_code": 18,
+          "raw_value": 130000.0,
+          "decoded_value": 130000.0,
+          "literal_byte_offset": 74783,
+          "raw_hex": "00e8fd47"
+        },
+        "min_val": {
+          "field": "min_val",
+          "type_code": 18,
+          "raw_value": 0.0,
+          "decoded_value": 0.0,
+          "literal_byte_offset": 74787,
+          "raw_hex": "00000000"
+        },
+        "parent_attr_key": {
+          "field": "parent_attr_key",
+          "type_code": 5,
+          "raw_value": 10,
+          "decoded_value": "",
+          "literal_byte_offset": 74791,
+          "raw_hex": "0a"
+        },
+        "val_type": {
+          "field": "val_type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 74792,
+          "raw_hex": "01"
+        }
+      }
+    }
+  },
+  "interpretation_gate": "Native D0100 type=1 and effect_range=1 are typed source values; AP_CALC_TYPE_ABS=1 is independently defined in attr_const. This packet does not itself prove that D0100 is active in a specific equipped build, calibration accumulation, generated D01 name map, or final damage. Localized affix display strings conflict with typed D01 attack identity and are withheld.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

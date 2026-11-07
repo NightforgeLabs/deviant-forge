@@ -1,0 +1,964 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "crate_item_id": 37560018,
+  "source_page_crosscheck": "https://wikily.gg/once-human/items/37560018",
+  "source_hashes": {
+    "item_data_literal_sha256": "bcb0eed8c4d9ca658179558ee4e6002b3f13b686c7839e09a9a7aa695eea8035",
+    "item_use_para_literal_sha256": "a2b5c4bd09f43c845c61be889743e3ada8e28a58e49d5ade4be8b2bb8dd643ac",
+    "crate_reward_slot_packet_sha256": "92e8deb5030133e640a42aa40d64fe67542b77967e641f7a8cff9ad7b6d3d01f",
+    "drop_pool_packet_sha256": "a395fc8bf0e62ba4c80ad2e0a306f0957eff065a2db43fd6ee94496b03c0d78d"
+  },
+  "method": "Exact indexed item ID and source-localized item strings, typed item-use related_func, typed crate normal/rare pool slots and independently indexed reward arrays; 21 reward IDs each mapped to a bounded item_data row and its source name/rating text.",
+  "crate_item_row_bounds": [
+    9643567,
+    9643690
+  ],
+  "crate_source_name": {
+    "source_string": "随机幻兽帕鲁异常物_$S@TIDS$_cg0|0",
+    "pointer_byte_offset": 9643628,
+    "pointer_raw_hex": "f09bba01",
+    "pointer_body_relative": 3050992,
+    "translation_object_byte_offset": 9643539,
+    "string_table_index": 70987,
+    "string_index_byte_offset": 9643536,
+    "string_index_raw_hex": "cbaa04"
+  },
+  "crate_source_description": {
+    "source_string": "打开宝箱可获得一个捣蛋猫、疾旋鼬或桃旋鼬，异能评级、活性评级在3-5级之间。#[k=b5]最多15次必定获得异能评级为5、活性评级为5的捣蛋猫、疾旋鼬或桃旋鼬#[k]，每次保底不会重复。获取的异常物为绑定状态，不能进行丢弃或交易。_$S@TIDS$_cg0|0",
+    "pointer_byte_offset": 9643590,
+    "pointer_raw_hex": "819cba01",
+    "pointer_body_relative": 3051009,
+    "translation_object_byte_offset": 9643556,
+    "string_table_index": 70988,
+    "string_index_byte_offset": 9643553,
+    "string_index_raw_hex": "ccaa04"
+  },
+  "native_open_function": {
+    "source_field": "related_func",
+    "function_string": "junxuxiang_open",
+    "string_table_index": 39,
+    "field_token": {
+      "value": 39,
+      "byte_offset": 122759,
+      "raw_hex": "27"
+    },
+    "row_bounds": [
+      122747,
+      122763
+    ]
+  },
+  "crate_config_reward_field_tokens": {
+    "normal_reward_drop_id": {
+      "value": 1846,
+      "type_code": 11,
+      "byte_offset": 2508,
+      "raw_hex": "b60e"
+    },
+    "rare_back": {
+      "value": 0,
+      "type_code": 1,
+      "byte_offset": 2510,
+      "raw_hex": "00"
+    },
+    "rare_loop": {
+      "value": 1,
+      "type_code": 1,
+      "byte_offset": 2511,
+      "raw_hex": "01"
+    },
+    "rare_reward_drop_id": {
+      "value": 37560018004,
+      "type_code": 1,
+      "byte_offset": 2512,
+      "raw_hex": "d4c881f68b01"
+    },
+    "sale_price": {
+      "value": 300,
+      "type_code": 1,
+      "byte_offset": 2518,
+      "raw_hex": "ac02"
+    },
+    "sort_val": {
+      "value": 1,
+      "type_code": 1,
+      "byte_offset": 2520,
+      "raw_hex": "01"
+    },
+    "special_drop_rewards": {
+      "value": 73,
+      "type_code": 11,
+      "byte_offset": 2521,
+      "raw_hex": "49"
+    },
+    "special_drop_times": {
+      "value": 73,
+      "type_code": 11,
+      "byte_offset": 2522,
+      "raw_hex": "49"
+    },
+    "stage_reward": {
+      "value": 49,
+      "type_code": 11,
+      "byte_offset": 2523,
+      "raw_hex": "31"
+    }
+  },
+  "reward_groups": [
+    {
+      "role_from_native_crate_field": "normal",
+      "drop_pool_id": 37560018001,
+      "total_weight_native_field": {
+        "encoded_value": 3200,
+        "type_code": 1,
+        "byte_offset": 568,
+        "raw_hex": "8019"
+      },
+      "rewards": [
+        {
+          "item_id": 36000061,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 67,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 500,
+            "byte_offset": 524,
+            "raw_hex": "f403"
+          },
+          "item_name_source_string": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 8909304,
+            "pointer_raw_hex": "90b38d01",
+            "pointer_body_relative": 2316688,
+            "translation_object_byte_offset": 8909235,
+            "string_table_index": 58206,
+            "string_index_byte_offset": 8909232,
+            "string_index_raw_hex": "dec603"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：3、活性评级：3#l\n在领地中工作，能采集矿石，或在采矿平台工作_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 8909271,
+            "pointer_raw_hex": "ddb28d01",
+            "pointer_body_relative": 2316637,
+            "translation_object_byte_offset": 8909184,
+            "string_table_index": 58203,
+            "string_index_byte_offset": 8909181,
+            "string_index_raw_hex": "dbc603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 3,
+            "activity": 3,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000062,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 68,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 1000,
+            "byte_offset": 526,
+            "raw_hex": "e807"
+          },
+          "item_name_source_string": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 8977602,
+            "pointer_raw_hex": "dac89101",
+            "pointer_body_relative": 2384986,
+            "translation_object_byte_offset": 8977533,
+            "string_table_index": 58210,
+            "string_index_byte_offset": 8977530,
+            "string_index_raw_hex": "e2c603"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：3、活性评级：4#l\n在领地中工作，能采集矿石，或在采矿平台工作_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 8977569,
+            "pointer_raw_hex": "a7c89101",
+            "pointer_body_relative": 2384935,
+            "translation_object_byte_offset": 8977482,
+            "string_table_index": 58207,
+            "string_index_byte_offset": 8977479,
+            "string_index_raw_hex": "dfc603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 3,
+            "activity": 4,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000063,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 69,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 1500,
+            "byte_offset": 528,
+            "raw_hex": "dc0b"
+          },
+          "item_name_source_string": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|2",
+            "pointer_byte_offset": 9267280,
+            "pointer_raw_hex": "e89fa301",
+            "pointer_body_relative": 2674664,
+            "translation_object_byte_offset": 9267211,
+            "string_table_index": 58214,
+            "string_index_byte_offset": 9267208,
+            "string_index_raw_hex": "e6c603"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：4、活性评级：3#l\n在领地中工作，能采集矿石，或在采矿平台工作_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 9267247,
+            "pointer_raw_hex": "b59fa301",
+            "pointer_body_relative": 2674613,
+            "translation_object_byte_offset": 9267160,
+            "string_table_index": 58211,
+            "string_index_byte_offset": 9267157,
+            "string_index_raw_hex": "e3c603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 4,
+            "activity": 3,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000064,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 70,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 2000,
+            "byte_offset": 530,
+            "raw_hex": "d00f"
+          },
+          "item_name_source_string": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|3",
+            "pointer_byte_offset": 8895484,
+            "pointer_raw_hex": "94c78c01",
+            "pointer_body_relative": 2302868,
+            "translation_object_byte_offset": 8895415,
+            "string_table_index": 58218,
+            "string_index_byte_offset": 8895412,
+            "string_index_raw_hex": "eac603"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：4、活性评级：4#l\n在领地中工作，能采集矿石，或在采矿平台工作_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 8895451,
+            "pointer_raw_hex": "e1c68c01",
+            "pointer_body_relative": 2302817,
+            "translation_object_byte_offset": 8895364,
+            "string_table_index": 58215,
+            "string_index_byte_offset": 8895361,
+            "string_index_raw_hex": "e7c603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 4,
+            "activity": 4,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000065,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 71,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 2550,
+            "byte_offset": 532,
+            "raw_hex": "f613"
+          },
+          "item_name_source_string": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|4",
+            "pointer_byte_offset": 9267949,
+            "pointer_raw_hex": "85a5a301",
+            "pointer_body_relative": 2675333,
+            "translation_object_byte_offset": 9267880,
+            "string_table_index": 58222,
+            "string_index_byte_offset": 9267877,
+            "string_index_raw_hex": "eec603"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：4、活性评级：5#l\n在领地中工作，能采集矿石，或在采矿平台工作_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 9267916,
+            "pointer_raw_hex": "d2a4a301",
+            "pointer_body_relative": 2675282,
+            "translation_object_byte_offset": 9267829,
+            "string_table_index": 58219,
+            "string_index_byte_offset": 9267826,
+            "string_index_raw_hex": "ebc603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 4,
+            "activity": 5,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000066,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 72,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 3200,
+            "byte_offset": 534,
+            "raw_hex": "8019"
+          },
+          "item_name_source_string": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|5",
+            "pointer_byte_offset": 7421174,
+            "pointer_raw_hex": "92c932",
+            "pointer_body_relative": 828562,
+            "translation_object_byte_offset": 7421109,
+            "string_table_index": 58226,
+            "string_index_byte_offset": 7421106,
+            "string_index_raw_hex": "f2c603"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：5、活性评级：4#l\n在领地中工作，能采集矿石，或在采矿平台工作_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 7421143,
+            "pointer_raw_hex": "e2c832",
+            "pointer_body_relative": 828514,
+            "translation_object_byte_offset": 7421061,
+            "string_table_index": 58223,
+            "string_index_byte_offset": 7421058,
+            "string_index_raw_hex": "efc603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 5,
+            "activity": 4,
+            "source_is_text_not_runtime_stat": true
+          }
+        }
+      ]
+    },
+    {
+      "role_from_native_crate_field": "normal",
+      "drop_pool_id": 37560018002,
+      "total_weight_native_field": {
+        "encoded_value": 3250,
+        "type_code": 1,
+        "byte_offset": 133,
+        "raw_hex": "b219"
+      },
+      "rewards": [
+        {
+          "item_id": 36000075,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 67,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 500,
+            "byte_offset": 76,
+            "raw_hex": "f403"
+          },
+          "item_name_source_string": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 9156829,
+            "pointer_raw_hex": "f5c09c01",
+            "pointer_body_relative": 2564213,
+            "translation_object_byte_offset": 9156760,
+            "string_table_index": 58262,
+            "string_index_byte_offset": 9156757,
+            "string_index_raw_hex": "96c703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：3、活性评级：3#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 9156796,
+            "pointer_raw_hex": "c2c09c01",
+            "pointer_body_relative": 2564162,
+            "translation_object_byte_offset": 9156709,
+            "string_table_index": 58259,
+            "string_index_byte_offset": 9156706,
+            "string_index_raw_hex": "93c703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 3,
+            "activity": 3,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000076,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 68,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 1000,
+            "byte_offset": 78,
+            "raw_hex": "e807"
+          },
+          "item_name_source_string": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 9268776,
+            "pointer_raw_hex": "c0aba301",
+            "pointer_body_relative": 2676160,
+            "translation_object_byte_offset": 9268707,
+            "string_table_index": 58266,
+            "string_index_byte_offset": 9268704,
+            "string_index_raw_hex": "9ac703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：3、活性评级：4#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 9268743,
+            "pointer_raw_hex": "8daba301",
+            "pointer_body_relative": 2676109,
+            "translation_object_byte_offset": 9268656,
+            "string_table_index": 58263,
+            "string_index_byte_offset": 9268653,
+            "string_index_raw_hex": "97c703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 3,
+            "activity": 4,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000077,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 69,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 1500,
+            "byte_offset": 80,
+            "raw_hex": "dc0b"
+          },
+          "item_name_source_string": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|2",
+            "pointer_byte_offset": 6942990,
+            "pointer_raw_hex": "aab115",
+            "pointer_body_relative": 350378,
+            "translation_object_byte_offset": 6942925,
+            "string_table_index": 58270,
+            "string_index_byte_offset": 6942922,
+            "string_index_raw_hex": "9ec703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：4、活性评级：3#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 6942959,
+            "pointer_raw_hex": "fab015",
+            "pointer_body_relative": 350330,
+            "translation_object_byte_offset": 6942877,
+            "string_table_index": 58267,
+            "string_index_byte_offset": 6942874,
+            "string_index_raw_hex": "9bc703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 4,
+            "activity": 3,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000078,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 70,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 2000,
+            "byte_offset": 82,
+            "raw_hex": "d00f"
+          },
+          "item_name_source_string": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|3",
+            "pointer_byte_offset": 9146925,
+            "pointer_raw_hex": "c5f39b01",
+            "pointer_body_relative": 2554309,
+            "translation_object_byte_offset": 9146856,
+            "string_table_index": 58274,
+            "string_index_byte_offset": 9146853,
+            "string_index_raw_hex": "a2c703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：4、活性评级：4#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 9146892,
+            "pointer_raw_hex": "92f39b01",
+            "pointer_body_relative": 2554258,
+            "translation_object_byte_offset": 9146805,
+            "string_table_index": 58271,
+            "string_index_byte_offset": 9146802,
+            "string_index_raw_hex": "9fc703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 4,
+            "activity": 4,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000079,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 71,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 2600,
+            "byte_offset": 84,
+            "raw_hex": "a814"
+          },
+          "item_name_source_string": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|4",
+            "pointer_byte_offset": 9268912,
+            "pointer_raw_hex": "c8aca301",
+            "pointer_body_relative": 2676296,
+            "translation_object_byte_offset": 9268843,
+            "string_table_index": 58278,
+            "string_index_byte_offset": 9268840,
+            "string_index_raw_hex": "a6c703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：4、活性评级：5#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 9268879,
+            "pointer_raw_hex": "95aca301",
+            "pointer_body_relative": 2676245,
+            "translation_object_byte_offset": 9268792,
+            "string_table_index": 58275,
+            "string_index_byte_offset": 9268789,
+            "string_index_raw_hex": "a3c703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 4,
+            "activity": 5,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000080,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 72,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 3250,
+            "byte_offset": 86,
+            "raw_hex": "b219"
+          },
+          "item_name_source_string": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|5",
+            "pointer_byte_offset": 8729985,
+            "pointer_raw_hex": "99ba8201",
+            "pointer_body_relative": 2137369,
+            "translation_object_byte_offset": 8729916,
+            "string_table_index": 58282,
+            "string_index_byte_offset": 8729913,
+            "string_index_raw_hex": "aac703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：5、活性评级：4#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 8729952,
+            "pointer_raw_hex": "e6b98201",
+            "pointer_body_relative": 2137318,
+            "translation_object_byte_offset": 8729865,
+            "string_table_index": 58279,
+            "string_index_byte_offset": 8729862,
+            "string_index_raw_hex": "a7c703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 5,
+            "activity": 4,
+            "source_is_text_not_runtime_stat": true
+          }
+        }
+      ]
+    },
+    {
+      "role_from_native_crate_field": "normal",
+      "drop_pool_id": 37560018003,
+      "total_weight_native_field": {
+        "encoded_value": 3250,
+        "type_code": 1,
+        "byte_offset": 3200,
+        "raw_hex": "b219"
+      },
+      "rewards": [
+        {
+          "item_id": 36000068,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 67,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 500,
+            "byte_offset": 76,
+            "raw_hex": "f403"
+          },
+          "item_name_source_string": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 8246937,
+            "pointer_raw_hex": "b5fc64",
+            "pointer_body_relative": 1654325,
+            "translation_object_byte_offset": 8246872,
+            "string_table_index": 58234,
+            "string_index_byte_offset": 8246869,
+            "string_index_raw_hex": "fac603"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：3、活性评级：3#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 8246906,
+            "pointer_raw_hex": "85fc64",
+            "pointer_body_relative": 1654277,
+            "translation_object_byte_offset": 8246824,
+            "string_table_index": 58231,
+            "string_index_byte_offset": 8246821,
+            "string_index_raw_hex": "f7c603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 3,
+            "activity": 3,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000069,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 68,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 1000,
+            "byte_offset": 78,
+            "raw_hex": "e807"
+          },
+          "item_name_source_string": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 8391337,
+            "pointer_raw_hex": "c5e46d",
+            "pointer_body_relative": 1798725,
+            "translation_object_byte_offset": 8391272,
+            "string_table_index": 58238,
+            "string_index_byte_offset": 8391269,
+            "string_index_raw_hex": "fec603"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：3、活性评级：4#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 8391306,
+            "pointer_raw_hex": "95e46d",
+            "pointer_body_relative": 1798677,
+            "translation_object_byte_offset": 8391224,
+            "string_table_index": 58235,
+            "string_index_byte_offset": 8391221,
+            "string_index_raw_hex": "fbc603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 3,
+            "activity": 4,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000070,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 69,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 1500,
+            "byte_offset": 80,
+            "raw_hex": "dc0b"
+          },
+          "item_name_source_string": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|2",
+            "pointer_byte_offset": 8731138,
+            "pointer_raw_hex": "9ac38201",
+            "pointer_body_relative": 2138522,
+            "translation_object_byte_offset": 8731069,
+            "string_table_index": 58242,
+            "string_index_byte_offset": 8731066,
+            "string_index_raw_hex": "82c703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：4、活性评级：3#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 8731105,
+            "pointer_raw_hex": "e7c28201",
+            "pointer_body_relative": 2138471,
+            "translation_object_byte_offset": 8731018,
+            "string_table_index": 58239,
+            "string_index_byte_offset": 8731015,
+            "string_index_raw_hex": "ffc603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 4,
+            "activity": 3,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000071,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 70,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 2000,
+            "byte_offset": 82,
+            "raw_hex": "d00f"
+          },
+          "item_name_source_string": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|3",
+            "pointer_byte_offset": 9268221,
+            "pointer_raw_hex": "95a7a301",
+            "pointer_body_relative": 2675605,
+            "translation_object_byte_offset": 9268152,
+            "string_table_index": 58246,
+            "string_index_byte_offset": 9268149,
+            "string_index_raw_hex": "86c703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：4、活性评级：4#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 9268188,
+            "pointer_raw_hex": "e2a6a301",
+            "pointer_body_relative": 2675554,
+            "translation_object_byte_offset": 9268101,
+            "string_table_index": 58243,
+            "string_index_byte_offset": 9268098,
+            "string_index_raw_hex": "83c703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 4,
+            "activity": 4,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000072,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 71,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 2600,
+            "byte_offset": 84,
+            "raw_hex": "a814"
+          },
+          "item_name_source_string": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|4",
+            "pointer_byte_offset": 9268640,
+            "pointer_raw_hex": "b8aaa301",
+            "pointer_body_relative": 2676024,
+            "translation_object_byte_offset": 9268571,
+            "string_table_index": 58250,
+            "string_index_byte_offset": 9268568,
+            "string_index_raw_hex": "8ac703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：4、活性评级：5#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 9268607,
+            "pointer_raw_hex": "85aaa301",
+            "pointer_body_relative": 2675973,
+            "translation_object_byte_offset": 9268520,
+            "string_table_index": 58247,
+            "string_index_byte_offset": 9268517,
+            "string_index_raw_hex": "87c703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 4,
+            "activity": 5,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000073,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 72,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 3250,
+            "byte_offset": 86,
+            "raw_hex": "b219"
+          },
+          "item_name_source_string": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|5",
+            "pointer_byte_offset": 7927946,
+            "pointer_raw_hex": "a6c051",
+            "pointer_body_relative": 1335334,
+            "translation_object_byte_offset": 7927881,
+            "string_table_index": 58254,
+            "string_index_byte_offset": 7927878,
+            "string_index_raw_hex": "8ec703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：5、活性评级：4#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 7927915,
+            "pointer_raw_hex": "f6bf51",
+            "pointer_body_relative": 1335286,
+            "translation_object_byte_offset": 7927833,
+            "string_table_index": 58251,
+            "string_index_byte_offset": 7927830,
+            "string_index_raw_hex": "8bc703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 5,
+            "activity": 4,
+            "source_is_text_not_runtime_stat": true
+          }
+        }
+      ]
+    },
+    {
+      "role_from_native_crate_field": "rare",
+      "drop_pool_id": 37560018004,
+      "total_weight_native_field": {
+        "encoded_value": 300,
+        "type_code": 1,
+        "byte_offset": 1225,
+        "raw_hex": "ac02"
+      },
+      "rewards": [
+        {
+          "item_id": 36000067,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 1193,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 100,
+            "byte_offset": 1199,
+            "raw_hex": "64"
+          },
+          "item_name_source_string": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|6",
+            "pointer_byte_offset": 9268085,
+            "pointer_raw_hex": "8da6a301",
+            "pointer_body_relative": 2675469,
+            "translation_object_byte_offset": 9268016,
+            "string_table_index": 58230,
+            "string_index_byte_offset": 9268013,
+            "string_index_raw_hex": "f6c603"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：5、活性评级：5#l\n在领地中工作，能采集矿石，或在采矿平台工作_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 9268052,
+            "pointer_raw_hex": "daa5a301",
+            "pointer_body_relative": 2675418,
+            "translation_object_byte_offset": 9267965,
+            "string_table_index": 58227,
+            "string_index_byte_offset": 9267962,
+            "string_index_raw_hex": "f3c603"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 5,
+            "activity": 5,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000074,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 1194,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 200,
+            "byte_offset": 1200,
+            "raw_hex": "c801"
+          },
+          "item_name_source_string": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|6",
+            "pointer_byte_offset": 6847881,
+            "pointer_raw_hex": "a5ca0f",
+            "pointer_body_relative": 255269,
+            "translation_object_byte_offset": 6847816,
+            "string_table_index": 58258,
+            "string_index_byte_offset": 6847813,
+            "string_index_raw_hex": "92c703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：5、活性评级：5#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|0",
+            "pointer_byte_offset": 6847850,
+            "pointer_raw_hex": "f5c90f",
+            "pointer_body_relative": 255221,
+            "translation_object_byte_offset": 6847768,
+            "string_table_index": 58255,
+            "string_index_byte_offset": 6847765,
+            "string_index_raw_hex": "8fc703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 5,
+            "activity": 5,
+            "source_is_text_not_runtime_stat": true
+          }
+        },
+        {
+          "item_id": 36000081,
+          "quantity_native_field": {
+            "value": 1,
+            "byte_offset": 1195,
+            "raw_hex": "01"
+          },
+          "weight_threshold_native_field": {
+            "value": 300,
+            "byte_offset": 1202,
+            "raw_hex": "ac02"
+          },
+          "item_name_source_string": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|6",
+            "pointer_byte_offset": 7244189,
+            "pointer_raw_hex": "b9e227",
+            "pointer_body_relative": 651577,
+            "translation_object_byte_offset": 7244124,
+            "string_table_index": 58286,
+            "string_index_byte_offset": 7244121,
+            "string_index_raw_hex": "aec703"
+          },
+          "item_rating_source_string": {
+            "source_string": "#[k=b5]异能评级：5、活性评级：5#l\n在领地中玩耍，陪伴主人入眠，让主人精神抖擞地迎来下一天_$S@TIDS$_cg0|1",
+            "pointer_byte_offset": 7244158,
+            "pointer_raw_hex": "89e227",
+            "pointer_body_relative": 651529,
+            "translation_object_byte_offset": 7244076,
+            "string_table_index": 58283,
+            "string_index_byte_offset": 7244073,
+            "string_index_raw_hex": "abc703"
+          },
+          "rating_parsed_from_source_text": {
+            "skill": 5,
+            "activity": 5,
+            "source_is_text_not_runtime_stat": true
+          }
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "normal_pool_ids": 3,
+    "rare_pool_ids": 1,
+    "normal_reward_item_ids": 18,
+    "rare_reward_item_ids": 3
+  },
+  "interpretation_gate": "The source description states a 15-attempt 5/5 guarantee without repeat and names three Deviations. The raw tables bind normal/rare pool IDs and their reward item/rating text. The junxuxiang_open implementation, draw order, mapping of three normal pools to each attempt, pity state and final probabilities remain unverified. Presence in the installed build does not prove the old event is currently obtainable.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

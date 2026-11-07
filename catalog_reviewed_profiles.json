@@ -1,0 +1,2931 @@
+{
+  "conflicts": [],
+  "entries": {
+    "mod:chest_mod:ardent-shield-battle:8:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Additional damage inflicted after hitting a unit is reduced by 6.0%% for 2.0s",
+          "observed_level": 8,
+          "raw_text": "Additional damage inflicted after hitting a unit is reduced by 6.0%% for 2.0s",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-311.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 6.0
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 8,
+          "raw_text": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-311.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.2
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "Defeating Metas recovers 4.8%HP.",
+          "observed_level": 8,
+          "raw_text": "Defeating Metas recovers 4.8%HP.",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-311.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 2.4%",
+          "observed_level": 8,
+          "raw_text": "Max HP + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-311.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        }
+      ],
+      "catalog_id": "mod:chest_mod:ardent-shield-battle",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 8,
+      "main_effect_raw": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "proposal_ids": [
+        "ecd290dbfcd34b9ca8968b44e98e458b"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-311.png",
+      "source_sha256": "5d483ce5cf8bf5605e93189db926a5281a150b07eab525ea0e895d27df0554cc"
+    },
+    "mod:chest_mod:ardent-shield-deviant-energy:11:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Element (Blaze, Frost, Shock, Blast) DMG + 4.8%",
+          "observed_level": 11,
+          "raw_text": "Element (Blaze, Frost, Shock, Blast) DMG + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-303.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "elemental_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Status DMG + 3.6%",
+          "observed_level": 11,
+          "raw_text": "Status DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-303.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "status_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 7.2%",
+          "observed_level": 11,
+          "raw_text": "Magazine Capacity + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-303.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 11,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-303.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:ardent-shield-deviant-energy",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 11,
+      "main_effect_raw": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "proposal_ids": [
+        "0628f95c6e434e7e8ad6831c3b78bbc8"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-303.png",
+      "source_sha256": "bcb8b438dc45fa2d551f626c8aff8701ba865bbdd634b57a91ae7499953b8c21"
+    },
+    "mod:chest_mod:ardent-shield-general:8:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "DMG ++ 2.4%",
+          "observed_level": 8,
+          "raw_text": "DMG ++ 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-305.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 8,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-305.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Reload Efficiency+ 3.6%",
+          "observed_level": 8,
+          "raw_text": "Reload Efficiency+ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-305.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 8,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-305.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:ardent-shield-general",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 8,
+      "main_effect_raw": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "proposal_ids": [
+        "17cec652534e4bedad807bc14fd97cfc"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-305.png",
+      "source_sha256": "9f2232bd67bfbdafa02d2025eac305119c604b621a98f88a6e5571c386b2d207"
+    },
+    "mod:chest_mod:ardent-shield-precision:14:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weakspot DMG + 7.2%",
+          "observed_level": 14,
+          "raw_text": "Weakspot DMG + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-297.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weakspot_damage_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 4.8%",
+          "observed_level": 14,
+          "raw_text": "Weapon DMG + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-297.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 9.6%",
+          "observed_level": 14,
+          "raw_text": "Magazine Capacity + 9.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-297.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 9.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 14,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-297.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:ardent-shield-precision",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 14,
+      "main_effect_raw": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "proposal_ids": [
+        "418e8638a9cd417ba48faa1ee666c954"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-297.png",
+      "source_sha256": "532aec0fc90e83935715ecc26f87a3b3ce0a8e7169fa6f847669d8855e448ada"
+    },
+    "mod:chest_mod:ardent-shield-survival:12:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 4.8%",
+          "observed_level": 12,
+          "raw_text": "Max HP + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-300.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 12,
+          "raw_text": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-300.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "excluded_ambiguous",
+          "direction": "ambiguous",
+          "name": "Damage from monsters \u2014+ 4.8%",
+          "observed_level": 12,
+          "raw_text": "Damage from monsters \u2014+ 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-300.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "monster_damage_direction_ambiguous",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": null
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 12,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-300.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:ardent-shield-survival",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 12,
+      "main_effect_raw": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "proposal_ids": [
+        "62b53ef8c6a44085995d30e21dcd4dd8"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-300.png",
+      "source_sha256": "5ead3f8b1b8d27a5e919538b52fdf08d628bd7038ba0183075f583d5df4cb84d"
+    },
+    "mod:chest_mod:ardent-shield-violent:8:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Crit DMG + 6.0%",
+          "observed_level": 8,
+          "raw_text": "Crit DMG + 6.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-308.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "crit_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 6.0
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 2.4%",
+          "observed_level": 8,
+          "raw_text": "Weapon DMG + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-308.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 8,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-308.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 8,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-308.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:ardent-shield-violent",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 8,
+      "main_effect_raw": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "proposal_ids": [
+        "01451be4ee71402582ed0cc13ffda005"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-308.png",
+      "source_sha256": "db2362e4854337e2210bcf473a2c67d8318fa8c7eed03126d1b1882b91fd5af6"
+    },
+    "mod:chest_mod:critical-rescue-battle:12:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Additional damage inflicted after hitting a unit is reduced by 12.0%% for 2.0s",
+          "observed_level": 12,
+          "raw_text": "Additional damage inflicted after hitting a unit is reduced by 12.0%% for 2.0s",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-72.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 12.0
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 12,
+          "raw_text": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-72.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "Defeating Metas recovers 7.2%HP.",
+          "observed_level": 12,
+          "raw_text": "Defeating Metas recovers 7.2%HP.",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-72.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 2.4%",
+          "observed_level": 12,
+          "raw_text": "Max HP + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-72.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        }
+      ],
+      "catalog_id": "mod:chest_mod:critical-rescue-battle",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 12,
+      "main_effect_raw": "DMG Reduction + 20.0% and Healing Received + 20.0% when HP is below 30%.",
+      "proposal_ids": [
+        "12989247c96e4608a00c4b0d761512d5"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-72.png",
+      "source_sha256": "11ddaffc648da88d0430d88e5c3265715dc60c09c82f6bbadbb31034c6676c09"
+    },
+    "mod:chest_mod:critical-rescue-general:8:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "DMG ++ 2.4%",
+          "observed_level": 8,
+          "raw_text": "DMG ++ 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-78.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 8,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-78.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Reload Efficiency+ 3.6%",
+          "observed_level": 8,
+          "raw_text": "Reload Efficiency+ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-78.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 8,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-78.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:critical-rescue-general",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 8,
+      "main_effect_raw": "DMG Reduction + 20.0% and Healing Received + 20.0% when HP is below 30%.",
+      "proposal_ids": [
+        "fcacc619b1bd4490b67c7217aa7aa326"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-78.png",
+      "source_sha256": "e362ad5e1c1aecccb8cec15c1e7619e8382ba281cf6fcb1dc082e82422291aa8"
+    },
+    "mod:chest_mod:critical-rescue-survival:7:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 2.4%",
+          "observed_level": 7,
+          "raw_text": "Max HP + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-80.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 7,
+          "raw_text": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-80.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.2
+        },
+        {
+          "calculation_status": "excluded_ambiguous",
+          "direction": "ambiguous",
+          "name": "Damage from monsters \u2014+ 3.2%",
+          "observed_level": 7,
+          "raw_text": "Damage from monsters \u2014+ 3.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-80.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "monster_damage_direction_ambiguous",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": null
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "observed_level": 7,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-80.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 1,
+          "unit": "percent",
+          "value_percent": 1.5
+        }
+      ],
+      "catalog_id": "mod:chest_mod:critical-rescue-survival",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 7,
+      "main_effect_raw": "DMG Reduction + 20.0% and Healing Received + 20.0% when HP is below 30%.",
+      "proposal_ids": [
+        "f8131162ee3149509eb5cef2ae86f72b"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-80.png",
+      "source_sha256": "cde8ac72b435fefb2c7b68e8c7f4245b2b9c8d96612695f916a96a2895035e48"
+    },
+    "mod:chest_mod:critical-rescue-violent:10:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Crit DMG + 9.0%",
+          "observed_level": 10,
+          "raw_text": "Crit DMG + 9.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-74.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 9.0
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 3.6%",
+          "observed_level": 10,
+          "raw_text": "Weapon DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-74.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 10,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-74.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 10,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-74.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:critical-rescue-violent",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 10,
+      "main_effect_raw": "DMG Reduction + 20.0% and Healing Received + 20.0% when HP is below 30%.",
+      "proposal_ids": [
+        "7595834ced6c4ac799ea7880357db160"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-74.png",
+      "source_sha256": "ffe307d1d951bb7eb7cdcf94b32f4efa76e1669ba80f64471b2f647a009c74f6"
+    },
+    "mod:chest_mod:enduring-shield-deviant-energy:8:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Element (Blaze, Frost, Shock, Blast) DMG + 3.2%",
+          "observed_level": 8,
+          "raw_text": "Element (Blaze, Frost, Shock, Blast) DMG + 3.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-236.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "elemental_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Status DMG + 2.4%",
+          "observed_level": 8,
+          "raw_text": "Status DMG + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-236.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "status_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 8,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-236.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 8,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-236.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:enduring-shield-deviant-energy",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 8,
+      "main_effect_raw": "When out of combat, gain 1 stack of Safe Haven every 5.0s, stacking up to 5.0 times. For every 5 damage received, remove 1 stack of Safe Haven to gain 8.0% Shield for 3s.",
+      "proposal_ids": [
+        "445add0bc46046bc832b88966eef7e58"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-236.png",
+      "source_sha256": "693f162fe3f48534275c4a13259752fa04027ea8b4dc8a599ede1929d5300e7d"
+    },
+    "mod:chest_mod:enduring-shield-general:9:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "DMG ++ 3.6%",
+          "observed_level": 9,
+          "raw_text": "DMG ++ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-229.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "generic_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 9,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-229.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Reload Efficiency+ 3.6%",
+          "observed_level": 9,
+          "raw_text": "Reload Efficiency+ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-229.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 9,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-229.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:enduring-shield-general",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 9,
+      "main_effect_raw": "When out of combat, gain 1 stack of Safe Haven every 5.0s, stacking up to 5.0 times. For every 5 damage received, remove 1 stack of Safe Haven to gain 8.0% Shield for 3s.",
+      "proposal_ids": [
+        "f8347875650f40468c636dc72dccba24"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-229.png",
+      "source_sha256": "81f9f8e1b43ada1138652c93031f0ef9f884a43956e7ecd7799437bd6e7c6381"
+    },
+    "mod:chest_mod:enduring-shield-precision:10:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weakspot DMG + 5.4%",
+          "observed_level": 10,
+          "raw_text": "Weakspot DMG + 5.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-227.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weakspot_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 5.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 3.6%",
+          "observed_level": 10,
+          "raw_text": "Weapon DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-227.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 10,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-227.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 10,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-227.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:enduring-shield-precision",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 10,
+      "main_effect_raw": "When out of combat, gain 1 stack of Safe Haven every 5.0s, stacking up to 5.0 times. For every 5 damage received, remove 1 stack of Safe Haven to gain 8.0% Shield for 3s.",
+      "proposal_ids": [
+        "f0ca5319e81f46dc947a0086d706c569"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-227.png",
+      "source_sha256": "909bc497ce6f4b29ad34e61eb0fddfd78405095338f2e7dc3d49838933bc1914"
+    },
+    "mod:chest_mod:enduring-shield-violent:9:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Crit DMG + 9.0%",
+          "observed_level": 9,
+          "raw_text": "Crit DMG + 9.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-231.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 9.0
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 2.4%",
+          "observed_level": 9,
+          "raw_text": "Weapon DMG + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-231.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 9,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-231.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 9,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-231.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:enduring-shield-violent",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 9,
+      "main_effect_raw": "When out of combat, gain 1 stack of Safe Haven every 5.0s, stacking up to 5.0 times. For every 5 damage received, remove 1 stack of Safe Haven to gain 8.0% Shield for 3s.",
+      "proposal_ids": [
+        "b03a96a6ab2245d9916840566208cc81"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-231.png",
+      "source_sha256": "ffe48610dbb31807cecdc1ba0e113f97ed37de373658746521228189ab7594a2"
+    },
+    "mod:chest_mod:head-guard-battle:9:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Additional damage inflicted after hitting a unit is reduced by 9.0%% for 2.0s",
+          "observed_level": 9,
+          "raw_text": "Additional damage inflicted after hitting a unit is reduced by 9.0%% for 2.0s",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-153.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 9.0
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 9,
+          "raw_text": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-153.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.2
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "Defeating Metas recovers 4.8%HP.",
+          "observed_level": 9,
+          "raw_text": "Defeating Metas recovers 4.8%HP.",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-153.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 2.4%",
+          "observed_level": 9,
+          "raw_text": "Max HP + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-153.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        }
+      ],
+      "catalog_id": "mod:chest_mod:head-guard-battle",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 9,
+      "main_effect_raw": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "proposal_ids": [
+        "673f4936d65a43efaa8b5693df6d7085"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-153.png",
+      "source_sha256": "804012fb8bc9bb6a3137b9a375333734e6082e1eea188babefe9282290eb52ef"
+    },
+    "mod:chest_mod:head-guard-deviant-energy:7:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Element (Blaze, Frost, Shock, Blast) DMG + 3.2%",
+          "observed_level": 7,
+          "raw_text": "Element (Blaze, Frost, Shock, Blast) DMG + 3.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-156.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "elemental_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Status DMG + 2.4%",
+          "observed_level": 7,
+          "raw_text": "Status DMG + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-156.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "status_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 7,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-156.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "observed_level": 7,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-156.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 1,
+          "unit": "percent",
+          "value_percent": 1.5
+        }
+      ],
+      "catalog_id": "mod:chest_mod:head-guard-deviant-energy",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 7,
+      "main_effect_raw": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "proposal_ids": [
+        "46cbb4402bc34f14a93b3e3d8503dc22"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-156.png",
+      "source_sha256": "cafc8e6a3c30cba4616ea23f7fe95107e81ae7cf50b309bd9869ffcae2bc1970"
+    },
+    "mod:chest_mod:head-guard-precision:12:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weakspot DMG + 7.2%",
+          "observed_level": 12,
+          "raw_text": "Weakspot DMG + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-149.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weakspot_damage_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 3.6%",
+          "observed_level": 12,
+          "raw_text": "Weapon DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-149.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 7.2%",
+          "observed_level": 12,
+          "raw_text": "Magazine Capacity + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-149.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 12,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-149.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:head-guard-precision",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 12,
+      "main_effect_raw": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "proposal_ids": [
+        "520edcd79c4e460ab21cb7a4f097e807"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-149.png",
+      "source_sha256": "5fea031f8ed6e54681490914c904988f7d56efc1efb35cfe2a2d75cc6be3a838"
+    },
+    "mod:chest_mod:head-guard-survival:14:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 4.8%",
+          "observed_level": 14,
+          "raw_text": "Max HP + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-144.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 6.4%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 14,
+          "raw_text": "Receive a DMG Reduction 6.4%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-144.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 6.4
+        },
+        {
+          "calculation_status": "excluded_ambiguous",
+          "direction": "ambiguous",
+          "name": "Damage from monsters \u2014+ 6.4%",
+          "observed_level": 14,
+          "raw_text": "Damage from monsters \u2014+ 6.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-144.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "monster_damage_direction_ambiguous",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": null
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 14,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-144.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:head-guard-survival",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 14,
+      "main_effect_raw": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "proposal_ids": [
+        "892fc87dcc1c45ab88cdb66c62a40bc0"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-144.png",
+      "source_sha256": "3d7aaa5a9ec0ce9afbd02130ab6f6a49be123840a4fbd13755ec331ff567392b"
+    },
+    "mod:chest_mod:head-guard-violent:10:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Crit DMG + 9.0%",
+          "observed_level": 10,
+          "raw_text": "Crit DMG + 9.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-151.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 9.0
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 3.6%",
+          "observed_level": 10,
+          "raw_text": "Weapon DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-151.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 10,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-151.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 10,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-151.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:head-guard-violent",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 10,
+      "main_effect_raw": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "proposal_ids": [
+        "89fbe4ce94d84181b1f6d1d13313fa83"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-151.png",
+      "source_sha256": "06f017a7c7dbe89c8f8dacdde587ef364972c2fba886e95f61c89c82e828c6e7"
+    },
+    "mod:chest_mod:head-on-conflict-battle:6:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Additional damage inflicted after hitting a unit is reduced by 6.0%% for 2.0s",
+          "observed_level": 6,
+          "raw_text": "Additional damage inflicted after hitting a unit is reduced by 6.0%% for 2.0s",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-112.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 6.0
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 6,
+          "raw_text": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-112.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.2
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "Defeating Metas recovers 2.4%HP.",
+          "observed_level": 6,
+          "raw_text": "Defeating Metas recovers 2.4%HP.",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-112.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 1,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 1.2%",
+          "observed_level": 6,
+          "raw_text": "Max HP + 1.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-112.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 1,
+          "unit": "percent",
+          "value_percent": 1.2
+        }
+      ],
+      "catalog_id": "mod:chest_mod:head-on-conflict-battle",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 6,
+      "main_effect_raw": "Having enemies within 7 meters around you grants 10.0% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds.",
+      "proposal_ids": [
+        "81df96a6bfb84bc7a6c5ecda66b07677"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-112.png",
+      "source_sha256": "b99cc333250ec9d0f676de102dd54147ad4acecafe096c61fd0f5ba5051f759a"
+    },
+    "mod:chest_mod:head-on-conflict-general:8:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "DMG ++ 2.4%",
+          "observed_level": 8,
+          "raw_text": "DMG ++ 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-111.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 8,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-111.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Reload Efficiency+ 3.6%",
+          "observed_level": 8,
+          "raw_text": "Reload Efficiency+ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-111.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 8,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-111.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:head-on-conflict-general",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 8,
+      "main_effect_raw": "Having enemies within 7 meters around you grants 10.0% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds.",
+      "proposal_ids": [
+        "3cdb85b02603492cab09c712bb3b818a"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-111.png",
+      "source_sha256": "b69cf598714c4db11c4a0b940c182c81bd1a715a39fd9028491604cf8f243845"
+    },
+    "mod:chest_mod:head-on-conflict-precision:11:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weakspot DMG + 5.4%",
+          "observed_level": 11,
+          "raw_text": "Weakspot DMG + 5.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-106.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weakspot_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 5.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 3.6%",
+          "observed_level": 11,
+          "raw_text": "Weapon DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-106.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 7.2%",
+          "observed_level": 11,
+          "raw_text": "Magazine Capacity + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-106.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 11,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-106.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:head-on-conflict-precision",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 11,
+      "main_effect_raw": "Having enemies within 7 meters around you grants 10.0% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds.",
+      "proposal_ids": [
+        "08fea5bd46554d6582934ee9e8bc7cf4"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-106.png",
+      "source_sha256": "08014e5e19fb5795e61332830dd72e4e057714ca2769faa5a75aea5e03555e5c"
+    },
+    "mod:chest_mod:head-on-conflict-violent:10:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Crit DMG + 9.0%",
+          "observed_level": 10,
+          "raw_text": "Crit DMG + 9.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-107.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 9.0
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 3.6%",
+          "observed_level": 10,
+          "raw_text": "Weapon DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-107.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 10,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-107.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 10,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-107.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:head-on-conflict-violent",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 10,
+      "main_effect_raw": "Having enemies within 7 meters around you grants 10.0% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds.",
+      "proposal_ids": [
+        "7d70750d34034a9e96483bf1d7671d1e"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-107.png",
+      "source_sha256": "a8cf69cea11f68a4e6f7313bc27f83670e82c8fecc4c14a46cd8fd5801ad66e8"
+    },
+    "mod:chest_mod:quick-comeback-battle:10:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Additional damage inflicted after hitting a unit is reduced by 9.0%% for 2.0s",
+          "observed_level": 10,
+          "raw_text": "Additional damage inflicted after hitting a unit is reduced by 9.0%% for 2.0s",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-12.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 9.0
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 10,
+          "raw_text": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-12.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "Defeating Metas recovers 4.8%HP.",
+          "observed_level": 10,
+          "raw_text": "Defeating Metas recovers 4.8%HP.",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-12.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 2.4%",
+          "observed_level": 10,
+          "raw_text": "Max HP + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-12.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        }
+      ],
+      "catalog_id": "mod:chest_mod:quick-comeback-battle",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 10,
+      "main_effect_raw": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "proposal_ids": [
+        "eb3cc62de8044d709b5a2c83da3b3cb3"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-12.png",
+      "source_sha256": "4d13fa23322828d19f7648e9692ea4aac7ab3c5f1161aaa279a0f9c5cd6300af"
+    },
+    "mod:chest_mod:quick-comeback-deviant-energy:15:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Element (Blaze, Frost, Shock, Blast) DMG + 8.0%",
+          "observed_level": 15,
+          "raw_text": "Element (Blaze, Frost, Shock, Blast) DMG + 8.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-8.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "unit": "percent",
+          "value_percent": 8.0
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Status DMG + 4.8%",
+          "observed_level": 15,
+          "raw_text": "Status DMG + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-8.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 9.6%",
+          "observed_level": 15,
+          "raw_text": "Magazine Capacity + 9.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-8.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 9.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 15,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-8.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:quick-comeback-deviant-energy",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 15,
+      "main_effect_raw": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "proposal_ids": [
+        "40d0c2509f6546adbb88df00bcd05444"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-8.png",
+      "source_sha256": "0663cd6a0d9442225c2a7333f3d0b201688d0e8a2e9f1a4fb6b041bc7ecd3174"
+    },
+    "mod:chest_mod:quick-comeback-general:7:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "DMG ++ 2.4%",
+          "observed_level": 7,
+          "raw_text": "DMG ++ 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-15.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 7,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-15.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Reload Efficiency+ 3.6%",
+          "observed_level": 7,
+          "raw_text": "Reload Efficiency+ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-15.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "observed_level": 7,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-15.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 1,
+          "unit": "percent",
+          "value_percent": 1.5
+        }
+      ],
+      "catalog_id": "mod:chest_mod:quick-comeback-general",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 7,
+      "main_effect_raw": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "proposal_ids": [
+        "224416cee3364734b0515f146045d0fa"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-15.png",
+      "source_sha256": "a39de1405763cbe0ed0b756e39816eccc1bd73bee1e203346335ec41af6ed184"
+    },
+    "mod:chest_mod:quick-comeback-precision:13:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weakspot DMG + 7.2%",
+          "observed_level": 13,
+          "raw_text": "Weakspot DMG + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-10.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weakspot_damage_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 4.8%",
+          "observed_level": 13,
+          "raw_text": "Weapon DMG + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-10.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 7.2%",
+          "observed_level": 13,
+          "raw_text": "Magazine Capacity + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-10.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 13,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-10.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:quick-comeback-precision",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 13,
+      "main_effect_raw": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "proposal_ids": [
+        "5abd1eef314c44438939b338040cc3f8"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-10.png",
+      "source_sha256": "5b469b67f319cfdbb9de7c4fbc5a1b4a5e5953de20854d4c66c51f7be569ecd2"
+    },
+    "mod:chest_mod:quick-comeback-survival:8:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 2.4%",
+          "observed_level": 8,
+          "raw_text": "Max HP + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-14.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 8,
+          "raw_text": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-14.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.2
+        },
+        {
+          "calculation_status": "excluded_ambiguous",
+          "direction": "ambiguous",
+          "name": "Damage from monsters \u2014+ 3.2%",
+          "observed_level": 8,
+          "raw_text": "Damage from monsters \u2014+ 3.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-14.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "monster_damage_direction_ambiguous",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": null
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 8,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-14.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:quick-comeback-survival",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 8,
+      "main_effect_raw": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "proposal_ids": [
+        "4d44b5fb6662423686a47bd8c6c01721"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-14.png",
+      "source_sha256": "de094a7e87dd215b793e35732d3afd58f2ede1760cafa5d09c3bb933f45c68fa"
+    },
+    "mod:chest_mod:rejuvenating-general:8:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "DMG ++ 2.4%",
+          "observed_level": 8,
+          "raw_text": "DMG ++ 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-42.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 8,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-42.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Reload Efficiency+ 3.6%",
+          "observed_level": 8,
+          "raw_text": "Reload Efficiency+ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-42.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 8,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-42.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:rejuvenating-general",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 8,
+      "main_effect_raw": "When Shield is above 30.0% of Max HP, defeating an enemy recovers 20.0% of Max HP. Excess recovery is converted into Shield lasting 20.0s (Cooldown: 10.0s).",
+      "proposal_ids": [
+        "c1c22746789041f399bdcf2a1568d778"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-42.png",
+      "source_sha256": "b44f6c983e6fe0075e24f91bb6b50469245205dfdebdb55e427c8ab1379a7553"
+    },
+    "mod:chest_mod:rejuvenating-precision:11:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weakspot DMG + 5.4%",
+          "observed_level": 11,
+          "raw_text": "Weakspot DMG + 5.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-41.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weakspot_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 5.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 3.6%",
+          "observed_level": 11,
+          "raw_text": "Weapon DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-41.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 7.2%",
+          "observed_level": 11,
+          "raw_text": "Magazine Capacity + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-41.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 11,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-41.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:rejuvenating-precision",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 11,
+      "main_effect_raw": "When Shield is above 30.0% of Max HP, defeating an enemy recovers 20.0% of Max HP. Excess recovery is converted into Shield lasting 20.0s (Cooldown: 10.0s).",
+      "proposal_ids": [
+        "8be36a211ba14471a2897378df9998d1"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-41.png",
+      "source_sha256": "bc504f70efe7aa146fa0f4dce76d13d7ff4b927ab931bf1eaff2875f9ba33fad"
+    },
+    "mod:chest_mod:rejuvenating-survival:8:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 2.4%",
+          "observed_level": 8,
+          "raw_text": "Max HP + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-45.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 8,
+          "raw_text": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-45.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.2
+        },
+        {
+          "calculation_status": "excluded_ambiguous",
+          "direction": "ambiguous",
+          "name": "Damage from monsters \u2014+ 3.2%",
+          "observed_level": 8,
+          "raw_text": "Damage from monsters \u2014+ 3.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-45.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "monster_damage_direction_ambiguous",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": null
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 8,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-45.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:rejuvenating-survival",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 8,
+      "main_effect_raw": "When Shield is above 30.0% of Max HP, defeating an enemy recovers 20.0% of Max HP. Excess recovery is converted into Shield lasting 20.0s (Cooldown: 10.0s).",
+      "proposal_ids": [
+        "c6462f81b97a4fcb857ad53a5d81ddc2"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-45.png",
+      "source_sha256": "6108773a3c062db60fb3abb82939f80ffa897b848b4f49671ed7104a795581c9"
+    },
+    "mod:chest_mod:rejuvenating-violent:13:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Crit DMG + 12.0%",
+          "observed_level": 13,
+          "raw_text": "Crit DMG + 12.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-38.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "crit_damage_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 12.0
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 4.8%",
+          "observed_level": 13,
+          "raw_text": "Weapon DMG + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-38.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 7.2%",
+          "observed_level": 13,
+          "raw_text": "Magazine Capacity + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-38.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 13,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-38.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:rejuvenating-violent",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 13,
+      "main_effect_raw": "When Shield is above 30.0% of Max HP, defeating an enemy recovers 20.0% of Max HP. Excess recovery is converted into Shield lasting 20.0s (Cooldown: 10.0s).",
+      "proposal_ids": [
+        "4beadda4a7f942e8861d36ab5213ed55"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-38.png",
+      "source_sha256": "27e38badd006ce97307fb904646ae6f197e8da8372eae0a11e7ca0b0f00c687b"
+    },
+    "mod:chest_mod:resist-advantage-battle:13:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Additional damage inflicted after hitting a unit is reduced by 12.0%% for 2.0s",
+          "observed_level": 13,
+          "raw_text": "Additional damage inflicted after hitting a unit is reduced by 12.0%% for 2.0s",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-183.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 12.0
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 6.4%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 13,
+          "raw_text": "Receive a DMG Reduction 6.4%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-183.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 6.4
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "Defeating Metas recovers 7.2%HP.",
+          "observed_level": 13,
+          "raw_text": "Defeating Metas recovers 7.2%HP.",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-183.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 2.4%",
+          "observed_level": 13,
+          "raw_text": "Max HP + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-183.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        }
+      ],
+      "catalog_id": "mod:chest_mod:resist-advantage-battle",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 13,
+      "main_effect_raw": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "proposal_ids": [
+        "83ce65cbd8a848a9bf36cc641e6d8e41"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-183.png",
+      "source_sha256": "dc74ba5d44e3d1c4ce314e9c6b7c475f60d22f1a6473a3a51e05af71f9958b7b"
+    },
+    "mod:chest_mod:resist-advantage-general:7:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "DMG ++ 2.4%",
+          "observed_level": 7,
+          "raw_text": "DMG ++ 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-192.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 7,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-192.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Reload Efficiency+ 3.6%",
+          "observed_level": 7,
+          "raw_text": "Reload Efficiency+ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-192.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "observed_level": 7,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-192.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 1,
+          "unit": "percent",
+          "value_percent": 1.5
+        }
+      ],
+      "catalog_id": "mod:chest_mod:resist-advantage-general",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 7,
+      "main_effect_raw": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "proposal_ids": [
+        "b3c84c70e0c54540ad5bcdb5c7f2c84b"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-192.png",
+      "source_sha256": "3a5990379cded656476314429e5b84f077856babda409d0520d21d1156820964"
+    },
+    "mod:chest_mod:resist-advantage-precision:7:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weakspot DMG + 3.6%",
+          "observed_level": 7,
+          "raw_text": "Weakspot DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-200.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weakspot_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 2.4%",
+          "observed_level": 7,
+          "raw_text": "Weapon DMG + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-200.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 7,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-200.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "observed_level": 7,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-200.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 1,
+          "unit": "percent",
+          "value_percent": 1.5
+        }
+      ],
+      "catalog_id": "mod:chest_mod:resist-advantage-precision",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 7,
+      "main_effect_raw": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "proposal_ids": [
+        "aac7557c4cdf42d590b673d286784764"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-200.png",
+      "source_sha256": "aeb1fb2780b6e7aa0a6f14d9f43522eab31e2d09afa9fe5b0be9e31168472249"
+    },
+    "mod:chest_mod:resist-advantage-survival:12:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 4.8%",
+          "observed_level": 12,
+          "raw_text": "Max HP + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-190.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 4,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 12,
+          "raw_text": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-190.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "excluded_ambiguous",
+          "direction": "ambiguous",
+          "name": "Damage from monsters \u2014+ 4.8%",
+          "observed_level": 12,
+          "raw_text": "Damage from monsters \u2014+ 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-190.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "monster_damage_direction_ambiguous",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": null
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 12,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-190.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:resist-advantage-survival",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 12,
+      "main_effect_raw": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "proposal_ids": [
+        "8e1c88ab582541adb3cba0835310e27b"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-190.png",
+      "source_sha256": "52eb914574085f7f36f549ab6447a51bea3b6d305aead2dc2b373816b7f5f99f"
+    },
+    "mod:chest_mod:resist-advantage-violent:7:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Crit DMG + 6.0%",
+          "observed_level": 7,
+          "raw_text": "Crit DMG + 6.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-194.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "crit_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 6.0
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 2.4%",
+          "observed_level": 7,
+          "raw_text": "Weapon DMG + 2.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-194.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 2.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 7,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-194.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "observed_level": 7,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 1.5%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-194.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 1,
+          "unit": "percent",
+          "value_percent": 1.5
+        }
+      ],
+      "catalog_id": "mod:chest_mod:resist-advantage-violent",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 7,
+      "main_effect_raw": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "proposal_ids": [
+        "d70f783db7c343f3adc58be51fdad689"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-194.png",
+      "source_sha256": "4c3eaaa1e508c7939a1744922575716f057182b761ade455bba705784b9bd942"
+    },
+    "mod:chest_mod:status-immune-battle:7:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Additional damage inflicted after hitting a unit is reduced by 6.0%% for 2.0s",
+          "observed_level": 7,
+          "raw_text": "Additional damage inflicted after hitting a unit is reduced by 6.0%% for 2.0s",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-262.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 6.0
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 7,
+          "raw_text": "Receive a DMG Reduction 3.2%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-262.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.2
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "Defeating Metas recovers 4.8%HP.",
+          "observed_level": 7,
+          "raw_text": "Defeating Metas recovers 4.8%HP.",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-262.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 1.2%",
+          "observed_level": 7,
+          "raw_text": "Max HP + 1.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-262.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 1,
+          "unit": "percent",
+          "value_percent": 1.2
+        }
+      ],
+      "catalog_id": "mod:chest_mod:status-immune-battle",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 7,
+      "main_effect_raw": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "proposal_ids": [
+        "0e08b3215111428a90dcbe1361cadf09"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-262.png",
+      "source_sha256": "d0a01afca5b85b90cf0817dfeae774dea28c73b07963addad16d0683f333558e"
+    },
+    "mod:chest_mod:status-immune-deviant-energy:10:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Element (Blaze, Frost, Shock, Blast) DMG + 4.8%",
+          "observed_level": 10,
+          "raw_text": "Element (Blaze, Frost, Shock, Blast) DMG + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-263.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "elemental_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Status DMG + 3.6%",
+          "observed_level": 10,
+          "raw_text": "Status DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-263.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "status_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 10,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-263.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 10,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-263.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:status-immune-deviant-energy",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 10,
+      "main_effect_raw": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "proposal_ids": [
+        "5efd0ee1f63746ad94b2e9166e512e39"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-263.png",
+      "source_sha256": "80a0952e225eebd0d2fe30d3fe5f15424c4fc118d6454141937b75d8bef2de09"
+    },
+    "mod:chest_mod:status-immune-general:10:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "unmodeled",
+          "direction": "increase",
+          "name": "DMG ++ 3.6%",
+          "observed_level": 10,
+          "raw_text": "DMG ++ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-267.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "generic_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 7.2%",
+          "observed_level": 10,
+          "raw_text": "Magazine Capacity + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-267.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Reload Efficiency+ 3.6%",
+          "observed_level": 10,
+          "raw_text": "Reload Efficiency+ 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-267.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 10,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-267.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:status-immune-general",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 10,
+      "main_effect_raw": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "proposal_ids": [
+        "2a46297793c441ee874bd6ee77168229"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-267.png",
+      "source_sha256": "f97c495241c9750a50a3286a2489a8410a4bbbdec9bfbc61ee4cc79606d36813"
+    },
+    "mod:chest_mod:status-immune-precision:11:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weakspot DMG + 5.4%",
+          "observed_level": 11,
+          "raw_text": "Weakspot DMG + 5.4%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-273.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weakspot_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 5.4
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 3.6%",
+          "observed_level": 11,
+          "raw_text": "Weapon DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-273.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 7.2%",
+          "observed_level": 11,
+          "raw_text": "Magazine Capacity + 7.2%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-273.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 7.2
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 11,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-273.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:status-immune-precision",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 11,
+      "main_effect_raw": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "proposal_ids": [
+        "a3cef354945042efa434d8c284bda92a"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-273.png",
+      "source_sha256": "35650dfbed6187281a5f1eef9ff30d64e85071ec489a75f141c6481ee2ad349a"
+    },
+    "mod:chest_mod:status-immune-survival:11:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Max HP + 3.6%",
+          "observed_level": 11,
+          "raw_text": "Max HP + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-271.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "max_hp_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "unmodeled",
+          "direction": "reduction",
+          "name": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "observed_level": 11,
+          "raw_text": "Receive a DMG Reduction 4.8%for 3.0s after taking damage; cooldown: 6.0",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-271.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "excluded_ambiguous",
+          "direction": "ambiguous",
+          "name": "Damage from monsters \u2014+ 4.8%",
+          "observed_level": 11,
+          "raw_text": "Damage from monsters \u2014+ 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-271.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "monster_damage_direction_ambiguous",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": null
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 11,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-271.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:status-immune-survival",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 11,
+      "main_effect_raw": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "proposal_ids": [
+        "f339a59717ce49c2903ee91448e3258b"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-271.png",
+      "source_sha256": "314cb54fd63d1d2d7cdb6944bad77bece47dfab15504f3f3fb2f5dd043ef42aa"
+    },
+    "mod:chest_mod:status-immune-violent:10:unknown": {
+      "attributes": [
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Crit DMG + 9.0%",
+          "observed_level": 10,
+          "raw_text": "Crit DMG + 9.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-266.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 9.0
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Weapon DMG + 3.6%",
+          "observed_level": 10,
+          "raw_text": "Weapon DMG + 3.6%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-266.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "unit": "percent",
+          "value_percent": 3.6
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Magazine Capacity + 4.8%",
+          "observed_level": 10,
+          "raw_text": "Magazine Capacity + 4.8%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-266.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 4.8
+        },
+        {
+          "calculation_status": "assumption_scenario",
+          "direction": "increase",
+          "name": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "observed_level": 10,
+          "raw_text": "Increases damage dealt to all DMG Boost by + 3.0%",
+          "source": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-266.png",
+          "source_status": "source-checked current Field Guide frame",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "unit": "percent",
+          "value_percent": 3.0
+        }
+      ],
+      "catalog_id": "mod:chest_mod:status-immune-violent",
+      "evidence_context": "reviewed_run:3eca1e237ab643989c03a1b9c767555d:6fbc7d188b53b9a71bbefdcedb1ea877aa7fd060c29b673ed6adf151ec5ed09e",
+      "evidence_status": "source_text_and_numbers_checked; exact current Field Guide variant and level",
+      "level": 10,
+      "main_effect_raw": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "proposal_ids": [
+        "c94d40d7b843433b99ff7d3481931ede"
+      ],
+      "recorded_at": "2026-10-25T08:26:44+00:00",
+      "shiny_status": "unknown",
+      "source_frame": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-266.png",
+      "source_sha256": "0f813fde8538a1e15fed0750459de2f7762f5ac4d4d0ca2a4285ddd4cab2d773"
+    }
+  },
+  "schema_version": 1,
+  "scope": "catalog evidence only; no ownership, current equip or Tech activation inferred"
+}

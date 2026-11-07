@@ -1,0 +1,961 @@
+{
+ "about": "Items the game has that the main data source (th.gl) does not list. Merged by forge.gamedata(); never overrides th.gl.",
+ "retrieved_at": "2026-11-06",
+ "sources": [
+  "https://www.oncehub.de/en/mods",
+  "https://oncehuman.th.gl/db/armor-sets",
+  "https://meta-builds.net/once-human/"
+ ],
+ "armor": [
+  {
+   "id": "supp_blackstone_hood_heat",
+   "name": "Blackstone Hood - Heat",
+   "tier": 5,
+   "slot": "Helmet",
+   "hp": 740.0,
+   "psi_intensity": 92.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 740.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 92.0
+    },
+    "2": {
+     "HP": 777.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 97.0
+    },
+    "3": {
+     "HP": 814.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 101.0
+    },
+    "4": {
+     "HP": 851.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 106.0
+    },
+    "5": {
+     "HP": 888.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 110.0
+    },
+    "6": {
+     "HP": 925.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 115.0
+    }
+   },
+   "set_effects": {
+    "1": "Heat Resist 5.",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is above 30°C, you gain Passion status (Elemental DMG +10%). For every additional degree above that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature rises by 20°C, the DMG bonus provided by the Passion status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Heat",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1032",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_top_heat",
+   "name": "Blackstone Top - Heat",
+   "tier": 5,
+   "slot": "Top",
+   "hp": 1924.0,
+   "psi_intensity": 64.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1924.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 64.0
+    },
+    "2": {
+     "HP": 2020.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 67.0
+    },
+    "3": {
+     "HP": 2116.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 70.0
+    },
+    "4": {
+     "HP": 2213.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 74.0
+    },
+    "5": {
+     "HP": 2309.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 77.0
+    },
+    "6": {
+     "HP": 2405.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 80.0
+    }
+   },
+   "set_effects": {
+    "1": "Heat Resist 5.",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is above 30°C, you gain Passion status (Elemental DMG +10%). For every additional degree above that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature rises by 20°C, the DMG bonus provided by the Passion status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Heat",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1032",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_pants_heat",
+   "name": "Blackstone Pants - Heat",
+   "tier": 5,
+   "slot": "Bottoms",
+   "hp": 1776.0,
+   "psi_intensity": 74.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1776.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 74.0
+    },
+    "2": {
+     "HP": 1865.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 78.0
+    },
+    "3": {
+     "HP": 1954.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 81.0
+    },
+    "4": {
+     "HP": 2042.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 85.0
+    },
+    "5": {
+     "HP": 2131.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 89.0
+    },
+    "6": {
+     "HP": 2220.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 92.0
+    }
+   },
+   "set_effects": {
+    "1": "Heat Resist 5.",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is above 30°C, you gain Passion status (Elemental DMG +10%). For every additional degree above that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature rises by 20°C, the DMG bonus provided by the Passion status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Heat",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1032",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_boots_heat",
+   "name": "Blackstone Boots - Heat",
+   "tier": 5,
+   "slot": "Shoes",
+   "hp": 1480.0,
+   "psi_intensity": 46.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1480.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 46.0
+    },
+    "2": {
+     "HP": 1554.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 48.0
+    },
+    "3": {
+     "HP": 1628.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 51.0
+    },
+    "4": {
+     "HP": 1702.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 53.0
+    },
+    "5": {
+     "HP": 1776.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 55.0
+    },
+    "6": {
+     "HP": 1850.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 58.0
+    }
+   },
+   "set_effects": {
+    "1": "Heat Resist 5.",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is above 30°C, you gain Passion status (Elemental DMG +10%). For every additional degree above that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature rises by 20°C, the DMG bonus provided by the Passion status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Heat",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1032",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_gloves_heat",
+   "name": "Blackstone Gloves - Heat",
+   "tier": 5,
+   "slot": "Gloves",
+   "hp": 1110.0,
+   "psi_intensity": 69.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1110.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 69.0,
+     "Capture Capacity": 5.0
+    },
+    "2": {
+     "HP": 1166.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 72.0,
+     "Capture Capacity": 5.0
+    },
+    "3": {
+     "HP": 1221.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 76.0,
+     "Capture Capacity": 5.0
+    },
+    "4": {
+     "HP": 1276.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 79.0,
+     "Capture Capacity": 5.0
+    },
+    "5": {
+     "HP": 1332.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 83.0,
+     "Capture Capacity": 5.0
+    },
+    "6": {
+     "HP": 1388.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 86.0,
+     "Capture Capacity": 5.0
+    }
+   },
+   "set_effects": {
+    "1": "Heat Resist 5.",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is above 30°C, you gain Passion status (Elemental DMG +10%). For every additional degree above that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature rises by 20°C, the DMG bonus provided by the Passion status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Heat",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1032",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_mask_heat",
+   "name": "Blackstone Mask - Heat",
+   "tier": 5,
+   "slot": "Mask",
+   "hp": 370.0,
+   "psi_intensity": 115.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 370.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 115.0
+    },
+    "2": {
+     "HP": 388.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 121.0
+    },
+    "3": {
+     "HP": 407.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 127.0
+    },
+    "4": {
+     "HP": 425.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 132.0
+    },
+    "5": {
+     "HP": 444.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 138.0
+    },
+    "6": {
+     "HP": 462.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 144.0
+    }
+   },
+   "set_effects": {
+    "1": "Heat Resist 5.",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is above 30°C, you gain Passion status (Elemental DMG +10%). For every additional degree above that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature rises by 20°C, the DMG bonus provided by the Passion status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Heat",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1032",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_hood_cold",
+   "name": "Blackstone Hood - Cold",
+   "tier": 5,
+   "slot": "Helmet",
+   "hp": 740.0,
+   "psi_intensity": 92.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 740.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 92.0
+    },
+    "2": {
+     "HP": 777.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 97.0
+    },
+    "3": {
+     "HP": 814.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 101.0
+    },
+    "4": {
+     "HP": 851.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 106.0
+    },
+    "5": {
+     "HP": 888.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 110.0
+    },
+    "6": {
+     "HP": 925.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 115.0
+    }
+   },
+   "set_effects": {
+    "1": "Cold Resist +5",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is below 10°C, you gain Cold status (Elemental DMG +10%). For every additional degree below that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature drops by 20°C, the DMG bonus provided by the Cold status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Cold",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1033",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_top_cold",
+   "name": "Blackstone Top - Cold",
+   "tier": 5,
+   "slot": "Top",
+   "hp": 1924.0,
+   "psi_intensity": 64.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1924.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 64.0
+    },
+    "2": {
+     "HP": 2020.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 67.0
+    },
+    "3": {
+     "HP": 2116.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 70.0
+    },
+    "4": {
+     "HP": 2213.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 74.0
+    },
+    "5": {
+     "HP": 2309.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 77.0
+    },
+    "6": {
+     "HP": 2405.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 80.0
+    }
+   },
+   "set_effects": {
+    "1": "Cold Resist +5",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is below 10°C, you gain Cold status (Elemental DMG +10%). For every additional degree below that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature drops by 20°C, the DMG bonus provided by the Cold status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Cold",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1033",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_pants_cold",
+   "name": "Blackstone Pants - Cold",
+   "tier": 5,
+   "slot": "Bottoms",
+   "hp": 1776.0,
+   "psi_intensity": 74.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1776.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 74.0
+    },
+    "2": {
+     "HP": 1865.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 78.0
+    },
+    "3": {
+     "HP": 1954.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 81.0
+    },
+    "4": {
+     "HP": 2042.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 85.0
+    },
+    "5": {
+     "HP": 2131.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 89.0
+    },
+    "6": {
+     "HP": 2220.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 92.0
+    }
+   },
+   "set_effects": {
+    "1": "Cold Resist +5",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is below 10°C, you gain Cold status (Elemental DMG +10%). For every additional degree below that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature drops by 20°C, the DMG bonus provided by the Cold status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Cold",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1033",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_boots_cold",
+   "name": "Blackstone Boots - Cold",
+   "tier": 5,
+   "slot": "Shoes",
+   "hp": 1480.0,
+   "psi_intensity": 46.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1480.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 46.0
+    },
+    "2": {
+     "HP": 1554.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 48.0
+    },
+    "3": {
+     "HP": 1628.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 51.0
+    },
+    "4": {
+     "HP": 1702.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 53.0
+    },
+    "5": {
+     "HP": 1776.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 55.0
+    },
+    "6": {
+     "HP": 1850.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 58.0
+    }
+   },
+   "set_effects": {
+    "1": "Cold Resist +5",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is below 10°C, you gain Cold status (Elemental DMG +10%). For every additional degree below that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature drops by 20°C, the DMG bonus provided by the Cold status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Cold",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1033",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_gloves_cold",
+   "name": "Blackstone Gloves - Cold",
+   "tier": 5,
+   "slot": "Gloves",
+   "hp": 1110.0,
+   "psi_intensity": 69.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1110.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 69.0,
+     "Capture Capacity": 5.0
+    },
+    "2": {
+     "HP": 1166.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 72.0,
+     "Capture Capacity": 5.0
+    },
+    "3": {
+     "HP": 1221.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 76.0,
+     "Capture Capacity": 5.0
+    },
+    "4": {
+     "HP": 1276.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 79.0,
+     "Capture Capacity": 5.0
+    },
+    "5": {
+     "HP": 1332.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 83.0,
+     "Capture Capacity": 5.0
+    },
+    "6": {
+     "HP": 1388.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 86.0,
+     "Capture Capacity": 5.0
+    }
+   },
+   "set_effects": {
+    "1": "Cold Resist +5",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is below 10°C, you gain Cold status (Elemental DMG +10%). For every additional degree below that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature drops by 20°C, the DMG bonus provided by the Cold status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Cold",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1033",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_blackstone_mask_cold",
+   "name": "Blackstone Mask - Cold",
+   "tier": 5,
+   "slot": "Mask",
+   "hp": 370.0,
+   "psi_intensity": 115.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 370.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 115.0
+    },
+    "2": {
+     "HP": 388.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 121.0
+    },
+    "3": {
+     "HP": 407.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 127.0
+    },
+    "4": {
+     "HP": 425.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 132.0
+    },
+    "5": {
+     "HP": 444.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 138.0
+    },
+    "6": {
+     "HP": 462.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 144.0
+    }
+   },
+   "set_effects": {
+    "1": "Cold Resist +5",
+    "2": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 2s, up to a maximum of 5 stacks.",
+    "3": "When the temperature is below 10°C, you gain Cold status (Elemental DMG +10%). For every additional degree below that, gain Elemental DMG +0.5%, up to 20%.",
+    "4": "At 5 stack(s) of Warm Sensation, the environmental temperature drops by 20°C, the DMG bonus provided by the Cold status is doubled, and its cap is increased to 40%."
+   },
+   "set_name": "Blackstone Cold",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1033",
+   "supplement": true,
+   "note": "Stats copied from the regular Blackstone piece (same base item)."
+  },
+  {
+   "id": "supp_snowland_rustic_hat",
+   "name": "Snowland Rustic Hat",
+   "tier": 5,
+   "slot": "Helmet",
+   "hp": 518.0,
+   "psi_intensity": 64.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 518.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 64.0
+    },
+    "2": {
+     "HP": 554.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 68.0
+    },
+    "3": {
+     "HP": 591.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 73.0
+    }
+   },
+   "set_effects": {
+    "1": "Movement Speed +8%",
+    "2": "Cold Resist +5",
+    "3": "HP +600",
+    "4": "Gathering Speed +20%"
+   },
+   "set_name": "Snowland Rustic",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1034",
+   "supplement": true
+  },
+  {
+   "id": "supp_snowland_rustic_jacket",
+   "name": "Snowland Rustic Jacket",
+   "tier": 5,
+   "slot": "Top",
+   "hp": 1347.0,
+   "psi_intensity": 45.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1347.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 45.0
+    },
+    "2": {
+     "HP": 1441.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 48.0
+    },
+    "3": {
+     "HP": 1536.0,
+     "Pollution Resist": 16.0,
+     "Psi Intensity": 51.0
+    }
+   },
+   "set_effects": {
+    "1": "Movement Speed +8%",
+    "2": "Cold Resist +5",
+    "3": "HP +600",
+    "4": "Gathering Speed +20%"
+   },
+   "set_name": "Snowland Rustic",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1034",
+   "supplement": true
+  },
+  {
+   "id": "supp_snowland_rustic_pants",
+   "name": "Snowland Rustic Pants",
+   "tier": 5,
+   "slot": "Bottoms",
+   "hp": 1243.0,
+   "psi_intensity": 52.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1243.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 52.0
+    },
+    "2": {
+     "HP": 1330.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 56.0
+    },
+    "3": {
+     "HP": 1417.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 59.0
+    }
+   },
+   "set_effects": {
+    "1": "Movement Speed +8%",
+    "2": "Cold Resist +5",
+    "3": "HP +600",
+    "4": "Gathering Speed +20%"
+   },
+   "set_name": "Snowland Rustic",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1034",
+   "supplement": true
+  },
+  {
+   "id": "supp_snowland_rustic_shoes",
+   "name": "Snowland Rustic Shoes",
+   "tier": 5,
+   "slot": "Shoes",
+   "hp": 1036.0,
+   "psi_intensity": 32.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 1036.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 32.0
+    },
+    "2": {
+     "HP": 1109.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 34.0
+    },
+    "3": {
+     "HP": 1181.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 36.0
+    }
+   },
+   "set_effects": {
+    "1": "Movement Speed +8%",
+    "2": "Cold Resist +5",
+    "3": "HP +600",
+    "4": "Gathering Speed +20%"
+   },
+   "set_name": "Snowland Rustic",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1034",
+   "supplement": true
+  },
+  {
+   "id": "supp_snowland_rustic_gloves",
+   "name": "Snowland Rustic Gloves",
+   "tier": 5,
+   "slot": "Gloves",
+   "hp": 777.0,
+   "psi_intensity": 48.0,
+   "stats_per_star": {
+    "1": {
+     "HP": 777.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 48.0,
+     "Capture Capacity": 5.0
+    },
+    "2": {
+     "HP": 831.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 51.0,
+     "Capture Capacity": 5.0
+    },
+    "3": {
+     "HP": 886.0,
+     "Pollution Resist": 12.0,
+     "Psi Intensity": 55.0,
+     "Capture Capacity": 5.0
+    }
+   },
+   "set_effects": {
+    "1": "Movement Speed +8%",
+    "2": "Cold Resist +5",
+    "3": "HP +600",
+    "4": "Gathering Speed +20%"
+   },
+   "set_name": "Snowland Rustic",
+   "source_url": "https://oncehuman.th.gl/db/armor-sets/armor_set_1034",
+   "supplement": true
+  }
+ ],
+ "mods": [
+  {
+   "id": "supp_munitions-amplifier",
+   "name": "Munitions Amplifier",
+   "slot": "All Weapons",
+   "source_url": "https://www.oncehub.de/en/mods",
+   "summary": "Weapon DMG +9%.",
+   "core_effect_by_level": {
+    "5": "Weapon DMG +9%."
+   },
+   "variant_substats": {
+    "General": [
+     "DMG Boost",
+     "Magazine Capacity",
+     "Reload Speed",
+     "DMG against Enemies"
+    ],
+    "Violent": [
+     "Crit DMG",
+     "Weapon DMG",
+     "Magazine Capacity",
+     "DMG against Enemies"
+    ],
+    "Precision": [
+     "Weakspot DMG",
+     "Weapon DMG",
+     "Magazine Capacity",
+     "DMG against Enemies"
+    ],
+    "Survival": [
+     "HP",
+     "DMG Reduction When Hit",
+     "Deviant DMG Reduction (New)",
+     "DMG against Enemies"
+    ]
+   },
+   "supplement": true,
+   "note": "Non-keyword weapon mod; missing from th.gl. Level-5 value."
+  },
+  {
+   "id": "supp_crit-rate-enhancement",
+   "name": "Crit Rate Enhancement",
+   "slot": "All Weapons",
+   "source_url": "https://www.oncehub.de/en/mods",
+   "summary": "Crit Rate +9%.",
+   "core_effect_by_level": {
+    "5": "Crit Rate +9%."
+   },
+   "variant_substats": {
+    "General": [
+     "DMG Boost",
+     "Magazine Capacity",
+     "Reload Speed",
+     "DMG against Enemies"
+    ],
+    "Violent": [
+     "Crit DMG",
+     "Weapon DMG",
+     "Magazine Capacity",
+     "DMG against Enemies"
+    ],
+    "Precision": [
+     "Weakspot DMG",
+     "Weapon DMG",
+     "Magazine Capacity",
+     "DMG against Enemies"
+    ],
+    "Survival": [
+     "HP",
+     "DMG Reduction When Hit",
+     "Deviant DMG Reduction (New)",
+     "DMG against Enemies"
+    ]
+   },
+   "supplement": true,
+   "note": "Non-keyword weapon mod; missing from th.gl. Level-5 value."
+  },
+  {
+   "id": "supp_crit-dmg-enhancement",
+   "name": "Crit DMG Enhancement",
+   "slot": "All Weapons",
+   "source_url": "https://www.oncehub.de/en/mods",
+   "summary": "Crit Rate +2% and Crit DMG +12%.",
+   "core_effect_by_level": {
+    "5": "Crit Rate +2% and Crit DMG +12%."
+   },
+   "variant_substats": {
+    "General": [
+     "DMG Boost",
+     "Magazine Capacity",
+     "Reload Speed",
+     "DMG against Enemies"
+    ],
+    "Violent": [
+     "Crit DMG",
+     "Weapon DMG",
+     "Magazine Capacity",
+     "DMG against Enemies"
+    ],
+    "Precision": [
+     "Weakspot DMG",
+     "Weapon DMG",
+     "Magazine Capacity",
+     "DMG against Enemies"
+    ],
+    "Survival": [
+     "HP",
+     "DMG Reduction When Hit",
+     "Deviant DMG Reduction (New)",
+     "DMG against Enemies"
+    ]
+   },
+   "supplement": true,
+   "note": "Non-keyword weapon mod; missing from th.gl. Level-5 value."
+  },
+  {
+   "id": "supp_status-enhancement",
+   "name": "Status Enhancement",
+   "slot": "All Weapons",
+   "source_url": "https://www.oncehub.de/en/mods",
+   "summary": "Status DMG +12%.",
+   "core_effect_by_level": {
+    "5": "Status DMG +12%."
+   },
+   "variant_substats": {
+    "General": [
+     "DMG Boost",
+     "Magazine Capacity",
+     "Reload Speed",
+     "DMG against Enemies"
+    ],
+    "Violent": [
+     "Crit DMG",
+     "Weapon DMG",
+     "Magazine Capacity",
+     "DMG against Enemies"
+    ],
+    "Precision": [
+     "Weakspot DMG",
+     "Weapon DMG",
+     "Magazine Capacity",
+     "DMG against Enemies"
+    ],
+    "Survival": [
+     "HP",
+     "DMG Reduction When Hit",
+     "Deviant DMG Reduction (New)",
+     "DMG against Enemies"
+    ]
+   },
+   "supplement": true,
+   "note": "Non-keyword weapon mod; missing from th.gl. Level-5 value."
+  }
+ ],
+ "aliases": {
+  "mods": {
+   "Unstoppable": "Distant Strike",
+   "Fateful Strike": "Fortune's Favor",
+   "Overflow": "Mag Expansion",
+   "Weapon Amplifier (Munitions Amplifier)": "Weapon Amplifier",
+   "Precise Rush": "Precision Rush",
+   "Multi Bounce": "Multi-Bounce",
+   "Head On Conflict": "Head-on Conflict"
+  }
+ }
+}

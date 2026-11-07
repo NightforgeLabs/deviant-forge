@@ -1,0 +1,10 @@
+{
+  "source": "RECOVERED_SURVIVAL_RATIO_AND_PVP_HP_ADJUSTMENT.md; synthetic_survival_pvp_hp_reference.py, copied build 26267212",
+  "scope": "Controlled player PvE inputs; config values are explicitly resolved by caller, not assumed live defaults",
+  "vectors": [
+    {"label": "uncapped ratio", "input": {"max_hp": 200, "max_san": 100, "san": 80, "san_hp_ratio": 1, "base_cap": 0.9, "resistance_rate": 0, "resistance_limit": 0.3, "contamination_resistance": 0}, "effective_cap": 0.9, "effective_ratio": 0.2, "real_max_hp": 160},
+    {"label": "resistance-lowered cap", "input": {"max_hp": 200, "max_san": 100, "san": 0, "san_hp_ratio": 2, "base_cap": 0.9, "resistance_rate": 0.01, "resistance_limit": 0.3, "contamination_resistance": 20}, "effective_cap": 0.7, "effective_ratio": 0.7, "real_max_hp": 60},
+    {"label": "upper resistance limit", "input": {"max_hp": 200, "max_san": 100, "san": 0, "san_hp_ratio": 2, "base_cap": 0.9, "resistance_rate": 0.01, "resistance_limit": 0.3, "contamination_resistance": 100}, "effective_cap": 0.6, "effective_ratio": 0.6, "real_max_hp": 80}
+  ],
+  "pvp_coefficients": null
+}

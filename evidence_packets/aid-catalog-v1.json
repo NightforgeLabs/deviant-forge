@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "source_build": "26267212",
+  "status": "reviewed_named_aid_records",
+  "categories": {
+    "food_drink": {
+      "status": "named_effect_description_calculation_unknown",
+      "source_packet": "native_named_food_whim_samples.json",
+      "source_sha256": "aaef97570bb936891f1a7ed69c5fcbe5be3bab92c24baeaa798d1cf9362d0770",
+      "missing_join": "native buff 403137000 to defense magnitude, duration and activation"
+    },
+    "whims_deviations": {
+      "status": "named_effect_description_calculation_unknown",
+      "source_packet": "native_named_food_whim_samples.json",
+      "source_sha256": "aaef97570bb936891f1a7ed69c5fcbe5be3bab92c24baeaa798d1cf9362d0770",
+      "missing_join": "Whim duration application, own lifetime and recipient eligibility"
+    },
+    "crates": {
+      "status": "named_reward_membership_draw_unknown",
+      "source_packet": "native_named_pal_crate_sample.json",
+      "source_sha256": "69c899fed69b606e93403c332fd0b1134c3df2085833e16ea568d7ba8b9aeb45",
+      "missing_join": "draw order, normal-pool selection per attempt, pity state, probabilities and current obtainability"
+    },
+    "enemy_hp": {
+      "status": "source_rows_not_named_item_effect_join",
+      "source_packet": "native_enemy_auto_adjust_numeric_sample.json",
+      "source_sha256": "efa73fb4aacc5c16e47fe76d0a5ab2b928d01aeee9cdcf63d0fcfd9370e83296",
+      "missing_join": "row key and unit type to enemy, encounter, level and difficulty"
+    }
+  },
+  "records": [
+    {
+      "category": "crates",
+      "catalog_id": "aid:crate:37560018",
+      "name": "Random Pal Deviation",
+      "summary": "Cattiva, Chillet and Chillet Ignis: 21 rating variants in four source pools. Draw order and odds remain unknown.",
+      "calculation_status": "display_only",
+      "reward_membership_only": true,
+      "draw_mode": "unknown",
+      "availability": "current_obtainability_unknown",
+      "source_url": "https://wikily.gg/once-human/items/37560018",
+      "source_name_original": "随机幻兽帕鲁异常物_$S@TIDS$_cg0|0",
+      "source_description_original": "打开宝箱可获得一个捣蛋猫、疾旋鼬或桃旋鼬，异能评级、活性评级在3-5级之间。#[k=b5]最多15次必定获得异能评级为5、活性评级为5的捣蛋猫、疾旋鼬或桃旋鼬#[k]，每次保底不会重复。获取的异常物为绑定状态，不能进行丢弃或交易。_$S@TIDS$_cg0|0",
+      "source": {
+        "build": "26267212",
+        "record_sha256": "bcb0eed8c4d9ca658179558ee4e6002b3f13b686c7839e09a9a7aa695eea8035",
+        "join_sha256": "69c899fed69b606e93403c332fd0b1134c3df2085833e16ea568d7ba8b9aeb45",
+        "native_record_id": "37560018",
+        "native_field": "item_data.name/description; item_use_para.related_func; crate_config.reward_pool; drop_pool.item_ids/item_nums"
+      },
+      "rewards": [
+        {
+          "native_item_id": "36000061",
+          "name": "捣蛋猫",
+          "quantity": 1,
+          "skill_rating_text_value": 3,
+          "activity_rating_text_value": 3,
+          "pool_id": "37560018001",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000062",
+          "name": "捣蛋猫",
+          "quantity": 1,
+          "skill_rating_text_value": 3,
+          "activity_rating_text_value": 4,
+          "pool_id": "37560018001",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000063",
+          "name": "捣蛋猫",
+          "quantity": 1,
+          "skill_rating_text_value": 4,
+          "activity_rating_text_value": 3,
+          "pool_id": "37560018001",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000064",
+          "name": "捣蛋猫",
+          "quantity": 1,
+          "skill_rating_text_value": 4,
+          "activity_rating_text_value": 4,
+          "pool_id": "37560018001",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000065",
+          "name": "捣蛋猫",
+          "quantity": 1,
+          "skill_rating_text_value": 4,
+          "activity_rating_text_value": 5,
+          "pool_id": "37560018001",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000066",
+          "name": "捣蛋猫",
+          "quantity": 1,
+          "skill_rating_text_value": 5,
+          "activity_rating_text_value": 4,
+          "pool_id": "37560018001",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000075",
+          "name": "桃旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 3,
+          "activity_rating_text_value": 3,
+          "pool_id": "37560018002",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000076",
+          "name": "桃旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 3,
+          "activity_rating_text_value": 4,
+          "pool_id": "37560018002",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000077",
+          "name": "桃旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 4,
+          "activity_rating_text_value": 3,
+          "pool_id": "37560018002",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000078",
+          "name": "桃旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 4,
+          "activity_rating_text_value": 4,
+          "pool_id": "37560018002",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000079",
+          "name": "桃旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 4,
+          "activity_rating_text_value": 5,
+          "pool_id": "37560018002",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000080",
+          "name": "桃旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 5,
+          "activity_rating_text_value": 4,
+          "pool_id": "37560018002",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000068",
+          "name": "疾旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 3,
+          "activity_rating_text_value": 3,
+          "pool_id": "37560018003",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000069",
+          "name": "疾旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 3,
+          "activity_rating_text_value": 4,
+          "pool_id": "37560018003",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000070",
+          "name": "疾旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 4,
+          "activity_rating_text_value": 3,
+          "pool_id": "37560018003",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000071",
+          "name": "疾旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 4,
+          "activity_rating_text_value": 4,
+          "pool_id": "37560018003",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000072",
+          "name": "疾旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 4,
+          "activity_rating_text_value": 5,
+          "pool_id": "37560018003",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000073",
+          "name": "疾旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 5,
+          "activity_rating_text_value": 4,
+          "pool_id": "37560018003",
+          "pool_role": "normal"
+        },
+        {
+          "native_item_id": "36000067",
+          "name": "捣蛋猫",
+          "quantity": 1,
+          "skill_rating_text_value": 5,
+          "activity_rating_text_value": 5,
+          "pool_id": "37560018004",
+          "pool_role": "rare"
+        },
+        {
+          "native_item_id": "36000074",
+          "name": "疾旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 5,
+          "activity_rating_text_value": 5,
+          "pool_id": "37560018004",
+          "pool_role": "rare"
+        },
+        {
+          "native_item_id": "36000081",
+          "name": "桃旋鼬",
+          "quantity": 1,
+          "skill_rating_text_value": 5,
+          "activity_rating_text_value": 5,
+          "pool_id": "37560018004",
+          "pool_role": "rare"
+        }
+      ],
+      "source_guarantee": {
+        "max_opens": 15,
+        "reward": "one named Pal with Skill rating 5 and Activity rating 5",
+        "evidence": "native crate description plus must_rare_reward_loot_times=15",
+        "unknown": [
+          "current progress",
+          "reset rule",
+          "draw order",
+          "odds"
+        ]
+      }
+    },
+    {
+      "category": "food_drink",
+      "catalog_id": "aid:consumable:30110378",
+      "name": "Gingerdrop",
+      "summary": "Source description says defense improves; the amount and buff duration are unresolved.",
+      "effect_text": "Defense boost described; numeric magnitude and duration unknown.",
+      "effect_native_id": "403137000",
+      "effect_description_only": false,
+      "calculation_status": "display_only",
+      "availability": "current_obtainability_unknown",
+      "source_url": "https://oncehuman.th.gl/db/consumables/30110378",
+      "source_name_original": "硬邦邦姜糖_$S@TIDS$_cg0|0",
+      "source_description_original": "将姜块熬化后制成的糖果，坚硬无比，含在嘴中似乎让自身的防御能力都获得了极大地提升。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+      "source": {
+        "build": "26267212",
+        "record_sha256": "bcb0eed8c4d9ca658179558ee4e6002b3f13b686c7839e09a9a7aa695eea8035",
+        "join_sha256": "aaef97570bb936891f1a7ed69c5fcbe5be3bab92c24baeaa798d1cf9362d0770",
+        "native_record_id": "30110378",
+        "native_field": "item_data.name/description; item_use_para.related_func/buff_effect_list"
+      }
+    },
+    {
+      "category": "whims_deviations",
+      "catalog_id": "aid:consumable:30139002",
+      "name": "Utter Delight",
+      "summary": "While active, other newly added Whims last 35% longer; this effect’s own lifetime is unresolved.",
+      "effect_text": "Other newly added Whims: duration +35% while active; execution and lifetime unresolved.",
+      "effect_native_id": null,
+      "effect_description_only": true,
+      "calculation_status": "display_only",
+      "availability": "current_obtainability_unknown",
+      "source_url": "https://oncehuman.th.gl/db/consumables/30139002",
+      "source_name_original": "欢愉_$S@TIDS$_cg0|0",
+      "source_description_original": "你被持续地鼓舞着，持续期间，其他新增异想的持续时间延长35%_$S@TIDS$_cg0|0",
+      "source": {
+        "build": "26267212",
+        "record_sha256": "bcb0eed8c4d9ca658179558ee4e6002b3f13b686c7839e09a9a7aa695eea8035",
+        "join_sha256": "aaef97570bb936891f1a7ed69c5fcbe5be3bab92c24baeaa798d1cf9362d0770",
+        "native_record_id": "30139002",
+        "native_field": "item_data.name/description; item_use_para.related_func/buff_effect_list"
+      }
+    }
+  ],
+  "limits": [
+    "Raw item IDs and category counts are not selectable recommendations.",
+    "No crate odds, food bonuses, Whim effects or enemy HP are inferred from unjoined packets."
+  ]
+}

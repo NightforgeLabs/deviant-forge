@@ -1,0 +1,1633 @@
+{
+  "schema_version": "mod_core_v7_stateful_candidates",
+  "v2_packet_sha256": "7a81675e627fe236b6127d280647f3c751e59e7bbd728a3ffdf13b1be01a2560",
+  "source_policy": "Mathematical candidate operators only. Values are from a March 2026 community snapshot, unbound to any current Field Guide level.",
+  "statistics": {
+    "candidate_bindings": 39,
+    "operator_counts": {
+      "magazine_phase_modifier": 10,
+      "counter_ammo_refill": 15,
+      "inactivity_timed_modifier": 14
+    },
+    "normalized_equivalent_wording_count": 1,
+    "exact_level_observations": 0,
+    "current_numeric_bindings": 0
+  },
+  "bindings": [
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": null,
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": null,
+      "source_system_generation": "legacy_random_roll",
+      "current_listing_identity_match": false,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 0,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-crescent",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": "Crescent",
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/momentum-up-crescent",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 5,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-crescent-deviant-energy",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": "Crescent Deviant Energy",
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/momentum-up-crescent-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 5,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-deviant-energy",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": "Deviant Energy",
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/momentum-up-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 5,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-general",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": "General",
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/momentum-up-general",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 5,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-lunar",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": "Lunar",
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/momentum-up-lunar",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 5,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-lunar-deviant-energy",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": "Lunar Deviant Energy",
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/momentum-up-lunar-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 5,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-precision",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": "Precision",
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/momentum-up-precision",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 5,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-survival",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": "Survival",
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/momentum-up-survival",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 5,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-violent",
+      "tree": "Momentum Up",
+      "slot": "helmet_mod",
+      "variant": "Violent",
+      "operator": "magazine_phase_modifier",
+      "rule": {
+        "operator": "magazine_phase_modifier",
+        "nodes": [
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "fire_rate_percent",
+            "value": 10.0,
+            "phase_percent": [
+              0,
+              50.0
+            ]
+          },
+          {
+            "op": "magazine_phase_stat_delta",
+            "stat": "weapon_damage_percent",
+            "value": 30.0,
+            "phase_percent": [
+              50.0,
+              100.0
+            ]
+          }
+        ],
+        "phase_basis": "consumed_ammo_fraction"
+      },
+      "candidate_text": "Fire Rate +10% for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+      "candidate_text_sha256": "6c28eeb05ded172a58668711d616b9c05a1e37ca9ec8a740535c2ef468af9d3b",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/momentum-up-violent",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 5,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:pants_mod:ruthless-reaper",
+      "tree": "Ruthless Reaper",
+      "slot": "pants_mod",
+      "variant": null,
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After accumulating 2 kill(s), refill the 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "4db09b8fa3174c81e2552ce2f057e71362e957537027c9417bb1def0c4a15855",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": null,
+      "source_system_generation": "mixed_or_unverified",
+      "current_listing_identity_match": false,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 0,
+      "normalized_equivalent_wording": true,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-battle",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Battle",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-battle",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-deviant-energy",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Deviant Energy",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 0,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-downstar",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Downstar",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-downstar",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-downstar-deviant-energy",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Downstar Deviant Energy",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-downstar-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-general",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "General",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-general",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-mirror",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Mirror",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-mirror",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-mirror-deviant-energy",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Mirror Deviant Energy",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-mirror-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-phantasmal",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Phantasmal",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-phantasmal",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-phantasmal-deviant-energy",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Phantasmal Deviant Energy",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-phantasmal-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-precision",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Precision",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-precision",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-survival",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Survival",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-survival",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-violent",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Violent",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-violent",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-wild",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Wild",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-wild",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-wild-deviant-energy",
+      "tree": "Covered Advance",
+      "slot": "boots_mod",
+      "variant": "Wild Deviant Energy",
+      "operator": "inactivity_timed_modifier",
+      "rule": {
+        "operator": "inactivity_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "no_damage_seconds": 4.0,
+        "duration_seconds": 30.0,
+        "reset": "duration_end"
+      },
+      "candidate_text": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30s. The effect resets when the duration ends.",
+      "candidate_text_sha256": "b090784d487a822474fde28029a15de4e501dfd6b1e9456fae30a3cce7608c9c",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/covered-advance-wild-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-battle",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Battle",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-battle",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-deviant-energy",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Deviant Energy",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-downstar",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Downstar",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-downstar",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-downstar-deviant-energy",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Downstar Deviant Energy",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-downstar-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-general",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "General",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-general",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-mirror",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Mirror",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-mirror",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-mirror-deviant-energy",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Mirror Deviant Energy",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-mirror-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-phantasmal",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Phantasmal",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-phantasmal",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-phantasmal-deviant-energy",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Phantasmal Deviant Energy",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-phantasmal-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-precision",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Precision",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-precision",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-survival",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Survival",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-survival",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-violent",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Violent",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-violent",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-wild",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Wild",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-wild",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-wild-deviant-energy",
+      "tree": "Ruthless Reaper",
+      "slot": "boots_mod",
+      "variant": "Wild Deviant Energy",
+      "operator": "counter_ammo_refill",
+      "rule": {
+        "operator": "counter_ammo_refill",
+        "nodes": [
+          {
+            "op": "ammo_refill_percent_of_magazine",
+            "value": 100.0,
+            "source": "reserves"
+          }
+        ],
+        "event": "kill_enemy",
+        "required_count": 2,
+        "counter_reset": "after_proc"
+      },
+      "candidate_text": "After getting 2 kill(s), refill 100% of your magazine from your reserves.",
+      "candidate_text_sha256": "18cfbee173a76b060284a8cfcc872b36579d4c61994b64e83efd439fd336e3e1",
+      "source_class": "community_march_2026_snapshot",
+      "source_url": "https://www.oncehumandb.com/mods/ruthless-reaper-wild-deviant-energy",
+      "source_system_generation": "current_field_guide",
+      "current_listing_identity_match": true,
+      "current_listing_effect_text_count": 0,
+      "detail_strength_candidates_unbound_count": 2,
+      "normalized_equivalent_wording": false,
+      "exact_level_observation": false,
+      "level_binding": null,
+      "numeric_evidence_mode": "community_primary_text_candidate_only",
+      "current_level_certified": false,
+      "whole_dps_certified": false,
+      "required_opt_in": "allow_candidate=True"
+    }
+  ]
+}

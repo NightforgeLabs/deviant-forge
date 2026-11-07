@@ -1,0 +1,6950 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_hashes": {
+    "gun_base_literal_sha256": "7ba048990ee6da61bd37bd82b00e1a11aa8f4df792e429ebae5342a91f505212",
+    "native_133_field_packet_sha256": "e043f1331886c702057bf472001bbba79fdef6b6bf0da1dd1941413111bc6f8d",
+    "source_crosswalk_v2_sha256": "2ac4e14c5121aa94fec09c3d7fcc82a50c34db453cfc54cddd5ab239b7973746",
+    "shoot_mode_enum_packet_sha256": "cfc43c2b8ef52fd57fb9831b57e4ce0b903b225d56c412a7f8272d051f8b7b5d",
+    "original_five_interval_packet_sha256": "a5bb8ff21efc947b2194f970730c9dc01878ce158501ed635b8ca96cb657f2ab"
+  },
+  "method": "For each of 88 source-backed numeric blueprint links, resolve independently decoded blueprint→Tier-I gear→gun_no, exact indexed gun-base row and unique typed final suffix. Parse only two bounded prefix shapes and float32/64 paths whose decoded values are finite, 0..100, and either zero or at least 0.0001; require every independently ADS/bullet-anchored path surviving this domain filter to agree on target fields/type/bytes. Parse burst count and mode from ordered native descriptor, and trigger from unique terminal typed tail. Do not promote 33 unsupported/ambiguous rows.",
+  "coverage": {
+    "source_backed_numeric_blueprint_links_considered": 88,
+    "bounded_typed_interval_and_mode_rows": 55,
+    "withheld_rows": 33,
+    "original_five_preserved": 5
+  },
+  "identity_gate": "The 88 links include exact public-name links and source-backed proposals from the crosswalk packet. This artifact does not assert that all proposals were accepted into Forge. The 55 records are bounded source-native numeric parses; UI identity admission remains separate.",
+  "parser_review_gate": "The 0..100 float domain filter narrows alternate-width decodes; it is not a universal bindict format proof. Review these 55 records before broad automatic import, especially where no independent published rate or recorded tooltip control exists. Unsupported/ambiguous records retain no guessed fields.",
+  "unit_and_formula_gate": "Native mode-text table names enum1 SEMI, enum2 BURST, enum3 AUTO. Runtime mode selection, interval units, overrides, rounding and final fire rate are established only by separate consumer logic, not by this value packet.",
+  "records": [
+    {
+      "blueprint_id": 13111101,
+      "tier_one_gear_id": 10111101,
+      "gun_no": 10110011,
+      "forge_id": "weapon:de-50",
+      "forge_name": "DE.50",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/gear/10111101",
+      "gun_row_bounds": [
+        32401,
+        32829
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 32406,
+      "float_end_offset": 32622,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 32793,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 32442,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 32462,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 32470,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 32522,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 32598,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 32668,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 32783,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 32671,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 32622,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10110011,
+          "byte_offset": 32623,
+          "raw_hex": "bb88e904"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 348,
+          "byte_offset": 32627,
+          "raw_hex": "dc02",
+          "source_string": "fp_10110011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10110011,
+          "byte_offset": 32647,
+          "raw_hex": "bb88e904"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 32651,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 32664,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 32784,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 231,
+          "source_string": "stk_de"
+        },
+        "viewkick_no": {
+          "string_table_index": 204,
+          "source_string": "10110011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13111201,
+      "tier_one_gear_id": 10111201,
+      "gun_no": 10110121,
+      "forge_id": "weapon:de-50-goshawk",
+      "forge_name": "DE.50 - Goshawk",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13111201",
+      "gun_row_bounds": [
+        33715,
+        34143
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 33720,
+      "float_end_offset": 33936,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 34107,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 33756,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 33776,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 33784,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 33836,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 33912,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 33982,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 34097,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 33985,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 33936,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10110121,
+          "byte_offset": 33937,
+          "raw_hex": "a989e904"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 718,
+          "byte_offset": 33941,
+          "raw_hex": "ce05",
+          "source_string": "fp_10110121"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10110121,
+          "byte_offset": 33961,
+          "raw_hex": "a989e904"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 33965,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 33978,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 34098,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 231,
+          "source_string": "stk_de"
+        },
+        "viewkick_no": {
+          "string_table_index": 204,
+          "source_string": "10110011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13111301,
+      "tier_one_gear_id": 10111301,
+      "gun_no": 10110131,
+      "forge_id": "weapon:de-50-wildfire",
+      "forge_name": "DE.50 - Wildfire",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13111301",
+      "gun_row_bounds": [
+        31503,
+        31967
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 31508,
+      "float_end_offset": 31724,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 31895,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 31544,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 31564,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 31572,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 31624,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 31700,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 31770,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 31885,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 31773,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 31724,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10110131,
+          "byte_offset": 31725,
+          "raw_hex": "b389e904"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 527,
+          "byte_offset": 31729,
+          "raw_hex": "8f04",
+          "source_string": "fp_10110131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10110131,
+          "byte_offset": 31749,
+          "raw_hex": "b389e904"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 31753,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 31766,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 31886,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 231,
+          "source_string": "stk_de"
+        },
+        "viewkick_no": {
+          "string_table_index": 204,
+          "source_string": "10110011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13112301,
+      "tier_one_gear_id": 10112301,
+      "gun_no": 10110231,
+      "forge_id": "weapon:de-50-jaws",
+      "forge_name": "DE.50 - Jaws",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/gear/10112301",
+      "gun_row_bounds": [
+        34578,
+        35015
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 34583,
+      "float_end_offset": 34799,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 34970,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 34619,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 34639,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 34647,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 34699,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.315,
+          "byte_offset": 34775,
+          "raw_hex": "295c8fc2f528d43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 34845,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 34960,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 34848,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 34799,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10110231,
+          "byte_offset": 34800,
+          "raw_hex": "978ae904"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 723,
+          "byte_offset": 34804,
+          "raw_hex": "d305",
+          "source_string": "fp_10110231"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10110231,
+          "byte_offset": 34824,
+          "raw_hex": "978ae904"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 34828,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 34841,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 34961,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 231,
+          "source_string": "stk_de"
+        },
+        "viewkick_no": {
+          "string_table_index": 204,
+          "source_string": "10110011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13121101,
+      "tier_one_gear_id": 10121101,
+      "gun_no": 10120011,
+      "forge_id": "weapon:r500",
+      "forge_name": "R500",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13121101",
+      "gun_row_bounds": [
+        44132,
+        44565
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 44137,
+      "float_end_offset": 44349,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 44519,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 44173,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 44189,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 44197,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 44249,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 44325,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 44395,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 44509,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 44398,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 44349,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10120011,
+          "byte_offset": 44350,
+          "raw_hex": "cbd6e904"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 392,
+          "byte_offset": 44354,
+          "raw_hex": "8803",
+          "source_string": "fp_10120011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10120011,
+          "byte_offset": 44374,
+          "raw_hex": "cbd6e904"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 44378,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 44391,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 44510,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 238,
+          "source_string": "stk_sw500"
+        },
+        "viewkick_no": {
+          "string_table_index": 226,
+          "source_string": "10120011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13121201,
+      "tier_one_gear_id": 10121201,
+      "gun_no": 10120121,
+      "forge_id": "weapon:r500-hunter",
+      "forge_name": "R500 - Hunter",
+      "source_crosswalk_classification": "proposed_exact_gear_title_with_blueprint_alias",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/gear/10121201",
+      "gun_row_bounds": [
+        28372,
+        28824
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 28377,
+      "float_end_offset": 28589,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 28758,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 28413,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 28429,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 28437,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 28489,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 28565,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 28635,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 28748,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 28638,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 28589,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10120121,
+          "byte_offset": 28590,
+          "raw_hex": "b9d7e904"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 728,
+          "byte_offset": 28594,
+          "raw_hex": "d805",
+          "source_string": "fp_10120121"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10120121,
+          "byte_offset": 28614,
+          "raw_hex": "b9d7e904"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 28618,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 28631,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 28749,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 238,
+          "source_string": "stk_sw500"
+        },
+        "viewkick_no": {
+          "string_table_index": 226,
+          "source_string": "10120011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13121301,
+      "tier_one_gear_id": 10121301,
+      "gun_no": 10120131,
+      "forge_id": "weapon:r500-interfade",
+      "forge_name": "R500 - Interfade",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13121301",
+      "gun_row_bounds": [
+        46717,
+        47150
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 46722,
+      "float_end_offset": 46934,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 47104,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 46758,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 46774,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 46782,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 46834,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 46910,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 46980,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 47094,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 46983,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 46934,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10120131,
+          "byte_offset": 46935,
+          "raw_hex": "c3d7e904"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 732,
+          "byte_offset": 46939,
+          "raw_hex": "dc05",
+          "source_string": "fp_10120131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10120131,
+          "byte_offset": 46959,
+          "raw_hex": "c3d7e904"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 46963,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 46976,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 47095,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 238,
+          "source_string": "stk_sw500"
+        },
+        "viewkick_no": {
+          "string_table_index": 226,
+          "source_string": "10120011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13122301,
+      "tier_one_gear_id": 10122301,
+      "gun_no": 10120231,
+      "forge_id": "weapon:r500-memento",
+      "forge_name": "R500 - Memento",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/gear/10122301",
+      "gun_row_bounds": [
+        49324,
+        49748
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 49329,
+      "float_end_offset": 49541,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 49711,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 49365,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 49381,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 49389,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 49441,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 49517,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 49587,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 49701,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 49590,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 49541,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10120231,
+          "byte_offset": 49542,
+          "raw_hex": "a7d8e904"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 392,
+          "byte_offset": 49546,
+          "raw_hex": "8803",
+          "source_string": "fp_10120011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10120231,
+          "byte_offset": 49566,
+          "raw_hex": "a7d8e904"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 49570,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 49583,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 49702,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 238,
+          "source_string": "stk_sw500"
+        },
+        "viewkick_no": {
+          "string_table_index": 226,
+          "source_string": "10120011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13123301,
+      "tier_one_gear_id": 10123301,
+      "gun_no": 10120331,
+      "forge_id": "weapon:r500-hammerhead-shark",
+      "forge_name": "R500 - Hammerhead Shark",
+      "source_crosswalk_classification": "proposed_exact_gear_title_with_blueprint_alias",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/gear/10123301",
+      "gun_row_bounds": [
+        40699,
+        41130
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 40704,
+      "float_end_offset": 40916,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 41085,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 40740,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 40756,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 40764,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 40816,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.415,
+          "byte_offset": 40892,
+          "raw_hex": "8fc2f5285c8fda3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 40962,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 41075,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 40965,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 40916,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10120231,
+          "byte_offset": 40917,
+          "raw_hex": "a7d8e904"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 392,
+          "byte_offset": 40921,
+          "raw_hex": "8803",
+          "source_string": "fp_10120011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10120231,
+          "byte_offset": 40941,
+          "raw_hex": "a7d8e904"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 40945,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 40958,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 41076,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 238,
+          "source_string": "stk_sw500"
+        },
+        "viewkick_no": {
+          "string_table_index": 226,
+          "source_string": "10120011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13311101,
+      "tier_one_gear_id": 10311101,
+      "gun_no": 10310011,
+      "forge_id": "weapon:kv-sbr",
+      "forge_name": "KV-SBR",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13311101",
+      "gun_row_bounds": [
+        84856,
+        85324
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 84862,
+      "float_end_offset": 85090,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 85260,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 84894,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 84918,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 84926,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 84986,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 85062,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 85136,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 85250,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 85139,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 85090,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10310011,
+          "byte_offset": 85091,
+          "raw_hex": "fba2f504"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 500,
+          "byte_offset": 85095,
+          "raw_hex": "f403",
+          "source_string": "fp_10310011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10310011,
+          "byte_offset": 85115,
+          "raw_hex": "fba2f504"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 85119,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 430.0,
+          "byte_offset": 85132,
+          "raw_hex": "0000d743"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 85251,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 344,
+          "source_string": "stk_vector"
+        },
+        "viewkick_no": {
+          "string_table_index": 324,
+          "source_string": "10310011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13311201,
+      "tier_one_gear_id": 10311201,
+      "gun_no": 10310121,
+      "forge_id": "weapon:kv-sbr-icy-rain",
+      "forge_name": "KV-SBR - Icy Rain",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13311201",
+      "gun_row_bounds": [
+        85773,
+        86214
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 85779,
+      "float_end_offset": 86007,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 86177,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 85811,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 85835,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 85843,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 85903,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 85979,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 86053,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 86167,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 86056,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 86007,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10310121,
+          "byte_offset": 86008,
+          "raw_hex": "e9a3f504"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 500,
+          "byte_offset": 86012,
+          "raw_hex": "f403",
+          "source_string": "fp_10310011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10310121,
+          "byte_offset": 86032,
+          "raw_hex": "e9a3f504"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 86036,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 430.0,
+          "byte_offset": 86049,
+          "raw_hex": "0000d743"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 86168,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 344,
+          "source_string": "stk_vector"
+        },
+        "viewkick_no": {
+          "string_table_index": 324,
+          "source_string": "10310011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13311301,
+      "tier_one_gear_id": 10311301,
+      "gun_no": 10310131,
+      "forge_id": "weapon:kv-sbr-little-jaws",
+      "forge_name": "KV-SBR - Little Jaws",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13311301",
+      "gun_row_bounds": [
+        86214,
+        86650
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 86219,
+      "float_end_offset": 86443,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 86613,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 86251,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 86271,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 86279,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 86339,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.06,
+          "byte_offset": 86415,
+          "raw_hex": "b81e85eb51b8ae3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 86489,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 86603,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 86492,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 86443,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10310131,
+          "byte_offset": 86444,
+          "raw_hex": "f3a3f504"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 774,
+          "byte_offset": 86448,
+          "raw_hex": "8606",
+          "source_string": "fp_10310131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10310131,
+          "byte_offset": 86468,
+          "raw_hex": "f3a3f504"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 86472,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 430.0,
+          "byte_offset": 86485,
+          "raw_hex": "0000d743"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 86604,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 344,
+          "source_string": "stk_vector"
+        },
+        "viewkick_no": {
+          "string_table_index": 324,
+          "source_string": "10310011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13331101,
+      "tier_one_gear_id": 10331101,
+      "gun_no": 10330011,
+      "forge_id": "weapon:mps7",
+      "forge_name": "MPS7",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13331101",
+      "gun_row_bounds": [
+        96910,
+        97356
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 96915,
+      "float_end_offset": 97147,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 97319,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 96951,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 96975,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 96983,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 97043,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 97119,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 97193,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 97309,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 97196,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 97147,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10330011,
+          "byte_offset": 97148,
+          "raw_hex": "9bbff604"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 624,
+          "byte_offset": 97152,
+          "raw_hex": "f004",
+          "source_string": "fp_10330011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10330011,
+          "byte_offset": 97172,
+          "raw_hex": "9bbff604"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 97176,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 430.0,
+          "byte_offset": 97189,
+          "raw_hex": "0000d743"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 97310,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 219,
+          "source_string": "stk_mp7"
+        },
+        "viewkick_no": {
+          "string_table_index": 221,
+          "source_string": "10330011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13331301,
+      "tier_one_gear_id": 10331301,
+      "gun_no": 10330131,
+      "forge_id": "weapon:mps7-div-evo",
+      "forge_name": "MPS7 - Div-Evo",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13331301",
+      "gun_row_bounds": [
+        97803,
+        98247
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 97808,
+      "float_end_offset": 98040,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 98210,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 97844,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 97868,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 97876,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 97936,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 98012,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 98086,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 98200,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 98089,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 98040,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10330131,
+          "byte_offset": 98041,
+          "raw_hex": "93c0f604"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 628,
+          "byte_offset": 98045,
+          "raw_hex": "f404",
+          "source_string": "fp_10330131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10330131,
+          "byte_offset": 98065,
+          "raw_hex": "93c0f604"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 98069,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 430.0,
+          "byte_offset": 98082,
+          "raw_hex": "0000d743"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 98201,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 219,
+          "source_string": "stk_mp7"
+        },
+        "viewkick_no": {
+          "string_table_index": 221,
+          "source_string": "10330011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13332401,
+      "tier_one_gear_id": 10332401,
+      "gun_no": 10330241,
+      "forge_id": "weapon:mps7-chaos-domain",
+      "forge_name": "MPS7 - Chaos Domain",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title_partial_native",
+      "source_crosswalk_url": null,
+      "gun_row_bounds": [
+        53194,
+        53634
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 53199,
+      "float_end_offset": 53427,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 53597,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 53235,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 53259,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 53267,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 53327,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0706,
+          "byte_offset": 53399,
+          "raw_hex": "50fc1873d712b23f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 53473,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 53587,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 53476,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 53427,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10330241,
+          "byte_offset": 53428,
+          "raw_hex": "81c1f604"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 466,
+          "byte_offset": 53432,
+          "raw_hex": "d203",
+          "source_string": "fp_10330241"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10330241,
+          "byte_offset": 53452,
+          "raw_hex": "81c1f604"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 53456,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 430.0,
+          "byte_offset": 53469,
+          "raw_hex": "0000d743"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 53588,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 219,
+          "source_string": "stk_mp7"
+        },
+        "viewkick_no": {
+          "string_table_index": 221,
+          "source_string": "10330011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13341401,
+      "tier_one_gear_id": 10341401,
+      "gun_no": 10340131,
+      "forge_id": "weapon:pdw90-holographic-resonance",
+      "forge_name": "PDW90 - Holographic Resonance",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13341401",
+      "gun_row_bounds": [
+        85324,
+        85773
+      ],
+      "prefix_shape": "alternate_prefix_twelve_bytes_before_first_float",
+      "float_start_offset": 85336,
+      "float_end_offset": 85564,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 85736,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.06666,
+          "byte_offset": 85372,
+          "raw_hex": "548cf337a110b13f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.06666,
+          "byte_offset": 85392,
+          "raw_hex": "548cf337a110b13f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.06666,
+          "byte_offset": 85400,
+          "raw_hex": "548cf337a110b13f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 85460,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.06666,
+          "byte_offset": 85536,
+          "raw_hex": "548cf337a110b13f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 85610,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 85726,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 85613,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 85564,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10340131,
+          "byte_offset": 85565,
+          "raw_hex": "a38ef704"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 564,
+          "byte_offset": 85569,
+          "raw_hex": "b404",
+          "source_string": "fp_10340011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10340131,
+          "byte_offset": 85589,
+          "raw_hex": "a38ef704"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 85593,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 430.0,
+          "byte_offset": 85606,
+          "raw_hex": "0000d743"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 85727,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 565,
+          "source_string": "stk_p90"
+        },
+        "viewkick_no": {
+          "string_table_index": 631,
+          "source_string": "10340011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13351101,
+      "tier_one_gear_id": 10351101,
+      "gun_no": 10350011,
+      "forge_id": "weapon:nail-gun",
+      "forge_name": "Nail Gun",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13351101",
+      "gun_row_bounds": [
+        101742,
+        102193
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 101748,
+      "float_end_offset": 101984,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 102156,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.15,
+          "byte_offset": 101784,
+          "raw_hex": "333333333333c33f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.15,
+          "byte_offset": 101808,
+          "raw_hex": "333333333333c33f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.15,
+          "byte_offset": 101816,
+          "raw_hex": "333333333333c33f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 101876,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.15,
+          "byte_offset": 101956,
+          "raw_hex": "333333333333c33f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 102030,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 102146,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 102033,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 101984,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10350011,
+          "byte_offset": 101985,
+          "raw_hex": "bbdbf704"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 638,
+          "byte_offset": 101989,
+          "raw_hex": "fe04",
+          "source_string": "fp_10350011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10350011,
+          "byte_offset": 102009,
+          "raw_hex": "bbdbf704"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 102013,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 430.0,
+          "byte_offset": 102026,
+          "raw_hex": "0000d743"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 102147,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 639,
+          "source_string": "stk_nailgun"
+        },
+        "viewkick_no": {
+          "string_table_index": 899,
+          "source_string": "10350011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13411101,
+      "tier_one_gear_id": 10411101,
+      "gun_no": 10410011,
+      "forge_id": "weapon:scar",
+      "forge_name": "SCAR",
+      "source_crosswalk_classification": "proposed_exact_tier_one_gear_title_alias",
+      "source_crosswalk_url": null,
+      "gun_row_bounds": [
+        57145,
+        57586
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 57151,
+      "float_end_offset": 57379,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 57549,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 57187,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 57211,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 57219,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 57279,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 57355,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 57425,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 57539,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 57428,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 57379,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10410011,
+          "byte_offset": 57380,
+          "raw_hex": "9bb0fb04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 457,
+          "byte_offset": 57384,
+          "raw_hex": "c903",
+          "source_string": "fp_10410011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10410011,
+          "byte_offset": 57404,
+          "raw_hex": "9bb0fb04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 57408,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 57421,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 57540,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 278,
+          "source_string": "stk_scar"
+        },
+        "viewkick_no": {
+          "string_table_index": 185,
+          "source_string": "10410011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13411201,
+      "tier_one_gear_id": 10411201,
+      "gun_no": 10410121,
+      "forge_id": "weapon:socr-sand-dancer",
+      "forge_name": "SOCR - Sand Dancer",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13411201",
+      "gun_row_bounds": [
+        105658,
+        106096
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 105664,
+      "float_end_offset": 105892,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 106059,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 105700,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 105724,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 105732,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 105792,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 105868,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 105935,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 106049,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 105938,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 105892,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10410121,
+          "byte_offset": 105893,
+          "raw_hex": "89b1fb04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 649,
+          "byte_offset": 105897,
+          "raw_hex": "8905",
+          "source_string": "fp_10410121"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10410121,
+          "byte_offset": 105914,
+          "raw_hex": "89b1fb04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 105918,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 105931,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 106050,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 278,
+          "source_string": "stk_scar"
+        },
+        "viewkick_no": {
+          "string_table_index": 185,
+          "source_string": "10410011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13411301,
+      "tier_one_gear_id": 10411301,
+      "gun_no": 10410131,
+      "forge_id": "weapon:socr-the-last-valor",
+      "forge_name": "SOCR - The Last Valor",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13411301",
+      "gun_row_bounds": [
+        106489,
+        106927
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 106495,
+      "float_end_offset": 106723,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 106890,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 106531,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 106555,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 106563,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 106623,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 106699,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 106766,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 106880,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 106769,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 106723,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10410131,
+          "byte_offset": 106724,
+          "raw_hex": "93b1fb04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 525,
+          "byte_offset": 106728,
+          "raw_hex": "8d04",
+          "source_string": "fp_10410131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10410131,
+          "byte_offset": 106745,
+          "raw_hex": "93b1fb04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 106749,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 106762,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 106881,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 278,
+          "source_string": "stk_scar"
+        },
+        "viewkick_no": {
+          "string_table_index": 185,
+          "source_string": "10410011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13412301,
+      "tier_one_gear_id": 10412301,
+      "gun_no": 10410231,
+      "forge_id": "weapon:socr-outsider",
+      "forge_name": "SOCR - Outsider",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13412301",
+      "gun_row_bounds": [
+        58063,
+        58511
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 58069,
+      "float_end_offset": 58297,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 58465,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 58105,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 58129,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 58137,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 58197,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 58273,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 58340,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 58455,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 58343,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 58297,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10410231,
+          "byte_offset": 58298,
+          "raw_hex": "f7b1fb04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 457,
+          "byte_offset": 58302,
+          "raw_hex": "c903",
+          "source_string": "fp_10410011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10410231,
+          "byte_offset": 58319,
+          "raw_hex": "f7b1fb04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 58323,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 58336,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 58456,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 278,
+          "source_string": "stk_scar"
+        },
+        "viewkick_no": {
+          "string_table_index": 185,
+          "source_string": "10410011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13413301,
+      "tier_one_gear_id": 10413301,
+      "gun_no": 10410331,
+      "forge_id": "weapon:socr-cosmic-visitor",
+      "forge_name": "SOCR - Cosmic Visitor",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13413301",
+      "gun_row_bounds": [
+        108668,
+        109106
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 108674,
+      "float_end_offset": 108902,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 109069,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 108710,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 108734,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 108742,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 108802,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 108878,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 108945,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 109059,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 108948,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 108902,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10410131,
+          "byte_offset": 108903,
+          "raw_hex": "93b1fb04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 525,
+          "byte_offset": 108907,
+          "raw_hex": "8d04",
+          "source_string": "fp_10410131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10410131,
+          "byte_offset": 108924,
+          "raw_hex": "93b1fb04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 108928,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 108941,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 109060,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 278,
+          "source_string": "stk_scar"
+        },
+        "viewkick_no": {
+          "string_table_index": 185,
+          "source_string": "10410011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13421101,
+      "tier_one_gear_id": 10421101,
+      "gun_no": 10420011,
+      "forge_id": "weapon:kam",
+      "forge_name": "KAM",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13421101",
+      "gun_row_bounds": [
+        109995,
+        110447
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 110001,
+      "float_end_offset": 110233,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 110401,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.1,
+          "byte_offset": 110037,
+          "raw_hex": "9a9999999999b93f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.1,
+          "byte_offset": 110061,
+          "raw_hex": "9a9999999999b93f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.1,
+          "byte_offset": 110069,
+          "raw_hex": "9a9999999999b93f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 110129,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.1,
+          "byte_offset": 110205,
+          "raw_hex": "9a9999999999b93f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 110276,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 110391,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 110279,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 110233,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10420011,
+          "byte_offset": 110234,
+          "raw_hex": "abfefb04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 655,
+          "byte_offset": 110238,
+          "raw_hex": "8f05",
+          "source_string": "fp_10420011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10420011,
+          "byte_offset": 110255,
+          "raw_hex": "abfefb04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 110259,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 110272,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 110392,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 257,
+          "source_string": "stk_akm"
+        },
+        "viewkick_no": {
+          "string_table_index": 273,
+          "source_string": "10420011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13421201,
+      "tier_one_gear_id": 10421201,
+      "gun_no": 10420121,
+      "forge_id": "weapon:kam-pioneer",
+      "forge_name": "KAM - Pioneer",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13421201",
+      "gun_row_bounds": [
+        110879,
+        111322
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 110885,
+      "float_end_offset": 111117,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 111285,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.1,
+          "byte_offset": 110921,
+          "raw_hex": "9a9999999999b93f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.1,
+          "byte_offset": 110945,
+          "raw_hex": "9a9999999999b93f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.1,
+          "byte_offset": 110953,
+          "raw_hex": "9a9999999999b93f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 111013,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.1,
+          "byte_offset": 111089,
+          "raw_hex": "9a9999999999b93f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 111160,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 111275,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 111163,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 111117,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10420121,
+          "byte_offset": 111118,
+          "raw_hex": "99fffb04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 658,
+          "byte_offset": 111122,
+          "raw_hex": "9205",
+          "source_string": "fp_10420121"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10420121,
+          "byte_offset": 111139,
+          "raw_hex": "99fffb04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 111143,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 111156,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 111276,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 257,
+          "source_string": "stk_akm"
+        },
+        "viewkick_no": {
+          "string_table_index": 273,
+          "source_string": "10420011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13431101,
+      "tier_one_gear_id": 10431101,
+      "gun_no": 10430011,
+      "forge_id": "weapon:xm8",
+      "forge_name": "XM8",
+      "source_crosswalk_classification": "proposed_exact_tier_one_gear_title_alias",
+      "source_crosswalk_url": null,
+      "gun_row_bounds": [
+        89696,
+        90152
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 89702,
+      "float_end_offset": 89938,
+      "anchored_float_path_count": 3,
+      "verified_suffix_start_offset": 90106,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 89738,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 89762,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 89770,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 89830,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 89910,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 89981,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 90096,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 89984,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 89938,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10430011,
+          "byte_offset": 89939,
+          "raw_hex": "bbccfc04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 379,
+          "byte_offset": 89943,
+          "raw_hex": "fb02",
+          "source_string": "fp_10430011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10430011,
+          "byte_offset": 89960,
+          "raw_hex": "bbccfc04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 89964,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 89977,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 90097,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 448,
+          "source_string": "stk_xm8"
+        },
+        "viewkick_no": {
+          "string_table_index": 326,
+          "source_string": "10430011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13431301,
+      "tier_one_gear_id": 10431301,
+      "gun_no": 10430131,
+      "forge_id": "weapon:oic-8-last-carnival",
+      "forge_name": "OIC-8 - Last Carnival",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13431301",
+      "gun_row_bounds": [
+        48039,
+        48486
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 48045,
+      "float_end_offset": 48281,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 48449,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 48081,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 48105,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 48113,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 48173,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 48253,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 48324,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 48439,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 48327,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 48281,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10430131,
+          "byte_offset": 48282,
+          "raw_hex": "b3cdfc04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 379,
+          "byte_offset": 48286,
+          "raw_hex": "fb02",
+          "source_string": "fp_10430011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10430131,
+          "byte_offset": 48303,
+          "raw_hex": "b3cdfc04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 48307,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 48320,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 48440,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 448,
+          "source_string": "stk_xm8"
+        },
+        "viewkick_no": {
+          "string_table_index": 326,
+          "source_string": "10430011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13441101,
+      "tier_one_gear_id": 10441101,
+      "gun_no": 10440011,
+      "forge_id": "weapon:m416",
+      "forge_name": "M416",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13441101",
+      "gun_row_bounds": [
+        117866,
+        118308
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 117872,
+      "float_end_offset": 118104,
+      "anchored_float_path_count": 3,
+      "verified_suffix_start_offset": 118271,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 117908,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 117932,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 117940,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 118000,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 118076,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 118147,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 118261,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 118150,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 118104,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10440011,
+          "byte_offset": 118105,
+          "raw_hex": "cb9afd04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 670,
+          "byte_offset": 118109,
+          "raw_hex": "9e05",
+          "source_string": "fp_10440011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10440011,
+          "byte_offset": 118126,
+          "raw_hex": "cb9afd04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 118130,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 118143,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 118262,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 262,
+          "source_string": "stk_hk416"
+        },
+        "viewkick_no": {
+          "string_table_index": 185,
+          "source_string": "10410011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13441301,
+      "tier_one_gear_id": 10441301,
+      "gun_no": 10440131,
+      "forge_id": "weapon:m416-autumn-equinox",
+      "forge_name": "M416 - Autumn Equinox",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13441301",
+      "gun_row_bounds": [
+        118726,
+        119168
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 118732,
+      "float_end_offset": 118964,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 119131,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 118768,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 118792,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 118800,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 118860,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 118936,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 119007,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 119121,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 119010,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 118964,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10440131,
+          "byte_offset": 118965,
+          "raw_hex": "c39bfd04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 330,
+          "byte_offset": 118969,
+          "raw_hex": "ca02",
+          "source_string": "fp_10440131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10440131,
+          "byte_offset": 118986,
+          "raw_hex": "c39bfd04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 118990,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 119003,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 119122,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 262,
+          "source_string": "stk_hk416"
+        },
+        "viewkick_no": {
+          "string_table_index": 328,
+          "source_string": "10440011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13442101,
+      "tier_one_gear_id": 10442101,
+      "gun_no": 10440211,
+      "forge_id": "weapon:m416-scorched-earth",
+      "forge_name": "M416 - Scorched Earth",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13442101",
+      "gun_row_bounds": [
+        120477,
+        120919
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 120483,
+      "float_end_offset": 120715,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 120882,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 120519,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 120543,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 120551,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 120611,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 120687,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 120758,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 120872,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 120761,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 120715,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10440211,
+          "byte_offset": 120716,
+          "raw_hex": "939cfd04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 330,
+          "byte_offset": 120720,
+          "raw_hex": "ca02",
+          "source_string": "fp_10440131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10440211,
+          "byte_offset": 120737,
+          "raw_hex": "939cfd04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 120741,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 120754,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 120873,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 262,
+          "source_string": "stk_hk416"
+        },
+        "viewkick_no": {
+          "string_table_index": 328,
+          "source_string": "10440011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13442301,
+      "tier_one_gear_id": 10442301,
+      "gun_no": 10440231,
+      "forge_id": "weapon:m416-silent-anabasis",
+      "forge_name": "M416 - Silent Anabasis",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13442301",
+      "gun_row_bounds": [
+        120919,
+        121361
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 120925,
+      "float_end_offset": 121157,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 121324,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 120961,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 120985,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 120993,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 121053,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.08,
+          "byte_offset": 121129,
+          "raw_hex": "7b14ae47e17ab43f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 121200,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 121314,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 121203,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 121157,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10440231,
+          "byte_offset": 121158,
+          "raw_hex": "a79cfd04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 330,
+          "byte_offset": 121162,
+          "raw_hex": "ca02",
+          "source_string": "fp_10440131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10440231,
+          "byte_offset": 121179,
+          "raw_hex": "a79cfd04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 121183,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 121196,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 121315,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 262,
+          "source_string": "stk_hk416"
+        },
+        "viewkick_no": {
+          "string_table_index": 328,
+          "source_string": "10440011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13451401,
+      "tier_one_gear_id": 10451401,
+      "gun_no": 10450141,
+      "forge_id": "weapon:aug-electron-cloud",
+      "forge_name": "AUG - Electron Cloud",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13451401",
+      "gun_row_bounds": [
+        122688,
+        123168
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 122694,
+      "float_end_offset": 122934,
+      "anchored_float_path_count": 3,
+      "verified_suffix_start_offset": 123101,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0833,
+          "byte_offset": 122730,
+          "raw_hex": "a5bdc1172653b53f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0833,
+          "byte_offset": 122754,
+          "raw_hex": "a5bdc1172653b53f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0833,
+          "byte_offset": 122762,
+          "raw_hex": "a5bdc1172653b53f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 122822,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0833,
+          "byte_offset": 122906,
+          "raw_hex": "a5bdc1172653b53f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 122977,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 123091,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 122980,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 122934,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10450011,
+          "byte_offset": 122935,
+          "raw_hex": "dbe8fd04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 615,
+          "byte_offset": 122939,
+          "raw_hex": "e704",
+          "source_string": "fp_10450011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10450011,
+          "byte_offset": 122956,
+          "raw_hex": "dbe8fd04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 122960,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 122973,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 123092,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 537,
+          "source_string": "stk_aug"
+        },
+        "viewkick_no": {
+          "string_table_index": 185,
+          "source_string": "10410011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13511101,
+      "tier_one_gear_id": 10511101,
+      "gun_no": 10510011,
+      "forge_id": "weapon:sn700",
+      "forge_name": "SN700",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13511101",
+      "gun_row_bounds": [
+        123168,
+        123594
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 123173,
+      "float_end_offset": 123385,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 123558,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 123209,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 123229,
+          "raw_hex": "0000003f"
+        },
+        "burst_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 123233,
+          "raw_hex": "0000003f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 1.0,
+          "byte_offset": 123285,
+          "raw_hex": "0000803f"
+        },
+        "single_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 123365,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 123431,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 123548,
+          "raw_hex": "01"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 123434,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 123385,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10510011,
+          "byte_offset": 123386,
+          "raw_hex": "bbbd8105"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 613,
+          "byte_offset": 123390,
+          "raw_hex": "e504",
+          "source_string": "fp_10510011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10510011,
+          "byte_offset": 123410,
+          "raw_hex": "bbbd8105"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 123414,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 123427,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 123549,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 276,
+          "source_string": "stk_m700"
+        },
+        "viewkick_no": {
+          "string_table_index": 259,
+          "source_string": "10510011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13511201,
+      "tier_one_gear_id": 10511201,
+      "gun_no": 10510121,
+      "forge_id": "weapon:sn700-dark-snowflake",
+      "forge_name": "SN700 - Dark Snowflake",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13511201",
+      "gun_row_bounds": [
+        96037,
+        96463
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 96042,
+      "float_end_offset": 96254,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 96427,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 96078,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 96098,
+          "raw_hex": "0000003f"
+        },
+        "burst_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 96102,
+          "raw_hex": "0000003f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 1.0,
+          "byte_offset": 96154,
+          "raw_hex": "0000803f"
+        },
+        "single_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 96234,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 96300,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 96417,
+          "raw_hex": "01"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 96303,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 96254,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10510121,
+          "byte_offset": 96255,
+          "raw_hex": "a9be8105"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 676,
+          "byte_offset": 96259,
+          "raw_hex": "a405",
+          "source_string": "fp_10510121"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10510121,
+          "byte_offset": 96279,
+          "raw_hex": "a9be8105"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 96283,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 96296,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 96418,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 276,
+          "source_string": "stk_m700"
+        },
+        "viewkick_no": {
+          "string_table_index": 259,
+          "source_string": "10510011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13511301,
+      "tier_one_gear_id": 10511301,
+      "gun_no": 10510131,
+      "forge_id": "weapon:sn700-gulped-lore",
+      "forge_name": "SN700 - Gulped Lore",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13511301",
+      "gun_row_bounds": [
+        123594,
+        124018
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 123599,
+      "float_end_offset": 123811,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 123982,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 123635,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 123655,
+          "raw_hex": "0000003f"
+        },
+        "burst_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 123659,
+          "raw_hex": "0000003f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 1.0,
+          "byte_offset": 123711,
+          "raw_hex": "0000803f"
+        },
+        "single_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 123791,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 123857,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 123972,
+          "raw_hex": "01"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 123860,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 123811,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10510131,
+          "byte_offset": 123812,
+          "raw_hex": "b3be8105"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 590,
+          "byte_offset": 123816,
+          "raw_hex": "ce04",
+          "source_string": "fp_10510131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10510131,
+          "byte_offset": 123836,
+          "raw_hex": "b3be8105"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 123840,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 123853,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 123973,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 276,
+          "source_string": "stk_m700"
+        },
+        "viewkick_no": {
+          "string_table_index": 259,
+          "source_string": "10510011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13512301,
+      "tier_one_gear_id": 10512301,
+      "gun_no": 10510151,
+      "forge_id": "weapon:sn700-finale",
+      "forge_name": "SN700 - Finale",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13512301",
+      "gun_row_bounds": [
+        39024,
+        39455
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 39029,
+      "float_end_offset": 39241,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 39411,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 39065,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 39085,
+          "raw_hex": "0000003f"
+        },
+        "burst_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 39089,
+          "raw_hex": "0000003f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 1.0,
+          "byte_offset": 39141,
+          "raw_hex": "0000803f"
+        },
+        "single_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 39221,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 39287,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 39401,
+          "raw_hex": "01"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 39290,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 39241,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10510131,
+          "byte_offset": 39242,
+          "raw_hex": "b3be8105"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 590,
+          "byte_offset": 39246,
+          "raw_hex": "ce04",
+          "source_string": "fp_10510131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10510131,
+          "byte_offset": 39266,
+          "raw_hex": "b3be8105"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 39270,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 39283,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 39402,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 276,
+          "source_string": "stk_m700"
+        },
+        "viewkick_no": {
+          "string_table_index": 259,
+          "source_string": "10510011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13521101,
+      "tier_one_gear_id": 10521101,
+      "gun_no": 10520011,
+      "forge_id": "weapon:awm",
+      "forge_name": "AWM",
+      "source_crosswalk_classification": "proposed_exact_tier_one_gear_title_alias",
+      "source_crosswalk_url": null,
+      "gun_row_bounds": [
+        127893,
+        128340
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 127899,
+      "float_end_offset": 128131,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 128304,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 127935,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 127959,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 127967,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "plug_time": {
+          "type_code": 34,
+          "value": 0.95,
+          "byte_offset": 128023,
+          "raw_hex": "666666666666ee3f"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 128107,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 128177,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 128294,
+          "raw_hex": "01"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 128180,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 128131,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10520011,
+          "byte_offset": 128132,
+          "raw_hex": "cb8b8205"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 402,
+          "byte_offset": 128136,
+          "raw_hex": "9203",
+          "source_string": "fp_10520011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10520011,
+          "byte_offset": 128156,
+          "raw_hex": "cb8b8205"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 128160,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 128173,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 128295,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 404,
+          "source_string": "stk_awp"
+        },
+        "viewkick_no": {
+          "string_table_index": 405,
+          "source_string": "10520011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13521301,
+      "tier_one_gear_id": 10521301,
+      "gun_no": 10520121,
+      "forge_id": "weapon:aws-338-black-panther",
+      "forge_name": "AWS.338 - Black Panther",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13521301",
+      "gun_row_bounds": [
+        88813,
+        89260
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 88819,
+      "float_end_offset": 89051,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 89224,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 88855,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 88879,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 88887,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "plug_time": {
+          "type_code": 34,
+          "value": 0.95,
+          "byte_offset": 88943,
+          "raw_hex": "666666666666ee3f"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 89027,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 89097,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 89214,
+          "raw_hex": "01"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 89100,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 89051,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10520121,
+          "byte_offset": 89052,
+          "raw_hex": "b98c8205"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 402,
+          "byte_offset": 89056,
+          "raw_hex": "9203",
+          "source_string": "fp_10520011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10520121,
+          "byte_offset": 89076,
+          "raw_hex": "b98c8205"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 89080,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 89093,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 89215,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 404,
+          "source_string": "stk_awp"
+        },
+        "viewkick_no": {
+          "string_table_index": 405,
+          "source_string": "10520011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13521401,
+      "tier_one_gear_id": 10521401,
+      "gun_no": 10520131,
+      "forge_id": "weapon:aws-338-bullseye",
+      "forge_name": "AWS.338 - Bullseye",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13521401",
+      "gun_row_bounds": [
+        128340,
+        128787
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 128346,
+      "float_end_offset": 128578,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 128751,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 128382,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 128406,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 128414,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "plug_time": {
+          "type_code": 34,
+          "value": 0.95,
+          "byte_offset": 128470,
+          "raw_hex": "666666666666ee3f"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.54,
+          "byte_offset": 128554,
+          "raw_hex": "48e17a14ae47e13f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 128624,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 128741,
+          "raw_hex": "01"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 128627,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 128578,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10520131,
+          "byte_offset": 128579,
+          "raw_hex": "c38c8205"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 402,
+          "byte_offset": 128583,
+          "raw_hex": "9203",
+          "source_string": "fp_10520011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10520131,
+          "byte_offset": 128603,
+          "raw_hex": "c38c8205"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 128607,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 128620,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 128742,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 404,
+          "source_string": "stk_awp"
+        },
+        "viewkick_no": {
+          "string_table_index": 405,
+          "source_string": "10520011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13531101,
+      "tier_one_gear_id": 10531101,
+      "gun_no": 10530011,
+      "forge_id": "weapon:m82a1",
+      "forge_name": "M82A1",
+      "source_crosswalk_classification": "proposed_exact_tier_one_gear_title_alias",
+      "source_crosswalk_url": null,
+      "gun_row_bounds": [
+        129218,
+        129654
+      ],
+      "prefix_shape": "alternate_prefix_twelve_bytes_before_first_float",
+      "float_start_offset": 129230,
+      "float_end_offset": 129446,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 129618,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.71,
+          "byte_offset": 129266,
+          "raw_hex": "b81e85eb51b8e63f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.71,
+          "byte_offset": 129282,
+          "raw_hex": "b81e85eb51b8e63f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.71,
+          "byte_offset": 129290,
+          "raw_hex": "b81e85eb51b8e63f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 129346,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.71,
+          "byte_offset": 129422,
+          "raw_hex": "b81e85eb51b8e63f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 129492,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 129608,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 129495,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 129446,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10530011,
+          "byte_offset": 129447,
+          "raw_hex": "dbd98205"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 543,
+          "byte_offset": 129451,
+          "raw_hex": "9f04",
+          "source_string": "fp_10530011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10530011,
+          "byte_offset": 129471,
+          "raw_hex": "dbd98205"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 129475,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 129488,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 129609,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 297,
+          "source_string": "stk_m82"
+        },
+        "viewkick_no": {
+          "string_table_index": 267,
+          "source_string": "10530011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13531201,
+      "tier_one_gear_id": 10531201,
+      "gun_no": 10530121,
+      "forge_id": "weapon:hamr-crumble",
+      "forge_name": "HAMR - Crumble",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13531201",
+      "gun_row_bounds": [
+        122254,
+        122688
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 122260,
+      "float_end_offset": 122480,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 122652,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.71,
+          "byte_offset": 122296,
+          "raw_hex": "b81e85eb51b8e63f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.71,
+          "byte_offset": 122312,
+          "raw_hex": "b81e85eb51b8e63f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.71,
+          "byte_offset": 122320,
+          "raw_hex": "b81e85eb51b8e63f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 122376,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.71,
+          "byte_offset": 122456,
+          "raw_hex": "b81e85eb51b8e63f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 122526,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 122642,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 122529,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 122480,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10530121,
+          "byte_offset": 122481,
+          "raw_hex": "c9da8205"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 687,
+          "byte_offset": 122485,
+          "raw_hex": "af05",
+          "source_string": "fp_10530121"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10530121,
+          "byte_offset": 122505,
+          "raw_hex": "c9da8205"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 122509,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 122522,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 122643,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 297,
+          "source_string": "stk_m82"
+        },
+        "viewkick_no": {
+          "string_table_index": 267,
+          "source_string": "10530011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13541101,
+      "tier_one_gear_id": 10541101,
+      "gun_no": 10540011,
+      "forge_id": "weapon:wa2000",
+      "forge_name": "WA2000",
+      "source_crosswalk_classification": "proposed_exact_tier_one_gear_title_alias",
+      "source_crosswalk_url": null,
+      "gun_row_bounds": [
+        38553,
+        39024
+      ],
+      "prefix_shape": "alternate_prefix_twelve_bytes_before_first_float",
+      "float_start_offset": 38565,
+      "float_end_offset": 38781,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 38950,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.57,
+          "byte_offset": 38601,
+          "raw_hex": "3d0ad7a3703de23f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.57,
+          "byte_offset": 38617,
+          "raw_hex": "3d0ad7a3703de23f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.57,
+          "byte_offset": 38625,
+          "raw_hex": "3d0ad7a3703de23f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 38681,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.57,
+          "byte_offset": 38757,
+          "raw_hex": "3d0ad7a3703de23f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 38827,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 38940,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 38830,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 38781,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10540011,
+          "byte_offset": 38782,
+          "raw_hex": "eba78305"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 415,
+          "byte_offset": 38786,
+          "raw_hex": "9f03",
+          "source_string": "fp_10540011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10540011,
+          "byte_offset": 38806,
+          "raw_hex": "eba78305"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 38810,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 38823,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 38941,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 349,
+          "source_string": "stk_wa2000"
+        },
+        "viewkick_no": {
+          "string_table_index": 336,
+          "source_string": "10540011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13541301,
+      "tier_one_gear_id": 10541301,
+      "gun_no": 10540131,
+      "forge_id": "weapon:sr2000-die-another-day",
+      "forge_name": "SR2000 - Die Another Day",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13541301",
+      "gun_row_bounds": [
+        133574,
+        134014
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 133580,
+      "float_end_offset": 133792,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 133962,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.57,
+          "byte_offset": 133616,
+          "raw_hex": "3d0ad7a3703de23f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.57,
+          "byte_offset": 133632,
+          "raw_hex": "3d0ad7a3703de23f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.57,
+          "byte_offset": 133640,
+          "raw_hex": "3d0ad7a3703de23f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 133692,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.57,
+          "byte_offset": 133768,
+          "raw_hex": "3d0ad7a3703de23f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 133838,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 133952,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 133841,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 133792,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10540131,
+          "byte_offset": 133793,
+          "raw_hex": "e3a88305"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 415,
+          "byte_offset": 133797,
+          "raw_hex": "9f03",
+          "source_string": "fp_10540011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10540131,
+          "byte_offset": 133817,
+          "raw_hex": "e3a88305"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 133821,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 133834,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 133953,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 349,
+          "source_string": "stk_wa2000"
+        },
+        "viewkick_no": {
+          "string_table_index": 336,
+          "source_string": "10540011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13561401,
+      "tier_one_gear_id": 10561401,
+      "gun_no": 10560131,
+      "forge_id": "weapon:ebr-14-octopus-grilled-rings",
+      "forge_name": "EBR-14 - Octopus! Grilled Rings!",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13561401",
+      "gun_row_bounds": [
+        137439,
+        137869
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 137445,
+      "float_end_offset": 137665,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 137832,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.2,
+          "byte_offset": 137481,
+          "raw_hex": "9a9999999999c93f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.2,
+          "byte_offset": 137505,
+          "raw_hex": "9a9999999999c93f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.2,
+          "byte_offset": 137513,
+          "raw_hex": "9a9999999999c93f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 137565,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.2,
+          "byte_offset": 137641,
+          "raw_hex": "9a9999999999c93f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 137708,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 137822,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 137711,
+          "raw_hex": "01",
+          "source_native_label_if_indexed": "SEMI"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 137665,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10560011,
+          "byte_offset": 137666,
+          "raw_hex": "8bc48405"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 593,
+          "byte_offset": 137670,
+          "raw_hex": "d104",
+          "source_string": "fp_10560011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10560011,
+          "byte_offset": 137687,
+          "raw_hex": "8bc48405"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 137691,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 137704,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 137823,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 591,
+          "source_string": "stk_mk14"
+        },
+        "viewkick_no": {
+          "string_table_index": 584,
+          "source_string": "10560011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13611101,
+      "tier_one_gear_id": 10611101,
+      "gun_no": 10610011,
+      "forge_id": "weapon:bar",
+      "forge_name": "BAR",
+      "source_crosswalk_classification": "proposed_exact_tier_one_gear_title_alias",
+      "source_crosswalk_url": null,
+      "gun_row_bounds": [
+        139525,
+        139957
+      ],
+      "prefix_shape": "alternate_prefix_twelve_bytes_before_first_float",
+      "float_start_offset": 139537,
+      "float_end_offset": 139753,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 139921,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.15,
+          "byte_offset": 139573,
+          "raw_hex": "333333333333c33f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.15,
+          "byte_offset": 139593,
+          "raw_hex": "333333333333c33f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.15,
+          "byte_offset": 139601,
+          "raw_hex": "333333333333c33f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 139653,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.15,
+          "byte_offset": 139729,
+          "raw_hex": "333333333333c33f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 139796,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 139911,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 139799,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 139753,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10610011,
+          "byte_offset": 139754,
+          "raw_hex": "dbca8705"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 374,
+          "byte_offset": 139758,
+          "raw_hex": "f602",
+          "source_string": "fp_10610011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10610011,
+          "byte_offset": 139775,
+          "raw_hex": "dbca8705"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 139779,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 139792,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 139912,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 700,
+          "source_string": "stk_bar"
+        },
+        "viewkick_no": {
+          "string_table_index": 356,
+          "source_string": "10610011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13621101,
+      "tier_one_gear_id": 10621101,
+      "gun_no": 10620011,
+      "forge_id": "weapon:mg4",
+      "forge_name": "MG4",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13621101",
+      "gun_row_bounds": [
+        143760,
+        144196
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 143766,
+      "float_end_offset": 143990,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 144160,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 143798,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 143822,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 143830,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 143886,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 143962,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 144033,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 144150,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 144036,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 143990,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10620011,
+          "byte_offset": 143991,
+          "raw_hex": "eb988805"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 178,
+          "byte_offset": 143995,
+          "raw_hex": "b201",
+          "source_string": "fp_10620011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10620011,
+          "byte_offset": 144012,
+          "raw_hex": "eb988805"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 144016,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 144029,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 144151,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 213,
+          "source_string": "stk_mg4"
+        },
+        "viewkick_no": {
+          "string_table_index": 175,
+          "source_string": "10620011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13621201,
+      "tier_one_gear_id": 10621201,
+      "gun_no": 10620121,
+      "forge_id": "weapon:mg4-sandstorm",
+      "forge_name": "MG4 - Sandstorm",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13621201",
+      "gun_row_bounds": [
+        105222,
+        105658
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 105228,
+      "float_end_offset": 105452,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 105622,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 105260,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 105284,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 105292,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 105348,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 105424,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 105495,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 105612,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 105498,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 105452,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10620121,
+          "byte_offset": 105453,
+          "raw_hex": "d9998805"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 178,
+          "byte_offset": 105457,
+          "raw_hex": "b201",
+          "source_string": "fp_10620011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10620121,
+          "byte_offset": 105474,
+          "raw_hex": "d9998805"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 105478,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 105491,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 105613,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 213,
+          "source_string": "stk_mg4"
+        },
+        "viewkick_no": {
+          "string_table_index": 175,
+          "source_string": "10620011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13621301,
+      "tier_one_gear_id": 10621301,
+      "gun_no": 10620131,
+      "forge_id": "weapon:mg4-wrath-of-hades",
+      "forge_name": "MG4 - Wrath Of Hades",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13621301",
+      "gun_row_bounds": [
+        144196,
+        144632
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 144202,
+      "float_end_offset": 144426,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 144596,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 144234,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 144258,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 144266,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 144322,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 144398,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 144469,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 144586,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 144472,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 144426,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10620131,
+          "byte_offset": 144427,
+          "raw_hex": "e3998805"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 703,
+          "byte_offset": 144431,
+          "raw_hex": "bf05",
+          "source_string": "fp_10620131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10620131,
+          "byte_offset": 144448,
+          "raw_hex": "e3998805"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 144452,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 144465,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 144587,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 213,
+          "source_string": "stk_mg4"
+        },
+        "viewkick_no": {
+          "string_table_index": 175,
+          "source_string": "10620011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13622301,
+      "tier_one_gear_id": 10622301,
+      "gun_no": 10620231,
+      "forge_id": "weapon:mg4-predator",
+      "forge_name": "MG4 - Predator",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/gear/10622301",
+      "gun_row_bounds": [
+        145506,
+        145942
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 145512,
+      "float_end_offset": 145736,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 145906,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 145544,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 145568,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 145576,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 145632,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 145708,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 145779,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 145896,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 145782,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 145736,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10620231,
+          "byte_offset": 145737,
+          "raw_hex": "c79a8805"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 178,
+          "byte_offset": 145741,
+          "raw_hex": "b201",
+          "source_string": "fp_10620011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10620231,
+          "byte_offset": 145758,
+          "raw_hex": "c79a8805"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 145762,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 145775,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 145897,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 213,
+          "source_string": "stk_mg4"
+        },
+        "viewkick_no": {
+          "string_table_index": 175,
+          "source_string": "10620011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13624301,
+      "tier_one_gear_id": 10624301,
+      "gun_no": 10620431,
+      "forge_id": "weapon:mg4-conflicting-memories",
+      "forge_name": "MG4 - Conflicting Memories",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13624301",
+      "gun_row_bounds": [
+        145942,
+        146378
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 145948,
+      "float_end_offset": 146172,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 146342,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 145980,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 146004,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 146012,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 146068,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0857,
+          "byte_offset": 146144,
+          "raw_hex": "386744696ff0b53f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 146215,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 146332,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 146218,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 146172,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10620431,
+          "byte_offset": 146173,
+          "raw_hex": "8f9c8805"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 178,
+          "byte_offset": 146177,
+          "raw_hex": "b201",
+          "source_string": "fp_10620011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10620431,
+          "byte_offset": 146194,
+          "raw_hex": "8f9c8805"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 146198,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 146211,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 146333,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 213,
+          "source_string": "stk_mg4"
+        },
+        "viewkick_no": {
+          "string_table_index": 175,
+          "source_string": "10620011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13631101,
+      "tier_one_gear_id": 10631101,
+      "gun_no": 10630011,
+      "forge_id": "weapon:rpd",
+      "forge_name": "RPD",
+      "source_crosswalk_classification": "proposed_exact_tier_one_gear_title_alias",
+      "source_crosswalk_url": null,
+      "gun_row_bounds": [
+        147701,
+        148139
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 147707,
+      "float_end_offset": 147935,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 148103,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 147743,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 147767,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 147775,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 147831,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 147907,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 147978,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 148093,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 147981,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 147935,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10630011,
+          "byte_offset": 147936,
+          "raw_hex": "fbe68805"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 705,
+          "byte_offset": 147940,
+          "raw_hex": "c105",
+          "source_string": "fp_10630011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10630011,
+          "byte_offset": 147957,
+          "raw_hex": "fbe68805"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 147961,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 147974,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 148094,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 362,
+          "source_string": "stk_rpd"
+        },
+        "viewkick_no": {
+          "string_table_index": 343,
+          "source_string": "10630011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13631201,
+      "tier_one_gear_id": 10631201,
+      "gun_no": 10630121,
+      "forge_id": "weapon:kvd-icebreaker",
+      "forge_name": "KVD - Icebreaker",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13631201",
+      "gun_row_bounds": [
+        83951,
+        84389
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 83957,
+      "float_end_offset": 84185,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 84353,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 83993,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 84017,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 84025,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 84081,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 84157,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 84228,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 84343,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 84231,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 84185,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10630121,
+          "byte_offset": 84186,
+          "raw_hex": "e9e78805"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 708,
+          "byte_offset": 84190,
+          "raw_hex": "c405",
+          "source_string": "fp_10630121"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10630121,
+          "byte_offset": 84207,
+          "raw_hex": "e9e78805"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 84211,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 84224,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 84344,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 362,
+          "source_string": "stk_rpd"
+        },
+        "viewkick_no": {
+          "string_table_index": 343,
+          "source_string": "10630011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13631301,
+      "tier_one_gear_id": 10631301,
+      "gun_no": 10630131,
+      "forge_id": "weapon:kvd-boom-boom",
+      "forge_name": "KVD - Boom! Boom!",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13631301",
+      "gun_row_bounds": [
+        148568,
+        149006
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 148574,
+      "float_end_offset": 148802,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 148970,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 148610,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 148634,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 148642,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 148698,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 148774,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 148845,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 148960,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 148848,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 148802,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10630131,
+          "byte_offset": 148803,
+          "raw_hex": "f3e78805"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 505,
+          "byte_offset": 148807,
+          "raw_hex": "f903",
+          "source_string": "fp_10630131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10630131,
+          "byte_offset": 148824,
+          "raw_hex": "f3e78805"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 148828,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 148841,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 148961,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 362,
+          "source_string": "stk_rpd"
+        },
+        "viewkick_no": {
+          "string_table_index": 343,
+          "source_string": "10630011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13641201,
+      "tier_one_gear_id": 10641201,
+      "gun_no": 10640131,
+      "forge_id": "weapon:qbj97-fiery-trees-and-silver-flowers",
+      "forge_name": "QBJ97 - Fiery Trees and Silver Flowers",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13641201",
+      "gun_row_bounds": [
+        151559,
+        151987
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 151565,
+      "float_end_offset": 151781,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 151950,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0923,
+          "byte_offset": 151601,
+          "raw_hex": "8cb96b09f9a0b73f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0923,
+          "byte_offset": 151625,
+          "raw_hex": "8cb96b09f9a0b73f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.0923,
+          "byte_offset": 151633,
+          "raw_hex": "8cb96b09f9a0b73f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 151689,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0923,
+          "byte_offset": 151753,
+          "raw_hex": "8cb96b09f9a0b73f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 151824,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 151940,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 151827,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 151781,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10640011,
+          "byte_offset": 151782,
+          "raw_hex": "8bb58905"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 520,
+          "byte_offset": 151786,
+          "raw_hex": "8804",
+          "source_string": "fp_10640011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10640011,
+          "byte_offset": 151803,
+          "raw_hex": "8bb58905"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 151807,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 151820,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 151941,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 521,
+          "source_string": "stk_qbj97"
+        },
+        "viewkick_no": {
+          "string_table_index": 515,
+          "source_string": "10640011"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13741201,
+      "tier_one_gear_id": 10741201,
+      "gun_no": 10741211,
+      "forge_id": "weapon:recurve-bow",
+      "forge_name": "Recurve Bow",
+      "source_crosswalk_classification": "proposed_exact_public_blueprint_title",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13741201",
+      "gun_row_bounds": [
+        154531,
+        154960
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 154537,
+      "float_end_offset": 154753,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 154924,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 154573,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 154593,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 154601,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 154653,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 154729,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 154800,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 154914,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 154803,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 898,
+          "byte_offset": 154753,
+          "raw_hex": "8207"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10741211,
+          "byte_offset": 154755,
+          "raw_hex": "dbcb8f05"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 578,
+          "byte_offset": 154759,
+          "raw_hex": "c204",
+          "source_string": "fp_10741211"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10741211,
+          "byte_offset": 154779,
+          "raw_hex": "dbcb8f05"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 154783,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 250.0,
+          "byte_offset": 154796,
+          "raw_hex": "00007a43"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 154915,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 579,
+          "source_string": "stk_bow"
+        },
+        "viewkick_no": {
+          "string_table_index": 576,
+          "source_string": "10741211"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13742201,
+      "tier_one_gear_id": 10742201,
+      "gun_no": 10742211,
+      "forge_id": "weapon:compound-bow-the-burden-of-betrayal",
+      "forge_name": "Compound Bow - The Burden of Betrayal",
+      "source_crosswalk_classification": "exact_public_name_and_native_id",
+      "source_crosswalk_url": "https://oncehuman.th.gl/db/blueprints/13742201",
+      "gun_row_bounds": [
+        64904,
+        65333
+      ],
+      "prefix_shape": "three_byte_tag_then_varuint",
+      "float_start_offset": 64910,
+      "float_end_offset": 65126,
+      "anchored_float_path_count": 1,
+      "verified_suffix_start_offset": 65297,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 64946,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 64966,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "burst_time_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 64974,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 65026,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 65102,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 65173,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 65287,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "value": 3,
+          "type_code": 1,
+          "byte_offset": 65176,
+          "raw_hex": "03",
+          "source_native_label_if_indexed": "AUTO"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 903,
+          "byte_offset": 65126,
+          "raw_hex": "8707"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10742211,
+          "byte_offset": 65128,
+          "raw_hex": "c3d38f05"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 578,
+          "byte_offset": 65132,
+          "raw_hex": "c204",
+          "source_string": "fp_10741211"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10742211,
+          "byte_offset": 65152,
+          "raw_hex": "c3d38f05"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 65156,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 250.0,
+          "byte_offset": 65169,
+          "raw_hex": "00007a43"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 65288,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 579,
+          "source_string": "stk_bow"
+        },
+        "viewkick_no": {
+          "string_table_index": 576,
+          "source_string": "10741211"
+        }
+      }
+    }
+  ],
+  "withheld": [
+    {
+      "blueprint_id": 13131101,
+      "forge_id": "weapon:glock",
+      "gun_no": 10130011,
+      "anchored_path_count": 18,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13131201,
+      "forge_id": "weapon:g17-dusty",
+      "gun_no": 10130121,
+      "anchored_path_count": 6,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13131301,
+      "forge_id": "weapon:g17-cash-only",
+      "gun_no": 10130132,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13133401,
+      "forge_id": "weapon:g17-hazardous-object",
+      "gun_no": 10130341,
+      "anchored_path_count": 6,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13211101,
+      "forge_id": "weapon:dbsg",
+      "gun_no": 10210011,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13211201,
+      "forge_id": "weapon:dbsg-old-huntsman",
+      "gun_no": 10210121,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13211301,
+      "forge_id": "weapon:dbsg-dual-fury",
+      "gun_no": 10210131,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13212401,
+      "forge_id": "weapon:dbsg-format",
+      "gun_no": 10210231,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13213401,
+      "forge_id": "weapon:dbsg-doombringer",
+      "gun_no": 10210341,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13221101,
+      "forge_id": "weapon:dp12",
+      "gun_no": 10220011,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13221301,
+      "forge_id": "weapon:db12-backfire",
+      "gun_no": 10220121,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13222301,
+      "forge_id": "weapon:db12-raining-cash",
+      "gun_no": 10220131,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13231101,
+      "forge_id": "weapon:aa12",
+      "gun_no": 10230011,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13231301,
+      "forge_id": "weapon:acs12-corrosion",
+      "gun_no": 10230131,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13233301,
+      "forge_id": "weapon:acs12-netherworld",
+      "gun_no": 10230331,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13234301,
+      "forge_id": "weapon:acs12-pyroclasm-starter",
+      "gun_no": 10230431,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13241201,
+      "forge_id": "weapon:s870-sandstorm",
+      "gun_no": 10240121,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13321101,
+      "forge_id": "weapon:mps5",
+      "gun_no": 10320011,
+      "anchored_path_count": 5,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13321201,
+      "forge_id": "weapon:mps5-blue-tiger",
+      "gun_no": 10320121,
+      "anchored_path_count": 3,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13321301,
+      "forge_id": "weapon:mps5-kumawink",
+      "gun_no": 10320131,
+      "anchored_path_count": 5,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13323401,
+      "forge_id": "weapon:mps5-primal-rage",
+      "gun_no": 10320341,
+      "anchored_path_count": 5,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13332201,
+      "forge_id": "weapon:mps7-urban-ninja",
+      "gun_no": 10330221,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13333401,
+      "forge_id": "weapon:mps7-outer-space",
+      "gun_no": 10330341,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13422301,
+      "forge_id": "weapon:kam-abyss-glance",
+      "gun_no": 10420231,
+      "anchored_path_count": 4,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13531301,
+      "forge_id": "weapon:hamr-hannya",
+      "gun_no": 10530131,
+      "anchored_path_count": 4,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13532401,
+      "forge_id": "weapon:hamr-brahminy",
+      "gun_no": 10530231,
+      "anchored_path_count": 4,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13551101,
+      "forge_id": "weapon:sks",
+      "gun_no": 10550011,
+      "anchored_path_count": 85,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13551401,
+      "forge_id": "weapon:sks-pathfinder",
+      "gun_no": 10550131,
+      "anchored_path_count": 85,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13711101,
+      "forge_id": "weapon:rustic-crossbow",
+      "gun_no": 10710011,
+      "anchored_path_count": 155,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13721301,
+      "forge_id": "weapon:recurve-crossbow",
+      "gun_no": 10721311,
+      "anchored_path_count": 155,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13731401,
+      "forge_id": "weapon:compound-bow",
+      "gun_no": 10731411,
+      "anchored_path_count": 155,
+      "reason": "target_float_field_ambiguous"
+    },
+    {
+      "blueprint_id": 13732401,
+      "forge_id": "weapon:critical-pulse",
+      "gun_no": 10732441,
+      "reason": "float_segment_anchor_missing"
+    },
+    {
+      "blueprint_id": 13800401,
+      "forge_id": "weapon:flamethrower",
+      "gun_no": 10811401,
+      "reason": "float_segment_anchor_missing"
+    }
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

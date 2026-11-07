@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_literal_sha256": "7ba048990ee6da61bd37bd82b00e1a11aa8f4df792e429ebae5342a91f505212",
+  "typed_interval_packet_sha256": "a5bb8ff21efc947b2194f970730c9dc01878ce158501ed635b8ca96cb657f2ab",
+  "method": "Reuse the five exact gun rows and bounded float segment anchors. Require every valid float path to agree on descriptor burst_time_interval; read the three adjacent type1 fields immediately after the independently decoded burst_bullet_num. Preserve default_shoot_mode as raw enum 1/3.",
+  "coverage": {
+    "exact_gun_rows": 5,
+    "extra_fields_per_row": 4
+  },
+  "interpretation_gate": "Native default_shoot_mode is an integer enum and burst_time_interval is a native float. This packet does not map enum1/3 to firing modes; only the statically recovered consumer can determine interval selection and runtime fire rate.",
+  "records": [
+    {
+      "blueprint_id": 13451401,
+      "gear_id": 10451401,
+      "gun_no": 10450141,
+      "burst_time_interval": {
+        "type_code": 34,
+        "value": 0.0833,
+        "byte_offset": 122762,
+        "raw_hex": "a5bdc1172653b53f"
+      },
+      "adjacent_native_mode_fields": {
+        "clip_reload_mode": {
+          "type_code": 1,
+          "value": 1,
+          "byte_offset": 122978,
+          "raw_hex": "01"
+        },
+        "cost_bullet_type": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 122979,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "type_code": 1,
+          "value": 3,
+          "byte_offset": 122980,
+          "raw_hex": "03"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13413301,
+      "gear_id": 10413301,
+      "gun_no": 10410331,
+      "burst_time_interval": {
+        "type_code": 34,
+        "value": 0.12,
+        "byte_offset": 108742,
+        "raw_hex": "b81e85eb51b8be3f"
+      },
+      "adjacent_native_mode_fields": {
+        "clip_reload_mode": {
+          "type_code": 1,
+          "value": 1,
+          "byte_offset": 108946,
+          "raw_hex": "01"
+        },
+        "cost_bullet_type": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 108947,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "type_code": 1,
+          "value": 3,
+          "byte_offset": 108948,
+          "raw_hex": "03"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13742201,
+      "gear_id": 10742201,
+      "gun_no": 10742211,
+      "burst_time_interval": {
+        "type_code": 34,
+        "value": 0.93,
+        "byte_offset": 64974,
+        "raw_hex": "c3f5285c8fc2ed3f"
+      },
+      "adjacent_native_mode_fields": {
+        "clip_reload_mode": {
+          "type_code": 1,
+          "value": 1,
+          "byte_offset": 65174,
+          "raw_hex": "01"
+        },
+        "cost_bullet_type": {
+          "type_code": 1,
+          "value": 2,
+          "byte_offset": 65175,
+          "raw_hex": "02"
+        },
+        "default_shoot_mode": {
+          "type_code": 1,
+          "value": 3,
+          "byte_offset": 65176,
+          "raw_hex": "03"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13512301,
+      "gear_id": 10512301,
+      "gun_no": 10510151,
+      "burst_time_interval": {
+        "type_code": 18,
+        "value": 0.5,
+        "byte_offset": 39089,
+        "raw_hex": "0000003f"
+      },
+      "adjacent_native_mode_fields": {
+        "clip_reload_mode": {
+          "type_code": 1,
+          "value": 1,
+          "byte_offset": 39288,
+          "raw_hex": "01"
+        },
+        "cost_bullet_type": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 39289,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "type_code": 1,
+          "value": 1,
+          "byte_offset": 39290,
+          "raw_hex": "01"
+        }
+      }
+    },
+    {
+      "blueprint_id": 13641201,
+      "gear_id": 10641201,
+      "gun_no": 10640131,
+      "burst_time_interval": {
+        "type_code": 34,
+        "value": 0.0923,
+        "byte_offset": 151633,
+        "raw_hex": "8cb96b09f9a0b73f"
+      },
+      "adjacent_native_mode_fields": {
+        "clip_reload_mode": {
+          "type_code": 1,
+          "value": 1,
+          "byte_offset": 151825,
+          "raw_hex": "01"
+        },
+        "cost_bullet_type": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 151826,
+          "raw_hex": "00"
+        },
+        "default_shoot_mode": {
+          "type_code": 1,
+          "value": 3,
+          "byte_offset": 151827,
+          "raw_hex": "03"
+        }
+      }
+    }
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

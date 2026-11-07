@@ -1,0 +1,39 @@
+{
+  "rows": [
+    {
+      "index": 4306,
+      "name": "dcs_extend\\component_server\\CompHealthServer.pyc",
+      "entry_id": 204000873,
+      "archive_offset": 108403572,
+      "stored_bytes": 49174,
+      "unpacked_bytes": 266813,
+      "compressed_sha256": "62fe5cfac2dbf669a2de516c6611409e487451c0053c2010d6e06d4b3bd2c843",
+      "pyc_sha256": "68cd0d09c2b8ef3d1ffd83420e587bd58771d3b9174706a288cdc3acaf4704b1",
+      "copy": "shield_settlement_capture/4306_dcs_extend\\component_server\\CompHealthServer.pyc"
+    },
+    {
+      "index": 59609,
+      "name": "dcs_extend\\component_server\\CompPropertyServer.pyc",
+      "entry_id": 2768696692,
+      "archive_offset": 108628920,
+      "stored_bytes": 8279,
+      "unpacked_bytes": 41529,
+      "compressed_sha256": "52c50e2484a2271b27965f13b91c9dcc6cd3600b08fe5894dacb0ed2e59918fc",
+      "pyc_sha256": "963c9b27084862d413157367bbc09d4baa35acdb9015bf68ad78bc3f50c518d4",
+      "copy": "shield_settlement_capture/59609_dcs_extend\\component_server\\CompPropertyServer.pyc"
+    },
+    {
+      "index": 76687,
+      "name": "dcs_extend\\common\\affix\\AffixUtils.pyc",
+      "entry_id": 3546358308,
+      "archive_offset": 103705492,
+      "stored_bytes": 10596,
+      "unpacked_bytes": 47403,
+      "compressed_sha256": "41ba1a3df83f19d10c05d6e10add78fc2bb4239ce6f9339cfd35515677a12558",
+      "pyc_sha256": "325659f19ca8c55bd82c925162e880db1a49ee12caed4fa6ec8aadbe6a6715f5",
+      "copy": "shield_settlement_capture/76687_dcs_extend\\common\\affix\\AffixUtils.pyc"
+    }
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

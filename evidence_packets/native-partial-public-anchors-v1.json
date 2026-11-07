@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source_access_date": "2026-11-02",
+  "anchors": [
+    {"blueprint_id": 13121101, "public_blueprint_title": "R500 B.P.", "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13121101", "published_max_stars": 3, "catalog_id": "weapon:r500", "identity_status": "exact_name"},
+    {"blueprint_id": 13111201, "public_blueprint_title": "DE.50 - Goshawk B.P.", "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13111201", "published_max_stars": 4, "catalog_id": "weapon:de-50-goshawk", "identity_status": "exact_name"},
+    {"blueprint_id": 13421301, "public_blueprint_title": "KAM - Burning Rage B.P.", "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13421301", "published_max_stars": 5, "catalog_id": null, "identity_status": "unbound_mixed_crafts_KAM_Crank_is_distinct"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 4,
+  "base_file": "reference-profiles-v3.json",
+  "as_of": "2026-11-01",
+  "new_page_count": 0,
+  "combined_direct_page_count": 0,
+  "new_database_page_references": {},
+  "missing_or_blocked": {
+    "weapon:acs12-netherworld": {
+      "url": "https://www.oncehumandb.com/weapons/acs12-netherworld",
+      "status": "direct_page_access_failed_twice",
+      "action": "Retain v3 historical stat record only; no guessed current-page fields."
+    }
+  },
+  "summary": {
+    "active_direct_page_refs": 0,
+    "archive_status": "unanchored_numeric_rows_removed"
+  },
+  "merge_policy": "For each new ID, add database_page_reference and typed_field_discrepancies to that ID in v3. Keep historical_catalog_profile untouched. Do not overwrite selected crafted weapon inputs or v1/v2 mechanic bindings.",
+  "active_numeric_status": "unanchored_page_numbers_removed"
+}

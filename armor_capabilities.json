@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "version": "2026-10-22",
+  "entries": {
+    "armor:hot-dog-shorts": {
+      "component": "bounce_triggered_damage",
+      "activation": "selected weapon deals Bounce damage",
+      "calculation": "inactive for an explicitly direct-only SN700 encounter; magnitude and current-version wording unresolved when Bounce exists",
+      "source": "https://www.oncehuman.game/news/devBlog/20241123/40781_1195665.html",
+      "corroboration": "https://www.oncehumandb.com/armor/hot-dog-shorts",
+      "evidence_status": "historical official adjustment; current client page confirms item identity but omits standalone effect text"
+    }
+  }
+}

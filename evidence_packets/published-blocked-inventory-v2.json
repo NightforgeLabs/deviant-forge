@@ -1,0 +1,1255 @@
+{
+  "schema_version": "bonus_line_blocked_inventory_v2",
+  "base_sha256": "d50fc1a8f4e1c52ea7cbba103c8ab995dfa05a95fd1e359a3d5e7a655b3a7546",
+  "catalog_sha256": "518a7e5b0e0151293877a60665f4650b7eeb03ecd8fca0eff0e00067e8c8aaa0",
+  "baseline_blocked_identities": 104,
+  "baseline_blocked_profiles": 1768,
+  "resolved_by_scoped_delta_identities": 1,
+  "resolved_by_scoped_delta_profiles": 17,
+  "remaining_blocked_identities": 103,
+  "remaining_blocked_profiles": 1751,
+  "confirmed_obsolete_identities": 0,
+  "obsolescence_note": "The official December 2025 overhaul says retained old mods remain usable with their original random attributes. No blocked catalog identity is proven obsolete merely from missing current fixed-layout evidence.",
+  "sources": {
+    "official_overhaul_and_old_mod_compatibility": "https://www.oncehuman.game/news/devBlog/20251212/40781_1276354.html",
+    "elemental_havoc_identity_family": "https://wikily.gg/once-human/mods/19500145/",
+    "elemental_havoc_label": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+    "elemental_havoc_helmet_violent_layout": "https://oncehuman.th.gl/db/mods/mod_9119",
+    "flame_resonance_weapon_layout": "https://oncehuman.th.gl/db/mods/mod_10201",
+    "steady_hand_resistance_identity": "https://www.oncehumandb.com/mods/steady-hand-resistance",
+    "slow_and_steady_resistance_identity": "https://www.oncehumandb.com/mods/slow-and-steady-resistance-98147b245d78"
+  },
+  "groups": [
+    {
+      "system_generation": "current_field_guide",
+      "blocked_reason": "no_named_suffix_or_fixed_layout",
+      "identity_count_baseline": 2,
+      "profile_count_baseline": 34,
+      "current_listing_match_count": 2,
+      "slot_counts": {
+        "boots_mod": 1,
+        "helmet_mod": 1
+      },
+      "identities": [
+        {
+          "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+          "slot": "helmet_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": true,
+          "current_record_slugs": [
+            "elemental-havoc-violence",
+            "elemental-havoc-violence-6843fa2d2d91"
+          ],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "candidate_resolved_v2",
+          "next_action": "Use v2 identity-scoped community formula candidate; current-client card remains optional validation."
+        },
+        {
+          "catalog_id": "mod:boots_mod:steady-hand-resistance",
+          "slot": "boots_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": true,
+          "current_record_slugs": [
+            "steady-hand-resistance"
+          ],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_missing_ordered_layout",
+          "next_action": "Find a published/current Field Guide four-line Resistance layout in shoes; the known pages give the identity and core effect only."
+        }
+      ]
+    },
+    {
+      "system_generation": "current_field_guide",
+      "blocked_reason": "slot_suffix_not_in_published_sample",
+      "identity_count_baseline": 1,
+      "profile_count_baseline": 17,
+      "current_listing_match_count": 1,
+      "slot_counts": {
+        "boots_mod": 1
+      },
+      "identities": [
+        {
+          "catalog_id": "mod:boots_mod:slow-and-steady-resistance",
+          "slot": "boots_mod",
+          "catalog_variant": "Resistance",
+          "current_listing_identity_match": true,
+          "current_record_slugs": [
+            "slow-and-steady-resistance-98147b245d78"
+          ],
+          "baseline_profile_count": 17,
+          "baseline_reason": "slot_suffix_not_in_published_sample",
+          "resolution": "blocked_missing_ordered_layout",
+          "next_action": "Find a published/current Field Guide four-line Resistance layout in shoes; the known pages give the identity and core effect only."
+        }
+      ]
+    },
+    {
+      "system_generation": "legacy_random_roll",
+      "blocked_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+      "identity_count_baseline": 42,
+      "profile_count_baseline": 714,
+      "current_listing_match_count": 0,
+      "slot_counts": {
+        "chest_mod": 9,
+        "gloves_mod": 6,
+        "helmet_mod": 7,
+        "mask_mod": 14,
+        "pants_mod": 6
+      },
+      "identities": [
+        {
+          "catalog_id": "mod:helmet_mod:deviation-expert",
+          "slot": "helmet_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:helmet_mod:elemental-havoc",
+          "slot": "helmet_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:helmet_mod:first-move-advantage",
+          "slot": "helmet_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:helmet_mod:mag-expansion",
+          "slot": "helmet_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:helmet_mod:momentum-up",
+          "slot": "helmet_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:helmet_mod:precise-strike",
+          "slot": "helmet_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:helmet_mod:work-of-proficiency",
+          "slot": "helmet_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:blaze-amplifier",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:blitzkrieg",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:break-bounce",
+          "slot": "mask_mod",
+          "catalog_variant": "Bounce",
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:delayed-blast",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:explosive-shrapnel",
+          "slot": "mask_mod",
+          "catalog_variant": "Shrapnel",
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:first-electrocution",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:light-cannon",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:most-wanted",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:precision-bounce",
+          "slot": "mask_mod",
+          "catalog_variant": "Bounce",
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:retrusion-explosion",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:shrapnel-carnage",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:targeted-strike",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:thunderclap",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:mask_mod:unbreakable",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:chest_mod:critical-rescue",
+          "slot": "chest_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:chest_mod:enduring-shield",
+          "slot": "chest_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:chest_mod:head-guard",
+          "slot": "chest_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:chest_mod:head-on-conflict",
+          "slot": "chest_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:chest_mod:healing-fortification",
+          "slot": "chest_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:chest_mod:quick-comeback",
+          "slot": "chest_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:chest_mod:rejuvenating",
+          "slot": "chest_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:chest_mod:resist-advantage",
+          "slot": "chest_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:chest_mod:status-immune",
+          "slot": "chest_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:gloves_mod:crit-amplifier",
+          "slot": "gloves_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:gloves_mod:crit-boost",
+          "slot": "gloves_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:gloves_mod:elemental-overload",
+          "slot": "gloves_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:gloves_mod:lifeforce-boost",
+          "slot": "gloves_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:gloves_mod:melee-amplifier",
+          "slot": "gloves_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:gloves_mod:weakspot-dmg-boost",
+          "slot": "gloves_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:pants_mod:abnormal-increase",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:pants_mod:bullet-siphon",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:pants_mod:deadshot",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:pants_mod:melee-momentum",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:pants_mod:precision-charge",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        },
+        {
+          "catalog_id": "mod:pants_mod:reload-rampage",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "legacy_random_roll_has_no_fixed_substat_layout",
+          "resolution": "not_applicable_to_fixed_formula",
+          "next_action": "Use an editable inventory roll for the retained old mod; a fixed four-line new-system layout requires an explicitly identified new Field Guide counterpart."
+        }
+      ]
+    },
+    {
+      "system_generation": "mixed_or_unverified",
+      "blocked_reason": "no_named_suffix_or_fixed_layout",
+      "identity_count_baseline": 57,
+      "profile_count_baseline": 969,
+      "current_listing_match_count": 4,
+      "slot_counts": {
+        "boots_mod": 2,
+        "gloves_mod": 2,
+        "helmet_mod": 1,
+        "mask_mod": 6,
+        "pants_mod": 6,
+        "weapon_mod": 40
+      },
+      "identities": [
+        {
+          "catalog_id": "mod:helmet_mod:fateful-strike",
+          "slot": "helmet_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:mask_mod:gunslinger",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:mask_mod:lingering-frost",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:mask_mod:most-wanted-the-bulls-eye",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:mask_mod:obliteration",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:mask_mod:point-detonation",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:mask_mod:targeted-strike-the-bulls-eye",
+          "slot": "mask_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:gloves_mod:munitions-amplifier",
+          "slot": "gloves_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:gloves_mod:status-enhancement",
+          "slot": "gloves_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:pants_mod:ferocious-charge",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:pants_mod:rush-hour",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:pants_mod:ruthless-reaper",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:pants_mod:secluded-strike",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:pants_mod:slow-and-steady",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:pants_mod:unstoppable",
+          "slot": "pants_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:blaze-blessing",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:bombardier-souvenir",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:bombardier-souvenir-violence",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": true,
+          "current_record_slugs": [
+            "bombardier-souvenir-violence"
+          ],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_identity_and_layout",
+          "next_action": "Confirm this exact anomalous variant in current Field Guide and source its four ordered lines; do not normalize its spelling/name to a different suffix."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:bounce-rampage",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:burning-wrath",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:cowboy",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:cryo-blast",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:durable-territory",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:embers",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:final-territory",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:frosty-blessing",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:heavy-explosives",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:hunter-s-perk",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:hunters-perk-the-bulls-eye",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:not-throw-away-your-shot",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:portable-territory",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:precision-rush",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:reckless-bomber",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:recover-mark",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:recover-mark-the-bulls-eye",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:shatter-them-all",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:shattering-ice",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:shield-breaker",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:shock-diffusion",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:shock-rampage",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:shoot-out",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:shooting-blitz",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:shrapnel-smash",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:shrapnel-souvenir",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:spreading-marks",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:spreading-marks-common",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": true,
+          "current_record_slugs": [
+            "spreading-marks-common"
+          ],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_identity_and_layout",
+          "next_action": "Confirm this exact anomalous variant in current Field Guide and source its four ordered lines; do not normalize its spelling/name to a different suffix."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:spreading-marks-the-bulls-eye",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:static-shock",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:super-bullet",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:super-charged",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:surge-amplifier",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:united-we-stand",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:vortex-multiplier",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:vulnerability-amplifier",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:vulnerability-amplifier-the-bulls-eye",
+          "slot": "weapon_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_generation_and_identity",
+          "next_action": "Resolve current system/identity from a public Field Guide index or client data first. If it is an old random-roll item, accept its individual roll; if current, source its exact named four-line suffix layout."
+        },
+        {
+          "catalog_id": "mod:boots_mod:secluded-strike-mrror",
+          "slot": "boots_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": true,
+          "current_record_slugs": [
+            "secluded-strike-mrror"
+          ],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_identity_and_layout",
+          "next_action": "Confirm this exact anomalous variant in current Field Guide and source its four ordered lines; do not normalize its spelling/name to a different suffix."
+        },
+        {
+          "catalog_id": "mod:boots_mod:steady-hand-fury",
+          "slot": "boots_mod",
+          "catalog_variant": null,
+          "current_listing_identity_match": true,
+          "current_record_slugs": [
+            "steady-hand-fury"
+          ],
+          "baseline_profile_count": 17,
+          "baseline_reason": "no_named_suffix_or_fixed_layout",
+          "resolution": "blocked_identity_and_layout",
+          "next_action": "Confirm this exact anomalous variant in current Field Guide and source its four ordered lines; do not normalize its spelling/name to a different suffix."
+        }
+      ]
+    },
+    {
+      "system_generation": "mixed_or_unverified",
+      "blocked_reason": "slot_suffix_not_in_published_sample",
+      "identity_count_baseline": 2,
+      "profile_count_baseline": 34,
+      "current_listing_match_count": 1,
+      "slot_counts": {
+        "weapon_mod": 2
+      },
+      "identities": [
+        {
+          "catalog_id": "mod:weapon_mod:flame-resonance",
+          "slot": "weapon_mod",
+          "catalog_variant": "Resonance",
+          "current_listing_identity_match": false,
+          "current_record_slugs": [],
+          "baseline_profile_count": 17,
+          "baseline_reason": "slot_suffix_not_in_published_sample",
+          "resolution": "blocked_taxonomy_conflict",
+          "next_action": "Resolve whether the named Resonance suffix belongs to the current Flame Resonance weapon family; THGL lists General, Violent, Deviant Energy, Survival, Burn only. Then source its four ordered lines if it exists."
+        },
+        {
+          "catalog_id": "mod:weapon_mod:flame-resonance-deviant-energy",
+          "slot": "weapon_mod",
+          "catalog_variant": "Resonance Deviant Energy",
+          "current_listing_identity_match": true,
+          "current_record_slugs": [
+            "flame-resonance-deviant-energy"
+          ],
+          "baseline_profile_count": 17,
+          "baseline_reason": "slot_suffix_not_in_published_sample",
+          "resolution": "blocked_taxonomy_conflict",
+          "next_action": "Resolve whether the named Resonance suffix belongs to the current Flame Resonance weapon family; THGL lists General, Violent, Deviant Energy, Survival, Burn only. Then source its four ordered lines if it exists."
+        }
+      ]
+    }
+  ]
+}

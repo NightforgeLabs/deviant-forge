@@ -1,0 +1,172 @@
+{
+  "entries": [
+    {
+      "id": "mod:helmet_mod:mag-expansion-lunar",
+      "kind": "mod",
+      "name": "Mag Expansion",
+      "display_name": "Mag Expansion <Lunar>",
+      "slot": "helmet_mod",
+      "tree": "Mag Expansion",
+      "variant": "Lunar",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Exact obtainable level for this variant was not shown.",
+      "source_observed_unlock_status": "lock cue visible in supplied recording; current unlock and ownership unknown",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Suffix glyph and source-time locked card position only; no tooltip, core effect, rarity or rolled attributes verified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "current unlock state",
+        "core effect",
+        "rarity",
+        "rolled attributes",
+        "obtainable levels"
+      ],
+      "acquisition": {
+        "method": "unknown",
+        "exact_entry_path": null,
+        "source": "game_video_variant_sighting"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "Helmet / Mag Expansion <Lunar> card visible with lock cue in supplied recording at 64 seconds; current ownership unknown",
+      "source": "user_supplied_game_video_2026-10-25_04-01-49",
+      "source_video": "screenrecording-2026-10-25_04-01-49.mp4",
+      "source_video_timestamp_seconds": 64
+    },
+    {
+      "id": "mod:helmet_mod:mag-expansion-crescent",
+      "kind": "mod",
+      "name": "Mag Expansion",
+      "display_name": "Mag Expansion <Crescent>",
+      "slot": "helmet_mod",
+      "tree": "Mag Expansion",
+      "variant": "Crescent",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Exact obtainable level for this variant was not shown.",
+      "source_observed_unlock_status": "lock cue visible in supplied recording; current unlock and ownership unknown",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Suffix glyph and source-time locked card position only; no tooltip, core effect, rarity or rolled attributes verified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "current unlock state",
+        "core effect",
+        "rarity",
+        "rolled attributes",
+        "obtainable levels"
+      ],
+      "acquisition": {
+        "method": "unknown",
+        "exact_entry_path": null,
+        "source": "game_video_variant_sighting"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "Helmet / Mag Expansion <Crescent> card visible with lock cue in supplied recording at 64 seconds; current ownership unknown",
+      "source": "user_supplied_game_video_2026-10-25_04-01-49",
+      "source_video": "screenrecording-2026-10-25_04-01-49.mp4",
+      "source_video_timestamp_seconds": 64
+    },
+    {
+      "id": "mod:helmet_mod:mag-expansion-lunar-deviant-energy",
+      "kind": "mod",
+      "name": "Mag Expansion",
+      "display_name": "Mag Expansion <Lunar Deviant Energy>",
+      "slot": "helmet_mod",
+      "tree": "Mag Expansion",
+      "variant": "Lunar Deviant Energy",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Exact obtainable level for this variant was not shown.",
+      "source_observed_unlock_status": "lock cue visible in supplied recording; current unlock and ownership unknown",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Suffix glyph and source-time locked card position only; no tooltip, core effect, rarity or rolled attributes verified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "current unlock state",
+        "core effect",
+        "rarity",
+        "rolled attributes",
+        "obtainable levels"
+      ],
+      "acquisition": {
+        "method": "unknown",
+        "exact_entry_path": null,
+        "source": "game_video_variant_sighting"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "Helmet / Mag Expansion <Lunar Deviant Energy> card visible with lock cue in supplied recording at 64 seconds; current ownership unknown",
+      "source": "user_supplied_game_video_2026-10-25_04-01-49",
+      "source_video": "screenrecording-2026-10-25_04-01-49.mp4",
+      "source_video_timestamp_seconds": 64
+    },
+    {
+      "id": "mod:helmet_mod:mag-expansion-crescent-deviant-energy",
+      "kind": "mod",
+      "name": "Mag Expansion",
+      "display_name": "Mag Expansion <Crescent Deviant Energy>",
+      "slot": "helmet_mod",
+      "tree": "Mag Expansion",
+      "variant": "Crescent Deviant Energy",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Exact obtainable level for this variant was not shown.",
+      "source_observed_unlock_status": "lock cue visible in supplied recording; current unlock and ownership unknown",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Suffix glyph and source-time locked card position only; no tooltip, core effect, rarity or rolled attributes verified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "current unlock state",
+        "core effect",
+        "rarity",
+        "rolled attributes",
+        "obtainable levels"
+      ],
+      "acquisition": {
+        "method": "unknown",
+        "exact_entry_path": null,
+        "source": "game_video_variant_sighting"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "Helmet / Mag Expansion <Crescent Deviant Energy> card visible with lock cue in supplied recording at 64 seconds; current ownership unknown",
+      "source": "user_supplied_game_video_2026-10-25_04-01-49",
+      "source_video": "screenrecording-2026-10-25_04-01-49.mp4",
+      "source_video_timestamp_seconds": 64
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "scope": "Isolated legacy arithmetic regression inputs only. These are not product references, real crafted values, or active catalog data.",
+  "weapons": {
+    "weapon:acs12-pyroclasm-starter": {
+      "upstream_id": "acs12_pyroclasm_starter",
+      "name": "ACS12 - Pyroclasm Starter",
+      "stats": {
+        "damage_per_projectile": 138,
+        "projectiles_per_shot": 5,
+        "fire_rate": 180,
+        "magazine_capacity": 8,
+        "crit_rate_percent": 8,
+        "crit_damage_percent": 27,
+        "weakspot_damage_percent": 15,
+        "reload_time_seconds": 2.4,
+        "reload_speed_points": 33
+      }
+    },
+    "weapon:critical-pulse": {
+      "upstream_id": "critical_pulse",
+      "name": "Critical Pulse",
+      "stats": {
+        "damage_per_projectile": 1192,
+        "projectiles_per_shot": 1,
+        "fire_rate": 90,
+        "magazine_capacity": 1,
+        "crit_rate_percent": 2,
+        "crit_damage_percent": 28,
+        "weakspot_damage_percent": 70,
+        "reload_time_seconds": 2.6,
+        "reload_speed_points": 75
+      }
+    },
+    "weapon:g17-hazardous-object": {
+      "upstream_id": "g17_hazardous_object",
+      "name": "G17 - Hazardous Object",
+      "stats": {
+        "damage_per_projectile": 230,
+        "projectiles_per_shot": 1,
+        "fire_rate": 410,
+        "magazine_capacity": 13,
+        "crit_rate_percent": 8,
+        "crit_damage_percent": 28,
+        "weakspot_damage_percent": 55,
+        "reload_time_seconds": 2.1,
+        "reload_speed_points": 69
+      }
+    },
+    "weapon:kam": {
+      "upstream_id": "kam",
+      "name": "KAM",
+      "stats": {
+        "damage_per_projectile": 31,
+        "projectiles_per_shot": 1,
+        "fire_rate": 600,
+        "magazine_capacity": 40,
+        "crit_rate_percent": 6,
+        "crit_damage_percent": 30,
+        "weakspot_damage_percent": 55,
+        "reload_time_seconds": 2.8,
+        "reload_speed_points": 37
+      }
+    },
+    "weapon:kam-crank": {
+      "upstream_id": "kam_crank",
+      "name": "KAM - Crank",
+      "stats": {
+        "damage_per_projectile": 134,
+        "projectiles_per_shot": 1,
+        "fire_rate": 600,
+        "magazine_capacity": 40,
+        "crit_rate_percent": 6,
+        "crit_damage_percent": 30,
+        "weakspot_damage_percent": 55,
+        "reload_time_seconds": 2.8,
+        "reload_speed_points": 38
+      }
+    },
+    "weapon:kvd-boom-boom": {
+      "upstream_id": "kvd_boom_boom",
+      "name": "KVD - Boom! Boom!",
+      "stats": {
+        "damage_per_projectile": 168,
+        "projectiles_per_shot": 1,
+        "fire_rate": 500,
+        "magazine_capacity": 100,
+        "crit_rate_percent": 10,
+        "crit_damage_percent": 30,
+        "weakspot_damage_percent": 40,
+        "reload_time_seconds": 5.1,
+        "reload_speed_points": 24
+      }
+    },
+    "weapon:mps5-blue-tiger": {
+      "upstream_id": "mps5_blue_tiger",
+      "name": "MPS5 - Blue Tiger",
+      "stats": {
+        "damage_per_projectile": 114,
+        "projectiles_per_shot": 1,
+        "fire_rate": 750,
+        "magazine_capacity": 30,
+        "crit_rate_percent": 8,
+        "crit_damage_percent": 30,
+        "weakspot_damage_percent": 55,
+        "reload_time_seconds": 2.4,
+        "reload_speed_points": 43
+      }
+    },
+    "weapon:mps7-outer-space": {
+      "upstream_id": "mps7_outer_space",
+      "name": "MPS7 - Outer Space",
+      "stats": {
+        "damage_per_projectile": 126,
+        "projectiles_per_shot": 1,
+        "fire_rate": 850,
+        "magazine_capacity": 35,
+        "crit_rate_percent": 8,
+        "crit_damage_percent": 30,
+        "weakspot_damage_percent": 50,
+        "reload_time_seconds": 3,
+        "reload_speed_points": 32
+      }
+    },
+    "weapon:pdw90-holographic-resonance": {
+      "upstream_id": "pdw90_holographic_resonance",
+      "name": "PDW90 - Holographic Resonance",
+      "stats": {
+        "damage_per_projectile": 90,
+        "projectiles_per_shot": 1,
+        "fire_rate": 900,
+        "magazine_capacity": 50,
+        "crit_rate_percent": 8,
+        "crit_damage_percent": 45,
+        "weakspot_damage_percent": 30,
+        "reload_time_seconds": 2.2,
+        "reload_speed_points": 16
+      }
+    },
+    "weapon:r500-hammerhead-shark": {
+      "upstream_id": "r500_hammerhead_shark",
+      "name": "R500 - Hammerhead Shark",
+      "stats": {
+        "damage_per_projectile": 588,
+        "projectiles_per_shot": 1,
+        "fire_rate": 145,
+        "magazine_capacity": 5,
+        "crit_rate_percent": 4,
+        "crit_damage_percent": 25,
+        "weakspot_damage_percent": 65,
+        "reload_time_seconds": 2.3,
+        "reload_speed_points": 45
+      }
+    },
+    "weapon:sks-pathfinder": {
+      "upstream_id": "sks_pathfinder",
+      "name": "SKS - Pathfinder",
+      "stats": {
+        "damage_per_projectile": 360,
+        "projectiles_per_shot": 1,
+        "fire_rate": 257,
+        "magazine_capacity": 20,
+        "crit_rate_percent": 5,
+        "crit_damage_percent": 40,
+        "weakspot_damage_percent": 50,
+        "reload_time_seconds": 3,
+        "reload_speed_points": 75
+      }
+    },
+    "weapon:socr-the-last-valor": {
+      "upstream_id": "socr_the_last_valor",
+      "name": "SOCR - The Last Valor",
+      "stats": {
+        "damage_per_projectile": 174,
+        "projectiles_per_shot": 1,
+        "fire_rate": 515,
+        "magazine_capacity": 30,
+        "crit_rate_percent": 6,
+        "crit_damage_percent": 27,
+        "weakspot_damage_percent": 60,
+        "reload_time_seconds": 2.3,
+        "reload_speed_points": 56
+      }
+    }
+  }
+}

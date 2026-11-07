@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "version": "2026-10-22",
+  "stacking": "Exact cross-bucket ordering is not verified; estimator evaluates additive and multiplicative sensitivity models.",
+  "mod_main_effects": {
+    "mod:pants_mod:distant-strike-survival:10": {
+      "rule_id": "distant-strike-weakspot-lv10",
+      "kind": "conditional_modifier",
+      "component": "weakspot_direct_hit",
+      "minimum_percent": 20.0,
+      "additional_percent_range": [
+        0.0,
+        20.0
+      ],
+      "condition": {
+        "distance_meters_gt": 20.0
+      },
+      "stacking_group": "weakspot_damage",
+      "duration": "per qualifying bullet",
+      "source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0064.png",
+      "uncertainty": "Exact origin of the additional +1% per meter is unclear; calculations bound it from zero to the stated +20% cap."
+    },
+    "mod:pants_mod:elemental-resonance-aero:17": {
+      "rule_id": "elemental-resonance-prev-mag-lv17",
+      "kind": "triggered_conditional_modifier",
+      "component": "elemental_damage",
+      "condition": {
+        "prior_magazine_elemental_events_gt": 0
+      },
+      "value_per_event_percent": 1.0,
+      "limit_percent": 24.0,
+      "trigger": "reload after elemental damage in previous magazine",
+      "duration_seconds": 15.0,
+      "stacking_group": "elemental_damage",
+      "calculation": "unresolved when triggered: event count, refresh, and application to status require evidence",
+      "source": "research/official-gravity-en-6.png",
+      "source_page": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html",
+      "shiny_warning": "The source card is Shiny. Its +2% Flash effect is not used for an ordinary planned copy."
+    },
+    "mod:boots_mod:against-all-odds-precision:7": {
+      "rule_id": "against-all-odds-lv7",
+      "kind": "base_plus_conditional_modifier",
+      "component": "weapon_and_status_damage",
+      "base_percent": 10.0,
+      "conditional": {
+        "hp_consumed_per_stack_percent": 5.0,
+        "bonus_per_stack_percent": 5.0,
+        "max_stacks": 3,
+        "duration_seconds": 5.0
+      },
+      "stacking_group": "weapon_damage",
+      "source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0091.png",
+      "corroboration": "https://www.oncehuman.game/news/devBlog/20250922/40781_1260687.html"
+    },
+    "mod:boots_mod:power-of-striving-downstar-deviant-energy:9": {
+      "rule_id": "power-of-striving-lv9",
+      "kind": "base_plus_conditional_modifier",
+      "component": "weapon_and_status_damage",
+      "base_percent": 10.0,
+      "conditional": {
+        "stamina_loss": true,
+        "magnitude": "unresolved",
+        "uptime": "unresolved"
+      },
+      "stacking_group": "weapon_damage",
+      "source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0094.png",
+      "corroboration": "https://www.oncehuman.game/news/update/20250110/40780_1205980.html"
+    },
+    "mod:boots_mod:ferocious-charge-downstar:17": {
+      "rule_id": "ferocious-charge-downstar-lv17",
+      "kind": "conditional_modifier",
+      "component": "weapon_and_status_damage",
+      "value_percent": 20.0,
+      "condition": {
+        "kill_within_meters": 10.0
+      },
+      "duration_seconds": 8.0,
+      "stacking_group": "weapon_damage",
+      "source": "research/official-gravity-en-6.png",
+      "source_page": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html",
+      "shiny_warning": "The source card is Shiny. Its +1.5% Flash effect is not used for an ordinary planned copy."
+    },
+    "mod:weapon_mod:static-shock-survival:11": {
+      "rule_id": "static-shock-survival-lv11",
+      "kind": "flat_plus_duration_change",
+      "component": "power_surge_damage",
+      "value_percent": 20.0,
+      "status_duration_multiplier": 0.5,
+      "source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0014.png",
+      "uncertainty": "Power Surge status duration is halved; event uptime and refresh effects need an encounter model."
+    },
+    "mod:weapon_mod:surge-amplifier-survival:10": {
+      "rule_id": "surge-amplifier-survival-lv10",
+      "kind": "conditional_stacks",
+      "component": "power_surge_damage",
+      "bonus_per_stack_percent": 5.0,
+      "max_stacks": 4,
+      "duration_seconds": 3.0,
+      "source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0015.png",
+      "uncertainty": "Inflicting Power Surge grants stacks for 3s; uptime and event ordering need an encounter model."
+    },
+    "mod:helmet_mod:overflow-general:8": {
+      "rule_id": "overflow-general-lv8",
+      "kind": "conditional_modifier",
+      "component": "magazine_capacity",
+      "value_percent": 30.0,
+      "condition": {
+        "after_empty_reload": true
+      },
+      "source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0033.png",
+      "uncertainty": "Applies after reloading an empty magazine; magazine rounding and retention across reloads need observed timing."
+    },
+    "mod:pants_mod:bullet-siphon-aero-deviant-energy:12": {
+      "rule_id": "bullet-siphon-aero-deviant-energy-lv12",
+      "kind": "base_plus_counter_modifier",
+      "component": "weapon_damage",
+      "base_percent": 5.0,
+      "bullets_per_step": 5,
+      "bonus_per_step_percent": 4.0,
+      "max_bonus_percent": 20.0,
+      "source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0074.png",
+      "uncertainty": "Within-magazine buff rises as bullets are consumed; sustained weighting and reset timing need a firing timeline."
+    },
+    "mod:gloves_mod:elemental-overload-resonance:9": {
+      "rule_id": "elemental-overload-resonance-lv9",
+      "kind": "flat",
+      "component": "elemental_damage",
+      "value_percent": 18.0,
+      "elements": [
+        "Blaze",
+        "Frost",
+        "Shock",
+        "Blast"
+      ],
+      "source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0097.png",
+      "uncertainty": "Applies to the four listed elements. Status interaction and base element classification remain encounter inputs."
+    }
+  }
+}

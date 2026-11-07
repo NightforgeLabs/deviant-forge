@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "rank_policy": "source_item_effect_level_is_independent_of_field_guide_level",
+  "candidates": [
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-general",
+      "source_item_id": "19500042",
+      "source_item_effect_level": 5,
+      "variant_kind": "ordinary",
+      "source_url": "https://wikily.gg/once-human/mods/19500042",
+      "source_status": "community_item_level_candidate_not_field_guide_level_binding",
+      "effect_text": "Cannot deal Weakspot DMG. Crit Rate +10% and Crit DMG +30%.",
+      "crit_rate_percentage_points": 10,
+      "crit_damage_percentage_points": 30,
+      "disable_weakspot_damage": true
+    }
+  ]
+}

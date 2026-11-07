@@ -1,0 +1,112 @@
+{
+  "installed_build_id": "26267212",
+  "item_id": 30110374,
+  "item_name": "Sparkling Pumpkin Soup",
+  "configured_buff_id": 403136600,
+  "nominal_buff_lifetime_seconds": 1980.0,
+  "target_native_property": "keyword_proc_dam_add_rate_surge",
+  "target_native_attr_id": "E121",
+  "meme_mastery_buff_enhance_type": 4010,
+  "configured_input_equation": "E121 node input = (1 + buff.effect_rate) * 0.1",
+  "rate_construction_if_helper_called": "enhance_rate starts at 0.0; add float(first effect_info[4010] value), if present; then add float(first pal_effect[str(4010)] value) for each pal_effect_dict value, if present; include effect_rate in buff_extra_dict only if nonzero",
+  "buff_storage_if_constructor_called": "CompBuffBase.init_buff stores buff_args.get('effect_rate', 0.0) in holder.buff_dict[buff_index]['effect_rate']; NodeGetBuffRate reads that stored field",
+  "synthetic_vector": {
+    "effect_info_4010_first_value": 0.2,
+    "pal_effect_4010_first_values": [
+      0.05,
+      0.1
+    ],
+    "enhance_rate": 0.35000000000000003,
+    "configured_E121_node_input": 0.135,
+    "scope": "Explicit synthetic helper/buff inputs, not an actual Soup instance or verified applied combat bonus"
+  },
+  "conditional_empty_vector": {
+    "effect_info_4010": [],
+    "pal_effects_4010": [],
+    "helper_emits_effect_rate_key": false,
+    "constructor_default_if_key_absent": 0.0,
+    "configured_E121_node_input_if_default_reaches_graph": 0.1
+  },
+  "source_files": {
+    "cuisine_utility": {
+      "path": "/home/dv/Documents/Codex/2026-11-02/task-4/food_runtime_captures/87110-cuisine_buff_utility.pyc",
+      "pyc_sha256": "14df41f9138cb87130a72de6995707a39c3fa89dbd3afa03f673371ec242c643"
+    },
+    "buff_manager": {
+      "path": "/home/dv/Documents/Codex/2026-11-02/task-4/food_runtime_captures/23683-CompBuffMgrBase.pyc",
+      "pyc_sha256": "02e65d9032c41f1ddffba416521fd9a803bbea88abebdc5d7662338a54933d3e"
+    },
+    "buff_component": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/CompBuffBase.pyc",
+      "pyc_sha256": "1067d9cdf3d208109088762a606249108cd123ec95fb39778d2b69e2cafc2ce1"
+    },
+    "rate_reader": {
+      "path": "/home/dv/Documents/Codex/2026-11-02/task-4/food_runtime_captures/89912-NodeGetBuffRate.pyc",
+      "pyc_sha256": "ecb0febbfa6f452f85c9f24df5daabee8e977c74c612f8f7724083edce5b9271"
+    },
+    "meme_helper": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/food_rate_source_captures/MemeMasteryHelper.pyc",
+      "pyc_sha256": "de6795e0055075c200890eecfe32a5b2c5a6f1d203fa19be1e48ac5a6a53dce8"
+    }
+  },
+  "method_bodies": {
+    "get_item_mem_effect": {
+      "source": "cuisine_utility",
+      "qualname": "get_item_mem_effect",
+      "code_bytes_offset": 6199,
+      "code_length": 934,
+      "body_sha256": "031c15dac3ce0bc2421549cb41d85df5844f8d75d9bc7df618ca51bdf5dcf462",
+      "first_line": 136
+    },
+    "filter_item_food_hunter_buff": {
+      "source": "cuisine_utility",
+      "qualname": "filter_item_food_hunter_buff",
+      "code_bytes_offset": 8125,
+      "code_length": 636,
+      "body_sha256": "2c8c7a19f4f85565c359dd2bc7bd0f0c346d8b3c06c73791b2cc097bf7e54ddd",
+      "first_line": 166
+    },
+    "calc_item_meme_effect": {
+      "source": "cuisine_utility",
+      "qualname": "calc_item_meme_effect",
+      "code_bytes_offset": 9494,
+      "code_length": 1774,
+      "body_sha256": "77a74ac57b2ba271b8cdab177c34334b53b9445851b40473a8de8dfb5945ed13",
+      "first_line": 191
+    },
+    "cast_buff": {
+      "source": "buff_manager",
+      "qualname": "CompBuffMgrBase.cast_buff",
+      "code_bytes_offset": 19988,
+      "code_length": 1970,
+      "body_sha256": "484a71ac1dd4ee45e121ad8bb8a8b025915fc80ea7a7d33bd4cc748a33c66354",
+      "first_line": 375
+    },
+    "init_buff": {
+      "source": "buff_component",
+      "qualname": "CompBuffBase.init_buff",
+      "code_bytes_offset": 4388,
+      "code_length": 3718,
+      "body_sha256": "f577e5e8b1a57d8050f62a15c6672b9537b5f91269153727d85986474944ce53",
+      "first_line": 89
+    },
+    "get_buff_rate_client": {
+      "source": "rate_reader",
+      "qualname": "NodeMainClient._do",
+      "code_bytes_offset": 842,
+      "code_length": 450,
+      "body_sha256": "5287e6a8ef6f40ccfa46594eaac6e745ef7461f0fb5a4dbc5d4fb02626a409f4",
+      "first_line": 40
+    }
+  },
+  "food_ledger_path": "/home/dv/Documents/Codex/2026-11-01/task-5/food_whim_bonus_coverage.json",
+  "food_ledger_sha256": "343d55004480e2d3dae1f4765e454d8727ebbd4e00e0069db37f78483dbb4157",
+  "graph_source_pyc_sha256": "a52de0efdcfb8b95cbce4186bac12932f08316d829759e6b69b9366c896a88f5",
+  "graph_literal_sha256": "36fbcab35a29e9e6c10f983dec5171525507c3ccea7927af21350aa22bb5dc92",
+  "graph_node_map_literal_offset": 976,
+  "item_use_token_byte_offset": 88378,
+  "remaining_boundary": "Readable food filter returns buff_effect_list and buff_extra_dict; copied ClientAvatar lacks run_sel_item_type_func body. No proved call transferring this item instance's extra dict into cast_buff, or live instance enhancement values. NodeChangeAttr server execution and AUG keyword gate are also unproved.",
+  "game_code_executed": false,
+  "installed_game_modified": false,
+  "forge_modified": false
+}

@@ -1,0 +1,77 @@
+{
+  "build_id": "26267212",
+  "graph_sha256": "4b8eb268893961a44eb333ec7eb382b6909e1b2b547961d2d6e4228b2cb799f0",
+  "graph_checker_node_id": 23,
+  "graph_trigger_op": {
+    "value": 0,
+    "byte_offset": 1313,
+    "decoded": "OR"
+  },
+  "graph_states": [
+    {
+      "state_code": 40,
+      "in_state": 1,
+      "role": 0,
+      "params_offset": 1116
+    },
+    {
+      "state_code": 2,
+      "in_state": 1,
+      "role": 0,
+      "params_offset": 1143
+    },
+    {
+      "state_code": 83,
+      "in_state": 1,
+      "role": 0,
+      "params_offset": 1170
+    },
+    {
+      "state_code": 110,
+      "in_state": 1,
+      "role": 0,
+      "params_offset": 1197
+    },
+    {
+      "state_code": 111,
+      "in_state": 1,
+      "role": 0,
+      "params_offset": 1224
+    },
+    {
+      "state_code": 95,
+      "in_state": 1,
+      "role": 0,
+      "params_offset": 1251
+    }
+  ],
+  "constant_source": {
+    "pyc_sha256": "db85361050a34dc2ec2e8d60a083f8956956fdb369a7cf87020c0aaf757224b5",
+    "assignments": {
+      "CHECKER_OR": {
+        "value": 0,
+        "body_byte_offset": 26,
+        "pyc_byte_offset": 68
+      },
+      "CHECKER_AND": {
+        "value": 1,
+        "body_byte_offset": 30,
+        "pyc_byte_offset": 72
+      }
+    }
+  },
+  "condition_code": {
+    "client_node_pyc_sha256": "eb68464909112a1d4583996f4fe509861f8ec3920f3794123ff4ea0145d87f27",
+    "client_node_body_sha256": "d7b278aea8feb1bcea35a32e8197f33f89d2fa2c6a2186291b3dcc2be2a9ed42",
+    "support_pyc_sha256": "b07c2b7a62beaa1e139a51321ee1a429d5cc31087796d87f884f79f1d9159f62",
+    "trigger_body_sha256": "a07394840587677f51fc734799274ea5952df414e9a7e40d12aea1ab7bc5fb4b",
+    "process_body_sha256": "5b22ff572b6dfb5bc5da6378a3c97aa4a0cea6b43d8cab08f6eac7089891fc95",
+    "state_checker_pyc_sha256": "474f314eab73eef1e822433b0faa78c0293059b8a6d99d9ef511bbf466917af0",
+    "state_checker_body_sha256": "a97ba8e9c97b0c1ddb57f815856da2faf7ce70cf8f81d54de5cdf209ae0f552e",
+    "state_checker_first_line": 1181
+  },
+  "client_condition": "Any of the six configured states is present (state_map.get(state, False) == True).",
+  "scope": "Readable client checker path only. This does not establish server buff execution, hit tagging, duration, or applied combat coefficient.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

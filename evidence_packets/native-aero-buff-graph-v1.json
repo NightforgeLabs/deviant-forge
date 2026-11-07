@@ -1,0 +1,509 @@
+{
+  "build_id": "26267212",
+  "pyc_sha256": "ac6601fae22c921fcb4da0a9b2d10e97707d58827c7f06cf6644cf949f73f298",
+  "literal_sha256": "529aefd0c57b8119768762f9b1f2bb4324863714311b40eb9887f480706f5985",
+  "body_base": 911,
+  "node_list_map_offset": 1418,
+  "entry_node": 32,
+  "nodes": [
+    {
+      "node_id": 32,
+      "type": "NodeBuffNone",
+      "record_offset": 1030,
+      "node_type_code": 1,
+      "wrapper_offset": 1005,
+      "params": {
+        "literal_offset": 988,
+        "schema_offset": 952,
+        "mask_byte_offset": 990,
+        "mask_hex": "080000",
+        "fields": {
+          "effect_index": {
+            "value": 32,
+            "kind": 1,
+            "byte_offset": 993,
+            "raw_hex": "20",
+            "string": null
+          }
+        },
+        "record_end_offset": 994
+      },
+      "in_data_args": null,
+      "port_offsets": {
+        "event_action": 930,
+        "in_data_pin": 933,
+        "out_data_pin": 922
+      }
+    },
+    {
+      "node_id": 24,
+      "type": "NodeConstFloat",
+      "record_offset": 1067,
+      "node_type_code": 3,
+      "wrapper_offset": 1061,
+      "params": {
+        "literal_offset": 1051,
+        "schema_offset": 952,
+        "mask_byte_offset": 1053,
+        "mask_hex": "088000",
+        "fields": {
+          "effect_index": {
+            "value": 24,
+            "kind": 1,
+            "byte_offset": 1056,
+            "raw_hex": "18",
+            "string": null
+          },
+          "value": {
+            "value": 0.0,
+            "kind": 18,
+            "byte_offset": 1057,
+            "raw_hex": "00000000",
+            "string": null
+          }
+        },
+        "record_end_offset": 1061
+      },
+      "in_data_args": null,
+      "port_offsets": {
+        "event_action": 933,
+        "in_data_pin": 933,
+        "out_data_pin": 1047
+      }
+    },
+    {
+      "node_id": 23,
+      "type": "NodeChecker",
+      "record_offset": 1320,
+      "node_type_code": 1,
+      "wrapper_offset": 1314,
+      "params": {
+        "literal_offset": 1289,
+        "schema_offset": 952,
+        "mask_byte_offset": 1291,
+        "mask_hex": "7e7f00",
+        "fields": {
+          "auto_reset_trigger": {
+            "value": 1,
+            "kind": 3,
+            "byte_offset": 1294,
+            "raw_hex": "01",
+            "string": null
+          },
+          "cd": {
+            "value": 0.0,
+            "kind": 18,
+            "byte_offset": 1295,
+            "raw_hex": "00000000",
+            "string": null
+          },
+          "effect_index": {
+            "value": 23,
+            "kind": 1,
+            "byte_offset": 1299,
+            "raw_hex": "17",
+            "string": null
+          },
+          "max_effect_count": {
+            "value": 20,
+            "kind": 1,
+            "byte_offset": 1300,
+            "raw_hex": "14",
+            "string": null
+          },
+          "max_effect_times": {
+            "value": 0,
+            "kind": 1,
+            "byte_offset": 1301,
+            "raw_hex": "00",
+            "string": null
+          },
+          "max_reset_times": {
+            "value": 0,
+            "kind": 1,
+            "byte_offset": 1302,
+            "raw_hex": "00",
+            "string": null
+          },
+          "reset_cd": {
+            "value": 0.0,
+            "kind": 18,
+            "byte_offset": 1303,
+            "raw_hex": "00000000",
+            "string": null
+          },
+          "reset_checker": {
+            "value": 4,
+            "kind": 11,
+            "byte_offset": 1307,
+            "raw_hex": "04",
+            "string": null
+          },
+          "reset_last_effect": {
+            "value": 1,
+            "kind": 3,
+            "byte_offset": 1308,
+            "raw_hex": "01",
+            "string": null
+          },
+          "reset_op": {
+            "value": 1,
+            "kind": 1,
+            "byte_offset": 1309,
+            "raw_hex": "01",
+            "string": null
+          },
+          "trigger_checker": {
+            "value": 363,
+            "kind": 11,
+            "byte_offset": 1310,
+            "raw_hex": "eb02",
+            "string": null
+          },
+          "trigger_once": {
+            "value": 0,
+            "kind": 3,
+            "byte_offset": 1312,
+            "raw_hex": "00",
+            "string": null
+          },
+          "trigger_op": {
+            "value": 0,
+            "kind": 1,
+            "byte_offset": 1313,
+            "raw_hex": "00",
+            "string": null
+          }
+        },
+        "record_end_offset": 1314
+      },
+      "in_data_args": null,
+      "port_offsets": {
+        "event_action": 1090,
+        "in_data_pin": 933,
+        "out_data_pin": 1082
+      }
+    },
+    {
+      "node_id": 31,
+      "type": "NodeChangeAttrInputValue",
+      "record_offset": 1355,
+      "node_type_code": 2,
+      "wrapper_offset": 1340,
+      "params": {
+        "literal_offset": 1331,
+        "schema_offset": 952,
+        "mask_byte_offset": 1333,
+        "mask_hex": "890001",
+        "fields": {
+          "attribute": {
+            "value": 38,
+            "kind": 5,
+            "byte_offset": 1336,
+            "raw_hex": "26",
+            "string": "attack_type_dam_add_rate_remote"
+          },
+          "effect_index": {
+            "value": 31,
+            "kind": 1,
+            "byte_offset": 1337,
+            "raw_hex": "1f",
+            "string": null
+          },
+          "need_disable": {
+            "value": 0,
+            "kind": 3,
+            "byte_offset": 1338,
+            "raw_hex": "00",
+            "string": null
+          },
+          "value_type": {
+            "value": 1,
+            "kind": 1,
+            "byte_offset": 1339,
+            "raw_hex": "01",
+            "string": null
+          }
+        },
+        "record_end_offset": 1340
+      },
+      "in_data_args": {
+        "literal_offset": 1346,
+        "schema_offset": 952,
+        "mask_byte_offset": 1348,
+        "mask_hex": "008000",
+        "fields": {
+          "value": {
+            "value": 0.0,
+            "kind": 18,
+            "byte_offset": 1351,
+            "raw_hex": "00000000",
+            "string": null
+          }
+        },
+        "record_end_offset": 1355
+      },
+      "port_offsets": {
+        "event_action": 933,
+        "in_data_pin": 933,
+        "out_data_pin": 933
+      }
+    },
+    {
+      "node_id": 20,
+      "type": "NodeChangeAttrInputValue",
+      "record_offset": 1381,
+      "node_type_code": 2,
+      "wrapper_offset": 1375,
+      "params": {
+        "literal_offset": 1366,
+        "schema_offset": 952,
+        "mask_byte_offset": 1368,
+        "mask_hex": "890001",
+        "fields": {
+          "attribute": {
+            "value": 38,
+            "kind": 5,
+            "byte_offset": 1371,
+            "raw_hex": "26",
+            "string": "attack_type_dam_add_rate_remote"
+          },
+          "effect_index": {
+            "value": 20,
+            "kind": 1,
+            "byte_offset": 1372,
+            "raw_hex": "14",
+            "string": null
+          },
+          "need_disable": {
+            "value": 0,
+            "kind": 3,
+            "byte_offset": 1373,
+            "raw_hex": "00",
+            "string": null
+          },
+          "value_type": {
+            "value": 1,
+            "kind": 1,
+            "byte_offset": 1374,
+            "raw_hex": "01",
+            "string": null
+          }
+        },
+        "record_end_offset": 1375
+      },
+      "in_data_args": {
+        "literal_offset": 1346,
+        "schema_offset": 952,
+        "mask_byte_offset": 1348,
+        "mask_hex": "008000",
+        "fields": {
+          "value": {
+            "value": 0.0,
+            "kind": 18,
+            "byte_offset": 1351,
+            "raw_hex": "00000000",
+            "string": null
+          }
+        },
+        "record_end_offset": 1355
+      },
+      "port_offsets": {
+        "event_action": 933,
+        "in_data_pin": 933,
+        "out_data_pin": 933
+      }
+    },
+    {
+      "node_id": 21,
+      "type": "NodeConstFloat",
+      "record_offset": 1408,
+      "node_type_code": 3,
+      "wrapper_offset": 1402,
+      "params": {
+        "literal_offset": 1392,
+        "schema_offset": 952,
+        "mask_byte_offset": 1394,
+        "mask_hex": "088000",
+        "fields": {
+          "effect_index": {
+            "value": 21,
+            "kind": 1,
+            "byte_offset": 1397,
+            "raw_hex": "15",
+            "string": null
+          },
+          "value": {
+            "value": 0.0,
+            "kind": 18,
+            "byte_offset": 1398,
+            "raw_hex": "00000000",
+            "string": null
+          }
+        },
+        "record_end_offset": 1402
+      },
+      "in_data_args": null,
+      "port_offsets": {
+        "event_action": 933,
+        "in_data_pin": 933,
+        "out_data_pin": 1047
+      }
+    }
+  ],
+  "control_edges": [
+    {
+      "from": 32,
+      "to": 31,
+      "port": "none_task_out",
+      "leaf_offset": 925
+    },
+    {
+      "from": 32,
+      "to": 23,
+      "port": "none_task_out",
+      "leaf_offset": 925
+    },
+    {
+      "from": 23,
+      "to": 20,
+      "port": "trigger",
+      "leaf_offset": 1086
+    }
+  ],
+  "state_change_checkers": [
+    {
+      "state_code": 40,
+      "checker_sid": 25895697919668225,
+      "wrapper_offset": 1125,
+      "params_offset": 1116,
+      "in_state": 1,
+      "role": 0,
+      "event": {
+        "offset": 1095,
+        "path": [
+          "on_state_change::40"
+        ],
+        "raw_hex": "27050130"
+      },
+      "dynamic_event_ptr": 4
+    },
+    {
+      "state_code": 2,
+      "checker_sid": 25895698993410049,
+      "wrapper_offset": 1152,
+      "params_offset": 1143,
+      "in_state": 1,
+      "role": 0,
+      "event": {
+        "offset": 1139,
+        "path": [
+          "on_state_change::2"
+        ],
+        "raw_hex": "27050131"
+      },
+      "dynamic_event_ptr": 4
+    },
+    {
+      "state_code": 83,
+      "checker_sid": 25895700067151873,
+      "wrapper_offset": 1179,
+      "params_offset": 1170,
+      "in_state": 1,
+      "role": 0,
+      "event": {
+        "offset": 1166,
+        "path": [
+          "on_state_change::83"
+        ],
+        "raw_hex": "27050132"
+      },
+      "dynamic_event_ptr": 4
+    },
+    {
+      "state_code": 110,
+      "checker_sid": 25895701140893697,
+      "wrapper_offset": 1206,
+      "params_offset": 1197,
+      "in_state": 1,
+      "role": 0,
+      "event": {
+        "offset": 1193,
+        "path": [
+          "on_state_change::110"
+        ],
+        "raw_hex": "27050133"
+      },
+      "dynamic_event_ptr": 4
+    },
+    {
+      "state_code": 111,
+      "checker_sid": 25895702214635521,
+      "wrapper_offset": 1233,
+      "params_offset": 1224,
+      "in_state": 1,
+      "role": 0,
+      "event": {
+        "offset": 1220,
+        "path": [
+          "on_state_change::111"
+        ],
+        "raw_hex": "27050134"
+      },
+      "dynamic_event_ptr": 4
+    },
+    {
+      "state_code": 95,
+      "checker_sid": 25895703288377345,
+      "wrapper_offset": 1260,
+      "params_offset": 1251,
+      "in_state": 1,
+      "role": 0,
+      "event": {
+        "offset": 1247,
+        "path": [
+          "on_state_change::95"
+        ],
+        "raw_hex": "27050135"
+      },
+      "dynamic_event_ptr": 4
+    }
+  ],
+  "dynamic_param_bindings": [
+    {
+      "node_id": 24,
+      "target_path": {
+        "offset": 1439,
+        "path": [
+          "effect_params",
+          "params",
+          "value"
+        ],
+        "raw_hex": "270503030005"
+      },
+      "value_index": 0,
+      "tuple_offset": 1445
+    },
+    {
+      "node_id": 21,
+      "target_path": {
+        "offset": 1439,
+        "path": [
+          "effect_params",
+          "params",
+          "value"
+        ],
+        "raw_hex": "270503030005"
+      },
+      "value_index": 1,
+      "tuple_offset": 1457
+    }
+  ],
+  "interpretation_limits": [
+    "Serialized event_action edges do not establish runtime dispatch or permanent lifetime.",
+    "State checker operation (combination and role) is not proven by configuration alone.",
+    "Dynamic bindings identify paths and indexes, but runtime mapping from buff-level params keys 1/2 to nodes and applied value requires executor semantics."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 4,
+  "as_of": "2026-11-01",
+  "purpose": "Six missing numeric packet trigger timelines, additive to frozen mechanics v2",
+  "weapons": {
+    "weapon:critical-pulse": {
+      "packet_id": "weapon:critical-pulse/lightning_orb_tick",
+      "source": "may25_release", "evidence_status": "official_release_at_date",
+      "trigger": "charged successful hit spends one observed charge to create an orb",
+      "tick_interval_seconds": 0.5, "radius_meters": 5,
+      "required_caller_inputs": ["observed_charge_count", "orb_duration_seconds", "first_tick_delay_seconds", "include_endpoint", "tick_target", "target_distance_meters"],
+      "unresolved": ["charge_collection", "orb_lifetime", "first_tick_delay", "orb_target_selection"]
+    },
+    "weapon:r500-hammerhead-shark": {
+      "packet_id": "weapon:r500-hammerhead-shark/shock_chain",
+      "source": "feb25_release", "evidence_status": "official_release_at_date",
+      "trigger": "hit a target affected by Power Surge; chain to caller-resolved nearby affected targets",
+      "required_caller_inputs": ["primary_power_surge_status", "nearby_affected_targets"],
+      "unresolved": ["main_target_150_percent_interpretation", "target_radius", "chain_target_cap"]
+    },
+    "weapon:kvd-boom-boom": {
+      "packet_id": "weapon:kvd-boom-boom/explosion",
+      "source": "nov24_update", "evidence_status": "historical_official_preview_not_final",
+      "trigger": "landed shot; explosion cooldown 2s; caller resolves targets",
+      "cooldown_seconds": 2,
+      "required_caller_inputs": ["explosion_targets"],
+      "unresolved": ["current_trigger_and_coefficient", "explosion_radius", "target_selection"]
+    },
+    "weapon:acs12-pyroclasm-starter": {
+      "packet_id": "weapon:acs12-pyroclasm-starter/dragons_breath",
+      "source": "feb26_preview", "evidence_status": "official_preview_numbers_not_final",
+      "trigger": "observed charged round from reload hits caller-resolved damage units",
+      "required_caller_inputs": ["observed_charged_rounds", "resolved_damage_units"],
+      "unresolved": ["charge_collection_and_conversion_to_rounds", "pellet_damage_unit", "current_coefficient"]
+    },
+    "weapon:sks-pathfinder": {
+      "packet_id": "weapon:sks-pathfinder/charged_ice_spike",
+      "source": "feb26_preview", "evidence_status": "official_preview_numbers_not_final",
+      "trigger": "charged shot consumes one observed charge; caller resolves pierced targets",
+      "required_caller_inputs": ["observed_charge_count", "charge_cost", "pierced_targets"],
+      "unresolved": ["charge_collection", "charge_cost", "pierce_target_count", "current_coefficient"]
+    },
+    "weapon:pdw90-holographic-resonance": {
+      "packet_id": "weapon:pdw90-holographic-resonance/area_pulse",
+      "source": "may26_preview", "evidence_status": "official_preview_numbers_not_final",
+      "trigger": "every 11 landed weapon hits, caller resolves targets within preview 10m radius",
+      "hit_threshold": 11, "preview_radius_meters": 10,
+      "required_caller_inputs": ["counter_overflow_model", "pulse_targets_on_trigger"],
+      "unresolved": ["current_counter_and_radius", "counter_overflow_rule", "area_target_selection"]
+    }
+  }
+}

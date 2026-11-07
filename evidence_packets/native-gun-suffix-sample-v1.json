@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "status": "eleven native fields decoded from bounded typed suffix",
+  "steam_build_id": "26267212",
+  "source_capture_manifest": "gun_stat_candidate_capture.json",
+  "source_literal_sha256": {
+    "item_to_gun_mapping_data": "4e9620f90570b18d73d5a9bda2253bd21a6383983dadc783e22aa337ef32cdeb",
+    "gun_base_params_data": "7ba048990ee6da61bd37bd82b00e1a11aa8f4df792e429ebae5342a91f505212"
+  },
+  "method": "Parse the final eleven ordered (string-table index, type) descriptors. Type 5 resolves a string-pool index; type 1 is unsigned varint; type 18 is LE float32; type 34 is LE float64. Scan only the final 120 bytes of each indexed row and require exactly one parse ending at the next-row marker. No published values are used to choose a parse.",
+  "descriptor_offset": 27639,
+  "suffix_descriptor_pairs": [
+    {
+      "name_index": 75,
+      "name": "weapon_magazine_size_affix",
+      "type_code": 5,
+      "type": "string_table_index"
+    },
+    {
+      "name_index": 68,
+      "name": "weapon_magazine_size_affix_value",
+      "type_code": 1,
+      "type": "unsigned_varint"
+    },
+    {
+      "name_index": 106,
+      "name": "weapon_mobility",
+      "type_code": 18,
+      "type": "float32_le"
+    },
+    {
+      "name_index": 53,
+      "name": "weapon_mobility_affix",
+      "type_code": 5,
+      "type": "string_table_index"
+    },
+    {
+      "name_index": 56,
+      "name": "weapon_range_affix",
+      "type_code": 5,
+      "type": "string_table_index"
+    },
+    {
+      "name_index": 60,
+      "name": "weapon_range_affix_value",
+      "type_code": 1,
+      "type": "unsigned_varint"
+    },
+    {
+      "name_index": 103,
+      "name": "weapon_range_template_no",
+      "type_code": 5,
+      "type": "string_table_index"
+    },
+    {
+      "name_index": 66,
+      "name": "weapon_range_value",
+      "type_code": 1,
+      "type": "unsigned_varint"
+    },
+    {
+      "name_index": 97,
+      "name": "weapon_rpm",
+      "type_code": 34,
+      "type": "float64_le"
+    },
+    {
+      "name_index": 67,
+      "name": "weapon_rpm_affix",
+      "type_code": 5,
+      "type": "string_table_index"
+    },
+    {
+      "name_index": 88,
+      "name": "weapon_rpm_affix_value",
+      "type_code": 1,
+      "type": "unsigned_varint"
+    }
+  ],
+  "coverage": {
+    "item_to_gun_links": 2371,
+    "gun_base_indexed_rows": 349,
+    "rows_with_unique_eleven_field_suffix": 348,
+    "last_row_without_next_row_marker": 1
+  },
+  "aug_identity": {
+    "blueprint_id": 13451401,
+    "gear_id": 10451401,
+    "gun_no": 10450141
+  },
+  "aug_native_field_record": {
+    "blueprint_id": 13451401,
+    "gear_id": 10451401,
+    "gun_no": 10450141,
+    "item_to_gun_index_offset": 25593,
+    "item_to_gun_value_offset": 405,
+    "gun_row_start_offset": 122688,
+    "gun_row_end_offset_exclusive": 123168,
+    "typed_suffix_start_offset": 123101,
+    "typed_suffix_end_offset_exclusive": 123124,
+    "typed_suffix_fields": [
+      {
+        "native_field": "weapon_magazine_size_affix",
+        "name_index": 75,
+        "type_code": 5,
+        "type": "string_table_index",
+        "value": "Q1100",
+        "byte_offset": 123101,
+        "byte_length": 1,
+        "raw_hex": "73"
+      },
+      {
+        "native_field": "weapon_magazine_size_affix_value",
+        "name_index": 68,
+        "type_code": 1,
+        "type": "unsigned_varint",
+        "value": 40,
+        "byte_offset": 123102,
+        "byte_length": 1,
+        "raw_hex": "28"
+      },
+      {
+        "native_field": "weapon_mobility",
+        "name_index": 106,
+        "type_code": 18,
+        "type": "float32_le",
+        "value": 60.0,
+        "byte_offset": 123103,
+        "byte_length": 4,
+        "raw_hex": "00007042"
+      },
+      {
+        "native_field": "weapon_mobility_affix",
+        "name_index": 53,
+        "type_code": 5,
+        "type": "string_table_index",
+        "value": "Q1600",
+        "byte_offset": 123107,
+        "byte_length": 1,
+        "raw_hex": "6f"
+      },
+      {
+        "native_field": "weapon_range_affix",
+        "name_index": 56,
+        "type_code": 5,
+        "type": "string_table_index",
+        "value": "Q0500",
+        "byte_offset": 123108,
+        "byte_length": 1,
+        "raw_hex": "70"
+      },
+      {
+        "native_field": "weapon_range_affix_value",
+        "name_index": 60,
+        "type_code": 1,
+        "type": "unsigned_varint",
+        "value": 26,
+        "byte_offset": 123109,
+        "byte_length": 1,
+        "raw_hex": "1a"
+      },
+      {
+        "native_field": "weapon_range_template_no",
+        "name_index": 103,
+        "type_code": 5,
+        "type": "string_table_index",
+        "value": "range_ar",
+        "byte_offset": 123110,
+        "byte_length": 2,
+        "raw_hex": "8e01"
+      },
+      {
+        "native_field": "weapon_range_value",
+        "name_index": 66,
+        "type_code": 1,
+        "type": "unsigned_varint",
+        "value": 60,
+        "byte_offset": 123112,
+        "byte_length": 1,
+        "raw_hex": "3c"
+      },
+      {
+        "native_field": "weapon_rpm",
+        "name_index": 97,
+        "type_code": 34,
+        "type": "float64_le",
+        "value": 409.79407847556604,
+        "byte_offset": 123113,
+        "byte_length": 8,
+        "raw_hex": "38b0a18bb49c7940"
+      },
+      {
+        "native_field": "weapon_rpm_affix",
+        "name_index": 67,
+        "type_code": 5,
+        "type": "string_table_index",
+        "value": "Q0800",
+        "byte_offset": 123121,
+        "byte_length": 1,
+        "raw_hex": "71"
+      },
+      {
+        "native_field": "weapon_rpm_affix_value",
+        "name_index": 88,
+        "type_code": 1,
+        "type": "unsigned_varint",
+        "value": 720,
+        "byte_offset": 123122,
+        "byte_length": 2,
+        "raw_hex": "d005"
+      }
+    ],
+    "public_fire_rate": 720,
+    "public_gear_url": "https://oncehuman.th.gl/db/gear/10451401"
+  },
+  "key_numeric_fields": {
+    "weapon_magazine_size_affix_value": {
+      "native_field": "weapon_magazine_size_affix_value",
+      "name_index": 68,
+      "type_code": 1,
+      "type": "unsigned_varint",
+      "value": 40,
+      "byte_offset": 123102,
+      "byte_length": 1,
+      "raw_hex": "28"
+    },
+    "weapon_range_affix_value": {
+      "native_field": "weapon_range_affix_value",
+      "name_index": 60,
+      "type_code": 1,
+      "type": "unsigned_varint",
+      "value": 26,
+      "byte_offset": 123109,
+      "byte_length": 1,
+      "raw_hex": "1a"
+    },
+    "weapon_rpm": {
+      "native_field": "weapon_rpm",
+      "name_index": 97,
+      "type_code": 34,
+      "type": "float64_le",
+      "value": 409.79407847556604,
+      "byte_offset": 123113,
+      "byte_length": 8,
+      "raw_hex": "38b0a18bb49c7940"
+    },
+    "weapon_rpm_affix_value": {
+      "native_field": "weapon_rpm_affix_value",
+      "name_index": 88,
+      "type_code": 1,
+      "type": "unsigned_varint",
+      "value": 720,
+      "byte_offset": 123122,
+      "byte_length": 2,
+      "raw_hex": "d005"
+    }
+  },
+  "unit_notes": {
+    "weapon_rpm_affix_value": "Native name says rpm; published reference calls the corresponding display field Fire Rate. Raw build value is 720. Exact gameplay/config application requires separate review.",
+    "weapon_magazine_size_affix_value": "Native name says magazine size; published reference capacity is 40. Raw build value is 40. Exact gameplay/config application requires separate review.",
+    "weapon_range_affix_value": "Native name says range; published Full DMG Range is 26 m. Raw build value is 26. Exact gameplay/config application requires separate review.",
+    "weapon_rpm": "Raw LE float64 409.79407847556604. Preserve separately from weapon_rpm_affix_value; no display or damage interpretation established."
+  },
+  "five_public_value_cross_checks": [
+    {
+      "blueprint_id": 13451401,
+      "gear_id": 10451401,
+      "gun_no": 10450141,
+      "item_to_gun_index_offset": 25593,
+      "item_to_gun_value_offset": 405,
+      "gun_row_start_offset": 122688,
+      "gun_row_end_offset_exclusive": 123168,
+      "typed_suffix_start_offset": 123101,
+      "typed_suffix_end_offset_exclusive": 123124,
+      "typed_suffix_fields": [
+        {
+          "native_field": "weapon_magazine_size_affix",
+          "name_index": 75,
+          "type_code": 5,
+          "type": "string_table_index",
+          "value": "Q1100",
+          "byte_offset": 123101,
+          "byte_length": 1,
+          "raw_hex": "73"
+        },
+        {
+          "native_field": "weapon_magazine_size_affix_value",
+          "name_index": 68,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 40,
+          "byte_offset": 123102,
+          "byte_length": 1,
+          "raw_hex": "28"
+        },
+        {
+          "native_field": "weapon_mobility",
+          "name_index": 106,
+          "type_code": 18,
+          "type": "float32_le",
+          "value": 60.0,
+          "byte_offset": 123103,
+          "byte_length": 4,
+          "raw_hex": "00007042"
+        },
+        {
+          "native_field": "weapon_mobility_affix",
+          "name_index": 53,
+          "type_code": 5,
+          "type": "string_table_index",
+          "value": "Q1600",
+          "byte_offset": 123107,
+          "byte_length": 1,
+          "raw_hex": "6f"
+        },
+        {
+          "native_field": "weapon_range_affix",
+          "name_index": 56,
+          "type_code": 5,
+          "type": "string_table_index",
+          "value": "Q0500",
+          "byte_offset": 123108,
+          "byte_length": 1,
+          "raw_hex": "70"
+        },
+        {
+          "native_field": "weapon_range_affix_value",
+          "name_index": 60,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 26,
+          "byte_offset": 123109,
+          "byte_length": 1,
+          "raw_hex": "1a"
+        },
+        {
+          "native_field": "weapon_range_template_no",
+          "name_index": 103,
+          "type_code": 5,
+          "type": "string_table_index",
+          "value": "range_ar",
+          "byte_offset": 123110,
+          "byte_length": 2,
+          "raw_hex": "8e01"
+        },
+        {
+          "native_field": "weapon_range_value",
+          "name_index": 66,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 60,
+          "byte_offset": 123112,
+          "byte_length": 1,
+          "raw_hex": "3c"
+        },
+        {
+          "native_field": "weapon_rpm",
+          "name_index": 97,
+          "type_code": 34,
+          "type": "float64_le",
+          "value": 409.79407847556604,
+          "byte_offset": 123113,
+          "byte_length": 8,
+          "raw_hex": "38b0a18bb49c7940"
+        },
+        {
+          "native_field": "weapon_rpm_affix",
+          "name_index": 67,
+          "type_code": 5,
+          "type": "string_table_index",
+          "value": "Q0800",
+          "byte_offset": 123121,
+          "byte_length": 1,
+          "raw_hex": "71"
+        },
+        {
+          "native_field": "weapon_rpm_affix_value",
+          "name_index": 88,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 720,
+          "byte_offset": 123122,
+          "byte_length": 2,
+          "raw_hex": "d005"
+        }
+      ],
+      "public_fire_rate": 720,
+      "public_gear_url": "https://oncehuman.th.gl/db/gear/10451401"
+    },
+    {
+      "blueprint_id": 13413301,
+      "gear_id": 10413301,
+      "gun_no": 10410331,
+      "item_to_gun_index_offset": 21655,
+      "item_to_gun_value_offset": 309,
+      "gun_row_start_offset": 108668,
+      "gun_row_end_offset_exclusive": 109106,
+      "typed_suffix_start_offset": 109069,
+      "typed_suffix_end_offset_exclusive": 109092,
+      "typed_suffix_fields": [
+        {
+          "native_field": "weapon_magazine_size_affix_value",
+          "name_index": 68,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 30,
+          "byte_offset": 109070,
+          "byte_length": 1,
+          "raw_hex": "1e"
+        },
+        {
+          "native_field": "weapon_range_affix_value",
+          "name_index": 60,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 27,
+          "byte_offset": 109077,
+          "byte_length": 1,
+          "raw_hex": "1b"
+        },
+        {
+          "native_field": "weapon_rpm_affix_value",
+          "name_index": 88,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 515,
+          "byte_offset": 109090,
+          "byte_length": 2,
+          "raw_hex": "8304"
+        }
+      ],
+      "public_fire_rate": 515,
+      "public_gear_url": "https://oncehuman.th.gl/db/gear/10413301"
+    },
+    {
+      "blueprint_id": 13742201,
+      "gear_id": 10742201,
+      "gun_no": 10742211,
+      "item_to_gun_index_offset": 33241,
+      "item_to_gun_value_offset": 1365,
+      "gun_row_start_offset": 64904,
+      "gun_row_end_offset_exclusive": 65333,
+      "typed_suffix_start_offset": 65297,
+      "typed_suffix_end_offset_exclusive": 65319,
+      "typed_suffix_fields": [
+        {
+          "native_field": "weapon_magazine_size_affix_value",
+          "name_index": 68,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 1,
+          "byte_offset": 65298,
+          "byte_length": 1,
+          "raw_hex": "01"
+        },
+        {
+          "native_field": "weapon_range_affix_value",
+          "name_index": 60,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 19,
+          "byte_offset": 65305,
+          "byte_length": 1,
+          "raw_hex": "13"
+        },
+        {
+          "native_field": "weapon_rpm_affix_value",
+          "name_index": 88,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 65,
+          "byte_offset": 65318,
+          "byte_length": 1,
+          "raw_hex": "41"
+        }
+      ],
+      "public_fire_rate": 65,
+      "public_gear_url": "https://oncehuman.th.gl/db/gear/10742201"
+    },
+    {
+      "blueprint_id": 13512301,
+      "gear_id": 10512301,
+      "gun_no": 10510151,
+      "item_to_gun_index_offset": 22141,
+      "item_to_gun_value_offset": 573,
+      "gun_row_start_offset": 39024,
+      "gun_row_end_offset_exclusive": 39455,
+      "typed_suffix_start_offset": 39411,
+      "typed_suffix_end_offset_exclusive": 39433,
+      "typed_suffix_fields": [
+        {
+          "native_field": "weapon_magazine_size_affix_value",
+          "name_index": 68,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 5,
+          "byte_offset": 39412,
+          "byte_length": 1,
+          "raw_hex": "05"
+        },
+        {
+          "native_field": "weapon_range_affix_value",
+          "name_index": 60,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 60,
+          "byte_offset": 39419,
+          "byte_length": 1,
+          "raw_hex": "3c"
+        },
+        {
+          "native_field": "weapon_rpm_affix_value",
+          "name_index": 88,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 40,
+          "byte_offset": 39432,
+          "byte_length": 1,
+          "raw_hex": "28"
+        }
+      ],
+      "public_fire_rate": 40,
+      "public_gear_url": "https://oncehuman.th.gl/db/gear/10512301"
+    },
+    {
+      "blueprint_id": 13641201,
+      "gear_id": 10641201,
+      "gun_no": 10640131,
+      "item_to_gun_index_offset": 28628,
+      "item_to_gun_value_offset": 855,
+      "gun_row_start_offset": 151559,
+      "gun_row_end_offset_exclusive": 151987,
+      "typed_suffix_start_offset": 151950,
+      "typed_suffix_end_offset_exclusive": 151973,
+      "typed_suffix_fields": [
+        {
+          "native_field": "weapon_magazine_size_affix_value",
+          "name_index": 68,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 60,
+          "byte_offset": 151951,
+          "byte_length": 1,
+          "raw_hex": "3c"
+        },
+        {
+          "native_field": "weapon_range_affix_value",
+          "name_index": 60,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 30,
+          "byte_offset": 151958,
+          "byte_length": 1,
+          "raw_hex": "1e"
+        },
+        {
+          "native_field": "weapon_rpm_affix_value",
+          "name_index": 88,
+          "type_code": 1,
+          "type": "unsigned_varint",
+          "value": 650,
+          "byte_offset": 151971,
+          "byte_length": 2,
+          "raw_hex": "8a05"
+        }
+      ],
+      "public_fire_rate": 650,
+      "public_gear_url": "https://oncehuman.th.gl/db/gear/10641201"
+    }
+  ],
+  "not_decoded": [
+    "damage",
+    "tier/star crafting math",
+    "calibration effects",
+    "full bindict records"
+  ],
+  "game_code_executed": false
+}

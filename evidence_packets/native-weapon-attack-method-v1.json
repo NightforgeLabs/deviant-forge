@@ -1,0 +1,948 @@
+{
+  "schema_version": 1,
+  "method": "Static, control-validated symbolic reading of copied raw co_code; no game code imported or executed.",
+  "supported_opcodes": {
+    "d6": [
+      "ENTRY",
+      0
+    ],
+    "ca": [
+      "LOAD_CONST",
+      0
+    ],
+    "0d": [
+      "RETURN_VALUE",
+      0
+    ],
+    "5e": [
+      "LOAD_FAST",
+      0
+    ],
+    "64": [
+      "STORE_FAST",
+      0
+    ],
+    "6c": [
+      "LOAD_GLOBAL",
+      5
+    ],
+    "de": [
+      "LOAD_ATTR_OR_METHOD",
+      9
+    ],
+    "ac": [
+      "PRECALL",
+      1
+    ],
+    "e2": [
+      "CALL",
+      4
+    ],
+    "cc": [
+      "BUILD_MAP",
+      0
+    ],
+    "7a": [
+      "BUILD_TUPLE",
+      0
+    ],
+    "7d": [
+      "BINARY_OP",
+      1
+    ]
+  },
+  "independent_operator_and_tuple_controls": [
+    {
+      "file": "shoot_utility.pyc",
+      "pyc_sha256": "891bbda57741ffa7c4dd27e13d58c0a65534b29621838e9c4b86d95e1f1fa1b5",
+      "method": "cal_collision_time_typed",
+      "absolute_offset": 34242,
+      "raw_hex": "5e035e027d0b000064045e040d00",
+      "local_interpretation": "dis / speed",
+      "locals": [
+        "start_pos",
+        "end_pos",
+        "speed",
+        "dis",
+        "collision_time"
+      ]
+    },
+    {
+      "file": "shoot_utility.pyc",
+      "pyc_sha256": "891bbda57741ffa7c4dd27e13d58c0a65534b29621838e9c4b86d95e1f1fa1b5",
+      "method": "cal_aim_assist_dis_rate",
+      "absolute_offset": 41560,
+      "raw_hex": "5e005e027d0a00005e015e027d0a00007d0b00000d00",
+      "local_interpretation": "(tar_dis - keep_dis) / (start_dis - keep_dis)",
+      "locals": [
+        "tar_dis",
+        "start_dis",
+        "keep_dis"
+      ]
+    },
+    {
+      "file": "BluePrintHelper.pyc",
+      "pyc_sha256": "595aafbf117a69e33b713945b6a2cfe319ee2c4a949c371f849afdbfea1f6a83",
+      "method": "get_blueprint_term_range",
+      "absolute_offset": 14110,
+      "raw_hex": "5e025e037a020d00",
+      "local_interpretation": "(min_num, max_num)",
+      "locals": [
+        "quality",
+        "star",
+        "min_num",
+        "max_num"
+      ]
+    },
+    {
+      "file": "shoot_utility.pyc",
+      "pyc_sha256": "891bbda57741ffa7c4dd27e13d58c0a65534b29621838e9c4b86d95e1f1fa1b5",
+      "method": "get_cam_start_pos_and_target_dis_pos",
+      "absolute_offset": 31879,
+      "raw_hex": "5e035e04de060000000000000000000000000000000000005e057d0500007d0000006406",
+      "local_interpretation": "start_pos3 = cam_pos + cam_rot.forward * cam_dis",
+      "locals": [
+        "detect_dis",
+        "cam_type",
+        "need_cam_dis",
+        "cam_pos",
+        "cam_rot",
+        "cam_dis",
+        "start_pos3",
+        "target_pos3"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "file": "shoot_utility.pyc",
+      "pyc_sha256": "891bbda57741ffa7c4dd27e13d58c0a65534b29621838e9c4b86d95e1f1fa1b5",
+      "method": "get_gun_extra_params",
+      "first_line": 354,
+      "body_absolute_offset": 19289,
+      "body_length": 10,
+      "body_sha256": "fac0927446890f2282e66db6d8b8f6fa94b5b58d327abe173461fa961d6b387a",
+      "names": [],
+      "constants": [
+        "None"
+      ],
+      "locals": [
+        "item_no",
+        "extra_dict"
+      ],
+      "statements": [
+        "extra_dict = {}"
+      ],
+      "return_expression": "extra_dict",
+      "words": [
+        {
+          "absolute_offset": 19289,
+          "relative_offset": 0,
+          "raw_hex": "d600",
+          "local_opcode": "ENTRY",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 19291,
+          "relative_offset": 2,
+          "raw_hex": "cc00",
+          "local_opcode": "BUILD_MAP",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 19293,
+          "relative_offset": 4,
+          "raw_hex": "6401",
+          "local_opcode": "STORE_FAST",
+          "arg": 1,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 19295,
+          "relative_offset": 6,
+          "raw_hex": "5e01",
+          "local_opcode": "LOAD_FAST",
+          "arg": 1,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 19297,
+          "relative_offset": 8,
+          "raw_hex": "0d00",
+          "local_opcode": "RETURN_VALUE",
+          "arg": 0,
+          "cache_units_after": 0
+        }
+      ]
+    },
+    {
+      "file": "shoot_utility.pyc",
+      "pyc_sha256": "891bbda57741ffa7c4dd27e13d58c0a65534b29621838e9c4b86d95e1f1fa1b5",
+      "method": "get_gun_no_by_item_no",
+      "first_line": 368,
+      "body_absolute_offset": 19977,
+      "body_length": 92,
+      "body_sha256": "e40c9c90854106cfcf8927ad8764584586a97115b7918ac8a7f2991aa05b4f7b",
+      "names": [
+        "item_to_gun_mapping_data",
+        "get"
+      ],
+      "constants": [
+        "None",
+        "'gun_no'",
+        "0"
+      ],
+      "locals": [
+        "item_no"
+      ],
+      "statements": [],
+      "return_expression": "item_to_gun_mapping_data.get(item_no, {}).get('gun_no', 0)",
+      "words": [
+        {
+          "absolute_offset": 19977,
+          "relative_offset": 0,
+          "raw_hex": "d600",
+          "local_opcode": "ENTRY",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 19979,
+          "relative_offset": 2,
+          "raw_hex": "6c00",
+          "local_opcode": "LOAD_GLOBAL",
+          "arg": 0,
+          "cache_units_after": 5
+        },
+        {
+          "absolute_offset": 19991,
+          "relative_offset": 14,
+          "raw_hex": "de03",
+          "local_opcode": "LOAD_ATTR_OR_METHOD",
+          "arg": 3,
+          "cache_units_after": 9
+        },
+        {
+          "absolute_offset": 20011,
+          "relative_offset": 34,
+          "raw_hex": "5e00",
+          "local_opcode": "LOAD_FAST",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 20013,
+          "relative_offset": 36,
+          "raw_hex": "cc00",
+          "local_opcode": "BUILD_MAP",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 20015,
+          "relative_offset": 38,
+          "raw_hex": "ac02",
+          "local_opcode": "PRECALL",
+          "arg": 2,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 20019,
+          "relative_offset": 42,
+          "raw_hex": "e202",
+          "local_opcode": "CALL",
+          "arg": 2,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 20029,
+          "relative_offset": 52,
+          "raw_hex": "de03",
+          "local_opcode": "LOAD_ATTR_OR_METHOD",
+          "arg": 3,
+          "cache_units_after": 9
+        },
+        {
+          "absolute_offset": 20049,
+          "relative_offset": 72,
+          "raw_hex": "ca01",
+          "local_opcode": "LOAD_CONST",
+          "arg": 1,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 20051,
+          "relative_offset": 74,
+          "raw_hex": "ca02",
+          "local_opcode": "LOAD_CONST",
+          "arg": 2,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 20053,
+          "relative_offset": 76,
+          "raw_hex": "ac02",
+          "local_opcode": "PRECALL",
+          "arg": 2,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 20057,
+          "relative_offset": 80,
+          "raw_hex": "e202",
+          "local_opcode": "CALL",
+          "arg": 2,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 20067,
+          "relative_offset": 90,
+          "raw_hex": "0d00",
+          "local_opcode": "RETURN_VALUE",
+          "arg": 0,
+          "cache_units_after": 0
+        }
+      ]
+    },
+    {
+      "file": "BluePrintHelper.pyc",
+      "pyc_sha256": "595aafbf117a69e33b713945b6a2cfe319ee2c4a949c371f849afdbfea1f6a83",
+      "method": "get_gun_blueprint_data",
+      "first_line": 74,
+      "body_absolute_offset": 3147,
+      "body_length": 54,
+      "body_sha256": "546d0bf6828f1caa94432efc519a9b5b661e163554043e5d1e7c8ba74652d29a",
+      "names": [
+        "GUN_BLUEPRINT_D_TABLE",
+        "get"
+      ],
+      "constants": [
+        "None"
+      ],
+      "locals": [
+        "blueprint_no"
+      ],
+      "statements": [],
+      "return_expression": "GUN_BLUEPRINT_D_TABLE.get(blueprint_no, {})",
+      "words": [
+        {
+          "absolute_offset": 3147,
+          "relative_offset": 0,
+          "raw_hex": "d600",
+          "local_opcode": "ENTRY",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 3149,
+          "relative_offset": 2,
+          "raw_hex": "6c00",
+          "local_opcode": "LOAD_GLOBAL",
+          "arg": 0,
+          "cache_units_after": 5
+        },
+        {
+          "absolute_offset": 3161,
+          "relative_offset": 14,
+          "raw_hex": "de03",
+          "local_opcode": "LOAD_ATTR_OR_METHOD",
+          "arg": 3,
+          "cache_units_after": 9
+        },
+        {
+          "absolute_offset": 3181,
+          "relative_offset": 34,
+          "raw_hex": "5e00",
+          "local_opcode": "LOAD_FAST",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 3183,
+          "relative_offset": 36,
+          "raw_hex": "cc00",
+          "local_opcode": "BUILD_MAP",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 3185,
+          "relative_offset": 38,
+          "raw_hex": "ac02",
+          "local_opcode": "PRECALL",
+          "arg": 2,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 3189,
+          "relative_offset": 42,
+          "raw_hex": "e202",
+          "local_opcode": "CALL",
+          "arg": 2,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 3199,
+          "relative_offset": 52,
+          "raw_hex": "0d00",
+          "local_opcode": "RETURN_VALUE",
+          "arg": 0,
+          "cache_units_after": 0
+        }
+      ]
+    },
+    {
+      "file": "BluePrintHelper.pyc",
+      "pyc_sha256": "595aafbf117a69e33b713945b6a2cfe319ee2c4a949c371f849afdbfea1f6a83",
+      "method": "get_gun_blueprint_data_val_by_key",
+      "first_line": 80,
+      "body_absolute_offset": 3571,
+      "body_length": 74,
+      "body_sha256": "bd717f7fff4e37c5640215c7966a57467be0bad1ff2f4c8d16bd2f513f22fc37",
+      "names": [
+        "get_gun_blueprint_data",
+        "get"
+      ],
+      "constants": [
+        "None"
+      ],
+      "locals": [
+        "blueprint_no",
+        "key",
+        "default",
+        "gun_blueprint_data"
+      ],
+      "statements": [
+        "gun_blueprint_data = get_gun_blueprint_data(blueprint_no)"
+      ],
+      "return_expression": "gun_blueprint_data.get(key, default)",
+      "words": [
+        {
+          "absolute_offset": 3571,
+          "relative_offset": 0,
+          "raw_hex": "d600",
+          "local_opcode": "ENTRY",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 3573,
+          "relative_offset": 2,
+          "raw_hex": "6c01",
+          "local_opcode": "LOAD_GLOBAL",
+          "arg": 1,
+          "cache_units_after": 5
+        },
+        {
+          "absolute_offset": 3585,
+          "relative_offset": 14,
+          "raw_hex": "5e00",
+          "local_opcode": "LOAD_FAST",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 3587,
+          "relative_offset": 16,
+          "raw_hex": "ac01",
+          "local_opcode": "PRECALL",
+          "arg": 1,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 3591,
+          "relative_offset": 20,
+          "raw_hex": "e201",
+          "local_opcode": "CALL",
+          "arg": 1,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 3601,
+          "relative_offset": 30,
+          "raw_hex": "6403",
+          "local_opcode": "STORE_FAST",
+          "arg": 3,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 3603,
+          "relative_offset": 32,
+          "raw_hex": "5e03",
+          "local_opcode": "LOAD_FAST",
+          "arg": 3,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 3605,
+          "relative_offset": 34,
+          "raw_hex": "de03",
+          "local_opcode": "LOAD_ATTR_OR_METHOD",
+          "arg": 3,
+          "cache_units_after": 9
+        },
+        {
+          "absolute_offset": 3625,
+          "relative_offset": 54,
+          "raw_hex": "5e01",
+          "local_opcode": "LOAD_FAST",
+          "arg": 1,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 3627,
+          "relative_offset": 56,
+          "raw_hex": "5e02",
+          "local_opcode": "LOAD_FAST",
+          "arg": 2,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 3629,
+          "relative_offset": 58,
+          "raw_hex": "ac02",
+          "local_opcode": "PRECALL",
+          "arg": 2,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 3633,
+          "relative_offset": 62,
+          "raw_hex": "e202",
+          "local_opcode": "CALL",
+          "arg": 2,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 3643,
+          "relative_offset": 72,
+          "raw_hex": "0d00",
+          "local_opcode": "RETURN_VALUE",
+          "arg": 0,
+          "cache_units_after": 0
+        }
+      ]
+    },
+    {
+      "file": "shoot_utility.pyc",
+      "pyc_sha256": "891bbda57741ffa7c4dd27e13d58c0a65534b29621838e9c4b86d95e1f1fa1b5",
+      "method": "get_gun_omg_value",
+      "first_line": 776,
+      "body_absolute_offset": 39279,
+      "body_length": 276,
+      "body_sha256": "eeddb4ebfaf8e46161c3b3e21770add1cac8b1353bdd1954dbd1f68ff4cd8b07",
+      "names": [
+        "get_equip_orogin_data_by_equip_no",
+        "get",
+        "equip_data",
+        "gun_blueprint_attr_data"
+      ],
+      "constants": [
+        "None",
+        "'gun_preset_attack'",
+        "0",
+        "'blueprint_no'",
+        "'preset_attack_radio'"
+      ],
+      "locals": [
+        "item_no",
+        "star",
+        "gun_params",
+        "preset_attack",
+        "blueprint_no",
+        "blueprint_index",
+        "blueprint_params",
+        "attack_radio"
+      ],
+      "statements": [
+        "gun_params = get_equip_orogin_data_by_equip_no(item_no)",
+        "preset_attack = gun_params.get('gun_preset_attack', 0)",
+        "blueprint_no = equip_data.get(item_no, {}).get('blueprint_no', 0)",
+        "blueprint_index = (blueprint_no, star)",
+        "blueprint_params = gun_blueprint_attr_data.get(blueprint_index, {})",
+        "attack_radio = blueprint_params.get('preset_attack_radio', 0)"
+      ],
+      "return_expression": "(preset_attack * attack_radio)",
+      "words": [
+        {
+          "absolute_offset": 39279,
+          "relative_offset": 0,
+          "raw_hex": "d600",
+          "local_opcode": "ENTRY",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39281,
+          "relative_offset": 2,
+          "raw_hex": "6c01",
+          "local_opcode": "LOAD_GLOBAL",
+          "arg": 1,
+          "cache_units_after": 5
+        },
+        {
+          "absolute_offset": 39293,
+          "relative_offset": 14,
+          "raw_hex": "5e00",
+          "local_opcode": "LOAD_FAST",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39295,
+          "relative_offset": 16,
+          "raw_hex": "ac01",
+          "local_opcode": "PRECALL",
+          "arg": 1,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 39299,
+          "relative_offset": 20,
+          "raw_hex": "e201",
+          "local_opcode": "CALL",
+          "arg": 1,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 39309,
+          "relative_offset": 30,
+          "raw_hex": "6402",
+          "local_opcode": "STORE_FAST",
+          "arg": 2,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39311,
+          "relative_offset": 32,
+          "raw_hex": "5e02",
+          "local_opcode": "LOAD_FAST",
+          "arg": 2,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39313,
+          "relative_offset": 34,
+          "raw_hex": "de03",
+          "local_opcode": "LOAD_ATTR_OR_METHOD",
+          "arg": 3,
+          "cache_units_after": 9
+        },
+        {
+          "absolute_offset": 39333,
+          "relative_offset": 54,
+          "raw_hex": "ca01",
+          "local_opcode": "LOAD_CONST",
+          "arg": 1,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39335,
+          "relative_offset": 56,
+          "raw_hex": "ca02",
+          "local_opcode": "LOAD_CONST",
+          "arg": 2,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39337,
+          "relative_offset": 58,
+          "raw_hex": "ac02",
+          "local_opcode": "PRECALL",
+          "arg": 2,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 39341,
+          "relative_offset": 62,
+          "raw_hex": "e202",
+          "local_opcode": "CALL",
+          "arg": 2,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 39351,
+          "relative_offset": 72,
+          "raw_hex": "6403",
+          "local_opcode": "STORE_FAST",
+          "arg": 3,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39353,
+          "relative_offset": 74,
+          "raw_hex": "6c04",
+          "local_opcode": "LOAD_GLOBAL",
+          "arg": 4,
+          "cache_units_after": 5
+        },
+        {
+          "absolute_offset": 39365,
+          "relative_offset": 86,
+          "raw_hex": "de03",
+          "local_opcode": "LOAD_ATTR_OR_METHOD",
+          "arg": 3,
+          "cache_units_after": 9
+        },
+        {
+          "absolute_offset": 39385,
+          "relative_offset": 106,
+          "raw_hex": "5e00",
+          "local_opcode": "LOAD_FAST",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39387,
+          "relative_offset": 108,
+          "raw_hex": "cc00",
+          "local_opcode": "BUILD_MAP",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39389,
+          "relative_offset": 110,
+          "raw_hex": "ac02",
+          "local_opcode": "PRECALL",
+          "arg": 2,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 39393,
+          "relative_offset": 114,
+          "raw_hex": "e202",
+          "local_opcode": "CALL",
+          "arg": 2,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 39403,
+          "relative_offset": 124,
+          "raw_hex": "de03",
+          "local_opcode": "LOAD_ATTR_OR_METHOD",
+          "arg": 3,
+          "cache_units_after": 9
+        },
+        {
+          "absolute_offset": 39423,
+          "relative_offset": 144,
+          "raw_hex": "ca03",
+          "local_opcode": "LOAD_CONST",
+          "arg": 3,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39425,
+          "relative_offset": 146,
+          "raw_hex": "ca02",
+          "local_opcode": "LOAD_CONST",
+          "arg": 2,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39427,
+          "relative_offset": 148,
+          "raw_hex": "ac02",
+          "local_opcode": "PRECALL",
+          "arg": 2,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 39431,
+          "relative_offset": 152,
+          "raw_hex": "e202",
+          "local_opcode": "CALL",
+          "arg": 2,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 39441,
+          "relative_offset": 162,
+          "raw_hex": "6404",
+          "local_opcode": "STORE_FAST",
+          "arg": 4,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39443,
+          "relative_offset": 164,
+          "raw_hex": "5e04",
+          "local_opcode": "LOAD_FAST",
+          "arg": 4,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39445,
+          "relative_offset": 166,
+          "raw_hex": "5e01",
+          "local_opcode": "LOAD_FAST",
+          "arg": 1,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39447,
+          "relative_offset": 168,
+          "raw_hex": "7a02",
+          "local_opcode": "BUILD_TUPLE",
+          "arg": 2,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39449,
+          "relative_offset": 170,
+          "raw_hex": "6405",
+          "local_opcode": "STORE_FAST",
+          "arg": 5,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39451,
+          "relative_offset": 172,
+          "raw_hex": "6c06",
+          "local_opcode": "LOAD_GLOBAL",
+          "arg": 6,
+          "cache_units_after": 5
+        },
+        {
+          "absolute_offset": 39463,
+          "relative_offset": 184,
+          "raw_hex": "de03",
+          "local_opcode": "LOAD_ATTR_OR_METHOD",
+          "arg": 3,
+          "cache_units_after": 9
+        },
+        {
+          "absolute_offset": 39483,
+          "relative_offset": 204,
+          "raw_hex": "5e05",
+          "local_opcode": "LOAD_FAST",
+          "arg": 5,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39485,
+          "relative_offset": 206,
+          "raw_hex": "cc00",
+          "local_opcode": "BUILD_MAP",
+          "arg": 0,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39487,
+          "relative_offset": 208,
+          "raw_hex": "ac02",
+          "local_opcode": "PRECALL",
+          "arg": 2,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 39491,
+          "relative_offset": 212,
+          "raw_hex": "e202",
+          "local_opcode": "CALL",
+          "arg": 2,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 39501,
+          "relative_offset": 222,
+          "raw_hex": "6406",
+          "local_opcode": "STORE_FAST",
+          "arg": 6,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39503,
+          "relative_offset": 224,
+          "raw_hex": "5e06",
+          "local_opcode": "LOAD_FAST",
+          "arg": 6,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39505,
+          "relative_offset": 226,
+          "raw_hex": "de03",
+          "local_opcode": "LOAD_ATTR_OR_METHOD",
+          "arg": 3,
+          "cache_units_after": 9
+        },
+        {
+          "absolute_offset": 39525,
+          "relative_offset": 246,
+          "raw_hex": "ca04",
+          "local_opcode": "LOAD_CONST",
+          "arg": 4,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39527,
+          "relative_offset": 248,
+          "raw_hex": "ca02",
+          "local_opcode": "LOAD_CONST",
+          "arg": 2,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39529,
+          "relative_offset": 250,
+          "raw_hex": "ac02",
+          "local_opcode": "PRECALL",
+          "arg": 2,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 39533,
+          "relative_offset": 254,
+          "raw_hex": "e202",
+          "local_opcode": "CALL",
+          "arg": 2,
+          "cache_units_after": 4
+        },
+        {
+          "absolute_offset": 39543,
+          "relative_offset": 264,
+          "raw_hex": "6407",
+          "local_opcode": "STORE_FAST",
+          "arg": 7,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39545,
+          "relative_offset": 266,
+          "raw_hex": "5e03",
+          "local_opcode": "LOAD_FAST",
+          "arg": 3,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39547,
+          "relative_offset": 268,
+          "raw_hex": "5e07",
+          "local_opcode": "LOAD_FAST",
+          "arg": 7,
+          "cache_units_after": 0
+        },
+        {
+          "absolute_offset": 39549,
+          "relative_offset": 270,
+          "raw_hex": "7d05",
+          "local_opcode": "BINARY_OP",
+          "arg": 5,
+          "cache_units_after": 1
+        },
+        {
+          "absolute_offset": 39553,
+          "relative_offset": 274,
+          "raw_hex": "0d00",
+          "local_opcode": "RETURN_VALUE",
+          "arg": 0,
+          "cache_units_after": 0
+        }
+      ]
+    }
+  ]
+}

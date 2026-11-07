@@ -1,0 +1,144 @@
+{
+  "schema_version": 3,
+  "as_of": "2026-11-01",
+  "purpose": "Isolated source-qualified base damage packets; not current-game-final DPS",
+  "sources": {
+    "nov24_update": {"url": "https://www.oncehuman.game/news/update/20241123/40780_1195665.html", "status": "historical_official_preview_not_final"},
+    "dec24_release": {"url": "https://www.oncehuman.game/news/update/20241218/40780_1200958.html", "status": "official_release_at_date"},
+    "feb25_release": {"url": "https://www.oncehuman.game/news/update/20250226/40780_1214570.html", "status": "official_release_at_date"},
+    "may25_release": {"url": "https://www.oncehuman.game/news/update/20250521/40780_1235763.html", "status": "official_release_at_date"},
+    "jun25_release": {"url": "https://www.oncehuman.game/news/update/20250617/40780_1241054.html", "status": "official_release_at_date"},
+    "oct25_release": {"url": "https://www.oncehuman.game/news/update/20251029/40780_1267745.html", "status": "official_release_at_date"},
+    "feb26_preview": {"url": "https://www.oncehuman.game/news/devBlog/20260212/40781_1287008.html", "status": "official_preview_numbers_not_final"},
+    "feb26_release": {"url": "https://www.oncehuman.game/news/update/20260225/40780_1288020.html", "status": "official_release_type_only"},
+    "may26_preview": {"url": "https://www.oncehuman.game/news/devBlog/20260521/40781_1301130.html", "status": "official_preview_numbers_not_final"}
+  },
+  "packets": {
+    "weapon:mps7-outer-space/celestial_lightning": {
+      "weapon_id": "weapon:mps7-outer-space", "event": "celestial_lightning", "family": "Power Surge",
+      "basis": "psi", "coefficient": {"kind": "constant", "value": 5.0},
+      "damage_class": null, "element": "shock", "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": 0.4, "intrinsic_bonus_fraction": 0.3,
+      "coefficient_source": "oct25_release", "class_source": null, "bonus_source": "may25_release",
+      "requires_resolved_hit": false,
+      "unresolved": ["damage_class", "crit_eligibility", "weakspot_eligibility", "target_defense_and_resistance", "shock_bonus_stacking_group"]
+    },
+    "weapon:g17-hazardous-object/thrown_reload_blast": {
+      "weapon_id": "weapon:g17-hazardous-object", "event": "thrown_reload_blast", "family": "Unstable Bomber",
+      "basis": "psi", "coefficient": {"kind": "affine_capped_ammo", "base": 0.5, "per_round": 0.18, "cap": 4.8, "ammo_field": "consumed_ammo"},
+      "damage_class": null, "element": "blast", "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": 0.28, "intrinsic_bonus_fraction": null,
+      "coefficient_source": "may25_release", "class_source": null, "bonus_source": null,
+      "requires_resolved_hit": false, "requires_target_count": true,
+      "unresolved": ["damage_class", "crit_eligibility", "weakspot_eligibility", "bomber_stack_bonus_at_hit", "target_defense_and_resistance"]
+    },
+    "weapon:critical-pulse/lightning_orb_tick": {
+      "weapon_id": "weapon:critical-pulse", "event": "lightning_orb_tick", "family": "Power Surge",
+      "basis": "psi", "coefficient": {"kind": "constant", "value": 0.75},
+      "damage_class": "status", "element": "shock", "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": 0.25, "intrinsic_bonus_fraction": 0.3,
+      "coefficient_source": "may25_release", "class_source": "may25_release", "bonus_source": "may25_release",
+      "requires_resolved_hit": true,
+      "unresolved": ["orb_lifetime_and_tick_count", "crit_eligibility", "weakspot_eligibility", "power_surge_bonus_group", "target_defense_and_resistance"]
+    },
+    "weapon:r500-hammerhead-shark/shock_chain": {
+      "weapon_id": "weapon:r500-hammerhead-shark", "event": "shock_chain", "family": "Power Surge",
+      "basis": "psi", "coefficient": {"kind": "constant", "value": 0.8},
+      "damage_class": null, "element": "shock", "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": null,
+      "coefficient_source": "feb25_release", "class_source": null, "bonus_source": null,
+      "requires_resolved_hit": true,
+      "unresolved": ["main_target_150_percent_interpretation", "damage_class", "crit_eligibility", "weakspot_eligibility", "chain_target_count", "target_defense_and_resistance"]
+    },
+    "keyword:shrapnel/shrapnel_part_hit": {
+      "weapon_id": null, "event": "shrapnel_part_hit", "family": "Shrapnel",
+      "basis": "reference_damage", "reference_key": "shrapnel_base", "coefficient": {"kind": "constant", "value": 0.6},
+      "damage_class": null, "element": null, "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": null,
+      "coefficient_source": "may25_release", "class_source": null, "bonus_source": null,
+      "requires_resolved_hit": true,
+      "unresolved": ["reference_damage_definition", "part_selection", "damage_class", "crit_eligibility", "weakspot_eligibility"]
+    },
+    "keyword:unstable-bomber/bomber_hit": {
+      "weapon_id": null, "event": "bomber_hit", "family": "Unstable Bomber",
+      "basis": "reference_damage", "reference_key": "bomber_base", "coefficient": {"kind": "constant", "value": 1.2},
+      "damage_class": null, "element": "blast", "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": null,
+      "coefficient_source": "jun25_release", "class_source": null, "bonus_source": null,
+      "requires_resolved_hit": true,
+      "unresolved": ["reference_damage_definition", "damage_class", "crit_eligibility", "weakspot_eligibility", "target_count"]
+    },
+    "keyword:bounce/bounce_hit": {
+      "weapon_id": null, "event": "bounce_hit", "family": "Bounce",
+      "basis": "attack", "coefficient": {"kind": "constant", "value": 0.4},
+      "damage_class": "weapon", "element": null, "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": null,
+      "coefficient_source": "nov24_update", "class_source": "nov24_update", "bonus_source": null,
+      "requires_resolved_hit": true,
+      "unresolved": ["current_keyword_coefficient", "target_graph", "crit_eligibility", "weakspot_eligibility"]
+    },
+    "weapon:mps5-blue-tiger/bounce_hit": {
+      "weapon_id": "weapon:mps5-blue-tiger", "event": "bounce_hit", "family": "Bounce",
+      "basis": "attack", "coefficient": {"kind": "constant", "value": 0.4},
+      "damage_class": "weapon", "element": null, "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": 0.6,
+      "coefficient_source": "nov24_update", "class_source": "nov24_update", "bonus_source": "dec24_release",
+      "requires_resolved_hit": true,
+      "unresolved": ["current_keyword_coefficient", "target_graph", "bounce_bonus_stacking_group", "crit_eligibility", "weakspot_eligibility"]
+    },
+    "keyword:burn/burn_tick": {
+      "weapon_id": null, "event": "burn_tick", "family": "Burn",
+      "basis": "reference_damage", "reference_key": "burn_base", "coefficient": {"kind": "constant", "value": 0.12},
+      "damage_class": null, "element": "blaze", "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": null,
+      "coefficient_source": "nov24_update", "class_source": null, "bonus_source": null,
+      "requires_resolved_hit": true,
+      "unresolved": ["reference_damage_definition", "current_keyword_coefficient", "tick_interval", "stack_rule", "damage_class", "crit_eligibility"]
+    },
+    "weapon:kvd-boom-boom/explosion": {
+      "weapon_id": "weapon:kvd-boom-boom", "event": "explosion", "family": "Burn",
+      "basis": "psi", "coefficient": {"kind": "constant", "value": 3.0},
+      "damage_class": null, "element": "blaze", "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": 0.4, "intrinsic_bonus_fraction": 0.3,
+      "coefficient_source": "nov24_update", "class_source": null, "bonus_source": "nov24_update",
+      "requires_resolved_hit": true,
+      "unresolved": ["current_coefficient", "damage_class", "crit_eligibility", "weakspot_eligibility", "explosion_radius_and_targets"]
+    },
+    "weapon:acs12-pyroclasm-starter/dragons_breath": {
+      "weapon_id": "weapon:acs12-pyroclasm-starter", "event": "dragons_breath", "family": "Burn",
+      "basis": "attack", "coefficient": {"kind": "constant", "value": 0.95},
+      "damage_class": "status", "element": "blaze", "crit_eligible": true, "weakspot_eligible": true,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": 0.2,
+      "coefficient_source": "feb26_preview", "class_source": "feb26_release", "eligibility_source": "feb26_preview", "bonus_source": "feb26_preview",
+      "requires_resolved_hit": true,
+      "unresolved": ["current_coefficient", "charge_uptime", "pellet_count", "target_defense_and_resistance"]
+    },
+    "weapon:sks-pathfinder/charged_ice_spike": {
+      "weapon_id": "weapon:sks-pathfinder", "event": "charged_ice_spike", "family": "Frost Vortex",
+      "basis": "attack", "coefficient": {"kind": "constant", "value": 1.1},
+      "damage_class": "status", "element": "frost", "crit_eligible": true, "weakspot_eligible": true,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": 0.3,
+      "coefficient_source": "feb26_preview", "class_source": "feb26_release", "eligibility_source": "feb26_preview", "bonus_source": "feb26_preview",
+      "requires_resolved_hit": true,
+      "unresolved": ["current_coefficient", "charge_uptime", "pierce_target_count", "target_defense_and_resistance"]
+    },
+    "weapon:tec9-additional-rules/elemental_bullet": {
+      "weapon_id": "weapon:tec9-additional-rules", "event": "elemental_bullet", "family": "Fortress Warfare",
+      "basis": "attack", "coefficient": {"kind": "constant", "value": 1.2},
+      "damage_class": "status", "element": "variable_deviation", "crit_eligible": true, "weakspot_eligible": true,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": null,
+      "coefficient_source": "feb26_preview", "class_source": "feb26_release", "eligibility_source": "feb26_preview", "bonus_source": null,
+      "requires_resolved_hit": true,
+      "unresolved": ["current_coefficient", "charge_uptime", "element_from_deviation", "target_defense_and_resistance"]
+    },
+    "weapon:pdw90-holographic-resonance/area_pulse": {
+      "weapon_id": "weapon:pdw90-holographic-resonance", "event": "area_pulse", "family": "Area Pulse",
+      "basis": "attack", "coefficient": {"kind": "constant", "value": 8.0},
+      "damage_class": "weapon", "element": null, "crit_eligible": null, "weakspot_eligible": null,
+      "pvp_multiplier": null, "intrinsic_bonus_fraction": null,
+      "coefficient_source": "may26_preview", "class_source": "may26_preview", "bonus_source": null,
+      "requires_resolved_hit": true,
+      "unresolved": ["current_coefficient", "hit_counter_rule", "area_target_count", "crit_eligibility", "weakspot_eligibility"]
+    }
+  }
+}

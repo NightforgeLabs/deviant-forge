@@ -1,0 +1,4077 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_literal_sha256": "5eed89a9a19aca6b5e72ad9d7955f9bb24a62ddb3457a8687288be98c713f5cb",
+  "structural_link_packet_sha256": "99c413dc289dba6766ab310051f4738102cc3170622d2e0c462ff5564c7b268f",
+  "drop_pool_packet_sha256": "a395fc8bf0e62ba4c80ad2e0a306f0957eff065a2db43fd6ee94496b03c0d78d",
+  "capture_manifest": "category_first_pass_capture.json",
+  "method": "For 50 crate rows with a unique prior typed pool-array pointer, anchor that pointer to slot 23 of the native 32-field descriptor. For six rows, find the unique matching nine-field suffix whose slot 23 points to the source shared empty object. Decode all nine suffix fields in order and independently require slot 26 rare_reward_drop_id in the 137-pool index. Exact row bounds, raw bytes and offsets preserved.",
+  "coverage": {
+    "crate_config_ids": 56,
+    "typed_reward_slot_rows": 56,
+    "normal_array_slot_rows": 50,
+    "empty_normal_slot_rows": 6,
+    "normal_pool_id_references": 86,
+    "rare_pool_id_references": 56
+  },
+  "interpretation_gate": "Native labels distinguish normal_reward_drop_id from rare_reward_drop_id for all 56 rows. Six have a shared empty source object at the normal slot; this does not prove no normal reward. The client/server normal-group selection, rare-loop/pity, opening and final probabilities remain unverified.",
+  "native_suffix_descriptor": [
+    {
+      "slot": 23,
+      "field": "normal_reward_drop_id",
+      "type_code": 11
+    },
+    {
+      "slot": 24,
+      "field": "rare_back",
+      "type_code": 1
+    },
+    {
+      "slot": 25,
+      "field": "rare_loop",
+      "type_code": 1
+    },
+    {
+      "slot": 26,
+      "field": "rare_reward_drop_id",
+      "type_code": 1
+    },
+    {
+      "slot": 27,
+      "field": "sale_price",
+      "type_code": 1
+    },
+    {
+      "slot": 28,
+      "field": "sort_val",
+      "type_code": 1
+    },
+    {
+      "slot": 29,
+      "field": "special_drop_rewards",
+      "type_code": 11
+    },
+    {
+      "slot": 30,
+      "field": "special_drop_times",
+      "type_code": 11
+    },
+    {
+      "slot": 31,
+      "field": "stage_reward",
+      "type_code": 11
+    }
+  ],
+  "records": [
+    {
+      "crate_config_id": 38600133,
+      "row_start_offset": 810,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 38600133001,
+          "byte_offset": 700,
+          "raw_hex": "8993fde58f01"
+        },
+        {
+          "drop_id": 38600133002,
+          "byte_offset": 706,
+          "raw_hex": "8a93fde58f01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 89,
+          "type_code": 11,
+          "byte_offset": 842,
+          "raw_hex": "59"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 843,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 844,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 38600133003,
+          "type_code": 1,
+          "byte_offset": 845,
+          "raw_hex": "8b93fde58f01"
+        },
+        "sale_price": {
+          "value": 35,
+          "type_code": 1,
+          "byte_offset": 851,
+          "raw_hex": "23"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 852,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 853,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 854,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 855,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 856
+    },
+    {
+      "crate_config_id": 37560001,
+      "row_start_offset": 903,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 1000001,
+          "byte_offset": 874,
+          "raw_hex": "c1843d"
+        },
+        {
+          "drop_id": 1000002,
+          "byte_offset": 877,
+          "raw_hex": "c2843d"
+        },
+        {
+          "drop_id": 1000003,
+          "byte_offset": 880,
+          "raw_hex": "c3843d"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 263,
+          "type_code": 11,
+          "byte_offset": 952,
+          "raw_hex": "8702"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 954,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 955,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 1000004,
+          "type_code": 1,
+          "byte_offset": 956,
+          "raw_hex": "c4843d"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 959,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 960,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 961,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 962,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 963,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 964
+    },
+    {
+      "crate_config_id": 51001053,
+      "row_start_offset": 973,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 51001053002,
+          "byte_offset": 967,
+          "raw_hex": "ca9e99ffbd01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 356,
+          "type_code": 11,
+          "byte_offset": 1004,
+          "raw_hex": "e402"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1006,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1007,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 51001053001,
+          "type_code": 1,
+          "byte_offset": 1008,
+          "raw_hex": "c99e99ffbd01"
+        },
+        "sale_price": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1014,
+          "raw_hex": "00"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1015,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1016,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1017,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1018,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1019
+    },
+    {
+      "crate_config_id": 37570297,
+      "row_start_offset": 1064,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570297001,
+          "byte_offset": 1052,
+          "raw_hex": "a9f9f4fa8b01"
+        },
+        {
+          "drop_id": 37570297002,
+          "byte_offset": 1058,
+          "raw_hex": "aaf9f4fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 441,
+          "type_code": 11,
+          "byte_offset": 1098,
+          "raw_hex": "b903"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1100,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1101,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570297201,
+          "type_code": 1,
+          "byte_offset": 1102,
+          "raw_hex": "f1faf4fa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 1108,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1109,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1110,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1111,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1112,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1113
+    },
+    {
+      "crate_config_id": 37140006,
+      "row_start_offset": 1135,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 10000015,
+          "byte_offset": 1131,
+          "raw_hex": "8fade204"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 520,
+          "type_code": 11,
+          "byte_offset": 1167,
+          "raw_hex": "8804"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1169,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1170,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 10000014,
+          "type_code": 1,
+          "byte_offset": 1171,
+          "raw_hex": "8eade204"
+        },
+        "sale_price": {
+          "value": 2700,
+          "type_code": 1,
+          "byte_offset": 1175,
+          "raw_hex": "8c15"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1177,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1178,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1179,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1180,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1181
+    },
+    {
+      "crate_config_id": 37140009,
+      "row_start_offset": 1211,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 1000010,
+          "byte_offset": 1184,
+          "raw_hex": "ca843d"
+        },
+        {
+          "drop_id": 1000011,
+          "byte_offset": 1187,
+          "raw_hex": "cb843d"
+        },
+        {
+          "drop_id": 1000012,
+          "byte_offset": 1190,
+          "raw_hex": "cc843d"
+        },
+        {
+          "drop_id": 1000013,
+          "byte_offset": 1193,
+          "raw_hex": "cd843d"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 573,
+          "type_code": 11,
+          "byte_offset": 1256,
+          "raw_hex": "bd04"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1258,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1259,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 1000009,
+          "type_code": 1,
+          "byte_offset": 1260,
+          "raw_hex": "c9843d"
+        },
+        "sale_price": {
+          "value": 300,
+          "type_code": 1,
+          "byte_offset": 1263,
+          "raw_hex": "ac02"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1265,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1266,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1267,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1268,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1269
+    },
+    {
+      "crate_config_id": 37570186,
+      "row_start_offset": 1284,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570186001,
+          "byte_offset": 1272,
+          "raw_hex": "9196eefa8b01"
+        },
+        {
+          "drop_id": 37570186002,
+          "byte_offset": 1278,
+          "raw_hex": "9296eefa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 661,
+          "type_code": 11,
+          "byte_offset": 1316,
+          "raw_hex": "9505"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1318,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1319,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570186201,
+          "type_code": 1,
+          "byte_offset": 1320,
+          "raw_hex": "d997eefa8b01"
+        },
+        "sale_price": {
+          "value": 20,
+          "type_code": 1,
+          "byte_offset": 1326,
+          "raw_hex": "14"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1327,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1328,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1329,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1330,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1331
+    },
+    {
+      "crate_config_id": 37560002,
+      "row_start_offset": 1343,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 1000005,
+          "byte_offset": 1334,
+          "raw_hex": "c5843d"
+        },
+        {
+          "drop_id": 1000006,
+          "byte_offset": 1337,
+          "raw_hex": "c6843d"
+        },
+        {
+          "drop_id": 1000007,
+          "byte_offset": 1340,
+          "raw_hex": "c7843d"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 723,
+          "type_code": 11,
+          "byte_offset": 1375,
+          "raw_hex": "d305"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1377,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1378,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 1000008,
+          "type_code": 1,
+          "byte_offset": 1379,
+          "raw_hex": "c8843d"
+        },
+        "sale_price": {
+          "value": 55,
+          "type_code": 1,
+          "byte_offset": 1382,
+          "raw_hex": "37"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1383,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1384,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1385,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1386,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1387
+    },
+    {
+      "crate_config_id": 37560003,
+      "row_start_offset": 1394,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 10000016,
+          "byte_offset": 1390,
+          "raw_hex": "90ade204"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 779,
+          "type_code": 11,
+          "byte_offset": 1426,
+          "raw_hex": "8b06"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1428,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1429,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 10000017,
+          "type_code": 1,
+          "byte_offset": 1430,
+          "raw_hex": "91ade204"
+        },
+        "sale_price": {
+          "value": 5000,
+          "type_code": 1,
+          "byte_offset": 1434,
+          "raw_hex": "8827"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1436,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1437,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1438,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1439,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1440
+    },
+    {
+      "crate_config_id": 37570092,
+      "row_start_offset": 1464,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570092001,
+          "byte_offset": 1458,
+          "raw_hex": "e1b7e8fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 847,
+          "type_code": 11,
+          "byte_offset": 1496,
+          "raw_hex": "cf06"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1498,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1499,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570092002,
+          "type_code": 1,
+          "byte_offset": 1500,
+          "raw_hex": "e2b7e8fa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 1506,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1507,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1508,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1509,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1510,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1511
+    },
+    {
+      "crate_config_id": 37560004,
+      "row_start_offset": 1554,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37560004001,
+          "byte_offset": 1520,
+          "raw_hex": "a1db80f68b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 909,
+          "type_code": 11,
+          "byte_offset": 1591,
+          "raw_hex": "8d07"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1593,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1594,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37560004003,
+          "type_code": 1,
+          "byte_offset": 1595,
+          "raw_hex": "a3db80f68b01"
+        },
+        "sale_price": {
+          "value": 50,
+          "type_code": 1,
+          "byte_offset": 1601,
+          "raw_hex": "32"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1602,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 937,
+          "type_code": 11,
+          "byte_offset": 1603,
+          "raw_hex": "a907"
+        },
+        "special_drop_times": {
+          "value": 903,
+          "type_code": 11,
+          "byte_offset": 1605,
+          "raw_hex": "8707"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1607,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1608
+    },
+    {
+      "crate_config_id": 37560007,
+      "row_start_offset": 1647,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37560007001,
+          "byte_offset": 1641,
+          "raw_hex": "d9f280f68b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1030,
+          "type_code": 11,
+          "byte_offset": 1684,
+          "raw_hex": "8608"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1686,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1687,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37560007003,
+          "type_code": 1,
+          "byte_offset": 1688,
+          "raw_hex": "dbf280f68b01"
+        },
+        "sale_price": {
+          "value": 9999,
+          "type_code": 1,
+          "byte_offset": 1694,
+          "raw_hex": "8f4e"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1696,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1697,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1698,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1699,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1700
+    },
+    {
+      "crate_config_id": 37570160,
+      "row_start_offset": 1709,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570160001,
+          "byte_offset": 1703,
+          "raw_hex": "81cbecfa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1092,
+          "type_code": 11,
+          "byte_offset": 1742,
+          "raw_hex": "c408"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1744,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1745,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570160002,
+          "type_code": 1,
+          "byte_offset": 1746,
+          "raw_hex": "82cbecfa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 1752,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1753,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1754,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1755,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1756,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1757
+    },
+    {
+      "crate_config_id": 37560008,
+      "row_start_offset": 1766,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37560008001,
+          "byte_offset": 1760,
+          "raw_hex": "c1fa80f68b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1149,
+          "type_code": 11,
+          "byte_offset": 1798,
+          "raw_hex": "fd08"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1800,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1801,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37560008002,
+          "type_code": 1,
+          "byte_offset": 1802,
+          "raw_hex": "c2fa80f68b01"
+        },
+        "sale_price": {
+          "value": 9999,
+          "type_code": 1,
+          "byte_offset": 1808,
+          "raw_hex": "8f4e"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1810,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1811,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1812,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1813,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1814
+    },
+    {
+      "crate_config_id": 37560009,
+      "row_start_offset": 1823,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37560009001,
+          "byte_offset": 1817,
+          "raw_hex": "a98281f68b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1206,
+          "type_code": 11,
+          "byte_offset": 1860,
+          "raw_hex": "b609"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1862,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1863,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37560009003,
+          "type_code": 1,
+          "byte_offset": 1864,
+          "raw_hex": "ab8281f68b01"
+        },
+        "sale_price": {
+          "value": 9999,
+          "type_code": 1,
+          "byte_offset": 1870,
+          "raw_hex": "8f4e"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1872,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1873,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1874,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1875,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1876
+    },
+    {
+      "crate_config_id": 38600130,
+      "row_start_offset": 1891,
+      "normal_pool_source_shape": "shared_empty_source_object",
+      "normal_pool_ids": [],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1924,
+          "raw_hex": "49"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1925,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1926,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 38600130201,
+          "type_code": 1,
+          "byte_offset": 1927,
+          "raw_hex": "99fdfce58f01"
+        },
+        "sale_price": {
+          "value": 50,
+          "type_code": 1,
+          "byte_offset": 1933,
+          "raw_hex": "32"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1934,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1935,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1936,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 1937,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 1938
+    },
+    {
+      "crate_config_id": 37570114,
+      "row_start_offset": 1953,
+      "normal_pool_source_shape": "shared_empty_source_object",
+      "normal_pool_ids": [],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1987,
+          "raw_hex": "49"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1988,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 1989,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570114002,
+          "type_code": 1,
+          "byte_offset": 1990,
+          "raw_hex": "d2e3e9fa8b01"
+        },
+        "sale_price": {
+          "value": 50,
+          "type_code": 1,
+          "byte_offset": 1996,
+          "raw_hex": "32"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 1997,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1998,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 1999,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2000,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2001
+    },
+    {
+      "crate_config_id": 37560010,
+      "row_start_offset": 2025,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37560010001,
+          "byte_offset": 2019,
+          "raw_hex": "918a81f68b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1408,
+          "type_code": 11,
+          "byte_offset": 2057,
+          "raw_hex": "800b"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2059,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2060,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37560010003,
+          "type_code": 1,
+          "byte_offset": 2061,
+          "raw_hex": "938a81f68b01"
+        },
+        "sale_price": {
+          "value": 9999,
+          "type_code": 1,
+          "byte_offset": 2067,
+          "raw_hex": "8f4e"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2069,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2070,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2071,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2072,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2073
+    },
+    {
+      "crate_config_id": 37570339,
+      "row_start_offset": 2097,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570339002,
+          "byte_offset": 2091,
+          "raw_hex": "bac1f7fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1480,
+          "type_code": 11,
+          "byte_offset": 2130,
+          "raw_hex": "c80b"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2132,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2133,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570339001,
+          "type_code": 1,
+          "byte_offset": 2134,
+          "raw_hex": "b9c1f7fa8b01"
+        },
+        "sale_price": {
+          "value": 20,
+          "type_code": 1,
+          "byte_offset": 2140,
+          "raw_hex": "14"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2141,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2142,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2143,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2144,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2145
+    },
+    {
+      "crate_config_id": 37560012,
+      "row_start_offset": 2160,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 1000010,
+          "byte_offset": 1184,
+          "raw_hex": "ca843d"
+        },
+        {
+          "drop_id": 1000011,
+          "byte_offset": 1187,
+          "raw_hex": "cb843d"
+        },
+        {
+          "drop_id": 1000012,
+          "byte_offset": 1190,
+          "raw_hex": "cc843d"
+        },
+        {
+          "drop_id": 1000013,
+          "byte_offset": 1193,
+          "raw_hex": "cd843d"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 573,
+          "type_code": 11,
+          "byte_offset": 2192,
+          "raw_hex": "bd04"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2194,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2195,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 1000009,
+          "type_code": 1,
+          "byte_offset": 2196,
+          "raw_hex": "c9843d"
+        },
+        "sale_price": {
+          "value": 300,
+          "type_code": 1,
+          "byte_offset": 2199,
+          "raw_hex": "ac02"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2201,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2202,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2203,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2204,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2205
+    },
+    {
+      "crate_config_id": 37560013,
+      "row_start_offset": 2205,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 10000016,
+          "byte_offset": 1390,
+          "raw_hex": "90ade204"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 779,
+          "type_code": 11,
+          "byte_offset": 2237,
+          "raw_hex": "8b06"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2239,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2240,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 10000017,
+          "type_code": 1,
+          "byte_offset": 2241,
+          "raw_hex": "91ade204"
+        },
+        "sale_price": {
+          "value": 5000,
+          "type_code": 1,
+          "byte_offset": 2245,
+          "raw_hex": "8827"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2247,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2248,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2249,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2250,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2251
+    },
+    {
+      "crate_config_id": 51001005,
+      "row_start_offset": 2287,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 51001005001,
+          "byte_offset": 2269,
+          "raw_hex": "c9a796ffbd01"
+        },
+        {
+          "drop_id": 51001005002,
+          "byte_offset": 2275,
+          "raw_hex": "caa796ffbd01"
+        },
+        {
+          "drop_id": 51001005003,
+          "byte_offset": 2281,
+          "raw_hex": "cba796ffbd01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1658,
+          "type_code": 11,
+          "byte_offset": 2320,
+          "raw_hex": "fa0c"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2322,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2323,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 51001005004,
+          "type_code": 1,
+          "byte_offset": 2324,
+          "raw_hex": "cca796ffbd01"
+        },
+        "sale_price": {
+          "value": 120,
+          "type_code": 1,
+          "byte_offset": 2330,
+          "raw_hex": "78"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2331,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2332,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2333,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2334,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2335
+    },
+    {
+      "crate_config_id": 37570121,
+      "row_start_offset": 2344,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570121001,
+          "byte_offset": 2338,
+          "raw_hex": "a99aeafa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1727,
+          "type_code": 11,
+          "byte_offset": 2377,
+          "raw_hex": "bf0d"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2379,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2380,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570121002,
+          "type_code": 1,
+          "byte_offset": 2381,
+          "raw_hex": "aa9aeafa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 2387,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2388,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2389,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2390,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2391,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2392
+    },
+    {
+      "crate_config_id": 37560017,
+      "row_start_offset": 2407,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37560017002,
+          "byte_offset": 2395,
+          "raw_hex": "eac081f68b01"
+        },
+        {
+          "drop_id": 37560017003,
+          "byte_offset": 2401,
+          "raw_hex": "ebc081f68b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1784,
+          "type_code": 11,
+          "byte_offset": 2439,
+          "raw_hex": "f80d"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2441,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2442,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37560017001,
+          "type_code": 1,
+          "byte_offset": 2443,
+          "raw_hex": "e9c081f68b01"
+        },
+        "sale_price": {
+          "value": 55,
+          "type_code": 1,
+          "byte_offset": 2449,
+          "raw_hex": "37"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2450,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2451,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2452,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2453,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2454
+    },
+    {
+      "crate_config_id": 37560018,
+      "row_start_offset": 2475,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37560018001,
+          "byte_offset": 2457,
+          "raw_hex": "d1c881f68b01"
+        },
+        {
+          "drop_id": 37560018002,
+          "byte_offset": 2463,
+          "raw_hex": "d2c881f68b01"
+        },
+        {
+          "drop_id": 37560018003,
+          "byte_offset": 2469,
+          "raw_hex": "d3c881f68b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1846,
+          "type_code": 11,
+          "byte_offset": 2508,
+          "raw_hex": "b60e"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2510,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2511,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37560018004,
+          "type_code": 1,
+          "byte_offset": 2512,
+          "raw_hex": "d4c881f68b01"
+        },
+        "sale_price": {
+          "value": 300,
+          "type_code": 1,
+          "byte_offset": 2518,
+          "raw_hex": "ac02"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2520,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2521,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2522,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2523,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2524
+    },
+    {
+      "crate_config_id": 37560049,
+      "row_start_offset": 2551,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37560049001,
+          "byte_offset": 2527,
+          "raw_hex": "e9ba83f68b01"
+        },
+        {
+          "drop_id": 37560049002,
+          "byte_offset": 2533,
+          "raw_hex": "eaba83f68b01"
+        },
+        {
+          "drop_id": 37560049003,
+          "byte_offset": 2539,
+          "raw_hex": "ebba83f68b01"
+        },
+        {
+          "drop_id": 37560049004,
+          "byte_offset": 2545,
+          "raw_hex": "ecba83f68b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1916,
+          "type_code": 11,
+          "byte_offset": 2584,
+          "raw_hex": "fc0e"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2586,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2587,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37560049005,
+          "type_code": 1,
+          "byte_offset": 2588,
+          "raw_hex": "edba83f68b01"
+        },
+        "sale_price": {
+          "value": 300,
+          "type_code": 1,
+          "byte_offset": 2594,
+          "raw_hex": "ac02"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2596,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2597,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2598,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2599,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2600
+    },
+    {
+      "crate_config_id": 37570071,
+      "row_start_offset": 2609,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570071001,
+          "byte_offset": 2603,
+          "raw_hex": "d993e7fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 1992,
+          "type_code": 11,
+          "byte_offset": 2641,
+          "raw_hex": "c80f"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2643,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2644,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570071002,
+          "type_code": 1,
+          "byte_offset": 2645,
+          "raw_hex": "da93e7fa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 2651,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2652,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2653,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2654,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2655,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2656
+    },
+    {
+      "crate_config_id": 37570177,
+      "row_start_offset": 2665,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570177001,
+          "byte_offset": 2659,
+          "raw_hex": "e9cfedfa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2048,
+          "type_code": 11,
+          "byte_offset": 2698,
+          "raw_hex": "8010"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2700,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2701,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570177201,
+          "type_code": 1,
+          "byte_offset": 2702,
+          "raw_hex": "b1d1edfa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 2708,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2709,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2710,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2711,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2712,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2713
+    },
+    {
+      "crate_config_id": 37570184,
+      "row_start_offset": 2743,
+      "normal_pool_source_shape": "shared_empty_source_object",
+      "normal_pool_ids": [],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2777,
+          "raw_hex": "49"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2778,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2779,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570184201,
+          "type_code": 1,
+          "byte_offset": 2780,
+          "raw_hex": "8988eefa8b01"
+        },
+        "sale_price": {
+          "value": 50,
+          "type_code": 1,
+          "byte_offset": 2786,
+          "raw_hex": "32"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2787,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2788,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2789,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2790,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2791
+    },
+    {
+      "crate_config_id": 37570187,
+      "row_start_offset": 2806,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570187001,
+          "byte_offset": 2794,
+          "raw_hex": "f99deefa8b01"
+        },
+        {
+          "drop_id": 37570187002,
+          "byte_offset": 2800,
+          "raw_hex": "fa9deefa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2183,
+          "type_code": 11,
+          "byte_offset": 2838,
+          "raw_hex": "8711"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2840,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2841,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570187201,
+          "type_code": 1,
+          "byte_offset": 2842,
+          "raw_hex": "c19feefa8b01"
+        },
+        "sale_price": {
+          "value": 35,
+          "type_code": 1,
+          "byte_offset": 2848,
+          "raw_hex": "23"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2849,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2850,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2851,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2852,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2853
+    },
+    {
+      "crate_config_id": 37570188,
+      "row_start_offset": 2868,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570188001,
+          "byte_offset": 2856,
+          "raw_hex": "e1a5eefa8b01"
+        },
+        {
+          "drop_id": 37570188002,
+          "byte_offset": 2862,
+          "raw_hex": "e2a5eefa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2245,
+          "type_code": 11,
+          "byte_offset": 2900,
+          "raw_hex": "c511"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2902,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2903,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570188201,
+          "type_code": 1,
+          "byte_offset": 2904,
+          "raw_hex": "a9a7eefa8b01"
+        },
+        "sale_price": {
+          "value": 70,
+          "type_code": 1,
+          "byte_offset": 2910,
+          "raw_hex": "46"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2911,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2912,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2913,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2914,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2915
+    },
+    {
+      "crate_config_id": 51001049,
+      "row_start_offset": 2924,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 51001049002,
+          "byte_offset": 2918,
+          "raw_hex": "aaff98ffbd01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2307,
+          "type_code": 11,
+          "byte_offset": 2955,
+          "raw_hex": "8312"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2957,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2958,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 51001049001,
+          "type_code": 1,
+          "byte_offset": 2959,
+          "raw_hex": "a9ff98ffbd01"
+        },
+        "sale_price": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 2965,
+          "raw_hex": "00"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 2966,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2967,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 2968,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 2969,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 2970
+    },
+    {
+      "crate_config_id": 37570189,
+      "row_start_offset": 2985,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570189001,
+          "byte_offset": 2973,
+          "raw_hex": "c9adeefa8b01"
+        },
+        {
+          "drop_id": 37570189002,
+          "byte_offset": 2979,
+          "raw_hex": "caadeefa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2362,
+          "type_code": 11,
+          "byte_offset": 3017,
+          "raw_hex": "ba12"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3019,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3020,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570189201,
+          "type_code": 1,
+          "byte_offset": 3021,
+          "raw_hex": "91afeefa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 3027,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3028,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3029,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3030,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3031,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3032
+    },
+    {
+      "crate_config_id": 37570258,
+      "row_start_offset": 3056,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570258001,
+          "byte_offset": 3050,
+          "raw_hex": "d1c8f2fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2439,
+          "type_code": 11,
+          "byte_offset": 3089,
+          "raw_hex": "8713"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3091,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3092,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570258201,
+          "type_code": 1,
+          "byte_offset": 3093,
+          "raw_hex": "99caf2fa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 3099,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3100,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3101,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3102,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3103,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3104
+    },
+    {
+      "crate_config_id": 38600132,
+      "row_start_offset": 3119,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 38600132001,
+          "byte_offset": 3107,
+          "raw_hex": "a18bfde58f01"
+        },
+        {
+          "drop_id": 38600132002,
+          "byte_offset": 3113,
+          "raw_hex": "a28bfde58f01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2496,
+          "type_code": 11,
+          "byte_offset": 3151,
+          "raw_hex": "c013"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3153,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3154,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 38600132003,
+          "type_code": 1,
+          "byte_offset": 3155,
+          "raw_hex": "a38bfde58f01"
+        },
+        "sale_price": {
+          "value": 20,
+          "type_code": 1,
+          "byte_offset": 3161,
+          "raw_hex": "14"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3162,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3163,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3164,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3165,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3166
+    },
+    {
+      "crate_config_id": 37570272,
+      "row_start_offset": 3175,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570272002,
+          "byte_offset": 3169,
+          "raw_hex": "82b6f3fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2558,
+          "type_code": 11,
+          "byte_offset": 3208,
+          "raw_hex": "fe13"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3210,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3211,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570272001,
+          "type_code": 1,
+          "byte_offset": 3212,
+          "raw_hex": "81b6f3fa8b01"
+        },
+        "sale_price": {
+          "value": 20,
+          "type_code": 1,
+          "byte_offset": 3218,
+          "raw_hex": "14"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3219,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3220,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3221,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3222,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3223
+    },
+    {
+      "crate_config_id": 37570292,
+      "row_start_offset": 3238,
+      "normal_pool_source_shape": "shared_empty_source_object",
+      "normal_pool_ids": [],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3272,
+          "raw_hex": "49"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3273,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3274,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570292201,
+          "type_code": 1,
+          "byte_offset": 3275,
+          "raw_hex": "e9d3f4fa8b01"
+        },
+        "sale_price": {
+          "value": 50,
+          "type_code": 1,
+          "byte_offset": 3281,
+          "raw_hex": "32"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3282,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3283,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3284,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3285,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3286
+    },
+    {
+      "crate_config_id": 38600134,
+      "row_start_offset": 3301,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 38600134001,
+          "byte_offset": 3289,
+          "raw_hex": "f19afde58f01"
+        },
+        {
+          "drop_id": 38600134002,
+          "byte_offset": 3295,
+          "raw_hex": "f29afde58f01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2678,
+          "type_code": 11,
+          "byte_offset": 3333,
+          "raw_hex": "f614"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3335,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3336,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 38600134003,
+          "type_code": 1,
+          "byte_offset": 3337,
+          "raw_hex": "f39afde58f01"
+        },
+        "sale_price": {
+          "value": 70,
+          "type_code": 1,
+          "byte_offset": 3343,
+          "raw_hex": "46"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3344,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3345,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3346,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3347,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3348
+    },
+    {
+      "crate_config_id": 37570294,
+      "row_start_offset": 3363,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570294001,
+          "byte_offset": 3351,
+          "raw_hex": "f1e1f4fa8b01"
+        },
+        {
+          "drop_id": 37570294002,
+          "byte_offset": 3357,
+          "raw_hex": "f2e1f4fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2740,
+          "type_code": 11,
+          "byte_offset": 3397,
+          "raw_hex": "b415"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3399,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3400,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570294201,
+          "type_code": 1,
+          "byte_offset": 3401,
+          "raw_hex": "b9e3f4fa8b01"
+        },
+        "sale_price": {
+          "value": 20,
+          "type_code": 1,
+          "byte_offset": 3407,
+          "raw_hex": "14"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3408,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3409,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3410,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3411,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3412
+    },
+    {
+      "crate_config_id": 38600135,
+      "row_start_offset": 3427,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 38600135001,
+          "byte_offset": 3415,
+          "raw_hex": "d9a2fde58f01"
+        },
+        {
+          "drop_id": 38600135002,
+          "byte_offset": 3421,
+          "raw_hex": "daa2fde58f01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2804,
+          "type_code": 11,
+          "byte_offset": 3459,
+          "raw_hex": "f415"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3461,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3462,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 38600135201,
+          "type_code": 1,
+          "byte_offset": 3463,
+          "raw_hex": "a1a4fde58f01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 3469,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3470,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3471,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3472,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3473,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3474
+    },
+    {
+      "crate_config_id": 37570295,
+      "row_start_offset": 3489,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570295001,
+          "byte_offset": 3477,
+          "raw_hex": "d9e9f4fa8b01"
+        },
+        {
+          "drop_id": 37570295002,
+          "byte_offset": 3483,
+          "raw_hex": "dae9f4fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2866,
+          "type_code": 11,
+          "byte_offset": 3523,
+          "raw_hex": "b216"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3525,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3526,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570295201,
+          "type_code": 1,
+          "byte_offset": 3527,
+          "raw_hex": "a1ebf4fa8b01"
+        },
+        "sale_price": {
+          "value": 35,
+          "type_code": 1,
+          "byte_offset": 3533,
+          "raw_hex": "23"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3534,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3535,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3536,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3537,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3538
+    },
+    {
+      "crate_config_id": 37570296,
+      "row_start_offset": 3553,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570296001,
+          "byte_offset": 3541,
+          "raw_hex": "c1f1f4fa8b01"
+        },
+        {
+          "drop_id": 37570296002,
+          "byte_offset": 3547,
+          "raw_hex": "c2f1f4fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2930,
+          "type_code": 11,
+          "byte_offset": 3587,
+          "raw_hex": "f216"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3589,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3590,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570296201,
+          "type_code": 1,
+          "byte_offset": 3591,
+          "raw_hex": "89f3f4fa8b01"
+        },
+        "sale_price": {
+          "value": 70,
+          "type_code": 1,
+          "byte_offset": 3597,
+          "raw_hex": "46"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3598,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3599,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3600,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3601,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3602
+    },
+    {
+      "crate_config_id": 51001052,
+      "row_start_offset": 3611,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 51001052002,
+          "byte_offset": 3605,
+          "raw_hex": "e29699ffbd01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 2994,
+          "type_code": 11,
+          "byte_offset": 3642,
+          "raw_hex": "b217"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3644,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3645,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 51001052001,
+          "type_code": 1,
+          "byte_offset": 3646,
+          "raw_hex": "e19699ffbd01"
+        },
+        "sale_price": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3652,
+          "raw_hex": "00"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3653,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3654,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3655,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3656,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3657
+    },
+    {
+      "crate_config_id": 37570323,
+      "row_start_offset": 3687,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570323001,
+          "byte_offset": 3675,
+          "raw_hex": "b9c4f6fa8b01"
+        },
+        {
+          "drop_id": 37570323002,
+          "byte_offset": 3681,
+          "raw_hex": "bac4f6fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3064,
+          "type_code": 11,
+          "byte_offset": 3721,
+          "raw_hex": "f817"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3723,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3724,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570323201,
+          "type_code": 1,
+          "byte_offset": 3725,
+          "raw_hex": "81c6f6fa8b01"
+        },
+        "sale_price": {
+          "value": 20,
+          "type_code": 1,
+          "byte_offset": 3731,
+          "raw_hex": "14"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3732,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3733,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3734,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3735,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3736
+    },
+    {
+      "crate_config_id": 51001332,
+      "row_start_offset": 3757,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 51001332001,
+          "byte_offset": 3739,
+          "raw_hex": "a1a2aaffbd01"
+        },
+        {
+          "drop_id": 51001332002,
+          "byte_offset": 3745,
+          "raw_hex": "a2a2aaffbd01"
+        },
+        {
+          "drop_id": 51001332003,
+          "byte_offset": 3751,
+          "raw_hex": "a3a2aaffbd01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3128,
+          "type_code": 11,
+          "byte_offset": 3790,
+          "raw_hex": "b818"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3792,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3793,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 51001332004,
+          "type_code": 1,
+          "byte_offset": 3794,
+          "raw_hex": "a4a2aaffbd01"
+        },
+        "sale_price": {
+          "value": 120,
+          "type_code": 1,
+          "byte_offset": 3800,
+          "raw_hex": "78"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3801,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3802,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3803,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3804,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3805
+    },
+    {
+      "crate_config_id": 37570324,
+      "row_start_offset": 3820,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570324001,
+          "byte_offset": 3808,
+          "raw_hex": "a1ccf6fa8b01"
+        },
+        {
+          "drop_id": 37570324002,
+          "byte_offset": 3814,
+          "raw_hex": "a2ccf6fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3197,
+          "type_code": 11,
+          "byte_offset": 3854,
+          "raw_hex": "fd18"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3856,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3857,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570324201,
+          "type_code": 1,
+          "byte_offset": 3858,
+          "raw_hex": "e9cdf6fa8b01"
+        },
+        "sale_price": {
+          "value": 35,
+          "type_code": 1,
+          "byte_offset": 3864,
+          "raw_hex": "23"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3865,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3866,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3867,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3868,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3869
+    },
+    {
+      "crate_config_id": 37570325,
+      "row_start_offset": 3884,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570325001,
+          "byte_offset": 3872,
+          "raw_hex": "89d4f6fa8b01"
+        },
+        {
+          "drop_id": 37570325002,
+          "byte_offset": 3878,
+          "raw_hex": "8ad4f6fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3261,
+          "type_code": 11,
+          "byte_offset": 3918,
+          "raw_hex": "bd19"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3920,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3921,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570325201,
+          "type_code": 1,
+          "byte_offset": 3922,
+          "raw_hex": "d1d5f6fa8b01"
+        },
+        "sale_price": {
+          "value": 70,
+          "type_code": 1,
+          "byte_offset": 3928,
+          "raw_hex": "46"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3929,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3930,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3931,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3932,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3933
+    },
+    {
+      "crate_config_id": 37570326,
+      "row_start_offset": 3948,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570326001,
+          "byte_offset": 3936,
+          "raw_hex": "f1dbf6fa8b01"
+        },
+        {
+          "drop_id": 37570326002,
+          "byte_offset": 3942,
+          "raw_hex": "f2dbf6fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3325,
+          "type_code": 11,
+          "byte_offset": 3982,
+          "raw_hex": "fd19"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3984,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 3985,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570326201,
+          "type_code": 1,
+          "byte_offset": 3986,
+          "raw_hex": "b9ddf6fa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 3992,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 3993,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3994,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 3995,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 3996,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 3997
+    },
+    {
+      "crate_config_id": 37570336,
+      "row_start_offset": 4012,
+      "normal_pool_source_shape": "shared_empty_source_object",
+      "normal_pool_ids": [],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4046,
+          "raw_hex": "49"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4047,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4048,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570336201,
+          "type_code": 1,
+          "byte_offset": 4049,
+          "raw_hex": "c9abf7fa8b01"
+        },
+        "sale_price": {
+          "value": 50,
+          "type_code": 1,
+          "byte_offset": 4055,
+          "raw_hex": "32"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4056,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4057,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4058,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 4059,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 4060
+    },
+    {
+      "crate_config_id": 37570340,
+      "row_start_offset": 4069,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570334001,
+          "byte_offset": 4063,
+          "raw_hex": "b19af7fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3452,
+          "type_code": 11,
+          "byte_offset": 4102,
+          "raw_hex": "fc1a"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4104,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4105,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570334002,
+          "type_code": 1,
+          "byte_offset": 4106,
+          "raw_hex": "b29af7fa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 4112,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4113,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4114,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4115,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 4116,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 4117
+    },
+    {
+      "crate_config_id": 37570343,
+      "row_start_offset": 4126,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 37570334301,
+          "byte_offset": 4120,
+          "raw_hex": "dd9cf7fa8b01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3509,
+          "type_code": 11,
+          "byte_offset": 4159,
+          "raw_hex": "b51b"
+        },
+        "rare_back": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4161,
+          "raw_hex": "00"
+        },
+        "rare_loop": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4162,
+          "raw_hex": "01"
+        },
+        "rare_reward_drop_id": {
+          "value": 37570334302,
+          "type_code": 1,
+          "byte_offset": 4163,
+          "raw_hex": "de9cf7fa8b01"
+        },
+        "sale_price": {
+          "value": 100,
+          "type_code": 1,
+          "byte_offset": 4169,
+          "raw_hex": "64"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4170,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4171,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4172,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 4173,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 4174
+    },
+    {
+      "crate_config_id": 38600131,
+      "row_start_offset": 4174,
+      "normal_pool_source_shape": "shared_empty_source_object",
+      "normal_pool_ids": [],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4207,
+          "raw_hex": "49"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4208,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4209,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 38600130201,
+          "type_code": 1,
+          "byte_offset": 4210,
+          "raw_hex": "99fdfce58f01"
+        },
+        "sale_price": {
+          "value": 50,
+          "type_code": 1,
+          "byte_offset": 4216,
+          "raw_hex": "32"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4217,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4218,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4219,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 4220,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 4221
+    },
+    {
+      "crate_config_id": 51001050,
+      "row_start_offset": 4230,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 51001050002,
+          "byte_offset": 4224,
+          "raw_hex": "928799ffbd01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3613,
+          "type_code": 11,
+          "byte_offset": 4261,
+          "raw_hex": "9d1c"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4263,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4264,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 51001050001,
+          "type_code": 1,
+          "byte_offset": 4265,
+          "raw_hex": "918799ffbd01"
+        },
+        "sale_price": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4271,
+          "raw_hex": "00"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4272,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4273,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4274,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 4275,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 4276
+    },
+    {
+      "crate_config_id": 51001051,
+      "row_start_offset": 4285,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 51001051002,
+          "byte_offset": 4279,
+          "raw_hex": "fa8e99ffbd01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3668,
+          "type_code": 11,
+          "byte_offset": 4316,
+          "raw_hex": "d41c"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4318,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4319,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 51001051001,
+          "type_code": 1,
+          "byte_offset": 4320,
+          "raw_hex": "f98e99ffbd01"
+        },
+        "sale_price": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4326,
+          "raw_hex": "00"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4327,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4328,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4329,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 4330,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 4331
+    },
+    {
+      "crate_config_id": 51001054,
+      "row_start_offset": 4340,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 51001054002,
+          "byte_offset": 4334,
+          "raw_hex": "b2a699ffbd01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3723,
+          "type_code": 11,
+          "byte_offset": 4371,
+          "raw_hex": "8b1d"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4373,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4374,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 51001054001,
+          "type_code": 1,
+          "byte_offset": 4375,
+          "raw_hex": "b1a699ffbd01"
+        },
+        "sale_price": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4381,
+          "raw_hex": "00"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4382,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4383,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4384,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 4385,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 4386
+    },
+    {
+      "crate_config_id": 51001055,
+      "row_start_offset": 4395,
+      "normal_pool_source_shape": "typed_pool_id_array",
+      "normal_pool_ids": [
+        {
+          "drop_id": 51001055002,
+          "byte_offset": 4389,
+          "raw_hex": "9aae99ffbd01"
+        }
+      ],
+      "typed_suffix_field_tokens": {
+        "normal_reward_drop_id": {
+          "value": 3778,
+          "type_code": 11,
+          "byte_offset": 4426,
+          "raw_hex": "c21d"
+        },
+        "rare_back": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4428,
+          "raw_hex": "01"
+        },
+        "rare_loop": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4429,
+          "raw_hex": "00"
+        },
+        "rare_reward_drop_id": {
+          "value": 51001055001,
+          "type_code": 1,
+          "byte_offset": 4430,
+          "raw_hex": "99ae99ffbd01"
+        },
+        "sale_price": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 4436,
+          "raw_hex": "00"
+        },
+        "sort_val": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 4437,
+          "raw_hex": "01"
+        },
+        "special_drop_rewards": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4438,
+          "raw_hex": "49"
+        },
+        "special_drop_times": {
+          "value": 73,
+          "type_code": 11,
+          "byte_offset": 4439,
+          "raw_hex": "49"
+        },
+        "stage_reward": {
+          "value": 49,
+          "type_code": 11,
+          "byte_offset": 4440,
+          "raw_hex": "31"
+        }
+      },
+      "suffix_end_offset_exclusive": 4441
+    }
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

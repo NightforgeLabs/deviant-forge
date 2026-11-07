@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "capture_date_utc": "2026-11-02",
+  "capture_method": "public page text returned by web open/click; selected field transcription, not raw HTML or original game records",
+  "scope": "Published reference for crafted AUG - Electron Cloud, not an owned weapon or measured hit",
+  "identity": {
+    "blueprint_id": "13451401",
+    "raw_blueprint_title": "AUG - Electron Cloud B.P.",
+    "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13451401",
+    "raw_link_group": "Crafts",
+    "crafts_links_checked": [
+      {
+        "raw_link_text": "AUG - Electron Cloud (Tier 1)",
+        "url": "https://oncehuman.th.gl/db/gear/10451401",
+        "gear_id": "10451401"
+      },
+      {
+        "raw_link_text": "AUG - Electron Cloud (Tier 4)",
+        "url": "https://oncehuman.th.gl/db/gear/10451404",
+        "gear_id": "10451404"
+      }
+    ],
+    "blueprint_max_stars": 6
+  },
+  "gear_pages": [
+    {
+      "gear_id": "10451401",
+      "tier": 1,
+      "raw_title": "AUG - Electron Cloud (Tier 1)",
+      "url": "https://oncehuman.th.gl/db/gear/10451401",
+      "raw_fields": [
+        {"label": "DMG", "raw_value": "34", "unit_as_published": null},
+        {"label": "Fire Rate", "raw_value": "720", "unit_as_published": null},
+        {"label": "Magazine Capacity", "raw_value": "40", "unit_as_published": null},
+        {"label": "Reload Speed", "raw_value": "47", "unit_as_published": null},
+        {"label": "Crit Rate", "raw_value": "10%", "unit_as_published": "%"},
+        {"label": "Crit DMG", "raw_value": "25%", "unit_as_published": "%"},
+        {"label": "Weakspot DMG", "raw_value": "60%", "unit_as_published": "%"},
+        {"label": "Full DMG Range", "raw_value": "26 m", "unit_as_published": "m"},
+        {"label": "Min DMG Range", "raw_value": "72.8 m", "unit_as_published": "m"},
+        {"label": "Min DMG", "raw_value": "30%", "unit_as_published": "%"}
+      ],
+      "raw_table_label": "DMG per star",
+      "raw_star_values": {"1★": "34", "2★": "36", "3★": "37", "4★": "39", "5★": "41", "6★": "43"},
+      "wikily_corroboration": {
+        "url": "https://wikily.gg/once-human/items/10451401/",
+        "raw_title": "AUG - Electron Cloud (Tier 1)",
+        "raw_fields": {"Damage (DMG)": "34.0", "Fire Rate": "720", "Magazine Size": "40", "Reload": "47", "Tier": "1"}
+      }
+    },
+    {
+      "gear_id": "10451404",
+      "tier": 4,
+      "raw_title": "AUG - Electron Cloud (Tier 4)",
+      "url": "https://oncehuman.th.gl/db/gear/10451404",
+      "raw_fields": [
+        {"label": "DMG", "raw_value": "132", "unit_as_published": null},
+        {"label": "Fire Rate", "raw_value": "720", "unit_as_published": null},
+        {"label": "Magazine Capacity", "raw_value": "40", "unit_as_published": null},
+        {"label": "Reload Speed", "raw_value": "47", "unit_as_published": null},
+        {"label": "Tier", "raw_value": "4", "unit_as_published": null}
+      ],
+      "raw_table_label": "DMG per star",
+      "raw_star_values": {"1★": "132", "2★": "139", "3★": "145", "4★": "152", "5★": "158", "6★": "165"},
+      "wikily_corroboration": {
+        "url": "https://wikily.gg/once-human/items/10451404/",
+        "raw_title": "AUG - Electron Cloud (Tier 4)",
+        "raw_fields": {"Damage (DMG)": "132.0", "Fire Rate": "720", "Magazine Size": "40", "Reload": "47", "Tier": "4"}
+      }
+    }
+  ],
+  "source_version": {
+    "thgl_page_revision": null,
+    "wikily_page_revision": null,
+    "game_build": null,
+    "language": "English",
+    "note": "Pages do not expose a pinned game build or record revision in the selected text capture."
+  },
+  "interpretation_gates": {
+    "dmg_per_projectile": "unverified",
+    "reload_seconds": "unverified; 47 is displayed as Reload Speed/Reload score",
+    "calibration_blueprint_attributes": "not represented by these static page numbers",
+    "owned_configuration": "unverified",
+    "weapon_effect": "not imported from this sample because source wording/coefficient differs between THGL and Wikily"
+  }
+}

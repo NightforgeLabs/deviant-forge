@@ -1,0 +1,1922 @@
+{
+  "build_id": "26267212",
+  "family_main_entry_no": 9318,
+  "core_buff_id": 589318000,
+  "secondary_buff_id": 589318100,
+  "core_graph": {
+    "source_pyc": "/home/dv/Documents/Codex/2026-11-01/task-5/precision_charge_candidate_buff_589318000.pyc",
+    "pyc_sha256": "870a3baacbf70b21caeb98536be79970890b5f5361ae50c8e1eb2411ac2637d8",
+    "literal_sha256": "2ff215387c0122f98f745ac4c515dace0f76f36b35dcf3c562452689648fb9fb",
+    "literal_length": 3893,
+    "body_base": 1980,
+    "node_map_literal_offset": 3755,
+    "nodes": [
+      {
+        "node_id": 4,
+        "node_type": "NodeBBSaveIntData",
+        "literal_offset": 2188,
+        "parameter_literal_offset": 2130,
+        "parameters": [
+          {
+            "field": "bb_key",
+            "type_code": 5,
+            "value": "mag_size",
+            "literal_byte_offset": 2136
+          },
+          {
+            "field": "scope",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2137
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 4,
+            "literal_byte_offset": 2138
+          }
+        ]
+      },
+      {
+        "node_id": 36,
+        "node_type": "NodeMathFloor",
+        "literal_offset": 2238,
+        "parameter_literal_offset": 2198,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 36,
+            "literal_byte_offset": 2204
+          }
+        ]
+      },
+      {
+        "node_id": 71,
+        "node_type": "NodeGetFloatAttr",
+        "literal_offset": 2276,
+        "parameter_literal_offset": 2249,
+        "parameters": [
+          {
+            "field": "attr_name",
+            "type_code": 5,
+            "value": "weapon_magazine_size",
+            "literal_byte_offset": 2255
+          },
+          {
+            "field": "percent",
+            "type_code": 18,
+            "value": 100.0,
+            "literal_byte_offset": 2256
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 71,
+            "literal_byte_offset": 2260
+          }
+        ]
+      },
+      {
+        "node_id": 7,
+        "node_type": "NodeConstInt",
+        "literal_offset": 2300,
+        "parameter_literal_offset": 2286,
+        "parameters": [
+          {
+            "field": "value",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2292
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 7,
+            "literal_byte_offset": 2293
+          }
+        ]
+      },
+      {
+        "node_id": 39,
+        "node_type": "NodeGetIntAttr",
+        "literal_offset": 2324,
+        "parameter_literal_offset": 2310,
+        "parameters": [
+          {
+            "field": "attr_name",
+            "type_code": 5,
+            "value": "cur_clip_left",
+            "literal_byte_offset": 2316
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 39,
+            "literal_byte_offset": 2317
+          }
+        ]
+      },
+      {
+        "node_id": 2,
+        "node_type": "NodeChecker",
+        "literal_offset": 2417,
+        "parameter_literal_offset": 2366,
+        "parameters": [
+          {
+            "field": "auto_reset_trigger",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 2372
+          },
+          {
+            "field": "cd",
+            "type_code": 18,
+            "value": 0.0,
+            "literal_byte_offset": 2373
+          },
+          {
+            "field": "max_effect_count",
+            "type_code": 1,
+            "value": 20,
+            "literal_byte_offset": 2377
+          },
+          {
+            "field": "max_effect_times",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2378
+          },
+          {
+            "field": "max_reset_times",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2379
+          },
+          {
+            "field": "reset_cd",
+            "type_code": 18,
+            "value": 0.0,
+            "literal_byte_offset": 2380
+          },
+          {
+            "field": "reset_checker",
+            "type_code": 11,
+            "value": 4,
+            "literal_byte_offset": 2384
+          },
+          {
+            "field": "reset_last_effect",
+            "type_code": 3,
+            "value": 1,
+            "literal_byte_offset": 2385
+          },
+          {
+            "field": "reset_op",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 2386
+          },
+          {
+            "field": "trigger_checker",
+            "type_code": 11,
+            "value": 381,
+            "literal_byte_offset": 2387
+          },
+          {
+            "field": "trigger_once",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 2389
+          },
+          {
+            "field": "trigger_op",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 2390
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 2,
+            "literal_byte_offset": 2391
+          }
+        ]
+      },
+      {
+        "node_id": 3,
+        "node_type": "NodeBBSaveIntData",
+        "literal_offset": 2456,
+        "parameter_literal_offset": 2428,
+        "parameters": [
+          {
+            "field": "bb_key",
+            "type_code": 5,
+            "value": "weakspot_count",
+            "literal_byte_offset": 2434
+          },
+          {
+            "field": "scope",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2435
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 3,
+            "literal_byte_offset": 2436
+          }
+        ]
+      },
+      {
+        "node_id": 57,
+        "node_type": "NodeDispelBuff",
+        "literal_offset": 2518,
+        "parameter_literal_offset": 2475,
+        "parameters": [
+          {
+            "field": "degrade",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 2481
+          },
+          {
+            "field": "dispel_buff_tag_list",
+            "type_code": 11,
+            "value": 4,
+            "literal_byte_offset": 2482
+          },
+          {
+            "field": "dispel_debuff_num",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 2483
+          },
+          {
+            "field": "dispel_id_list",
+            "type_code": 11,
+            "value": 486,
+            "literal_byte_offset": 2484
+          },
+          {
+            "field": "dispel_tag_list",
+            "type_code": 11,
+            "value": 4,
+            "literal_byte_offset": 2486
+          },
+          {
+            "field": "dispel_type",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2487
+          },
+          {
+            "field": "match_caster_id",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 2488
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 57,
+            "literal_byte_offset": 2489
+          }
+        ]
+      },
+      {
+        "node_id": 14,
+        "node_type": "NodeConstFloat",
+        "literal_offset": 2545,
+        "parameter_literal_offset": 2528,
+        "parameters": [
+          {
+            "field": "value",
+            "type_code": 18,
+            "value": 10.0,
+            "literal_byte_offset": 2534
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 14,
+            "literal_byte_offset": 2538
+          }
+        ]
+      },
+      {
+        "node_id": 78,
+        "node_type": "NodeDispelBuff",
+        "literal_offset": 2585,
+        "parameter_literal_offset": 2564,
+        "parameters": [
+          {
+            "field": "degrade",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 2570
+          },
+          {
+            "field": "dispel_buff_tag_list",
+            "type_code": 11,
+            "value": 4,
+            "literal_byte_offset": 2571
+          },
+          {
+            "field": "dispel_debuff_num",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 2572
+          },
+          {
+            "field": "dispel_id_list",
+            "type_code": 11,
+            "value": 575,
+            "literal_byte_offset": 2573
+          },
+          {
+            "field": "dispel_tag_list",
+            "type_code": 11,
+            "value": 4,
+            "literal_byte_offset": 2575
+          },
+          {
+            "field": "dispel_type",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2576
+          },
+          {
+            "field": "match_caster_id",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 2577
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 78,
+            "literal_byte_offset": 2578
+          }
+        ]
+      },
+      {
+        "node_id": 72,
+        "node_type": "NodeMathFloor",
+        "literal_offset": 2621,
+        "parameter_literal_offset": 2595,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 72,
+            "literal_byte_offset": 2601
+          }
+        ]
+      },
+      {
+        "node_id": 8,
+        "node_type": "NodeGetFloatAttr",
+        "literal_offset": 2650,
+        "parameter_literal_offset": 2632,
+        "parameters": [
+          {
+            "field": "attr_name",
+            "type_code": 5,
+            "value": "weapon_magazine_size",
+            "literal_byte_offset": 2638
+          },
+          {
+            "field": "percent",
+            "type_code": 18,
+            "value": 100.0,
+            "literal_byte_offset": 2639
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 8,
+            "literal_byte_offset": 2643
+          }
+        ]
+      },
+      {
+        "node_id": 9,
+        "node_type": "NodeBBSaveIntData",
+        "literal_offset": 2688,
+        "parameter_literal_offset": 2660,
+        "parameters": [
+          {
+            "field": "bb_key",
+            "type_code": 5,
+            "value": "weakspot_count",
+            "literal_byte_offset": 2666
+          },
+          {
+            "field": "scope",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2667
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 9,
+            "literal_byte_offset": 2668
+          }
+        ]
+      },
+      {
+        "node_id": 58,
+        "node_type": "NodeGetHolderUid",
+        "literal_offset": 2720,
+        "parameter_literal_offset": 2698,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 58,
+            "literal_byte_offset": 2704
+          }
+        ]
+      },
+      {
+        "node_id": 11,
+        "node_type": "NodeIntToFloat",
+        "literal_offset": 2756,
+        "parameter_literal_offset": 2730,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 11,
+            "literal_byte_offset": 2736
+          }
+        ]
+      },
+      {
+        "node_id": 61,
+        "node_type": "NodeCastBuffToTarget",
+        "literal_offset": 2813,
+        "parameter_literal_offset": 2767,
+        "parameters": [
+          {
+            "field": "buff_id",
+            "type_code": 1,
+            "value": 589318100,
+            "literal_byte_offset": 2773
+          },
+          {
+            "field": "buff_lv",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 2778
+          },
+          {
+            "field": "destroy_buff_on_leave",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 2779
+          },
+          {
+            "field": "mapping_buff",
+            "type_code": 3,
+            "value": 1,
+            "literal_byte_offset": 2780
+          },
+          {
+            "field": "reset",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 2781
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 61,
+            "literal_byte_offset": 2782
+          }
+        ]
+      },
+      {
+        "node_id": 13,
+        "node_type": "NodeConstInt",
+        "literal_offset": 2837,
+        "parameter_literal_offset": 2823,
+        "parameters": [
+          {
+            "field": "value",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2829
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 13,
+            "literal_byte_offset": 2830
+          }
+        ]
+      },
+      {
+        "node_id": 15,
+        "node_type": "NodeReloadSucEvent",
+        "literal_offset": 2887,
+        "parameter_literal_offset": 2847,
+        "parameters": [
+          {
+            "field": "cd",
+            "type_code": 18,
+            "value": 0.0,
+            "literal_byte_offset": 2853
+          },
+          {
+            "field": "max_effect_count",
+            "type_code": 1,
+            "value": 20,
+            "literal_byte_offset": 2857
+          },
+          {
+            "field": "max_effect_times",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 2858
+          },
+          {
+            "field": "reset_last_effect",
+            "type_code": 3,
+            "value": 1,
+            "literal_byte_offset": 2859
+          },
+          {
+            "field": "task_checker",
+            "type_code": 5,
+            "value": "reload_once_suc_checker",
+            "literal_byte_offset": 2860
+          },
+          {
+            "field": "trigger_checker",
+            "type_code": 11,
+            "value": 4,
+            "literal_byte_offset": 2861
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 15,
+            "literal_byte_offset": 2862
+          }
+        ]
+      },
+      {
+        "node_id": 16,
+        "node_type": "NodeChecker",
+        "literal_offset": 3100,
+        "parameter_literal_offset": 3059,
+        "parameters": [
+          {
+            "field": "auto_reset_trigger",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 3065
+          },
+          {
+            "field": "cd",
+            "type_code": 18,
+            "value": 0.0,
+            "literal_byte_offset": 3066
+          },
+          {
+            "field": "max_effect_count",
+            "type_code": 1,
+            "value": 20,
+            "literal_byte_offset": 3070
+          },
+          {
+            "field": "max_effect_times",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3071
+          },
+          {
+            "field": "max_reset_times",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3072
+          },
+          {
+            "field": "reset_cd",
+            "type_code": 18,
+            "value": 0.0,
+            "literal_byte_offset": 3073
+          },
+          {
+            "field": "reset_checker",
+            "type_code": 11,
+            "value": 4,
+            "literal_byte_offset": 3077
+          },
+          {
+            "field": "reset_last_effect",
+            "type_code": 3,
+            "value": 1,
+            "literal_byte_offset": 3078
+          },
+          {
+            "field": "reset_op",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 3079
+          },
+          {
+            "field": "trigger_checker",
+            "type_code": 11,
+            "value": 1074,
+            "literal_byte_offset": 3080
+          },
+          {
+            "field": "trigger_once",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 3082
+          },
+          {
+            "field": "trigger_op",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 3083
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 16,
+            "literal_byte_offset": 3084
+          }
+        ]
+      },
+      {
+        "node_id": 62,
+        "node_type": "NodeGetHolderUid",
+        "literal_offset": 3124,
+        "parameter_literal_offset": 3111,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 62,
+            "literal_byte_offset": 3117
+          }
+        ]
+      },
+      {
+        "node_id": 18,
+        "node_type": "NodeBuffIfTask",
+        "literal_offset": 3192,
+        "parameter_literal_offset": 3134,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 18,
+            "literal_byte_offset": 3140
+          }
+        ]
+      },
+      {
+        "node_id": 19,
+        "node_type": "NodeBuffNone",
+        "literal_offset": 3239,
+        "parameter_literal_offset": 3204,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 19,
+            "literal_byte_offset": 3210
+          }
+        ]
+      },
+      {
+        "node_id": 21,
+        "node_type": "NodeBBLoadIntData",
+        "literal_offset": 3265,
+        "parameter_literal_offset": 3250,
+        "parameters": [
+          {
+            "field": "bb_key",
+            "type_code": 5,
+            "value": "mag_size",
+            "literal_byte_offset": 3256
+          },
+          {
+            "field": "scope",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3257
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 21,
+            "literal_byte_offset": 3258
+          }
+        ]
+      },
+      {
+        "node_id": 22,
+        "node_type": "NodeBBFloatCalculation",
+        "literal_offset": 3320,
+        "parameter_literal_offset": 3275,
+        "parameters": [
+          {
+            "field": "operation",
+            "type_code": 1,
+            "value": 3,
+            "literal_byte_offset": 3281
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 22,
+            "literal_byte_offset": 3282
+          }
+        ]
+      },
+      {
+        "node_id": 23,
+        "node_type": "NodeBBSaveIntData",
+        "literal_offset": 3359,
+        "parameter_literal_offset": 3331,
+        "parameters": [
+          {
+            "field": "bb_key",
+            "type_code": 5,
+            "value": "mag_size",
+            "literal_byte_offset": 3337
+          },
+          {
+            "field": "scope",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3338
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 23,
+            "literal_byte_offset": 3339
+          }
+        ]
+      },
+      {
+        "node_id": 60,
+        "node_type": "NodeMathFloor",
+        "literal_offset": 3395,
+        "parameter_literal_offset": 3369,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 60,
+            "literal_byte_offset": 3375
+          }
+        ]
+      },
+      {
+        "node_id": 25,
+        "node_type": "NodeBBFloatCalculation",
+        "literal_offset": 3443,
+        "parameter_literal_offset": 3406,
+        "parameters": [
+          {
+            "field": "operation",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 3412
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 25,
+            "literal_byte_offset": 3413
+          }
+        ]
+      },
+      {
+        "node_id": 26,
+        "node_type": "NodeIntToFloat",
+        "literal_offset": 3480,
+        "parameter_literal_offset": 3454,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 26,
+            "literal_byte_offset": 3460
+          }
+        ]
+      },
+      {
+        "node_id": 27,
+        "node_type": "NodeConstInt",
+        "literal_offset": 3505,
+        "parameter_literal_offset": 3491,
+        "parameters": [
+          {
+            "field": "value",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3497
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 27,
+            "literal_byte_offset": 3498
+          }
+        ]
+      },
+      {
+        "node_id": 28,
+        "node_type": "NodeConstInt",
+        "literal_offset": 3529,
+        "parameter_literal_offset": 3515,
+        "parameters": [
+          {
+            "field": "value",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 3521
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 28,
+            "literal_byte_offset": 3522
+          }
+        ]
+      },
+      {
+        "node_id": 29,
+        "node_type": "NodeGetFloatAttr",
+        "literal_offset": 3557,
+        "parameter_literal_offset": 3539,
+        "parameters": [
+          {
+            "field": "attr_name",
+            "type_code": 5,
+            "value": "weapon_magazine_size",
+            "literal_byte_offset": 3545
+          },
+          {
+            "field": "percent",
+            "type_code": 18,
+            "value": 100.0,
+            "literal_byte_offset": 3546
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 29,
+            "literal_byte_offset": 3550
+          }
+        ]
+      },
+      {
+        "node_id": 30,
+        "node_type": "NodeBBLoadIntData",
+        "literal_offset": 3582,
+        "parameter_literal_offset": 3567,
+        "parameters": [
+          {
+            "field": "bb_key",
+            "type_code": 5,
+            "value": "weakspot_count",
+            "literal_byte_offset": 3573
+          },
+          {
+            "field": "scope",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3574
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 30,
+            "literal_byte_offset": 3575
+          }
+        ]
+      },
+      {
+        "node_id": 31,
+        "node_type": "NodeBBChangeIntData",
+        "literal_offset": 3621,
+        "parameter_literal_offset": 3592,
+        "parameters": [
+          {
+            "field": "bb_key",
+            "type_code": 5,
+            "value": "weakspot_count",
+            "literal_byte_offset": 3598
+          },
+          {
+            "field": "operation",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3599
+          },
+          {
+            "field": "scope",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3600
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 31,
+            "literal_byte_offset": 3601
+          }
+        ]
+      },
+      {
+        "node_id": 33,
+        "node_type": "NodeBBSaveIntData",
+        "literal_offset": 3659,
+        "parameter_literal_offset": 3631,
+        "parameters": [
+          {
+            "field": "bb_key",
+            "type_code": 5,
+            "value": "mag_size",
+            "literal_byte_offset": 3637
+          },
+          {
+            "field": "scope",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3638
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 33,
+            "literal_byte_offset": 3639
+          }
+        ]
+      },
+      {
+        "node_id": 76,
+        "node_type": "NodeBBSaveIntData",
+        "literal_offset": 3697,
+        "parameter_literal_offset": 3669,
+        "parameters": [
+          {
+            "field": "bb_key",
+            "type_code": 5,
+            "value": "weakspot_count",
+            "literal_byte_offset": 3675
+          },
+          {
+            "field": "scope",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3676
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 76,
+            "literal_byte_offset": 3677
+          }
+        ]
+      },
+      {
+        "node_id": 35,
+        "node_type": "NodeCompareFloat",
+        "literal_offset": 3744,
+        "parameter_literal_offset": 3707,
+        "parameters": [
+          {
+            "field": "operation",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 3713
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 35,
+            "literal_byte_offset": 3714
+          }
+        ]
+      }
+    ],
+    "control_edges": [
+      {
+        "source": 2,
+        "port": "trigger",
+        "target": 4,
+        "leaf_literal_offset": 2398,
+        "source_type": "NodeChecker",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "source": 2,
+        "port": "trigger",
+        "target": 3,
+        "leaf_literal_offset": 2398,
+        "source_type": "NodeChecker",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "source": 15,
+        "port": "trigger",
+        "target": 18,
+        "leaf_literal_offset": 2869,
+        "source_type": "NodeReloadSucEvent",
+        "target_type": "NodeBuffIfTask"
+      },
+      {
+        "source": 16,
+        "port": "trigger",
+        "target": 31,
+        "leaf_literal_offset": 3091,
+        "source_type": "NodeChecker",
+        "target_type": "NodeBBChangeIntData"
+      },
+      {
+        "source": 18,
+        "port": "True",
+        "target": 57,
+        "leaf_literal_offset": 3147,
+        "source_type": "NodeBuffIfTask",
+        "target_type": "NodeDispelBuff"
+      },
+      {
+        "source": 18,
+        "port": "True",
+        "target": 78,
+        "leaf_literal_offset": 3147,
+        "source_type": "NodeBuffIfTask",
+        "target_type": "NodeDispelBuff"
+      },
+      {
+        "source": 18,
+        "port": "True",
+        "target": 23,
+        "leaf_literal_offset": 3147,
+        "source_type": "NodeBuffIfTask",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "source": 18,
+        "port": "True",
+        "target": 61,
+        "leaf_literal_offset": 3147,
+        "source_type": "NodeBuffIfTask",
+        "target_type": "NodeCastBuffToTarget"
+      },
+      {
+        "source": 18,
+        "port": "True",
+        "target": 76,
+        "leaf_literal_offset": 3147,
+        "source_type": "NodeBuffIfTask",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "source": 19,
+        "port": "none_task_out",
+        "target": 9,
+        "leaf_literal_offset": 3217,
+        "source_type": "NodeBuffNone",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "source": 19,
+        "port": "none_task_out",
+        "target": 33,
+        "leaf_literal_offset": 3217,
+        "source_type": "NodeBuffNone",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "source": 19,
+        "port": "none_task_out",
+        "target": 16,
+        "leaf_literal_offset": 3217,
+        "source_type": "NodeBuffNone",
+        "target_type": "NodeChecker"
+      },
+      {
+        "source": 19,
+        "port": "none_task_out",
+        "target": 15,
+        "leaf_literal_offset": 3217,
+        "source_type": "NodeBuffNone",
+        "target_type": "NodeReloadSucEvent"
+      },
+      {
+        "source": 19,
+        "port": "none_task_out",
+        "target": 2,
+        "leaf_literal_offset": 3217,
+        "source_type": "NodeBuffNone",
+        "target_type": "NodeChecker"
+      }
+    ],
+    "data_edges": [
+      {
+        "target": 4,
+        "port": "data",
+        "source": 36,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 2153,
+        "source_type": "NodeMathFloor",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "target": 36,
+        "port": "data",
+        "source": 8,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 2211,
+        "source_type": "NodeGetFloatAttr",
+        "target_type": "NodeMathFloor"
+      },
+      {
+        "target": 3,
+        "port": "data",
+        "source": 7,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 2443,
+        "source_type": "NodeConstInt",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "target": 57,
+        "port": "target_uid",
+        "source": 58,
+        "source_port": "utility",
+        "source_key": "holder_uid",
+        "leaf_literal_offset": 2496,
+        "source_type": "NodeGetHolderUid",
+        "target_type": "NodeDispelBuff"
+      },
+      {
+        "target": 78,
+        "port": "target_uid",
+        "source": 58,
+        "source_port": "utility",
+        "source_key": "holder_uid",
+        "leaf_literal_offset": 2496,
+        "source_type": "NodeGetHolderUid",
+        "target_type": "NodeDispelBuff"
+      },
+      {
+        "target": 72,
+        "port": "data",
+        "source": 71,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 2608,
+        "source_type": "NodeGetFloatAttr",
+        "target_type": "NodeMathFloor"
+      },
+      {
+        "target": 9,
+        "port": "data",
+        "source": 13,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 2675,
+        "source_type": "NodeConstInt",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "target": 11,
+        "port": "data",
+        "source": 21,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 2743,
+        "source_type": "NodeBBLoadIntData",
+        "target_type": "NodeIntToFloat"
+      },
+      {
+        "target": 61,
+        "port": "buff_stack",
+        "source": 60,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 2797,
+        "source_type": "NodeMathFloor",
+        "target_type": "NodeCastBuffToTarget"
+      },
+      {
+        "target": 61,
+        "port": "target_uid",
+        "source": 62,
+        "source_port": "utility",
+        "source_key": "holder_uid",
+        "leaf_literal_offset": 2789,
+        "source_type": "NodeGetHolderUid",
+        "target_type": "NodeCastBuffToTarget"
+      },
+      {
+        "target": 18,
+        "port": "Condition",
+        "source": 35,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 3169,
+        "source_type": "NodeCompareFloat",
+        "target_type": "NodeBuffIfTask"
+      },
+      {
+        "target": 22,
+        "port": "data1",
+        "source": 26,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 3297,
+        "source_type": "NodeIntToFloat",
+        "target_type": "NodeBBFloatCalculation"
+      },
+      {
+        "target": 22,
+        "port": "data2",
+        "source": 11,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 3289,
+        "source_type": "NodeIntToFloat",
+        "target_type": "NodeBBFloatCalculation"
+      },
+      {
+        "target": 23,
+        "port": "data",
+        "source": 39,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 3346,
+        "source_type": "NodeGetIntAttr",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "target": 60,
+        "port": "data",
+        "source": 25,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 3382,
+        "source_type": "NodeBBFloatCalculation",
+        "target_type": "NodeMathFloor"
+      },
+      {
+        "target": 25,
+        "port": "data1",
+        "source": 22,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 3428,
+        "source_type": "NodeBBFloatCalculation",
+        "target_type": "NodeBBFloatCalculation"
+      },
+      {
+        "target": 25,
+        "port": "data2",
+        "source": 14,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 3420,
+        "source_type": "NodeConstFloat",
+        "target_type": "NodeBBFloatCalculation"
+      },
+      {
+        "target": 26,
+        "port": "data",
+        "source": 30,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 3467,
+        "source_type": "NodeBBLoadIntData",
+        "target_type": "NodeIntToFloat"
+      },
+      {
+        "target": 31,
+        "port": "data",
+        "source": 28,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 3608,
+        "source_type": "NodeConstInt",
+        "target_type": "NodeBBChangeIntData"
+      },
+      {
+        "target": 33,
+        "port": "data",
+        "source": 72,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 3646,
+        "source_type": "NodeMathFloor",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "target": 76,
+        "port": "data",
+        "source": 27,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 3684,
+        "source_type": "NodeConstInt",
+        "target_type": "NodeBBSaveIntData"
+      },
+      {
+        "target": 35,
+        "port": "data1",
+        "source": 15,
+        "source_port": "trigger",
+        "source_key": "cur_clip_left",
+        "leaf_literal_offset": 3729,
+        "source_type": "NodeReloadSucEvent",
+        "target_type": "NodeCompareFloat"
+      },
+      {
+        "target": 35,
+        "port": "data2",
+        "source": 29,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 3721,
+        "source_type": "NodeGetFloatAttr",
+        "target_type": "NodeCompareFloat"
+      }
+    ]
+  },
+  "secondary_graph": {
+    "source_pyc": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/buff_589318100_1.pyc",
+    "pyc_sha256": "532218b0b6bcf2705510fdf7da7c3fb52019e6975d74039a901aeca3521b4eca",
+    "literal_sha256": "a34fd3eb841fdcedf7b78dd57230e9fed811dac774bf758ba562e91dd22e237a",
+    "literal_length": 1513,
+    "body_base": 902,
+    "node_map_literal_offset": 1384,
+    "nodes": [
+      {
+        "node_id": 0,
+        "node_type": "NodeBuffNone",
+        "literal_offset": 1019,
+        "parameter_literal_offset": 977,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 982
+          }
+        ]
+      },
+      {
+        "node_id": 3,
+        "node_type": "NodeChecker",
+        "literal_offset": 1096,
+        "parameter_literal_offset": 1055,
+        "parameters": [
+          {
+            "field": "auto_reset_trigger",
+            "type_code": 3,
+            "value": 0,
+            "literal_byte_offset": 1060
+          },
+          {
+            "field": "cd",
+            "type_code": 18,
+            "value": 0.0,
+            "literal_byte_offset": 1061
+          },
+          {
+            "field": "max_effect_count",
+            "type_code": 1,
+            "value": 20,
+            "literal_byte_offset": 1065
+          },
+          {
+            "field": "max_effect_times",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 1066
+          },
+          {
+            "field": "max_reset_times",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 1067
+          },
+          {
+            "field": "reset_cd",
+            "type_code": 18,
+            "value": 0.0,
+            "literal_byte_offset": 1068
+          },
+          {
+            "field": "reset_checker",
+            "type_code": 11,
+            "value": 6,
+            "literal_byte_offset": 1072
+          },
+          {
+            "field": "reset_last_effect",
+            "type_code": 3,
+            "value": 1,
+            "literal_byte_offset": 1073
+          },
+          {
+            "field": "reset_op",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 1074
+          },
+          {
+            "field": "trigger_checker",
+            "type_code": 11,
+            "value": 148,
+            "literal_byte_offset": 1075
+          },
+          {
+            "field": "trigger_once",
+            "type_code": 3,
+            "value": 1,
+            "literal_byte_offset": 1077
+          },
+          {
+            "field": "trigger_op",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 1078
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 3,
+            "literal_byte_offset": 1079
+          }
+        ]
+      },
+      {
+        "node_id": 11,
+        "node_type": "NodeChangeAttrInputValue",
+        "literal_offset": 1137,
+        "parameter_literal_offset": 1124,
+        "parameters": [
+          {
+            "field": "attribute",
+            "type_code": 5,
+            "value": "element_type_dam_add_rate_lightning",
+            "literal_byte_offset": 1129
+          },
+          {
+            "field": "value_type",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 1130
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 11,
+            "literal_byte_offset": 1131
+          }
+        ]
+      },
+      {
+        "node_id": 12,
+        "node_type": "NodeChangeAttrInputValue",
+        "literal_offset": 1159,
+        "parameter_literal_offset": 1146,
+        "parameters": [
+          {
+            "field": "attribute",
+            "type_code": 5,
+            "value": "element_type_dam_add_rate_explode",
+            "literal_byte_offset": 1151
+          },
+          {
+            "field": "value_type",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 1152
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 12,
+            "literal_byte_offset": 1153
+          }
+        ]
+      },
+      {
+        "node_id": 14,
+        "node_type": "NodeIntToFloat",
+        "literal_offset": 1211,
+        "parameter_literal_offset": 1200,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 14,
+            "literal_byte_offset": 1205
+          }
+        ]
+      },
+      {
+        "node_id": 15,
+        "node_type": "NodeBBFloatCalculation",
+        "literal_offset": 1264,
+        "parameter_literal_offset": 1252,
+        "parameters": [
+          {
+            "field": "operation",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 1257
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 15,
+            "literal_byte_offset": 1258
+          }
+        ]
+      },
+      {
+        "node_id": 10,
+        "node_type": "NodeChangeAttrInputValue",
+        "literal_offset": 1287,
+        "parameter_literal_offset": 1274,
+        "parameters": [
+          {
+            "field": "attribute",
+            "type_code": 5,
+            "value": "element_type_dam_add_rate_ice",
+            "literal_byte_offset": 1279
+          },
+          {
+            "field": "value_type",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 1280
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 10,
+            "literal_byte_offset": 1281
+          }
+        ]
+      },
+      {
+        "node_id": 13,
+        "node_type": "NodeConstFloat",
+        "literal_offset": 1324,
+        "parameter_literal_offset": 1305,
+        "parameters": [
+          {
+            "field": "value",
+            "type_code": 34,
+            "value": 0.04,
+            "literal_byte_offset": 1310
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 13,
+            "literal_byte_offset": 1318
+          }
+        ]
+      },
+      {
+        "node_id": 8,
+        "node_type": "NodeGetBuffStack",
+        "literal_offset": 1353,
+        "parameter_literal_offset": 1342,
+        "parameters": [
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 8,
+            "literal_byte_offset": 1347
+          }
+        ]
+      },
+      {
+        "node_id": 9,
+        "node_type": "NodeChangeAttrInputValue",
+        "literal_offset": 1375,
+        "parameter_literal_offset": 1362,
+        "parameters": [
+          {
+            "field": "attribute",
+            "type_code": 5,
+            "value": "element_type_dam_add_rate_fire",
+            "literal_byte_offset": 1367
+          },
+          {
+            "field": "value_type",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 1368
+          },
+          {
+            "field": "effect_index",
+            "type_code": 1,
+            "value": 9,
+            "literal_byte_offset": 1369
+          }
+        ]
+      }
+    ],
+    "control_edges": [
+      {
+        "source": 0,
+        "port": "none_task_out",
+        "target": 3,
+        "leaf_literal_offset": 995,
+        "source_type": "NodeBuffNone",
+        "target_type": "NodeChecker"
+      },
+      {
+        "source": 3,
+        "port": "trigger",
+        "target": 9,
+        "leaf_literal_offset": 1085,
+        "source_type": "NodeChecker",
+        "target_type": "NodeChangeAttrInputValue"
+      },
+      {
+        "source": 3,
+        "port": "trigger",
+        "target": 10,
+        "leaf_literal_offset": 1085,
+        "source_type": "NodeChecker",
+        "target_type": "NodeChangeAttrInputValue"
+      },
+      {
+        "source": 3,
+        "port": "trigger",
+        "target": 11,
+        "leaf_literal_offset": 1085,
+        "source_type": "NodeChecker",
+        "target_type": "NodeChangeAttrInputValue"
+      },
+      {
+        "source": 3,
+        "port": "trigger",
+        "target": 12,
+        "leaf_literal_offset": 1085,
+        "source_type": "NodeChecker",
+        "target_type": "NodeChangeAttrInputValue"
+      }
+    ],
+    "data_edges": [
+      {
+        "target": 11,
+        "port": "value",
+        "source": 15,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 1106,
+        "source_type": "NodeBBFloatCalculation",
+        "target_type": "NodeChangeAttrInputValue"
+      },
+      {
+        "target": 12,
+        "port": "value",
+        "source": 15,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 1106,
+        "source_type": "NodeBBFloatCalculation",
+        "target_type": "NodeChangeAttrInputValue"
+      },
+      {
+        "target": 14,
+        "port": "data",
+        "source": 8,
+        "source_port": "utility",
+        "source_key": "buff_stack",
+        "leaf_literal_offset": 1168,
+        "source_type": "NodeGetBuffStack",
+        "target_type": "NodeIntToFloat"
+      },
+      {
+        "target": 15,
+        "port": "data1",
+        "source": 14,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 1229,
+        "source_type": "NodeIntToFloat",
+        "target_type": "NodeBBFloatCalculation"
+      },
+      {
+        "target": 15,
+        "port": "data2",
+        "source": 13,
+        "source_port": "utility",
+        "source_key": "data",
+        "leaf_literal_offset": 1221,
+        "source_type": "NodeConstFloat",
+        "target_type": "NodeBBFloatCalculation"
+      },
+      {
+        "target": 10,
+        "port": "value",
+        "source": 15,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 1106,
+        "source_type": "NodeBBFloatCalculation",
+        "target_type": "NodeChangeAttrInputValue"
+      },
+      {
+        "target": 9,
+        "port": "value",
+        "source": 15,
+        "source_port": "utility",
+        "source_key": "result",
+        "leaf_literal_offset": 1106,
+        "source_type": "NodeBBFloatCalculation",
+        "target_type": "NodeChangeAttrInputValue"
+      }
+    ]
+  },
+  "secondary_dynamic_binding": {
+    "map_literal_offset": 1435,
+    "node_id": 13,
+    "target_path": [
+      "effect_params",
+      "params",
+      "value"
+    ],
+    "value_index": 0,
+    "tuple_literal_offset": 1423
+  },
+  "buff_levels": {
+    "source_pyc_sha256": "fb0d46a975c0c25ef9abeda96d5b625b5de741d92cf8a3e4b49e74740a08f525",
+    "source_literal_sha256": "5667f98f77fd46bb9b9a68679ea5284d573aedfcf332fd09bde0374c54b02633",
+    "by_buff": {
+      "589318000": {
+        "1": {
+          "row_literal_offset": 892016,
+          "native_description": "上个弹匣的弱点命中率每有#7#{1}%#7#，元素伤害#7#+{2}%#7#，最高提升#7#{3}%#7#，持续{4}秒，换弹重新计算。_$S@TIDS$_c3c|0",
+          "display_values": [
+            "10",
+            "3",
+            "18",
+            "10"
+          ],
+          "configured_params": null
+        },
+        "2": {
+          "row_literal_offset": 953477,
+          "native_description": "上个弹匣的弱点命中率每有#7#{1}%#7#，元素伤害#7#+{2}%#7#，最高提升#7#{3}%#7#，持续{4}秒，换弹重新计算。_$S@TIDS$_c3c|1",
+          "display_values": [
+            "10",
+            "3",
+            "18",
+            "10"
+          ],
+          "configured_params": null
+        },
+        "3": {
+          "row_literal_offset": 953681,
+          "native_description": "上个弹匣的弱点命中率每有#7#{1}%#7#，元素伤害#7#+{2}%#7#，最高提升#7#{3}%#7#，持续{4}秒，换弹重新计算。_$S@TIDS$_c3c|2",
+          "display_values": [
+            "10",
+            "3",
+            "18",
+            "10"
+          ],
+          "configured_params": null
+        },
+        "4": {
+          "row_literal_offset": 953896,
+          "native_description": "上个弹匣的弱点命中率每有#7#{1}%#7#，元素伤害#7#+{2}%#7#，最高提升#7#{3}%#7#，持续{4}秒，换弹重新计算。_$S@TIDS$_c3c|3",
+          "display_values": [
+            "10",
+            "3",
+            "18",
+            "10"
+          ],
+          "configured_params": null
+        },
+        "5": {
+          "row_literal_offset": 954112,
+          "native_description": "上个弹匣的弱点命中率每有#7#{1}%#7#，元素伤害#7#+{2}%#7#，最高提升#7#{3}%#7#，持续{4}秒，换弹重新计算。_$S@TIDS$_c3c|4",
+          "display_values": [
+            "10",
+            "4",
+            "24",
+            "10"
+          ],
+          "configured_params": null
+        }
+      },
+      "589318100": {
+        "2": {
+          "row_literal_offset": 607501,
+          "native_description": "元素伤害#7#+{1}%#7#，最高叠加#7#{2}#7#层，持续{3}秒_$S@TIDS$_c3c|1",
+          "display_values": [
+            "3",
+            "6",
+            "10"
+          ],
+          "configured_params": {
+            "1": "0.03"
+          }
+        },
+        "5": {
+          "row_literal_offset": 626207,
+          "native_description": "元素伤害#7#+{1}%#7#，最高叠加#7#{2}#7#层，持续{3}秒_$S@TIDS$_c3c|4",
+          "display_values": [
+            "4",
+            "6",
+            "10"
+          ],
+          "configured_params": {
+            "1": "0.04"
+          }
+        },
+        "4": {
+          "row_literal_offset": 796624,
+          "native_description": "元素伤害#7#+{1}%#7#，最高叠加#7#{2}#7#层，持续{3}秒_$S@TIDS$_c3c|3",
+          "display_values": [
+            "3",
+            "6",
+            "10"
+          ],
+          "configured_params": {
+            "1": "0.03"
+          }
+        },
+        "3": {
+          "row_literal_offset": 945784,
+          "native_description": "元素伤害#7#+{1}%#7#，最高叠加#7#{2}#7#层，持续{3}秒_$S@TIDS$_c3c|2",
+          "display_values": [
+            "3",
+            "6",
+            "10"
+          ],
+          "configured_params": {
+            "1": "0.03"
+          }
+        },
+        "1": {
+          "row_literal_offset": 954220,
+          "native_description": "元素伤害#7#+{1}%#7#，最高叠加#7#{2}#7#层，持续{3}秒_$S@TIDS$_c3c|0",
+          "display_values": [
+            "3",
+            "6",
+            "10"
+          ],
+          "configured_params": {
+            "1": "0.03"
+          }
+        }
+      }
+    }
+  },
+  "configured_expression": {
+    "core_stack_input": "floor((float(BB weakspot_count) / float(BB mag_size)) * 10)",
+    "secondary_modifier": "float(buff_stack) * configured secondary params[1]",
+    "secondary_attributes": [
+      "element_type_dam_add_rate_fire",
+      "element_type_dam_add_rate_ice",
+      "element_type_dam_add_rate_lightning",
+      "element_type_dam_add_rate_explode"
+    ],
+    "secondary_per_stack_by_level": {
+      "1": "0.03",
+      "2": "0.03",
+      "3": "0.03",
+      "4": "0.03",
+      "5": "0.04"
+    },
+    "tooltip_max_stacks": "6",
+    "tooltip_duration_seconds": "10"
+  },
+  "limits": [
+    "The serialized data path proves a configured stack expression. The actual BB counter update, cast timing, mapping_buff level substitution, stack clamp, and server buff application are separate execution questions.",
+    "Do not equate family core rank with the frame bonus-line level or an owned inventory level.",
+    "The secondary graph literal default NodeConstFloat is 0.04; source level records list 0.03 at levels 1–4 and 0.04 at level 5. Runtime dynamic override is not proven by these values alone."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

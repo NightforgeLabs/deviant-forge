@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "source_snapshot": "2026-10-22T22:17:16.517899+00:00",
+  "source": "https://www.oncehumandb.com/mods",
+  "identities_with_numeric_candidates": 0,
+  "candidate_rows": 0,
+  "ambiguous_slugs": [],
+  "entries": {},
+  "removed_unmapped_candidate_rows": 5182,
+  "active_status": "unmapped_field_guide_level_magnitudes_archived"
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "crate_item_id": 37560018,
+  "source_literal_sha256": "5eed89a9a19aca6b5e72ad9d7955f9bb24a62ddb3457a8687288be98c713f5cb",
+  "verified_reward_slot_packet_sha256": "92e8deb5030133e640a42aa40d64fe67542b77967e641f7a8cff9ad7b6d3d01f",
+  "named_crate_packet_sha256": "69c899fed69b606e93403c332fd0b1134c3df2085833e16ea568d7ba8b9aeb45",
+  "method": "Read the native ordered 32-field descriptor; isolate slots13–22, all unsigned varints, by exact group_id bytes and the previously verified slot23 normal_reward_drop_id boundary. Exactly one ten-field parse fits this indexed row. This binds must_rare_reward_loot_times without decoding earlier floating/pointer fields.",
+  "row_start_offset": 2475,
+  "typed_prefix_suffix_start_offset": 2495,
+  "typed_prefix_suffix_end_offset_exclusive": 2508,
+  "native_descriptor_slots_13_to_22": [
+    {
+      "slot": 13,
+      "name": "group_id",
+      "type_code": 1
+    },
+    {
+      "slot": 14,
+      "name": "has_discount_loot_num",
+      "type_code": 1
+    },
+    {
+      "slot": 15,
+      "name": "is_shared",
+      "type_code": 1
+    },
+    {
+      "slot": 16,
+      "name": "middle_back",
+      "type_code": 1
+    },
+    {
+      "slot": 17,
+      "name": "middle_loop",
+      "type_code": 1
+    },
+    {
+      "slot": 18,
+      "name": "middle_reward_drop_id",
+      "type_code": 1
+    },
+    {
+      "slot": 19,
+      "name": "must_middle_reward_loot_times",
+      "type_code": 1
+    },
+    {
+      "slot": 20,
+      "name": "must_rare_reward_loot_times",
+      "type_code": 1
+    },
+    {
+      "slot": 21,
+      "name": "normal_back",
+      "type_code": 1
+    },
+    {
+      "slot": 22,
+      "name": "normal_loop",
+      "type_code": 1
+    }
+  ],
+  "typed_field_tokens": {
+    "group_id": {
+      "value": 37560018,
+      "type_code": 1,
+      "byte_offset": 2495,
+      "raw_hex": "d2bdf411"
+    },
+    "has_discount_loot_num": {
+      "value": 0,
+      "type_code": 1,
+      "byte_offset": 2499,
+      "raw_hex": "00"
+    },
+    "is_shared": {
+      "value": 0,
+      "type_code": 1,
+      "byte_offset": 2500,
+      "raw_hex": "00"
+    },
+    "middle_back": {
+      "value": 0,
+      "type_code": 1,
+      "byte_offset": 2501,
+      "raw_hex": "00"
+    },
+    "middle_loop": {
+      "value": 0,
+      "type_code": 1,
+      "byte_offset": 2502,
+      "raw_hex": "00"
+    },
+    "middle_reward_drop_id": {
+      "value": 0,
+      "type_code": 1,
+      "byte_offset": 2503,
+      "raw_hex": "00"
+    },
+    "must_middle_reward_loot_times": {
+      "value": 0,
+      "type_code": 1,
+      "byte_offset": 2504,
+      "raw_hex": "00"
+    },
+    "must_rare_reward_loot_times": {
+      "value": 15,
+      "type_code": 1,
+      "byte_offset": 2505,
+      "raw_hex": "0f"
+    },
+    "normal_back": {
+      "value": 0,
+      "type_code": 1,
+      "byte_offset": 2506,
+      "raw_hex": "00"
+    },
+    "normal_loop": {
+      "value": 1,
+      "type_code": 1,
+      "byte_offset": 2507,
+      "raw_hex": "01"
+    }
+  },
+  "source_description_crosscheck": {
+    "source_item_description": {
+      "source_string": "打开宝箱可获得一个捣蛋猫、疾旋鼬或桃旋鼬，异能评级、活性评级在3-5级之间。#[k=b5]最多15次必定获得异能评级为5、活性评级为5的捣蛋猫、疾旋鼬或桃旋鼬#[k]，每次保底不会重复。获取的异常物为绑定状态，不能进行丢弃或交易。_$S@TIDS$_cg0|0",
+      "pointer_byte_offset": 9643590,
+      "pointer_raw_hex": "819cba01",
+      "pointer_body_relative": 3051009,
+      "translation_object_byte_offset": 9643556,
+      "string_table_index": 70988,
+      "string_index_byte_offset": 9643553,
+      "string_index_raw_hex": "ccaa04"
+    },
+    "native_description_mentions_15_attempt_guarantee": true
+  },
+  "interpretation_gate": "The native named crate config has must_rare_reward_loot_times=15, independently matching its source description. This is a configured threshold; it does not reveal exact draw order, state reset, whether the rare pool is rolled on every open, probability, duplicate avoidance implementation or server behavior. Do not calculate odds from it.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

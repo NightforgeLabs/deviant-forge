@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "scope": "Observed Gear Config panels from one visible loadout; no exact item IDs or individual armor tooltips",
+  "sources": [
+    {
+      "panel": "overview",
+      "library_file_id": "libfile_541780b3596c819189fa97ef02db0d16",
+      "original_filename": "image(20261102-185807).png",
+      "captured_utc": "2026-11-02T18:58:07Z",
+      "local_image": "static/artwork/observed-character-panel-20261102-overview.png",
+      "sha256": "c0a5071c5eb534ef3eb33f4d944e9197e68891f0fd1daf90475fbfdbaaffba23"
+    },
+    {
+      "panel": "expanded",
+      "library_file_id": "libfile_6ab145d9aa8c81919332fd4589e6d627",
+      "original_filename": "image(20261102-185831).png",
+      "captured_utc": "2026-11-02T18:58:31Z",
+      "local_image": "static/artwork/observed-character-panel-20261102-expanded.png",
+      "sha256": "b1447d8d38524720fd2f0191e460d2d528ebac9aa7d02536f5cc80a4b7efa3ec"
+    }
+  ],
+  "observed": {
+    "primary_weapon_panel": {"attack": 422, "fire_rate_display": 720, "magazine_capacity": 58},
+    "gear_overview": {"psi_intensity": 793, "max_hp": 14402, "pollution_resist": 80},
+    "expanded_basic_stats": {"attack": 20, "psi_intensity": 793, "hp_current": 14402, "hp_max": 14402, "pollution_resist": 80, "heat_resist": 30, "burn_resist": 30},
+    "expanded_battle_stats": {"crit_rate_percent": 0.0, "crit_damage_percent": 5.4, "weakspot_damage_percent": 0.0}
+  },
+  "identity": {
+    "primary_weapon_catalog_id": null,
+    "weapon_tier": null,
+    "weapon_stars": null,
+    "weapon_calibration": null,
+    "armor_catalog_ids": null,
+    "armor_item_details": null,
+    "saved_build_id": null
+  },
+  "calculation_included": false,
+  "reason": "Panel values are observed for a loadout, but exact item configurations and the mapping from these display rows to combat properties are not established. Primary Weapon Attack 422 and Basic Attack 20 are distinct fields. No subtraction or per-item attribution is justified."
+}

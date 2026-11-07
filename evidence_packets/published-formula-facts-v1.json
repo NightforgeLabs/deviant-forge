@@ -1,0 +1,1936 @@
+{
+  "schema_version": "published_suffix_formula_v1",
+  "retrieved_utc_date": "2026-11-01",
+  "source_policy": "Compressed numerical facts and ordered stat keys only; no copied full tooltip descriptions. THGL representative mod pages establish slot/suffix layouts and tier coefficients; official table establishes row tiers by mod level. Identity-level applicability remains candidate.",
+  "sources": {
+    "thgl_index": "https://oncehuman.th.gl/db/mods",
+    "official_level_chart": "https://www.oncehuman.game/news/devBlog/20251212/40781_1276354.html"
+  },
+  "official_level_row_tiers": {
+    "1": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "3": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "4": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "5": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "6": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "7": [
+      2,
+      2,
+      2,
+      1
+    ],
+    "8": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "9": [
+      3,
+      2,
+      2,
+      2
+    ],
+    "10": [
+      3,
+      3,
+      2,
+      2
+    ],
+    "11": [
+      3,
+      3,
+      3,
+      2
+    ],
+    "12": [
+      4,
+      3,
+      3,
+      2
+    ],
+    "13": [
+      4,
+      4,
+      3,
+      2
+    ],
+    "14": [
+      4,
+      4,
+      4,
+      2
+    ],
+    "15": [
+      5,
+      4,
+      4,
+      2
+    ],
+    "16": [
+      5,
+      5,
+      4,
+      2
+    ],
+    "17": [
+      5,
+      5,
+      5,
+      2
+    ]
+  },
+  "stat_tier_formulae": [
+    {
+      "key": "crit_dmg",
+      "terms": [
+        {
+          "per_tier": 3
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "weakspot_dmg",
+      "terms": [
+        {
+          "per_tier": 1.8
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "magazine_capacity",
+      "terms": [
+        {
+          "per_tier": 2.4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "reload_speed",
+      "terms": [
+        {
+          "per_tier": 1.8
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "weapon_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "status_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9616"
+    },
+    {
+      "key": "elemental_dmg",
+      "terms": [
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9616"
+    },
+    {
+      "key": "lunar_crit_dmg",
+      "terms": [
+        {
+          "per_tier": 6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "key": "lunar_elemental_dmg",
+      "terms": [
+        {
+          "per_tier": 3.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "key": "lunar_weapon_dmg",
+      "terms": [
+        {
+          "per_tier": 2.4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "key": "lunar_status_dmg",
+      "terms": [
+        {
+          "per_tier": 2.4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "key": "lunar_dmg_reduction_against_deviants",
+      "terms": [
+        {
+          "per_tier": 2.4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "key": "crescent_crit_dmg",
+      "terms": [
+        {
+          "per_tier": 2
+        },
+        {
+          "per_tier": 3
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "crescent_weapon_dmg",
+      "terms": [
+        {
+          "per_tier": 0.8
+        },
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "crescent_elemental_dmg",
+      "terms": [
+        {
+          "per_tier": 1
+        },
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "crescent_status_dmg",
+      "terms": [
+        {
+          "per_tier": 0.8
+        },
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "hp",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "dmg_boost",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "dmg_reduction_when_hit",
+      "terms": [
+        {
+          "per_tier": 1.6
+        },
+        {
+          "constant": 3
+        },
+        {
+          "constant": 6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "deviant_dmg_reduction",
+      "terms": [
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "dmg_against_enemies",
+      "terms": [
+        {
+          "per_tier": 1.5
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "battle_metas_kill_heal",
+      "terms": [
+        {
+          "per_tier": 2.4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "mirror_firearm_damage",
+      "terms": [
+        {
+          "per_tier": 0.8
+        },
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "mirror_crit_dmg",
+      "terms": [
+        {
+          "per_tier": 2
+        },
+        {
+          "per_tier": 4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "mirror_nonplayer_front_damage_taken",
+      "terms": [
+        {
+          "per_tier": -2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "mirror_status_dmg",
+      "terms": [
+        {
+          "per_tier": 0.8
+        },
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "mirror_elemental_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        },
+        {
+          "per_tier": 2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "wild_firearm_damage",
+      "terms": [
+        {
+          "per_tier": 0.8
+        },
+        {
+          "per_tier": 0.16
+        },
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "wild_crit_dmg",
+      "terms": [
+        {
+          "per_tier": 2
+        },
+        {
+          "per_tier": 0.4
+        },
+        {
+          "per_tier": 4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "wild_nonplayer_beyond_15m_damage_taken",
+      "terms": [
+        {
+          "per_tier": -2.4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "wild_status_dmg",
+      "terms": [
+        {
+          "per_tier": 0.8
+        },
+        {
+          "per_tier": 0.16
+        },
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "wild_elemental_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        },
+        {
+          "per_tier": 0.2
+        },
+        {
+          "per_tier": 2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "phantasmal_weapon_dmg",
+      "terms": [
+        {
+          "per_tier": 2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "phantasmal_crit_dmg",
+      "terms": [
+        {
+          "per_tier": 5
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "phantasmal_nonplayer_low_hp_damage_taken",
+      "terms": [
+        {
+          "per_tier": -2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "phantasmal_status_dmg",
+      "terms": [
+        {
+          "per_tier": 2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "phantasmal_elemental_dmg",
+      "terms": [
+        {
+          "per_tier": 2.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "battle_after_hit_target_damage_reduction",
+      "terms": [
+        {
+          "per_tier": 3
+        },
+        {
+          "constant": 2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "resonance_elemental_dmg_to_crit_dmg",
+      "terms": [
+        {
+          "constant": 1
+        },
+        {
+          "per_tier": 0.8
+        },
+        {
+          "constant": 5
+        },
+        {
+          "constant": 6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "resonance_elemental_dmg_to_weakspot_dmg",
+      "terms": [
+        {
+          "constant": 1
+        },
+        {
+          "per_tier": 0.4
+        },
+        {
+          "constant": 6
+        },
+        {
+          "constant": 8
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "resonance_crit_dmg_to_elemental_dmg",
+      "terms": [
+        {
+          "constant": 1
+        },
+        {
+          "per_tier": 0.2
+        },
+        {
+          "constant": 8
+        },
+        {
+          "constant": 6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "resonance_weakspot_dmg_to_elemental_dmg",
+      "terms": [
+        {
+          "constant": 1
+        },
+        {
+          "per_tier": 0.2
+        },
+        {
+          "constant": 8
+        },
+        {
+          "constant": 6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "downstar_crit_dmg",
+      "terms": [
+        {
+          "per_tier": 3
+        },
+        {
+          "per_tier": 1.5
+        },
+        {
+          "constant": 5
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "downstar_elemental_dmg",
+      "terms": [
+        {
+          "per_tier": 1.6
+        },
+        {
+          "per_tier": 0.8
+        },
+        {
+          "constant": 5
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "downstar_weapon_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        },
+        {
+          "per_tier": 0.6
+        },
+        {
+          "constant": 5
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "downstar_status_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        },
+        {
+          "per_tier": 0.6
+        },
+        {
+          "constant": 5
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "key": "aero_weapon_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        },
+        {
+          "per_tier": 0.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "aero_crit_dmg",
+      "terms": [
+        {
+          "per_tier": 3
+        },
+        {
+          "per_tier": 1.5
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "aero_status_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        },
+        {
+          "per_tier": 0.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "aero_elemental_dmg",
+      "terms": [
+        {
+          "per_tier": 1.6
+        },
+        {
+          "per_tier": 0.8
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "key": "blaze",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10202"
+    },
+    {
+      "key": "burn_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10202"
+    },
+    {
+      "key": "burn_duration",
+      "terms": [
+        {
+          "per_tier": 3
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10202"
+    },
+    {
+      "key": "shrapnel_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9622"
+    },
+    {
+      "key": "shrapnel_crit",
+      "terms": [
+        {
+          "per_tier": 5
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9622"
+    },
+    {
+      "key": "shrapnel_weakspot",
+      "terms": [
+        {
+          "per_tier": 3
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9622"
+    },
+    {
+      "key": "shock",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9623"
+    },
+    {
+      "key": "power_surge_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9623"
+    },
+    {
+      "key": "power_surge_chance",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9623"
+    },
+    {
+      "key": "frost",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9612"
+    },
+    {
+      "key": "frost_vortex_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9612"
+    },
+    {
+      "key": "frost_vortex_duration",
+      "terms": [
+        {
+          "per_tier": 3
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9612"
+    },
+    {
+      "key": "the_bull_s_eye_duration",
+      "terms": [
+        {
+          "per_tier": 3
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9625"
+    },
+    {
+      "key": "the_bull_s_eye_weakspot",
+      "terms": [
+        {
+          "per_tier": 2.4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9625"
+    },
+    {
+      "key": "the_bull_s_eye_crit",
+      "terms": [
+        {
+          "per_tier": 3.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9625"
+    },
+    {
+      "key": "heavy_weapon_dmg",
+      "terms": [
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "heavy_weapon_weakspot",
+      "terms": [
+        {
+          "per_tier": 2.4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "heavy_weapon_crit",
+      "terms": [
+        {
+          "per_tier": 4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "key": "bounce_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9614"
+    },
+    {
+      "key": "bounce_crit",
+      "terms": [
+        {
+          "per_tier": 5
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9614"
+    },
+    {
+      "key": "bounce_weakspot",
+      "terms": [
+        {
+          "per_tier": 3
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9614"
+    },
+    {
+      "key": "explosive",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9616"
+    },
+    {
+      "key": "unstable_bomber_dmg",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9616"
+    },
+    {
+      "key": "unstable_bomber_range",
+      "terms": [
+        {
+          "per_tier": 4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9616"
+    },
+    {
+      "key": "fast_gunner_weapon",
+      "terms": [
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9615"
+    },
+    {
+      "key": "fast_gunner_weakspot",
+      "terms": [
+        {
+          "per_tier": 2.4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9615"
+    },
+    {
+      "key": "fast_gunner_crit",
+      "terms": [
+        {
+          "per_tier": 4
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9615"
+    },
+    {
+      "key": "melee_dmg",
+      "terms": [
+        {
+          "per_tier": 1.6
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9316"
+    },
+    {
+      "key": "crit_rate",
+      "terms": [
+        {
+          "per_tier": 1.2
+        }
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9316"
+    }
+  ],
+  "slot_suffix_layouts": [
+    {
+      "slot": "helmet",
+      "suffix": "General",
+      "rows": [
+        "dmg_boost",
+        "magazine_capacity",
+        "reload_speed",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9111"
+    },
+    {
+      "slot": "helmet",
+      "suffix": "Violent",
+      "rows": [
+        "crit_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9111"
+    },
+    {
+      "slot": "helmet",
+      "suffix": "Precision",
+      "rows": [
+        "weakspot_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9111"
+    },
+    {
+      "slot": "helmet",
+      "suffix": "Deviant Energy",
+      "rows": [
+        "elemental_dmg",
+        "status_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9111"
+    },
+    {
+      "slot": "helmet",
+      "suffix": "Lunar",
+      "rows": [
+        "lunar_crit_dmg",
+        "lunar_weapon_dmg",
+        "lunar_dmg_reduction_against_deviants",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9111"
+    },
+    {
+      "slot": "helmet",
+      "suffix": "Crescent",
+      "rows": [
+        "crescent_weapon_dmg",
+        "crescent_crit_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9111"
+    },
+    {
+      "slot": "helmet",
+      "suffix": "Lunar Deviant Energy",
+      "rows": [
+        "lunar_elemental_dmg",
+        "lunar_status_dmg",
+        "lunar_dmg_reduction_against_deviants",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9111"
+    },
+    {
+      "slot": "helmet",
+      "suffix": "Crescent Deviant Energy",
+      "rows": [
+        "crescent_elemental_dmg",
+        "crescent_status_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9111"
+    },
+    {
+      "slot": "helmet",
+      "suffix": "Survival",
+      "rows": [
+        "hp",
+        "dmg_reduction_when_hit",
+        "deviant_dmg_reduction",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9111"
+    },
+    {
+      "slot": "chest",
+      "suffix": "General",
+      "rows": [
+        "dmg_boost",
+        "magazine_capacity",
+        "reload_speed",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Violent",
+      "rows": [
+        "crit_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Precision",
+      "rows": [
+        "weakspot_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Deviant Energy",
+      "rows": [
+        "elemental_dmg",
+        "status_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Battle",
+      "rows": [
+        "battle_after_hit_target_damage_reduction",
+        "dmg_reduction_when_hit",
+        "battle_metas_kill_heal",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Lunar",
+      "rows": [
+        "lunar_crit_dmg",
+        "lunar_weapon_dmg",
+        "lunar_dmg_reduction_against_deviants",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Lunar Deviant Energy",
+      "rows": [
+        "lunar_elemental_dmg",
+        "lunar_status_dmg",
+        "lunar_dmg_reduction_against_deviants",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Survival",
+      "rows": [
+        "hp",
+        "dmg_reduction_when_hit",
+        "deviant_dmg_reduction",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Mirror",
+      "rows": [
+        "mirror_firearm_damage",
+        "mirror_crit_dmg",
+        "mirror_nonplayer_front_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Wild",
+      "rows": [
+        "wild_firearm_damage",
+        "wild_crit_dmg",
+        "wild_nonplayer_beyond_15m_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Phantasmal",
+      "rows": [
+        "phantasmal_weapon_dmg",
+        "phantasmal_crit_dmg",
+        "phantasmal_nonplayer_low_hp_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Mirror Deviant Energy",
+      "rows": [
+        "mirror_status_dmg",
+        "mirror_elemental_dmg",
+        "mirror_nonplayer_front_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Wild Deviant Energy",
+      "rows": [
+        "wild_status_dmg",
+        "wild_elemental_dmg",
+        "wild_nonplayer_beyond_15m_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "chest",
+      "suffix": "Phantasmal Deviant Energy",
+      "rows": [
+        "phantasmal_status_dmg",
+        "phantasmal_elemental_dmg",
+        "phantasmal_nonplayer_low_hp_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9211"
+    },
+    {
+      "slot": "pants",
+      "suffix": "General",
+      "rows": [
+        "dmg_boost",
+        "magazine_capacity",
+        "reload_speed",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Violent",
+      "rows": [
+        "crit_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Precision",
+      "rows": [
+        "weakspot_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Deviant Energy",
+      "rows": [
+        "elemental_dmg",
+        "status_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Resonance",
+      "rows": [
+        "resonance_weakspot_dmg_to_elemental_dmg",
+        "resonance_elemental_dmg_to_weakspot_dmg",
+        "dmg_against_enemies",
+        "magazine_capacity"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Downstar",
+      "rows": [
+        "downstar_weapon_dmg",
+        "downstar_crit_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Resonant Deviant Energy",
+      "rows": [
+        "resonance_elemental_dmg_to_crit_dmg",
+        "resonance_crit_dmg_to_elemental_dmg",
+        "dmg_against_enemies",
+        "magazine_capacity"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Downstar Deviant Energy",
+      "rows": [
+        "downstar_elemental_dmg",
+        "downstar_status_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Survival",
+      "rows": [
+        "hp",
+        "dmg_reduction_when_hit",
+        "deviant_dmg_reduction",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Aero",
+      "rows": [
+        "aero_weapon_dmg",
+        "aero_crit_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Aero Deviant Energy",
+      "rows": [
+        "aero_status_dmg",
+        "aero_elemental_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+    },
+    {
+      "slot": "boots",
+      "suffix": "General",
+      "rows": [
+        "dmg_boost",
+        "magazine_capacity",
+        "reload_speed",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Violent",
+      "rows": [
+        "crit_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Precision",
+      "rows": [
+        "weakspot_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Deviant Energy",
+      "rows": [
+        "elemental_dmg",
+        "status_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Battle",
+      "rows": [
+        "battle_after_hit_target_damage_reduction",
+        "dmg_reduction_when_hit",
+        "battle_metas_kill_heal",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Downstar",
+      "rows": [
+        "downstar_weapon_dmg",
+        "downstar_crit_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Downstar Deviant Energy",
+      "rows": [
+        "downstar_elemental_dmg",
+        "downstar_status_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Survival",
+      "rows": [
+        "hp",
+        "dmg_reduction_when_hit",
+        "deviant_dmg_reduction",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Mirror",
+      "rows": [
+        "mirror_firearm_damage",
+        "mirror_crit_dmg",
+        "mirror_nonplayer_front_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Wild",
+      "rows": [
+        "wild_firearm_damage",
+        "wild_crit_dmg",
+        "wild_nonplayer_beyond_15m_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Phantasmal",
+      "rows": [
+        "phantasmal_weapon_dmg",
+        "phantasmal_crit_dmg",
+        "phantasmal_nonplayer_low_hp_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Mirror Deviant Energy",
+      "rows": [
+        "mirror_status_dmg",
+        "mirror_elemental_dmg",
+        "mirror_nonplayer_front_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Wild Deviant Energy",
+      "rows": [
+        "wild_status_dmg",
+        "wild_elemental_dmg",
+        "wild_nonplayer_beyond_15m_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "boots",
+      "suffix": "Phantasmal Deviant Energy",
+      "rows": [
+        "phantasmal_status_dmg",
+        "phantasmal_elemental_dmg",
+        "phantasmal_nonplayer_low_hp_damage_taken",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9411"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "General",
+      "rows": [
+        "dmg_boost",
+        "magazine_capacity",
+        "reload_speed",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Violent",
+      "rows": [
+        "crit_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Precision",
+      "rows": [
+        "weakspot_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Deviant Energy",
+      "rows": [
+        "elemental_dmg",
+        "status_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Resonance",
+      "rows": [
+        "resonance_weakspot_dmg_to_elemental_dmg",
+        "resonance_elemental_dmg_to_weakspot_dmg",
+        "dmg_against_enemies",
+        "magazine_capacity"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Crescent",
+      "rows": [
+        "crescent_weapon_dmg",
+        "crescent_crit_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Resonant Deviant Energy",
+      "rows": [
+        "resonance_elemental_dmg_to_crit_dmg",
+        "resonance_crit_dmg_to_elemental_dmg",
+        "dmg_against_enemies",
+        "magazine_capacity"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Crescent Deviant Energy",
+      "rows": [
+        "crescent_elemental_dmg",
+        "crescent_status_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Survival",
+      "rows": [
+        "hp",
+        "dmg_reduction_when_hit",
+        "deviant_dmg_reduction",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Aero",
+      "rows": [
+        "aero_weapon_dmg",
+        "aero_crit_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Aero Deviant Energy",
+      "rows": [
+        "aero_status_dmg",
+        "aero_elemental_dmg",
+        "dmg_against_enemies",
+        "hp"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9511"
+    },
+    {
+      "slot": "mask",
+      "suffix": "General",
+      "rows": [
+        "dmg_boost",
+        "magazine_capacity",
+        "reload_speed",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Violent",
+      "rows": [
+        "crit_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Deviant Energy",
+      "rows": [
+        "elemental_dmg",
+        "status_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9616"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Survival",
+      "rows": [
+        "hp",
+        "dmg_reduction_when_hit",
+        "deviant_dmg_reduction",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Burn",
+      "rows": [
+        "burn_dmg",
+        "burn_duration",
+        "blaze",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9611"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "General",
+      "rows": [
+        "dmg_boost",
+        "magazine_capacity",
+        "reload_speed",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10901"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Violent",
+      "rows": [
+        "crit_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10901"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Precision",
+      "rows": [
+        "weakspot_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10901"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Survival",
+      "rows": [
+        "hp",
+        "dmg_reduction_when_hit",
+        "deviant_dmg_reduction",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10901"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Shrapnel",
+      "rows": [
+        "shrapnel_dmg",
+        "shrapnel_crit",
+        "shrapnel_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10101"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Deviant Energy",
+      "rows": [
+        "elemental_dmg",
+        "status_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10802"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Burn",
+      "rows": [
+        "burn_dmg",
+        "burn_duration",
+        "blaze",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10202"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Power Surge",
+      "rows": [
+        "power_surge_dmg",
+        "power_surge_chance",
+        "shock",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10301"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Frost Vortex",
+      "rows": [
+        "frost_vortex_dmg",
+        "frost_vortex_duration",
+        "frost",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10401"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "The Bull's Eye",
+      "rows": [
+        "the_bull_s_eye_duration",
+        "the_bull_s_eye_crit",
+        "the_bull_s_eye_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10501"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Fortress Warfare",
+      "rows": [
+        "heavy_weapon_dmg",
+        "heavy_weapon_crit",
+        "heavy_weapon_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10601"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Bounce",
+      "rows": [
+        "bounce_dmg",
+        "bounce_crit",
+        "bounce_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10701"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Unstable Bomber",
+      "rows": [
+        "unstable_bomber_dmg",
+        "unstable_bomber_range",
+        "explosive",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10802"
+    },
+    {
+      "slot": "weapon",
+      "suffix": "Fast Gunner",
+      "rows": [
+        "fast_gunner_weapon",
+        "fast_gunner_crit",
+        "fast_gunner_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_10901"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Frost Vortex",
+      "rows": [
+        "frost_vortex_dmg",
+        "frost_vortex_duration",
+        "frost",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9612"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Precision",
+      "rows": [
+        "weakspot_dmg",
+        "weapon_dmg",
+        "magazine_capacity",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Bounce",
+      "rows": [
+        "bounce_dmg",
+        "bounce_crit",
+        "bounce_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9614"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Fast Gunner",
+      "rows": [
+        "fast_gunner_weapon",
+        "fast_gunner_crit",
+        "fast_gunner_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9615"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Power Surge",
+      "rows": [
+        "power_surge_dmg",
+        "power_surge_chance",
+        "shock",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9623"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Unstable Bomber",
+      "rows": [
+        "unstable_bomber_dmg",
+        "unstable_bomber_range",
+        "explosive",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9616"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Shrapnel",
+      "rows": [
+        "shrapnel_dmg",
+        "shrapnel_crit",
+        "shrapnel_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9622"
+    },
+    {
+      "slot": "mask",
+      "suffix": "The Bull's Eye",
+      "rows": [
+        "the_bull_s_eye_duration",
+        "the_bull_s_eye_crit",
+        "the_bull_s_eye_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9625"
+    },
+    {
+      "slot": "mask",
+      "suffix": "Fortress Warfare",
+      "rows": [
+        "heavy_weapon_dmg",
+        "heavy_weapon_crit",
+        "heavy_weapon_weakspot",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+    },
+    {
+      "slot": "pants",
+      "suffix": "Melee Default",
+      "rows": [
+        "melee_dmg",
+        "crit_dmg",
+        "crit_rate",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9316"
+    },
+    {
+      "slot": "gloves",
+      "suffix": "Melee Default",
+      "rows": [
+        "melee_dmg",
+        "crit_dmg",
+        "crit_rate",
+        "dmg_against_enemies"
+      ],
+      "source_url": "https://oncehuman.th.gl/db/mods/mod_9517"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "installed_build_id": "26267212",
+  "copied_pyc_path": "/home/dv/Documents/Codex/2026-11-02/task/rawcaptures/affix_inputs/char_property_data.pyc",
+  "pyc_sha256": "74e5e434d0a34140822f5644c9116d93ff7b560c69f61a98b34b9fcd038ae967",
+  "literal_sha256": "b2119ebce482e99843e5e0e3248daeaddef01d707d462d72c76858e358c87c7e",
+  "rows": {
+    "hp": {
+      "row_bounds": [
+        78264,
+        78306
+      ],
+      "row_sha256": "cc84d6ead21c4445377f6a728b8f006472ffd5ec04836c4e3f38b2ce3f8e2938",
+      "row_header_hex": "961d5f1b",
+      "fields": {
+        "attr_chs_name_pointer": {
+          "value": 9444,
+          "offset": 78268,
+          "hex": "e449"
+        },
+        "attr_id_string_index": {
+          "value": 1324,
+          "offset": 78270,
+          "hex": "ac0a",
+          "decoded": "A00"
+        },
+        "calc_type": {
+          "value": 0,
+          "offset": 78272,
+          "hex": "00"
+        },
+        "ent_type": {
+          "value": 0,
+          "offset": 78273,
+          "hex": "00"
+        },
+        "init_val": {
+          "value": 300.0,
+          "offset": 78274,
+          "hex": "00009643"
+        },
+        "lib_no": {
+          "value": 0,
+          "offset": 78278,
+          "hex": "00"
+        },
+        "max_val": {
+          "value": 999999999.0,
+          "offset": 78279,
+          "hex": "000080ff64cdcd41"
+        },
+        "min_val": {
+          "value": 0.0,
+          "offset": 78287,
+          "hex": "00000000"
+        },
+        "parent_attr_key_string_index": {
+          "value": 10,
+          "offset": 78291,
+          "hex": "0a",
+          "decoded": ""
+        },
+        "val_type": {
+          "value": 1,
+          "offset": 78292,
+          "hex": "01"
+        }
+      },
+      "trailing_structural_hex": "070105ad0f0c02058b100b894a"
+    },
+    "max_hp": {
+      "row_bounds": [
+        83585,
+        83627
+      ],
+      "row_sha256": "a6ff4ef1dd9e533005b19b636d9b7635130c62d2776d4460b87aa44d84ecfbb5",
+      "row_header_hex": "961d5f1b",
+      "fields": {
+        "attr_chs_name_pointer": {
+          "value": 14765,
+          "offset": 83589,
+          "hex": "ad73"
+        },
+        "attr_id_string_index": {
+          "value": 1454,
+          "offset": 83591,
+          "hex": "ae0b",
+          "decoded": "A02"
+        },
+        "calc_type": {
+          "value": 0,
+          "offset": 83593,
+          "hex": "00"
+        },
+        "ent_type": {
+          "value": 0,
+          "offset": 83594,
+          "hex": "00"
+        },
+        "init_val": {
+          "value": 300.0,
+          "offset": 83595,
+          "hex": "00009643"
+        },
+        "lib_no": {
+          "value": 0,
+          "offset": 83599,
+          "hex": "00"
+        },
+        "max_val": {
+          "value": 999999999.0,
+          "offset": 83600,
+          "hex": "000080ff64cdcd41"
+        },
+        "min_val": {
+          "value": 1.0,
+          "offset": 83608,
+          "hex": "0000803f"
+        },
+        "parent_attr_key_string_index": {
+          "value": 10,
+          "offset": 83612,
+          "hex": "0a",
+          "decoded": ""
+        },
+        "val_type": {
+          "value": 1,
+          "offset": 83613,
+          "hex": "01"
+        }
+      },
+      "trailing_structural_hex": "070105a7100c02058b100bd273"
+    },
+    "real_max_hp": {
+      "row_bounds": [
+        108838,
+        108882
+      ],
+      "row_sha256": "c9f34482cf52553d3a49ee14de1f00b9d28fa3aae582eb67f5a8a17eef3410bc",
+      "row_header_hex": "961d5f1b",
+      "fields": {
+        "attr_chs_name_pointer": {
+          "value": 40017,
+          "offset": 108842,
+          "hex": "d1b802"
+        },
+        "attr_id_string_index": {
+          "value": 1832,
+          "offset": 108845,
+          "hex": "a80e",
+          "decoded": "A01"
+        },
+        "calc_type": {
+          "value": 0,
+          "offset": 108847,
+          "hex": "00"
+        },
+        "ent_type": {
+          "value": 0,
+          "offset": 108848,
+          "hex": "00"
+        },
+        "init_val": {
+          "value": 300.0,
+          "offset": 108849,
+          "hex": "00009643"
+        },
+        "lib_no": {
+          "value": 0,
+          "offset": 108853,
+          "hex": "00"
+        },
+        "max_val": {
+          "value": 999999999.0,
+          "offset": 108854,
+          "hex": "000080ff64cdcd41"
+        },
+        "min_val": {
+          "value": 0.0,
+          "offset": 108862,
+          "hex": "00000000"
+        },
+        "parent_attr_key_string_index": {
+          "value": 10,
+          "offset": 108866,
+          "hex": "0a",
+          "decoded": ""
+        },
+        "val_type": {
+          "value": 1,
+          "offset": 108867,
+          "hex": "01"
+        }
+      },
+      "trailing_structural_hex": "070105bf130c02058b100bf8b802"
+    }
+  },
+  "interpretation_gate": "Typed hp and real_max_hp bounds are 0..999999999; max_hp bounds are 1..999999999 in this generic property table. These are not a boss base HP or live HP. Runtime max-attribute and entity-specific bound overrides are separate.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

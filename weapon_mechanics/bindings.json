@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-01",
+  "status": "isolated_reference_rules_not_live_tooltip_verified",
+  "sources": {
+    "nov24_preview": {"date": "2024-11-23", "status": "historical_official_preview", "url": "https://www.oncehuman.game/news/devBlog/20241123/40781_1195665.html"},
+    "dec24_release": {"date": "2024-12-18", "status": "official_release_at_date", "url": "https://www.oncehuman.game/news/update/20241218/40780_1200958.html"},
+    "jan25_release": {"date": "2025-01-15", "status": "official_release_at_date", "url": "https://www.oncehuman.game/news/update/20250115/40780_1207023.html"},
+    "feb25_release": {"date": "2025-02-26", "status": "official_release_at_date", "url": "https://www.oncehuman.game/news/update/20250226/40780_1214570.html"},
+    "jul25_preview": {"date": "2025-07-16", "status": "historical_official_preview", "url": "https://www.oncehuman.game/news/update/20250716/40780_1247568.html"},
+    "may25_release": {"date": "2025-05-21", "status": "official_release_at_date", "url": "https://www.oncehuman.game/news/update/20250521/40780_1235763.html"},
+    "jun25_release": {"date": "2025-06-17", "status": "official_release_at_date", "url": "https://www.oncehuman.game/news/update/20250617/40780_1241054.html"},
+    "oct25_release": {"date": "2025-10-29", "status": "official_release_at_date", "url": "https://www.oncehuman.game/news/update/20251029/40780_1267745.html"},
+    "feb26_release": {"date": "2026-02-25", "status": "official_release_type_only", "url": "https://www.oncehuman.game/news/update/20260225/40780_1288020.html"},
+    "sep26_rework_preview": {"date": "2026-09-10", "status": "official_preview_numbers_not_final", "url": "https://www.oncehuman.game/news/devBlog/20260910/40781_1313572.html"},
+    "sep26_rework_release": {"date": "2026-09-16", "status": "official_release_rework_confirmation_without_final_tooltip_numbers", "url": "https://www.oncehuman.game/news/devBlog/20260916/40781_1314019.html"},
+    "feb26_preview": {"date": "2026-02-23", "status": "official_preview_numbers_not_final", "url": "https://www.oncehuman.game/news/devBlog/20260212/40781_1287008.html"}
+  },
+  "weapons": {
+    "weapon:mps7-outer-space": {
+      "family": "Power Surge", "rules": [
+        {"kind": "proc", "name": "power_surge", "keyword": "power_surge", "probability": 0.3, "reload_relative_bonus": 0.4, "source": "may25_release"},
+        {"kind": "counter", "name": "celestial_lightning", "keyword": "lightning", "hits": 12, "per_target": true, "requires_condition": "target_affected_by_power_surge", "overflow_model": "subtract", "model_status": "assumed_counter_overflow", "source": "oct25_release"},
+        {"kind": "reload_relative_proc", "name": "reload_surge_factor", "proc_name": "power_surge", "duration_seconds": 6, "source": "may25_release"}
+      ], "damage_events": [{"name": "celestial_lightning", "basis": "psi", "damage_class": null, "coefficient": 5.0, "element": "shock", "source": "oct25_release"}],
+      "missing": ["power_surge_damage_coefficient_and_status_duration", "lightning_damage_class_and_crit_eligibility", "counter_overflow_rule"]
+    },
+    "weapon:mg4-conflicting-memories": {
+      "family": "Shrapnel", "version_scope": "historical_release_only; 2026 rework confirmed, final current proc numbers unresolved", "rework_sources": ["sep26_rework_preview", "sep26_rework_release"], "rules": [
+        {"kind": "counter", "name": "shrapnel", "keyword": "shrapnel", "hits": 12, "overflow_model": "subtract", "model_status": "assumed_counter_overflow", "source": "jan25_release"}
+      ], "modifiers": [{"stat": "extra_shrapnel_parts", "rounds_per_part": 32, "cap": 5, "source": "jan25_release", "superseded_by_preview": "jul25_preview"}],
+      "missing": ["current_2026_rework_counter_and_memory_storm_rule", "current_shrapnel_part_count_and_selection", "shrapnel_damage_basis", "shrapnel_crit_and_weakspot_rules"]
+    },
+    "weapon:kam-crank": {
+      "family": "Burn", "rules": [
+        {"kind": "counter", "name": "burn", "keyword": "burn", "hits": 7, "overflow_model": "subtract", "model_status": "preview_and_assumed_counter_overflow", "source": "nov24_preview"}
+      ], "missing": ["current_counter_threshold", "burn_stack_cap", "burn_duration", "burn_tick_interval", "burn_tick_damage_basis_and_coefficient"]
+    },
+    "weapon:kam-abyss-glance": {
+      "family": "Frost Vortex", "rules": [
+        {"kind": "counter", "name": "frost_vortex", "keyword": "frost_vortex", "hits": 14, "weakspot_weight": 2, "overflow_model": "subtract", "model_status": "assumed_counter_overflow", "source": "dec24_release"}
+      ], "missing": ["vortex_duration", "tick_interval", "vortex_damage_basis_and_coefficient", "center_distance_curve", "current_tooltip_verification"]
+    },
+    "weapon:g17-hazardous-object": {
+      "family": "Unstable Bomber", "rules": [
+        {"kind": "proc", "name": "unstable_bomber", "keyword": "unstable_bomber", "probability": 0.25, "source": "may25_release"},
+        {"kind": "reload_blast", "name": "thrown_reload_blast", "basis": "psi", "damage_class": null, "base": 0.5, "per_round": 0.18, "cap": 4.8, "refund_probability_high": 0.75, "refund_fraction_high": 0.75, "refund_fraction_low": 0.25, "source": "may25_release"}
+      ], "missing": ["unstable_bomber_base_damage", "reload_blast_crit_eligibility", "refund_rounding_and_refill_semantics"]
+    },
+    "weapon:mps5-blue-tiger": {
+      "family": "Bounce", "rules": [
+        {"kind": "proc", "name": "bounce", "keyword": "bounce", "probability": 0.25, "source": "dec24_release"}
+      ], "modifiers": [{"stat": "bounce_damage", "additive_fraction": 0.6, "source": "dec24_release"}],
+      "missing": ["bounce_target_selection", "bounce_rehit_policy", "bounce_damage_basis_and_coefficient"]
+    },
+    "weapon:mg4-predator": {
+      "family": "Fast Gunner", "rules": [
+        {"kind": "proc", "name": "fast_gunner", "keyword": "fast_gunner", "probability": 0.4, "source": "jun25_release"},
+        {"kind": "same_target_ramp", "name": "same_target_ramp", "stat": "weapon_damage", "per_hit": 0.04, "cap": 0.8, "target_change_model": "halve_floor", "model_status": "integer_halving_assumption", "source": "jun25_release"},
+        {"kind": "stack_multiple", "name": "unlimited_ammo", "keyword": "fast_gunner", "multiple": 5, "duration_seconds": 0.5, "source": "jun25_release"}
+      ], "modifiers": [{"stat": "attack", "additive_fraction": 0.6, "when": "remaining_ammo_strictly_above_40_percent_capacity", "source": "jun25_release"}],
+      "missing": ["fast_gunner_stack_creation_and_expiry", "stack_counter_halving_rounding", "unlimited_ammo_boundary_rule"]
+    },
+    "weapon:tec9-additional-rules": {
+      "family": "Fortress Warfare", "rules": [
+        {"kind": "cooldown", "name": "fortress_warfare", "keyword": "fortress_warfare", "seconds": 10, "source": "feb26_preview"}
+      ], "damage_events": [{"name": "charged_elemental_bullet", "basis": "attack", "damage_class": "status", "coefficient": 1.2, "crit_eligible": true, "weakspot_eligible": true, "coefficient_source": "feb26_preview", "class_source": "feb26_release"}],
+      "modifiers": [{"stat": "crit_rate", "additive_fraction": 0.15, "when": "fortress_active", "source": "feb26_preview"}],
+      "missing": ["fortress_zone_duration", "fortress_area_and_target_rules", "fortress_buff_stacking", "current_tooltip_verification"]
+    },
+    "weapon:dbsg-doombringer": {
+      "family": "Bull's Eye", "rules": [
+        {"kind": "proc", "name": "bullseye", "keyword": "bullseye", "probability": 0.3, "nearby": {"meters_lte": 8, "probability": 0.8}, "source": "jun25_release"},
+        {"kind": "conditional_stack", "name": "pellet_attack_ramp", "condition": "all_pellets_hit_non_meta_human", "stat": "attack", "per_stack": 0.12, "cap": 3, "duration_seconds": 15, "refresh_model": "independent", "model_status": "stack_refresh_assumption", "source": "jun25_release"}
+      ], "modifiers": [{"stat": "crit_rate", "additive_fraction": 0.3, "when": "hit_marked_target", "source": "jun25_release"}],
+      "missing": ["bullseye_mark_duration", "pellet_stack_refresh_policy", "bullseye_vulnerability_magnitude"]
+    }
+  },
+  "supersessions": [
+    {"weapon_id": "weapon:kv-sbr-little-jaws", "field": "delay_bonus_per_tenth_second", "older": 0.10, "newer": 0.15, "older_source": "dec24_release", "newer_source": "jan25_release", "status": "release_at_date_not_current_tooltip_verified"},
+    {"weapon_id": "weapon:r500-memento", "field": "extra_bullet_attack_bonus", "older": 0.80, "newer": 1.00, "older_source": "dec24_release", "newer_source": "feb25_release", "status": "release_at_date_not_current_tooltip_verified"}
+    ,{"weapon_id": "weapon:mg4-conflicting-memories", "field": "rounds_per_extra_shrapnel_part", "older": 32, "newer": 25, "older_source": "jan25_release", "newer_source": "jul25_preview", "status": "later_preview_not_confirmed_in_shipped_tooltip"}
+  ]
+}

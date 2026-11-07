@@ -1,0 +1,1592 @@
+{
+  "build_id": "26267212",
+  "item_id": 19500811,
+  "mod_code": 2400811,
+  "frame": 26,
+  "source_level_table_sha256": "a3ca719e3ec0368638c36cb607e6993cf4a0fd8a5c926b787fd067cf15a60139",
+  "buff_source": {
+    "source_pyc": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/buff_level_data.pyc",
+    "source_pyc_sha256": "fb0d46a975c0c25ef9abeda96d5b625b5de741d92cf8a3e4b49e74740a08f525",
+    "source_literal_sha256": "5667f98f77fd46bb9b9a68679ea5284d573aedfcf332fd09bde0374c54b02633",
+    "source_map_header_offset": 986749,
+    "rows": {
+      "582601000": {
+        "2": {
+          "key_literal_offset": 771897,
+          "row_literal_offset": 771962,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|1",
+            "string_table_index": 9204,
+            "pointer_body_relative": 173855,
+            "string_byte_offset": 771909,
+            "string_raw_hex": "f447"
+          },
+          "display_percent": [
+            "2.4",
+            "1.2"
+          ],
+          "configured_fraction": [
+            "0.024",
+            "0.012"
+          ],
+          "display_values_literal_offset": 771920,
+          "params_literal_offset": 771953
+        },
+        "3": {
+          "key_literal_offset": 780364,
+          "row_literal_offset": 780432,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|2",
+            "string_table_index": 9207,
+            "pointer_body_relative": 182322,
+            "string_byte_offset": 780376,
+            "string_raw_hex": "f747"
+          },
+          "display_percent": [
+            "3.6",
+            "1.8"
+          ],
+          "configured_fraction": [
+            "0.036",
+            "0.018"
+          ],
+          "display_values_literal_offset": 780387,
+          "params_literal_offset": 780422
+        },
+        "5": {
+          "key_literal_offset": 826955,
+          "row_literal_offset": 827019,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|4",
+            "string_table_index": 9213,
+            "pointer_body_relative": 228913,
+            "string_byte_offset": 826967,
+            "string_raw_hex": "fd47"
+          },
+          "display_percent": [
+            "6",
+            "3"
+          ],
+          "configured_fraction": [
+            "0.06",
+            "0.03"
+          ],
+          "display_values_literal_offset": 826978,
+          "params_literal_offset": 827011
+        },
+        "1": {
+          "key_literal_offset": 925618,
+          "row_literal_offset": 925669,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|0",
+            "string_table_index": 9201,
+            "pointer_body_relative": 327576,
+            "string_byte_offset": 925630,
+            "string_raw_hex": "f147"
+          },
+          "display_percent": [
+            "1.2",
+            "0.6"
+          ],
+          "configured_fraction": [
+            "0.012",
+            "0.006"
+          ],
+          "display_values_literal_offset": 665579,
+          "params_literal_offset": 665612
+        },
+        "4": {
+          "key_literal_offset": 925713,
+          "row_literal_offset": 925764,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|3",
+            "string_table_index": 9210,
+            "pointer_body_relative": 327671,
+            "string_byte_offset": 925725,
+            "string_raw_hex": "fa47"
+          },
+          "display_percent": [
+            "4.8",
+            "2.4"
+          ],
+          "configured_fraction": [
+            "0.048",
+            "0.024"
+          ],
+          "display_values_literal_offset": 623234,
+          "params_literal_offset": 623267
+        }
+      },
+      "582602000": {
+        "1": {
+          "key_literal_offset": 925808,
+          "row_literal_offset": 925873,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "暴击伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|0",
+            "string_table_index": 9216,
+            "pointer_body_relative": 327766,
+            "string_byte_offset": 925820,
+            "string_raw_hex": "8048"
+          },
+          "display_percent": [
+            "3",
+            "1.5"
+          ],
+          "configured_fraction": [
+            "0.03",
+            "0.015"
+          ],
+          "display_values_literal_offset": 925831,
+          "params_literal_offset": 925864
+        },
+        "2": {
+          "key_literal_offset": 925917,
+          "row_literal_offset": 925968,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "暴击伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|1",
+            "string_table_index": 9219,
+            "pointer_body_relative": 327875,
+            "string_byte_offset": 925929,
+            "string_raw_hex": "8348"
+          },
+          "display_percent": [
+            "6",
+            "3"
+          ],
+          "configured_fraction": [
+            "0.06",
+            "0.03"
+          ],
+          "display_values_literal_offset": 826978,
+          "params_literal_offset": 827011
+        },
+        "3": {
+          "key_literal_offset": 926012,
+          "row_literal_offset": 926079,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "暴击伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|2",
+            "string_table_index": 9222,
+            "pointer_body_relative": 327970,
+            "string_byte_offset": 926024,
+            "string_raw_hex": "8648"
+          },
+          "display_percent": [
+            "9",
+            "4.5"
+          ],
+          "configured_fraction": [
+            "0.09",
+            "0.045"
+          ],
+          "display_values_literal_offset": 926035,
+          "params_literal_offset": 926069
+        },
+        "4": {
+          "key_literal_offset": 926217,
+          "row_literal_offset": 926276,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "暴击伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|3",
+            "string_table_index": 9225,
+            "pointer_body_relative": 328175,
+            "string_byte_offset": 926229,
+            "string_raw_hex": "8948"
+          },
+          "display_percent": [
+            "12",
+            "6"
+          ],
+          "configured_fraction": [
+            "0.12",
+            "0.06"
+          ],
+          "display_values_literal_offset": 639139,
+          "params_literal_offset": 926268
+        },
+        "5": {
+          "key_literal_offset": 926430,
+          "row_literal_offset": 926496,
+          "mask_hex": "0x214a",
+          "native_description": {
+            "native_string": "暴击伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|4",
+            "string_table_index": 9228,
+            "pointer_body_relative": 328388,
+            "string_byte_offset": 926442,
+            "string_raw_hex": "8c48"
+          },
+          "display_percent": [
+            "15",
+            "7.5"
+          ],
+          "configured_fraction": [
+            "0.15",
+            "0.075"
+          ],
+          "display_values_literal_offset": 926453,
+          "params_literal_offset": 926487
+        }
+      },
+      "589719000": {
+        "1": {
+          "key_literal_offset": 781425,
+          "row_literal_offset": 781490,
+          "mask_hex": "0x2152",
+          "native_description": {
+            "native_string": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "string_table_index": 11810,
+            "pointer_body_relative": 183383,
+            "string_byte_offset": 781437,
+            "string_raw_hex": "a25c"
+          },
+          "display_percent": [
+            "1.5"
+          ],
+          "configured_fraction": [
+            "0.015"
+          ],
+          "display_values_literal_offset": 653992,
+          "params_literal_offset": 654024
+        },
+        "2": {
+          "key_literal_offset": 886670,
+          "row_literal_offset": 886735,
+          "mask_hex": "0x2152",
+          "native_description": {
+            "native_string": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "string_table_index": 11814,
+            "pointer_body_relative": 288628,
+            "string_byte_offset": 886682,
+            "string_raw_hex": "a65c"
+          },
+          "display_percent": [
+            "3"
+          ],
+          "configured_fraction": [
+            "0.03"
+          ],
+          "display_values_literal_offset": 610568,
+          "params_literal_offset": 607495
+        },
+        "5": {
+          "key_literal_offset": 960839,
+          "row_literal_offset": 960909,
+          "mask_hex": "0x2152",
+          "native_description": {
+            "native_string": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|4",
+            "string_table_index": 11826,
+            "pointer_body_relative": 362797,
+            "string_byte_offset": 960851,
+            "string_raw_hex": "b25c"
+          },
+          "display_percent": [
+            "7.5"
+          ],
+          "configured_fraction": [
+            "0.075"
+          ],
+          "display_values_literal_offset": 960876,
+          "params_literal_offset": 674718
+        },
+        "3": {
+          "key_literal_offset": 961285,
+          "row_literal_offset": 961350,
+          "mask_hex": "0x2152",
+          "native_description": {
+            "native_string": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|2",
+            "string_table_index": 11818,
+            "pointer_body_relative": 363243,
+            "string_byte_offset": 961297,
+            "string_raw_hex": "aa5c"
+          },
+          "display_percent": [
+            "4.5"
+          ],
+          "configured_fraction": [
+            "0.045"
+          ],
+          "display_values_literal_offset": 604850,
+          "params_literal_offset": 604881
+        },
+        "4": {
+          "key_literal_offset": 972970,
+          "row_literal_offset": 973035,
+          "mask_hex": "0x2152",
+          "native_description": {
+            "native_string": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|3",
+            "string_table_index": 11822,
+            "pointer_body_relative": 374928,
+            "string_byte_offset": 972982,
+            "string_raw_hex": "ae5c"
+          },
+          "display_percent": [
+            "6"
+          ],
+          "configured_fraction": [
+            "0.06"
+          ],
+          "display_values_literal_offset": 599619,
+          "params_literal_offset": 599649
+        }
+      }
+    }
+  },
+  "hp_source": {
+    "source_literal": "/home/dv/Documents/Codex/2026-11-02/task/rawcaptures/category_first_pass/mod_entry_data.literal_bytes.bin",
+    "source_literal_sha256": "5305fa5c6a63b8706541c6b86f1e7a171a1be4d2afbda5d45fe7c001988ef30a",
+    "rows": {
+      "1": {
+        "entry_row_literal_offset": 128043,
+        "attr_no_literal_offset": 102106,
+        "attr_value_literal_offset": 86980,
+        "attr_no": "A0202",
+        "configured_fraction": 0.012,
+        "display_percent": "1.2"
+      },
+      "2": {
+        "entry_row_literal_offset": 128099,
+        "attr_no_literal_offset": 102106,
+        "attr_value_literal_offset": 87165,
+        "attr_no": "A0202",
+        "configured_fraction": 0.024,
+        "display_percent": "2.4"
+      },
+      "3": {
+        "entry_row_literal_offset": 111043,
+        "attr_no_literal_offset": 102106,
+        "attr_value_literal_offset": 87663,
+        "attr_no": "A0202",
+        "configured_fraction": 0.036,
+        "display_percent": "3.6"
+      },
+      "4": {
+        "entry_row_literal_offset": 110946,
+        "attr_no_literal_offset": 102106,
+        "attr_value_literal_offset": 87735,
+        "attr_no": "A0202",
+        "configured_fraction": 0.048,
+        "display_percent": "4.8"
+      },
+      "5": {
+        "entry_row_literal_offset": 128156,
+        "attr_no_literal_offset": 102106,
+        "attr_value_literal_offset": 87460,
+        "attr_no": "A0202",
+        "configured_fraction": 0.06,
+        "display_percent": "6"
+      },
+      "6": {
+        "entry_row_literal_offset": 128212,
+        "attr_no_literal_offset": 102106,
+        "attr_value_literal_offset": 87055,
+        "attr_no": "A0202",
+        "configured_fraction": 0.072,
+        "display_percent": "7.2"
+      }
+    },
+    "affix_prototype": "A0202 -> A02 max_hp, effect_range=1, type=2; prototype row [44598,44633), SHA-256 7cc8f4aff3819d9146f4105d3930d8617675fd93a54960ed6bc535947e13ead1"
+  },
+  "effect_graph_sources": {
+    "582601000": {
+      "pyc_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/buff_582601000_1.pyc",
+      "pyc_sha256": "ac6601fae22c921fcb4da0a9b2d10e97707d58827c7f06cf6644cf949f73f298",
+      "literal_sha256": "529aefd0c57b8119768762f9b1f2bb4324863714311b40eb9887f480706f5985",
+      "native_property_strings": [
+        {
+          "name": "attack_type_dam_add_rate_remote",
+          "string_index": 38,
+          "literal_byte_offset": 646
+        }
+      ]
+    },
+    "582602000": {
+      "pyc_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/buff_582602000_1.pyc",
+      "pyc_sha256": "eef18acfe6905b71496ba027aaeebb8c48fb338a06af7426ad26671683f592af",
+      "literal_sha256": "cb9d4b2ef31a65f98c7b3dcdff3013990fefba04853c24c6894f19784e6d1e56",
+      "native_property_strings": [
+        {
+          "name": "crit_dam_rate",
+          "string_index": 37,
+          "literal_byte_offset": 642
+        }
+      ]
+    },
+    "589719000": {
+      "pyc_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/buff_589719000_1.pyc",
+      "pyc_sha256": "9d0f3f9f520ef2fe62c06e7615f97214722d4f415177d4ccaf532820b0ef275a",
+      "literal_sha256": "8dc34be842cd004c7fe656aacac16461230f9fb552197409dbfeff8b7fb049e0",
+      "native_property_strings": [
+        {
+          "name": "unit_prototype_dam_add_rate_creeps",
+          "string_index": 24,
+          "literal_byte_offset": 396
+        },
+        {
+          "name": "unit_prototype_dam_add_rate_elite",
+          "string_index": 27,
+          "literal_byte_offset": 443
+        },
+        {
+          "name": "unit_prototype_dam_add_rate_leader",
+          "string_index": 28,
+          "literal_byte_offset": 476
+        },
+        {
+          "name": "unit_prototype_dam_add_rate_boss",
+          "string_index": 29,
+          "literal_byte_offset": 510
+        }
+      ]
+    }
+  },
+  "catalog_levels_1_through_17": [
+    {
+      "total_level": 1,
+      "frame_entry_levels": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "1.2",
+            "0.6"
+          ],
+          "source_row_literal_offset": 925669,
+          "catalog_text": "Weapon DMG +1.2%; additional +0.6% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "locked",
+          "entry_level": 0
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "locked",
+          "entry_level": 0
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "locked",
+          "entry_level": 0
+        }
+      ]
+    },
+    {
+      "total_level": 2,
+      "frame_entry_levels": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "1.2",
+            "0.6"
+          ],
+          "source_row_literal_offset": 925669,
+          "catalog_text": "Weapon DMG +1.2%; additional +0.6% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "3",
+            "1.5"
+          ],
+          "source_row_literal_offset": 925873,
+          "catalog_text": "Crit DMG +3%; additional +1.5% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "locked",
+          "entry_level": 0
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "locked",
+          "entry_level": 0
+        }
+      ]
+    },
+    {
+      "total_level": 3,
+      "frame_entry_levels": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "1.2",
+            "0.6"
+          ],
+          "source_row_literal_offset": 925669,
+          "catalog_text": "Weapon DMG +1.2%; additional +0.6% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "3",
+            "1.5"
+          ],
+          "source_row_literal_offset": 925873,
+          "catalog_text": "Crit DMG +3%; additional +1.5% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "1.5"
+          ],
+          "source_row_literal_offset": 781490,
+          "catalog_text": "Damage to all monsters +1.5%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "locked",
+          "entry_level": 0
+        }
+      ]
+    },
+    {
+      "total_level": 4,
+      "frame_entry_levels": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "1.2",
+            "0.6"
+          ],
+          "source_row_literal_offset": 925669,
+          "catalog_text": "Weapon DMG +1.2%; additional +0.6% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "3",
+            "1.5"
+          ],
+          "source_row_literal_offset": 925873,
+          "catalog_text": "Crit DMG +3%; additional +1.5% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "1.5"
+          ],
+          "source_row_literal_offset": 781490,
+          "catalog_text": "Damage to all monsters +1.5%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "1.2"
+          ],
+          "source_row_literal_offset": 128043,
+          "catalog_text": "Max HP +1.2%"
+        }
+      ]
+    },
+    {
+      "total_level": 5,
+      "frame_entry_levels": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "2.4",
+            "1.2"
+          ],
+          "source_row_literal_offset": 771962,
+          "catalog_text": "Weapon DMG +2.4%; additional +1.2% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "3",
+            "1.5"
+          ],
+          "source_row_literal_offset": 925873,
+          "catalog_text": "Crit DMG +3%; additional +1.5% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "1.5"
+          ],
+          "source_row_literal_offset": 781490,
+          "catalog_text": "Damage to all monsters +1.5%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "1.2"
+          ],
+          "source_row_literal_offset": 128043,
+          "catalog_text": "Max HP +1.2%"
+        }
+      ]
+    },
+    {
+      "total_level": 6,
+      "frame_entry_levels": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "2.4",
+            "1.2"
+          ],
+          "source_row_literal_offset": 771962,
+          "catalog_text": "Weapon DMG +2.4%; additional +1.2% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "6",
+            "3"
+          ],
+          "source_row_literal_offset": 925968,
+          "catalog_text": "Crit DMG +6%; additional +3% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "1.5"
+          ],
+          "source_row_literal_offset": 781490,
+          "catalog_text": "Damage to all monsters +1.5%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "1.2"
+          ],
+          "source_row_literal_offset": 128043,
+          "catalog_text": "Max HP +1.2%"
+        }
+      ]
+    },
+    {
+      "total_level": 7,
+      "frame_entry_levels": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "2.4",
+            "1.2"
+          ],
+          "source_row_literal_offset": 771962,
+          "catalog_text": "Weapon DMG +2.4%; additional +1.2% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "6",
+            "3"
+          ],
+          "source_row_literal_offset": 925968,
+          "catalog_text": "Crit DMG +6%; additional +3% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "3"
+          ],
+          "source_row_literal_offset": 886735,
+          "catalog_text": "Damage to all monsters +3%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 1,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "1.2"
+          ],
+          "source_row_literal_offset": 128043,
+          "catalog_text": "Max HP +1.2%"
+        }
+      ]
+    },
+    {
+      "total_level": 8,
+      "frame_entry_levels": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "2.4",
+            "1.2"
+          ],
+          "source_row_literal_offset": 771962,
+          "catalog_text": "Weapon DMG +2.4%; additional +1.2% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "6",
+            "3"
+          ],
+          "source_row_literal_offset": 925968,
+          "catalog_text": "Crit DMG +6%; additional +3% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "3"
+          ],
+          "source_row_literal_offset": 886735,
+          "catalog_text": "Damage to all monsters +3%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    },
+    {
+      "total_level": 9,
+      "frame_entry_levels": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 3,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "3.6",
+            "1.8"
+          ],
+          "source_row_literal_offset": 780432,
+          "catalog_text": "Weapon DMG +3.6%; additional +1.8% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "6",
+            "3"
+          ],
+          "source_row_literal_offset": 925968,
+          "catalog_text": "Crit DMG +6%; additional +3% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "3"
+          ],
+          "source_row_literal_offset": 886735,
+          "catalog_text": "Damage to all monsters +3%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    },
+    {
+      "total_level": 10,
+      "frame_entry_levels": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 3,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "3.6",
+            "1.8"
+          ],
+          "source_row_literal_offset": 780432,
+          "catalog_text": "Weapon DMG +3.6%; additional +1.8% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 3,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "9",
+            "4.5"
+          ],
+          "source_row_literal_offset": 926079,
+          "catalog_text": "Crit DMG +9%; additional +4.5% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "3"
+          ],
+          "source_row_literal_offset": 886735,
+          "catalog_text": "Damage to all monsters +3%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    },
+    {
+      "total_level": 11,
+      "frame_entry_levels": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 3,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "3.6",
+            "1.8"
+          ],
+          "source_row_literal_offset": 780432,
+          "catalog_text": "Weapon DMG +3.6%; additional +1.8% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 3,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "9",
+            "4.5"
+          ],
+          "source_row_literal_offset": 926079,
+          "catalog_text": "Crit DMG +9%; additional +4.5% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 3,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "4.5"
+          ],
+          "source_row_literal_offset": 961350,
+          "catalog_text": "Damage to all monsters +4.5%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    },
+    {
+      "total_level": 12,
+      "frame_entry_levels": [
+        4,
+        3,
+        3,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 4,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "4.8",
+            "2.4"
+          ],
+          "source_row_literal_offset": 925764,
+          "catalog_text": "Weapon DMG +4.8%; additional +2.4% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 3,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "9",
+            "4.5"
+          ],
+          "source_row_literal_offset": 926079,
+          "catalog_text": "Crit DMG +9%; additional +4.5% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 3,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "4.5"
+          ],
+          "source_row_literal_offset": 961350,
+          "catalog_text": "Damage to all monsters +4.5%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    },
+    {
+      "total_level": 13,
+      "frame_entry_levels": [
+        4,
+        4,
+        3,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 4,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "4.8",
+            "2.4"
+          ],
+          "source_row_literal_offset": 925764,
+          "catalog_text": "Weapon DMG +4.8%; additional +2.4% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 4,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "12",
+            "6"
+          ],
+          "source_row_literal_offset": 926276,
+          "catalog_text": "Crit DMG +12%; additional +6% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 3,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "4.5"
+          ],
+          "source_row_literal_offset": 961350,
+          "catalog_text": "Damage to all monsters +4.5%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    },
+    {
+      "total_level": 14,
+      "frame_entry_levels": [
+        4,
+        4,
+        4,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 4,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "4.8",
+            "2.4"
+          ],
+          "source_row_literal_offset": 925764,
+          "catalog_text": "Weapon DMG +4.8%; additional +2.4% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 4,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "12",
+            "6"
+          ],
+          "source_row_literal_offset": 926276,
+          "catalog_text": "Crit DMG +12%; additional +6% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 4,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "6"
+          ],
+          "source_row_literal_offset": 973035,
+          "catalog_text": "Damage to all monsters +6%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    },
+    {
+      "total_level": 15,
+      "frame_entry_levels": [
+        5,
+        4,
+        4,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 5,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "6",
+            "3"
+          ],
+          "source_row_literal_offset": 827019,
+          "catalog_text": "Weapon DMG +6%; additional +3% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 4,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "12",
+            "6"
+          ],
+          "source_row_literal_offset": 926276,
+          "catalog_text": "Crit DMG +12%; additional +6% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 4,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "6"
+          ],
+          "source_row_literal_offset": 973035,
+          "catalog_text": "Damage to all monsters +6%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    },
+    {
+      "total_level": 16,
+      "frame_entry_levels": [
+        5,
+        5,
+        4,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 5,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "6",
+            "3"
+          ],
+          "source_row_literal_offset": 827019,
+          "catalog_text": "Weapon DMG +6%; additional +3% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 5,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "15",
+            "7.5"
+          ],
+          "source_row_literal_offset": 926496,
+          "catalog_text": "Crit DMG +15%; additional +7.5% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 4,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "6"
+          ],
+          "source_row_literal_offset": 973035,
+          "catalog_text": "Damage to all monsters +6%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    },
+    {
+      "total_level": 17,
+      "frame_entry_levels": [
+        5,
+        5,
+        5,
+        2
+      ],
+      "ordered_lines": [
+        {
+          "position": 1,
+          "entry_no": 2601,
+          "state": "configured",
+          "entry_level": 5,
+          "buff_id": 582601000,
+          "native_attribute": "E42",
+          "percent_values": [
+            "6",
+            "3"
+          ],
+          "source_row_literal_offset": 827019,
+          "catalog_text": "Weapon DMG +6%; additional +3% for aerial hits"
+        },
+        {
+          "position": 2,
+          "entry_no": 2602,
+          "state": "configured",
+          "entry_level": 5,
+          "buff_id": 582602000,
+          "native_attribute": "E02",
+          "percent_values": [
+            "15",
+            "7.5"
+          ],
+          "source_row_literal_offset": 926496,
+          "catalog_text": "Crit DMG +15%; additional +7.5% for aerial hits"
+        },
+        {
+          "position": 3,
+          "entry_no": 7405,
+          "state": "configured",
+          "entry_level": 5,
+          "buff_id": 589719000,
+          "native_attribute": [
+            "E101",
+            "E99",
+            "E102",
+            "E100"
+          ],
+          "percent_values": [
+            "7.5"
+          ],
+          "source_row_literal_offset": 960909,
+          "catalog_text": "Damage to all monsters +7.5%"
+        },
+        {
+          "position": 4,
+          "entry_no": 5101,
+          "state": "configured",
+          "entry_level": 2,
+          "buff_id": null,
+          "native_attribute": "A0202 -> A02",
+          "percent_values": [
+            "2.4"
+          ],
+          "source_row_literal_offset": 128099,
+          "catalog_text": "Max HP +2.4%"
+        }
+      ]
+    }
+  ],
+  "scope": "Deterministic configured catalog preview only. No owned roll or combat activation is inferred.",
+  "label_note": "The native Chinese 7405 description says damage to all monsters. Its installed English localization is malformed: Increases damage dealt to all DMG Boost by ...; this packet uses source-faithful wording.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

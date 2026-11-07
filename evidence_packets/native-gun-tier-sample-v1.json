@@ -1,0 +1,1154 @@
+{
+  "schema_version": 1,
+  "status": "bounded native tier and preset-attack records decoded",
+  "steam_build_id": "26267212",
+  "archive_sha256": "8007b2e16b71d10ac1e0b215f12a4bd68387c22b304e031c60f9a00b0c3c876a",
+  "source_literals_sha256": {
+    "equip_data": "643c20c6761ac75f989a122a538a650ae6830f6ef8cae7cacffa70bd13d43dce",
+    "equip_origin_data": "a9eb8a1ade2af2f0401be0fa20b3b9798b893352976d7d4237fb25060bea9bee",
+    "item_to_gun_mapping_data": "4e9620f90570b18d73d5a9bda2253bd21a6383983dadc783e22aa337ef32cdeb"
+  },
+  "source_capture_manifests": [
+    "equip_data_capture.json",
+    "gun_stat_candidate_capture.json"
+  ],
+  "native_consumer_evidence": {
+    "file": "game_common\\guncore\\BluePrintHelper.pyc / dcs_extend\\common\\shoot_utility.pyc",
+    "get_equip_orogin_data_by_equip_no": "Static code metadata references equip_data, equip_origin_id, and equip_origin_data.",
+    "get_gun_omg_value": "Static code metadata references item_no, star, gun_preset_attack, gun_blueprint_attr_data, blueprint_no, and preset_attack_radio.",
+    "exact_formula": "not established from the static code metadata; no game code run"
+  },
+  "equip_suffix_descriptor": [
+    {
+      "name_index": 19,
+      "native_field": "art_lv",
+      "type_code": 1
+    },
+    {
+      "name_index": 15,
+      "native_field": "blueprint_no",
+      "type_code": 1
+    },
+    {
+      "name_index": 8,
+      "native_field": "can_use",
+      "type_code": 1
+    },
+    {
+      "name_index": 11,
+      "native_field": "equip_lv",
+      "type_code": 1
+    },
+    {
+      "name_index": 17,
+      "native_field": "equip_origin_id",
+      "type_code": 1
+    },
+    {
+      "name_index": 21,
+      "native_field": "equip_quality",
+      "type_code": 1
+    },
+    {
+      "name_index": 13,
+      "native_field": "equip_type",
+      "type_code": 1
+    },
+    {
+      "name_index": 14,
+      "native_field": "gun_no",
+      "type_code": 1
+    },
+    {
+      "name_index": 10,
+      "native_field": "melee_priority",
+      "type_code": 1
+    },
+    {
+      "name_index": 18,
+      "native_field": "part_mesh_type",
+      "type_code": 1
+    },
+    {
+      "name_index": 9,
+      "native_field": "suit_id",
+      "type_code": 1
+    }
+  ],
+  "origin_descriptor_for_attack": [
+    {
+      "name_index": 1,
+      "native_field": "gun_preset_attack",
+      "type_code": 18
+    },
+    {
+      "name_index": 1,
+      "native_field": "gun_preset_attack",
+      "type_code": 34
+    }
+  ],
+  "samples": [
+    {
+      "blueprint_id": 13451401,
+      "public_identity_name": "AUG - Electron Cloud",
+      "shared_gun_no_across_five_tiers": 10450141,
+      "tiers": [
+        {
+          "tier": 1,
+          "gear_id": 10451401,
+          "gun_no": 10450141,
+          "equip_index_offset": 580510,
+          "equip_row_start_offset": 159338,
+          "equip_row_end_offset_exclusive": 159397,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 1,
+            "byte_offset": 159377,
+            "raw_hex": "01"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10451401,
+            "byte_offset": 159384,
+            "raw_hex": "c9f3fd04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13451401,
+            "byte_offset": 159378,
+            "raw_hex": "8981b506"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10450141,
+            "byte_offset": 159390,
+            "raw_hex": "dde9fd04"
+          },
+          "origin_index_offset": 138455,
+          "origin_row_start_offset": 41125,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 34.0,
+            "byte_offset": 41133,
+            "raw_hex": "00000842"
+          }
+        },
+        {
+          "tier": 2,
+          "gear_id": 10451402,
+          "gun_no": 10450141,
+          "equip_index_offset": 578400,
+          "equip_row_start_offset": 145619,
+          "equip_row_end_offset_exclusive": 145679,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 2,
+            "byte_offset": 145659,
+            "raw_hex": "02"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10451402,
+            "byte_offset": 145666,
+            "raw_hex": "caf3fd04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13451401,
+            "byte_offset": 145660,
+            "raw_hex": "8981b506"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10450141,
+            "byte_offset": 145672,
+            "raw_hex": "dde9fd04"
+          },
+          "origin_index_offset": 137069,
+          "origin_row_start_offset": 36818,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 53.0,
+            "byte_offset": 36826,
+            "raw_hex": "00005442"
+          }
+        },
+        {
+          "tier": 3,
+          "gear_id": 10451403,
+          "gun_no": 10450141,
+          "equip_index_offset": 578848,
+          "equip_row_start_offset": 148455,
+          "equip_row_end_offset_exclusive": 148515,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 3,
+            "byte_offset": 148495,
+            "raw_hex": "03"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10451403,
+            "byte_offset": 148502,
+            "raw_hex": "cbf3fd04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13451401,
+            "byte_offset": 148496,
+            "raw_hex": "8981b506"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10450141,
+            "byte_offset": 148508,
+            "raw_hex": "dde9fd04"
+          },
+          "origin_index_offset": 137368,
+          "origin_row_start_offset": 37867,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 84.0,
+            "byte_offset": 37877,
+            "raw_hex": "0000a842"
+          }
+        },
+        {
+          "tier": 4,
+          "gear_id": 10451404,
+          "gun_no": 10450141,
+          "equip_index_offset": 592895,
+          "equip_row_start_offset": 237632,
+          "equip_row_end_offset_exclusive": 237692,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 4,
+            "byte_offset": 237672,
+            "raw_hex": "04"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10451404,
+            "byte_offset": 237679,
+            "raw_hex": "ccf3fd04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13451401,
+            "byte_offset": 237673,
+            "raw_hex": "8981b506"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10450141,
+            "byte_offset": 237685,
+            "raw_hex": "dde9fd04"
+          },
+          "origin_index_offset": 146273,
+          "origin_row_start_offset": 60383,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 132.0,
+            "byte_offset": 60393,
+            "raw_hex": "00000443"
+          }
+        },
+        {
+          "tier": 5,
+          "gear_id": 10451405,
+          "gun_no": 10450141,
+          "equip_index_offset": 592919,
+          "equip_row_start_offset": 178804,
+          "equip_row_end_offset_exclusive": 178864,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 5,
+            "byte_offset": 178844,
+            "raw_hex": "05"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10451405,
+            "byte_offset": 178851,
+            "raw_hex": "cdf3fd04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13451401,
+            "byte_offset": 178845,
+            "raw_hex": "8981b506"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10450141,
+            "byte_offset": 178857,
+            "raw_hex": "dde9fd04"
+          },
+          "origin_index_offset": 146293,
+          "origin_row_start_offset": 60441,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 201.0,
+            "byte_offset": 60451,
+            "raw_hex": "00004943"
+          }
+        }
+      ]
+    },
+    {
+      "blueprint_id": 13413301,
+      "public_identity_name": "SOCR - Cosmic Visitor",
+      "shared_gun_no_across_five_tiers": 10410331,
+      "tiers": [
+        {
+          "tier": 1,
+          "gear_id": 10413301,
+          "gun_no": 10410331,
+          "equip_index_offset": 571564,
+          "equip_row_start_offset": 100012,
+          "equip_row_end_offset_exclusive": 100070,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 1,
+            "byte_offset": 100050,
+            "raw_hex": "01"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10413301,
+            "byte_offset": 100057,
+            "raw_hex": "f5c9fb04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13413301,
+            "byte_offset": 100051,
+            "raw_hex": "b5d7b206"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10410331,
+            "byte_offset": 100063,
+            "raw_hex": "dbb2fb04"
+          },
+          "origin_index_offset": 132992,
+          "origin_row_start_offset": 20234,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 45.0,
+            "byte_offset": 20242,
+            "raw_hex": "00003442"
+          }
+        },
+        {
+          "tier": 2,
+          "gear_id": 10413302,
+          "gun_no": 10410331,
+          "equip_index_offset": 590004,
+          "equip_row_start_offset": 218799,
+          "equip_row_end_offset_exclusive": 218858,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 2,
+            "byte_offset": 218838,
+            "raw_hex": "02"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10413302,
+            "byte_offset": 218845,
+            "raw_hex": "f6c9fb04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13413301,
+            "byte_offset": 218839,
+            "raw_hex": "b5d7b206"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10410331,
+            "byte_offset": 218851,
+            "raw_hex": "dbb2fb04"
+          },
+          "origin_index_offset": 144946,
+          "origin_row_start_offset": 56084,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 70.0,
+            "byte_offset": 56092,
+            "raw_hex": "00008c42"
+          }
+        },
+        {
+          "tier": 3,
+          "gear_id": 10413303,
+          "gun_no": 10410331,
+          "equip_index_offset": 581996,
+          "equip_row_start_offset": 168691,
+          "equip_row_end_offset_exclusive": 168750,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 3,
+            "byte_offset": 168730,
+            "raw_hex": "03"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10413303,
+            "byte_offset": 168737,
+            "raw_hex": "f7c9fb04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13413301,
+            "byte_offset": 168731,
+            "raw_hex": "b5d7b206"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10410331,
+            "byte_offset": 168743,
+            "raw_hex": "dbb2fb04"
+          },
+          "origin_index_offset": 139576,
+          "origin_row_start_offset": 44306,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 111.0,
+            "byte_offset": 44316,
+            "raw_hex": "0000de42"
+          }
+        },
+        {
+          "tier": 4,
+          "gear_id": 10413304,
+          "gun_no": 10410331,
+          "equip_index_offset": 590012,
+          "equip_row_start_offset": 218858,
+          "equip_row_end_offset_exclusive": 218917,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 4,
+            "byte_offset": 218897,
+            "raw_hex": "04"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10413304,
+            "byte_offset": 218904,
+            "raw_hex": "f8c9fb04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13413301,
+            "byte_offset": 218898,
+            "raw_hex": "b5d7b206"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10410331,
+            "byte_offset": 218910,
+            "raw_hex": "dbb2fb04"
+          },
+          "origin_index_offset": 144960,
+          "origin_row_start_offset": 49363,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 174.0,
+            "byte_offset": 49373,
+            "raw_hex": "00002e43"
+          }
+        },
+        {
+          "tier": 5,
+          "gear_id": 10413305,
+          "gun_no": 10410331,
+          "equip_index_offset": 576829,
+          "equip_row_start_offset": 135558,
+          "equip_row_end_offset_exclusive": 135617,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 5,
+            "byte_offset": 135597,
+            "raw_hex": "05"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10413305,
+            "byte_offset": 135604,
+            "raw_hex": "f9c9fb04"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13413301,
+            "byte_offset": 135598,
+            "raw_hex": "b5d7b206"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10410331,
+            "byte_offset": 135610,
+            "raw_hex": "dbb2fb04"
+          },
+          "origin_index_offset": 135921,
+          "origin_row_start_offset": 32922,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 264.0,
+            "byte_offset": 32932,
+            "raw_hex": "00008443"
+          }
+        }
+      ]
+    },
+    {
+      "blueprint_id": 13742201,
+      "public_identity_name": "Compound Bow - The Burden of Betrayal",
+      "shared_gun_no_across_five_tiers": 10742211,
+      "tiers": [
+        {
+          "tier": 1,
+          "gear_id": 10742201,
+          "gun_no": 10742211,
+          "equip_index_offset": 598978,
+          "equip_row_start_offset": 275282,
+          "equip_row_end_offset_exclusive": 275345,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 1,
+            "byte_offset": 275325,
+            "raw_hex": "01"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10742201,
+            "byte_offset": 275332,
+            "raw_hex": "b9d38f05"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13742201,
+            "byte_offset": 275326,
+            "raw_hex": "f9e0c606"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10742211,
+            "byte_offset": 275338,
+            "raw_hex": "c3d38f05"
+          },
+          "origin_index_offset": 150457,
+          "origin_row_start_offset": 70605,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 133.0,
+            "byte_offset": 70613,
+            "raw_hex": "00000543"
+          }
+        },
+        {
+          "tier": 2,
+          "gear_id": 10742202,
+          "gun_no": 10742211,
+          "equip_index_offset": 582288,
+          "equip_row_start_offset": 170410,
+          "equip_row_end_offset_exclusive": 170474,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 2,
+            "byte_offset": 170454,
+            "raw_hex": "02"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10742202,
+            "byte_offset": 170461,
+            "raw_hex": "bad38f05"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13742201,
+            "byte_offset": 170455,
+            "raw_hex": "f9e0c606"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10742211,
+            "byte_offset": 170467,
+            "raw_hex": "c3d38f05"
+          },
+          "origin_index_offset": 150306,
+          "origin_row_start_offset": 70062,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 204.0,
+            "byte_offset": 70070,
+            "raw_hex": "00004c43"
+          }
+        },
+        {
+          "tier": 3,
+          "gear_id": 10742203,
+          "gun_no": 10742211,
+          "equip_index_offset": 592440,
+          "equip_row_start_offset": 234797,
+          "equip_row_end_offset_exclusive": 234861,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 3,
+            "byte_offset": 234841,
+            "raw_hex": "03"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10742203,
+            "byte_offset": 234848,
+            "raw_hex": "bbd38f05"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13742201,
+            "byte_offset": 234842,
+            "raw_hex": "f9e0c606"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10742211,
+            "byte_offset": 234854,
+            "raw_hex": "c3d38f05"
+          },
+          "origin_index_offset": 146180,
+          "origin_row_start_offset": 60105,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 326.0,
+            "byte_offset": 60115,
+            "raw_hex": "0000a343"
+          }
+        },
+        {
+          "tier": 4,
+          "gear_id": 10742204,
+          "gun_no": 10742211,
+          "equip_index_offset": 599002,
+          "equip_row_start_offset": 275441,
+          "equip_row_end_offset_exclusive": 275505,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 4,
+            "byte_offset": 275485,
+            "raw_hex": "04"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10742204,
+            "byte_offset": 275492,
+            "raw_hex": "bcd38f05"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13742201,
+            "byte_offset": 275486,
+            "raw_hex": "f9e0c606"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10742211,
+            "byte_offset": 275498,
+            "raw_hex": "c3d38f05"
+          },
+          "origin_index_offset": 150464,
+          "origin_row_start_offset": 70629,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 510.0,
+            "byte_offset": 70639,
+            "raw_hex": "0000ff43"
+          }
+        },
+        {
+          "tier": 5,
+          "gear_id": 10742205,
+          "gun_no": 10742211,
+          "equip_index_offset": 594713,
+          "equip_row_start_offset": 229735,
+          "equip_row_end_offset_exclusive": 229799,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 5,
+            "byte_offset": 229779,
+            "raw_hex": "05"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10742205,
+            "byte_offset": 229786,
+            "raw_hex": "bdd38f05"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13742201,
+            "byte_offset": 229780,
+            "raw_hex": "f9e0c606"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10742211,
+            "byte_offset": 229792,
+            "raw_hex": "c3d38f05"
+          },
+          "origin_index_offset": 147600,
+          "origin_row_start_offset": 64222,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 775.0,
+            "byte_offset": 64232,
+            "raw_hex": "00c04144"
+          }
+        }
+      ]
+    },
+    {
+      "blueprint_id": 13512301,
+      "public_identity_name": "SN700 - Finale",
+      "shared_gun_no_across_five_tiers": 10510151,
+      "tiers": [
+        {
+          "tier": 1,
+          "gear_id": 10512301,
+          "gun_no": 10510151,
+          "equip_index_offset": 572432,
+          "equip_row_start_offset": 106340,
+          "equip_row_end_offset_exclusive": 106401,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 1,
+            "byte_offset": 106381,
+            "raw_hex": "01"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10512301,
+            "byte_offset": 106388,
+            "raw_hex": "adcf8105"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13512301,
+            "byte_offset": 106382,
+            "raw_hex": "eddcb806"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10510151,
+            "byte_offset": 106394,
+            "raw_hex": "c7be8105"
+          },
+          "origin_index_offset": 132455,
+          "origin_row_start_offset": 16534,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 182.0,
+            "byte_offset": 16542,
+            "raw_hex": "00003643"
+          }
+        },
+        {
+          "tier": 2,
+          "gear_id": 10512302,
+          "gun_no": 10510151,
+          "equip_index_offset": 593533,
+          "equip_row_start_offset": 241667,
+          "equip_row_end_offset_exclusive": 241729,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 2,
+            "byte_offset": 241709,
+            "raw_hex": "02"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10512302,
+            "byte_offset": 241716,
+            "raw_hex": "aecf8105"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13512301,
+            "byte_offset": 241710,
+            "raw_hex": "eddcb806"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10510151,
+            "byte_offset": 241722,
+            "raw_hex": "c7be8105"
+          },
+          "origin_index_offset": 146757,
+          "origin_row_start_offset": 61918,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 280.0,
+            "byte_offset": 61926,
+            "raw_hex": "00008c43"
+          }
+        },
+        {
+          "tier": 3,
+          "gear_id": 10512303,
+          "gun_no": 10510151,
+          "equip_index_offset": 593573,
+          "equip_row_start_offset": 241826,
+          "equip_row_end_offset_exclusive": 241888,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 3,
+            "byte_offset": 241868,
+            "raw_hex": "03"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10512303,
+            "byte_offset": 241875,
+            "raw_hex": "afcf8105"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13512301,
+            "byte_offset": 241869,
+            "raw_hex": "eddcb806"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10510151,
+            "byte_offset": 241881,
+            "raw_hex": "c7be8105"
+          },
+          "origin_index_offset": 146783,
+          "origin_row_start_offset": 61943,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 448.0,
+            "byte_offset": 61953,
+            "raw_hex": "0000e043"
+          }
+        },
+        {
+          "tier": 4,
+          "gear_id": 10512304,
+          "gun_no": 10510151,
+          "equip_index_offset": 593613,
+          "equip_row_start_offset": 242039,
+          "equip_row_end_offset_exclusive": 242101,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 4,
+            "byte_offset": 242081,
+            "raw_hex": "04"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10512304,
+            "byte_offset": 242088,
+            "raw_hex": "b0cf8105"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13512301,
+            "byte_offset": 242082,
+            "raw_hex": "eddcb806"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10510151,
+            "byte_offset": 242094,
+            "raw_hex": "c7be8105"
+          },
+          "origin_index_offset": 146811,
+          "origin_row_start_offset": 62090,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 700.0,
+            "byte_offset": 62100,
+            "raw_hex": "00002f44"
+          }
+        },
+        {
+          "tier": 5,
+          "gear_id": 10512305,
+          "gun_no": 10510151,
+          "equip_index_offset": 593637,
+          "equip_row_start_offset": 242197,
+          "equip_row_end_offset_exclusive": 242259,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 5,
+            "byte_offset": 242239,
+            "raw_hex": "05"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10512305,
+            "byte_offset": 242246,
+            "raw_hex": "b1cf8105"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13512301,
+            "byte_offset": 242240,
+            "raw_hex": "eddcb806"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10510151,
+            "byte_offset": 242252,
+            "raw_hex": "c7be8105"
+          },
+          "origin_index_offset": 146824,
+          "origin_row_start_offset": 62152,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 1064.0,
+            "byte_offset": 62162,
+            "raw_hex": "00008544"
+          }
+        }
+      ]
+    },
+    {
+      "blueprint_id": 13641201,
+      "public_identity_name": "QBJ97 - Fiery Trees and Silver Flowers",
+      "shared_gun_no_across_five_tiers": 10640131,
+      "tiers": [
+        {
+          "tier": 1,
+          "gear_id": 10641201,
+          "gun_no": 10640131,
+          "equip_index_offset": 587810,
+          "equip_row_start_offset": 205296,
+          "equip_row_end_offset_exclusive": 205355,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 1,
+            "byte_offset": 205335,
+            "raw_hex": "01"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10641201,
+            "byte_offset": 205342,
+            "raw_hex": "b1be8905"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13641201,
+            "byte_offset": 205336,
+            "raw_hex": "f1cbc006"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10640131,
+            "byte_offset": 205348,
+            "raw_hex": "83b68905"
+          },
+          "origin_index_offset": 143310,
+          "origin_row_start_offset": 52891,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 35.0,
+            "byte_offset": 52899,
+            "raw_hex": "00000c42"
+          }
+        },
+        {
+          "tier": 2,
+          "gear_id": 10641202,
+          "gun_no": 10640131,
+          "equip_index_offset": 597886,
+          "equip_row_start_offset": 268827,
+          "equip_row_end_offset_exclusive": 268887,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 2,
+            "byte_offset": 268867,
+            "raw_hex": "02"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10641202,
+            "byte_offset": 268874,
+            "raw_hex": "b2be8905"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13641201,
+            "byte_offset": 268868,
+            "raw_hex": "f1cbc006"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10640131,
+            "byte_offset": 268880,
+            "raw_hex": "83b68905"
+          },
+          "origin_index_offset": 149765,
+          "origin_row_start_offset": 57759,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 54.0,
+            "byte_offset": 57767,
+            "raw_hex": "00005842"
+          }
+        },
+        {
+          "tier": 3,
+          "gear_id": 10641203,
+          "gun_no": 10640131,
+          "equip_index_offset": 597965,
+          "equip_row_start_offset": 269247,
+          "equip_row_end_offset_exclusive": 269307,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 3,
+            "byte_offset": 269287,
+            "raw_hex": "03"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10641203,
+            "byte_offset": 269294,
+            "raw_hex": "b3be8905"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13641201,
+            "byte_offset": 269288,
+            "raw_hex": "f1cbc006"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10640131,
+            "byte_offset": 269300,
+            "raw_hex": "83b68905"
+          },
+          "origin_index_offset": 149813,
+          "origin_row_start_offset": 68953,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 86.0,
+            "byte_offset": 68963,
+            "raw_hex": "0000ac42"
+          }
+        },
+        {
+          "tier": 4,
+          "gear_id": 10641204,
+          "gun_no": 10640131,
+          "equip_index_offset": 597973,
+          "equip_row_start_offset": 269307,
+          "equip_row_end_offset_exclusive": 269367,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 4,
+            "byte_offset": 269347,
+            "raw_hex": "04"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10641204,
+            "byte_offset": 269354,
+            "raw_hex": "b4be8905"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13641201,
+            "byte_offset": 269348,
+            "raw_hex": "f1cbc006"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10640131,
+            "byte_offset": 269360,
+            "raw_hex": "83b68905"
+          },
+          "origin_index_offset": 149820,
+          "origin_row_start_offset": 68979,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 134.0,
+            "byte_offset": 68989,
+            "raw_hex": "00000643"
+          }
+        },
+        {
+          "tier": 5,
+          "gear_id": 10641205,
+          "gun_no": 10640131,
+          "equip_index_offset": 575488,
+          "equip_row_start_offset": 126825,
+          "equip_row_end_offset_exclusive": 126885,
+          "art_lv": {
+            "native_field": "art_lv",
+            "value": 5,
+            "byte_offset": 126865,
+            "raw_hex": "05"
+          },
+          "equip_origin_id": {
+            "native_field": "equip_origin_id",
+            "value": 10641205,
+            "byte_offset": 126872,
+            "raw_hex": "b5be8905"
+          },
+          "blueprint_no": {
+            "native_field": "blueprint_no",
+            "value": 13641201,
+            "byte_offset": 126866,
+            "raw_hex": "f1cbc006"
+          },
+          "gun_no_field": {
+            "native_field": "gun_no",
+            "value": 10640131,
+            "byte_offset": 126878,
+            "raw_hex": "83b68905"
+          },
+          "origin_index_offset": 136363,
+          "origin_row_start_offset": 34415,
+          "gun_preset_attack": {
+            "native_field": "gun_preset_attack",
+            "type": "float32_le",
+            "value": 204.0,
+            "byte_offset": 34425,
+            "raw_hex": "00004c43"
+          }
+        }
+      ]
+    }
+  ],
+  "interpretation_limit": "gun_preset_attack is the native origin-table base attack field. Its unit and conversion to final per-hit or per-projectile damage, star scaling, calibration, and player configuration are not established here. Public AUG Tier I 34 and Tier IV 132 match the raw float values, but that equality alone does not define gameplay damage.",
+  "game_code_executed": false
+}

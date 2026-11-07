@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "purpose": "Explicit published-model identity and rarity reconciliation; catalog identities and saved data stay unchanged.",
+  "weapon_aliases": {
+    "weapon:pyroclasm-starter": {
+      "canonical_catalog_id": "weapon:acs12-pyroclasm-starter",
+      "published_upstream_id": "acs12_pyroclasm_starter",
+      "official_identity_url": "https://www.oncehuman.game/news/update/20241014/40780_1186579.html",
+      "blueprint_url": "https://wikily.gg/once-human/weapon-blueprints/13234301",
+      "status": "short_name_to_full_name_identity_supported; published baseline model unverified as current crafted stats"
+    },
+    "weapon:pathfinder": {
+      "canonical_catalog_id": "weapon:sks-pathfinder",
+      "published_upstream_id": "sks_pathfinder",
+      "official_identity_url": "https://www.oncehuman.game/news/update/20250924/40780_1261275.html",
+      "blueprint_url": "https://wikily.gg/once-human/weapon-blueprints/13551401",
+      "status": "short_name_to_full_name_identity_supported; published baseline model unverified as current crafted stats"
+    }
+  },
+  "armor_reference_rarity": {
+    "armor:rustic-hat": {
+      "rarity": "common",
+      "blueprint_id": "21300001",
+      "source_url": "https://wikily.gg/once-human/armor-blueprints/21300001",
+      "source_status": "exact_blueprint_identity_and_tier1_hp_psi_match",
+      "tier1_pollution_resist": 3,
+      "pollution_note": "Exact blueprint Tier 1 pollution value differs from generic slot table; higher-tier pollution is withheld."
+    },
+    "armor:rustic-jacket": {
+      "rarity": "common",
+      "blueprint_id": "22300001",
+      "source_url": "https://wikily.gg/once-human/armor-blueprints/22300001",
+      "source_status": "exact_blueprint_identity_and_tier1_hp_psi_match",
+      "tier1_pollution_resist": 4,
+      "pollution_note": "Exact blueprint Tier 1 pollution value differs from generic slot table; higher-tier pollution is withheld."
+    },
+    "armor:rustic-pants": {
+      "rarity": "common",
+      "blueprint_id": "23300001",
+      "source_url": "https://wikily.gg/once-human/armor-blueprints/23300001",
+      "source_status": "exact_blueprint_identity_and_tier1_hp_psi_match",
+      "tier1_pollution_resist": 3,
+      "pollution_note": "Exact blueprint Tier 1 pollution value differs from generic slot table; higher-tier pollution is withheld."
+    },
+    "armor:rustic-shoes": {
+      "rarity": "common",
+      "blueprint_id": "24300001",
+      "source_url": "https://wikily.gg/once-human/armor-blueprints/24300001",
+      "source_status": "exact_blueprint_identity_and_tier1_hp_psi_match",
+      "tier1_pollution_resist": 3,
+      "pollution_note": "Exact blueprint Tier 1 pollution value differs from generic slot table; higher-tier pollution is withheld."
+    },
+    "armor:rustic-gloves": {
+      "rarity": "common",
+      "blueprint_id": "25300001",
+      "source_url": "https://wikily.gg/once-human/armor-blueprints/25300001",
+      "source_status": "exact_blueprint_identity_and_tier1_hp_psi_match",
+      "tier1_pollution_resist": 3,
+      "pollution_note": "Exact blueprint Tier 1 pollution value differs from generic slot table; higher-tier pollution is withheld."
+    },
+    "armor:frost-tactical-vest": {
+      "rarity": "epic",
+      "blueprint_id": "22312601",
+      "source_url": "https://wikily.gg/once-human/armor-blueprints/22312601",
+      "source_status": "exact_blueprint_identity_and_tier1_hp_psi_match; conflicts_with_catalog_uncommon",
+      "tier1_pollution_resist": 4,
+      "pollution_note": "Exact blueprint Tier 1 pollution value differs from generic slot table; higher-tier pollution is withheld."
+    }
+  },
+  "withheld_armor": {
+    "snowland_rustic_set": "Matching common HP/Psi defaults do not establish Snowland blueprint rarity or upgrade progression; catalog says uncommon.",
+    "armor:snowline-elite-vest": "Unique item blueprint exists, but generic legendary slot row is not item-specific HP/Psi verification across upgrades.",
+    "armor:gilded-gauntlets": "Official Legendary item name and community Gilded Gloves/Palm Shield names are not reconciled to an exact numeric row.",
+    "armor:wind-intepreter-cap": "Blueprint establishes item identity and tier-1 sample, but a generic rarity table alone does not establish unique upgrade values."
+  }
+}

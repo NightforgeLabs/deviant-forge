@@ -1,0 +1,143 @@
+{
+  "schema_version": 5,
+  "as_of": "2026-11-01",
+  "base_layers": [
+    "reference-profiles-v3.json",
+    "reference-delta-v4.json"
+  ],
+  "source_snapshot": "v5-page-snapshot.json",
+  "summary": {
+    "active_direct_page_refs": 0,
+    "archive_status": "unanchored_numeric_rows_removed"
+  },
+  "new_database_page_references": {},
+  "unresolved": {
+    "weapon:kam": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:socr-outsider": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:akm": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:m416": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:mg4-scorched-earth": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:mg4-wrath-of-hades": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:de-50": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:dbsg-dual-fury": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:old-huntsman": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:tec9-additional-rules": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:socr-cosmic-visitor": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:pyroclasm-starter": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:pathfinder": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:qbj97-fiery-trees-and-silver-flowers": {
+      "status": "no_cached_exact_page_url",
+      "url": null
+    },
+    "weapon:military-dagger": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/military-dagger"
+    },
+    "weapon:military-shovel": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/military-shovel"
+    },
+    "weapon:fine-steel-pipe": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/fine-steel-pipe"
+    },
+    "weapon:old-machete": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/old-machete"
+    },
+    "weapon:stealthblade": {
+      "status": "no_numeric_damage",
+      "url": "https://www.oncehumandb.com/weapons/stealthblade"
+    },
+    "weapon:steel-pipe": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/steel-pipe"
+    },
+    "weapon:r500-interfade": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/r500-interfade"
+    },
+    "weapon:de-50-goshawk": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/de-50-goshawk"
+    },
+    "weapon:r500-hunter": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/r500-hunter"
+    },
+    "weapon:fate-of-the-mystic": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/fate-of-the-mystic"
+    },
+    "weapon:the-trial-of-the-mystic": {
+      "status": "access_error",
+      "url": "https://www.oncehumandb.com/weapons/the-trial-of-the-mystic"
+    },
+    "weapon:acs12-netherworld": {
+      "status": "direct_page_access_failed_twice_in_v4",
+      "url": "https://www.oncehumandb.com/weapons/acs12-netherworld",
+      "note": "Skipped in v5 by instruction; no new attempt."
+    }
+  },
+  "identity_ambiguities": {
+    "weapon:dual-fury": {
+      "related_catalog_id": "weapon:dbsg-dual-fury",
+      "source_page": "https://www.oncehumandb.com/weapons/dbsg-dual-fury",
+      "resolution": "Current page displayed name is Dual Fury and explicitly says previously DBSG - Dual Fury. Bind once to weapon:dual-fury; keep old catalog ID unresolved pending catalog identity deduplication."
+    },
+    "weapon:old-huntsman": {
+      "related_catalog_id": "weapon:dbsg-old-huntsman",
+      "source_page": "https://www.oncehumandb.com/weapons/dbsg-old-huntsman",
+      "resolution": "V4 already binds the displayed DBSG - Old Huntsman page to the longer catalog name. Do not copy stats to old short-name ID without identity reconciliation."
+    },
+    "weapon:pathfinder": {
+      "related_catalog_id": "weapon:sks-pathfinder",
+      "resolution": "V4 binds SKS - Pathfinder. Official patch short name Pathfinder may refer to same blueprint, but do not copy stat row onto separate catalog ID."
+    },
+    "weapon:pyroclasm-starter": {
+      "related_catalog_id": "weapon:acs12-pyroclasm-starter",
+      "resolution": "V4 binds ACS12 - Pyroclasm Starter; keep official short-name metadata ID separate until deduplicated."
+    }
+  },
+  "merge_policy": "Apply only new_database_page_references to exact IDs after v3/v4. Keep historical profiles, mechanic bindings, selected gear, and all unresolved IDs untouched. Null remains unknown. Never infer tier/stars/calibration from the website reference.",
+  "active_numeric_status": "unanchored_page_numbers_removed"
+}

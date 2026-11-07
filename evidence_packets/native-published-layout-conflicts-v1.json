@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "scope": "exact native versus published scalar source conflict; two verified catalog identities, levels 1-17; does not infer active roll or effect",
+  "source_build": "26267212",
+  "native_frame_packet_sha256": "a4ad0f5b761941d6ac5cdd6b0f630443f2e2ac19214905ecb61b141d48e91ae1",
+  "native_catalog_sha256": "18f123fdd94b7618e3a34681eed4a5f369003ac64e3aace4041ed9ed62904829",
+  "identities": [
+    {
+      "catalog_id": "mod:weapon_mod:flame-resonance-general",
+      "normal_native_item_id": 19500009,
+      "reference_level": 8,
+      "conflicting_positions": [
+        1,
+        3,
+        4
+      ],
+      "published_labels": [
+        "All DMG Boost",
+        "Magazine Capacity",
+        "Reload Speed",
+        "Damage against enemies"
+      ],
+      "native_configured_lines": [
+        "DMG +2.4%",
+        "Magazine Capacity +4.8%",
+        "Reload Efficiency +3.6%",
+        "Damage to all monsters +3%"
+      ]
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-general",
+      "normal_native_item_id": 19500824,
+      "reference_level": 8,
+      "conflicting_positions": [
+        1,
+        3,
+        4
+      ],
+      "published_labels": [
+        "All DMG Boost",
+        "Magazine Capacity",
+        "Reload Speed",
+        "Damage against enemies"
+      ],
+      "native_configured_lines": [
+        "DMG +2.4%",
+        "Magazine Capacity +4.8%",
+        "Reload Efficiency +3.6%",
+        "Damage to all monsters +3%"
+      ]
+    }
+  ]
+}

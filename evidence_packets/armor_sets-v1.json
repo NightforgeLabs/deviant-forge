@@ -1,0 +1,1914 @@
+{
+  "schema_version": 1,
+  "purpose": "Isolated binding candidates; absence of a descriptor never means zero effect.",
+  "target_game_version": "2026-10-21 v3.1.1, checked 2026-11-01",
+  "scenario_policy": "Apply only when source scenario matches selected game mode; RaidZone values require separate validation.",
+  "sources": {
+    "catalog": {
+      "kind": "local_snapshot",
+      "path": "/home/dv/Projects/once-human-advisor/catalog.json",
+      "sha256": "26af9939d1f6d313e3168cc765bf84482dade82a8319b7de504f6e108187c622",
+      "version": "March 2026 community snapshot; not current verification"
+    },
+    "savior_release": {
+      "kind": "official_release",
+      "url": "https://www.oncehuman.game/news/update/20250924/40780_1261275.html",
+      "version": "2025-09-24",
+      "scenario": "regular mode, Vision server context"
+    },
+    "savior_update": {
+      "kind": "official_release",
+      "url": "https://www.oncehuman.game/news/update/20251029/40780_1267745.html",
+      "version": "2025-10-29",
+      "scenario": "all modes combat optimization"
+    },
+    "treacherous_release": {
+      "kind": "official_release",
+      "url": "https://www.oncehuman.game/news/update/20261009/40780_1314019.html",
+      "version": "2026-09-16",
+      "scenario": "regular combat"
+    },
+    "treacherous_preview": {
+      "kind": "official_preview",
+      "url": "https://www.oncehuman.game/news/devBlog/20260910/40781_1313572.html",
+      "version": "2026-09-10",
+      "scenario": "regular combat",
+      "note": "Article explicitly says values are for testing."
+    },
+    "dark_resonance": {
+      "kind": "official_preview",
+      "url": "https://www.oncehuman.game/news/devBlog/20260116/40781_1282292.html",
+      "version": "2026-01-17, announced for January 21",
+      "scenario": "all scenarios except RaidZone"
+    },
+    "snowline": {
+      "kind": "official_release",
+      "url": "https://www.oncehuman.game/banner/20261021/41906_1317280.html",
+      "version": "3.1.1, 2026-10-21",
+      "scenario": "regular combat, Isles of Abyss"
+    },
+    "september_gear": {
+      "kind": "official_preview",
+      "url": "https://www.oncehuman.game/news/devBlog/20250922/40781_1260687.html",
+      "version": "2025-09-22, announced for September 24",
+      "scenario": "regular mode; not RaidZone"
+    },
+    "january_gear": {
+      "kind": "official_release",
+      "url": "https://www.oncehuman.game/news/update/20250115/40780_1207023.html",
+      "version": "2025-01-15",
+      "scenario": "regular mode; not RaidZone"
+    }
+  },
+  "sets": [
+    {
+      "catalog_id": "set:agent-set",
+      "name": "Agent Set",
+      "rarity": "epic",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Head DMG Reduction +10%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Weakspot DMG +10%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "weakspot"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "Get Bullet Saver effect with every precise kill, Weakspot DMG +15% for 8s. Effect can stack up to 3 times.",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "kill",
+            "weakspot"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "After killing an enemy, gain Reload Efficiency +20%. If it is a Weakspot kill, also gain Fire Rate +10%. Lasts until you reload.",
+          "effect_family_hint": "event_or_state_machine",
+          "dimensions_hint": [
+            "kill",
+            "reload",
+            "weakspot"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:bastille-set",
+      "name": "Bastille Set",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "When HP is above 70%, Weapon DMG +10%",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "hp"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Reload Efficiency +15%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "reload"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "Stay crouched and immobile for 0.5s to enter the Bastille state. While in the Bastille state, gain Weapon DMG +40%. After exiting the Bastille state, you cannot sprint and your Stamina consumption is increased by 100% for 3s.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "stamina"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "3s after exiting Bastille state, gain 1 stack of Armor per second, up to 60 stacks. While in Bastille state, each stack of Armor provides a Shield equal to 1% of max HP.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "hp",
+            "shield",
+            "shield_generation"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:blackstone-set",
+      "name": "Blackstone Set",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Cold Resist and Heat Resist +2.5",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 0.5s, up to a maximum of 5 stacks.",
+          "effect_family_hint": "event_or_state_machine",
+          "dimensions_hint": [
+            "elemental"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "When the temperature is between 10°C and 30°C, you gain the Warm status (Elemental DMG +18%).",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "elemental",
+            "temperature"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "At 5 stacks of Warm Sensation, you are considered to be in the Warm status. When the environmental temperature is between 10°C and 30°C, gain Elemental DMG +7%.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "elemental",
+            "temperature"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:blackstone-set-cold",
+      "name": "Blackstone Set (Cold)",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Cold Resist +5",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 0.5s, up to a maximum of 5 stacks.",
+          "effect_family_hint": "event_or_state_machine",
+          "dimensions_hint": [
+            "elemental"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "When the temperature is below 10°C, you gain Cold status (Elemental DMG +10%). For every additional degree below that, gain Elemental DMG +0.5%, up to 20%.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "elemental",
+            "temperature"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "At 5 stacks of Warm Sensation, the environmental temperature drops by 5°C, the DMG bonus provided by the Cold status is doubled, and its cap is increased to 40%.",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "temperature"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:blackstone-set-heat",
+      "name": "Blackstone Set (Heat)",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Heat Resist +5",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 0.5s, up to a maximum of 5 stacks.",
+          "effect_family_hint": "event_or_state_machine",
+          "dimensions_hint": [
+            "elemental"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "When the temperature is above 30°C, you gain Passion status (Elemental DMG +10%). For every additional degree above that, gain Elemental DMG +0.5%, up to 20%.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "elemental",
+            "temperature"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "At 5 stacks of Warm Sensation, the environmental temperature rises by 5°C, the DMG bonus provided by the Passion status is doubled, and its cap is increased to 40%.",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "temperature"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:blast-set",
+      "name": "Blast Set",
+      "rarity": "rare",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Heavy Melee DMG +20%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Torso DMG Reduction +12%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "After using Melee attack to Kill an enemy, instantly gain 5 Prime Energy, and increase DMG of your next Melee attack by 20% within 5 seconds.",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "kill",
+            "prime_energy"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "Melee kill an enemy to instantly recover 30 Stamina and increase Movement Speed by 20% for 2s (cooldown: 3s).",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "kill",
+            "resource_recovery",
+            "stamina"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:falcon-set",
+      "name": "Falcon Set",
+      "rarity": "epic",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Rolling Stamina cost -20%.",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "stamina"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Crit DMG +12%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "critical"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "When Stamina is over 90%, increase Crit Rate by 5% and Crit DMG by 20%.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "critical",
+            "stamina"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "After killing an enemy, immediately recover 30 Stamina and gain 20% increased Movement Speed for 2s. Cooldown: 3s.",
+          "effect_family_hint": "event_or_state_machine",
+          "dimensions_hint": [
+            "kill",
+            "resource_recovery",
+            "stamina"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:gravity-tide-set",
+      "name": "Gravity Tide Set",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Jump Height +10%.",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Magazine Capacity +15%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:heavy-duty-set",
+      "name": "Heavy Duty Set",
+      "rarity": "epic",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Max HP +10%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "hp"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Element DMG (Blaze, Frost, Shock, Blast) +8%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "elemental"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "After killing an enemy, increase Movement Speed by 20% for 2s and Elemental DMG (Blaze, Frost, Shock, Blast) by 40%, decay over 8s.",
+          "effect_family_hint": "event_or_state_machine",
+          "dimensions_hint": [
+            "elemental",
+            "kill"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "Within 5m, each enemy grants you DMG Reduction +4%. Effect can stack up to 4 times.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:lonewolf-set",
+      "name": "Lonewolf Set",
+      "rarity": null,
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Magazine Capacity +10%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Crit Rate +5%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "critical"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "Gain 1 stack of Lone Shadow for every 4 Crit shots landed with a weapon. Lone Shadow: Crit DMG +6% for 20s, stacking up to 8 times.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "critical"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "Increases maximum Lonewolf stacks to 10. After reloading, gain Crit Rate +10% for 2s.",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "critical",
+            "reload"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:raid-set",
+      "name": "Raid Set",
+      "rarity": "rare",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Gathering Speed +15%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Max Load +20",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "When the load is over 80, DMG taken -10%, Weapon and Tactical Item DMG +15%",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "Stamina cost -30% when gliding and rolling",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "stamina"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:renegade-set",
+      "name": "Renegade Set",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Reload Efficiency +10%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "reload"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Weakspot DMG +10%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "weakspot"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "Gain 1 stack of Archer's Focus upon hitting the same enemy consecutively. Archer's Focus: Weakspot DMG +4%, stacking up to 10 times. Archer's Focus stacks are halved upon changing targets.",
+          "effect_family_hint": "event_or_state_machine",
+          "dimensions_hint": [
+            "weakspot"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "When reloading, for every 1% of shots from the previous magazine that were Weakspot hits, load an extra 0.6% ammunition, capped at an extra 30%.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "reload",
+            "weakspot"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:rustic-set",
+      "name": "Rustic Set",
+      "rarity": "uncommon",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Movement Speed +8%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Melee DMG +15%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "HP +600",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "hp"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "Gathering Speed +20%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:savior-set",
+      "name": "Savior Set",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "binding_status": "official_release",
+          "activation": "eligible_for_engine_with_explicit_unknowns",
+          "descriptors": [
+            {
+              "kind": "modifier",
+              "trigger": "medicine_use",
+              "stat": "medicine_cooldown",
+              "direction": "reduction",
+              "magnitude": null
+            }
+          ],
+          "source_ids": [
+            "savior_release"
+          ],
+          "note": null
+        },
+        {
+          "required_items": 2,
+          "binding_status": "official_release",
+          "activation": "eligible_for_engine_with_explicit_unknowns",
+          "descriptors": [
+            {
+              "kind": "conditional_modifier",
+              "trigger": "shield_positive",
+              "stats": [
+                "weapon_damage",
+                "status_damage"
+              ],
+              "direction": "increase",
+              "magnitude": null
+            }
+          ],
+          "source_ids": [
+            "savior_release"
+          ],
+          "note": null
+        },
+        {
+          "required_items": 3,
+          "binding_status": "official_release",
+          "activation": "eligible_for_engine_with_explicit_unknowns",
+          "descriptors": [
+            {
+              "kind": "resource_conversion",
+              "trigger": "weapon_hit",
+              "input_resource": "current_hp",
+              "output_resource": "temporary_shield",
+              "input_magnitude": null,
+              "output_magnitude": null,
+              "cooldown_seconds": null,
+              "duration_seconds": null,
+              "guard": {
+                "shield_percent_max_hp_lte": 40
+              },
+              "note": "Do not confuse shield amount with shield capacity."
+            },
+            {
+              "kind": "conditional_modifier",
+              "trigger": "hp_decreased",
+              "stats": [
+                "weapon_damage",
+                "status_damage"
+              ],
+              "magnitude": null,
+              "duration_seconds": null
+            },
+            {
+              "kind": "duration_refresh",
+              "trigger": "weapon_hit",
+              "guard": {
+                "shield_percent_max_hp_gt": 40
+              },
+              "targets": [
+                "savior_shield",
+                "savior_damage_buff"
+              ],
+              "hp_cost": 0
+            }
+          ],
+          "source_ids": [
+            "savior_release",
+            "savior_update"
+          ],
+          "note": "Release says the normal trigger does not occur if shield exceeds 40%; later update adds refresh behavior while shield stays above 40%. Exact boundary and durations still need current tooltip verification."
+        },
+        {
+          "required_items": 4,
+          "binding_status": "official_release",
+          "activation": "eligible_for_engine_with_explicit_unknowns",
+          "descriptors": [
+            {
+              "kind": "consumable_use",
+              "trigger": "hp_percent_below_30",
+              "selection": "least_potent_activator_in_backpack",
+              "cooldown_seconds": null
+            }
+          ],
+          "source_ids": [
+            "savior_release"
+          ],
+          "note": null
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:scout-set",
+      "name": "Scout Set",
+      "rarity": "rare",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Max HP +10%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "hp"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Weapon DMG +8%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "Weapon and Tactical Item DMG +20% when not spotted by enemies",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "Sprint Speed +12% and Stamina Recovery Speed +20% when HP is below 50%",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "hp",
+            "resource_recovery",
+            "stamina"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:shelterer-set",
+      "name": "Shelterer Set",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Status DMG Reduction +15%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "status_damage"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Element DMG (Blaze, Frost, Shock, Blast) +8%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "elemental"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "Each weapon hit grants 1 stack of Deviant Energy. Every stack of Deviant Energy grants 1% Elemental DMG (Blaze, Frost, Shock, Blast). Effect can stack up to 20 times. Reloading removes half of the total stacks.",
+          "effect_family_hint": "event_or_state_machine",
+          "dimensions_hint": [
+            "elemental",
+            "hit",
+            "reload"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "Increase max Deviant Energy stack by 10. Grant 2 additional stacks when hitting a weakspot.",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "weakspot"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:snow-panther-set",
+      "name": "Snow Panther Set",
+      "rarity": "epic",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Torso DMG Reduction +10%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:snowland-rustic-set",
+      "name": "Snowland Rustic Set",
+      "rarity": "uncommon",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Movement Speed +8%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Cold Resist +5",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "HP +600",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "hp"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "Gathering Speed +20%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:stormweaver-set",
+      "name": "Stormweaver Set",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "legacy_text": "Rolling Stamina cost -20%.",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [
+            "stamina"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 2,
+          "legacy_text": "Magazine Capacity +15%",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 3,
+          "legacy_text": "Taking DMG grants a stack of Powered Armor, DMG Reduction +4% for 10s. Effect can stack up to 6 times.",
+          "effect_family_hint": "static_modifier_candidate",
+          "dimensions_hint": [],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        },
+        {
+          "required_items": 4,
+          "legacy_text": "Rolling consumes 3 stacks of Powered Armor and triggers an explosion that knocks back surrounding enemies. For each enemy hit, HP +5%, up to 20% (cooldown: 10s).",
+          "effect_family_hint": "conditional_modifier_or_event",
+          "dimensions_hint": [
+            "hp"
+          ],
+          "binding_status": "catalog_hint_only",
+          "activation": "do_not_calculate",
+          "source_ids": [
+            "catalog"
+          ]
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:treacherous-tides-set",
+      "name": "Treacherous Tides Set",
+      "rarity": "legendary",
+      "thresholds": [
+        {
+          "required_items": 1,
+          "binding_status": "historical_official_qualitative",
+          "activation": "do_not_calculate_without_current_confirmation",
+          "descriptors": [
+            {
+              "kind": "modifier",
+              "trigger": "equipped",
+              "stat": "incoming_weapon_damage",
+              "direction": "reduction",
+              "magnitude": null
+            }
+          ],
+          "source_ids": [
+            "january_gear"
+          ],
+          "note": "One-piece value not confirmed by September 2026 balance note."
+        },
+        {
+          "required_items": 2,
+          "binding_status": "official_release",
+          "activation": "eligible_for_engine_with_explicit_unknowns",
+          "descriptors": [
+            {
+              "kind": "conditional_modifier",
+              "trigger": "hp_percent_below_70",
+              "stats": [
+                "weapon_damage",
+                "status_damage"
+              ],
+              "value_percent": 12
+            }
+          ],
+          "source_ids": [
+            "treacherous_release"
+          ],
+          "note": null
+        },
+        {
+          "required_items": 3,
+          "binding_status": "official_release",
+          "activation": "eligible_for_engine_with_explicit_unknowns",
+          "descriptors": [
+            {
+              "kind": "max_hp_modifier",
+              "trigger": "low_sanity",
+              "direction": "reduction",
+              "maximum_percent": 60,
+              "curve": null
+            },
+            {
+              "kind": "conditional_modifier",
+              "trigger": "current_hp_percent",
+              "stats": [
+                "weapon_damage",
+                "status_damage"
+              ],
+              "minimum_percent": 8,
+              "minimum_at_hp_percent": 100,
+              "maximum_percent": 28,
+              "maximum_at_or_below_hp_percent": 60,
+              "interpolation": null
+            }
+          ],
+          "source_ids": [
+            "treacherous_release"
+          ],
+          "note": "Endpoint values verified; interpolation and definition of current HP denominator unspecified."
+        },
+        {
+          "required_items": 4,
+          "binding_status": "official_preview_only",
+          "activation": "do_not_calculate_without_current_confirmation",
+          "descriptors": [
+            {
+              "kind": "shield_generation",
+              "trigger": "hp_percent_below_40",
+              "magnitude_percent_max_hp": 30,
+              "cooldown_seconds": 8,
+              "duration_seconds": null,
+              "stacking": null
+            }
+          ],
+          "source_ids": [
+            "treacherous_preview",
+            "treacherous_release"
+          ],
+          "note": "Release confirms shield enhancement but does not restate exact value. Preview numbers must not be promoted to verified current values."
+        }
+      ],
+      "source_ids": [
+        "catalog"
+      ],
+      "coverage": "identity_and_legacy_text_only"
+    },
+    {
+      "catalog_id": "set:dark-resonance-set",
+      "name": "Dark Resonance Set",
+      "rarity": "legendary",
+      "coverage": "official_preview_qualitative",
+      "source_ids": [
+        "dark_resonance"
+      ],
+      "thresholds": [
+        {
+          "required_items": 1,
+          "binding_status": "official_preview_only",
+          "activation": "do_not_calculate_without_current_confirmation",
+          "descriptors": [
+            {
+              "kind": "shield_generation",
+              "trigger": "deviation_ultimate_use",
+              "magnitude": null,
+              "duration_seconds": null,
+              "stacking": null
+            }
+          ],
+          "source_ids": [
+            "dark_resonance"
+          ]
+        },
+        {
+          "required_items": 2,
+          "binding_status": "official_preview_only",
+          "activation": "do_not_calculate_without_current_confirmation",
+          "descriptors": [
+            {
+              "kind": "conditional_modifier",
+              "trigger": "deviant_power_not_full",
+              "stat": "player_damage",
+              "magnitude": null
+            }
+          ],
+          "source_ids": [
+            "dark_resonance"
+          ]
+        },
+        {
+          "required_items": 3,
+          "binding_status": "official_preview_only",
+          "activation": "do_not_calculate_without_current_confirmation",
+          "descriptors": [
+            {
+              "kind": "resource_scaled_modifier",
+              "trigger": "deviant_power_consumed",
+              "stat": "player_damage",
+              "magnitude": null,
+              "scaling": null
+            }
+          ],
+          "source_ids": [
+            "dark_resonance"
+          ]
+        },
+        {
+          "required_items": 4,
+          "binding_status": "official_preview_only",
+          "activation": "do_not_calculate_without_current_confirmation",
+          "descriptors": [
+            {
+              "kind": "resource_conversion",
+              "trigger": "deviation_battle_skill_use",
+              "input_resource": "deviant_power",
+              "output_resource": "skill_cooldown_reduction",
+              "input_magnitude": null,
+              "output_magnitude": null
+            }
+          ],
+          "source_ids": [
+            "dark_resonance"
+          ]
+        }
+      ]
+    }
+  ],
+  "unique_gear": [
+    {
+      "catalog_id": "armor:snowline-elite-vest",
+      "binding_status": "official_release",
+      "activation": "eligible_for_engine_with_explicit_unknowns",
+      "descriptors": [
+        {
+          "kind": "trigger_duplication",
+          "trigger": "frost_vortex_generated",
+          "repetitions_extra": 1,
+          "duplicates": "frost_vortex_triggered_effects",
+          "generates_new_vortex": false,
+          "recursion_guard": true
+        },
+        {
+          "kind": "stacking_modifier",
+          "trigger": "frost_vortex_generated",
+          "stat": "frost_vortex_damage",
+          "magnitude_per_stack": null,
+          "max_stacks": 5,
+          "duration_seconds": 5
+        }
+      ],
+      "source_ids": [
+        "snowline"
+      ]
+    },
+    {
+      "catalog_id": "armor:gilded-gauntlets",
+      "binding_status": "official_preview_only",
+      "activation": "do_not_calculate_without_current_confirmation",
+      "descriptors": [
+        {
+          "kind": "damage_eligibility",
+          "trigger": "burn_damage",
+          "enables": "critical_hit",
+          "crit_rule": null
+        }
+      ],
+      "source_ids": [
+        "dark_resonance"
+      ]
+    },
+    {
+      "catalog_id": "armor:pivot-step-leather-boots",
+      "binding_status": "official_preview_only",
+      "activation": "do_not_calculate_without_current_confirmation",
+      "descriptors": [
+        {
+          "kind": "cooldown_reset",
+          "trigger": "deviation_ultimate_use",
+          "target": "battle_skill"
+        }
+      ],
+      "source_ids": [
+        "dark_resonance"
+      ]
+    },
+    {
+      "catalog_id": "armor:snowdrift-top",
+      "binding_status": "official_preview_only",
+      "activation": "do_not_calculate_without_current_confirmation",
+      "descriptors": [
+        {
+          "kind": "particle_pickup_modifier",
+          "trigger": "deviant_particle_picked_up",
+          "additional_charge_stacks": null,
+          "stats": [
+            "weapon_damage",
+            "status_damage"
+          ],
+          "magnitude": null,
+          "duration_seconds": null
+        }
+      ],
+      "source_ids": [
+        "september_gear"
+      ]
+    },
+    {
+      "catalog_id": "armor:bloodstained-tracker-boots",
+      "binding_status": "official_preview_only",
+      "activation": "do_not_calculate_without_current_confirmation",
+      "descriptors": [
+        {
+          "kind": "status_duplication_and_modifier",
+          "trigger": "bulls_eye_applied_to_already_marked_target",
+          "target": "one_other_nearby_enemy",
+          "stat": "attack",
+          "magnitude": null,
+          "duration_seconds": null
+        }
+      ],
+      "source_ids": [
+        "september_gear"
+      ]
+    },
+    {
+      "catalog_id": "armor:overloaded-pants",
+      "binding_status": "official_release",
+      "activation": "eligible_for_engine_with_explicit_unknowns",
+      "descriptors": [
+        {
+          "kind": "state_activation",
+          "trigger": "power_surge_damage_count_reached",
+          "state": "unlimited_ammunition",
+          "hit_count": null,
+          "duration_seconds": null
+        }
+      ],
+      "source_ids": [
+        "january_gear"
+      ]
+    },
+    {
+      "catalog_id": "armor:charmed-mag-top",
+      "binding_status": "official_release",
+      "activation": "eligible_for_engine_with_explicit_unknowns",
+      "descriptors": [
+        {
+          "kind": "extra_bullet_generator",
+          "trigger": "shot_while_fast_gunner",
+          "chance": null,
+          "scaling": "chance rises as magazine empties",
+          "extra_bullets": null
+        }
+      ],
+      "source_ids": [
+        "january_gear"
+      ]
+    },
+    {
+      "catalog_id": "armor:viper-mask",
+      "binding_status": "official_release",
+      "activation": "eligible_for_engine_with_explicit_unknowns",
+      "descriptors": [
+        {
+          "kind": "trigger_radius_and_damage_modifier",
+          "trigger": "unstable_bomber",
+          "radius_modifier": null,
+          "damage_scaling": "increases with range",
+          "magnitude": null
+        }
+      ],
+      "source_ids": [
+        "january_gear"
+      ]
+    },
+    {
+      "catalog_id": "armor:earthly-boots",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:leather-boots",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:cowboy-boots",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:fire-rune-boots",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:old-huntsman-boots",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:tactical-combat-boots",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:tactical-combat-shoes",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:bbq-gloves",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:drifter-gauntlets",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:gilded-palm-shield",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:hardy-gloves",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:snow-camo-gloves",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:beret",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:mayfly-goggles",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:cage-helmet",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:gas-mask-hood",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:gas-tight-helmet",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:yellow-painted-mask",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:precise-shot-mask",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:desert-dust-mask",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:oasis-mask",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:hot-dog-shorts",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:sharp-blade-pants",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:tattoo-pants",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:sleek-leather-jacket",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:covert-walker-shirt",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:doyen-s-cloak",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:explosive-front-top",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:frost-tactical-vest",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    },
+    {
+      "catalog_id": "armor:wind-intepreter-cap",
+      "binding_status": "unverified",
+      "activation": "do_not_calculate",
+      "descriptors": [],
+      "source_ids": [
+        "catalog"
+      ],
+      "note": "No current source-backed unique effect in this packet."
+    }
+  ],
+  "membership_overrides": [
+    {
+      "catalog_id": "armor:dark-resonance-shoes",
+      "set_catalog_id": "set:dark-resonance-set",
+      "evidence_status": "identity_inference_from_item_name_and_official_set_announcement",
+      "source_ids": [
+        "catalog",
+        "dark_resonance"
+      ]
+    },
+    {
+      "catalog_id": "armor:dark-resonance-gloves",
+      "set_catalog_id": "set:dark-resonance-set",
+      "evidence_status": "identity_inference_from_item_name_and_official_set_announcement",
+      "source_ids": [
+        "catalog",
+        "dark_resonance"
+      ]
+    },
+    {
+      "catalog_id": "armor:dark-resonance-helmet",
+      "set_catalog_id": "set:dark-resonance-set",
+      "evidence_status": "identity_inference_from_item_name_and_official_set_announcement",
+      "source_ids": [
+        "catalog",
+        "dark_resonance"
+      ]
+    },
+    {
+      "catalog_id": "armor:dark-resonance-mask",
+      "set_catalog_id": "set:dark-resonance-set",
+      "evidence_status": "identity_inference_from_item_name_and_official_set_announcement",
+      "source_ids": [
+        "catalog",
+        "dark_resonance"
+      ]
+    },
+    {
+      "catalog_id": "armor:dark-resonance-pants",
+      "set_catalog_id": "set:dark-resonance-set",
+      "evidence_status": "identity_inference_from_item_name_and_official_set_announcement",
+      "source_ids": [
+        "catalog",
+        "dark_resonance"
+      ]
+    },
+    {
+      "catalog_id": "armor:dark-resonance-vest",
+      "set_catalog_id": "set:dark-resonance-set",
+      "evidence_status": "identity_inference_from_item_name_and_official_set_announcement",
+      "source_ids": [
+        "catalog",
+        "dark_resonance"
+      ]
+    }
+  ],
+  "integration_rules": [
+    "Never calculate catalog_hint_only, official_preview_only, historical_official_qualitative or unverified records as current numeric fact.",
+    "Distinguish shield_generation, shield_restoration, shield_capacity, and shield mitigation.",
+    "Process trigger_duplication without emitting a second Frost Vortex or re-entering its own trigger.",
+    "A None magnitude is unknown, not zero.",
+    "Set thresholds are cumulative; count distinct equipped pieces belonging to that set, never duplicate a slot."
+  ]
+}

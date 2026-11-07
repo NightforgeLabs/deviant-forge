@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "version": "2026-10-22",
+  "meaning": "Capabilities concern the selected weapon's own effects. Other equipped sources are audited separately. Unknown is never absence.",
+  "entries": {
+    "weapon:sn700": {
+      "direct_hit": "present",
+      "triggered_damage": "absent_in_record",
+      "status_damage": "absent_in_record",
+      "debuff": "absent_in_record",
+      "conditional_buff": "absent_in_record",
+      "firing_reload": "absent_in_record",
+      "source": ["https://www.oncehumandb.com/weapons/sn700-62c4313c0646", "https://github.com/lReDragol/OnceHuman_Tools/tree/d6b1d5b99f84cb6ddc6b8f85144ee067af2a4e45"],
+      "evidence": "Current client-derived weapon page lists direct-fire statistics and no unique effect; pinned community catalog explicitly says no unique effects. The current page does not prove exhaustive absence, so a direct-only recommendation remains conditional."
+    },
+    "weapon:kam-crank": {
+      "direct_hit": "present", "triggered_damage": "absent_in_record", "status_damage": "present",
+      "debuff": "unknown", "conditional_buff": "present", "firing_reload": "present",
+      "source": ["https://github.com/lReDragol/OnceHuman_Tools/tree/d6b1d5b99f84cb6ddc6b8f85144ee067af2a4e45"],
+      "evidence": "Pinned structured weapon record describes Burn on every seventh hit and a kill-conditioned reload buff. Current tooltip confirmation is missing; status contribution must be resolved before ranking."
+    },
+    "weapon:kvd-boom-boom": {
+      "direct_hit": "present", "triggered_damage": "present", "status_damage": "present",
+      "debuff": "unknown", "conditional_buff": "unknown", "firing_reload": "unknown",
+      "source": ["https://www.oncehuman.game/news/devBlog/20241123/40781_1195665.html"],
+      "evidence": "Official adjustment describes Burn on hit and a separate explosion. Later coefficients and cooldowns need current verification."
+    },
+    "weapon:kam-abyss-glance": {
+      "direct_hit": "present", "triggered_damage": "unknown", "status_damage": "present",
+      "debuff": "unknown", "conditional_buff": "unknown", "firing_reload": "unknown",
+      "source": ["https://www.oncehuman.game/news/devBlog/20241123/40781_1195665.html"],
+      "evidence": "Official adjustment describes Frost Vortex triggering after hits and dealing Frost damage. Current coefficients and any separate trigger damage need verification."
+    }
+  }
+}

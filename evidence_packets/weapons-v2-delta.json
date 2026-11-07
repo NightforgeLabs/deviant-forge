@@ -1,0 +1,715 @@
+{
+  "schema_version": 2,
+  "base_packet": "bindings.json",
+  "base_schema_version": 1,
+  "as_of": "2026-11-01",
+  "purpose": "Additive v2 weapon binding batch and explicit v1 corrections; v1 file remains unchanged.",
+  "sources": {
+    "dec24": {
+      "url": "https://www.oncehuman.game/news/update/20241218/40780_1200958.html",
+      "date": "2024-12-18",
+      "status": "official_release_at_date"
+    },
+    "nov24": {
+      "url": "https://www.oncehuman.game/news/devBlog/20241123/40781_1195665.html",
+      "date": "2024-11-23",
+      "status": "official_preview_not_final"
+    },
+    "may26": {
+      "url": "https://www.oncehuman.game/news/devBlog/20260521/40781_1301130.html",
+      "date": "2026-05-21",
+      "status": "official_preview_numbers_not_live_verified"
+    },
+    "may26_release": {
+      "url": "https://www.oncehuman.game/news/update/20260527/40780_1301797.html",
+      "date": "2026-05-27",
+      "status": "official_release_confirms_adjustment_not_exact_numbers"
+    }
+  },
+  "new_entries": {
+    "weapon:pdw90-holographic-resonance": {
+      "name": "PDW90 - Holographic Resonance",
+      "status": "partial_preview_numbers",
+      "events": [
+        {
+          "event": "area_pulse",
+          "trigger": {
+            "kind": "weapon_hit_counter",
+            "hits": 11,
+            "radius_meters": 10
+          },
+          "source": "may26",
+          "evidence_status": "preview_numeric",
+          "damage": {
+            "basis": "attack",
+            "damage_class": "weapon",
+            "element": null,
+            "coefficient": 8.0,
+            "crit_eligible": null,
+            "weakspot_eligible": null,
+            "tags": [
+              "area_pulse"
+            ],
+            "pvp_multiplier": null
+          }
+        }
+      ],
+      "unknowns": [
+        "current 11-hit/800%-Attack/10m numbers",
+        "counter reset and target switching",
+        "crit/weakspot eligibility of pulse",
+        "base stats by tier/calibration"
+      ],
+      "notes": "May 27 release confirms an optimization and points to dev blog; exact numbers are test values in the blog. Its older preview value of 12 hits/8m is superseded as a proposed value."
+    },
+    "weapon:aug-electron-cloud": {
+      "name": "AUG - Electron Cloud",
+      "status": "partial_preview_numbers",
+      "events": [
+        {
+          "event": "electromagnetic_zone",
+          "trigger": {
+            "kind": "first_weapon_hit_after_reload"
+          },
+          "source": "may26",
+          "evidence_status": "preview_numeric",
+          "effect": {
+            "kind": "spawn_or_refresh_zone",
+            "radius_meters": 4,
+            "duration_seconds": 7,
+            "max_simultaneous_zones": 1,
+            "refresh_position_and_duration": true
+          }
+        }
+      ],
+      "unknowns": [
+        "zone damage coefficient/basis/class and tick interval",
+        "current radius/duration/refresh behavior",
+        "base stats by tier/calibration"
+      ],
+      "notes": "May 27 release confirms an optimization but leaves exact zone values to a test-number dev blog."
+    },
+    "weapon:compound-bow-the-burden-of-betrayal": {
+      "name": "Compound Bow - The Burden of Betrayal",
+      "status": "partial_preview_numbers",
+      "events": [
+        {
+          "event": "full_charge_bounce_bonus",
+          "trigger": {
+            "kind": "at_full_charge"
+          },
+          "source": "may26",
+          "evidence_status": "preview_numeric",
+          "effect": {
+            "kind": "buff",
+            "stat": "bounce_damage",
+            "operation": "additive_percent",
+            "fraction": 0.2
+          }
+        },
+        {
+          "event": "full_charge_crit_bonus",
+          "trigger": {
+            "kind": "at_full_charge"
+          },
+          "source": "may26",
+          "evidence_status": "preview_numeric",
+          "effect": {
+            "kind": "buff",
+            "stat": "crit_rate",
+            "operation": "additive_percent_points",
+            "fraction": 0.35
+          }
+        },
+        {
+          "event": "meta_pvp_scaling",
+          "trigger": {
+            "kind": "target_is_meta"
+          },
+          "source": "may26",
+          "evidence_status": "preview_numeric",
+          "effect": {
+            "kind": "damage_multiplier",
+            "bounce": 0.5,
+            "echo": 0.4
+          }
+        }
+      ],
+      "unknowns": [
+        "full Echo trigger/coefficient/basis/class",
+        "current full-charge and PvP numbers",
+        "draw-speed and base stats by tier/calibration"
+      ],
+      "notes": "May 27 release confirms adjustment but May 21 numbers are explicitly test values; old 25% crit and 80% Meta Echo values are superseded as proposed values."
+    },
+    "weapon:r500-memento": {
+      "name": "R500 - Memento",
+      "status": "partial_mixed_release_preview",
+      "events": [
+        {
+          "event": "fast_gunner",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.45,
+            "weakspot_override_probability": 1.0
+          },
+          "source": "may26",
+          "evidence_status": "preview_numeric",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "fast_gunner"
+          }
+        },
+        {
+          "event": "weakspot_bonus",
+          "trigger": {
+            "kind": "on_weakspot_hit"
+          },
+          "source": "may26",
+          "evidence_status": "preview_numeric",
+          "effect": {
+            "kind": "buff",
+            "stat": "weakspot_damage",
+            "operation": "additive_percent",
+            "fraction": 0.4
+          }
+        },
+        {
+          "event": "fast_gunner_reload",
+          "trigger": {
+            "kind": "on_fast_gunner_trigger"
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "restore_ammo",
+            "rounds": 1
+          }
+        },
+        {
+          "event": "extra_bullet",
+          "trigger": {
+            "kind": "on_shot",
+            "probability": 0.5
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "consume_extra_ammo",
+            "rounds": 1,
+            "attack_bonus_fraction_when_consumed": 0.8
+          }
+        }
+      ],
+      "unknowns": [
+        "current 100% weakspot trigger/40% weakspot bonus",
+        "whether 2024 reload/extra-ammo effects remain",
+        "bullet damage branch timing and current base stats"
+      ],
+      "notes": "December 2024 release revised extra bullet chance 60→50% and its Attack bonus 60→80%. May 2026 blog proposed weakspot chance 80→100% and +40% Weakspot DMG; release confirms optimization but not exact numbers."
+    },
+    "weapon:mps5-kumawink": {
+      "name": "MPS5 - Kumawink",
+      "status": "partial_official_release_historical",
+      "events": [
+        {
+          "event": "aoe_bounce",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.25
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "aoe_bounce",
+            "max_targets": 3,
+            "always_rebounds": true,
+            "rebound_fraction_of_bounce_damage": 1.0
+          }
+        },
+        {
+          "event": "post_reload_bounce",
+          "trigger": {
+            "kind": "after_reload"
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "buff",
+            "stat": "bounce_count",
+            "increment": 1,
+            "duration_seconds": 6,
+            "removed_on_weapon_switch": true
+          }
+        },
+        {
+          "event": "bounce_bonus",
+          "trigger": {
+            "kind": "always"
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "buff",
+            "stat": "bounce_damage",
+            "fraction": 0.3
+          }
+        }
+      ],
+      "unknowns": [
+        "current effects",
+        "AoE Bounce base damage and target-selection rule",
+        "rebound target and self-recursion rule",
+        "current base stats"
+      ],
+      "notes": "December 2024 release replaced the earlier below-50%-magazine extra Bounce condition with an after-reload six-second buff."
+    },
+    "weapon:mg4-mr-squid": {
+      "name": "MG4 - Mr Squid",
+      "status": "partial_official_release_historical",
+      "events": [
+        {
+          "event": "bounce",
+          "trigger": {
+            "kind": "on_crit_hit",
+            "probability": 0.7
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "bounce"
+          }
+        },
+        {
+          "event": "bounce_ramp",
+          "trigger": {
+            "kind": "on_bounce_damage"
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "buff",
+            "stat": "weapon_damage",
+            "fraction_per_stack": 0.01,
+            "max_stacks": 50,
+            "decay": {
+              "stacks": 1,
+              "every_seconds": 5
+            }
+          }
+        },
+        {
+          "event": "continuous_fire_targets",
+          "trigger": {
+            "kind": "after_continuous_shooting",
+            "seconds": 2
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "buff",
+            "stat": "bounce_target_count",
+            "increment": 1
+          }
+        }
+      ],
+      "unknowns": [
+        "current effects",
+        "Bounce damage and target selection",
+        "whether continuous-fire bonus persists after firing stops",
+        "current base stats"
+      ],
+      "notes": "Catalog name Mr Squid is mapped to official Squidward by its identity and matching effects; verify native tooltip before live binding. December release changed ramp trigger from Bounce activation to Bounce damage."
+    },
+    "weapon:mps5-blue-tiger": {
+      "name": "MPS5 - Blue Tiger",
+      "status": "partial_official_release_historical",
+      "events": [
+        {
+          "event": "bounce",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.25
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "bounce"
+          }
+        },
+        {
+          "event": "bounce_bonus",
+          "trigger": {
+            "kind": "always"
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "buff",
+            "stat": "bounce_damage",
+            "fraction": 0.6
+          }
+        }
+      ],
+      "unknowns": [
+        "current trigger rate/bonus",
+        "Bounce base formula and crit/weakspot eligibility",
+        "current base stats"
+      ],
+      "notes": "December release reduced trigger from the earlier proposed 30% to 25%."
+    },
+    "weapon:hamr-brahminy": {
+      "name": "HAMR - Brahminy",
+      "status": "partial_official_release_historical",
+      "events": [
+        {
+          "event": "bounce",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.6
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "bounce",
+            "extra_bounces": 2,
+            "pvp_damage_multiplier": 0.35,
+            "weakspot_priority_bonus_fraction": 1.0
+          }
+        },
+        {
+          "event": "environment_bounce",
+          "trigger": {
+            "kind": "on_hit_environment"
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "bounce",
+            "damage_multiplier": 0.7,
+            "pvp_damage_multiplier": 0.95
+          }
+        }
+      ],
+      "unknowns": [
+        "current trigger/extra Bounce values",
+        "exact Bounce path and repeated target rule",
+        "base Bounce damage and current weapon stats"
+      ],
+      "notes": "December release reduced PvP Bounce damage from earlier 50% to 35% and raised Weakspot Priority 50→100%."
+    },
+    "weapon:sn700-gulped-lore": {
+      "name": "SN700 - Gulped Lore",
+      "status": "partial_official_release_historical",
+      "events": [
+        {
+          "event": "unstable_bomber",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.3,
+            "weakspot_override_probability": 0.9
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "unstable_bomber",
+            "guaranteed_crit": true,
+            "crit_damage_bonus_per_weakspot_damage_fraction": 1.0
+          }
+        },
+        {
+          "event": "kill_ramp",
+          "trigger": {
+            "kind": "on_kill"
+          },
+          "source": "dec24",
+          "evidence_status": "release_at_date",
+          "effect": {
+            "kind": "buff",
+            "stats": {
+              "unstable_bomber_damage": 0.2,
+              "unstable_bomber_range": -0.1
+            },
+            "max_stacks": 5,
+            "duration_seconds": 30
+          }
+        }
+      ],
+      "unknowns": [
+        "current effects",
+        "Unstable Bomber base coefficient/basis/class",
+        "crit eligibility beyond guaranteed crit and current weapon stats"
+      ],
+      "notes": "December release restored per-kill range reduction; its 30% and 90% chances are absolute alternatives, not a +60% relative factor."
+    },
+    "weapon:mg4-conflicting-memories": {
+      "name": "MG4 - Conflicting Memories",
+      "status": "preview_historical_only",
+      "events": [
+        {
+          "event": "shrapnel",
+          "trigger": {
+            "kind": "hit_counter",
+            "hits": 12
+          },
+          "source": "nov24",
+          "evidence_status": "preview_historical",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "shrapnel"
+          }
+        },
+        {
+          "event": "magazine_shrapnel_parts",
+          "trigger": {
+            "kind": "magazine_size"
+          },
+          "source": "nov24",
+          "evidence_status": "preview_historical",
+          "effect": {
+            "kind": "extra_shrapnel_parts",
+            "rounds_per_extra_part": 40,
+            "max_extra_parts": 4
+          }
+        },
+        {
+          "event": "large_mag_shrapnel_damage",
+          "trigger": {
+            "kind": "magazine_size_above",
+            "threshold_exclusive": 90
+          },
+          "source": "nov24",
+          "evidence_status": "preview_historical",
+          "effect": {
+            "kind": "buff",
+            "stat": "shrapnel_damage",
+            "fraction_per_15_extra_rounds": 0.1
+          }
+        }
+      ],
+      "unknowns": [
+        "shipped/current thresholds and increments",
+        "rounding of magazine thresholds",
+        "base Shrapnel formula and target parts",
+        "current base stats"
+      ],
+      "notes": "November 2024 dev-blog test values, not confirmed in December release. The >100-round / +8% pre-adjustment side is superseded by proposed >90-round / +10%."
+    },
+    "weapon:g17-dusty": {
+      "name": "G17 - Dusty",
+      "status": "preview_historical_only",
+      "events": [
+        {
+          "event": "shrapnel",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.3,
+            "weakspot_override_probability": 0.65
+          },
+          "source": "nov24",
+          "evidence_status": "preview_historical",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "shrapnel",
+            "can_hit_triggering_part": true
+          }
+        },
+        {
+          "event": "weakspot_bonus",
+          "trigger": {
+            "kind": "always"
+          },
+          "source": "nov24",
+          "evidence_status": "preview_historical",
+          "effect": {
+            "kind": "buff",
+            "stat": "weakspot_damage",
+            "fraction": 0.15
+          }
+        }
+      ],
+      "unknowns": [
+        "shipped/current trigger chance",
+        "Shrapnel hit-part count and damage",
+        "current base stats"
+      ],
+      "notes": "November 2024 dev-blog test values; do not assume the old weakspot-only 55% rule or later proposed 30/65% rule is current."
+    },
+    "weapon:socr-the-last-valor": {
+      "name": "SOCR - The Last Valor",
+      "status": "preview_historical_only",
+      "events": [
+        {
+          "event": "shrapnel_crit_counter",
+          "trigger": {
+            "kind": "after_three_hits_fourth_crit",
+            "reset_remainder": 1
+          },
+          "source": "nov24",
+          "evidence_status": "preview_historical",
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "shrapnel"
+          }
+        }
+      ],
+      "unknowns": [
+        "shipped/current trigger logic",
+        "whether non-crit fourth hit advances or waits",
+        "Shrapnel coefficient/parts",
+        "current base stats"
+      ],
+      "notes": "Official preview calls it The Last Valour; catalog ID uses Valor. Counter carries one hit after trigger rather than resetting to zero, but this was a proposed optimization."
+    }
+  },
+  "revisions": {
+    "weapon:kam-abyss-glance": {
+      "replaces_v1_source": "nov24",
+      "replacement_source": "dec24",
+      "patch": {
+        "events.frost_vortex.trigger.hits": 14,
+        "events.vortex_center_bonus.buff.max_fraction": 2.5
+      },
+      "reason": "Dec release changed proposed 15 hits to 14 and max center bonus +200% to +250%.",
+      "status_after_patch": "partial_official_release_historical"
+    },
+    "weapon:kv-sbr-little-jaws": {
+      "replaces_v1_source": "nov24",
+      "replacement_source": "dec24",
+      "patch": {
+        "events.delay_bonus.buff.fraction_per_tenth_second": 0.1,
+        "events.unstable_bomber.effect.self_damage_multiplier": 0.6
+      },
+      "reason": "Dec release changed proposed +20% per 0.1s delay to +10% and added 40% less self-damage.",
+      "status_after_patch": "partial_official_release_historical"
+    }
+  },
+  "coverage": {
+    "catalog_weapon_count": 138,
+    "v1_bound": 14,
+    "new_bound": 12,
+    "combined_bound": 26,
+    "remaining_unbound": 112,
+    "remaining_unbound_ids": [
+      "weapon:aa12",
+      "weapon:acs12-corrosion",
+      "weapon:acs12-netherworld",
+      "weapon:akm",
+      "weapon:aurora-fort",
+      "weapon:awm",
+      "weapon:aws-338-black-panther",
+      "weapon:aws-338-bullseye",
+      "weapon:bar",
+      "weapon:baseball-bat",
+      "weapon:broken-bottle",
+      "weapon:camping-knife",
+      "weapon:compound-bow",
+      "weapon:crowbar",
+      "weapon:db12-backfire",
+      "weapon:db12-raining-cash",
+      "weapon:dbsg",
+      "weapon:dbsg-dual-fury",
+      "weapon:dbsg-format",
+      "weapon:dbsg-old-huntsman",
+      "weapon:de-50",
+      "weapon:de-50-goshawk",
+      "weapon:de-50-jaws",
+      "weapon:de-50-wildfire",
+      "weapon:dp12",
+      "weapon:dual-fury",
+      "weapon:ebr-14-octopus-grilled-rings",
+      "weapon:fate-of-the-mystic",
+      "weapon:fine-dagger",
+      "weapon:fine-steel-pipe",
+      "weapon:flamethrower",
+      "weapon:flare-gun",
+      "weapon:frozen-northern-pike",
+      "weapon:g17-cash-only",
+      "weapon:glock",
+      "weapon:hamr-crumble",
+      "weapon:hamr-hannya",
+      "weapon:kam",
+      "weapon:kam-pioneer",
+      "weapon:kukri",
+      "weapon:kv-sbr",
+      "weapon:kv-sbr-icy-rain",
+      "weapon:kvd-icebreaker",
+      "weapon:long-axe",
+      "weapon:m416",
+      "weapon:m416-autumn-equinox",
+      "weapon:m416-scorched-earth",
+      "weapon:m416-silent-anabasis",
+      "weapon:m82a1",
+      "weapon:m870",
+      "weapon:machete",
+      "weapon:metal-baseball-bat",
+      "weapon:mg4",
+      "weapon:mg4-sandstorm",
+      "weapon:mg4-scorched-earth",
+      "weapon:mg4-wrath-of-hades",
+      "weapon:mgl",
+      "weapon:military-dagger",
+      "weapon:military-shovel",
+      "weapon:mk14",
+      "weapon:morgan",
+      "weapon:mps5",
+      "weapon:mps5-primal-rage",
+      "weapon:mps7",
+      "weapon:mps7-chaos-domain",
+      "weapon:mps7-div-evo",
+      "weapon:mps7-focus",
+      "weapon:mps7-urban-ninja",
+      "weapon:nail-gun",
+      "weapon:northern-pike",
+      "weapon:oic-8-last-carnival",
+      "weapon:old-baseball-bat",
+      "weapon:old-huntsman",
+      "weapon:old-machete",
+      "weapon:p90",
+      "weapon:pathfinder",
+      "weapon:pyroclasm-starter",
+      "weapon:qbj97-fiery-trees-and-silver-flowers",
+      "weapon:r500",
+      "weapon:r500-hunter",
+      "weapon:r500-interfade",
+      "weapon:recurve-bow",
+      "weapon:recurve-crossbow",
+      "weapon:rpd",
+      "weapon:rpg7-rocket-launcher",
+      "weapon:rusted-blade",
+      "weapon:rustic-crossbow",
+      "weapon:s870-sandstorm",
+      "weapon:scar",
+      "weapon:scourge",
+      "weapon:short-wrench",
+      "weapon:sks",
+      "weapon:sn700",
+      "weapon:sn700-dark-snowflake",
+      "weapon:sn700-finale",
+      "weapon:socr-outsider",
+      "weapon:socr-sand-dancer",
+      "weapon:sr2000-die-another-day",
+      "weapon:sr2000-jungle-camouflage",
+      "weapon:star-vortex",
+      "weapon:stealthblade",
+      "weapon:steel-pipe",
+      "weapon:stun-baton",
+      "weapon:tec9",
+      "weapon:the-fabled-masamune",
+      "weapon:the-trial-of-the-mystic",
+      "weapon:torch",
+      "weapon:ultra-force",
+      "weapon:wa2000",
+      "weapon:warning-sign",
+      "weapon:wrench",
+      "weapon:xm8"
+    ]
+  },
+  "merge_policy": "Apply revisions by event name and named field path before adding new entries. Never overwrite a v1 entry wholesale. Preserve source status per event. Preview numbers require explicit opt-in; official release-at-date values still need current tooltip reconciliation before current-build ranking."
+}

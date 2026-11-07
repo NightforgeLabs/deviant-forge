@@ -1,0 +1,80 @@
+{
+  "archive_sha256": "8007b2e16b71d10ac1e0b215f12a4bd68387c22b304e031c60f9a00b0c3c876a",
+  "steam_build_id": "26267212",
+  "dictionary_sha256": "c550e559b9360773b4933bae6e2bb8f3072a994a2cd515b0771c07bec2257a48",
+  "operation": "Six explicitly named entries, installed Zstandard decoder, static marshal constants only; no import or execution.",
+  "entries": [
+    {
+      "entry_index": 26496,
+      "entry_name": "game_common\\data\\gun_blueprint_attr_data.pyc",
+      "entry_id": 1228895468,
+      "entry_offset": 134962516,
+      "stored_size": 24008,
+      "unpacked_size": 79439,
+      "compressed_sha256": "e92ad12de8d40e5167af9d14966d78b3dfd37957aba5a0afd2e57374a16e4d88",
+      "pyc_sha256": "17d454be21f7f1b0b93cabc642f8d88472802e55fc4769ef353bf493eb2dbe29",
+      "literal_size": 79145,
+      "literal_sha256": "0d282c630a2453a73c62445f7ea499812ae6baa1f890937acdaa5207fb620ee1"
+    },
+    {
+      "entry_index": 68290,
+      "entry_name": "game_common\\data\\gun_base_params_data.pyc",
+      "entry_id": 3160059816,
+      "entry_offset": 134926124,
+      "stored_size": 36389,
+      "unpacked_size": 183274,
+      "compressed_sha256": "f072da738df33e29dd489deed372dc5496b70558904609eb2d639df390266b8e",
+      "pyc_sha256": "7d638722af3a4dc9764d75a33ab5fd41ff38c8ab177ba9258addda9a5c143ba1",
+      "literal_size": 182983,
+      "literal_sha256": "7ba048990ee6da61bd37bd82b00e1a11aa8f4df792e429ebae5342a91f505212"
+    },
+    {
+      "entry_index": 72407,
+      "entry_name": "game_common\\data\\item_to_gun_mapping_data.pyc",
+      "entry_id": 3349505035,
+      "entry_offset": 138157824,
+      "stored_size": 24814,
+      "unpacked_size": 35551,
+      "compressed_sha256": "2f56b327e0e9ebc4ed475f5b35462688b78842d94ed321dd1a78a35fca85faf4",
+      "pyc_sha256": "e9a0264eea064dbe7f4c433d9fc5b6e1d52c31c79edc3ca083213fb837b4a076",
+      "literal_size": 35256,
+      "literal_sha256": "4e9620f90570b18d73d5a9bda2253bd21a6383983dadc783e22aa337ef32cdeb"
+    },
+    {
+      "entry_index": 14263,
+      "entry_name": "game_common\\data\\gun_blueprint_param_data.pyc",
+      "entry_id": 666675190,
+      "entry_offset": 135010436,
+      "stored_size": 3420,
+      "unpacked_size": 8643,
+      "compressed_sha256": "2da23a656ccac5e23139cb1138ec7c2eb0ffab8066f9910a773f30af16b716d7",
+      "pyc_sha256": "d116a6e24d97b02eba5da9588a1c22db1226bef3791a7bb8878f92f7147fcbf8",
+      "literal_size": 8348,
+      "literal_sha256": "8ef98ebd9f48db1aeff3543c92919ac4d6d77accff4cb18392596032a06aa914"
+    },
+    {
+      "entry_index": 41031,
+      "entry_name": "game_common\\data\\weapon_detail_param_primary_field_data.pyc",
+      "entry_id": 1901651609,
+      "entry_offset": 144020624,
+      "stored_size": 159,
+      "unpacked_size": 423,
+      "compressed_sha256": "743e080d4cf3aca7b40c08e8c781271322661543d451a7c4a9d5bbf25d894d88",
+      "pyc_sha256": "4c6a8405c4f2e61954d3a75244928bc93018d356a57ece1280746b684099dfed",
+      "literal_size": 114,
+      "literal_sha256": "bf61a2fc501cc650d1555e796379e0ead5a11825043af83d9e5767d9d6a7ad3f"
+    },
+    {
+      "entry_index": 32649,
+      "entry_name": "game_common\\data\\weapon_detail_param_config_data.pyc",
+      "entry_id": 1512027531,
+      "entry_offset": 144020304,
+      "stored_size": 319,
+      "unpacked_size": 727,
+      "compressed_sha256": "e27ad260fb190685da3ced34b994b2a69dd3547e94f0cf3a41d3f8bfa180011b",
+      "pyc_sha256": "89af1050689860ed4f7d859083fbfe8418b3a03617b654f9a22733d776fb6dac",
+      "literal_size": 425,
+      "literal_sha256": "22b47d7a6463a8c72e35b2b25cd48e65bb95c64195e39b328a0e4b1992d4c3b2"
+    }
+  ]
+}

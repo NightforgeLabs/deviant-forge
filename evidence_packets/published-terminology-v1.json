@@ -1,0 +1,43 @@
+{
+  "schema_version": "bonus_line_terminology_and_gaps_v1",
+  "retrieved_utc_date": "2026-11-01",
+  "terminology_alias": {
+    "catalog_term": "Resonance Deviant Energy",
+    "published_layout_term": "Resonant Deviant Energy",
+    "scope": "same-slot suffix layout candidate, not identity-level current-client certification",
+    "anchor_identity": "Deadshot, Bottoms",
+    "reason": "The three sources show the same Deadshot slot and core effect while using the two suffix spellings. The alias is used only to locate the published four-line layout.",
+    "sources": [
+      {"url": "https://www.oncehumandb.com/mods/deadshot-resonance-deviant-energy", "term": "Resonance Deviant Energy", "kind": "community_detail_page"},
+      {"url": "https://oncehuman.th.gl/db/mods/mod_9314", "term": "Resonant Deviant Energy", "kind": "community_mod_database"},
+      {"url": "https://wikily.gg/once-human/mods/19500582", "term": "Resonant Deviant Energy", "kind": "community_mod_page"}
+    ],
+    "affected_catalog_identity_count": 24,
+    "remaining_limit": "Only the exact Deadshot naming bridge was directly compared across sites; transfer to other same-slot identities remains a published-layout candidate."
+  },
+  "unresolved_current_layouts": [
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "public_term": "Violence",
+      "unproven_alias": "Violent",
+      "sources": ["https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91", "https://oncehuman.th.gl/db/mods/mod_9119"],
+      "gap": "OHDB names Violence, while the THGL core page lists Violent. Neither source proves their four-line suffix layouts are identical.",
+      "required_next_evidence": "A card or published four-line layout for Elemental Havoc <Violence>, or an explicit source equating the suffixes."
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-resistance",
+      "public_term": "Resistance",
+      "sources": ["https://www.oncehumandb.com/mods/steady-hand-resistance", "https://wikily.gg/once-human/mods/19500476/"],
+      "gap": "The public pages name the Resistance identity and main effect but do not give its four ordered bonus lines or tier values.",
+      "required_next_evidence": "Published or current Field Guide four-line Resistance layout and stat tier values."
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-resistance",
+      "public_term": "Resistance",
+      "sources": ["https://www.oncehumandb.com/mods/slow-and-steady-resistance-98147b245d78", "https://oncehuman.th.gl/db/mods/mod_9416"],
+      "gap": "OHDB names Resistance, but the THGL Slow and Steady sub-stat sets do not include a Resistance row.",
+      "required_next_evidence": "Published or current Field Guide four-line Resistance layout and stat tier values."
+    }
+  ],
+  "access_status": "Consulted public pages accessible; no observed access denial or explicit bulk restriction used."
+}

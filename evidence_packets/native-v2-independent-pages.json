@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-11-02",
+  "method": "Independent read of exact Once Human Database blueprint and Tier I gear pages; no inferred damage",
+  "records": [
+    {
+      "blueprint_id": 13411101,
+      "tier_one_gear_id": 10411101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13411101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10411101",
+      "blueprint_title": "SCOR B.P.",
+      "gear_title": "SCAR (Tier 1)",
+      "published_max_stars": 3,
+      "blueprint_page_status": "read",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13431101,
+      "tier_one_gear_id": 10431101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13431101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10431101",
+      "blueprint_title": "OIC-8 B.P.",
+      "gear_title": "XM8 (Tier 1)",
+      "published_max_stars": 3,
+      "blueprint_page_status": "read",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13611101,
+      "tier_one_gear_id": 10611101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13611101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10611101",
+      "blueprint_title": "BM1918 B.P.",
+      "gear_title": "BAR (Tier 1)",
+      "published_max_stars": 3,
+      "blueprint_page_status": "read",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13631101,
+      "tier_one_gear_id": 10631101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13631101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10631101",
+      "blueprint_title": "KVD B.P.",
+      "gear_title": "RPD (Tier 1)",
+      "published_max_stars": 3,
+      "blueprint_page_status": "read",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13131101,
+      "tier_one_gear_id": 10131101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13131101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10131101",
+      "blueprint_title": "P22 B.P.",
+      "gear_title": "Glock (Tier 1)",
+      "published_max_stars": 3,
+      "blueprint_page_status": "read",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13231101,
+      "tier_one_gear_id": 10231101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13231101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10231101",
+      "blueprint_title": null,
+      "gear_title": "AA12 (Tier 1)",
+      "published_max_stars": null,
+      "blueprint_page_status": "unavailable",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13221101,
+      "tier_one_gear_id": 10221101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13221101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10221101",
+      "blueprint_title": "DB-12 B.P.",
+      "gear_title": "DP12 (Tier 1)",
+      "published_max_stars": 3,
+      "blueprint_page_status": "read",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13521101,
+      "tier_one_gear_id": 10521101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13521101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10521101",
+      "blueprint_title": "AWS.338 B.P.",
+      "gear_title": "AWM (Tier 1)",
+      "published_max_stars": 3,
+      "blueprint_page_status": "read",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13531101,
+      "tier_one_gear_id": 10531101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13531101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10531101",
+      "blueprint_title": "HAMR B.P.",
+      "gear_title": "M82A1 (Tier 1)",
+      "published_max_stars": 3,
+      "blueprint_page_status": "read",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13541101,
+      "tier_one_gear_id": 10541101,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13541101",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10541101",
+      "blueprint_title": "SR2000 B.P.",
+      "gear_title": "WA2000 (Tier 1)",
+      "published_max_stars": 3,
+      "blueprint_page_status": "read",
+      "gear_page_status": "read"
+    },
+    {
+      "blueprint_id": 13332401,
+      "tier_one_gear_id": 10332401,
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13332401",
+      "gear_url": "https://oncehuman.th.gl/db/gear/10332401",
+      "blueprint_title": "MPS7 - Chaos Domain B.P.",
+      "gear_title": null,
+      "published_max_stars": 6,
+      "blueprint_page_status": "read",
+      "gear_page_status": "unavailable",
+      "blueprint_crafts_tier_one_title": "MPS7 - Chaos Domain (Tier 1)"
+    }
+  ]
+}

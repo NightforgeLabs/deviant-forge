@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "source_pyc_sha256": "891bbda57741ffa7c4dd27e13d58c0a65534b29621838e9c4b86d95e1f1fa1b5",
+  "target_method": "get_gun_shoot_attr_weapon_rpm",
+  "first_line": 533,
+  "body_absolute_offset": 29603,
+  "body_length": 290,
+  "body_sha256": "6f5e025ae6109a17a46bfcc5aa9dbacabdb3e65720a45caa03fa59681963809b",
+  "names": [
+    "dcs_extend.const.shoot_const",
+    "ShootMode",
+    "get_gun_shoot_interval",
+    "get_gun_params_by_gun_no",
+    "get",
+    "BURST",
+    "round"
+  ],
+  "constants": [
+    "None",
+    "0",
+    "('ShootMode',)",
+    "1.0",
+    "'default_shoot_mode'",
+    "'burst_bullet_num'",
+    "60.0"
+  ],
+  "locals": [
+    "gun_no",
+    "weapon_rpm_add_rate",
+    "ShootMode",
+    "shoot_interval",
+    "gun_base_params",
+    "shoot_mode",
+    "burst_bullet_num"
+  ],
+  "blocks": {
+    "zero_guard": {
+      "absolute_offset": 29649,
+      "relative_offset": 46,
+      "raw_hex": "5e038602ca010d00"
+    },
+    "interval_adjustment": {
+      "absolute_offset": 29657,
+      "relative_offset": 54,
+      "raw_hex": "5e03ca035e017d0000007d0b00006403"
+    },
+    "burst_comparison_and_jump": {
+      "absolute_offset": 29743,
+      "relative_offset": 140,
+      "raw_hex": "5e055e02de0a000000000000000000000000000000000000770200000000bc29"
+    },
+    "burst_rounding": {
+      "absolute_offset": 29815,
+      "relative_offset": 212,
+      "raw_hex": "6c0d00000000000000000000ca065e037d0b00005e067d050000ac010000e20100000000000000000d00"
+    },
+    "ordinary_rounding": {
+      "absolute_offset": 29857,
+      "relative_offset": 254,
+      "raw_hex": "6c0d00000000000000000000ca065e037d0b0000ac010000e20100000000000000000d00"
+    }
+  },
+  "jump_targets": {
+    "nonzero_interval": 29657,
+    "nonburst_branch": 29857
+  },
+  "method": "Static byte slicing and control checks only; no game import or execution."
+}

@@ -1,0 +1,25 @@
+{
+  "source_video": "~/Videos/screenrecording-2026-10-25_04-01-49.mp4",
+  "source_sha256": "8c813c3861e825c4b80d05878ca3ef5182a7605d3b7ade966ed2d2dd6efb270f",
+  "scope": "Field Guide Mask grid, historical 2026-10-25 account view; numbered cards are unlocked at their shown level, padlock cards are explicitly locked in this recording; neither proves today's unchanged state or tooltip attributes",
+  "rows": [
+    ["Blaze Amplifier",141,["General","Deviant Energy","Burn","Violent","Survival"],[9,7,6,null,null]],
+    ["Frost Construct",141,["Frost Vortex","General","Violent","Deviant Energy","Survival"],[12,7,null,null,null]],
+    ["Explosive Shrapnel",141,["Violent","General","Survival","Precision","Shrapnel"],[15,9,8,6,null]],
+    ["Precision Bounce",145,["Precision","General","Violent","Bounce","Survival"],[10,7,null,null,null]],
+    ["Explosive Barrage",145,["Precision","General","Fast Gunner","Violent","Survival"],[9,7,7,6,6]],
+    ["Pinpoint Strike",145,["General","Violent","Precision","Deviant Energy","Unstable Bomber","Survival"],[10,null,null,null,null,null]],
+    ["Targeted Strike",146,["Violent","The Bull's Eye","Precision","General","Survival"],[14,9,7,null,null]],
+    ["Thunderclap",146,["Deviant Energy","General","Power Surge","Survival","Violent"],[17,10,10,10,6]],
+    ["Light Cannon",147,["Fortress Warfare","Violent","General","Precision","Survival"],[13,9,7,null,null]],
+    ["Unbreakable",147,["Fortress Warfare","Violent","Survival","General","Precision"],[12,9,8,null,null]],
+    ["Retrusion Explosion",147,["Burn","Violent","Deviant Energy","Survival","General"],[12,10,8,8,null]],
+    ["Shrapnel Carnage",148,["Violent","General","Shrapnel","Precision","Survival"],[11,8,8,null,null]],
+    ["First Electrocution",148,["Power Surge","General","Survival","Violent","Deviant Energy"],[13,12,12,11,11]],
+    ["Frostwave Wither",149,["Violent","Deviant Energy","General","Frost Vortex","Survival"],[8,5,null,null,null]],
+    ["Most Wanted",149,["The Bull's Eye","Survival","General","Precision","Violent"],[11,11,9,9,null]],
+    ["Break Bounce",149,["General","Violent","Precision","Bounce","Survival"],[10,null,null,null,null]],
+    ["Blitzkrieg",150,["Violent","Fast Gunner","General","Precision","Survival"],[11,10,null,null,null]],
+    ["Delayed Blast",150,["Deviant Energy","Violent","General","Precision","Unstable Bomber","Survival"],[10,8,null,null,null,null]]
+  ]
+}

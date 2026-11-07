@@ -1,0 +1,1063 @@
+{
+  "schema_version": "bonus_line_gap_resolution_v2",
+  "base_sha256": "d50fc1a8f4e1c52ea7cbba103c8ab995dfa05a95fd1e359a3d5e7a655b3a7546",
+  "catalog_sha256": "518a7e5b0e0151293877a60665f4650b7eeb03ecd8fca0eff0e00067e8c8aaa0",
+  "source_class": "community_identity_family_bridge_plus_published_layout_plus_official_tier_order",
+  "current_game_build_verified": false,
+  "resolved_profile_count": 17,
+  "resolved_identity_count": 1,
+  "published_candidate_row_count": 62,
+  "sources": {
+    "identity_family": "https://wikily.gg/once-human/mods/19500145/",
+    "identity_label": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+    "slot_suffix_layout": "https://oncehuman.th.gl/db/mods/mod_9119",
+    "level_row_tiers": "https://www.oncehuman.game/news/devBlog/20251212/40781_1276354.html"
+  },
+  "profiles": [
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 1,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 1,
+          "components": {
+            "value_percent": 3
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 2,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 1,
+          "components": {
+            "value_percent": 3
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 1,
+          "components": {
+            "value_percent": 1.2
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 3,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 1,
+          "components": {
+            "value_percent": 3
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 1,
+          "components": {
+            "value_percent": 1.2
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 1,
+          "components": {
+            "value_percent": 2.4
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 4,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 1,
+          "components": {
+            "value_percent": 3
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 1,
+          "components": {
+            "value_percent": 1.2
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 1,
+          "components": {
+            "value_percent": 2.4
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 1,
+          "components": {
+            "value_percent": 1.5
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 5,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 2,
+          "components": {
+            "value_percent": 6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 1,
+          "components": {
+            "value_percent": 1.2
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 1,
+          "components": {
+            "value_percent": 2.4
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 1,
+          "components": {
+            "value_percent": 1.5
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 6,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 2,
+          "components": {
+            "value_percent": 6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 2,
+          "components": {
+            "value_percent": 2.4
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 1,
+          "components": {
+            "value_percent": 2.4
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 1,
+          "components": {
+            "value_percent": 1.5
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 7,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 2,
+          "components": {
+            "value_percent": 6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 2,
+          "components": {
+            "value_percent": 2.4
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 2,
+          "components": {
+            "value_percent": 4.8
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 1,
+          "components": {
+            "value_percent": 1.5
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 8,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 2,
+          "components": {
+            "value_percent": 6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 2,
+          "components": {
+            "value_percent": 2.4
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 2,
+          "components": {
+            "value_percent": 4.8
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 9,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 3,
+          "components": {
+            "value_percent": 9
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 2,
+          "components": {
+            "value_percent": 2.4
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 2,
+          "components": {
+            "value_percent": 4.8
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 10,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 3,
+          "components": {
+            "value_percent": 9
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 3,
+          "components": {
+            "value_percent": 3.6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 2,
+          "components": {
+            "value_percent": 4.8
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 11,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 3,
+          "components": {
+            "value_percent": 9
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 3,
+          "components": {
+            "value_percent": 3.6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 3,
+          "components": {
+            "value_percent": 7.2
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 12,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 4,
+          "components": {
+            "value_percent": 12
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 3,
+          "components": {
+            "value_percent": 3.6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 3,
+          "components": {
+            "value_percent": 7.2
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 13,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 4,
+          "components": {
+            "value_percent": 12
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 4,
+          "components": {
+            "value_percent": 4.8
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 3,
+          "components": {
+            "value_percent": 7.2
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 14,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 4,
+          "components": {
+            "value_percent": 12
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 4,
+          "components": {
+            "value_percent": 4.8
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 4,
+          "components": {
+            "value_percent": 9.6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 15,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 5,
+          "components": {
+            "value_percent": 15
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 4,
+          "components": {
+            "value_percent": 4.8
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 4,
+          "components": {
+            "value_percent": 9.6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 16,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 5,
+          "components": {
+            "value_percent": 15
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 5,
+          "components": {
+            "value_percent": 6.0
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 4,
+          "components": {
+            "value_percent": 9.6
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "level": 17,
+      "shiny": false,
+      "system_generation": "current_field_guide",
+      "variant": null,
+      "published_layout_suffix_term": "Violent",
+      "terminology_alias_applied": false,
+      "terminology_alias_source_urls": [],
+      "status": "published_formula_candidate_current_generation",
+      "source_class": "THGL_representative_slot_suffix_numeric_facts_plus_official_level_chart",
+      "layout_source_url": "https://oncehuman.th.gl/db/mods/mod_9119",
+      "source_layout_generalized_across_same_slot_suffix": true,
+      "numeric_identity_level_directly_observed": false,
+      "current_game_build_verified": false,
+      "level_obtainability_verified": false,
+      "shiny_substats_source": null,
+      "rows": [
+        {
+          "index": 0,
+          "stat_key": "crit_dmg",
+          "tier": 5,
+          "components": {
+            "value_percent": 15
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 1,
+          "stat_key": "weapon_dmg",
+          "tier": 5,
+          "components": {
+            "value_percent": 6.0
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 2,
+          "stat_key": "magazine_capacity",
+          "tier": 5,
+          "components": {
+            "value_percent": 12.0
+          },
+          "condition": "unconditional_or_keyword_specific; apply_stat_dimension",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        },
+        {
+          "index": 3,
+          "stat_key": "dmg_against_enemies",
+          "tier": 2,
+          "components": {
+            "value_percent": 3.0
+          },
+          "condition": "damage_against_enemies",
+          "formula_source_url": "https://oncehuman.th.gl/db/mods/mod_9620"
+        }
+      ],
+      "identity_family_source_url": "https://wikily.gg/once-human/mods/19500145/",
+      "identity_label_source_url": "https://www.oncehumandb.com/mods/elemental-havoc-violence-6843fa2d2d91",
+      "identity_label": "Elemental Havoc <Violence>",
+      "identity_resolution": "exact_identity_family_bridge_candidate",
+      "identity_resolution_note": "OHDB/OnceHumanWorld label this identity Violence; Wikily item 19500145 lists Elemental Havoc as Mod 2.0 / Helmet / Family Violent. This maps only this catalog ID to the published helmet Violent layout."
+    }
+  ]
+}

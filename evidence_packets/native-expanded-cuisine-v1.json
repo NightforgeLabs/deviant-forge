@@ -1,0 +1,1012 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_hashes": {
+    "item": "bcb0eed8c4d9ca658179558ee4e6002b3f13b686c7839e09a9a7aa695eea8035",
+    "buff": "48eb8011cf45cbb24d91e0fecb695ac669b3823ffcb98e197d28005aa6a5b73f",
+    "links": "cd6fd465f7ae465cf3589683ca892ce6703837a79faf6c5dfcdcbd071e3f86db"
+  },
+  "nominal_time_unit": "seconds, supported by food_runtime_boundary_packet.json",
+  "method": "Exact indexed item localization pointers, typed item-use buff arrays, typed buff_id/life_time fields with field-presence bitmap. No game code execution.",
+  "records": [
+    {
+      "item_id": 30110323,
+      "source_item_row_bounds": [
+        8577229,
+        8577384
+      ],
+      "source_name": {
+        "source_string": "培根肉排汉堡_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8577305,
+        "pointer_raw_hex": "a09179",
+        "pointer_body_relative": 1984672,
+        "translation_object_byte_offset": 8577219,
+        "string_table_index": 35068,
+        "string_index_byte_offset": 8577216,
+        "string_index_raw_hex": "fc9102"
+      },
+      "source_description": {
+        "source_string": "以炸肉排为主料的汉堡。在香软的面包胚中间夹上肉排、腌肉和卷心菜，一口咬下去，似乎能带来源源不断的生命力。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8577260,
+        "pointer_raw_hex": "809179",
+        "pointer_body_relative": 1984640,
+        "translation_object_byte_offset": 8577187,
+        "string_table_index": 35069,
+        "string_index_byte_offset": 8577184,
+        "string_index_raw_hex": "fd9102"
+      },
+      "cuisine_type_raw": 1,
+      "item_use_row_offset": 93472,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 93486,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 403133900,
+            "byte_offset": 93467,
+            "raw_hex": "ccab9dc001"
+          },
+          "native_buff_record": {
+            "buff_id": 403133900,
+            "buff_params_record_offset": 392565,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 392567,
+            "optional_presence_bitmap_hex": "4a210b",
+            "typed_buff_flag": 1152,
+            "typed_buff_id_byte_offset": 392589,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 600.0,
+              "byte_offset": 392580,
+              "raw_hex": "00001644"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 392570,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 392584,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 392586,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30110343,
+      "source_item_row_bounds": [
+        8531655,
+        8531803
+      ],
+      "source_name": {
+        "source_string": "奇迹茶_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8531731,
+        "pointer_raw_hex": "9aad76",
+        "pointer_body_relative": 1939098,
+        "translation_object_byte_offset": 8531645,
+        "string_table_index": 35143,
+        "string_index_byte_offset": 8531642,
+        "string_index_raw_hex": "c79202"
+      },
+      "source_description": {
+        "source_string": "由幸存者在荒凉的环境下研制而出的茶类饮料，通过神奇的草药混合，饮用后能够提供强大的恢复效果。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8531686,
+        "pointer_raw_hex": "faac76",
+        "pointer_body_relative": 1939066,
+        "translation_object_byte_offset": 8531613,
+        "string_table_index": 35144,
+        "string_index_byte_offset": 8531610,
+        "string_index_raw_hex": "c89202"
+      },
+      "cuisine_type_raw": 2,
+      "item_use_row_offset": 66098,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 66111,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 403134000,
+            "byte_offset": 66086,
+            "raw_hex": "b0ac9dc001"
+          },
+          "native_buff_record": {
+            "buff_id": 403134000,
+            "buff_params_record_offset": 910943,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 910945,
+            "optional_presence_bitmap_hex": "4a210b",
+            "typed_buff_flag": 1152,
+            "typed_buff_id_byte_offset": 910967,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 1800.0,
+              "byte_offset": 910958,
+              "raw_hex": "0000e144"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 910948,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 910962,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 910964,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30110346,
+      "source_item_row_bounds": [
+        8343918,
+        8344050
+      ],
+      "source_name": {
+        "source_string": "安全三明治_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8343994,
+        "pointer_raw_hex": "c1f26a",
+        "pointer_body_relative": 1751361,
+        "translation_object_byte_offset": 8343908,
+        "string_table_index": 35155,
+        "string_index_byte_offset": 8343905,
+        "string_index_raw_hex": "d39202"
+      },
+      "source_description": {
+        "source_string": "由变异的蔬菜和优质面包制成的三明治，让生存者在食用后获得长时间抵抗能力。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8343949,
+        "pointer_raw_hex": "a1f26a",
+        "pointer_body_relative": 1751329,
+        "translation_object_byte_offset": 8343876,
+        "string_table_index": 35156,
+        "string_index_byte_offset": 8343873,
+        "string_index_raw_hex": "d49202"
+      },
+      "cuisine_type_raw": 1,
+      "item_use_row_offset": 94287,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 94301,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 403134300,
+            "byte_offset": 94282,
+            "raw_hex": "dcae9dc001"
+          },
+          "native_buff_record": {
+            "buff_id": 403134300,
+            "buff_params_record_offset": 475421,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 475423,
+            "optional_presence_bitmap_hex": "4a210b",
+            "typed_buff_flag": 1152,
+            "typed_buff_id_byte_offset": 475445,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 1800.0,
+              "byte_offset": 475436,
+              "raw_hex": "0000e144"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 475426,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 475440,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 475442,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30110375,
+      "source_item_row_bounds": [
+        8583161,
+        8583309
+      ],
+      "source_name": {
+        "source_string": "砰砰爆米花_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8583237,
+        "pointer_raw_hex": "ccbf79",
+        "pointer_body_relative": 1990604,
+        "translation_object_byte_offset": 8583151,
+        "string_table_index": 35256,
+        "string_index_byte_offset": 8583148,
+        "string_index_raw_hex": "b89302"
+      },
+      "source_description": {
+        "source_string": "用玉米做成的美味乐趣小零食，受到星尘能量的影响，还在持续不断地发出爆裂声，吃到嘴里要小心爆炸哦！\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8583192,
+        "pointer_raw_hex": "acbf79",
+        "pointer_body_relative": 1990572,
+        "translation_object_byte_offset": 8583119,
+        "string_table_index": 35257,
+        "string_index_byte_offset": 8583116,
+        "string_index_raw_hex": "b99302"
+      },
+      "cuisine_type_raw": 1,
+      "item_use_row_offset": 95049,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 95063,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 403136700,
+            "byte_offset": 95044,
+            "raw_hex": "bcc19dc001"
+          },
+          "native_buff_record": {
+            "buff_id": 403136700,
+            "buff_params_record_offset": 449749,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 449751,
+            "optional_presence_bitmap_hex": "4a210b",
+            "typed_buff_flag": 1152,
+            "typed_buff_id_byte_offset": 449773,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 1800.0,
+              "byte_offset": 449764,
+              "raw_hex": "0000e144"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 449754,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 449768,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 449770,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30110376,
+      "source_item_row_bounds": [
+        8571991,
+        8572123
+      ],
+      "source_name": {
+        "source_string": "炙热烈焰蛋挞_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8572067,
+        "pointer_raw_hex": "aae878",
+        "pointer_body_relative": 1979434,
+        "translation_object_byte_offset": 8571981,
+        "string_table_index": 35260,
+        "string_index_byte_offset": 8571978,
+        "string_index_raw_hex": "bc9302"
+      },
+      "source_description": {
+        "source_string": "着了火的蛋挞，整个吞下去仿佛能和火焰合二为一，让自身都获得烈焰的力量强化。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8572022,
+        "pointer_raw_hex": "8ae878",
+        "pointer_body_relative": 1979402,
+        "translation_object_byte_offset": 8571949,
+        "string_table_index": 35261,
+        "string_index_byte_offset": 8571946,
+        "string_index_raw_hex": "bd9302"
+      },
+      "cuisine_type_raw": 1,
+      "item_use_row_offset": 91738,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 91752,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 403136800,
+            "byte_offset": 91733,
+            "raw_hex": "a0c29dc001"
+          },
+          "native_buff_record": {
+            "buff_id": 403136800,
+            "buff_params_record_offset": 459902,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 459904,
+            "optional_presence_bitmap_hex": "4a210b",
+            "typed_buff_flag": 1152,
+            "typed_buff_id_byte_offset": 459926,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 1800.0,
+              "byte_offset": 459917,
+              "raw_hex": "0000e144"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 459907,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 459921,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 459923,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30110377,
+      "source_item_row_bounds": [
+        8583437,
+        8583585
+      ],
+      "source_name": {
+        "source_string": "蜜蛋弹弹乐_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8583513,
+        "pointer_raw_hex": "e0c179",
+        "pointer_body_relative": 1990880,
+        "translation_object_byte_offset": 8583427,
+        "string_table_index": 35264,
+        "string_index_byte_offset": 8583424,
+        "string_index_raw_hex": "c09302"
+      },
+      "source_description": {
+        "source_string": "混合了甜菜和姜块做成的糖果，放进口中似乎会自己不断地跳动，口感绝佳。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8583468,
+        "pointer_raw_hex": "c0c179",
+        "pointer_body_relative": 1990848,
+        "translation_object_byte_offset": 8583395,
+        "string_table_index": 35265,
+        "string_index_byte_offset": 8583392,
+        "string_index_raw_hex": "c19302"
+      },
+      "cuisine_type_raw": 1,
+      "item_use_row_offset": 85525,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 85539,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 403136900,
+            "byte_offset": 85520,
+            "raw_hex": "84c39dc001"
+          },
+          "native_buff_record": {
+            "buff_id": 403136900,
+            "buff_params_record_offset": 678855,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 678857,
+            "optional_presence_bitmap_hex": "4a210b",
+            "typed_buff_flag": 1152,
+            "typed_buff_id_byte_offset": 678879,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 1800.0,
+              "byte_offset": 678870,
+              "raw_hex": "0000e144"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 678860,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 678874,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 678876,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30110379,
+      "source_item_row_bounds": [
+        8583846,
+        8583989
+      ],
+      "source_name": {
+        "source_string": "清凉薄荷肉罐头_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8583917,
+        "pointer_raw_hex": "f9c479",
+        "pointer_body_relative": 1991289,
+        "translation_object_byte_offset": 8583836,
+        "string_table_index": 35273,
+        "string_index_byte_offset": 8583833,
+        "string_index_raw_hex": "c99302"
+      },
+      "source_description": {
+        "source_string": "珍稀的变异薄荷和肉块密封在罐头中进行持续的化学反应，打开罐头似乎就能感受到喷涌而出的寒意。_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8583873,
+        "pointer_raw_hex": "d9c479",
+        "pointer_body_relative": 1991257,
+        "translation_object_byte_offset": 8583804,
+        "string_table_index": 35272,
+        "string_index_byte_offset": 8583801,
+        "string_index_raw_hex": "c89302"
+      },
+      "cuisine_type_raw": 1,
+      "item_use_row_offset": 82386,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 82400,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 403137100,
+            "byte_offset": 82376,
+            "raw_hex": "ccc49dc001"
+          },
+          "native_buff_record": {
+            "buff_id": 403137100,
+            "buff_params_record_offset": 291857,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 291859,
+            "optional_presence_bitmap_hex": "4a210b",
+            "typed_buff_flag": 1152,
+            "typed_buff_id_byte_offset": 291881,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 1800.0,
+              "byte_offset": 291872,
+              "raw_hex": "0000e144"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 291862,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 291876,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 291878,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        },
+        {
+          "item_use_buff_token": {
+            "buff_id": 404000400,
+            "byte_offset": 82381,
+            "raw_hex": "909dd2c001"
+          },
+          "native_buff_record": {
+            "buff_id": 404000400,
+            "buff_params_record_offset": 619283,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 619285,
+            "optional_presence_bitmap_hex": "4a210b",
+            "typed_buff_flag": 14,
+            "typed_buff_id_byte_offset": 619306,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 0.0,
+              "byte_offset": 619298,
+              "raw_hex": "00000000"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 619288,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 619302,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 619304,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30110380,
+      "source_item_row_bounds": [
+        8584131,
+        8584279
+      ],
+      "source_name": {
+        "source_string": "炙热炖肉火锅_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8584207,
+        "pointer_raw_hex": "96c779",
+        "pointer_body_relative": 1991574,
+        "translation_object_byte_offset": 8584121,
+        "string_table_index": 35276,
+        "string_index_byte_offset": 8584118,
+        "string_index_raw_hex": "cc9302"
+      },
+      "source_description": {
+        "source_string": "满满一大锅肉与极地椒混合炖煮，浓郁肉香与辛辣汤底完美融合，就着汤汁吃上一口，能够感受到暖流涌遍全身。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8584162,
+        "pointer_raw_hex": "f6c679",
+        "pointer_body_relative": 1991542,
+        "translation_object_byte_offset": 8584089,
+        "string_table_index": 35277,
+        "string_index_byte_offset": 8584086,
+        "string_index_raw_hex": "cd9302"
+      },
+      "cuisine_type_raw": 1,
+      "item_use_row_offset": 95178,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 95192,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 403137200,
+            "byte_offset": 95173,
+            "raw_hex": "b0c59dc001"
+          },
+          "native_buff_record": {
+            "buff_id": 403137200,
+            "buff_params_record_offset": 361697,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 361699,
+            "optional_presence_bitmap_hex": "4a210b",
+            "typed_buff_flag": 1152,
+            "typed_buff_id_byte_offset": 361721,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 1800.0,
+              "byte_offset": 361712,
+              "raw_hex": "0000e144"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 361702,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 361716,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 361718,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30110404,
+      "source_item_row_bounds": [
+        8587980,
+        8588123
+      ],
+      "source_name": {
+        "source_string": "雾芯明目汤_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8588051,
+        "pointer_raw_hex": "9fe579",
+        "pointer_body_relative": 1995423,
+        "translation_object_byte_offset": 8587970,
+        "string_table_index": 35365,
+        "string_index_byte_offset": 8587967,
+        "string_index_raw_hex": "a59402"
+      },
+      "source_description": {
+        "source_string": "增加寒冷抗性并解除失温效果，强化视力，提供稍微看穿诡雾的效果。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8588007,
+        "pointer_raw_hex": "ffe479",
+        "pointer_body_relative": 1995391,
+        "translation_object_byte_offset": 8587938,
+        "string_table_index": 35366,
+        "string_index_byte_offset": 8587935,
+        "string_index_raw_hex": "a69402"
+      },
+      "cuisine_type_raw": 2,
+      "item_use_row_offset": 95770,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 95784,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 462900012,
+            "byte_offset": 95765,
+            "raw_hex": "ac96dddc01"
+          },
+          "native_buff_record": {
+            "buff_id": 462900012,
+            "buff_params_record_offset": 652698,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 652700,
+            "optional_presence_bitmap_hex": "4a250b",
+            "typed_buff_flag": 1152,
+            "typed_buff_id_byte_offset": 652723,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 900.0,
+              "byte_offset": 652714,
+              "raw_hex": "00006144"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 652703,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 652718,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 652720,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30119702,
+      "source_item_row_bounds": [
+        8118262,
+        8118408
+      ],
+      "source_name": {
+        "source_string": "掘矿土豆沙拉_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8118336,
+        "pointer_raw_hex": "c98f5d",
+        "pointer_body_relative": 1525705,
+        "translation_object_byte_offset": 8118252,
+        "string_table_index": 36341,
+        "string_index_byte_offset": 8118249,
+        "string_index_raw_hex": "f59b02"
+      },
+      "source_description": {
+        "source_string": "以金银花为基底，土豆提鲜，撒上少量食盐来精心熬制的沙拉，饮用后可显著提升矿石采掘效率。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8118293,
+        "pointer_raw_hex": "a98f5d",
+        "pointer_body_relative": 1525673,
+        "translation_object_byte_offset": 8118220,
+        "string_table_index": 36342,
+        "string_index_byte_offset": 8118217,
+        "string_index_raw_hex": "f69b02"
+      },
+      "cuisine_type_raw": 1,
+      "item_use_row_offset": 101538,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 101555,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 499008002,
+            "byte_offset": 101533,
+            "raw_hex": "8284f9ed01"
+          },
+          "native_buff_record": {
+            "buff_id": 499008002,
+            "buff_params_record_offset": 491892,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 491894,
+            "optional_presence_bitmap_hex": "4a250b",
+            "typed_buff_flag": 128,
+            "typed_buff_id_byte_offset": 491917,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 900.0,
+              "byte_offset": 491908,
+              "raw_hex": "00006144"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 491897,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 491912,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 491914,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    },
+    {
+      "item_id": 30119705,
+      "source_item_row_bounds": [
+        8622732,
+        8622863
+      ],
+      "source_name": {
+        "source_string": "重击幽蓝糕_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8622807,
+        "pointer_raw_hex": "dff47b",
+        "pointer_body_relative": 2030175,
+        "translation_object_byte_offset": 8622722,
+        "string_table_index": 36353,
+        "string_index_byte_offset": 8622719,
+        "string_index_raw_hex": "819c02"
+      },
+      "source_description": {
+        "source_string": "以蘑菇为基底，加入精肉与玉米油炖煮而成的糕饼，能激发体内潜能，在战斗中表现更为出色。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8622762,
+        "pointer_raw_hex": "bff47b",
+        "pointer_body_relative": 2030143,
+        "translation_object_byte_offset": 8622690,
+        "string_table_index": 36354,
+        "string_index_byte_offset": 8622687,
+        "string_index_raw_hex": "829c02"
+      },
+      "cuisine_type_raw": 1,
+      "item_use_row_offset": 80707,
+      "item_use_related_func": {
+        "value": 18,
+        "type_code": 5,
+        "byte_offset": 80723,
+        "raw_hex": "12",
+        "source_string": "food"
+      },
+      "buffs": [
+        {
+          "item_use_buff_token": {
+            "buff_id": 499008005,
+            "byte_offset": 80702,
+            "raw_hex": "8584f9ed01"
+          },
+          "native_buff_record": {
+            "buff_id": 499008005,
+            "buff_params_record_offset": 312056,
+            "buff_descriptor_offset": 220287,
+            "optional_presence_bitmap_offset": 312058,
+            "optional_presence_bitmap_hex": "4a250b",
+            "typed_buff_flag": 128,
+            "typed_buff_id_byte_offset": 312081,
+            "life_time": {
+              "name": "life_time",
+              "type_code": 18,
+              "value": 1200.0,
+              "byte_offset": 312072,
+              "raw_hex": "00009644"
+            },
+            "stack_fields": [
+              {
+                "name": "buff_max_stack",
+                "type_code": 17,
+                "value": 1,
+                "byte_offset": 312061,
+                "raw_hex": "01"
+              },
+              {
+                "name": "multi_buff_limit",
+                "type_code": 1,
+                "value": 1,
+                "byte_offset": 312076,
+                "raw_hex": "01"
+              },
+              {
+                "name": "refresh_buff_stack",
+                "type_code": 1,
+                "value": 0,
+                "byte_offset": 312078,
+                "raw_hex": "00"
+              }
+            ]
+          }
+        }
+      ],
+      "availability": "unknown; archive presence only",
+      "effect_numeric_claim": "none inferred from description"
+    }
+  ],
+  "limits": [
+    "life_time=0 is an unresolved native value, not proof of permanence.",
+    "Native text can be flavor or a bonus description; it does not establish exact effect arithmetic.",
+    "Actual application, dynamic duration, stacking, current availability and spoilage timing are separate from the source row."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

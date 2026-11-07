@@ -1,0 +1,6341 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_sha256": {
+    "native_armor_d41_origin_batch.json": "f1b54515f3bbe82477db86e4dc5dd5f450fdd5554d2443b6e05ba500ab296c8e",
+    "native_armor_star_rows_batch.json": "76d683da91e5bfe8e1ee1f68998f3f4cafeb7ef15417de69eb5430b48ae74a5c",
+    "native_armor_preview_gap_classes.json": "3ac314dda665c73736a6bd0f8103f15ed51ef81e31aaf7094f7a0531a744e9c0",
+    "armor_base_preview_trace.json": "0405c9b5892902c0c9198e7e2a6bd361b57a023f979e3acdd1cbae960c21dcab",
+    "equip_data_literal": "643c20c6761ac75f989a122a538a650ae6830f6ef8cae7cacffa70bd13d43dce"
+  },
+  "coverage": {
+    "optional_tail_equip_rows": 46,
+    "raw_art_lv_distribution": {
+      "0": 4,
+      "1": 11,
+      "2": 3,
+      "3": 6,
+      "4": 8,
+      "5": 4,
+      "6": 10
+    },
+    "standard_tier_1_to_5_rows": 32,
+    "standard_tier_rows_with_star_source": 28,
+    "additional_source_qualified_gear_star_pairs": 147,
+    "standard_tier_rows_without_star_source": 4
+  },
+  "interpretation_gate": "This supplemental parse removes only the next-row-marker requirement. All 46 rows have a unique same-position 11-field suffix with independently indexed gear ID, blueprint ID, raw art_lv and equip-type controls; the following optional bytes are not decoded. Only Tier I–V rows with an already indexed star ratio receive A0200/D4100 base-preview values. Values are source-qualified previews, not owned or material/calibration totals. R3600 remains withheld.",
+  "public_exact_id_controls": [
+    {
+      "gear_id": 21001004,
+      "observed_title": "Shelterer Hat (Tier 4)",
+      "url": "https://oncehuman.th.gl/db/gear/21001004",
+      "observed_2026_11_02": true,
+      "hp_psi_by_star": [
+        [
+          320,
+          60
+        ],
+        [
+          336,
+          63
+        ],
+        [
+          352,
+          66
+        ],
+        [
+          368,
+          69
+        ],
+        [
+          384,
+          72
+        ],
+        [
+          400,
+          75
+        ]
+      ],
+      "numeric_cells_matching": 12,
+      "page_build_unverified": true
+    },
+    {
+      "gear_id": 22002101,
+      "observed_title": "Snow Panther Top (Tier 1)",
+      "url": "https://oncehuman.th.gl/db/gear/22002101",
+      "observed_2026_11_02": true,
+      "hp_psi_by_star": [
+        [
+          140,
+          10
+        ],
+        [
+          148,
+          11
+        ],
+        [
+          155,
+          11
+        ],
+        [
+          164,
+          12
+        ],
+        [
+          171,
+          12
+        ]
+      ],
+      "numeric_cells_matching": 10,
+      "page_build_unverified": true
+    }
+  ],
+  "source_rows": [
+    {
+      "gear_id": 21000000,
+      "blueprint_id": 21300001,
+      "raw_art_lv": 0,
+      "equip_type_raw": 21,
+      "equip_row_offset": 282100,
+      "suffix_bounds": [
+        282132,
+        282150
+      ],
+      "suffix_raw_hex": "00a186940a0001c0de810a0115000015e807",
+      "next_bytes_hex": "07010591070c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 28.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 74699,
+          "value_raw_hex": "0000e041"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 3.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 74703,
+          "value_raw_hex": "00004040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 3.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 74707,
+          "value_raw_hex": "00004040"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 21001004,
+      "blueprint_id": 21301001,
+      "raw_art_lv": 4,
+      "equip_type_raw": 21,
+      "equip_row_offset": 149700,
+      "suffix_bounds": [
+        149733,
+        149751
+      ],
+      "suffix_raw_hex": "04898e940a0001ace6810a0415000015f207",
+      "next_bytes_hex": "070105d90a0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 320.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 22831,
+          "value_raw_hex": "0000a043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 11.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 22835,
+          "value_raw_hex": "00003041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 60.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 22839,
+          "value_raw_hex": "00007042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 21001503,
+      "blueprint_id": 21301501,
+      "raw_art_lv": 3,
+      "equip_type_raw": 21,
+      "equip_row_offset": 339463,
+      "suffix_bounds": [
+        339496,
+        339514
+      ],
+      "suffix_raw_hex": "03fd91940a00009fea810a0315000015ee07",
+      "next_bytes_hex": "070105da0d0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 144.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 48431,
+          "value_raw_hex": "00001043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 8.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 48435,
+          "value_raw_hex": "00000041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 35.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 48439,
+          "value_raw_hex": "00000c42"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 21003106,
+      "blueprint_id": 21303101,
+      "raw_art_lv": 6,
+      "equip_type_raw": 21,
+      "equip_row_offset": 340548,
+      "suffix_bounds": [
+        340580,
+        340598
+      ],
+      "suffix_raw_hex": "06bd9e940a0001e2f6810a04150000158708",
+      "next_bytes_hex": "070105e0060c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 590.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 27379,
+          "value_raw_hex": "00801344"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 12.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 27383,
+          "value_raw_hex": "00004041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 92.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 27387,
+          "value_raw_hex": "0000b842"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 21011696,
+      "blueprint_id": 21311696,
+      "raw_art_lv": 1,
+      "equip_type_raw": 21,
+      "equip_row_offset": 342797,
+      "suffix_bounds": [
+        342830,
+        342847
+      ],
+      "suffix_raw_hex": "01d0e1940a0032f0b9820a031500001500",
+      "next_bytes_hex": "963e1700d8e8",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 666.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 26352,
+          "value_raw_hex": "00802644"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 12.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 26356,
+          "value_raw_hex": "00004041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 83.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 26360,
+          "value_raw_hex": "0000a642"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 21011905,
+      "blueprint_id": 21311901,
+      "raw_art_lv": 5,
+      "equip_type_raw": 21,
+      "equip_row_offset": 343008,
+      "suffix_bounds": [
+        343041,
+        343058
+      ],
+      "suffix_raw_hex": "059de3940a0001c1bb820a041500001500",
+      "next_bytes_hex": "0701058f060c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 740.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 23285,
+          "value_raw_hex": "00003944"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 12.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 23289,
+          "value_raw_hex": "00004041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 92.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 23293,
+          "value_raw_hex": "0000b842"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 21012104,
+      "blueprint_id": 21312101,
+      "raw_art_lv": 4,
+      "equip_type_raw": 21,
+      "equip_row_offset": 232005,
+      "suffix_bounds": [
+        232038,
+        232055
+      ],
+      "suffix_raw_hex": "04e5e4940a000188bd820a041500001500",
+      "next_bytes_hex": "070105890c0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 320.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 22831,
+          "value_raw_hex": "0000a043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 11.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 22835,
+          "value_raw_hex": "00003041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 60.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 22839,
+          "value_raw_hex": "00007042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22000106,
+      "blueprint_id": 22300101,
+      "raw_art_lv": 6,
+      "equip_type_raw": 22,
+      "equip_row_offset": 231807,
+      "suffix_bounds": [
+        231839,
+        231857
+      ],
+      "suffix_raw_hex": "06c58bd10a0001eae3be0a0216000016e907",
+      "next_bytes_hex": "070105ad0d0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 1227.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 59404,
+          "value_raw_hex": "00609944"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 59408,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 52.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 59412,
+          "value_raw_hex": "00005042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22000304,
+      "blueprint_id": 22300301,
+      "raw_art_lv": 4,
+      "equip_type_raw": 22,
+      "equip_row_offset": 191639,
+      "suffix_bounds": [
+        191672,
+        191690
+      ],
+      "suffix_raw_hex": "048d8dd10a0001b0e5be0a0216000016eb07",
+      "next_bytes_hex": "070105c7080c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 666.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 63693,
+          "value_raw_hex": "00802644"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 14.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 63697,
+          "value_raw_hex": "00006041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 34.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 63701,
+          "value_raw_hex": "00000842"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22000905,
+      "blueprint_id": 22300901,
+      "raw_art_lv": 5,
+      "equip_type_raw": 22,
+      "equip_row_offset": 102264,
+      "suffix_bounds": [
+        102297,
+        102315
+      ],
+      "suffix_raw_hex": "05e591d10a000189eabe0a0416000016f107",
+      "next_bytes_hex": "1700b8ebab03",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 1924.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 15885,
+          "value_raw_hex": "0080f044"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 15889,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 64.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 15893,
+          "value_raw_hex": "00008042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22001204,
+      "blueprint_id": 22301201,
+      "raw_art_lv": 4,
+      "equip_type_raw": 22,
+      "equip_row_offset": 317565,
+      "suffix_bounds": [
+        317598,
+        317616
+      ],
+      "suffix_raw_hex": "049194d10a0001b4ecbe0a0416000016f407",
+      "next_bytes_hex": "070105be070c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 832.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 33046,
+          "value_raw_hex": "00005044"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 14.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 33050,
+          "value_raw_hex": "00006041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 42.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 33054,
+          "value_raw_hex": "00002842"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22001296,
+      "blueprint_id": 22301296,
+      "raw_art_lv": 1,
+      "equip_type_raw": 22,
+      "equip_row_offset": 347057,
+      "suffix_bounds": [
+        347090,
+        347108
+      ],
+      "suffix_raw_hex": "01f094d10a003290edbe0a0416000016f407",
+      "next_bytes_hex": "070105a3050c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 1924.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 15885,
+          "value_raw_hex": "0080f044"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 15889,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 64.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 15893,
+          "value_raw_hex": "00008042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22002101,
+      "blueprint_id": 22302101,
+      "raw_art_lv": 1,
+      "equip_type_raw": 22,
+      "equip_row_offset": 181666,
+      "suffix_bounds": [
+        181698,
+        181716
+      ],
+      "suffix_raw_hex": "01959bd10a0001b5f3be0a0316000016fd07",
+      "next_bytes_hex": "070105f90c0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 140.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 47811,
+          "value_raw_hex": "00000c43"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 4.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 47815,
+          "value_raw_hex": "00008040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 10.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 47819,
+          "value_raw_hex": "00002041"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22002206,
+      "blueprint_id": 22300001,
+      "raw_art_lv": 6,
+      "equip_type_raw": 22,
+      "equip_row_offset": 349828,
+      "suffix_bounds": [
+        349860,
+        349878
+      ],
+      "suffix_raw_hex": "06e18ad10a00019ef4be0a01160000168a08",
+      "next_bytes_hex": "070105c90c0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 1074.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 85851,
+          "value_raw_hex": "00408644"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 85855,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 45.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 85859,
+          "value_raw_hex": "00003442"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22003201,
+      "blueprint_id": 22303101,
+      "raw_art_lv": 1,
+      "equip_type_raw": 22,
+      "equip_row_offset": 350283,
+      "suffix_bounds": [
+        350315,
+        350333
+      ],
+      "suffix_raw_hex": "01fda2d10a000181fcbe0a04160000168808",
+      "next_bytes_hex": "070105f8080c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 156.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 41349,
+          "value_raw_hex": "00001c43"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 4.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 41353,
+          "value_raw_hex": "00008040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 11.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 41357,
+          "value_raw_hex": "00003041"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22003501,
+      "blueprint_id": 22303501,
+      "raw_art_lv": 1,
+      "equip_type_raw": 22,
+      "equip_row_offset": 351429,
+      "suffix_bounds": [
+        351461,
+        351479
+      ],
+      "suffix_raw_hex": "018da6d10a0001adfebe0a04160000168c08",
+      "next_bytes_hex": "070105cb0d0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 156.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 41349,
+          "value_raw_hex": "00001c43"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 4.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 41353,
+          "value_raw_hex": "00008040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 11.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 41357,
+          "value_raw_hex": "00003041"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22003904,
+      "blueprint_id": 22303901,
+      "raw_art_lv": 4,
+      "equip_type_raw": 22,
+      "equip_row_offset": 352055,
+      "suffix_bounds": [
+        352088,
+        352106
+      ],
+      "suffix_raw_hex": "049da9d10a0001c081bf0a04160000168f08",
+      "next_bytes_hex": "0701058f0b0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 832.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 33046,
+          "value_raw_hex": "00005044"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 14.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 33050,
+          "value_raw_hex": "00006041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 42.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 33054,
+          "value_raw_hex": "00002842"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 22012501,
+      "blueprint_id": 22312501,
+      "raw_art_lv": 1,
+      "equip_type_raw": 22,
+      "equip_row_offset": 343904,
+      "suffix_bounds": [
+        343936,
+        343953
+      ],
+      "suffix_raw_hex": "01b5ecd10a0001d5c4bf0a041600001600",
+      "next_bytes_hex": "070105cd080c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 156.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 41349,
+          "value_raw_hex": "00001c43"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 4.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 41353,
+          "value_raw_hex": "00008040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 11.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 41357,
+          "value_raw_hex": "00003041"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23000002,
+      "blueprint_id": 23300001,
+      "raw_art_lv": 2,
+      "equip_type_raw": 23,
+      "equip_row_offset": 208565,
+      "suffix_bounds": [
+        208598,
+        208616
+      ],
+      "suffix_raw_hex": "02a18f8e0b0001c2e7fb0a0117000017e807",
+      "next_bytes_hex": "070105f5060c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 134.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 53769,
+          "value_raw_hex": "00000643"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 5.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 53773,
+          "value_raw_hex": "0000a040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 13.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 53777,
+          "value_raw_hex": "00005041"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23000101,
+      "blueprint_id": 23300101,
+      "raw_art_lv": 1,
+      "equip_type_raw": 23,
+      "equip_row_offset": 158232,
+      "suffix_bounds": [
+        158264,
+        158282
+      ],
+      "suffix_raw_hex": "0185908e0b0001a5e8fb0a0217000017e907",
+      "next_bytes_hex": "0701058e080c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 115.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 40742,
+          "value_raw_hex": "0000e642"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 3.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 40746,
+          "value_raw_hex": "00004040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 10.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 40750,
+          "value_raw_hex": "00002041"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23000104,
+      "blueprint_id": 23300101,
+      "raw_art_lv": 4,
+      "equip_type_raw": 23,
+      "equip_row_offset": 354921,
+      "suffix_bounds": [
+        354954,
+        354972
+      ],
+      "suffix_raw_hex": "0485908e0b0001a8e8fb0a0217000017e907",
+      "next_bytes_hex": "0701059c090c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 614.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 86782,
+          "value_raw_hex": "00801944"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 11.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 86786,
+          "value_raw_hex": "00003041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 38.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 86790,
+          "value_raw_hex": "00001842"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23000300,
+      "blueprint_id": 23300301,
+      "raw_art_lv": 0,
+      "equip_type_raw": 23,
+      "equip_row_offset": 282567,
+      "suffix_bounds": [
+        282599,
+        282617
+      ],
+      "suffix_raw_hex": "00cd918e0b0001ece9fb0a0217000017eb07",
+      "next_bytes_hex": "1700b8fcab03",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 77.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 75057,
+          "value_raw_hex": "00009a42"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 3.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 75061,
+          "value_raw_hex": "00004040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 3.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 75065,
+          "value_raw_hex": "00004040"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23000703,
+      "blueprint_id": 23300701,
+      "raw_art_lv": 3,
+      "equip_type_raw": 23,
+      "equip_row_offset": 355997,
+      "suffix_bounds": [
+        356030,
+        356048
+      ],
+      "suffix_raw_hex": "03dd948e0b0001ffecfb0a0417000017ef07",
+      "next_bytes_hex": "070105c00b0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 384.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 20348,
+          "value_raw_hex": "0000c043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 8.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 20352,
+          "value_raw_hex": "00000041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 31.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 20356,
+          "value_raw_hex": "0000f841"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23001504,
+      "blueprint_id": 23301501,
+      "raw_art_lv": 4,
+      "equip_type_raw": 23,
+      "equip_row_offset": 325025,
+      "suffix_bounds": [
+        325058,
+        325076
+      ],
+      "suffix_raw_hex": "04fd9a8e0b0001a0f3fb0a0317000017ee07",
+      "next_bytes_hex": "070105dd0b0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 691.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 82417,
+          "value_raw_hex": "00c02c44"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 11.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 82421,
+          "value_raw_hex": "00003041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 43.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 82425,
+          "value_raw_hex": "00002c42"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23001506,
+      "blueprint_id": 23301501,
+      "raw_art_lv": 6,
+      "equip_type_raw": 23,
+      "equip_row_offset": 296200,
+      "suffix_bounds": [
+        296232,
+        296250
+      ],
+      "suffix_raw_hex": "06fd9a8e0b0001a2f3fb0a0317000017ee07",
+      "next_bytes_hex": "070105950c0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 1274.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 37099,
+          "value_raw_hex": "00409f44"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 12.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 37103,
+          "value_raw_hex": "00004041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 66.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 37107,
+          "value_raw_hex": "00008442"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23001605,
+      "blueprint_id": 23301601,
+      "raw_art_lv": 5,
+      "equip_type_raw": 23,
+      "equip_row_offset": 322579,
+      "suffix_bounds": [
+        322612,
+        322630
+      ],
+      "suffix_raw_hex": "05e19b8e0b000185f4fb0a0117000017f607",
+      "next_bytes_hex": "070105d7060c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 1243.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 84211,
+          "value_raw_hex": "00609b44"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 12.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 84215,
+          "value_raw_hex": "00004041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 52.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 84219,
+          "value_raw_hex": "00005042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23003101,
+      "blueprint_id": 23303101,
+      "raw_art_lv": 1,
+      "equip_type_raw": 23,
+      "equip_row_offset": 308898,
+      "suffix_bounds": [
+        308930,
+        308948
+      ],
+      "suffix_raw_hex": "01bda78e0b0001ddfffb0a04170000178708",
+      "next_bytes_hex": "070105ec060c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 144.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 23632,
+          "value_raw_hex": "00001043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 3.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 23636,
+          "value_raw_hex": "00004040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 13.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 23640,
+          "value_raw_hex": "00005041"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23003203,
+      "blueprint_id": 23303101,
+      "raw_art_lv": 3,
+      "equip_type_raw": 23,
+      "equip_row_offset": 360165,
+      "suffix_bounds": [
+        360198,
+        360216
+      ],
+      "suffix_raw_hex": "03bda78e0b0001c380fc0a04170000178808",
+      "next_bytes_hex": "070105880d0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 384.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 20348,
+          "value_raw_hex": "0000c043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 8.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 20352,
+          "value_raw_hex": "00000041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 31.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 20356,
+          "value_raw_hex": "0000f841"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 23013202,
+      "blueprint_id": 23313201,
+      "raw_art_lv": 2,
+      "equip_type_raw": 23,
+      "equip_row_offset": 330810,
+      "suffix_bounds": [
+        330843,
+        330860
+      ],
+      "suffix_raw_hex": "02b1f68e0b0001d2cefc0a041700001700",
+      "next_bytes_hex": "07010590080c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 192.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 26126,
+          "value_raw_hex": "00004043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 5.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 26130,
+          "value_raw_hex": "0000a040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 19.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 26134,
+          "value_raw_hex": "00009841"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 24000001,
+      "blueprint_id": 24300001,
+      "raw_art_lv": 1,
+      "equip_type_raw": 24,
+      "equip_row_offset": 362925,
+      "suffix_bounds": [
+        362957,
+        362975
+      ],
+      "suffix_raw_hex": "01e193cb0b000181ecb80b0118000018e807",
+      "next_bytes_hex": "070105ff0c0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 84.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 87182,
+          "value_raw_hex": "0000a842"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 3.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 87186,
+          "value_raw_hex": "00004040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 6.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 87190,
+          "value_raw_hex": "0000c040"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 24000400,
+      "blueprint_id": 24300401,
+      "raw_art_lv": 0,
+      "equip_type_raw": 24,
+      "equip_row_offset": 364501,
+      "suffix_bounds": [
+        364533,
+        364551
+      ],
+      "suffix_raw_hex": "00f196cb0b000190efb80b0318000018ec07",
+      "next_bytes_hex": "070105aa0d0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 72.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 86957,
+          "value_raw_hex": "00009042"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 3.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 86961,
+          "value_raw_hex": "00004040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 2.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 86965,
+          "value_raw_hex": "00000040"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 24000406,
+      "blueprint_id": 24300401,
+      "raw_art_lv": 6,
+      "equip_type_raw": 24,
+      "equip_row_offset": 364829,
+      "suffix_bounds": [
+        364861,
+        364879
+      ],
+      "suffix_raw_hex": "06f196cb0b000196efb80b0318000018ec07",
+      "next_bytes_hex": "070105ce0d0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 1062.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 51332,
+          "value_raw_hex": "00c08444"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 12.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 51336,
+          "value_raw_hex": "00004041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 41.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 51340,
+          "value_raw_hex": "00002442"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 24003896,
+      "blueprint_id": 24303896,
+      "raw_art_lv": 1,
+      "equip_type_raw": 24,
+      "equip_row_offset": 373061,
+      "suffix_bounds": [
+        373094,
+        373112
+      ],
+      "suffix_raw_hex": "0198b2cb0b0032b88ab90b04180000188d08",
+      "next_bytes_hex": "0701059a0e0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 1480.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 36073,
+          "value_raw_hex": "0000b944"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 12.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 36077,
+          "value_raw_hex": "00004041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 46.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 36081,
+          "value_raw_hex": "00003842"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 24010703,
+      "blueprint_id": 24310701,
+      "raw_art_lv": 3,
+      "equip_type_raw": 24,
+      "equip_row_offset": 374242,
+      "suffix_bounds": [
+        374275,
+        374292
+      ],
+      "suffix_raw_hex": "03ade7cb0b0001cfbfb90b041800001800",
+      "next_bytes_hex": "070105c10a0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 320.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 21962,
+          "value_raw_hex": "0000a043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 8.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 21966,
+          "value_raw_hex": "00000041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 19.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 21970,
+          "value_raw_hex": "00009841"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26000402,
+      "blueprint_id": 26300401,
+      "raw_art_lv": 2,
+      "equip_type_raw": 27,
+      "equip_row_offset": 388018,
+      "suffix_bounds": [
+        388051,
+        388069
+      ],
+      "suffix_raw_hex": "02f19fc50c000192f8b20c031b00001bec07",
+      "next_bytes_hex": "070105aa0b0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 36.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 85700,
+          "value_raw_hex": "00001042"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 6.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 85704,
+          "value_raw_hex": "0000c040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 27.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 85708,
+          "value_raw_hex": "0000d841"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26000406,
+      "blueprint_id": 26300401,
+      "raw_art_lv": 6,
+      "equip_type_raw": 27,
+      "equip_row_offset": 388246,
+      "suffix_bounds": [
+        388278,
+        388296
+      ],
+      "suffix_raw_hex": "06f19fc50c000196f8b20c031b00001bec07",
+      "next_bytes_hex": "070105990e0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 266.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 57450,
+          "value_raw_hex": "00008543"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 57454,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 104.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 57458,
+          "value_raw_hex": "0000d042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26001103,
+      "blueprint_id": 26301101,
+      "raw_art_lv": 3,
+      "equip_type_raw": 27,
+      "equip_row_offset": 390135,
+      "suffix_bounds": [
+        390168,
+        390186
+      ],
+      "suffix_raw_hex": "03ada5c50c0001cffdb20c041b00001bf307",
+      "next_bytes_hex": "070105a5090c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 80.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 34879,
+          "value_raw_hex": "0000a042"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 10.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 34883,
+          "value_raw_hex": "00002041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 48.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 34887,
+          "value_raw_hex": "00004042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26001106,
+      "blueprint_id": 26301101,
+      "raw_art_lv": 6,
+      "equip_type_raw": 27,
+      "equip_row_offset": 390275,
+      "suffix_bounds": [
+        390307,
+        390325
+      ],
+      "suffix_raw_hex": "06ada5c50c0001d2fdb20c041b00001bf307",
+      "next_bytes_hex": "0701059f090c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 295.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 36937,
+          "value_raw_hex": "00809343"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 36941,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 115.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 36945,
+          "value_raw_hex": "0000e642"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26001306,
+      "blueprint_id": 26301301,
+      "raw_art_lv": 6,
+      "equip_type_raw": 27,
+      "equip_row_offset": 391323,
+      "suffix_bounds": [
+        391355,
+        391373
+      ],
+      "suffix_raw_hex": "06f5a6c50c00019affb20c031b00001bea07",
+      "next_bytes_hex": "07010584090c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 266.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 57450,
+          "value_raw_hex": "00008543"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 57454,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 104.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 57458,
+          "value_raw_hex": "0000d042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26001596,
+      "blueprint_id": 26301596,
+      "raw_art_lv": 1,
+      "equip_type_raw": 27,
+      "equip_row_offset": 392323,
+      "suffix_bounds": [
+        392356,
+        392374
+      ],
+      "suffix_raw_hex": "019ca9c50c0032bc81b30c031b00001bee07",
+      "next_bytes_hex": "070105a4080c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 333.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 34792,
+          "value_raw_hex": "0080a643"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 34796,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 104.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 34800,
+          "value_raw_hex": "0000d042"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26003805,
+      "blueprint_id": 26303801,
+      "raw_art_lv": 5,
+      "equip_type_raw": 27,
+      "equip_row_offset": 394704,
+      "suffix_bounds": [
+        394737,
+        394755
+      ],
+      "suffix_raw_hex": "05b9bac50c0001dd92b30c041b00001b8d08",
+      "next_bytes_hex": "070105ba060c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 370.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 19821,
+          "value_raw_hex": "0000b943"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 19825,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 115.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 19829,
+          "value_raw_hex": "0000e642"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26010003,
+      "blueprint_id": 26310001,
+      "raw_art_lv": 3,
+      "equip_type_raw": 21,
+      "equip_row_offset": 395384,
+      "suffix_bounds": [
+        395417,
+        395434
+      ],
+      "suffix_raw_hex": "03f1eac50c000193c3b30c031500001500",
+      "next_bytes_hex": "070105b7050c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 144.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 48431,
+          "value_raw_hex": "00001043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 8.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 48435,
+          "value_raw_hex": "00000041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 35.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 48439,
+          "value_raw_hex": "00000c42"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26010004,
+      "blueprint_id": 26310001,
+      "raw_art_lv": 4,
+      "equip_type_raw": 21,
+      "equip_row_offset": 395520,
+      "suffix_bounds": [
+        395553,
+        395570
+      ],
+      "suffix_raw_hex": "04f1eac50c000194c3b30c031500001500",
+      "next_bytes_hex": "070105be0a0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 288.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 24286,
+          "value_raw_hex": "00009043"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 11.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 24290,
+          "value_raw_hex": "00003041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 54.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 24294,
+          "value_raw_hex": "00005842"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26010006,
+      "blueprint_id": 26310001,
+      "raw_art_lv": 6,
+      "equip_type_raw": 21,
+      "equip_row_offset": 395709,
+      "suffix_bounds": [
+        395741,
+        395758
+      ],
+      "suffix_raw_hex": "06f1eac50c000196c3b30c031500001500",
+      "next_bytes_hex": "070105d0080c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 531.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 35013,
+          "value_raw_hex": "00c00444"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 12.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 35017,
+          "value_raw_hex": "00004041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 83.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 35021,
+          "value_raw_hex": "0000a642"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26010300,
+      "blueprint_id": 26310301,
+      "raw_art_lv": 0,
+      "equip_type_raw": 27,
+      "equip_row_offset": 396165,
+      "suffix_bounds": [
+        396197,
+        396214
+      ],
+      "suffix_raw_hex": "009dedc50c0001bcc5b30c041b00001b00",
+      "next_bytes_hex": "070105e5050c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 20.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 31649,
+          "value_raw_hex": "0000a041"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 4.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 31653,
+          "value_raw_hex": "00008040"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 5.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 31657,
+          "value_raw_hex": "0000a040"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    },
+    {
+      "gear_id": 26013206,
+      "blueprint_id": 26313201,
+      "raw_art_lv": 6,
+      "equip_type_raw": 27,
+      "equip_row_offset": 397501,
+      "suffix_bounds": [
+        397533,
+        397550
+      ],
+      "suffix_raw_hex": "06f183c60c000196dcb30c041b00001b00",
+      "next_bytes_hex": "070105d10d0c",
+      "source_origin_values": [
+        {
+          "affix_code": "A0200",
+          "literal_byte_offset": 15900,
+          "raw_hex": "18",
+          "value": 295.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 36937,
+          "value_raw_hex": "00809343"
+        },
+        {
+          "affix_code": "R3600",
+          "literal_byte_offset": 15901,
+          "raw_hex": "1a",
+          "value": 16.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 36941,
+          "value_raw_hex": "00008041"
+        },
+        {
+          "affix_code": "D4100",
+          "literal_byte_offset": 15902,
+          "raw_hex": "1b",
+          "value": 115.0,
+          "type_code": 18,
+          "value_literal_byte_offset": 36945,
+          "value_raw_hex": "0000e642"
+        }
+      ],
+      "gate": "Raw art_lv 1–5 and matching indexed star source are required for preview calculation."
+    }
+  ],
+  "preview_records": [
+    {
+      "gear_id": 21001004,
+      "blueprint_id": 21301001,
+      "source_tier_art_lv": 4,
+      "star": 1,
+      "star_key_raw_hex": "270102898e940a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.0,
+          "ratio_offset": 7547,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 320.0,
+          "client_formatted_integer": 320
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.0,
+          "ratio_offset": 7551,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 60.0,
+          "client_formatted_integer": 60
+        }
+      }
+    },
+    {
+      "gear_id": 21001004,
+      "blueprint_id": 21301001,
+      "source_tier_art_lv": 4,
+      "star": 2,
+      "star_key_raw_hex": "270102898e940a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.05,
+          "ratio_offset": 3594,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 336.0,
+          "client_formatted_integer": 336
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.05,
+          "ratio_offset": 3602,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 63.0,
+          "client_formatted_integer": 63
+        }
+      }
+    },
+    {
+      "gear_id": 21001004,
+      "blueprint_id": 21301001,
+      "source_tier_art_lv": 4,
+      "star": 3,
+      "star_key_raw_hex": "270102898e940a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.1,
+          "ratio_offset": 7089,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 352.0,
+          "client_formatted_integer": 352
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.1,
+          "ratio_offset": 7097,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 66.0,
+          "client_formatted_integer": 66
+        }
+      }
+    },
+    {
+      "gear_id": 21001004,
+      "blueprint_id": 21301001,
+      "source_tier_art_lv": 4,
+      "star": 4,
+      "star_key_raw_hex": "270102898e940a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.15,
+          "ratio_offset": 8530,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 368.0,
+          "client_formatted_integer": 368
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.15,
+          "ratio_offset": 8538,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 69.0,
+          "client_formatted_integer": 69
+        }
+      }
+    },
+    {
+      "gear_id": 21001004,
+      "blueprint_id": 21301001,
+      "source_tier_art_lv": 4,
+      "star": 5,
+      "star_key_raw_hex": "270102898e940a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.2,
+          "ratio_offset": 10544,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 384.0,
+          "client_formatted_integer": 384
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.2,
+          "ratio_offset": 10552,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 72.0,
+          "client_formatted_integer": 72
+        }
+      }
+    },
+    {
+      "gear_id": 21001004,
+      "blueprint_id": 21301001,
+      "source_tier_art_lv": 4,
+      "star": 6,
+      "star_key_raw_hex": "270102898e940a06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.25,
+          "ratio_offset": 7868,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 400.0,
+          "client_formatted_integer": 400
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.25,
+          "ratio_offset": 7872,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 75.0,
+          "client_formatted_integer": 75
+        }
+      }
+    },
+    {
+      "gear_id": 21001503,
+      "blueprint_id": 21301501,
+      "source_tier_art_lv": 3,
+      "star": 1,
+      "star_key_raw_hex": "270102fd91940a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.0,
+          "ratio_offset": 14187,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 144.0,
+          "client_formatted_integer": 144
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.0,
+          "ratio_offset": 14191,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 35.0,
+          "client_formatted_integer": 35
+        }
+      }
+    },
+    {
+      "gear_id": 21001503,
+      "blueprint_id": 21301501,
+      "source_tier_art_lv": 3,
+      "star": 2,
+      "star_key_raw_hex": "270102fd91940a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.06,
+          "ratio_offset": 14232,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 152.64000000000001,
+          "client_formatted_integer": 153
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.06,
+          "ratio_offset": 14240,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 37.1,
+          "client_formatted_integer": 37
+        }
+      }
+    },
+    {
+      "gear_id": 21001503,
+      "blueprint_id": 21301501,
+      "source_tier_art_lv": 3,
+      "star": 3,
+      "star_key_raw_hex": "270102fd91940a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.11,
+          "ratio_offset": 14436,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 159.84,
+          "client_formatted_integer": 160
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.11,
+          "ratio_offset": 14444,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 38.85,
+          "client_formatted_integer": 39
+        }
+      }
+    },
+    {
+      "gear_id": 21001503,
+      "blueprint_id": 21301501,
+      "source_tier_art_lv": 3,
+      "star": 4,
+      "star_key_raw_hex": "270102fd91940a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.17,
+          "ratio_offset": 14551,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 168.48,
+          "client_formatted_integer": 168
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.17,
+          "ratio_offset": 14559,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 40.949999999999996,
+          "client_formatted_integer": 41
+        }
+      }
+    },
+    {
+      "gear_id": 21001503,
+      "blueprint_id": 21301501,
+      "source_tier_art_lv": 3,
+      "star": 5,
+      "star_key_raw_hex": "270102fd91940a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.22,
+          "ratio_offset": 14791,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 175.68,
+          "client_formatted_integer": 176
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.22,
+          "ratio_offset": 14799,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 42.699999999999996,
+          "client_formatted_integer": 43
+        }
+      }
+    },
+    {
+      "gear_id": 21011905,
+      "blueprint_id": 21311901,
+      "source_tier_art_lv": 5,
+      "star": 1,
+      "star_key_raw_hex": "2701029de3940a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 740.0,
+          "origin_value_offset": 23285,
+          "origin_raw_hex": "00003944",
+          "ratio": 1.0,
+          "ratio_offset": 21553,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 740.0,
+          "client_formatted_integer": 740
+        },
+        "D4100": {
+          "origin_value": 92.0,
+          "origin_value_offset": 23293,
+          "origin_raw_hex": "0000b842",
+          "ratio": 1.0,
+          "ratio_offset": 21557,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 92.0,
+          "client_formatted_integer": 92
+        }
+      }
+    },
+    {
+      "gear_id": 21011905,
+      "blueprint_id": 21311901,
+      "source_tier_art_lv": 5,
+      "star": 2,
+      "star_key_raw_hex": "2701029de3940a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 740.0,
+          "origin_value_offset": 23285,
+          "origin_raw_hex": "00003944",
+          "ratio": 1.05,
+          "ratio_offset": 4662,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 777.0,
+          "client_formatted_integer": 777
+        },
+        "D4100": {
+          "origin_value": 92.0,
+          "origin_value_offset": 23293,
+          "origin_raw_hex": "0000b842",
+          "ratio": 1.05,
+          "ratio_offset": 4670,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 96.60000000000001,
+          "client_formatted_integer": 97
+        }
+      }
+    },
+    {
+      "gear_id": 21011905,
+      "blueprint_id": 21311901,
+      "source_tier_art_lv": 5,
+      "star": 3,
+      "star_key_raw_hex": "2701029de3940a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 740.0,
+          "origin_value_offset": 23285,
+          "origin_raw_hex": "00003944",
+          "ratio": 1.1,
+          "ratio_offset": 21694,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 814.0000000000001,
+          "client_formatted_integer": 814
+        },
+        "D4100": {
+          "origin_value": 92.0,
+          "origin_value_offset": 23293,
+          "origin_raw_hex": "0000b842",
+          "ratio": 1.1,
+          "ratio_offset": 21702,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 101.2,
+          "client_formatted_integer": 101
+        }
+      }
+    },
+    {
+      "gear_id": 21011905,
+      "blueprint_id": 21311901,
+      "source_tier_art_lv": 5,
+      "star": 4,
+      "star_key_raw_hex": "2701029de3940a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 740.0,
+          "origin_value_offset": 23285,
+          "origin_raw_hex": "00003944",
+          "ratio": 1.15,
+          "ratio_offset": 11262,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 850.9999999999999,
+          "client_formatted_integer": 851
+        },
+        "D4100": {
+          "origin_value": 92.0,
+          "origin_value_offset": 23293,
+          "origin_raw_hex": "0000b842",
+          "ratio": 1.15,
+          "ratio_offset": 11270,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 105.8,
+          "client_formatted_integer": 106
+        }
+      }
+    },
+    {
+      "gear_id": 21011905,
+      "blueprint_id": 21311901,
+      "source_tier_art_lv": 5,
+      "star": 5,
+      "star_key_raw_hex": "2701029de3940a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 740.0,
+          "origin_value_offset": 23285,
+          "origin_raw_hex": "00003944",
+          "ratio": 1.2,
+          "ratio_offset": 21857,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 888.0,
+          "client_formatted_integer": 888
+        },
+        "D4100": {
+          "origin_value": 92.0,
+          "origin_value_offset": 23293,
+          "origin_raw_hex": "0000b842",
+          "ratio": 1.2,
+          "ratio_offset": 21865,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 110.39999999999999,
+          "client_formatted_integer": 110
+        }
+      }
+    },
+    {
+      "gear_id": 21011905,
+      "blueprint_id": 21311901,
+      "source_tier_art_lv": 5,
+      "star": 6,
+      "star_key_raw_hex": "2701029de3940a06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 740.0,
+          "origin_value_offset": 23285,
+          "origin_raw_hex": "00003944",
+          "ratio": 1.25,
+          "ratio_offset": 10911,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 925.0,
+          "client_formatted_integer": 925
+        },
+        "D4100": {
+          "origin_value": 92.0,
+          "origin_value_offset": 23293,
+          "origin_raw_hex": "0000b842",
+          "ratio": 1.25,
+          "ratio_offset": 10915,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 115.0,
+          "client_formatted_integer": 115
+        }
+      }
+    },
+    {
+      "gear_id": 21012104,
+      "blueprint_id": 21312101,
+      "source_tier_art_lv": 4,
+      "star": 1,
+      "star_key_raw_hex": "270102e5e4940a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.0,
+          "ratio_offset": 17474,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 320.0,
+          "client_formatted_integer": 320
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.0,
+          "ratio_offset": 17478,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 60.0,
+          "client_formatted_integer": 60
+        }
+      }
+    },
+    {
+      "gear_id": 21012104,
+      "blueprint_id": 21312101,
+      "source_tier_art_lv": 4,
+      "star": 2,
+      "star_key_raw_hex": "270102e5e4940a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.05,
+          "ratio_offset": 22492,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 336.0,
+          "client_formatted_integer": 336
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.05,
+          "ratio_offset": 22500,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 63.0,
+          "client_formatted_integer": 63
+        }
+      }
+    },
+    {
+      "gear_id": 21012104,
+      "blueprint_id": 21312101,
+      "source_tier_art_lv": 4,
+      "star": 3,
+      "star_key_raw_hex": "270102e5e4940a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.1,
+          "ratio_offset": 17144,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 352.0,
+          "client_formatted_integer": 352
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.1,
+          "ratio_offset": 17152,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 66.0,
+          "client_formatted_integer": 66
+        }
+      }
+    },
+    {
+      "gear_id": 21012104,
+      "blueprint_id": 21312101,
+      "source_tier_art_lv": 4,
+      "star": 4,
+      "star_key_raw_hex": "270102e5e4940a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.15,
+          "ratio_offset": 22813,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 368.0,
+          "client_formatted_integer": 368
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.15,
+          "ratio_offset": 22821,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 69.0,
+          "client_formatted_integer": 69
+        }
+      }
+    },
+    {
+      "gear_id": 21012104,
+      "blueprint_id": 21312101,
+      "source_tier_art_lv": 4,
+      "star": 5,
+      "star_key_raw_hex": "270102e5e4940a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.2,
+          "ratio_offset": 22965,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 384.0,
+          "client_formatted_integer": 384
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.2,
+          "ratio_offset": 22973,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 72.0,
+          "client_formatted_integer": 72
+        }
+      }
+    },
+    {
+      "gear_id": 21012104,
+      "blueprint_id": 21312101,
+      "source_tier_art_lv": 4,
+      "star": 6,
+      "star_key_raw_hex": "270102e5e4940a06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 22831,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.25,
+          "ratio_offset": 23064,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 400.0,
+          "client_formatted_integer": 400
+        },
+        "D4100": {
+          "origin_value": 60.0,
+          "origin_value_offset": 22839,
+          "origin_raw_hex": "00007042",
+          "ratio": 1.25,
+          "ratio_offset": 23068,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 75.0,
+          "client_formatted_integer": 75
+        }
+      }
+    },
+    {
+      "gear_id": 22000304,
+      "blueprint_id": 22300301,
+      "source_tier_art_lv": 4,
+      "star": 1,
+      "star_key_raw_hex": "2701028d8dd10a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 666.0,
+          "origin_value_offset": 63693,
+          "origin_raw_hex": "00802644",
+          "ratio": 1.0,
+          "ratio_offset": 24856,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 666.0,
+          "client_formatted_integer": 666
+        },
+        "D4100": {
+          "origin_value": 34.0,
+          "origin_value_offset": 63701,
+          "origin_raw_hex": "00000842",
+          "ratio": 1.0,
+          "ratio_offset": 24860,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 34.0,
+          "client_formatted_integer": 34
+        }
+      }
+    },
+    {
+      "gear_id": 22000304,
+      "blueprint_id": 22300301,
+      "source_tier_art_lv": 4,
+      "star": 2,
+      "star_key_raw_hex": "2701028d8dd10a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 666.0,
+          "origin_value_offset": 63693,
+          "origin_raw_hex": "00802644",
+          "ratio": 1.06,
+          "ratio_offset": 24953,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 705.96,
+          "client_formatted_integer": 706
+        },
+        "D4100": {
+          "origin_value": 34.0,
+          "origin_value_offset": 63701,
+          "origin_raw_hex": "00000842",
+          "ratio": 1.06,
+          "ratio_offset": 24961,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 36.04,
+          "client_formatted_integer": 36
+        }
+      }
+    },
+    {
+      "gear_id": 22000304,
+      "blueprint_id": 22300301,
+      "source_tier_art_lv": 4,
+      "star": 3,
+      "star_key_raw_hex": "2701028d8dd10a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 666.0,
+          "origin_value_offset": 63693,
+          "origin_raw_hex": "00802644",
+          "ratio": 1.13,
+          "ratio_offset": 25119,
+          "ratio_raw_hex": "14ae47e17a14f23f",
+          "client_product": 752.5799999999999,
+          "client_formatted_integer": 753
+        },
+        "D4100": {
+          "origin_value": 34.0,
+          "origin_value_offset": 63701,
+          "origin_raw_hex": "00000842",
+          "ratio": 1.13,
+          "ratio_offset": 25127,
+          "ratio_raw_hex": "14ae47e17a14f23f",
+          "client_product": 38.419999999999995,
+          "client_formatted_integer": 38
+        }
+      }
+    },
+    {
+      "gear_id": 22000304,
+      "blueprint_id": 22300301,
+      "source_tier_art_lv": 4,
+      "star": 4,
+      "star_key_raw_hex": "2701028d8dd10a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 666.0,
+          "origin_value_offset": 63693,
+          "origin_raw_hex": "00802644",
+          "ratio": 1.19,
+          "ratio_offset": 25227,
+          "ratio_raw_hex": "0ad7a3703d0af33f",
+          "client_product": 792.54,
+          "client_formatted_integer": 793
+        },
+        "D4100": {
+          "origin_value": 34.0,
+          "origin_value_offset": 63701,
+          "origin_raw_hex": "00000842",
+          "ratio": 1.19,
+          "ratio_offset": 25235,
+          "ratio_raw_hex": "0ad7a3703d0af33f",
+          "client_product": 40.46,
+          "client_formatted_integer": 40
+        }
+      }
+    },
+    {
+      "gear_id": 22000905,
+      "blueprint_id": 22300901,
+      "source_tier_art_lv": 5,
+      "star": 1,
+      "star_key_raw_hex": "270102e591d10a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 1924.0,
+          "origin_value_offset": 15885,
+          "origin_raw_hex": "0080f044",
+          "ratio": 1.0,
+          "ratio_offset": 26983,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 1924.0,
+          "client_formatted_integer": 1924
+        },
+        "D4100": {
+          "origin_value": 64.0,
+          "origin_value_offset": 15893,
+          "origin_raw_hex": "00008042",
+          "ratio": 1.0,
+          "ratio_offset": 26987,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 64.0,
+          "client_formatted_integer": 64
+        }
+      }
+    },
+    {
+      "gear_id": 22000905,
+      "blueprint_id": 22300901,
+      "source_tier_art_lv": 5,
+      "star": 2,
+      "star_key_raw_hex": "270102e591d10a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 1924.0,
+          "origin_value_offset": 15885,
+          "origin_raw_hex": "0080f044",
+          "ratio": 1.05,
+          "ratio_offset": 27234,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 2020.2,
+          "client_formatted_integer": 2020
+        },
+        "D4100": {
+          "origin_value": 64.0,
+          "origin_value_offset": 15893,
+          "origin_raw_hex": "00008042",
+          "ratio": 1.05,
+          "ratio_offset": 27242,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 67.2,
+          "client_formatted_integer": 67
+        }
+      }
+    },
+    {
+      "gear_id": 22000905,
+      "blueprint_id": 22300901,
+      "source_tier_art_lv": 5,
+      "star": 3,
+      "star_key_raw_hex": "270102e591d10a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 1924.0,
+          "origin_value_offset": 15885,
+          "origin_raw_hex": "0080f044",
+          "ratio": 1.1,
+          "ratio_offset": 27295,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 2116.4,
+          "client_formatted_integer": 2116
+        },
+        "D4100": {
+          "origin_value": 64.0,
+          "origin_value_offset": 15893,
+          "origin_raw_hex": "00008042",
+          "ratio": 1.1,
+          "ratio_offset": 27303,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 70.4,
+          "client_formatted_integer": 70
+        }
+      }
+    },
+    {
+      "gear_id": 22000905,
+      "blueprint_id": 22300901,
+      "source_tier_art_lv": 5,
+      "star": 4,
+      "star_key_raw_hex": "270102e591d10a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 1924.0,
+          "origin_value_offset": 15885,
+          "origin_raw_hex": "0080f044",
+          "ratio": 1.15,
+          "ratio_offset": 27593,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 2212.6,
+          "client_formatted_integer": 2213
+        },
+        "D4100": {
+          "origin_value": 64.0,
+          "origin_value_offset": 15893,
+          "origin_raw_hex": "00008042",
+          "ratio": 1.15,
+          "ratio_offset": 27601,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 73.6,
+          "client_formatted_integer": 74
+        }
+      }
+    },
+    {
+      "gear_id": 22000905,
+      "blueprint_id": 22300901,
+      "source_tier_art_lv": 5,
+      "star": 5,
+      "star_key_raw_hex": "270102e591d10a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 1924.0,
+          "origin_value_offset": 15885,
+          "origin_raw_hex": "0080f044",
+          "ratio": 1.2,
+          "ratio_offset": 27647,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 2308.7999999999997,
+          "client_formatted_integer": 2309
+        },
+        "D4100": {
+          "origin_value": 64.0,
+          "origin_value_offset": 15893,
+          "origin_raw_hex": "00008042",
+          "ratio": 1.2,
+          "ratio_offset": 27655,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 76.8,
+          "client_formatted_integer": 77
+        }
+      }
+    },
+    {
+      "gear_id": 22000905,
+      "blueprint_id": 22300901,
+      "source_tier_art_lv": 5,
+      "star": 6,
+      "star_key_raw_hex": "270102e591d10a06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 1924.0,
+          "origin_value_offset": 15885,
+          "origin_raw_hex": "0080f044",
+          "ratio": 1.25,
+          "ratio_offset": 24155,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 2405.0,
+          "client_formatted_integer": 2405
+        },
+        "D4100": {
+          "origin_value": 64.0,
+          "origin_value_offset": 15893,
+          "origin_raw_hex": "00008042",
+          "ratio": 1.25,
+          "ratio_offset": 24159,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 80.0,
+          "client_formatted_integer": 80
+        }
+      }
+    },
+    {
+      "gear_id": 22001204,
+      "blueprint_id": 22301201,
+      "source_tier_art_lv": 4,
+      "star": 1,
+      "star_key_raw_hex": "2701029194d10a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.0,
+          "ratio_offset": 28433,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 832.0,
+          "client_formatted_integer": 832
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.0,
+          "ratio_offset": 28437,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 42.0,
+          "client_formatted_integer": 42
+        }
+      }
+    },
+    {
+      "gear_id": 22001204,
+      "blueprint_id": 22301201,
+      "source_tier_art_lv": 4,
+      "star": 2,
+      "star_key_raw_hex": "2701029194d10a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.05,
+          "ratio_offset": 28478,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 873.6,
+          "client_formatted_integer": 874
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.05,
+          "ratio_offset": 28486,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 44.1,
+          "client_formatted_integer": 44
+        }
+      }
+    },
+    {
+      "gear_id": 22001204,
+      "blueprint_id": 22301201,
+      "source_tier_art_lv": 4,
+      "star": 3,
+      "star_key_raw_hex": "2701029194d10a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.1,
+          "ratio_offset": 28539,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 915.2,
+          "client_formatted_integer": 915
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.1,
+          "ratio_offset": 28547,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 46.2,
+          "client_formatted_integer": 46
+        }
+      }
+    },
+    {
+      "gear_id": 22001204,
+      "blueprint_id": 22301201,
+      "source_tier_art_lv": 4,
+      "star": 4,
+      "star_key_raw_hex": "2701029194d10a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.15,
+          "ratio_offset": 28595,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 956.8,
+          "client_formatted_integer": 957
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.15,
+          "ratio_offset": 28603,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 48.3,
+          "client_formatted_integer": 48
+        }
+      }
+    },
+    {
+      "gear_id": 22001204,
+      "blueprint_id": 22301201,
+      "source_tier_art_lv": 4,
+      "star": 5,
+      "star_key_raw_hex": "2701029194d10a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.2,
+          "ratio_offset": 28649,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 998.4,
+          "client_formatted_integer": 998
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.2,
+          "ratio_offset": 28657,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 50.4,
+          "client_formatted_integer": 50
+        }
+      }
+    },
+    {
+      "gear_id": 22001204,
+      "blueprint_id": 22301201,
+      "source_tier_art_lv": 4,
+      "star": 6,
+      "star_key_raw_hex": "2701029194d10a06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.25,
+          "ratio_offset": 28703,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 1040.0,
+          "client_formatted_integer": 1040
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.25,
+          "ratio_offset": 28707,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 52.5,
+          "client_formatted_integer": 52
+        }
+      }
+    },
+    {
+      "gear_id": 22002101,
+      "blueprint_id": 22302101,
+      "source_tier_art_lv": 1,
+      "star": 1,
+      "star_key_raw_hex": "270102959bd10a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 140.0,
+          "origin_value_offset": 47811,
+          "origin_raw_hex": "00000c43",
+          "ratio": 1.0,
+          "ratio_offset": 14951,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 140.0,
+          "client_formatted_integer": 140
+        },
+        "D4100": {
+          "origin_value": 10.0,
+          "origin_value_offset": 47819,
+          "origin_raw_hex": "00002041",
+          "ratio": 1.0,
+          "ratio_offset": 14955,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 10.0,
+          "client_formatted_integer": 10
+        }
+      }
+    },
+    {
+      "gear_id": 22002101,
+      "blueprint_id": 22302101,
+      "source_tier_art_lv": 1,
+      "star": 2,
+      "star_key_raw_hex": "270102959bd10a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 140.0,
+          "origin_value_offset": 47811,
+          "origin_raw_hex": "00000c43",
+          "ratio": 1.06,
+          "ratio_offset": 30469,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 148.4,
+          "client_formatted_integer": 148
+        },
+        "D4100": {
+          "origin_value": 10.0,
+          "origin_value_offset": 47819,
+          "origin_raw_hex": "00002041",
+          "ratio": 1.06,
+          "ratio_offset": 30477,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 10.600000000000001,
+          "client_formatted_integer": 11
+        }
+      }
+    },
+    {
+      "gear_id": 22002101,
+      "blueprint_id": 22302101,
+      "source_tier_art_lv": 1,
+      "star": 3,
+      "star_key_raw_hex": "270102959bd10a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 140.0,
+          "origin_value_offset": 47811,
+          "origin_raw_hex": "00000c43",
+          "ratio": 1.11,
+          "ratio_offset": 30583,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 155.4,
+          "client_formatted_integer": 155
+        },
+        "D4100": {
+          "origin_value": 10.0,
+          "origin_value_offset": 47819,
+          "origin_raw_hex": "00002041",
+          "ratio": 1.11,
+          "ratio_offset": 30591,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 11.100000000000001,
+          "client_formatted_integer": 11
+        }
+      }
+    },
+    {
+      "gear_id": 22002101,
+      "blueprint_id": 22302101,
+      "source_tier_art_lv": 1,
+      "star": 4,
+      "star_key_raw_hex": "270102959bd10a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 140.0,
+          "origin_value_offset": 47811,
+          "origin_raw_hex": "00000c43",
+          "ratio": 1.17,
+          "ratio_offset": 30685,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 163.79999999999998,
+          "client_formatted_integer": 164
+        },
+        "D4100": {
+          "origin_value": 10.0,
+          "origin_value_offset": 47819,
+          "origin_raw_hex": "00002041",
+          "ratio": 1.17,
+          "ratio_offset": 30693,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 11.7,
+          "client_formatted_integer": 12
+        }
+      }
+    },
+    {
+      "gear_id": 22002101,
+      "blueprint_id": 22302101,
+      "source_tier_art_lv": 1,
+      "star": 5,
+      "star_key_raw_hex": "270102959bd10a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 140.0,
+          "origin_value_offset": 47811,
+          "origin_raw_hex": "00000c43",
+          "ratio": 1.22,
+          "ratio_offset": 30793,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 170.79999999999998,
+          "client_formatted_integer": 171
+        },
+        "D4100": {
+          "origin_value": 10.0,
+          "origin_value_offset": 47819,
+          "origin_raw_hex": "00002041",
+          "ratio": 1.22,
+          "ratio_offset": 30801,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 12.2,
+          "client_formatted_integer": 12
+        }
+      }
+    },
+    {
+      "gear_id": 22003201,
+      "blueprint_id": 22303101,
+      "source_tier_art_lv": 1,
+      "star": 1,
+      "star_key_raw_hex": "270102fda2d10a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.0,
+          "ratio_offset": 31158,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 156.0,
+          "client_formatted_integer": 156
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.0,
+          "ratio_offset": 31162,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 11.0,
+          "client_formatted_integer": 11
+        }
+      }
+    },
+    {
+      "gear_id": 22003201,
+      "blueprint_id": 22303101,
+      "source_tier_art_lv": 1,
+      "star": 2,
+      "star_key_raw_hex": "270102fda2d10a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.05,
+          "ratio_offset": 27441,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 163.8,
+          "client_formatted_integer": 164
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.05,
+          "ratio_offset": 27449,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 11.55,
+          "client_formatted_integer": 12
+        }
+      }
+    },
+    {
+      "gear_id": 22003201,
+      "blueprint_id": 22303101,
+      "source_tier_art_lv": 1,
+      "star": 3,
+      "star_key_raw_hex": "270102fda2d10a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.1,
+          "ratio_offset": 27134,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 171.60000000000002,
+          "client_formatted_integer": 172
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.1,
+          "ratio_offset": 27142,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 12.100000000000001,
+          "client_formatted_integer": 12
+        }
+      }
+    },
+    {
+      "gear_id": 22003201,
+      "blueprint_id": 22303101,
+      "source_tier_art_lv": 1,
+      "star": 4,
+      "star_key_raw_hex": "270102fda2d10a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.15,
+          "ratio_offset": 31203,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 179.39999999999998,
+          "client_formatted_integer": 179
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.15,
+          "ratio_offset": 31211,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 12.649999999999999,
+          "client_formatted_integer": 13
+        }
+      }
+    },
+    {
+      "gear_id": 22003201,
+      "blueprint_id": 22303101,
+      "source_tier_art_lv": 1,
+      "star": 5,
+      "star_key_raw_hex": "270102fda2d10a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.2,
+          "ratio_offset": 31320,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 187.2,
+          "client_formatted_integer": 187
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.2,
+          "ratio_offset": 31328,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 13.2,
+          "client_formatted_integer": 13
+        }
+      }
+    },
+    {
+      "gear_id": 22003201,
+      "blueprint_id": 22303101,
+      "source_tier_art_lv": 1,
+      "star": 6,
+      "star_key_raw_hex": "270102fda2d10a06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.25,
+          "ratio_offset": 31428,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 195.0,
+          "client_formatted_integer": 195
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.25,
+          "ratio_offset": 31432,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 13.75,
+          "client_formatted_integer": 14
+        }
+      }
+    },
+    {
+      "gear_id": 22003501,
+      "blueprint_id": 22303501,
+      "source_tier_art_lv": 1,
+      "star": 1,
+      "star_key_raw_hex": "2701028da6d10a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.0,
+          "ratio_offset": 32039,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 156.0,
+          "client_formatted_integer": 156
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.0,
+          "ratio_offset": 32043,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 11.0,
+          "client_formatted_integer": 11
+        }
+      }
+    },
+    {
+      "gear_id": 22003501,
+      "blueprint_id": 22303501,
+      "source_tier_art_lv": 1,
+      "star": 2,
+      "star_key_raw_hex": "2701028da6d10a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.05,
+          "ratio_offset": 32084,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 163.8,
+          "client_formatted_integer": 164
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.05,
+          "ratio_offset": 32092,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 11.55,
+          "client_formatted_integer": 12
+        }
+      }
+    },
+    {
+      "gear_id": 22003501,
+      "blueprint_id": 22303501,
+      "source_tier_art_lv": 1,
+      "star": 3,
+      "star_key_raw_hex": "2701028da6d10a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.1,
+          "ratio_offset": 32199,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 171.60000000000002,
+          "client_formatted_integer": 172
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.1,
+          "ratio_offset": 32207,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 12.100000000000001,
+          "client_formatted_integer": 12
+        }
+      }
+    },
+    {
+      "gear_id": 22003501,
+      "blueprint_id": 22303501,
+      "source_tier_art_lv": 1,
+      "star": 4,
+      "star_key_raw_hex": "2701028da6d10a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.15,
+          "ratio_offset": 32301,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 179.39999999999998,
+          "client_formatted_integer": 179
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.15,
+          "ratio_offset": 32309,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 12.649999999999999,
+          "client_formatted_integer": 13
+        }
+      }
+    },
+    {
+      "gear_id": 22003501,
+      "blueprint_id": 22303501,
+      "source_tier_art_lv": 1,
+      "star": 5,
+      "star_key_raw_hex": "2701028da6d10a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.2,
+          "ratio_offset": 32570,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 187.2,
+          "client_formatted_integer": 187
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.2,
+          "ratio_offset": 32578,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 13.2,
+          "client_formatted_integer": 13
+        }
+      }
+    },
+    {
+      "gear_id": 22003501,
+      "blueprint_id": 22303501,
+      "source_tier_art_lv": 1,
+      "star": 6,
+      "star_key_raw_hex": "2701028da6d10a06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.25,
+          "ratio_offset": 32767,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 195.0,
+          "client_formatted_integer": 195
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.25,
+          "ratio_offset": 32771,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 13.75,
+          "client_formatted_integer": 14
+        }
+      }
+    },
+    {
+      "gear_id": 22003904,
+      "blueprint_id": 22303901,
+      "source_tier_art_lv": 4,
+      "star": 1,
+      "star_key_raw_hex": "2701029da9d10a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.0,
+          "ratio_offset": 10337,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 832.0,
+          "client_formatted_integer": 832
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.0,
+          "ratio_offset": 10341,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 42.0,
+          "client_formatted_integer": 42
+        }
+      }
+    },
+    {
+      "gear_id": 22003904,
+      "blueprint_id": 22303901,
+      "source_tier_art_lv": 4,
+      "star": 2,
+      "star_key_raw_hex": "2701029da9d10a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.05,
+          "ratio_offset": 15822,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 873.6,
+          "client_formatted_integer": 874
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.05,
+          "ratio_offset": 15830,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 44.1,
+          "client_formatted_integer": 44
+        }
+      }
+    },
+    {
+      "gear_id": 22003904,
+      "blueprint_id": 22303901,
+      "source_tier_art_lv": 4,
+      "star": 3,
+      "star_key_raw_hex": "2701029da9d10a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.1,
+          "ratio_offset": 15991,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 915.2,
+          "client_formatted_integer": 915
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.1,
+          "ratio_offset": 15999,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 46.2,
+          "client_formatted_integer": 46
+        }
+      }
+    },
+    {
+      "gear_id": 22003904,
+      "blueprint_id": 22303901,
+      "source_tier_art_lv": 4,
+      "star": 4,
+      "star_key_raw_hex": "2701029da9d10a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.15,
+          "ratio_offset": 16207,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 956.8,
+          "client_formatted_integer": 957
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.15,
+          "ratio_offset": 16215,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 48.3,
+          "client_formatted_integer": 48
+        }
+      }
+    },
+    {
+      "gear_id": 22003904,
+      "blueprint_id": 22303901,
+      "source_tier_art_lv": 4,
+      "star": 5,
+      "star_key_raw_hex": "2701029da9d10a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.2,
+          "ratio_offset": 7493,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 998.4,
+          "client_formatted_integer": 998
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.2,
+          "ratio_offset": 7501,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 50.4,
+          "client_formatted_integer": 50
+        }
+      }
+    },
+    {
+      "gear_id": 22003904,
+      "blueprint_id": 22303901,
+      "source_tier_art_lv": 4,
+      "star": 6,
+      "star_key_raw_hex": "2701029da9d10a06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 832.0,
+          "origin_value_offset": 33046,
+          "origin_raw_hex": "00005044",
+          "ratio": 1.25,
+          "ratio_offset": 16503,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 1040.0,
+          "client_formatted_integer": 1040
+        },
+        "D4100": {
+          "origin_value": 42.0,
+          "origin_value_offset": 33054,
+          "origin_raw_hex": "00002842",
+          "ratio": 1.25,
+          "ratio_offset": 16507,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 52.5,
+          "client_formatted_integer": 52
+        }
+      }
+    },
+    {
+      "gear_id": 22012501,
+      "blueprint_id": 22312501,
+      "source_tier_art_lv": 1,
+      "star": 1,
+      "star_key_raw_hex": "270102b5ecd10a01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.0,
+          "ratio_offset": 34284,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 156.0,
+          "client_formatted_integer": 156
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.0,
+          "ratio_offset": 34288,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 11.0,
+          "client_formatted_integer": 11
+        }
+      }
+    },
+    {
+      "gear_id": 22012501,
+      "blueprint_id": 22312501,
+      "source_tier_art_lv": 1,
+      "star": 2,
+      "star_key_raw_hex": "270102b5ecd10a02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.05,
+          "ratio_offset": 27495,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 163.8,
+          "client_formatted_integer": 164
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.05,
+          "ratio_offset": 27503,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 11.55,
+          "client_formatted_integer": 12
+        }
+      }
+    },
+    {
+      "gear_id": 22012501,
+      "blueprint_id": 22312501,
+      "source_tier_art_lv": 1,
+      "star": 3,
+      "star_key_raw_hex": "270102b5ecd10a03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.1,
+          "ratio_offset": 31264,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 171.60000000000002,
+          "client_formatted_integer": 172
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.1,
+          "ratio_offset": 31272,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 12.100000000000001,
+          "client_formatted_integer": 12
+        }
+      }
+    },
+    {
+      "gear_id": 22012501,
+      "blueprint_id": 22312501,
+      "source_tier_art_lv": 1,
+      "star": 4,
+      "star_key_raw_hex": "270102b5ecd10a04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.15,
+          "ratio_offset": 27028,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 179.39999999999998,
+          "client_formatted_integer": 179
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.15,
+          "ratio_offset": 27036,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 12.649999999999999,
+          "client_formatted_integer": 13
+        }
+      }
+    },
+    {
+      "gear_id": 22012501,
+      "blueprint_id": 22312501,
+      "source_tier_art_lv": 1,
+      "star": 5,
+      "star_key_raw_hex": "270102b5ecd10a05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.2,
+          "ratio_offset": 34383,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 187.2,
+          "client_formatted_integer": 187
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.2,
+          "ratio_offset": 34391,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 13.2,
+          "client_formatted_integer": 13
+        }
+      }
+    },
+    {
+      "gear_id": 22012501,
+      "blueprint_id": 22312501,
+      "source_tier_art_lv": 1,
+      "star": 6,
+      "star_key_raw_hex": "270102b5ecd10a06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 156.0,
+          "origin_value_offset": 41349,
+          "origin_raw_hex": "00001c43",
+          "ratio": 1.25,
+          "ratio_offset": 34437,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 195.0,
+          "client_formatted_integer": 195
+        },
+        "D4100": {
+          "origin_value": 11.0,
+          "origin_value_offset": 41357,
+          "origin_raw_hex": "00003041",
+          "ratio": 1.25,
+          "ratio_offset": 34441,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 13.75,
+          "client_formatted_integer": 14
+        }
+      }
+    },
+    {
+      "gear_id": 23000002,
+      "blueprint_id": 23300001,
+      "source_tier_art_lv": 2,
+      "star": 1,
+      "star_key_raw_hex": "270102a18f8e0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 134.0,
+          "origin_value_offset": 53769,
+          "origin_raw_hex": "00000643",
+          "ratio": 1.0,
+          "ratio_offset": 23906,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 134.0,
+          "client_formatted_integer": 134
+        },
+        "D4100": {
+          "origin_value": 13.0,
+          "origin_value_offset": 53777,
+          "origin_raw_hex": "00005041",
+          "ratio": 1.0,
+          "ratio_offset": 23910,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 13.0,
+          "client_formatted_integer": 13
+        }
+      }
+    },
+    {
+      "gear_id": 23000002,
+      "blueprint_id": 23300001,
+      "source_tier_art_lv": 2,
+      "star": 2,
+      "star_key_raw_hex": "270102a18f8e0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 134.0,
+          "origin_value_offset": 53769,
+          "origin_raw_hex": "00000643",
+          "ratio": 1.07,
+          "ratio_offset": 23810,
+          "ratio_raw_hex": "1f85eb51b81ef13f",
+          "client_product": 143.38,
+          "client_formatted_integer": 143
+        },
+        "D4100": {
+          "origin_value": 13.0,
+          "origin_value_offset": 53777,
+          "origin_raw_hex": "00005041",
+          "ratio": 1.07,
+          "ratio_offset": 23818,
+          "ratio_raw_hex": "1f85eb51b81ef13f",
+          "client_product": 13.91,
+          "client_formatted_integer": 14
+        }
+      }
+    },
+    {
+      "gear_id": 23000002,
+      "blueprint_id": 23300001,
+      "source_tier_art_lv": 2,
+      "star": 3,
+      "star_key_raw_hex": "270102a18f8e0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 134.0,
+          "origin_value_offset": 53769,
+          "origin_raw_hex": "00000643",
+          "ratio": 1.14,
+          "ratio_offset": 35896,
+          "ratio_raw_hex": "3d0ad7a3703df23f",
+          "client_product": 152.76,
+          "client_formatted_integer": 153
+        },
+        "D4100": {
+          "origin_value": 13.0,
+          "origin_value_offset": 53777,
+          "origin_raw_hex": "00005041",
+          "ratio": 1.14,
+          "ratio_offset": 35904,
+          "ratio_raw_hex": "3d0ad7a3703df23f",
+          "client_product": 14.819999999999999,
+          "client_formatted_integer": 15
+        }
+      }
+    },
+    {
+      "gear_id": 23000101,
+      "blueprint_id": 23300101,
+      "source_tier_art_lv": 1,
+      "star": 1,
+      "star_key_raw_hex": "27010285908e0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 115.0,
+          "origin_value_offset": 40742,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.0,
+          "ratio_offset": 29479,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 115.0,
+          "client_formatted_integer": 115
+        },
+        "D4100": {
+          "origin_value": 10.0,
+          "origin_value_offset": 40750,
+          "origin_raw_hex": "00002041",
+          "ratio": 1.0,
+          "ratio_offset": 29483,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 10.0,
+          "client_formatted_integer": 10
+        }
+      }
+    },
+    {
+      "gear_id": 23000101,
+      "blueprint_id": 23300101,
+      "source_tier_art_lv": 1,
+      "star": 2,
+      "star_key_raw_hex": "27010285908e0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 115.0,
+          "origin_value_offset": 40742,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.06,
+          "ratio_offset": 2649,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 121.9,
+          "client_formatted_integer": 122
+        },
+        "D4100": {
+          "origin_value": 10.0,
+          "origin_value_offset": 40750,
+          "origin_raw_hex": "00002041",
+          "ratio": 1.06,
+          "ratio_offset": 2657,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 10.600000000000001,
+          "client_formatted_integer": 11
+        }
+      }
+    },
+    {
+      "gear_id": 23000101,
+      "blueprint_id": 23300101,
+      "source_tier_art_lv": 1,
+      "star": 3,
+      "star_key_raw_hex": "27010285908e0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 115.0,
+          "origin_value_offset": 40742,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.13,
+          "ratio_offset": 25832,
+          "ratio_raw_hex": "14ae47e17a14f23f",
+          "client_product": 129.95,
+          "client_formatted_integer": 130
+        },
+        "D4100": {
+          "origin_value": 10.0,
+          "origin_value_offset": 40750,
+          "origin_raw_hex": "00002041",
+          "ratio": 1.13,
+          "ratio_offset": 25840,
+          "ratio_raw_hex": "14ae47e17a14f23f",
+          "client_product": 11.299999999999999,
+          "client_formatted_integer": 11
+        }
+      }
+    },
+    {
+      "gear_id": 23000101,
+      "blueprint_id": 23300101,
+      "source_tier_art_lv": 1,
+      "star": 4,
+      "star_key_raw_hex": "27010285908e0b04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 115.0,
+          "origin_value_offset": 40742,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.19,
+          "ratio_offset": 6042,
+          "ratio_raw_hex": "0ad7a3703d0af33f",
+          "client_product": 136.85,
+          "client_formatted_integer": 137
+        },
+        "D4100": {
+          "origin_value": 10.0,
+          "origin_value_offset": 40750,
+          "origin_raw_hex": "00002041",
+          "ratio": 1.19,
+          "ratio_offset": 6050,
+          "ratio_raw_hex": "0ad7a3703d0af33f",
+          "client_product": 11.899999999999999,
+          "client_formatted_integer": 12
+        }
+      }
+    },
+    {
+      "gear_id": 23000104,
+      "blueprint_id": 23300101,
+      "source_tier_art_lv": 4,
+      "star": 1,
+      "star_key_raw_hex": "27010285908e0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 614.0,
+          "origin_value_offset": 86782,
+          "origin_raw_hex": "00801944",
+          "ratio": 1.0,
+          "ratio_offset": 29479,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 614.0,
+          "client_formatted_integer": 614
+        },
+        "D4100": {
+          "origin_value": 38.0,
+          "origin_value_offset": 86790,
+          "origin_raw_hex": "00001842",
+          "ratio": 1.0,
+          "ratio_offset": 29483,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 38.0,
+          "client_formatted_integer": 38
+        }
+      }
+    },
+    {
+      "gear_id": 23000104,
+      "blueprint_id": 23300101,
+      "source_tier_art_lv": 4,
+      "star": 2,
+      "star_key_raw_hex": "27010285908e0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 614.0,
+          "origin_value_offset": 86782,
+          "origin_raw_hex": "00801944",
+          "ratio": 1.06,
+          "ratio_offset": 2649,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 650.84,
+          "client_formatted_integer": 651
+        },
+        "D4100": {
+          "origin_value": 38.0,
+          "origin_value_offset": 86790,
+          "origin_raw_hex": "00001842",
+          "ratio": 1.06,
+          "ratio_offset": 2657,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 40.28,
+          "client_formatted_integer": 40
+        }
+      }
+    },
+    {
+      "gear_id": 23000104,
+      "blueprint_id": 23300101,
+      "source_tier_art_lv": 4,
+      "star": 3,
+      "star_key_raw_hex": "27010285908e0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 614.0,
+          "origin_value_offset": 86782,
+          "origin_raw_hex": "00801944",
+          "ratio": 1.13,
+          "ratio_offset": 25832,
+          "ratio_raw_hex": "14ae47e17a14f23f",
+          "client_product": 693.8199999999999,
+          "client_formatted_integer": 694
+        },
+        "D4100": {
+          "origin_value": 38.0,
+          "origin_value_offset": 86790,
+          "origin_raw_hex": "00001842",
+          "ratio": 1.13,
+          "ratio_offset": 25840,
+          "ratio_raw_hex": "14ae47e17a14f23f",
+          "client_product": 42.94,
+          "client_formatted_integer": 43
+        }
+      }
+    },
+    {
+      "gear_id": 23000104,
+      "blueprint_id": 23300101,
+      "source_tier_art_lv": 4,
+      "star": 4,
+      "star_key_raw_hex": "27010285908e0b04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 614.0,
+          "origin_value_offset": 86782,
+          "origin_raw_hex": "00801944",
+          "ratio": 1.19,
+          "ratio_offset": 6042,
+          "ratio_raw_hex": "0ad7a3703d0af33f",
+          "client_product": 730.66,
+          "client_formatted_integer": 731
+        },
+        "D4100": {
+          "origin_value": 38.0,
+          "origin_value_offset": 86790,
+          "origin_raw_hex": "00001842",
+          "ratio": 1.19,
+          "ratio_offset": 6050,
+          "ratio_raw_hex": "0ad7a3703d0af33f",
+          "client_product": 45.22,
+          "client_formatted_integer": 45
+        }
+      }
+    },
+    {
+      "gear_id": 23000703,
+      "blueprint_id": 23300701,
+      "source_tier_art_lv": 3,
+      "star": 1,
+      "star_key_raw_hex": "270102dd948e0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.0,
+          "ratio_offset": 36934,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 384.0,
+          "client_formatted_integer": 384
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.0,
+          "ratio_offset": 36938,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 31.0,
+          "client_formatted_integer": 31
+        }
+      }
+    },
+    {
+      "gear_id": 23000703,
+      "blueprint_id": 23300701,
+      "source_tier_art_lv": 3,
+      "star": 2,
+      "star_key_raw_hex": "270102dd948e0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.05,
+          "ratio_offset": 37031,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 403.20000000000005,
+          "client_formatted_integer": 403
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.05,
+          "ratio_offset": 37039,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 32.550000000000004,
+          "client_formatted_integer": 33
+        }
+      }
+    },
+    {
+      "gear_id": 23000703,
+      "blueprint_id": 23300701,
+      "source_tier_art_lv": 3,
+      "star": 3,
+      "star_key_raw_hex": "270102dd948e0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.1,
+          "ratio_offset": 35332,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 422.40000000000003,
+          "client_formatted_integer": 422
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.1,
+          "ratio_offset": 35340,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 34.1,
+          "client_formatted_integer": 34
+        }
+      }
+    },
+    {
+      "gear_id": 23000703,
+      "blueprint_id": 23300701,
+      "source_tier_art_lv": 3,
+      "star": 4,
+      "star_key_raw_hex": "270102dd948e0b04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.15,
+          "ratio_offset": 26269,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 441.59999999999997,
+          "client_formatted_integer": 442
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.15,
+          "ratio_offset": 26277,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 35.65,
+          "client_formatted_integer": 36
+        }
+      }
+    },
+    {
+      "gear_id": 23000703,
+      "blueprint_id": 23300701,
+      "source_tier_art_lv": 3,
+      "star": 5,
+      "star_key_raw_hex": "270102dd948e0b05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.2,
+          "ratio_offset": 10229,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 460.79999999999995,
+          "client_formatted_integer": 461
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.2,
+          "ratio_offset": 10237,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 37.199999999999996,
+          "client_formatted_integer": 37
+        }
+      }
+    },
+    {
+      "gear_id": 23000703,
+      "blueprint_id": 23300701,
+      "source_tier_art_lv": 3,
+      "star": 6,
+      "star_key_raw_hex": "270102dd948e0b06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.25,
+          "ratio_offset": 29674,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 480.0,
+          "client_formatted_integer": 480
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.25,
+          "ratio_offset": 29678,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 38.75,
+          "client_formatted_integer": 39
+        }
+      }
+    },
+    {
+      "gear_id": 23001504,
+      "blueprint_id": 23301501,
+      "source_tier_art_lv": 4,
+      "star": 1,
+      "star_key_raw_hex": "270102fd9a8e0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 691.0,
+          "origin_value_offset": 82417,
+          "origin_raw_hex": "00c02c44",
+          "ratio": 1.0,
+          "ratio_offset": 7386,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 691.0,
+          "client_formatted_integer": 691
+        },
+        "D4100": {
+          "origin_value": 43.0,
+          "origin_value_offset": 82425,
+          "origin_raw_hex": "00002c42",
+          "ratio": 1.0,
+          "ratio_offset": 7390,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 43.0,
+          "client_formatted_integer": 43
+        }
+      }
+    },
+    {
+      "gear_id": 23001504,
+      "blueprint_id": 23301501,
+      "source_tier_art_lv": 4,
+      "star": 2,
+      "star_key_raw_hex": "270102fd9a8e0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 691.0,
+          "origin_value_offset": 82417,
+          "origin_raw_hex": "00c02c44",
+          "ratio": 1.06,
+          "ratio_offset": 3541,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 732.46,
+          "client_formatted_integer": 732
+        },
+        "D4100": {
+          "origin_value": 43.0,
+          "origin_value_offset": 82425,
+          "origin_raw_hex": "00002c42",
+          "ratio": 1.06,
+          "ratio_offset": 3549,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 45.580000000000005,
+          "client_formatted_integer": 46
+        }
+      }
+    },
+    {
+      "gear_id": 23001504,
+      "blueprint_id": 23301501,
+      "source_tier_art_lv": 4,
+      "star": 3,
+      "star_key_raw_hex": "270102fd9a8e0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 691.0,
+          "origin_value_offset": 82417,
+          "origin_raw_hex": "00c02c44",
+          "ratio": 1.11,
+          "ratio_offset": 6928,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 767.0100000000001,
+          "client_formatted_integer": 767
+        },
+        "D4100": {
+          "origin_value": 43.0,
+          "origin_value_offset": 82425,
+          "origin_raw_hex": "00002c42",
+          "ratio": 1.11,
+          "ratio_offset": 6936,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 47.730000000000004,
+          "client_formatted_integer": 48
+        }
+      }
+    },
+    {
+      "gear_id": 23001504,
+      "blueprint_id": 23301501,
+      "source_tier_art_lv": 4,
+      "star": 4,
+      "star_key_raw_hex": "270102fd9a8e0b04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 691.0,
+          "origin_value_offset": 82417,
+          "origin_raw_hex": "00c02c44",
+          "ratio": 1.17,
+          "ratio_offset": 8360,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 808.4699999999999,
+          "client_formatted_integer": 808
+        },
+        "D4100": {
+          "origin_value": 43.0,
+          "origin_value_offset": 82425,
+          "origin_raw_hex": "00002c42",
+          "ratio": 1.17,
+          "ratio_offset": 8368,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 50.309999999999995,
+          "client_formatted_integer": 50
+        }
+      }
+    },
+    {
+      "gear_id": 23001504,
+      "blueprint_id": 23301501,
+      "source_tier_art_lv": 4,
+      "star": 5,
+      "star_key_raw_hex": "270102fd9a8e0b05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 691.0,
+          "origin_value_offset": 82417,
+          "origin_raw_hex": "00c02c44",
+          "ratio": 1.22,
+          "ratio_offset": 10283,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 843.02,
+          "client_formatted_integer": 843
+        },
+        "D4100": {
+          "origin_value": 43.0,
+          "origin_value_offset": 82425,
+          "origin_raw_hex": "00002c42",
+          "ratio": 1.22,
+          "ratio_offset": 10291,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 52.46,
+          "client_formatted_integer": 52
+        }
+      }
+    },
+    {
+      "gear_id": 23001605,
+      "blueprint_id": 23301601,
+      "source_tier_art_lv": 5,
+      "star": 1,
+      "star_key_raw_hex": "270102e19b8e0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 1243.0,
+          "origin_value_offset": 84211,
+          "origin_raw_hex": "00609b44",
+          "ratio": 1.0,
+          "ratio_offset": 39129,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 1243.0,
+          "client_formatted_integer": 1243
+        },
+        "D4100": {
+          "origin_value": 52.0,
+          "origin_value_offset": 84219,
+          "origin_raw_hex": "00005042",
+          "ratio": 1.0,
+          "ratio_offset": 39133,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 52.0,
+          "client_formatted_integer": 52
+        }
+      }
+    },
+    {
+      "gear_id": 23001605,
+      "blueprint_id": 23301601,
+      "source_tier_art_lv": 5,
+      "star": 2,
+      "star_key_raw_hex": "270102e19b8e0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 1243.0,
+          "origin_value_offset": 84211,
+          "origin_raw_hex": "00609b44",
+          "ratio": 1.07,
+          "ratio_offset": 32355,
+          "ratio_raw_hex": "1f85eb51b81ef13f",
+          "client_product": 1330.01,
+          "client_formatted_integer": 1330
+        },
+        "D4100": {
+          "origin_value": 52.0,
+          "origin_value_offset": 84219,
+          "origin_raw_hex": "00005042",
+          "ratio": 1.07,
+          "ratio_offset": 32363,
+          "ratio_raw_hex": "1f85eb51b81ef13f",
+          "client_product": 55.64,
+          "client_formatted_integer": 56
+        }
+      }
+    },
+    {
+      "gear_id": 23001605,
+      "blueprint_id": 23301601,
+      "source_tier_art_lv": 5,
+      "star": 3,
+      "star_key_raw_hex": "270102e19b8e0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 1243.0,
+          "origin_value_offset": 84211,
+          "origin_raw_hex": "00609b44",
+          "ratio": 1.14,
+          "ratio_offset": 14498,
+          "ratio_raw_hex": "3d0ad7a3703df23f",
+          "client_product": 1417.02,
+          "client_formatted_integer": 1417
+        },
+        "D4100": {
+          "origin_value": 52.0,
+          "origin_value_offset": 84219,
+          "origin_raw_hex": "00005042",
+          "ratio": 1.14,
+          "ratio_offset": 14506,
+          "ratio_raw_hex": "3d0ad7a3703df23f",
+          "client_product": 59.279999999999994,
+          "client_formatted_integer": 59
+        }
+      }
+    },
+    {
+      "gear_id": 23003101,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 1,
+      "star": 1,
+      "star_key_raw_hex": "270102bda78e0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 23632,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.0,
+          "ratio_offset": 38481,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 144.0,
+          "client_formatted_integer": 144
+        },
+        "D4100": {
+          "origin_value": 13.0,
+          "origin_value_offset": 23640,
+          "origin_raw_hex": "00005041",
+          "ratio": 1.0,
+          "ratio_offset": 38485,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 13.0,
+          "client_formatted_integer": 13
+        }
+      }
+    },
+    {
+      "gear_id": 23003101,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 1,
+      "star": 2,
+      "star_key_raw_hex": "270102bda78e0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 23632,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.05,
+          "ratio_offset": 39420,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 151.20000000000002,
+          "client_formatted_integer": 151
+        },
+        "D4100": {
+          "origin_value": 13.0,
+          "origin_value_offset": 23640,
+          "origin_raw_hex": "00005041",
+          "ratio": 1.05,
+          "ratio_offset": 39428,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 13.65,
+          "client_formatted_integer": 14
+        }
+      }
+    },
+    {
+      "gear_id": 23003101,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 1,
+      "star": 3,
+      "star_key_raw_hex": "270102bda78e0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 23632,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.1,
+          "ratio_offset": 39481,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 158.4,
+          "client_formatted_integer": 158
+        },
+        "D4100": {
+          "origin_value": 13.0,
+          "origin_value_offset": 23640,
+          "origin_raw_hex": "00005041",
+          "ratio": 1.1,
+          "ratio_offset": 39489,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 14.3,
+          "client_formatted_integer": 14
+        }
+      }
+    },
+    {
+      "gear_id": 23003101,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 1,
+      "star": 4,
+      "star_key_raw_hex": "270102bda78e0b04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 23632,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.15,
+          "ratio_offset": 39627,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 165.6,
+          "client_formatted_integer": 166
+        },
+        "D4100": {
+          "origin_value": 13.0,
+          "origin_value_offset": 23640,
+          "origin_raw_hex": "00005041",
+          "ratio": 1.15,
+          "ratio_offset": 39635,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 14.95,
+          "client_formatted_integer": 15
+        }
+      }
+    },
+    {
+      "gear_id": 23003101,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 1,
+      "star": 5,
+      "star_key_raw_hex": "270102bda78e0b05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 23632,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.2,
+          "ratio_offset": 39725,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 172.79999999999998,
+          "client_formatted_integer": 173
+        },
+        "D4100": {
+          "origin_value": 13.0,
+          "origin_value_offset": 23640,
+          "origin_raw_hex": "00005041",
+          "ratio": 1.2,
+          "ratio_offset": 39733,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 15.6,
+          "client_formatted_integer": 16
+        }
+      }
+    },
+    {
+      "gear_id": 23003101,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 1,
+      "star": 6,
+      "star_key_raw_hex": "270102bda78e0b06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 23632,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.25,
+          "ratio_offset": 36476,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 180.0,
+          "client_formatted_integer": 180
+        },
+        "D4100": {
+          "origin_value": 13.0,
+          "origin_value_offset": 23640,
+          "origin_raw_hex": "00005041",
+          "ratio": 1.25,
+          "ratio_offset": 36480,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 16.25,
+          "client_formatted_integer": 16
+        }
+      }
+    },
+    {
+      "gear_id": 23003203,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 3,
+      "star": 1,
+      "star_key_raw_hex": "270102bda78e0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.0,
+          "ratio_offset": 38481,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 384.0,
+          "client_formatted_integer": 384
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.0,
+          "ratio_offset": 38485,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 31.0,
+          "client_formatted_integer": 31
+        }
+      }
+    },
+    {
+      "gear_id": 23003203,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 3,
+      "star": 2,
+      "star_key_raw_hex": "270102bda78e0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.05,
+          "ratio_offset": 39420,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 403.20000000000005,
+          "client_formatted_integer": 403
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.05,
+          "ratio_offset": 39428,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 32.550000000000004,
+          "client_formatted_integer": 33
+        }
+      }
+    },
+    {
+      "gear_id": 23003203,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 3,
+      "star": 3,
+      "star_key_raw_hex": "270102bda78e0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.1,
+          "ratio_offset": 39481,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 422.40000000000003,
+          "client_formatted_integer": 422
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.1,
+          "ratio_offset": 39489,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 34.1,
+          "client_formatted_integer": 34
+        }
+      }
+    },
+    {
+      "gear_id": 23003203,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 3,
+      "star": 4,
+      "star_key_raw_hex": "270102bda78e0b04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.15,
+          "ratio_offset": 39627,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 441.59999999999997,
+          "client_formatted_integer": 442
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.15,
+          "ratio_offset": 39635,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 35.65,
+          "client_formatted_integer": 36
+        }
+      }
+    },
+    {
+      "gear_id": 23003203,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 3,
+      "star": 5,
+      "star_key_raw_hex": "270102bda78e0b05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.2,
+          "ratio_offset": 39725,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 460.79999999999995,
+          "client_formatted_integer": 461
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.2,
+          "ratio_offset": 39733,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 37.199999999999996,
+          "client_formatted_integer": 37
+        }
+      }
+    },
+    {
+      "gear_id": 23003203,
+      "blueprint_id": 23303101,
+      "source_tier_art_lv": 3,
+      "star": 6,
+      "star_key_raw_hex": "270102bda78e0b06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 384.0,
+          "origin_value_offset": 20348,
+          "origin_raw_hex": "0000c043",
+          "ratio": 1.25,
+          "ratio_offset": 36476,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 480.0,
+          "client_formatted_integer": 480
+        },
+        "D4100": {
+          "origin_value": 31.0,
+          "origin_value_offset": 20356,
+          "origin_raw_hex": "0000f841",
+          "ratio": 1.25,
+          "ratio_offset": 36480,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 38.75,
+          "client_formatted_integer": 39
+        }
+      }
+    },
+    {
+      "gear_id": 23013202,
+      "blueprint_id": 23313201,
+      "source_tier_art_lv": 2,
+      "star": 1,
+      "star_key_raw_hex": "270102b1f68e0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 192.0,
+          "origin_value_offset": 26126,
+          "origin_raw_hex": "00004043",
+          "ratio": 1.0,
+          "ratio_offset": 42937,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 192.0,
+          "client_formatted_integer": 192
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 26134,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.0,
+          "ratio_offset": 42941,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 19.0,
+          "client_formatted_integer": 19
+        }
+      }
+    },
+    {
+      "gear_id": 23013202,
+      "blueprint_id": 23313201,
+      "source_tier_art_lv": 2,
+      "star": 2,
+      "star_key_raw_hex": "270102b1f68e0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 192.0,
+          "origin_value_offset": 26126,
+          "origin_raw_hex": "00004043",
+          "ratio": 1.05,
+          "ratio_offset": 42982,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 201.60000000000002,
+          "client_formatted_integer": 202
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 26134,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.05,
+          "ratio_offset": 42990,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 19.95,
+          "client_formatted_integer": 20
+        }
+      }
+    },
+    {
+      "gear_id": 23013202,
+      "blueprint_id": 23313201,
+      "source_tier_art_lv": 2,
+      "star": 3,
+      "star_key_raw_hex": "270102b1f68e0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 192.0,
+          "origin_value_offset": 26126,
+          "origin_raw_hex": "00004043",
+          "ratio": 1.1,
+          "ratio_offset": 43043,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 211.20000000000002,
+          "client_formatted_integer": 211
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 26134,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.1,
+          "ratio_offset": 43051,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 20.900000000000002,
+          "client_formatted_integer": 21
+        }
+      }
+    },
+    {
+      "gear_id": 23013202,
+      "blueprint_id": 23313201,
+      "source_tier_art_lv": 2,
+      "star": 4,
+      "star_key_raw_hex": "270102b1f68e0b04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 192.0,
+          "origin_value_offset": 26126,
+          "origin_raw_hex": "00004043",
+          "ratio": 1.15,
+          "ratio_offset": 43099,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 220.79999999999998,
+          "client_formatted_integer": 221
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 26134,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.15,
+          "ratio_offset": 43107,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 21.849999999999998,
+          "client_formatted_integer": 22
+        }
+      }
+    },
+    {
+      "gear_id": 23013202,
+      "blueprint_id": 23313201,
+      "source_tier_art_lv": 2,
+      "star": 5,
+      "star_key_raw_hex": "270102b1f68e0b05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 192.0,
+          "origin_value_offset": 26126,
+          "origin_raw_hex": "00004043",
+          "ratio": 1.2,
+          "ratio_offset": 26690,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 230.39999999999998,
+          "client_formatted_integer": 230
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 26134,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.2,
+          "ratio_offset": 26698,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 22.8,
+          "client_formatted_integer": 23
+        }
+      }
+    },
+    {
+      "gear_id": 23013202,
+      "blueprint_id": 23313201,
+      "source_tier_art_lv": 2,
+      "star": 6,
+      "star_key_raw_hex": "270102b1f68e0b06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 192.0,
+          "origin_value_offset": 26126,
+          "origin_raw_hex": "00004043",
+          "ratio": 1.25,
+          "ratio_offset": 43153,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 240.0,
+          "client_formatted_integer": 240
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 26134,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.25,
+          "ratio_offset": 43157,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 23.75,
+          "client_formatted_integer": 24
+        }
+      }
+    },
+    {
+      "gear_id": 24000001,
+      "blueprint_id": 24300001,
+      "source_tier_art_lv": 1,
+      "star": 1,
+      "star_key_raw_hex": "270102e193cb0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 84.0,
+          "origin_value_offset": 87182,
+          "origin_raw_hex": "0000a842",
+          "ratio": 1.0,
+          "ratio_offset": 20812,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 84.0,
+          "client_formatted_integer": 84
+        },
+        "D4100": {
+          "origin_value": 6.0,
+          "origin_value_offset": 87190,
+          "origin_raw_hex": "0000c040",
+          "ratio": 1.0,
+          "ratio_offset": 20816,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 6.0,
+          "client_formatted_integer": 6
+        }
+      }
+    },
+    {
+      "gear_id": 24000001,
+      "blueprint_id": 24300001,
+      "source_tier_art_lv": 1,
+      "star": 2,
+      "star_key_raw_hex": "270102e193cb0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 84.0,
+          "origin_value_offset": 87182,
+          "origin_raw_hex": "0000a842",
+          "ratio": 1.07,
+          "ratio_offset": 43199,
+          "ratio_raw_hex": "1f85eb51b81ef13f",
+          "client_product": 89.88000000000001,
+          "client_formatted_integer": 90
+        },
+        "D4100": {
+          "origin_value": 6.0,
+          "origin_value_offset": 87190,
+          "origin_raw_hex": "0000c040",
+          "ratio": 1.07,
+          "ratio_offset": 43207,
+          "ratio_raw_hex": "1f85eb51b81ef13f",
+          "client_product": 6.42,
+          "client_formatted_integer": 6
+        }
+      }
+    },
+    {
+      "gear_id": 24000001,
+      "blueprint_id": 24300001,
+      "source_tier_art_lv": 1,
+      "star": 3,
+      "star_key_raw_hex": "270102e193cb0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 84.0,
+          "origin_value_offset": 87182,
+          "origin_raw_hex": "0000a842",
+          "ratio": 1.14,
+          "ratio_offset": 39224,
+          "ratio_raw_hex": "3d0ad7a3703df23f",
+          "client_product": 95.75999999999999,
+          "client_formatted_integer": 96
+        },
+        "D4100": {
+          "origin_value": 6.0,
+          "origin_value_offset": 87190,
+          "origin_raw_hex": "0000c040",
+          "ratio": 1.14,
+          "ratio_offset": 39232,
+          "ratio_raw_hex": "3d0ad7a3703df23f",
+          "client_product": 6.84,
+          "client_formatted_integer": 7
+        }
+      }
+    },
+    {
+      "gear_id": 24010703,
+      "blueprint_id": 24310701,
+      "source_tier_art_lv": 3,
+      "star": 1,
+      "star_key_raw_hex": "270102ade7cb0b01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 21962,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.0,
+          "ratio_offset": 3443,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 320.0,
+          "client_formatted_integer": 320
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 21970,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.0,
+          "ratio_offset": 3447,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 19.0,
+          "client_formatted_integer": 19
+        }
+      }
+    },
+    {
+      "gear_id": 24010703,
+      "blueprint_id": 24310701,
+      "source_tier_art_lv": 3,
+      "star": 2,
+      "star_key_raw_hex": "270102ade7cb0b02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 21962,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.05,
+          "ratio_offset": 47659,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 336.0,
+          "client_formatted_integer": 336
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 21970,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.05,
+          "ratio_offset": 47667,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 19.95,
+          "client_formatted_integer": 20
+        }
+      }
+    },
+    {
+      "gear_id": 24010703,
+      "blueprint_id": 24310701,
+      "source_tier_art_lv": 3,
+      "star": 3,
+      "star_key_raw_hex": "270102ade7cb0b03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 21962,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.1,
+          "ratio_offset": 47720,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 352.0,
+          "client_formatted_integer": 352
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 21970,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.1,
+          "ratio_offset": 47728,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 20.900000000000002,
+          "client_formatted_integer": 21
+        }
+      }
+    },
+    {
+      "gear_id": 24010703,
+      "blueprint_id": 24310701,
+      "source_tier_art_lv": 3,
+      "star": 4,
+      "star_key_raw_hex": "270102ade7cb0b04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 21962,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.15,
+          "ratio_offset": 2913,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 368.0,
+          "client_formatted_integer": 368
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 21970,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.15,
+          "ratio_offset": 2921,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 21.849999999999998,
+          "client_formatted_integer": 22
+        }
+      }
+    },
+    {
+      "gear_id": 24010703,
+      "blueprint_id": 24310701,
+      "source_tier_art_lv": 3,
+      "star": 5,
+      "star_key_raw_hex": "270102ade7cb0b05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 21962,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.2,
+          "ratio_offset": 47820,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 384.0,
+          "client_formatted_integer": 384
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 21970,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.2,
+          "ratio_offset": 47828,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 22.8,
+          "client_formatted_integer": 23
+        }
+      }
+    },
+    {
+      "gear_id": 24010703,
+      "blueprint_id": 24310701,
+      "source_tier_art_lv": 3,
+      "star": 6,
+      "star_key_raw_hex": "270102ade7cb0b06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 320.0,
+          "origin_value_offset": 21962,
+          "origin_raw_hex": "0000a043",
+          "ratio": 1.25,
+          "ratio_offset": 23996,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 400.0,
+          "client_formatted_integer": 400
+        },
+        "D4100": {
+          "origin_value": 19.0,
+          "origin_value_offset": 21970,
+          "origin_raw_hex": "00009841",
+          "ratio": 1.25,
+          "ratio_offset": 24000,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 23.75,
+          "client_formatted_integer": 24
+        }
+      }
+    },
+    {
+      "gear_id": 26000402,
+      "blueprint_id": 26300401,
+      "source_tier_art_lv": 2,
+      "star": 1,
+      "star_key_raw_hex": "270102f19fc50c01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 36.0,
+          "origin_value_offset": 85700,
+          "origin_raw_hex": "00001042",
+          "ratio": 1.0,
+          "ratio_offset": 1163,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 36.0,
+          "client_formatted_integer": 36
+        },
+        "D4100": {
+          "origin_value": 27.0,
+          "origin_value_offset": 85708,
+          "origin_raw_hex": "0000d841",
+          "ratio": 1.0,
+          "ratio_offset": 1167,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 27.0,
+          "client_formatted_integer": 27
+        }
+      }
+    },
+    {
+      "gear_id": 26000402,
+      "blueprint_id": 26300401,
+      "source_tier_art_lv": 2,
+      "star": 2,
+      "star_key_raw_hex": "270102f19fc50c02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 36.0,
+          "origin_value_offset": 85700,
+          "origin_raw_hex": "00001042",
+          "ratio": 1.06,
+          "ratio_offset": 53842,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 38.160000000000004,
+          "client_formatted_integer": 38
+        },
+        "D4100": {
+          "origin_value": 27.0,
+          "origin_value_offset": 85708,
+          "origin_raw_hex": "0000d841",
+          "ratio": 1.06,
+          "ratio_offset": 53850,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 28.62,
+          "client_formatted_integer": 29
+        }
+      }
+    },
+    {
+      "gear_id": 26000402,
+      "blueprint_id": 26300401,
+      "source_tier_art_lv": 2,
+      "star": 3,
+      "star_key_raw_hex": "270102f19fc50c03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 36.0,
+          "origin_value_offset": 85700,
+          "origin_raw_hex": "00001042",
+          "ratio": 1.11,
+          "ratio_offset": 51724,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 39.96,
+          "client_formatted_integer": 40
+        },
+        "D4100": {
+          "origin_value": 27.0,
+          "origin_value_offset": 85708,
+          "origin_raw_hex": "0000d841",
+          "ratio": 1.11,
+          "ratio_offset": 51732,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 29.970000000000002,
+          "client_formatted_integer": 30
+        }
+      }
+    },
+    {
+      "gear_id": 26000402,
+      "blueprint_id": 26300401,
+      "source_tier_art_lv": 2,
+      "star": 4,
+      "star_key_raw_hex": "270102f19fc50c04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 36.0,
+          "origin_value_offset": 85700,
+          "origin_raw_hex": "00001042",
+          "ratio": 1.17,
+          "ratio_offset": 53895,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 42.12,
+          "client_formatted_integer": 42
+        },
+        "D4100": {
+          "origin_value": 27.0,
+          "origin_value_offset": 85708,
+          "origin_raw_hex": "0000d841",
+          "ratio": 1.17,
+          "ratio_offset": 53903,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 31.589999999999996,
+          "client_formatted_integer": 32
+        }
+      }
+    },
+    {
+      "gear_id": 26000402,
+      "blueprint_id": 26300401,
+      "source_tier_art_lv": 2,
+      "star": 5,
+      "star_key_raw_hex": "270102f19fc50c05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 36.0,
+          "origin_value_offset": 85700,
+          "origin_raw_hex": "00001042",
+          "ratio": 1.22,
+          "ratio_offset": 53993,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 43.92,
+          "client_formatted_integer": 44
+        },
+        "D4100": {
+          "origin_value": 27.0,
+          "origin_value_offset": 85708,
+          "origin_raw_hex": "0000d841",
+          "ratio": 1.22,
+          "ratio_offset": 54001,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 32.94,
+          "client_formatted_integer": 33
+        }
+      }
+    },
+    {
+      "gear_id": 26001103,
+      "blueprint_id": 26301101,
+      "source_tier_art_lv": 3,
+      "star": 1,
+      "star_key_raw_hex": "270102ada5c50c01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 80.0,
+          "origin_value_offset": 34879,
+          "origin_raw_hex": "0000a042",
+          "ratio": 1.0,
+          "ratio_offset": 23019,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 80.0,
+          "client_formatted_integer": 80
+        },
+        "D4100": {
+          "origin_value": 48.0,
+          "origin_value_offset": 34887,
+          "origin_raw_hex": "00004042",
+          "ratio": 1.0,
+          "ratio_offset": 23023,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 48.0,
+          "client_formatted_integer": 48
+        }
+      }
+    },
+    {
+      "gear_id": 26001103,
+      "blueprint_id": 26301101,
+      "source_tier_art_lv": 3,
+      "star": 2,
+      "star_key_raw_hex": "270102ada5c50c02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 80.0,
+          "origin_value_offset": 34879,
+          "origin_raw_hex": "0000a042",
+          "ratio": 1.05,
+          "ratio_offset": 8729,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 84.0,
+          "client_formatted_integer": 84
+        },
+        "D4100": {
+          "origin_value": 48.0,
+          "origin_value_offset": 34887,
+          "origin_raw_hex": "00004042",
+          "ratio": 1.05,
+          "ratio_offset": 8737,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 50.400000000000006,
+          "client_formatted_integer": 50
+        }
+      }
+    },
+    {
+      "gear_id": 26001103,
+      "blueprint_id": 26301101,
+      "source_tier_art_lv": 3,
+      "star": 3,
+      "star_key_raw_hex": "270102ada5c50c03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 80.0,
+          "origin_value_offset": 34879,
+          "origin_raw_hex": "0000a042",
+          "ratio": 1.1,
+          "ratio_offset": 54921,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 88.0,
+          "client_formatted_integer": 88
+        },
+        "D4100": {
+          "origin_value": 48.0,
+          "origin_value_offset": 34887,
+          "origin_raw_hex": "00004042",
+          "ratio": 1.1,
+          "ratio_offset": 54929,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 52.800000000000004,
+          "client_formatted_integer": 53
+        }
+      }
+    },
+    {
+      "gear_id": 26001103,
+      "blueprint_id": 26301101,
+      "source_tier_art_lv": 3,
+      "star": 4,
+      "star_key_raw_hex": "270102ada5c50c04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 80.0,
+          "origin_value_offset": 34879,
+          "origin_raw_hex": "0000a042",
+          "ratio": 1.15,
+          "ratio_offset": 32813,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 92.0,
+          "client_formatted_integer": 92
+        },
+        "D4100": {
+          "origin_value": 48.0,
+          "origin_value_offset": 34887,
+          "origin_raw_hex": "00004042",
+          "ratio": 1.15,
+          "ratio_offset": 32821,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 55.199999999999996,
+          "client_formatted_integer": 55
+        }
+      }
+    },
+    {
+      "gear_id": 26001103,
+      "blueprint_id": 26301101,
+      "source_tier_art_lv": 3,
+      "star": 5,
+      "star_key_raw_hex": "270102ada5c50c05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 80.0,
+          "origin_value_offset": 34879,
+          "origin_raw_hex": "0000a042",
+          "ratio": 1.2,
+          "ratio_offset": 17617,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 96.0,
+          "client_formatted_integer": 96
+        },
+        "D4100": {
+          "origin_value": 48.0,
+          "origin_value_offset": 34887,
+          "origin_raw_hex": "00004042",
+          "ratio": 1.2,
+          "ratio_offset": 17625,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 57.599999999999994,
+          "client_formatted_integer": 58
+        }
+      }
+    },
+    {
+      "gear_id": 26001103,
+      "blueprint_id": 26301101,
+      "source_tier_art_lv": 3,
+      "star": 6,
+      "star_key_raw_hex": "270102ada5c50c06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 80.0,
+          "origin_value_offset": 34879,
+          "origin_raw_hex": "0000a042",
+          "ratio": 1.25,
+          "ratio_offset": 40521,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 100.0,
+          "client_formatted_integer": 100
+        },
+        "D4100": {
+          "origin_value": 48.0,
+          "origin_value_offset": 34887,
+          "origin_raw_hex": "00004042",
+          "ratio": 1.25,
+          "ratio_offset": 40525,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 60.0,
+          "client_formatted_integer": 60
+        }
+      }
+    },
+    {
+      "gear_id": 26003805,
+      "blueprint_id": 26303801,
+      "source_tier_art_lv": 5,
+      "star": 1,
+      "star_key_raw_hex": "270102b9bac50c01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 370.0,
+          "origin_value_offset": 19821,
+          "origin_raw_hex": "0000b943",
+          "ratio": 1.0,
+          "ratio_offset": 57341,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 370.0,
+          "client_formatted_integer": 370
+        },
+        "D4100": {
+          "origin_value": 115.0,
+          "origin_value_offset": 19829,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.0,
+          "ratio_offset": 57345,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 115.0,
+          "client_formatted_integer": 115
+        }
+      }
+    },
+    {
+      "gear_id": 26003805,
+      "blueprint_id": 26303801,
+      "source_tier_art_lv": 5,
+      "star": 2,
+      "star_key_raw_hex": "270102b9bac50c02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 370.0,
+          "origin_value_offset": 19821,
+          "origin_raw_hex": "0000b943",
+          "ratio": 1.05,
+          "ratio_offset": 21411,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 388.5,
+          "client_formatted_integer": 388
+        },
+        "D4100": {
+          "origin_value": 115.0,
+          "origin_value_offset": 19829,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.05,
+          "ratio_offset": 21419,
+          "ratio_raw_hex": "cdccccccccccf03f",
+          "client_product": 120.75,
+          "client_formatted_integer": 121
+        }
+      }
+    },
+    {
+      "gear_id": 26003805,
+      "blueprint_id": 26303801,
+      "source_tier_art_lv": 5,
+      "star": 3,
+      "star_key_raw_hex": "270102b9bac50c03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 370.0,
+          "origin_value_offset": 19821,
+          "origin_raw_hex": "0000b943",
+          "ratio": 1.1,
+          "ratio_offset": 48025,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 407.00000000000006,
+          "client_formatted_integer": 407
+        },
+        "D4100": {
+          "origin_value": 115.0,
+          "origin_value_offset": 19829,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.1,
+          "ratio_offset": 48033,
+          "ratio_raw_hex": "9a9999999999f13f",
+          "client_product": 126.50000000000001,
+          "client_formatted_integer": 127
+        }
+      }
+    },
+    {
+      "gear_id": 26003805,
+      "blueprint_id": 26303801,
+      "source_tier_art_lv": 5,
+      "star": 4,
+      "star_key_raw_hex": "270102b9bac50c04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 370.0,
+          "origin_value_offset": 19821,
+          "origin_raw_hex": "0000b943",
+          "ratio": 1.15,
+          "ratio_offset": 1296,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 425.49999999999994,
+          "client_formatted_integer": 425
+        },
+        "D4100": {
+          "origin_value": 115.0,
+          "origin_value_offset": 19829,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.15,
+          "ratio_offset": 1304,
+          "ratio_raw_hex": "666666666666f23f",
+          "client_product": 132.25,
+          "client_formatted_integer": 132
+        }
+      }
+    },
+    {
+      "gear_id": 26003805,
+      "blueprint_id": 26303801,
+      "source_tier_art_lv": 5,
+      "star": 5,
+      "star_key_raw_hex": "270102b9bac50c05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 370.0,
+          "origin_value_offset": 19821,
+          "origin_raw_hex": "0000b943",
+          "ratio": 1.2,
+          "ratio_offset": 56605,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 444.0,
+          "client_formatted_integer": 444
+        },
+        "D4100": {
+          "origin_value": 115.0,
+          "origin_value_offset": 19829,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.2,
+          "ratio_offset": 56613,
+          "ratio_raw_hex": "333333333333f33f",
+          "client_product": 138.0,
+          "client_formatted_integer": 138
+        }
+      }
+    },
+    {
+      "gear_id": 26003805,
+      "blueprint_id": 26303801,
+      "source_tier_art_lv": 5,
+      "star": 6,
+      "star_key_raw_hex": "270102b9bac50c06",
+      "source_values": {
+        "A0200": {
+          "origin_value": 370.0,
+          "origin_value_offset": 19821,
+          "origin_raw_hex": "0000b943",
+          "ratio": 1.25,
+          "ratio_offset": 52317,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 462.5,
+          "client_formatted_integer": 462
+        },
+        "D4100": {
+          "origin_value": 115.0,
+          "origin_value_offset": 19829,
+          "origin_raw_hex": "0000e642",
+          "ratio": 1.25,
+          "ratio_offset": 52321,
+          "ratio_raw_hex": "0000a03f",
+          "client_product": 143.75,
+          "client_formatted_integer": 144
+        }
+      }
+    },
+    {
+      "gear_id": 26010003,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 3,
+      "star": 1,
+      "star_key_raw_hex": "270102f1eac50c01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.0,
+          "ratio_offset": 3736,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 144.0,
+          "client_formatted_integer": 144
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.0,
+          "ratio_offset": 3740,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 35.0,
+          "client_formatted_integer": 35
+        }
+      }
+    },
+    {
+      "gear_id": 26010003,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 3,
+      "star": 2,
+      "star_key_raw_hex": "270102f1eac50c02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.06,
+          "ratio_offset": 18764,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 152.64000000000001,
+          "client_formatted_integer": 153
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.06,
+          "ratio_offset": 18772,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 37.1,
+          "client_formatted_integer": 37
+        }
+      }
+    },
+    {
+      "gear_id": 26010003,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 3,
+      "star": 3,
+      "star_key_raw_hex": "270102f1eac50c03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.11,
+          "ratio_offset": 18429,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 159.84,
+          "client_formatted_integer": 160
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.11,
+          "ratio_offset": 18437,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 38.85,
+          "client_formatted_integer": 39
+        }
+      }
+    },
+    {
+      "gear_id": 26010003,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 3,
+      "star": 4,
+      "star_key_raw_hex": "270102f1eac50c04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.17,
+          "ratio_offset": 21052,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 168.48,
+          "client_formatted_integer": 168
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.17,
+          "ratio_offset": 21060,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 40.949999999999996,
+          "client_formatted_integer": 41
+        }
+      }
+    },
+    {
+      "gear_id": 26010003,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 3,
+      "star": 5,
+      "star_key_raw_hex": "270102f1eac50c05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 144.0,
+          "origin_value_offset": 48431,
+          "origin_raw_hex": "00001043",
+          "ratio": 1.22,
+          "ratio_offset": 2023,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 175.68,
+          "client_formatted_integer": 176
+        },
+        "D4100": {
+          "origin_value": 35.0,
+          "origin_value_offset": 48439,
+          "origin_raw_hex": "00000c42",
+          "ratio": 1.22,
+          "ratio_offset": 2031,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 42.699999999999996,
+          "client_formatted_integer": 43
+        }
+      }
+    },
+    {
+      "gear_id": 26010004,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 4,
+      "star": 1,
+      "star_key_raw_hex": "270102f1eac50c01",
+      "source_values": {
+        "A0200": {
+          "origin_value": 288.0,
+          "origin_value_offset": 24286,
+          "origin_raw_hex": "00009043",
+          "ratio": 1.0,
+          "ratio_offset": 3736,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 288.0,
+          "client_formatted_integer": 288
+        },
+        "D4100": {
+          "origin_value": 54.0,
+          "origin_value_offset": 24294,
+          "origin_raw_hex": "00005842",
+          "ratio": 1.0,
+          "ratio_offset": 3740,
+          "ratio_raw_hex": "0000803f",
+          "client_product": 54.0,
+          "client_formatted_integer": 54
+        }
+      }
+    },
+    {
+      "gear_id": 26010004,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 4,
+      "star": 2,
+      "star_key_raw_hex": "270102f1eac50c02",
+      "source_values": {
+        "A0200": {
+          "origin_value": 288.0,
+          "origin_value_offset": 24286,
+          "origin_raw_hex": "00009043",
+          "ratio": 1.06,
+          "ratio_offset": 18764,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 305.28000000000003,
+          "client_formatted_integer": 305
+        },
+        "D4100": {
+          "origin_value": 54.0,
+          "origin_value_offset": 24294,
+          "origin_raw_hex": "00005842",
+          "ratio": 1.06,
+          "ratio_offset": 18772,
+          "ratio_raw_hex": "f6285c8fc2f5f03f",
+          "client_product": 57.24,
+          "client_formatted_integer": 57
+        }
+      }
+    },
+    {
+      "gear_id": 26010004,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 4,
+      "star": 3,
+      "star_key_raw_hex": "270102f1eac50c03",
+      "source_values": {
+        "A0200": {
+          "origin_value": 288.0,
+          "origin_value_offset": 24286,
+          "origin_raw_hex": "00009043",
+          "ratio": 1.11,
+          "ratio_offset": 18429,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 319.68,
+          "client_formatted_integer": 320
+        },
+        "D4100": {
+          "origin_value": 54.0,
+          "origin_value_offset": 24294,
+          "origin_raw_hex": "00005842",
+          "ratio": 1.11,
+          "ratio_offset": 18437,
+          "ratio_raw_hex": "c3f5285c8fc2f13f",
+          "client_product": 59.940000000000005,
+          "client_formatted_integer": 60
+        }
+      }
+    },
+    {
+      "gear_id": 26010004,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 4,
+      "star": 4,
+      "star_key_raw_hex": "270102f1eac50c04",
+      "source_values": {
+        "A0200": {
+          "origin_value": 288.0,
+          "origin_value_offset": 24286,
+          "origin_raw_hex": "00009043",
+          "ratio": 1.17,
+          "ratio_offset": 21052,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 336.96,
+          "client_formatted_integer": 337
+        },
+        "D4100": {
+          "origin_value": 54.0,
+          "origin_value_offset": 24294,
+          "origin_raw_hex": "00005842",
+          "ratio": 1.17,
+          "ratio_offset": 21060,
+          "ratio_raw_hex": "b81e85eb51b8f23f",
+          "client_product": 63.17999999999999,
+          "client_formatted_integer": 63
+        }
+      }
+    },
+    {
+      "gear_id": 26010004,
+      "blueprint_id": 26310001,
+      "source_tier_art_lv": 4,
+      "star": 5,
+      "star_key_raw_hex": "270102f1eac50c05",
+      "source_values": {
+        "A0200": {
+          "origin_value": 288.0,
+          "origin_value_offset": 24286,
+          "origin_raw_hex": "00009043",
+          "ratio": 1.22,
+          "ratio_offset": 2023,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 351.36,
+          "client_formatted_integer": 351
+        },
+        "D4100": {
+          "origin_value": 54.0,
+          "origin_value_offset": 24294,
+          "origin_raw_hex": "00005842",
+          "ratio": 1.22,
+          "ratio_offset": 2031,
+          "ratio_raw_hex": "85eb51b81e85f33f",
+          "client_product": 65.88,
+          "client_formatted_integer": 66
+        }
+      }
+    }
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

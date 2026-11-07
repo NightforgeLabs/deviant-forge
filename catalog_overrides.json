@@ -1,0 +1,60 @@
+{
+  "mod:weapon_mod:shock-diffusion-power-surge": {
+    "attribute_names": [
+      "Power Surge DMG",
+      "Power Surge Trigger Chance",
+      "Shock DMG",
+      "All DMG Boost"
+    ],
+    "attribute_name_source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/4b87070460d84e5e915976973512305d/0001.png",
+    "attribute_name_timestamp": 180.0,
+    "attribute_name_status": "visually checked on current recording; fourth label normalized from game wording"
+  },
+  "mod:helmet_mod:overflow-general": {
+    "attribute_names": [
+      "DMG",
+      "Magazine Capacity",
+      "Reload Efficiency",
+      "All DMG Boost"
+    ],
+    "attribute_name_source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0033.png",
+    "attribute_name_timestamp": 225.0,
+    "attribute_name_status": "visually checked on current recording; fourth label normalized from game wording"
+  },
+  "mod:pants_mod:precision-charge-aero": {
+    "attribute_names": [
+      "Weapon DMG (aerial bonus)",
+      "Crit DMG (aerial bonus)",
+      "All DMG Boost",
+      "Max HP"
+    ],
+    "attribute_name_source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0061.png",
+    "attribute_name_timestamp": 281.0,
+    "attribute_name_status": "visually checked on current recording; conditional aerial bonus retained"
+  },
+  "mod:pants_mod:bullet-siphon-aero-deviant-energy": {
+    "attribute_names": [
+      "Status DMG (aerial bonus)",
+      "Elemental DMG (aerial bonus)",
+      "All DMG Boost",
+      "Max HP"
+    ],
+    "attribute_name_source": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0074.png",
+    "attribute_name_timestamp": 307.0,
+    "attribute_name_status": "visually checked on current recording; conditional aerial bonus retained"
+  },
+  "mod:weapon_mod:precision-rush-survival": {
+    "source_observed_level": 5,
+    "source_observed_unlock_status": "numbered card in 2026-10-25 personal Field Guide Weapon grid; tooltip attributes uninspected",
+    "source_video": "screenrecording-2026-10-25_04-01-49.mp4",
+    "source_video_timestamp_seconds": 31,
+    "data_status": "Weapon Field Guide variant and level visually checked at 31s; full tooltip effects and rolls uninspected"
+  },
+  "mod:weapon_mod:shooting-blitz-precision": {
+    "source_observed_level": 9,
+    "source_observed_unlock_status": "numbered card in 2026-10-25 personal Field Guide Weapon grid; tooltip attributes uninspected",
+    "source_video": "screenrecording-2026-10-25_04-01-49.mp4",
+    "source_video_timestamp_seconds": 31,
+    "data_status": "Weapon Field Guide variant and level visually checked at 31s; full tooltip effects and rolls uninspected"
+  }
+}

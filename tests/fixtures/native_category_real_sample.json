@@ -1,0 +1,341 @@
+{
+  "source_build": "26267212",
+  "samples": {
+    "food": {
+      "packet": "native_cuisine_type_links.json",
+      "sha256": "baea8a2048b63a41c39d6ec253d083a865499b7549f65ca53fac212df47ae38b",
+      "raw_record": {
+        "item_id": 30100001,
+        "cuisine_type": 2,
+        "index_tail_offset": 4119,
+        "value_byte_offset": 35,
+        "value_raw_hex": "02"
+      }
+    },
+    "crate": {
+      "packet": "native_crate_drop_raw_records.json",
+      "sha256": "a395fc8bf0e62ba4c80ad2e0a306f0957eff065a2db43fd6ee94496b03c0d78d",
+      "raw_record": {
+        "drop_id": 37560018002,
+        "index_tail_offset": 8523,
+        "body_start_offset": 129,
+        "body_end_offset_exclusive": 201,
+        "field_tokens": {
+          "item_ids": {
+            "encoded_value": 28,
+            "type_code": 11,
+            "byte_offset": 131,
+            "raw_hex": "1c"
+          },
+          "item_nums": {
+            "encoded_value": 4,
+            "type_code": 11,
+            "byte_offset": 132,
+            "raw_hex": "04"
+          },
+          "total_weight": {
+            "encoded_value": 3250,
+            "type_code": 1,
+            "byte_offset": 133,
+            "raw_hex": "b219"
+          },
+          "weights": {
+            "encoded_value": 13,
+            "type_code": 11,
+            "byte_offset": 135,
+            "raw_hex": "0d"
+          }
+        },
+        "arrays_by_native_field": {
+          "item_ids": {
+            "body_relative_pointer": 28,
+            "array_start_offset": 88,
+            "array_end_offset_exclusive": 115,
+            "values": [
+              {
+                "value": 36000075,
+                "byte_offset": 91,
+                "raw_hex": "cba29511"
+              },
+              {
+                "value": 36000076,
+                "byte_offset": 95,
+                "raw_hex": "cca29511"
+              },
+              {
+                "value": 36000077,
+                "byte_offset": 99,
+                "raw_hex": "cda29511"
+              },
+              {
+                "value": 36000078,
+                "byte_offset": 103,
+                "raw_hex": "cea29511"
+              },
+              {
+                "value": 36000079,
+                "byte_offset": 107,
+                "raw_hex": "cfa29511"
+              },
+              {
+                "value": 36000080,
+                "byte_offset": 111,
+                "raw_hex": "d0a29511"
+              }
+            ]
+          },
+          "item_nums": {
+            "body_relative_pointer": 4,
+            "array_start_offset": 64,
+            "array_end_offset_exclusive": 73,
+            "values": [
+              {
+                "value": 1,
+                "byte_offset": 67,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 68,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 69,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 70,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 71,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 72,
+                "raw_hex": "01"
+              }
+            ]
+          },
+          "weights": {
+            "body_relative_pointer": 13,
+            "array_start_offset": 73,
+            "array_end_offset_exclusive": 88,
+            "values": [
+              {
+                "value": 500,
+                "byte_offset": 76,
+                "raw_hex": "f403"
+              },
+              {
+                "value": 1000,
+                "byte_offset": 78,
+                "raw_hex": "e807"
+              },
+              {
+                "value": 1500,
+                "byte_offset": 80,
+                "raw_hex": "dc0b"
+              },
+              {
+                "value": 2000,
+                "byte_offset": 82,
+                "raw_hex": "d00f"
+              },
+              {
+                "value": 2600,
+                "byte_offset": 84,
+                "raw_hex": "a814"
+              },
+              {
+                "value": 3250,
+                "byte_offset": 86,
+                "raw_hex": "b219"
+              }
+            ]
+          }
+        },
+        "ordered_arrays_unbound": [
+          {
+            "array_start_offset": 136,
+            "length": 8,
+            "values": [
+              {
+                "value": 1,
+                "byte_offset": 139,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 140,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 141,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 142,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 143,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 144,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 145,
+                "raw_hex": "01"
+              },
+              {
+                "value": 1,
+                "byte_offset": 146,
+                "raw_hex": "01"
+              }
+            ]
+          },
+          {
+            "array_start_offset": 147,
+            "length": 8,
+            "values": [
+              {
+                "value": 500,
+                "byte_offset": 150,
+                "raw_hex": "f403"
+              },
+              {
+                "value": 1000,
+                "byte_offset": 152,
+                "raw_hex": "e807"
+              },
+              {
+                "value": 1500,
+                "byte_offset": 154,
+                "raw_hex": "dc0b"
+              },
+              {
+                "value": 2000,
+                "byte_offset": 156,
+                "raw_hex": "d00f"
+              },
+              {
+                "value": 2500,
+                "byte_offset": 158,
+                "raw_hex": "c413"
+              },
+              {
+                "value": 3000,
+                "byte_offset": 160,
+                "raw_hex": "b817"
+              },
+              {
+                "value": 3500,
+                "byte_offset": 162,
+                "raw_hex": "ac1b"
+              },
+              {
+                "value": 4000,
+                "byte_offset": 164,
+                "raw_hex": "a01f"
+              }
+            ]
+          },
+          {
+            "array_start_offset": 166,
+            "length": 8,
+            "values": [
+              {
+                "value": 36001164,
+                "byte_offset": 169,
+                "raw_hex": "8cab9511"
+              },
+              {
+                "value": 36001165,
+                "byte_offset": 173,
+                "raw_hex": "8dab9511"
+              },
+              {
+                "value": 36001166,
+                "byte_offset": 177,
+                "raw_hex": "8eab9511"
+              },
+              {
+                "value": 36001167,
+                "byte_offset": 181,
+                "raw_hex": "8fab9511"
+              },
+              {
+                "value": 36001168,
+                "byte_offset": 185,
+                "raw_hex": "90ab9511"
+              },
+              {
+                "value": 36001169,
+                "byte_offset": 189,
+                "raw_hex": "91ab9511"
+              },
+              {
+                "value": 36001170,
+                "byte_offset": 193,
+                "raw_hex": "92ab9511"
+              },
+              {
+                "value": 36001171,
+                "byte_offset": 197,
+                "raw_hex": "93ab9511"
+              }
+            ]
+          }
+        ],
+        "trailing_raw_hex": ""
+      }
+    },
+    "enemy": {
+      "packet": "native_enemy_auto_adjust_numeric_sample.json",
+      "sha256": "efa73fb4aacc5c16e47fe76d0a5ab2b928d01aeee9cdcf63d0fcfd9370e83296",
+      "raw_record": {
+        "index_key": 4,
+        "index_tail_offset": 699,
+        "body_start_offset": 92,
+        "body_end_offset_exclusive": 119,
+        "row_variant_tag": 26,
+        "fields": {
+          "attack": {
+            "value": 1.15,
+            "type_code": 34,
+            "byte_offset": 95,
+            "raw_hex": "666666666666f23f"
+          },
+          "max_hp": {
+            "value": 1.6,
+            "type_code": 34,
+            "byte_offset": 103,
+            "raw_hex": "9a9999999999f93f"
+          },
+          "unit_type_raw_token": {
+            "value": 1,
+            "byte_offset": 111,
+            "raw_hex": "01"
+          },
+          "team_member_num": {
+            "value": 2,
+            "byte_offset": 112,
+            "raw_hex": "02"
+          }
+        }
+      }
+    }
+  }
+}

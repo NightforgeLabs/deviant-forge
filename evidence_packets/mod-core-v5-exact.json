@@ -1,0 +1,2277 @@
+{
+  "schema_version": "mod_core_v5_exact_evidence_gated",
+  "v4_exact_packet_sha256": "0ca83286a80259f4e4fb5f51380a1b48812099c18015e74573008eab564d6c34",
+  "v2_packet_sha256": "7a81675e627fe236b6127d280647f3c751e59e7bbd728a3ffdf13b1be01a2560",
+  "numeric_source_sha256": "b5bbaa10cfb05a6aba3812897bf6425f6095d4d9254e5fbed2123d767e974227",
+  "statistics": {
+    "exact_observations": 54,
+    "recovered_runtime_added_exact_observations": 2,
+    "output_class_counts": {
+      "ammo_reload_or_movement": 6,
+      "defense_or_shield_rule": 24,
+      "healing_or_shield_generation": 8,
+      "utility_status_purge": 6,
+      "offensive_stat_modifier": 10
+    },
+    "adapter_status_counts": {
+      "partial_typed_output": 10,
+      "typed_output_with_explicit_state": 44
+    },
+    "evidence_class_counts": {
+      "current_field_guide_frame": 51,
+      "held_game_video": 1,
+      "official_preview_card": 2
+    },
+    "preview_gate_count": 2,
+    "unknown_build_gate_count": 1,
+    "possible_stat_pool_observations": 40,
+    "complete_stat_pool_observations": 34,
+    "nonpool_only_observations": 14,
+    "direct_damage_event_observations": 0
+  },
+  "bindings": [
+    {
+      "catalog_id": "mod:helmet_mod:overflow-general",
+      "slot": "helmet_mod",
+      "level": 8,
+      "variant_kind": "ordinary",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-22 current Field Guide recording",
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0033.png",
+      "source_media": null,
+      "source_sha256": "649f9b2efb82f72c6f5f5509a7ff5f17e1ad15c47d5227de1f2faf3ccc15385f",
+      "source_text_sha256": "01f80fd2cdcce2ab7b96191ab491df5d35fb2061dc8a90175e5764041c029a35",
+      "text": "When reloading an empty magazine, Magazine Capacity +30%.",
+      "operator": "event_modifier_duration_unknown",
+      "rule": {
+        "operator": "event_modifier_duration_unknown",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "magazine_capacity_percent",
+            "value": 30.0
+          }
+        ],
+        "event": "reload_empty",
+        "unresolved": [
+          "duration_or_expiration"
+        ]
+      },
+      "output_class": "ammo_reload_or_movement",
+      "possible_stat_pool_output": true,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "current_comparison_status": "partial_rule",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-battle",
+      "slot": "chest_mod",
+      "level": 8,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-311.png",
+      "source_media": null,
+      "source_sha256": "5d483ce5cf8bf5605e93189db926a5281a150b07eab525ea0e895d27df0554cc",
+      "source_text_sha256": "07d5b5e3298b72cbe7f85912da9c8eff234c60e964790f5a687ec15763feba8b",
+      "text": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "operator": "shield_state_and_nonpenetration",
+      "rule": {
+        "operator": "shield_state_and_nonpenetration",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "state": "shield_active"
+            }
+          },
+          {
+            "op": "shield_nonpenetration_threshold",
+            "shield_points_above": 1000.0,
+            "scope": "single_damage_instance"
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-deviant-energy",
+      "slot": "chest_mod",
+      "level": 11,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-303.png",
+      "source_media": null,
+      "source_sha256": "bcb8b438dc45fa2d551f626c8aff8701ba865bbdd634b57a91ae7499953b8c21",
+      "source_text_sha256": "07d5b5e3298b72cbe7f85912da9c8eff234c60e964790f5a687ec15763feba8b",
+      "text": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "operator": "shield_state_and_nonpenetration",
+      "rule": {
+        "operator": "shield_state_and_nonpenetration",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "state": "shield_active"
+            }
+          },
+          {
+            "op": "shield_nonpenetration_threshold",
+            "shield_points_above": 1000.0,
+            "scope": "single_damage_instance"
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-general",
+      "slot": "chest_mod",
+      "level": 8,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-305.png",
+      "source_media": null,
+      "source_sha256": "9f2232bd67bfbdafa02d2025eac305119c604b621a98f88a6e5571c386b2d207",
+      "source_text_sha256": "07d5b5e3298b72cbe7f85912da9c8eff234c60e964790f5a687ec15763feba8b",
+      "text": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "operator": "shield_state_and_nonpenetration",
+      "rule": {
+        "operator": "shield_state_and_nonpenetration",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "state": "shield_active"
+            }
+          },
+          {
+            "op": "shield_nonpenetration_threshold",
+            "shield_points_above": 1000.0,
+            "scope": "single_damage_instance"
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-precision",
+      "slot": "chest_mod",
+      "level": 14,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-297.png",
+      "source_media": null,
+      "source_sha256": "532aec0fc90e83935715ecc26f87a3b3ce0a8e7169fa6f847669d8855e448ada",
+      "source_text_sha256": "07d5b5e3298b72cbe7f85912da9c8eff234c60e964790f5a687ec15763feba8b",
+      "text": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "operator": "shield_state_and_nonpenetration",
+      "rule": {
+        "operator": "shield_state_and_nonpenetration",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "state": "shield_active"
+            }
+          },
+          {
+            "op": "shield_nonpenetration_threshold",
+            "shield_points_above": 1000.0,
+            "scope": "single_damage_instance"
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-survival",
+      "slot": "chest_mod",
+      "level": 12,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-300.png",
+      "source_media": null,
+      "source_sha256": "5ead3f8b1b8d27a5e919538b52fdf08d628bd7038ba0183075f583d5df4cb84d",
+      "source_text_sha256": "07d5b5e3298b72cbe7f85912da9c8eff234c60e964790f5a687ec15763feba8b",
+      "text": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "operator": "shield_state_and_nonpenetration",
+      "rule": {
+        "operator": "shield_state_and_nonpenetration",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "state": "shield_active"
+            }
+          },
+          {
+            "op": "shield_nonpenetration_threshold",
+            "shield_points_above": 1000.0,
+            "scope": "single_damage_instance"
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-violent",
+      "slot": "chest_mod",
+      "level": 8,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-308.png",
+      "source_media": null,
+      "source_sha256": "db2362e4854337e2210bcf473a2c67d8318fa8c7eed03126d1b1882b91fd5af6",
+      "source_text_sha256": "07d5b5e3298b72cbe7f85912da9c8eff234c60e964790f5a687ec15763feba8b",
+      "text": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "operator": "shield_state_and_nonpenetration",
+      "rule": {
+        "operator": "shield_state_and_nonpenetration",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "state": "shield_active"
+            }
+          },
+          {
+            "op": "shield_nonpenetration_threshold",
+            "shield_points_above": 1000.0,
+            "scope": "single_damage_instance"
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-battle",
+      "slot": "chest_mod",
+      "level": 12,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-72.png",
+      "source_media": null,
+      "source_sha256": "11ddaffc648da88d0430d88e5c3265715dc60c09c82f6bbadbb31034c6676c09",
+      "source_text_sha256": "f48c5ed7765829fc7ee59572cd7992326f84e6ec42d96e43afc29a1007d8a936",
+      "text": "DMG Reduction + 20.0% and Healing Received + 20.0% when HP is below 30%.",
+      "operator": "threshold_modifier",
+      "rule": {
+        "operator": "threshold_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "healing_received_percent",
+            "value": 20.0
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 30.0
+        }
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-general",
+      "slot": "chest_mod",
+      "level": 8,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-78.png",
+      "source_media": null,
+      "source_sha256": "e362ad5e1c1aecccb8cec15c1e7619e8382ba281cf6fcb1dc082e82422291aa8",
+      "source_text_sha256": "f48c5ed7765829fc7ee59572cd7992326f84e6ec42d96e43afc29a1007d8a936",
+      "text": "DMG Reduction + 20.0% and Healing Received + 20.0% when HP is below 30%.",
+      "operator": "threshold_modifier",
+      "rule": {
+        "operator": "threshold_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "healing_received_percent",
+            "value": 20.0
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 30.0
+        }
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-survival",
+      "slot": "chest_mod",
+      "level": 7,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-80.png",
+      "source_media": null,
+      "source_sha256": "cde8ac72b435fefb2c7b68e8c7f4245b2b9c8d96612695f916a96a2895035e48",
+      "source_text_sha256": "f48c5ed7765829fc7ee59572cd7992326f84e6ec42d96e43afc29a1007d8a936",
+      "text": "DMG Reduction + 20.0% and Healing Received + 20.0% when HP is below 30%.",
+      "operator": "threshold_modifier",
+      "rule": {
+        "operator": "threshold_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "healing_received_percent",
+            "value": 20.0
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 30.0
+        }
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-violent",
+      "slot": "chest_mod",
+      "level": 10,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-74.png",
+      "source_media": null,
+      "source_sha256": "ffe307d1d951bb7eb7cdcf94b32f4efa76e1669ba80f64471b2f647a009c74f6",
+      "source_text_sha256": "f48c5ed7765829fc7ee59572cd7992326f84e6ec42d96e43afc29a1007d8a936",
+      "text": "DMG Reduction + 20.0% and Healing Received + 20.0% when HP is below 30%.",
+      "operator": "threshold_modifier",
+      "rule": {
+        "operator": "threshold_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "healing_received_percent",
+            "value": 20.0
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 30.0
+        }
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-deviant-energy",
+      "slot": "chest_mod",
+      "level": 8,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-236.png",
+      "source_media": null,
+      "source_sha256": "693f162fe3f48534275c4a13259752fa04027ea8b4dc8a599ede1929d5300e7d",
+      "source_text_sha256": "99f10e3db6a5411149e0b50132aead1808656ff165bb1610445bb0f40ed48ce3",
+      "text": "When out of combat, gain 1 stack of Safe Haven every 5.0s, stacking up to 5.0 times. For every 5 damage received, remove 1 stack of Safe Haven to gain 8.0% Shield for 3s.",
+      "operator": "safe_haven_partial",
+      "rule": {
+        "operator": "safe_haven_partial",
+        "nodes": [
+          {
+            "op": "shield_generation_percent",
+            "value": 8.0,
+            "duration_seconds": 3.0,
+            "basis": "unspecified"
+          }
+        ],
+        "acquisition_interval_seconds": 5.0,
+        "max_stacks": 5.0,
+        "trigger_damage_count": 5,
+        "unresolved": [
+          "damage_received_counter_unit",
+          "shield_percent_basis"
+        ]
+      },
+      "output_class": "healing_or_shield_generation",
+      "possible_stat_pool_output": false,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "current_comparison_status": "partial_rule",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-general",
+      "slot": "chest_mod",
+      "level": 9,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-229.png",
+      "source_media": null,
+      "source_sha256": "81f9f8e1b43ada1138652c93031f0ef9f884a43956e7ecd7799437bd6e7c6381",
+      "source_text_sha256": "99f10e3db6a5411149e0b50132aead1808656ff165bb1610445bb0f40ed48ce3",
+      "text": "When out of combat, gain 1 stack of Safe Haven every 5.0s, stacking up to 5.0 times. For every 5 damage received, remove 1 stack of Safe Haven to gain 8.0% Shield for 3s.",
+      "operator": "safe_haven_partial",
+      "rule": {
+        "operator": "safe_haven_partial",
+        "nodes": [
+          {
+            "op": "shield_generation_percent",
+            "value": 8.0,
+            "duration_seconds": 3.0,
+            "basis": "unspecified"
+          }
+        ],
+        "acquisition_interval_seconds": 5.0,
+        "max_stacks": 5.0,
+        "trigger_damage_count": 5,
+        "unresolved": [
+          "damage_received_counter_unit",
+          "shield_percent_basis"
+        ]
+      },
+      "output_class": "healing_or_shield_generation",
+      "possible_stat_pool_output": false,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "current_comparison_status": "partial_rule",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-precision",
+      "slot": "chest_mod",
+      "level": 10,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-227.png",
+      "source_media": null,
+      "source_sha256": "909bc497ce6f4b29ad34e61eb0fddfd78405095338f2e7dc3d49838933bc1914",
+      "source_text_sha256": "99f10e3db6a5411149e0b50132aead1808656ff165bb1610445bb0f40ed48ce3",
+      "text": "When out of combat, gain 1 stack of Safe Haven every 5.0s, stacking up to 5.0 times. For every 5 damage received, remove 1 stack of Safe Haven to gain 8.0% Shield for 3s.",
+      "operator": "safe_haven_partial",
+      "rule": {
+        "operator": "safe_haven_partial",
+        "nodes": [
+          {
+            "op": "shield_generation_percent",
+            "value": 8.0,
+            "duration_seconds": 3.0,
+            "basis": "unspecified"
+          }
+        ],
+        "acquisition_interval_seconds": 5.0,
+        "max_stacks": 5.0,
+        "trigger_damage_count": 5,
+        "unresolved": [
+          "damage_received_counter_unit",
+          "shield_percent_basis"
+        ]
+      },
+      "output_class": "healing_or_shield_generation",
+      "possible_stat_pool_output": false,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "current_comparison_status": "partial_rule",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-violent",
+      "slot": "chest_mod",
+      "level": 9,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-231.png",
+      "source_media": null,
+      "source_sha256": "ffe48610dbb31807cecdc1ba0e113f97ed37de373658746521228189ab7594a2",
+      "source_text_sha256": "99f10e3db6a5411149e0b50132aead1808656ff165bb1610445bb0f40ed48ce3",
+      "text": "When out of combat, gain 1 stack of Safe Haven every 5.0s, stacking up to 5.0 times. For every 5 damage received, remove 1 stack of Safe Haven to gain 8.0% Shield for 3s.",
+      "operator": "safe_haven_partial",
+      "rule": {
+        "operator": "safe_haven_partial",
+        "nodes": [
+          {
+            "op": "shield_generation_percent",
+            "value": 8.0,
+            "duration_seconds": 3.0,
+            "basis": "unspecified"
+          }
+        ],
+        "acquisition_interval_seconds": 5.0,
+        "max_stacks": 5.0,
+        "trigger_damage_count": 5,
+        "unresolved": [
+          "damage_received_counter_unit",
+          "shield_percent_basis"
+        ]
+      },
+      "output_class": "healing_or_shield_generation",
+      "possible_stat_pool_output": false,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "current_comparison_status": "partial_rule",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-battle",
+      "slot": "chest_mod",
+      "level": 9,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-153.png",
+      "source_media": null,
+      "source_sha256": "804012fb8bc9bb6a3137b9a375333734e6082e1eea188babefe9282290eb52ef",
+      "source_text_sha256": "e1daa78cead2a956804f94ce381f12e91c5e29267057145905a0b07bb0b8ecfb",
+      "text": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "operator": "base_plus_threshold",
+      "rule": {
+        "operator": "base_plus_threshold",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0
+          },
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "resource": "hp_percent",
+              "comparison": "above",
+              "value": 60.0
+            }
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-deviant-energy",
+      "slot": "chest_mod",
+      "level": 7,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-156.png",
+      "source_media": null,
+      "source_sha256": "cafc8e6a3c30cba4616ea23f7fe95107e81ae7cf50b309bd9869ffcae2bc1970",
+      "source_text_sha256": "e1daa78cead2a956804f94ce381f12e91c5e29267057145905a0b07bb0b8ecfb",
+      "text": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "operator": "base_plus_threshold",
+      "rule": {
+        "operator": "base_plus_threshold",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0
+          },
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "resource": "hp_percent",
+              "comparison": "above",
+              "value": 60.0
+            }
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-precision",
+      "slot": "chest_mod",
+      "level": 12,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-149.png",
+      "source_media": null,
+      "source_sha256": "5fea031f8ed6e54681490914c904988f7d56efc1efb35cfe2a2d75cc6be3a838",
+      "source_text_sha256": "e1daa78cead2a956804f94ce381f12e91c5e29267057145905a0b07bb0b8ecfb",
+      "text": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "operator": "base_plus_threshold",
+      "rule": {
+        "operator": "base_plus_threshold",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0
+          },
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "resource": "hp_percent",
+              "comparison": "above",
+              "value": 60.0
+            }
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-survival",
+      "slot": "chest_mod",
+      "level": 14,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-144.png",
+      "source_media": null,
+      "source_sha256": "3d7aaa5a9ec0ce9afbd02130ab6f6a49be123840a4fbd13755ec331ff567392b",
+      "source_text_sha256": "e1daa78cead2a956804f94ce381f12e91c5e29267057145905a0b07bb0b8ecfb",
+      "text": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "operator": "base_plus_threshold",
+      "rule": {
+        "operator": "base_plus_threshold",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0
+          },
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "resource": "hp_percent",
+              "comparison": "above",
+              "value": 60.0
+            }
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-violent",
+      "slot": "chest_mod",
+      "level": 10,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-151.png",
+      "source_media": null,
+      "source_sha256": "06f017a7c7dbe89c8f8dacdde587ef364972c2fba886e95f61c89c82e828c6e7",
+      "source_text_sha256": "e1daa78cead2a956804f94ce381f12e91c5e29267057145905a0b07bb0b8ecfb",
+      "text": "Weakspot DMG Reduction + 15.0%; Weakspot DMG Reduction + 15.0% further when HP is above 60.0%.",
+      "operator": "base_plus_threshold",
+      "rule": {
+        "operator": "base_plus_threshold",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0
+          },
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "weakspot_damage_reduction_percent",
+            "value": 15.0,
+            "condition": {
+              "resource": "hp_percent",
+              "comparison": "above",
+              "value": 60.0
+            }
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-battle",
+      "slot": "chest_mod",
+      "level": 6,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-112.png",
+      "source_media": null,
+      "source_sha256": "b99cc333250ec9d0f676de102dd54147ad4acecafe096c61fd0f5ba5051f759a",
+      "source_text_sha256": "9fcab6f2e93bb9e2ea51c694c1cad0eb10c932b6015b1ed3581d5cf0267b17f0",
+      "text": "Having enemies within 7 meters around you grants 10.0% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds.",
+      "operator": "proximity_and_event_modifier",
+      "rule": {
+        "operator": "proximity_and_event_modifier",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0,
+            "condition": {
+              "enemies_within_meters": 7.0,
+              "minimum_count": 1
+            }
+          },
+          {
+            "op": "event_timed_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0,
+            "event": "receive_melee_damage",
+            "duration_seconds": 5.0
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-general",
+      "slot": "chest_mod",
+      "level": 8,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-111.png",
+      "source_media": null,
+      "source_sha256": "b69cf598714c4db11c4a0b940c182c81bd1a715a39fd9028491604cf8f243845",
+      "source_text_sha256": "9fcab6f2e93bb9e2ea51c694c1cad0eb10c932b6015b1ed3581d5cf0267b17f0",
+      "text": "Having enemies within 7 meters around you grants 10.0% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds.",
+      "operator": "proximity_and_event_modifier",
+      "rule": {
+        "operator": "proximity_and_event_modifier",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0,
+            "condition": {
+              "enemies_within_meters": 7.0,
+              "minimum_count": 1
+            }
+          },
+          {
+            "op": "event_timed_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0,
+            "event": "receive_melee_damage",
+            "duration_seconds": 5.0
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-precision",
+      "slot": "chest_mod",
+      "level": 11,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-106.png",
+      "source_media": null,
+      "source_sha256": "08014e5e19fb5795e61332830dd72e4e057714ca2769faa5a75aea5e03555e5c",
+      "source_text_sha256": "9fcab6f2e93bb9e2ea51c694c1cad0eb10c932b6015b1ed3581d5cf0267b17f0",
+      "text": "Having enemies within 7 meters around you grants 10.0% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds.",
+      "operator": "proximity_and_event_modifier",
+      "rule": {
+        "operator": "proximity_and_event_modifier",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0,
+            "condition": {
+              "enemies_within_meters": 7.0,
+              "minimum_count": 1
+            }
+          },
+          {
+            "op": "event_timed_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0,
+            "event": "receive_melee_damage",
+            "duration_seconds": 5.0
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-violent",
+      "slot": "chest_mod",
+      "level": 10,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-107.png",
+      "source_media": null,
+      "source_sha256": "a8cf69cea11f68a4e6f7313bc27f83670e82c8fecc4c14a46cd8fd5801ad66e8",
+      "source_text_sha256": "9fcab6f2e93bb9e2ea51c694c1cad0eb10c932b6015b1ed3581d5cf0267b17f0",
+      "text": "Having enemies within 7 meters around you grants 10.0% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds.",
+      "operator": "proximity_and_event_modifier",
+      "rule": {
+        "operator": "proximity_and_event_modifier",
+        "nodes": [
+          {
+            "op": "conditional_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0,
+            "condition": {
+              "enemies_within_meters": 7.0,
+              "minimum_count": 1
+            }
+          },
+          {
+            "op": "event_timed_stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0,
+            "event": "receive_melee_damage",
+            "duration_seconds": 5.0
+          }
+        ]
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-battle",
+      "slot": "chest_mod",
+      "level": 10,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-12.png",
+      "source_media": null,
+      "source_sha256": "4d13fa23322828d19f7648e9692ea4aac7ab3c5f1161aaa279a0f9c5cd6300af",
+      "source_text_sha256": "3d20c4fc4efe5855953ed03891ba032153d0cfbf3cd844bcf835d7b84de5595f",
+      "text": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "operator": "event_modifier_and_ammo_refill",
+      "rule": {
+        "operator": "event_modifier_and_ammo_refill",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "movement_speed_percent",
+            "value": 20.0,
+            "duration_seconds": 2.0
+          },
+          {
+            "op": "ammo_refill_to_percent_of_magazine",
+            "value": 100.0,
+            "source": "inventory"
+          }
+        ],
+        "event": "healing_shot"
+      },
+      "output_class": "ammo_reload_or_movement",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-deviant-energy",
+      "slot": "chest_mod",
+      "level": 15,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-8.png",
+      "source_media": null,
+      "source_sha256": "0663cd6a0d9442225c2a7333f3d0b201688d0e8a2e9f1a4fb6b041bc7ecd3174",
+      "source_text_sha256": "3d20c4fc4efe5855953ed03891ba032153d0cfbf3cd844bcf835d7b84de5595f",
+      "text": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "operator": "event_modifier_and_ammo_refill",
+      "rule": {
+        "operator": "event_modifier_and_ammo_refill",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "movement_speed_percent",
+            "value": 20.0,
+            "duration_seconds": 2.0
+          },
+          {
+            "op": "ammo_refill_to_percent_of_magazine",
+            "value": 100.0,
+            "source": "inventory"
+          }
+        ],
+        "event": "healing_shot"
+      },
+      "output_class": "ammo_reload_or_movement",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-general",
+      "slot": "chest_mod",
+      "level": 7,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-15.png",
+      "source_media": null,
+      "source_sha256": "a39de1405763cbe0ed0b756e39816eccc1bd73bee1e203346335ec41af6ed184",
+      "source_text_sha256": "3d20c4fc4efe5855953ed03891ba032153d0cfbf3cd844bcf835d7b84de5595f",
+      "text": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "operator": "event_modifier_and_ammo_refill",
+      "rule": {
+        "operator": "event_modifier_and_ammo_refill",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "movement_speed_percent",
+            "value": 20.0,
+            "duration_seconds": 2.0
+          },
+          {
+            "op": "ammo_refill_to_percent_of_magazine",
+            "value": 100.0,
+            "source": "inventory"
+          }
+        ],
+        "event": "healing_shot"
+      },
+      "output_class": "ammo_reload_or_movement",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-precision",
+      "slot": "chest_mod",
+      "level": 13,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-10.png",
+      "source_media": null,
+      "source_sha256": "5b469b67f319cfdbb9de7c4fbc5a1b4a5e5953de20854d4c66c51f7be569ecd2",
+      "source_text_sha256": "3d20c4fc4efe5855953ed03891ba032153d0cfbf3cd844bcf835d7b84de5595f",
+      "text": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "operator": "event_modifier_and_ammo_refill",
+      "rule": {
+        "operator": "event_modifier_and_ammo_refill",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "movement_speed_percent",
+            "value": 20.0,
+            "duration_seconds": 2.0
+          },
+          {
+            "op": "ammo_refill_to_percent_of_magazine",
+            "value": 100.0,
+            "source": "inventory"
+          }
+        ],
+        "event": "healing_shot"
+      },
+      "output_class": "ammo_reload_or_movement",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-survival",
+      "slot": "chest_mod",
+      "level": 8,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-14.png",
+      "source_media": null,
+      "source_sha256": "de094a7e87dd215b793e35732d3afd58f2ede1760cafa5d09c3bb933f45c68fa",
+      "source_text_sha256": "3d20c4fc4efe5855953ed03891ba032153d0cfbf3cd844bcf835d7b84de5595f",
+      "text": "When using a healing shot, Movement Speed + 20.0% for 2.0s and refills the magazine from the inventory to 100.0%.",
+      "operator": "event_modifier_and_ammo_refill",
+      "rule": {
+        "operator": "event_modifier_and_ammo_refill",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "movement_speed_percent",
+            "value": 20.0,
+            "duration_seconds": 2.0
+          },
+          {
+            "op": "ammo_refill_to_percent_of_magazine",
+            "value": 100.0,
+            "source": "inventory"
+          }
+        ],
+        "event": "healing_shot"
+      },
+      "output_class": "ammo_reload_or_movement",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-general",
+      "slot": "chest_mod",
+      "level": 8,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-42.png",
+      "source_media": null,
+      "source_sha256": "b44f6c983e6fe0075e24f91bb6b50469245205dfdebdb55e427c8ab1379a7553",
+      "source_text_sha256": "4a00f3deccffbc6003fb287ee1d17a45cb6ecea8542d8f3c9b9fd487c19ab8d6",
+      "text": "When Shield is above 30.0% of Max HP, defeating an enemy recovers 20.0% of Max HP. Excess recovery is converted into Shield lasting 20.0s (Cooldown: 10.0s).",
+      "operator": "conditional_heal_and_shield_conversion",
+      "rule": {
+        "operator": "conditional_heal_and_shield_conversion",
+        "nodes": [
+          {
+            "op": "heal_percent",
+            "value": 20.0,
+            "basis": "max_hp"
+          },
+          {
+            "op": "overheal_to_shield",
+            "duration_seconds": 20.0
+          }
+        ],
+        "event": "kill_enemy",
+        "condition": {
+          "shield_percent_of_max_hp": "above",
+          "value": 30.0
+        },
+        "cooldown_seconds": 10.0
+      },
+      "output_class": "healing_or_shield_generation",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-precision",
+      "slot": "chest_mod",
+      "level": 11,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-41.png",
+      "source_media": null,
+      "source_sha256": "bc504f70efe7aa146fa0f4dce76d13d7ff4b927ab931bf1eaff2875f9ba33fad",
+      "source_text_sha256": "4a00f3deccffbc6003fb287ee1d17a45cb6ecea8542d8f3c9b9fd487c19ab8d6",
+      "text": "When Shield is above 30.0% of Max HP, defeating an enemy recovers 20.0% of Max HP. Excess recovery is converted into Shield lasting 20.0s (Cooldown: 10.0s).",
+      "operator": "conditional_heal_and_shield_conversion",
+      "rule": {
+        "operator": "conditional_heal_and_shield_conversion",
+        "nodes": [
+          {
+            "op": "heal_percent",
+            "value": 20.0,
+            "basis": "max_hp"
+          },
+          {
+            "op": "overheal_to_shield",
+            "duration_seconds": 20.0
+          }
+        ],
+        "event": "kill_enemy",
+        "condition": {
+          "shield_percent_of_max_hp": "above",
+          "value": 30.0
+        },
+        "cooldown_seconds": 10.0
+      },
+      "output_class": "healing_or_shield_generation",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-survival",
+      "slot": "chest_mod",
+      "level": 8,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-45.png",
+      "source_media": null,
+      "source_sha256": "6108773a3c062db60fb3abb82939f80ffa897b848b4f49671ed7104a795581c9",
+      "source_text_sha256": "4a00f3deccffbc6003fb287ee1d17a45cb6ecea8542d8f3c9b9fd487c19ab8d6",
+      "text": "When Shield is above 30.0% of Max HP, defeating an enemy recovers 20.0% of Max HP. Excess recovery is converted into Shield lasting 20.0s (Cooldown: 10.0s).",
+      "operator": "conditional_heal_and_shield_conversion",
+      "rule": {
+        "operator": "conditional_heal_and_shield_conversion",
+        "nodes": [
+          {
+            "op": "heal_percent",
+            "value": 20.0,
+            "basis": "max_hp"
+          },
+          {
+            "op": "overheal_to_shield",
+            "duration_seconds": 20.0
+          }
+        ],
+        "event": "kill_enemy",
+        "condition": {
+          "shield_percent_of_max_hp": "above",
+          "value": 30.0
+        },
+        "cooldown_seconds": 10.0
+      },
+      "output_class": "healing_or_shield_generation",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-violent",
+      "slot": "chest_mod",
+      "level": 13,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-38.png",
+      "source_media": null,
+      "source_sha256": "27e38badd006ce97307fb904646ae6f197e8da8372eae0a11e7ca0b0f00c687b",
+      "source_text_sha256": "4a00f3deccffbc6003fb287ee1d17a45cb6ecea8542d8f3c9b9fd487c19ab8d6",
+      "text": "When Shield is above 30.0% of Max HP, defeating an enemy recovers 20.0% of Max HP. Excess recovery is converted into Shield lasting 20.0s (Cooldown: 10.0s).",
+      "operator": "conditional_heal_and_shield_conversion",
+      "rule": {
+        "operator": "conditional_heal_and_shield_conversion",
+        "nodes": [
+          {
+            "op": "heal_percent",
+            "value": 20.0,
+            "basis": "max_hp"
+          },
+          {
+            "op": "overheal_to_shield",
+            "duration_seconds": 20.0
+          }
+        ],
+        "event": "kill_enemy",
+        "condition": {
+          "shield_percent_of_max_hp": "above",
+          "value": 30.0
+        },
+        "cooldown_seconds": 10.0
+      },
+      "output_class": "healing_or_shield_generation",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-battle",
+      "slot": "chest_mod",
+      "level": 13,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-183.png",
+      "source_media": null,
+      "source_sha256": "dc74ba5d44e3d1c4ce314e9c6b7c475f60d22f1a6473a3a51e05af71f9958b7b",
+      "source_text_sha256": "af004a03b163b5bd6a6ba2570ac2b270551839d6fcd7b0f117a8e41a2e0d644a",
+      "text": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "operator": "periodic_stack_and_hit_decay",
+      "rule": {
+        "operator": "periodic_stack_and_hit_decay",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0
+          }
+        ],
+        "condition": "out_of_combat",
+        "interval_seconds": 5.0,
+        "max_stacks": 5,
+        "loss_event": "receive_hit",
+        "stacks_lost": 1
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-general",
+      "slot": "chest_mod",
+      "level": 7,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-192.png",
+      "source_media": null,
+      "source_sha256": "3a5990379cded656476314429e5b84f077856babda409d0520d21d1156820964",
+      "source_text_sha256": "af004a03b163b5bd6a6ba2570ac2b270551839d6fcd7b0f117a8e41a2e0d644a",
+      "text": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "operator": "periodic_stack_and_hit_decay",
+      "rule": {
+        "operator": "periodic_stack_and_hit_decay",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0
+          }
+        ],
+        "condition": "out_of_combat",
+        "interval_seconds": 5.0,
+        "max_stacks": 5,
+        "loss_event": "receive_hit",
+        "stacks_lost": 1
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-precision",
+      "slot": "chest_mod",
+      "level": 7,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-200.png",
+      "source_media": null,
+      "source_sha256": "aeb1fb2780b6e7aa0a6f14d9f43522eab31e2d09afa9fe5b0be9e31168472249",
+      "source_text_sha256": "af004a03b163b5bd6a6ba2570ac2b270551839d6fcd7b0f117a8e41a2e0d644a",
+      "text": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "operator": "periodic_stack_and_hit_decay",
+      "rule": {
+        "operator": "periodic_stack_and_hit_decay",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0
+          }
+        ],
+        "condition": "out_of_combat",
+        "interval_seconds": 5.0,
+        "max_stacks": 5,
+        "loss_event": "receive_hit",
+        "stacks_lost": 1
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-survival",
+      "slot": "chest_mod",
+      "level": 12,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-190.png",
+      "source_media": null,
+      "source_sha256": "52eb914574085f7f36f549ab6447a51bea3b6d305aead2dc2b373816b7f5f99f",
+      "source_text_sha256": "af004a03b163b5bd6a6ba2570ac2b270551839d6fcd7b0f117a8e41a2e0d644a",
+      "text": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "operator": "periodic_stack_and_hit_decay",
+      "rule": {
+        "operator": "periodic_stack_and_hit_decay",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0
+          }
+        ],
+        "condition": "out_of_combat",
+        "interval_seconds": 5.0,
+        "max_stacks": 5,
+        "loss_event": "receive_hit",
+        "stacks_lost": 1
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-violent",
+      "slot": "chest_mod",
+      "level": 7,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-194.png",
+      "source_media": null,
+      "source_sha256": "4c3eaaa1e508c7939a1744922575716f057182b761ade455bba705784b9bd942",
+      "source_text_sha256": "af004a03b163b5bd6a6ba2570ac2b270551839d6fcd7b0f117a8e41a2e0d644a",
+      "text": "When out of combat, gain 1 stack of 10.0% DMG Reduction every 5.0s. Effect can stack up to 5.0 times. 1 stack is removed when hit.",
+      "operator": "periodic_stack_and_hit_decay",
+      "rule": {
+        "operator": "periodic_stack_and_hit_decay",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "damage_reduction_percent",
+            "value": 10.0
+          }
+        ],
+        "condition": "out_of_combat",
+        "interval_seconds": 5.0,
+        "max_stacks": 5,
+        "loss_event": "receive_hit",
+        "stacks_lost": 1
+      },
+      "output_class": "defense_or_shield_rule",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-battle",
+      "slot": "chest_mod",
+      "level": 7,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-262.png",
+      "source_media": null,
+      "source_sha256": "d0a01afca5b85b90cf0817dfeae774dea28c73b07963addad16d0683f333558e",
+      "source_text_sha256": "93f9982a9e4d8fcb197d9bef9c8acac9917c80c568fa3329fba470cd7c7c1e0e",
+      "text": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "operator": "threshold_status_purge",
+      "rule": {
+        "operator": "threshold_status_purge",
+        "nodes": [
+          {
+            "op": "purge_status_category",
+            "category": "deviated_states"
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 60.0
+        },
+        "cooldown_seconds": 15.0
+      },
+      "output_class": "utility_status_purge",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-deviant-energy",
+      "slot": "chest_mod",
+      "level": 10,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-263.png",
+      "source_media": null,
+      "source_sha256": "80a0952e225eebd0d2fe30d3fe5f15424c4fc118d6454141937b75d8bef2de09",
+      "source_text_sha256": "93f9982a9e4d8fcb197d9bef9c8acac9917c80c568fa3329fba470cd7c7c1e0e",
+      "text": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "operator": "threshold_status_purge",
+      "rule": {
+        "operator": "threshold_status_purge",
+        "nodes": [
+          {
+            "op": "purge_status_category",
+            "category": "deviated_states"
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 60.0
+        },
+        "cooldown_seconds": 15.0
+      },
+      "output_class": "utility_status_purge",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-general",
+      "slot": "chest_mod",
+      "level": 10,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-267.png",
+      "source_media": null,
+      "source_sha256": "f97c495241c9750a50a3286a2489a8410a4bbbdec9bfbc61ee4cc79606d36813",
+      "source_text_sha256": "93f9982a9e4d8fcb197d9bef9c8acac9917c80c568fa3329fba470cd7c7c1e0e",
+      "text": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "operator": "threshold_status_purge",
+      "rule": {
+        "operator": "threshold_status_purge",
+        "nodes": [
+          {
+            "op": "purge_status_category",
+            "category": "deviated_states"
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 60.0
+        },
+        "cooldown_seconds": 15.0
+      },
+      "output_class": "utility_status_purge",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-precision",
+      "slot": "chest_mod",
+      "level": 11,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-273.png",
+      "source_media": null,
+      "source_sha256": "35650dfbed6187281a5f1eef9ff30d64e85071ec489a75f141c6481ee2ad349a",
+      "source_text_sha256": "93f9982a9e4d8fcb197d9bef9c8acac9917c80c568fa3329fba470cd7c7c1e0e",
+      "text": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "operator": "threshold_status_purge",
+      "rule": {
+        "operator": "threshold_status_purge",
+        "nodes": [
+          {
+            "op": "purge_status_category",
+            "category": "deviated_states"
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 60.0
+        },
+        "cooldown_seconds": 15.0
+      },
+      "output_class": "utility_status_purge",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-survival",
+      "slot": "chest_mod",
+      "level": 11,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-271.png",
+      "source_media": null,
+      "source_sha256": "314cb54fd63d1d2d7cdb6944bad77bece47dfab15504f3f3fb2f5dd043ef42aa",
+      "source_text_sha256": "93f9982a9e4d8fcb197d9bef9c8acac9917c80c568fa3329fba470cd7c7c1e0e",
+      "text": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "operator": "threshold_status_purge",
+      "rule": {
+        "operator": "threshold_status_purge",
+        "nodes": [
+          {
+            "op": "purge_status_category",
+            "category": "deviated_states"
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 60.0
+        },
+        "cooldown_seconds": 15.0
+      },
+      "output_class": "utility_status_purge",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-violent",
+      "slot": "chest_mod",
+      "level": 10,
+      "variant_kind": "unknown",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-25 reviewed recording",
+      "source_image": "media/0a0871397a444bcf913cf26087e85781/video-review/3eca1e237ab643989c03a1b9c767555d/frame-266.png",
+      "source_media": null,
+      "source_sha256": "0f813fde8538a1e15fed0750459de2f7762f5ac4d4d0ca2a4285ddd4cab2d773",
+      "source_text_sha256": "93f9982a9e4d8fcb197d9bef9c8acac9917c80c568fa3329fba470cd7c7c1e0e",
+      "text": "When HP is lower than 60.0%, purge all Deviated States (cooldown: 15.0s)",
+      "operator": "threshold_status_purge",
+      "rule": {
+        "operator": "threshold_status_purge",
+        "nodes": [
+          {
+            "op": "purge_status_category",
+            "category": "deviated_states"
+          }
+        ],
+        "threshold": {
+          "resource": "hp_percent",
+          "comparison": "below",
+          "value": 60.0
+        },
+        "cooldown_seconds": 15.0
+      },
+      "output_class": "utility_status_purge",
+      "possible_stat_pool_output": false,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-resonance",
+      "slot": "gloves_mod",
+      "level": 9,
+      "variant_kind": "ordinary",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-22 current Field Guide recording",
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0097.png",
+      "source_media": null,
+      "source_sha256": "227d4824700bd1c9f822a4ecb50970bbe0f2566211735b562c47c3d72640b860",
+      "source_text_sha256": "5a90ef7f676fdab2ecafb63c5d086b57d6e7b0c6591323b22f335799d0e79057",
+      "text": "Element DMG (Blaze, Frost, Shock, Blast) +18%.",
+      "operator": "static_modifier",
+      "rule": {
+        "operator": "static_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "elemental_damage_percent",
+            "value": 18.0
+          }
+        ]
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-survival",
+      "slot": "pants_mod",
+      "level": 10,
+      "variant_kind": "ordinary",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-22 current Field Guide recording",
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0064.png",
+      "source_media": null,
+      "source_sha256": "cc5a6f5159e376919c14ea0ba06870d46df1303e1a2a14caa50d795dd2617127",
+      "source_text_sha256": "e302d191b7f30cef9b2dec2bbc88a3f1859a77ec26f0bde562c3b76eea6836e5",
+      "text": "Weakspot DMG +20% when a bullet hits a target more than 20 meters away. For every additional 1 meter(s) away from the target, Weakspot DMG +1%, up to +20%.",
+      "operator": "distance_scaling_partial",
+      "rule": {
+        "operator": "distance_scaling_partial",
+        "nodes": [
+          {
+            "op": "distance_scaling_stat_delta",
+            "stat": "weakspot_damage_percent",
+            "base_percent": 20.0,
+            "threshold_meters": 20.0,
+            "distance_step_meters": 1.0,
+            "bonus_per_step_percent": 1.0,
+            "stated_cap_percent": 20.0
+          }
+        ],
+        "unresolved": [
+          "cap_applies_to_increment_or_total",
+          "distance_step_rounding"
+        ]
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "current_comparison_status": "partial_rule",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:weapon_mod:static-shock-survival",
+      "slot": "weapon_mod",
+      "level": 11,
+      "variant_kind": "ordinary",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-22 current Field Guide recording",
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0014.png",
+      "source_media": null,
+      "source_sha256": "b145ccbea1588c360da01fb030a8d98b4b388bf74ce2241d367ee9464d7de533",
+      "source_text_sha256": "976c4e8e784912a576601058e65b66667e322bc83bb9c85d8c731354b85bfa74",
+      "text": "Power Surge Status duration -50%, and Power Surge DMG +20%.",
+      "operator": "static_modifier",
+      "rule": {
+        "operator": "static_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "power_surge_status_duration_percent",
+            "value": -50.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "power_surge_damage_percent",
+            "value": 20.0
+          }
+        ]
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:weapon_mod:surge-amplifier-survival",
+      "slot": "weapon_mod",
+      "level": 10,
+      "variant_kind": "ordinary",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-22 current Field Guide recording",
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0015.png",
+      "source_media": null,
+      "source_sha256": "9c65a3a6c52dee834fea8d0eb5d69b8952793b87f19be42f26926c5ce035c094",
+      "source_text_sha256": "23c822f3de31ddcc7c997c598d825f148a239ef7408df872dc3efdb18790daa1",
+      "text": "Inflicting Power Surge grants Power Surge DMG +5% for 3s, up to 4 stack(s).",
+      "operator": "event_timed_stack",
+      "rule": {
+        "operator": "event_timed_stack",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "power_surge_damage_percent",
+            "value": 5.0
+          }
+        ],
+        "event": "inflict_power_surge",
+        "duration_seconds": 3.0,
+        "max_stacks": 4,
+        "stack_expiration": "unspecified"
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-deviant-energy",
+      "slot": "boots_mod",
+      "level": 12,
+      "variant_kind": "unknown",
+      "evidence_class": "held_game_video",
+      "game_version": "unknown",
+      "source_image": null,
+      "source_media": "~/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "source_sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+      "source_text_sha256": "5ff9550a679a48a8c1e6257dfb00c10e6ed8b9cacd101eb4ea19f93b50667916",
+      "text": "Weapon and Status DMG +10.0%. For every +5.0% Max HP consumed, gain an additional +5.0% for 5.0s, up to 3 stacks.",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "rule": {
+        "operator": "base_plus_hp_cost_timed_stack_partial",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 10.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 10.0
+          }
+        ],
+        "hp_cost_step_percent": 5.0,
+        "per_stack_percent": 5.0,
+        "duration_seconds": 5.0,
+        "max_stacks": 3,
+        "unresolved": [
+          "additional_damage_dimension",
+          "stack_expiration_policy"
+        ]
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "current_comparison_status": "blocked_unknown_build_requires_opt_in",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "allow_unknown_game_build=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-precision",
+      "slot": "boots_mod",
+      "level": 7,
+      "variant_kind": "ordinary",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": null,
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0091.png",
+      "source_media": null,
+      "source_sha256": null,
+      "source_text_sha256": "0adb98239f42eefbf4afbd7154f0ab7a4c3603b9c5f68ec22d6382c329c7f33b",
+      "text": "Weapon and Status DMG +10%. For every +5% Max HP consumed, gains an additional +5%, lasting 5s, stacking up to 3 stack(s).",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "rule": {
+        "operator": "base_plus_hp_cost_timed_stack_partial",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 10.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 10.0
+          }
+        ],
+        "hp_cost_step_percent": 5.0,
+        "per_stack_percent": 5.0,
+        "duration_seconds": 5.0,
+        "max_stacks": 3,
+        "unresolved": [
+          "additional_damage_dimension",
+          "stack_expiration_policy"
+        ]
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "current_comparison_status": "partial_rule",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-downstar",
+      "slot": "boots_mod",
+      "level": 17,
+      "variant_kind": "shiny",
+      "evidence_class": "official_preview_card",
+      "game_version": null,
+      "source_image": "research/official-gravity-en-6.png",
+      "source_media": null,
+      "source_sha256": null,
+      "source_text_sha256": "4aba7015d579583d46cff1525eac2aefe20ae0a770b9fba273309988fb2a4399",
+      "text": "Killing enemies within 10 meters grants Melee, Weapon, Status DMG +20.0% for 8s.",
+      "operator": "event_timed_modifier",
+      "rule": {
+        "operator": "event_timed_modifier",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "melee_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 20.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 20.0
+          }
+        ],
+        "event": "kill_enemy",
+        "max_distance_meters": 10.0,
+        "duration_seconds": 8.0
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "blocked_preview_requires_opt_in",
+      "whole_dps_certified": false,
+      "source_url": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html",
+      "evidence_gate": "allow_preview=True"
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-downstar-deviant-energy",
+      "slot": "boots_mod",
+      "level": 9,
+      "variant_kind": "ordinary",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": null,
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0094.png",
+      "source_media": null,
+      "source_sha256": null,
+      "source_text_sha256": "ea02c09c863aa090193e5dd37f123076a71b6c490ad72cc20d1375e6679cd9fc",
+      "text": "Weapon and Status DMG +10%. Stamina loss grants an additional DMG boost, up to +20%.",
+      "operator": "base_plus_unknown_curve",
+      "rule": {
+        "operator": "base_plus_unknown_curve",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 10.0
+          },
+          {
+            "op": "stat_delta_percent",
+            "stat": "status_damage_percent",
+            "value": 10.0
+          }
+        ],
+        "unresolved": [
+          "stamina_loss_to_damage_curve",
+          "additional_damage_dimension"
+        ],
+        "maximum_unknown_bonus_percent": 20.0
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute() raises UnknownCombatState when missing",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "current_comparison_status": "partial_rule",
+      "whole_dps_certified": false,
+      "source_url": null,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-aero-deviant-energy",
+      "slot": "pants_mod",
+      "level": 12,
+      "variant_kind": "ordinary",
+      "evidence_class": "current_field_guide_frame",
+      "game_version": "2026-10-22 current Field Guide recording",
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0074.png",
+      "source_media": null,
+      "source_sha256": "8048c21ca3f439e4032abd76a0586a6e2bba511fb2f5ad6799977fd56ae7fa58",
+      "source_url": null,
+      "source_text_sha256": "6d9787a2fab27481a2c9c57ce922e28e46ac8e1c57c543424a9d42e5aabeeaca",
+      "text": "Weapon DMG +5%. Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%.",
+      "operator": "base_plus_magazine_counter",
+      "rule": {
+        "operator": "base_plus_magazine_counter",
+        "nodes": [
+          {
+            "op": "stat_delta_percent",
+            "stat": "weapon_damage_percent",
+            "value": 5.0
+          },
+          {
+            "op": "counter_stat_delta",
+            "stat": "weapon_damage_percent",
+            "per_bullets_consumed": 5,
+            "value_per_step": 4.0,
+            "max_bonus_percent": 20.0,
+            "reset": "new_magazine"
+          }
+        ]
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "typed_output_with_explicit_state",
+      "required_context": "operator_specific; execute_binding() raises UnknownCombatState when missing",
+      "unresolved": [],
+      "current_comparison_status": "observed_level_evidence_only",
+      "whole_dps_certified": false,
+      "recovered_from_runtime_added_identity": true,
+      "v2_primary_effect_missing": true,
+      "evidence_gate": "none"
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-aero",
+      "slot": "pants_mod",
+      "level": 17,
+      "variant_kind": "shiny",
+      "evidence_class": "official_preview_card",
+      "game_version": "2026-05-22 official preview",
+      "source_image": "research/official-gravity-en-6.png",
+      "source_media": null,
+      "source_sha256": null,
+      "source_url": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html",
+      "source_text_sha256": "aab4058674ad8acb89ee61b190eb521fd60f4c082218292a2914b439b44e3694",
+      "text": "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +1.0% for 15.0s upon reloading, up to +24.0%.",
+      "operator": "previous_magazine_event_counter",
+      "rule": {
+        "operator": "previous_magazine_event_counter",
+        "nodes": [
+          {
+            "op": "counter_stat_delta",
+            "stat": "elemental_damage_percent",
+            "event": "elemental_damage_instance",
+            "value_per_event": 1.0,
+            "max_bonus_percent": 24.0
+          }
+        ],
+        "apply_event": "reload",
+        "duration_seconds": 15.0,
+        "unresolved": [
+          "simultaneous_magazine_and_timer_expiration"
+        ]
+      },
+      "output_class": "offensive_stat_modifier",
+      "possible_stat_pool_output": true,
+      "adapter_status": "partial_typed_output",
+      "required_context": "operator_specific; execute_binding() raises UnknownCombatState when missing",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "current_comparison_status": "blocked_preview_requires_opt_in",
+      "whole_dps_certified": false,
+      "recovered_from_runtime_added_identity": true,
+      "v2_primary_effect_missing": true,
+      "evidence_gate": "allow_preview=True"
+    }
+  ]
+}

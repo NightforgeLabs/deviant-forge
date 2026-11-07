@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "build_id": "26267212",
+  "origin_packet": "/home/dv/Documents/Codex/2026-11-02/task/native_origin_affix_lists_480.json",
+  "origin_packet_sha256": "d58616398cdf46a569493c60552674498f6cc30de7d2016d1db8f20cb3d4a7b8",
+  "source_archive_sha256": "8007b2e16b71d10ac1e0b215f12a4bd68387c22b304e031c60f9a00b0c3c876a",
+  "origin_gear_rows_checked": 480,
+  "affix_ids_in_all_rows": [
+    "D1100",
+    "D5100",
+    "O0500",
+    "O1000",
+    "O1100"
+  ],
+  "rows_with_D0100": 0,
+  "gun_module_sha256": "5cc9a5e4eb815c104e921e8b14cc6c7da2126de8b2c81f3ca7e0bc5923e1cf03",
+  "gun_origin_method": {
+    "range": [
+      10612,
+      10864
+    ],
+    "sha256": "c901b403162bd877206e1cc4192f6863d52b3215a6687667746bb1e41ba992bf",
+    "source_line": 204
+  },
+  "gun_base_method": {
+    "range": [
+      1615,
+      2401
+    ],
+    "sha256": "7c406aad39a0ede02f2742f8311c18b4fd0d818e22cb896df21354a42def8200",
+    "source_line": 39
+  },
+  "interpretation": "The 480 decoded origin gear rows do not supply D0100. The copied gun-origin helper injects computed D0100 from get_gun_omg_value only under HOLD_ITEM_TYPE_GIVEN if absent. Therefore this particular origin list and given-item branch do not establish ordinary equipped gun attack; another source is required.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "status": "visual blueprint-preview cross-check; configured owned-weapon stat unverified",
+  "visual_reading_method": "The original saved crop was inspected at native resolution; visual reading is recorded separately from OCR and native data.",
+  "source": {
+    "video_path_read_only": "/home/dv/Projects/once-human-advisor/data/media/b0aad7d457fd4e699605ae1f78d4ec51/screenrecording-2026-10-22_15-15-01.mp4",
+    "video_sha256": "2f54ee832b1a2ab7d84efb1017fc7d35275966a82b75a9710abbf299411e926f",
+    "frame_path_read_only": "/home/dv/Projects/once-human-advisor/data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/f715bed1c783453cabc5f6f424b7b795/0001.png",
+    "frame_sha256": "deed3af8a60ae89008e3d7684150313c6af50af4114e586ea31c4d26ca3801ab",
+    "timestamp_seconds_in_video": 20.0,
+    "observation_id": "e2bf7d9330004381b651e27e10faeed8",
+    "observation_state": "pending",
+    "observation_created_utc": "2026-10-22T21:35:45+00:00",
+    "recording_review_path_read_only": "/home/dv/Projects/once-human-advisor/RECORDING_REVIEW.md",
+    "recording_capture_build": null
+  },
+  "visible_frame_facts": {
+    "screen_context": "Weapon Blueprints tab, hovered AUG - Electron Cloud B.P. preview",
+    "blueprint_id_via_exact_native_public_crosswalk": 13451401,
+    "tier_label": "Tier V",
+    "tier_number": 5,
+    "star_cue": "four gold stars and two grey stars",
+    "star_number": 4,
+    "raw_stat_label": "DMG",
+    "raw_stat_value": 231,
+    "controls": [
+      {
+        "raw_label": "Fire Rate",
+        "raw_value": 720
+      },
+      {
+        "raw_label": "MAG",
+        "raw_value": 40
+      }
+    ],
+    "calibration_blueprint_visible": false,
+    "crafted_or_equipped_weapon_tooltip_visible": false,
+    "ownership_cue_visible": false
+  },
+  "registry_ocr_cross_check": {
+    "catalog_id": "weapon:aug-electron-cloud",
+    "damage_candidate": {
+      "value": 231,
+      "confidence": "medium",
+      "reason": "Basic Stats header and next-row number triplet; verify against image"
+    },
+    "ocr_contains_numeric_triplet": true,
+    "registry_star": null,
+    "registry_tier": null
+  },
+  "native_comparison": {
+    "installed_steam_build_id": "26267212",
+    "installed_build_vs_recording": "unverified; recording is dated 2026-10-22 and installed build was inspected 2026-11-02",
+    "tier_five": {
+      "gear_id": 10451405,
+      "art_lv": {
+        "native_field": "art_lv",
+        "value": 5,
+        "byte_offset": 178844,
+        "raw_hex": "05"
+      },
+      "gun_preset_attack": {
+        "native_field": "gun_preset_attack",
+        "type": "float32_le",
+        "value": 201.0,
+        "byte_offset": 60451,
+        "raw_hex": "00004943"
+      }
+    },
+    "four_star": {
+      "native_field": "preset_attack_radio",
+      "value": 1.15,
+      "type_code": 34,
+      "blueprint_id": 13451401,
+      "star": 4,
+      "record_start_offset": 6537,
+      "value_byte_offset": 6565,
+      "value_raw_hex": "666666666666f23f",
+      "record_end_marker_offset": 6573,
+      "record_tag_hex": "a6"
+    },
+    "binary64_product": 231.14999999999998,
+    "candidate_floor_product_plus_half": 231,
+    "candidate_arithmetic_status": "fits this one in-game blueprint-preview cell; many rounding rules also produce 231, so exact runtime formula is not proved",
+    "controls": {
+      "weapon_rpm_affix_value": {
+        "native_field": "weapon_rpm_affix_value",
+        "name_index": 88,
+        "type_code": 1,
+        "type": "unsigned_varint",
+        "value": 720,
+        "byte_offset": 123122,
+        "byte_length": 2,
+        "raw_hex": "d005"
+      },
+      "weapon_magazine_size_affix_value": {
+        "native_field": "weapon_magazine_size_affix_value",
+        "name_index": 68,
+        "type_code": 1,
+        "type": "unsigned_varint",
+        "value": 40,
+        "byte_offset": 123102,
+        "byte_length": 1,
+        "raw_hex": "28"
+      },
+      "distinct_raw_weapon_rpm": {
+        "native_field": "weapon_rpm",
+        "name_index": 97,
+        "type_code": 34,
+        "type": "float64_le",
+        "value": 409.79407847556604,
+        "byte_offset": 123113,
+        "byte_length": 8,
+        "raw_hex": "38b0a18bb49c7940"
+      }
+    },
+    "native_source_artifact_sha256": {
+      "gun_damage_tier_sample": "918c27eacaab2b301df8e6721ecd6fb6ee9c900d5da0f3d886b2e16a0d5ff497",
+      "blueprint_star_ratio_sample": "459a7d4dfe36d9212ab446819bfa812fc76007402ee533c94008e828e014a507",
+      "gun_base_typed_suffix_sample": "b7f7fd1da5df7886026460d98d0f42e445481eef1a623911c4e3be553dd4abb6"
+    }
+  },
+  "separate_stored_inventory_record": {
+    "item_id": "3ca2678e3b11485b94b8e4962cb4e038",
+    "name": "AUG - Electron Cloud",
+    "stored_stars": 6,
+    "stored_craft_tier": 5,
+    "source_observation": null,
+    "calibration_profile_status": "A saved optional calibration proposal has a source reference but is not shown applied in this frame; it cannot be combined with the four-star blueprint preview."
+  },
+  "import_gate": "The visible 231 is a Tier-V four-star BLUEPRINT preview only. No owned/equipped AUG tooltip with calibration identity, applied rolls and stat value was found in the 189-row observation registry or the reviewed weapon crop. Do not import 231 as this user's configured weapon damage or certify a universal calculation."
+}

@@ -1,0 +1,36 @@
+{
+  "evidence_note": "Rows transcribed from the user's two helmet screenshots in conversation. Original images are not present in this checkout; verify against the screenshots before treating as an audited source. The shared Deviation Expert core contributes +20% Status DMG to the baseline pool; other active pools remain unknown. All six trial damage totals were visually checked against screenrecording-2026-11-01_03-14-52.mp4 on 2026-11-01. Gear-to-trial assignment, round counts, buff states and comparable durations were not independently established by that check.",
+  "left": {
+    "name": "Deviation Expert <Lunar> Lv 10",
+    "main_effect": "Range -25%, Fire Rate +10%, Status DMG +20%",
+    "attributes": [
+      {"name": "Crit DMG", "value_percent": 18, "condition": "low HP", "source": "user helmet screenshot, reported reading"},
+      {"name": "Weapon DMG", "value_percent": 7.2, "condition": "low HP", "source": "user helmet screenshot, reported reading"},
+      {"name": "Damage from monsters received", "direction": "reduction", "value_percent": 4.8, "condition": "low HP", "source": "user helmet screenshot, reported reading"},
+      {"name": "All DMG Boost", "value_percent": 3, "source": "user helmet screenshot, reported reading"}
+    ]
+  },
+  "right": {
+    "name": "Deviation Expert <Lunar Deviant Energy> Lv 10",
+    "main_effect": "Range -25%, Fire Rate +10%, Status DMG +20%",
+    "attributes": [
+      {"name": "Elemental DMG", "value_percent": 9.6, "condition": "low HP", "source": "user helmet screenshot, reported reading"},
+      {"name": "Status DMG", "value_percent": 7.2, "condition": "low HP", "source": "user helmet screenshot, reported reading"},
+      {"name": "Damage from monsters received", "direction": "reduction", "value_percent": 4.8, "condition": "low HP", "source": "user helmet screenshot, reported reading"},
+      {"name": "All DMG Boost", "value_percent": 3, "source": "user helmet screenshot, reported reading"}
+    ]
+  },
+  "context": {"hp_percent": 10, "base_pools": {"status": 20}},
+  "runs": {
+    "left": [
+      {"damage": 278827, "rounds": 58, "target": "same dummy", "buffs": "extra buff present during part of original test", "conditions": "recorded trial", "source": "screenrecording-2026-11-01_03-14-52.mp4, previous review"},
+      {"damage": 292725, "rounds": 58, "target": "same dummy", "buffs": "extra buff present during part of original test", "conditions": "recorded trial", "source": "screenrecording-2026-11-01_03-14-52.mp4, previous review"},
+      {"damage": 323982, "rounds": 58, "target": "same dummy", "buffs": "extra buff present during part of original test", "conditions": "recorded trial", "source": "screenrecording-2026-11-01_03-14-52.mp4, previous review"}
+    ],
+    "right": [
+      {"damage": 274135, "rounds": 58, "target": "same dummy", "buffs": "baseline buff state differs from original test", "conditions": "recorded trial", "source": "screenrecording-2026-11-01_03-14-52.mp4, previous review"},
+      {"damage": 333680, "rounds": 58, "target": "same dummy", "buffs": "baseline buff state differs from original test", "conditions": "recorded trial", "source": "screenrecording-2026-11-01_03-14-52.mp4, previous review"},
+      {"damage": 287942, "rounds": 58, "target": "same dummy", "buffs": "baseline buff state differs from original test", "conditions": "recorded trial", "source": "screenrecording-2026-11-01_03-14-52.mp4, previous review"}
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "build_id": "26267212",
+  "source_sha256": {
+    "affix_prototype_data.pyc": "a5732321ba5f84fa62fbfca910be49a93a26723d361a43afa28ea1a906d45d17",
+    "char_property_data.pyc": "74e5e434d0a34140822f5644c9116d93ff7b560c69f61a98b34b9fcd038ae967",
+    "translate_data_en.pinned.pyc": "0bd9092f37c3fc4b3d771be76018cef66796e45ce7ca824dfb599a94a1117f95"
+  },
+  "english_map_metadata": {
+    "string_pool_size": 280411,
+    "typed_string_to_string_pairs": 153522,
+    "map_header_offset": 19134528,
+    "fixed_hash_directory_start_offset": 19134534,
+    "varint_pair_tail_start_offset": 20362710,
+    "varint_pair_tail_end_offset_exclusive": 21224647
+  },
+  "selected_affixes": {
+    "D0102": {
+      "row_bounds": [
+        49314,
+        49349
+      ],
+      "row_sha256": "4ae30ebdc3a7f9511e4816bd943dfe221688a93a56734cb50ece7dcdad967f2a",
+      "attr_id": "D01",
+      "native_property": "attack",
+      "effect_range": 2,
+      "affix_type": 2,
+      "name": {
+        "english": "Weapon DMG Bonus",
+        "source_text": "当前武器攻击力加成_$S@TIDS$_c17|0",
+        "field_token_offset": 49316,
+        "field_token_hex": "de29",
+        "translation_object_offset": 49306,
+        "source_string_index": 1274,
+        "english_map_pair_offset": 20732699,
+        "english_map_pair_hex": "989c0aeb03",
+        "translation_key": "当前武器攻击力加成"
+      },
+      "format": {
+        "english": "Weapon DMG +{:.1%}",
+        "source_text": "当前武器攻击力+{:.1%}_$S@TIDS$_c17|0",
+        "field_token_offset": 49320,
+        "field_token_hex": "d129",
+        "translation_object_offset": 49293,
+        "source_string_index": 1277,
+        "english_map_pair_offset": 20887042,
+        "english_map_pair_hex": "cbf606c90b",
+        "translation_key": "当前武器攻击力+{:.1%}"
+      }
+    },
+    "E4200": {
+      "row_bounds": [
+        51070,
+        51106
+      ],
+      "row_sha256": "cd98da8602e1669c86e50c49b241e7f1fe6b575823602da5a10e35bdca949498",
+      "attr_id": "E42",
+      "native_property": "attack_type_dam_add_rate_remote",
+      "effect_range": 1,
+      "affix_type": 1,
+      "name": {
+        "english": "Weapon DMG Bonus",
+        "source_text": "枪械伤害加成_$S@TIDS$_c17|0",
+        "field_token_offset": 51072,
+        "field_token_hex": "ba37",
+        "translation_object_offset": 51062,
+        "source_string_index": 1422,
+        "english_map_pair_offset": 20585100,
+        "english_map_pair_hex": "d1ba06eb03",
+        "translation_key": "枪械伤害加成"
+      },
+      "format": {
+        "english": "Weapon DMG +{:.1%}",
+        "source_text": "枪械伤害+{:.1%}_$S@TIDS$_c17|0",
+        "field_token_offset": 51077,
+        "field_token_hex": "ad37",
+        "translation_object_offset": 51049,
+        "source_string_index": 1425,
+        "english_map_pair_offset": 21072567,
+        "english_map_pair_hex": "c4d90bc90b",
+        "translation_key": "枪械伤害+{:.1%}"
+      }
+    },
+    "E4300": {
+      "row_bounds": [
+        51106,
+        51142
+      ],
+      "row_sha256": "e6d975bba7db438ccf037e751089559a2b0458eb5b9be4d578e9b27dfd59c48c",
+      "attr_id": "E43",
+      "native_property": "attack_type_dam_add_rate_dot",
+      "effect_range": 1,
+      "affix_type": 1,
+      "name": {
+        "english": "Status DMG Bonus",
+        "source_text": "异常伤害加成_$S@TIDS$_c17|0",
+        "field_token_offset": 51108,
+        "field_token_hex": "de37",
+        "translation_object_offset": 51098,
+        "source_string_index": 1426,
+        "english_map_pair_offset": 20673065,
+        "english_map_pair_hex": "f0ee02f1ee02",
+        "translation_key": "异常伤害加成"
+      },
+      "format": {
+        "english": "Status DMG +{:.1%}",
+        "source_text": "异常伤害+{:.1%}_$S@TIDS$_c17|0",
+        "field_token_offset": 51113,
+        "field_token_hex": "d137",
+        "translation_object_offset": 51085,
+        "source_string_index": 1429,
+        "english_map_pair_offset": 21179701,
+        "english_map_pair_hex": "98dc0f99dc0f",
+        "translation_key": "异常伤害+{:.1%}"
+      }
+    },
+    "E3400": {
+      "row_bounds": [
+        50926,
+        50962
+      ],
+      "row_sha256": "7c29aae59598d9f3238514e7f0e0f24bff01a33401bacbadae1806dc01d0abe1",
+      "attr_id": "E34",
+      "native_property": "element_type_dam_add_rate_lightning",
+      "effect_range": 1,
+      "affix_type": 1,
+      "name": {
+        "english": "Shock DMG Bonus",
+        "source_text": "电离伤害加成_$S@TIDS$_c17|0",
+        "field_token_offset": 50928,
+        "field_token_hex": "aa36",
+        "translation_object_offset": 50918,
+        "source_string_index": 1410,
+        "english_map_pair_offset": 20954867,
+        "english_map_pair_hex": "8cd6098dd609",
+        "translation_key": "电离伤害加成"
+      },
+      "format": {
+        "english": "Shock DMG +{:.1%}",
+        "source_text": "电离伤害+{:.1%}_$S@TIDS$_c17|0",
+        "field_token_offset": 50933,
+        "field_token_hex": "9d36",
+        "translation_object_offset": 50905,
+        "source_string_index": 1413,
+        "english_map_pair_offset": 21061080,
+        "english_map_pair_hex": "f3aa0bf4aa0b",
+        "translation_key": "电离伤害+{:.1%}"
+      }
+    },
+    "E12100": {
+      "row_bounds": [
+        50602,
+        50638
+      ],
+      "row_sha256": "ca8078921cdee7b51994aa876965af18bd620cde7ea6612914756d9837ad452a",
+      "attr_id": "E121",
+      "native_property": "keyword_proc_dam_add_rate_surge",
+      "effect_range": 1,
+      "affix_type": 1,
+      "name": {
+        "english": "Power Surge DMG Bonus",
+        "source_text": "电涌伤害加成_$S@TIDS$_c17|0",
+        "field_token_offset": 50604,
+        "field_token_hex": "e633",
+        "translation_object_offset": 50594,
+        "source_string_index": 1386,
+        "english_map_pair_offset": 20982124,
+        "english_map_pair_hex": "bb9209d92f",
+        "translation_key": "电涌伤害加成"
+      },
+      "format": {
+        "english": "Power Surge DMG +{:.1%}",
+        "source_text": "电涌伤害+{:.1%}_$S@TIDS$_c17|0",
+        "field_token_offset": 50609,
+        "field_token_hex": "d933",
+        "translation_object_offset": 50581,
+        "source_string_index": 1389,
+        "english_map_pair_offset": 20483624,
+        "english_map_pair_hex": "a66ea76e",
+        "translation_key": "电涌伤害+{:.1%}"
+      }
+    },
+    "G4400": {
+      "row_bounds": [
+        53823,
+        53859
+      ],
+      "row_sha256": "ace7285d7bc133afbf16f016ade07f74912025a77764664678c2915127099c6c",
+      "attr_id": "G44",
+      "native_property": "element_type_ignore_dam_rate_lightning",
+      "effect_range": 1,
+      "affix_type": 1,
+      "name": {
+        "english": "Shock DMG Reduction",
+        "source_text": "电离伤害减免_$S@TIDS$_c17|0",
+        "field_token_offset": 53825,
+        "field_token_hex": "fb4c",
+        "translation_object_offset": 53815,
+        "source_string_index": 839,
+        "english_map_pair_offset": 20738956,
+        "english_map_pair_hex": "a5e00ba6e00b",
+        "translation_key": "电离伤害减免"
+      },
+      "format": {
+        "english": "Shock DMG Reduction +{:.1%}",
+        "source_text": "电离伤害减免+{:.1%}_$S@TIDS$_c17|0",
+        "field_token_offset": 53830,
+        "field_token_hex": "ee4c",
+        "translation_object_offset": 53802,
+        "source_string_index": 840,
+        "english_map_pair_offset": 20626462,
+        "english_map_pair_hex": "cba306cca306",
+        "translation_key": "电离伤害减免+{:.1%}"
+      }
+    },
+    "G5300": {
+      "row_bounds": [
+        54039,
+        54075
+      ],
+      "row_sha256": "17d245d33a3da68a1ce5949694cc61757faab636cd98f94e5dc56ac33ad32610",
+      "attr_id": "G53",
+      "native_property": "attack_type_ignore_dam_rate_dot",
+      "effect_range": 1,
+      "affix_type": 1,
+      "name": {
+        "english": "Status DMG Reduction",
+        "source_text": "异常伤害减免_$S@TIDS$_c17|0",
+        "field_token_offset": 54041,
+        "field_token_hex": "d34e",
+        "translation_object_offset": 54031,
+        "source_string_index": 851,
+        "english_map_pair_offset": 21115669,
+        "english_map_pair_hex": "d89f0dd99f0d",
+        "translation_key": "异常伤害减免"
+      },
+      "format": {
+        "english": "Status DMG Reduction +{:.1%}",
+        "source_text": "异常伤害减免+{:.1%}_$S@TIDS$_c17|0",
+        "field_token_offset": 54046,
+        "field_token_hex": "c64e",
+        "translation_object_offset": 54018,
+        "source_string_index": 852,
+        "english_map_pair_offset": 20963558,
+        "english_map_pair_hex": "deda08dfda08",
+        "translation_key": "异常伤害减免+{:.1%}"
+      }
+    }
+  },
+  "G104_property_localization": {
+    "attr_id": "G104",
+    "native_property": "element_type_ignore_dam_lightning",
+    "row_bounds": [
+      84216,
+      84255
+    ],
+    "schema_anchor": 3423,
+    "name": {
+      "english": "Ignore Shock Elemental DMG",
+      "source_text": "无视电离元素伤害_$S@TIDS$_c6i|0",
+      "field_token_offset": 84220,
+      "field_token_hex": "a478",
+      "translation_object_offset": 84208,
+      "source_string_index": 2050,
+      "english_map_pair_offset": 21024916,
+      "english_map_pair_hex": "f2a00af3a00a",
+      "translation_key": "无视电离元素伤害"
+    }
+  },
+  "generic_elemental_translation_keys_without_affix_id_join": {
+    "元素伤害": {
+      "english": "Elemental DMG",
+      "english_map_pair_offset": 21056365
+    },
+    "元素伤害加成": {
+      "english": "Elemental DMG Bonus",
+      "english_map_pair_offset": 21133660
+    },
+    "元素增伤": {
+      "english": "Elemental DMG Bonus",
+      "english_map_pair_offset": 20626290
+    }
+  },
+  "full_affix_scan": {
+    "indexed_rows": 412,
+    "rejected_rows": [],
+    "elemental_dmg_label_hits": []
+  },
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

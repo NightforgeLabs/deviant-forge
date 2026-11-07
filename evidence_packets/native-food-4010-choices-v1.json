@@ -1,0 +1,1139 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_pyc_sha256": "01f840abe8d2b9bda18b25086b5082a14dbf2b77c711bfc5d68529f567a2dd02",
+  "source_literal_sha256": "d9cee217e01b17c1af75758e340016c5d649b705810a9c1b057d47de515ba8f0",
+  "schema_literal_offset": 459037,
+  "schema_optional_prefix_count": 3,
+  "typed_rows_validated": 3192,
+  "rejected_marker_candidates": 1032,
+  "buff_enhance_type": 4010,
+  "configured_ingredient_choice_source_item_ids": 5,
+  "configured_ingredient_choice_source_records": 30,
+  "configured_ingredient_choice_sources": [
+    {
+      "item_id": 30104008,
+      "installed_english_name": "Butter",
+      "configured_4010_value": "0.3",
+      "choice_record_byte_offsets": [
+        460336,
+        464031,
+        506186,
+        541546,
+        561822,
+        587198
+      ],
+      "source_records": [
+        {
+          "item_id": 30104008,
+          "record_literal_offset": 460336,
+          "item_id_byte_offset": 460351,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460329,
+            "values": [
+              1359,
+              1363
+            ],
+            "raw_hex": "270b02cf0ad30a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Butter",
+          "native_name": "黄油_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8568045,
+          "translation_pair_byte_offset": 20452962
+        },
+        {
+          "item_id": 30104008,
+          "record_literal_offset": 464031,
+          "item_id_byte_offset": 464046,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460329,
+            "values": [
+              1359,
+              1363
+            ],
+            "raw_hex": "270b02cf0ad30a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Butter",
+          "native_name": "黄油_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8568045,
+          "translation_pair_byte_offset": 20452962
+        },
+        {
+          "item_id": 30104008,
+          "record_literal_offset": 506186,
+          "item_id_byte_offset": 506203,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460329,
+            "values": [
+              1359,
+              1363
+            ],
+            "raw_hex": "270b02cf0ad30a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Butter",
+          "native_name": "黄油_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8568045,
+          "translation_pair_byte_offset": 20452962
+        },
+        {
+          "item_id": 30104008,
+          "record_literal_offset": 541546,
+          "item_id_byte_offset": 541563,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460329,
+            "values": [
+              1359,
+              1363
+            ],
+            "raw_hex": "270b02cf0ad30a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Butter",
+          "native_name": "黄油_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8568045,
+          "translation_pair_byte_offset": 20452962
+        },
+        {
+          "item_id": 30104008,
+          "record_literal_offset": 561822,
+          "item_id_byte_offset": 561839,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460329,
+            "values": [
+              1359,
+              1363
+            ],
+            "raw_hex": "270b02cf0ad30a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Butter",
+          "native_name": "黄油_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8568045,
+          "translation_pair_byte_offset": 20452962
+        },
+        {
+          "item_id": 30104008,
+          "record_literal_offset": 587198,
+          "item_id_byte_offset": 587215,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460329,
+            "values": [
+              1359,
+              1363
+            ],
+            "raw_hex": "270b02cf0ad30a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Butter",
+          "native_name": "黄油_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8568045,
+          "translation_pair_byte_offset": 20452962
+        }
+      ]
+    },
+    {
+      "item_id": 30104009,
+      "installed_english_name": "Cheese",
+      "configured_4010_value": "0.3",
+      "choice_record_byte_offsets": [
+        460563,
+        464234,
+        494114,
+        547383,
+        587267,
+        641747
+      ],
+      "source_records": [
+        {
+          "item_id": 30104009,
+          "record_literal_offset": 460563,
+          "item_id_byte_offset": 460578,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460556,
+            "values": [
+              1359,
+              1590
+            ],
+            "raw_hex": "270b02cf0ab60c"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Cheese",
+          "native_name": "起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7174996,
+          "translation_pair_byte_offset": 20740523
+        },
+        {
+          "item_id": 30104009,
+          "record_literal_offset": 464234,
+          "item_id_byte_offset": 464249,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460556,
+            "values": [
+              1359,
+              1590
+            ],
+            "raw_hex": "270b02cf0ab60c"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Cheese",
+          "native_name": "起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7174996,
+          "translation_pair_byte_offset": 20740523
+        },
+        {
+          "item_id": 30104009,
+          "record_literal_offset": 494114,
+          "item_id_byte_offset": 494131,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460556,
+            "values": [
+              1359,
+              1590
+            ],
+            "raw_hex": "270b02cf0ab60c"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Cheese",
+          "native_name": "起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7174996,
+          "translation_pair_byte_offset": 20740523
+        },
+        {
+          "item_id": 30104009,
+          "record_literal_offset": 547383,
+          "item_id_byte_offset": 547400,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460556,
+            "values": [
+              1359,
+              1590
+            ],
+            "raw_hex": "270b02cf0ab60c"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Cheese",
+          "native_name": "起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7174996,
+          "translation_pair_byte_offset": 20740523
+        },
+        {
+          "item_id": 30104009,
+          "record_literal_offset": 587267,
+          "item_id_byte_offset": 587284,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460556,
+            "values": [
+              1359,
+              1590
+            ],
+            "raw_hex": "270b02cf0ab60c"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Cheese",
+          "native_name": "起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7174996,
+          "translation_pair_byte_offset": 20740523
+        },
+        {
+          "item_id": 30104009,
+          "record_literal_offset": 641747,
+          "item_id_byte_offset": 641764,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460556,
+            "values": [
+              1359,
+              1590
+            ],
+            "raw_hex": "270b02cf0ab60c"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460320,
+            "values": [
+              103
+            ],
+            "raw_hex": "27050167"
+          },
+          "effect_4010_string_value": "0.3",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Cheese",
+          "native_name": "起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7174996,
+          "translation_pair_byte_offset": 20740523
+        }
+      ]
+    },
+    {
+      "item_id": 30104010,
+      "installed_english_name": "Pickles",
+      "configured_4010_value": "-0.5",
+      "choice_record_byte_offsets": [
+        460883,
+        464409,
+        502998,
+        506397,
+        558440,
+        682982
+      ],
+      "source_records": [
+        {
+          "item_id": 30104010,
+          "record_literal_offset": 460883,
+          "item_id_byte_offset": 460898,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460876,
+            "values": [
+              1911,
+              302
+            ],
+            "raw_hex": "270b02f70eae02"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460872,
+            "values": [
+              47
+            ],
+            "raw_hex": "2705012f"
+          },
+          "effect_4010_string_value": "-0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Pickles",
+          "native_name": "腌黄瓜_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7459711,
+          "translation_pair_byte_offset": 21133061
+        },
+        {
+          "item_id": 30104010,
+          "record_literal_offset": 464409,
+          "item_id_byte_offset": 464424,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460876,
+            "values": [
+              1911,
+              302
+            ],
+            "raw_hex": "270b02f70eae02"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460872,
+            "values": [
+              47
+            ],
+            "raw_hex": "2705012f"
+          },
+          "effect_4010_string_value": "-0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Pickles",
+          "native_name": "腌黄瓜_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7459711,
+          "translation_pair_byte_offset": 21133061
+        },
+        {
+          "item_id": 30104010,
+          "record_literal_offset": 502998,
+          "item_id_byte_offset": 503015,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460876,
+            "values": [
+              1911,
+              302
+            ],
+            "raw_hex": "270b02f70eae02"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460872,
+            "values": [
+              47
+            ],
+            "raw_hex": "2705012f"
+          },
+          "effect_4010_string_value": "-0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Pickles",
+          "native_name": "腌黄瓜_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7459711,
+          "translation_pair_byte_offset": 21133061
+        },
+        {
+          "item_id": 30104010,
+          "record_literal_offset": 506397,
+          "item_id_byte_offset": 506414,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460876,
+            "values": [
+              1911,
+              302
+            ],
+            "raw_hex": "270b02f70eae02"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460872,
+            "values": [
+              47
+            ],
+            "raw_hex": "2705012f"
+          },
+          "effect_4010_string_value": "-0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Pickles",
+          "native_name": "腌黄瓜_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7459711,
+          "translation_pair_byte_offset": 21133061
+        },
+        {
+          "item_id": 30104010,
+          "record_literal_offset": 558440,
+          "item_id_byte_offset": 558457,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460876,
+            "values": [
+              1911,
+              302
+            ],
+            "raw_hex": "270b02f70eae02"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460872,
+            "values": [
+              47
+            ],
+            "raw_hex": "2705012f"
+          },
+          "effect_4010_string_value": "-0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Pickles",
+          "native_name": "腌黄瓜_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7459711,
+          "translation_pair_byte_offset": 21133061
+        },
+        {
+          "item_id": 30104010,
+          "record_literal_offset": 682982,
+          "item_id_byte_offset": 682999,
+          "effect_type_array": {
+            "literal_offset": 460544,
+            "values": [
+              4010,
+              4009
+            ],
+            "raw_hex": "270102aa1fa91f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 460876,
+            "values": [
+              1911,
+              302
+            ],
+            "raw_hex": "270b02f70eae02"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 460872,
+            "values": [
+              47
+            ],
+            "raw_hex": "2705012f"
+          },
+          "effect_4010_string_value": "-0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Pickles",
+          "native_name": "腌黄瓜_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7459711,
+          "translation_pair_byte_offset": 21133061
+        }
+      ]
+    },
+    {
+      "item_id": 30104014,
+      "installed_english_name": "Nut Jam",
+      "configured_4010_value": "0.4",
+      "choice_record_byte_offsets": [
+        462286,
+        465383,
+        504874,
+        548015,
+        587787,
+        727042
+      ],
+      "source_records": [
+        {
+          "item_id": 30104014,
+          "record_literal_offset": 462286,
+          "item_id_byte_offset": 462301,
+          "effect_type_array": {
+            "literal_offset": 462271,
+            "values": [
+              4010
+            ],
+            "raw_hex": "270101aa1f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462281,
+            "values": [
+              3315
+            ],
+            "raw_hex": "270b01f319"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462276,
+            "values": [
+              173
+            ],
+            "raw_hex": "270501ad01"
+          },
+          "effect_4010_string_value": "0.4",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Nut Jam",
+          "native_name": "坚果酱_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 6943370,
+          "translation_pair_byte_offset": 20374529
+        },
+        {
+          "item_id": 30104014,
+          "record_literal_offset": 465383,
+          "item_id_byte_offset": 465398,
+          "effect_type_array": {
+            "literal_offset": 462271,
+            "values": [
+              4010
+            ],
+            "raw_hex": "270101aa1f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462281,
+            "values": [
+              3315
+            ],
+            "raw_hex": "270b01f319"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462276,
+            "values": [
+              173
+            ],
+            "raw_hex": "270501ad01"
+          },
+          "effect_4010_string_value": "0.4",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Nut Jam",
+          "native_name": "坚果酱_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 6943370,
+          "translation_pair_byte_offset": 20374529
+        },
+        {
+          "item_id": 30104014,
+          "record_literal_offset": 504874,
+          "item_id_byte_offset": 504891,
+          "effect_type_array": {
+            "literal_offset": 462271,
+            "values": [
+              4010
+            ],
+            "raw_hex": "270101aa1f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462281,
+            "values": [
+              3315
+            ],
+            "raw_hex": "270b01f319"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462276,
+            "values": [
+              173
+            ],
+            "raw_hex": "270501ad01"
+          },
+          "effect_4010_string_value": "0.4",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Nut Jam",
+          "native_name": "坚果酱_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 6943370,
+          "translation_pair_byte_offset": 20374529
+        },
+        {
+          "item_id": 30104014,
+          "record_literal_offset": 548015,
+          "item_id_byte_offset": 548032,
+          "effect_type_array": {
+            "literal_offset": 462271,
+            "values": [
+              4010
+            ],
+            "raw_hex": "270101aa1f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462281,
+            "values": [
+              3315
+            ],
+            "raw_hex": "270b01f319"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462276,
+            "values": [
+              173
+            ],
+            "raw_hex": "270501ad01"
+          },
+          "effect_4010_string_value": "0.4",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Nut Jam",
+          "native_name": "坚果酱_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 6943370,
+          "translation_pair_byte_offset": 20374529
+        },
+        {
+          "item_id": 30104014,
+          "record_literal_offset": 587787,
+          "item_id_byte_offset": 587804,
+          "effect_type_array": {
+            "literal_offset": 462271,
+            "values": [
+              4010
+            ],
+            "raw_hex": "270101aa1f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462281,
+            "values": [
+              3315
+            ],
+            "raw_hex": "270b01f319"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462276,
+            "values": [
+              173
+            ],
+            "raw_hex": "270501ad01"
+          },
+          "effect_4010_string_value": "0.4",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Nut Jam",
+          "native_name": "坚果酱_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 6943370,
+          "translation_pair_byte_offset": 20374529
+        },
+        {
+          "item_id": 30104014,
+          "record_literal_offset": 727042,
+          "item_id_byte_offset": 727059,
+          "effect_type_array": {
+            "literal_offset": 462271,
+            "values": [
+              4010
+            ],
+            "raw_hex": "270101aa1f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462281,
+            "values": [
+              3315
+            ],
+            "raw_hex": "270b01f319"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462276,
+            "values": [
+              173
+            ],
+            "raw_hex": "270501ad01"
+          },
+          "effect_4010_string_value": "0.4",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Nut Jam",
+          "native_name": "坚果酱_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 6943370,
+          "translation_pair_byte_offset": 20374529
+        }
+      ]
+    },
+    {
+      "item_id": 30104906,
+      "installed_english_name": "Stardust Cheese",
+      "configured_4010_value": "0.5",
+      "choice_record_byte_offsets": [
+        462366,
+        465947,
+        496931,
+        554579,
+        580848,
+        726835
+      ],
+      "source_records": [
+        {
+          "item_id": 30104906,
+          "record_literal_offset": 462366,
+          "item_id_byte_offset": 462381,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462359,
+            "values": [
+              3388,
+              3393
+            ],
+            "raw_hex": "270b02bc1ac11a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462349,
+            "values": [
+              180
+            ],
+            "raw_hex": "270501b401"
+          },
+          "effect_4010_string_value": "0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Stardust Cheese",
+          "native_name": "星尘起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8569274,
+          "translation_pair_byte_offset": 21155299
+        },
+        {
+          "item_id": 30104906,
+          "record_literal_offset": 465947,
+          "item_id_byte_offset": 465962,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462359,
+            "values": [
+              3388,
+              3393
+            ],
+            "raw_hex": "270b02bc1ac11a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462349,
+            "values": [
+              180
+            ],
+            "raw_hex": "270501b401"
+          },
+          "effect_4010_string_value": "0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Stardust Cheese",
+          "native_name": "星尘起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8569274,
+          "translation_pair_byte_offset": 21155299
+        },
+        {
+          "item_id": 30104906,
+          "record_literal_offset": 496931,
+          "item_id_byte_offset": 496948,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462359,
+            "values": [
+              3388,
+              3393
+            ],
+            "raw_hex": "270b02bc1ac11a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462349,
+            "values": [
+              180
+            ],
+            "raw_hex": "270501b401"
+          },
+          "effect_4010_string_value": "0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Stardust Cheese",
+          "native_name": "星尘起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8569274,
+          "translation_pair_byte_offset": 21155299
+        },
+        {
+          "item_id": 30104906,
+          "record_literal_offset": 554579,
+          "item_id_byte_offset": 554596,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462359,
+            "values": [
+              3388,
+              3393
+            ],
+            "raw_hex": "270b02bc1ac11a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462349,
+            "values": [
+              180
+            ],
+            "raw_hex": "270501b401"
+          },
+          "effect_4010_string_value": "0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Stardust Cheese",
+          "native_name": "星尘起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8569274,
+          "translation_pair_byte_offset": 21155299
+        },
+        {
+          "item_id": 30104906,
+          "record_literal_offset": 580848,
+          "item_id_byte_offset": 580865,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462359,
+            "values": [
+              3388,
+              3393
+            ],
+            "raw_hex": "270b02bc1ac11a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462349,
+            "values": [
+              180
+            ],
+            "raw_hex": "270501b401"
+          },
+          "effect_4010_string_value": "0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Stardust Cheese",
+          "native_name": "星尘起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8569274,
+          "translation_pair_byte_offset": 21155299
+        },
+        {
+          "item_id": 30104906,
+          "record_literal_offset": 726835,
+          "item_id_byte_offset": 726852,
+          "effect_type_array": {
+            "literal_offset": 460313,
+            "values": [
+              4010,
+              4008
+            ],
+            "raw_hex": "270102aa1fa81f"
+          },
+          "effect_parameter_pointer_array": {
+            "literal_offset": 462359,
+            "values": [
+              3388,
+              3393
+            ],
+            "raw_hex": "270b02bc1ac11a"
+          },
+          "effect_4010_parameter_array": {
+            "literal_offset": 462349,
+            "values": [
+              180
+            ],
+            "raw_hex": "270501b401"
+          },
+          "effect_4010_string_value": "0.5",
+          "is_direct_soup_recipe_ingredient": false,
+          "installed_english_name": "Stardust Cheese",
+          "native_name": "星尘起司_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8569274,
+          "translation_pair_byte_offset": 21155299
+        }
+      ]
+    }
+  ],
+  "soup_recipe_ingredient_ids": [
+    933,
+    30100012,
+    30102007,
+    30102011,
+    30102922
+  ],
+  "scope": "These are typed DIY choice records. The readable get_all_meme_mastery_types consumes matching effect_type_list/effect_params_list for selected mastery entries. No selected Soup instance or food-use handoff is observed.",
+  "game_code_executed": false,
+  "installed_files_modified": false,
+  "forge_files_modified": false
+}

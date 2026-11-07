@@ -1,0 +1,27 @@
+# Conditional monster hit to NPC HP settlement
+
+This is a static trace of copied build `26267212` modules. [synthetic_monster_hit_reference.py](synthetic_monster_hit_reference.py) is a handwritten pure replay, and [synthetic_monster_hit_vectors.json](synthetic_monster_hit_vectors.json) records all synthetic inputs and results. It does not import or execute game code, modify installed files, or inspect a live process. Source pyc hashes and archive offsets are in [shield_settlement_capture/manifest.json](shield_settlement_capture/manifest.json) and [shield_settlement_capture/hp_path_capture_manifest.json](shield_settlement_capture/hp_path_capture_manifest.json).
+
+## Concrete class and call chain
+
+The class creation in `be_hit_server_capture/CompBeHitServer.pyc` uses `CompBeHitAnimalServer(CompBeHitServer)` at `[1426,1430)` and `CompBeHitMonsterServer(IBeHitServerWithPowerShield, CompBeHitAnimalServer)` at `[1470,1476)`. The monster class declares a `POWER_SHIELD_SERVER` dependency. `CompBeHitAnimalServer.entity_be_hit` `[181037,181173)` first calls `_do_animal_can_anesthetic`; if that intercepts, it returns without the ordinary hit. Otherwise it delegates to the base `entity_be_hit` method. `CompBeHitMonsterServer` does not override `_apply_damage`, so its ordinary path uses `CompBeHitServer._entity_be_hit_imp` → `_apply_damage` after eligibility and merge checks. Its statistics override does not supply a different damage formula.
+
+The shared pre-application arithmetic is `IBeHitCommonBase._calc_damage_attenuation` `[6430,6570)`: `max(0, post_graph_damage × (1 − attenuation_factor)^obstruct_nums)`. The monster base class inherits `IBeHitNonAvatarCommon`; its `_check_level_adapter_damage_hp` `[15711,16395)` returns false when the supplied disabled gate is true. The shared DPS correction helper leaves the amount unchanged when supplied ratio is 1. These controlled vectors supply both conditions explicitly.
+
+The shield mixin is genuinely on this monster class path. Its `_process_shield` `[151521,151661)` consumes the **post-attenuation** amount through `POWER_SHIELD_SERVER.reduce_shield_hp` and returns true. The base `_apply_damage` then jumps to `HIT_SHIELD`, past `HEALTH_SERVER.take_damage`. The earlier shield packet proves the finite shield clamp. This establishes no HP overflow for this exact recognized-shield branch; it does not establish that every boss has this class or an active shield.
+
+For an unshielded default hit, `CompBeHitServer._apply_damage` calls `holder[HEALTH_SERVER].take_damage` at `[85870,85998)`. `CompHealthNpcServer.take_damage` in `shield_settlement_capture/4306_dcs_extend\\component_server\\CompHealthServer.pyc` `[222414,223440)` rejects nonpositive input, returns `SUCCESS` with no HP write if its invincibility check succeeds, and rejects a dead state **or an already nonpositive HP value**. Its stun path is separate. The ordinary path invokes `_health_damage_imp` `[224182,224984)`, which applies `_damage_sync_process`, intercepts structure field if present, optionally consumes field, then calls the inherited `_change_hp_value(holder, -value, damage_info)` at `[224476,224520)`. The inherited method uses `PROPERTY.change_attr(holder, 'hp', delta)`; the property component adjusts effective bounds and ultimately calls `setattr` as documented in [RECOVERED_FINAL_HP_MUTATION_ROUTE.md](RECOVERED_FINAL_HP_MUTATION_ROUTE.md). The specific component/bound record for a live boss is **not** inferred from this class name.
+
+The NPC-specific death result follows the HP write. If HP is now `<=0` and `UNIT_TRIGGER_MGR_SERVER.has_trigger_event(holder, 'on_dying_event')` is true, `take_damage` returns `KNOCK_DOWN_NPC` at `[223006,223250)`. Without that trigger, it attempts `STATE.process_action(DIE)` and, if successful, calls `_get_kill_type` at `[223252,223404)`; this branch is outside the pure replay. By comparison, the player path attempts `DYING` unless its direct-die predicate is true. Both paths share the attenuation, base be-hit application, field/HP write helpers, and the distinction between reported `real_damage_hp` and measured HP change.
+
+## Synthetic checks
+
+All examples explicitly supply: accepted unmerged default hit, anesthetic intercept false, normal alive NPC, disabled level adapter, `dps_ratio=1`, zero structure/field, no part overflow, no damage share, sync rate 1, no invincibility/lock/death special flags, a direct scalar HP property, ABS conversion, and **synthetic effective HP bounds `[0,100]`**. These are controlled assumptions, not claimed game defaults.
+
+| Case | Post graph → attenuated | Shield HP | NPC HP | Reported `real_damage_hp` | Actual HP change | Result |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| Ordinary unshielded hit | `80 → 80` | absent | `100 → 20` | 80 | 80 | `SUCCESS` |
+| Lethal hit, supplied `on_dying_event` trigger | `80 → 80` | absent | `40 → 0` | 80 | 40 | `KNOCK_DOWN_NPC` |
+| Recognized held shield, 50 HP; one 20% obstruction | `100 → 80` | `50 → 0` | `100 → 100` | 80 | 0 | `HIT_SHIELD`, no health call |
+
+The shield vector shows why `real_damage_hp` and an attacked event cannot be used as boss HP loss. The lethal vector's 0 HP floor and trigger are supplied inputs; an actual boss's effective HP bounds, phase/trigger setup, target classification, and equipped attack remain unresolved. The script raises on alternate branches rather than silently applying this rule to them.

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "access_date_utc": "2026-11-02",
+  "method": "Bounded public exact-ID page observations, compared with independently decoded installed source IDs and native item/style titles. English names are not extrapolated to other records.",
+  "public_source_domain": "wikily.gg",
+  "observations": [
+    {
+      "item_id": 30399102,
+      "public_url": "https://wikily.gg/once-human/items/30399102",
+      "public_exact_page_title": "Calibration Blueprint - Precision Pistol",
+      "native_item_title_prefix": "精校图纸·精准手枪",
+      "native_style_prefix": "精准风格",
+      "identity_status": "exact_id_page_and_semantic_title_agree"
+    },
+    {
+      "item_id": 30399103,
+      "public_url": "https://wikily.gg/once-human/items/30399103",
+      "public_exact_page_title": "Calibration Blueprint - P22",
+      "native_item_title_prefix": "精校图纸·速射手枪",
+      "native_style_prefix": "速射风格",
+      "identity_status": "exact_id_page_title_conflicts_with_native_style_semantics; withhold English style mapping"
+    },
+    {
+      "item_id": 30399104,
+      "public_url": "https://wikily.gg/once-human/items/30399104",
+      "public_exact_page_title": "Calibration Blueprint - Portable Pistol",
+      "native_item_title_prefix": "精校图纸·便携手枪",
+      "native_style_prefix": "便携风格",
+      "identity_status": "exact_id_page_and_semantic_title_agree"
+    },
+    {
+      "item_id": 30399107,
+      "public_url": "https://wikily.gg/once-human/items/30399107",
+      "public_exact_page_title": "Calibration Blueprint - Portable Pistol",
+      "native_item_title_prefix": "精校图纸·便携手枪",
+      "native_style_prefix": "便携风格",
+      "identity_status": "search-indexed exact ID page and semantic title agree; direct open unavailable in this pass"
+    },
+    {
+      "item_id": 30399166,
+      "public_url": "https://wikily.gg/once-human/items/30399166",
+      "public_exact_page_title": "Calibration Blueprint - Rapid Machine Gun",
+      "native_item_title_prefix": "精校图纸·速射机枪",
+      "native_style_prefix": "速射风格",
+      "identity_status": "search-indexed exact ID page and semantic title agree"
+    }
+  ],
+  "interpretation_gate": "Wikily pages are third-party public references, not installed-build version proof. Exact numeric ID anchors each observation. The P22 title conflict blocks a universal English translation map. No row is mapped to a saved Forge calibration profile or an owned selected roll by name alone."
+}

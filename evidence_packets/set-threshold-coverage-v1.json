@@ -1,0 +1,994 @@
+{
+  "schema_version": 1,
+  "source_packet": "set-threshold-source-v4.json",
+  "source_packet_thresholds": 79,
+  "catalog_set_identities": 20,
+  "catalog_threshold_descriptions": 74,
+  "extra_source_thresholds": "Four Dark Resonance rows are outside the runtime catalog; Treacherous Tides current one-piece row has no matching runtime description.",
+  "source_status_counts": {
+    "community_snapshot_candidate": 63,
+    "historical_official_release": 3,
+    "official_release": 7,
+    "official_preview_only": 1
+  },
+  "behavior_counts": {
+    "static": 37,
+    "timed_stack_or_state": 20,
+    "conditional": 8,
+    "resource_or_shield": 5,
+    "mixed_or_unclassified": 4
+  },
+  "execution_counts": {
+    "community_snapshot_opt_in": 39,
+    "unresolved": 30,
+    "historical_official_opt_in": 2,
+    "current_official_conditional": 2,
+    "current_official_endpoint_only": 1
+  },
+  "records": [
+    {
+      "catalog_set_id": "set:agent-set",
+      "required_items": 1,
+      "catalog_description": "Head DMG Reduction +10%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:agent-set",
+      "required_items": 2,
+      "catalog_description": "Weakspot DMG +10%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:agent-set",
+      "required_items": 3,
+      "catalog_description": "Get Bullet Saver effect with every precise kill, Weakspot DMG +15% for 8s. Effect can stack up to 3 times.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:agent-set",
+      "required_items": 4,
+      "catalog_description": "After killing an enemy, gain Reload Efficiency +20%. If it is a Weakspot kill, also gain Fire Rate +10%. Lasts until you reload.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:bastille-set",
+      "required_items": 1,
+      "catalog_description": "When HP is above 70%, Weapon DMG +10%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "conditional",
+      "source_status": "historical_official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20241218/40780_1200958.html"
+      ],
+      "execution": "historical_official_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:bastille-set",
+      "required_items": 2,
+      "catalog_description": "Reload Efficiency +15%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20260121/40780_1282991.html"
+      ],
+      "execution": "current_official_conditional",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:bastille-set",
+      "required_items": 3,
+      "catalog_description": "Stay crouched and immobile for 0.5s to enter the Bastille state. While in the Bastille state, gain Weapon DMG +40%. After exiting the Bastille state, you cannot sprint and your Stamina consumption is increased by 100% for 3s.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "historical_official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20241218/40780_1200958.html"
+      ],
+      "execution": "historical_official_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:bastille-set",
+      "required_items": 4,
+      "catalog_description": "3s after exiting Bastille state, gain 1 stack of Armor per second, up to 60 stacks. While in Bastille state, each stack of Armor provides a Shield equal to 1% of max HP.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "resource_or_shield",
+      "source_status": "historical_official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20241218/40780_1200958.html"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blackstone-set",
+      "required_items": 1,
+      "catalog_description": "Cold Resist and Heat Resist +2.5",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:blackstone-set",
+      "required_items": 2,
+      "catalog_description": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 0.5s, up to a maximum of 5 stacks.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blackstone-set",
+      "required_items": 3,
+      "catalog_description": "When the temperature is between 10\u00b0C and 30\u00b0C, you gain the Warm status (Elemental DMG +18%).",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "conditional",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:blackstone-set",
+      "required_items": 4,
+      "catalog_description": "At 5 stacks of Warm Sensation, you are considered to be in the Warm status. When the environmental temperature is between 10\u00b0C and 30\u00b0C, gain Elemental DMG +7%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blackstone-set-cold",
+      "required_items": 1,
+      "catalog_description": "Cold Resist +5",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:blackstone-set-cold",
+      "required_items": 2,
+      "catalog_description": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 0.5s, up to a maximum of 5 stacks.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blackstone-set-cold",
+      "required_items": 3,
+      "catalog_description": "When the temperature is below 10\u00b0C, you gain Cold status (Elemental DMG +10%). For every additional degree below that, gain Elemental DMG +0.5%, up to 20%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blackstone-set-cold",
+      "required_items": 4,
+      "catalog_description": "At 5 stacks of Warm Sensation, the environmental temperature drops by 5\u00b0C, the DMG bonus provided by the Cold status is doubled, and its cap is increased to 40%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blackstone-set-heat",
+      "required_items": 1,
+      "catalog_description": "Heat Resist +5",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:blackstone-set-heat",
+      "required_items": 2,
+      "catalog_description": "Upon dealing Elemental DMG, gain 1 stack(s) of Warm Sensation (Elemental DMG +2%) for 2s. Triggers 1 time every 0.5s, up to a maximum of 5 stacks.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blackstone-set-heat",
+      "required_items": 3,
+      "catalog_description": "When the temperature is above 30\u00b0C, you gain Passion status (Elemental DMG +10%). For every additional degree above that, gain Elemental DMG +0.5%, up to 20%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blackstone-set-heat",
+      "required_items": 4,
+      "catalog_description": "At 5 stacks of Warm Sensation, the environmental temperature rises by 5\u00b0C, the DMG bonus provided by the Passion status is doubled, and its cap is increased to 40%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blast-set",
+      "required_items": 1,
+      "catalog_description": "Heavy Melee DMG +20%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:blast-set",
+      "required_items": 2,
+      "catalog_description": "Torso DMG Reduction +12%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:blast-set",
+      "required_items": 3,
+      "catalog_description": "After using Melee attack to Kill an enemy, instantly gain 5 Prime Energy, and increase DMG of your next Melee attack by 20% within 5 seconds.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "mixed_or_unclassified",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:blast-set",
+      "required_items": 4,
+      "catalog_description": "Melee kill an enemy to instantly recover 30 Stamina and increase Movement Speed by 20% for 2s (cooldown: 3s).",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:falcon-set",
+      "required_items": 1,
+      "catalog_description": "Rolling Stamina cost -20%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:falcon-set",
+      "required_items": 2,
+      "catalog_description": "Crit DMG +12%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:falcon-set",
+      "required_items": 3,
+      "catalog_description": "When Stamina is over 90%, increase Crit Rate by 5% and Crit DMG by 20%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "conditional",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:falcon-set",
+      "required_items": 4,
+      "catalog_description": "After killing an enemy, immediately recover 30 Stamina and gain 20% increased Movement Speed for 2s. Cooldown: 3s.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:gravity-tide-set",
+      "required_items": 1,
+      "catalog_description": "Jump Height +10%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:gravity-tide-set",
+      "required_items": 2,
+      "catalog_description": "Magazine Capacity +15%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:heavy-duty-set",
+      "required_items": 1,
+      "catalog_description": "Max HP +10%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:heavy-duty-set",
+      "required_items": 2,
+      "catalog_description": "Element DMG (Blaze, Frost, Shock, Blast) +8%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:heavy-duty-set",
+      "required_items": 3,
+      "catalog_description": "After killing an enemy, increase Movement Speed by 20% for 2s and Elemental DMG (Blaze, Frost, Shock, Blast) by 40%, decay over 8s.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:heavy-duty-set",
+      "required_items": 4,
+      "catalog_description": "Within 5m, each enemy grants you DMG Reduction +4%. Effect can stack up to 4 times.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "mixed_or_unclassified",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:lonewolf-set",
+      "required_items": 1,
+      "catalog_description": "Magazine Capacity +10%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:lonewolf-set",
+      "required_items": 2,
+      "catalog_description": "Crit Rate +5%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:lonewolf-set",
+      "required_items": 3,
+      "catalog_description": "Gain 1 stack of Lone Shadow for every 4 Crit shots landed with a weapon. Lone Shadow: Crit DMG +6% for 20s, stacking up to 8 times.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:lonewolf-set",
+      "required_items": 4,
+      "catalog_description": "Increases maximum Lonewolf stacks to 10. After reloading, gain Crit Rate +10% for 2s.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:raid-set",
+      "required_items": 1,
+      "catalog_description": "Gathering Speed +15%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:raid-set",
+      "required_items": 2,
+      "catalog_description": "Max Load +20",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:raid-set",
+      "required_items": 3,
+      "catalog_description": "When the load is over 80, DMG taken -10%, Weapon and Tactical Item DMG +15%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "conditional",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:raid-set",
+      "required_items": 4,
+      "catalog_description": "Stamina cost -30% when gliding and rolling",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:renegade-set",
+      "required_items": 1,
+      "catalog_description": "Reload Efficiency +10%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:renegade-set",
+      "required_items": 2,
+      "catalog_description": "Weakspot DMG +10%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:renegade-set",
+      "required_items": 3,
+      "catalog_description": "Gain 1 stack of Archer's Focus upon hitting the same enemy consecutively. Archer's Focus: Weakspot DMG +4%, stacking up to 10 times. Archer's Focus stacks are halved upon changing targets.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:renegade-set",
+      "required_items": 4,
+      "catalog_description": "When reloading, for every 1% of shots from the previous magazine that were Weakspot hits, load an extra 0.6% ammunition, capped at an extra 30%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "resource_or_shield",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:rustic-set",
+      "required_items": 1,
+      "catalog_description": "Movement Speed +8%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:rustic-set",
+      "required_items": 2,
+      "catalog_description": "Melee DMG +15%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:rustic-set",
+      "required_items": 3,
+      "catalog_description": "HP +600",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:rustic-set",
+      "required_items": 4,
+      "catalog_description": "Gathering Speed +20%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:savior-set",
+      "required_items": 1,
+      "catalog_description": "Medicine CD Reduction +20%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20250924/40780_1261275.html"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:savior-set",
+      "required_items": 2,
+      "catalog_description": "While shielded, Weapon DMG and Status DMG dealt increases by +10%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "conditional",
+      "source_status": "official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20250924/40780_1261275.html"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:savior-set",
+      "required_items": 3,
+      "catalog_description": "Consumes 6% of current HP on hit to generate a temporary shield equal to 6% of Max HP, lasting 30s (Cooldown: 0.5s; does not trigger if Shield exceeds 60%)",
+      "catalog_description_currentness": "superseded_or_conflicting",
+      "behavior_class": "resource_or_shield",
+      "source_status": "official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20250924/40780_1261275.html",
+        "https://www.oncehuman.game/news/update/20251029/40780_1267745.html"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:savior-set",
+      "required_items": 4,
+      "catalog_description": "Automatically uses the lowest-grade Treatment in the backpack when HP is below 30% (Cooldown: 40s).",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "resource_or_shield",
+      "source_status": "official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20250924/40780_1261275.html"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:scout-set",
+      "required_items": 1,
+      "catalog_description": "Max HP +10%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:scout-set",
+      "required_items": 2,
+      "catalog_description": "Weapon DMG +8%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:scout-set",
+      "required_items": 3,
+      "catalog_description": "Weapon and Tactical Item DMG +20% when not spotted by enemies",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "conditional",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:scout-set",
+      "required_items": 4,
+      "catalog_description": "Sprint Speed +12% and Stamina Recovery Speed +20% when HP is below 50%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "conditional",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:shelterer-set",
+      "required_items": 1,
+      "catalog_description": "Status DMG Reduction +15%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:shelterer-set",
+      "required_items": 2,
+      "catalog_description": "Element DMG (Blaze, Frost, Shock, Blast) +8%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:shelterer-set",
+      "required_items": 3,
+      "catalog_description": "Each weapon hit grants 1 stack of Deviant Energy. Every stack of Deviant Energy grants 1% Elemental DMG (Blaze, Frost, Shock, Blast). Effect can stack up to 20 times. Reloading removes half of the total stacks.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:shelterer-set",
+      "required_items": 4,
+      "catalog_description": "Increase max Deviant Energy stack by 10. Grant 2 additional stacks when hitting a weakspot.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:snow-panther-set",
+      "required_items": 1,
+      "catalog_description": "Torso DMG Reduction +10%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:snowland-rustic-set",
+      "required_items": 1,
+      "catalog_description": "Movement Speed +8%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:snowland-rustic-set",
+      "required_items": 2,
+      "catalog_description": "Cold Resist +5",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:snowland-rustic-set",
+      "required_items": 3,
+      "catalog_description": "HP +600",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:snowland-rustic-set",
+      "required_items": 4,
+      "catalog_description": "Gathering Speed +20%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:stormweaver-set",
+      "required_items": 1,
+      "catalog_description": "Rolling Stamina cost -20%.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:stormweaver-set",
+      "required_items": 2,
+      "catalog_description": "Magazine Capacity +15%",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "static",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "community_snapshot_opt_in",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:stormweaver-set",
+      "required_items": 3,
+      "catalog_description": "Taking DMG grants a stack of Powered Armor, DMG Reduction +4% for 10s. Effect can stack up to 6 times.",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "timed_stack_or_state",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:stormweaver-set",
+      "required_items": 4,
+      "catalog_description": "Rolling consumes 3 stacks of Powered Armor and triggers an explosion that knocks back surrounding enemies. For each enemy hit, HP +5%, up to 20% (cooldown: 10s).",
+      "catalog_description_currentness": "historical_snapshot_not_current_certified",
+      "behavior_class": "mixed_or_unclassified",
+      "source_status": "community_snapshot_candidate",
+      "source_refs": [
+        "https://github.com/lReDragol/OnceHuman_Tools"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    },
+    {
+      "catalog_set_id": "set:treacherous-tides-set",
+      "required_items": 2,
+      "catalog_description": "Movement Speed +8%",
+      "catalog_description_currentness": "superseded_or_conflicting",
+      "behavior_class": "conditional",
+      "source_status": "official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20261009/40780_1314019.html"
+      ],
+      "execution": "current_official_conditional",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:treacherous-tides-set",
+      "required_items": 3,
+      "catalog_description": "Max Load +40.",
+      "catalog_description_currentness": "superseded_or_conflicting",
+      "behavior_class": "mixed_or_unclassified",
+      "source_status": "official_release",
+      "source_refs": [
+        "https://www.oncehuman.game/news/update/20261009/40780_1314019.html"
+      ],
+      "execution": "current_official_endpoint_only",
+      "remaining_action": null
+    },
+    {
+      "catalog_set_id": "set:treacherous-tides-set",
+      "required_items": 4,
+      "catalog_description": "Logging and Mining Speed +25%.",
+      "catalog_description_currentness": "superseded_or_conflicting",
+      "behavior_class": "resource_or_shield",
+      "source_status": "official_preview_only",
+      "source_refs": [
+        "https://www.oncehuman.game/news/devBlog/20260910/40781_1313572.html",
+        "https://www.oncehuman.game/news/update/20261009/40780_1314019.html"
+      ],
+      "execution": "unresolved",
+      "remaining_action": "Verify current magnitude and activation, or implement the event, stack, resource and rounding semantics with explicit evidence."
+    }
+  ]
+}

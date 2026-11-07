@@ -1,0 +1,397 @@
+{
+  "build_id": "26267212",
+  "new_mod_level_table": {
+    "literal_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_join_captures/new_mod_level_data.literal_0.bin",
+    "literal_sha256": "a3ca719e3ec0368638c36cb607e6993cf4a0fd8a5c926b787fd067cf15a60139",
+    "map_header_literal_offset": 433,
+    "selected_levels": {
+      "1": {
+        "literal_offset": 225,
+        "fields": {
+          "can_enhance": 0,
+          "disassemble_coins": 1,
+          "frame_lv_1": 1,
+          "frame_lv_2": 0,
+          "frame_lv_3": 0,
+          "frame_lv_4": 0,
+          "general_cost_items": 4,
+          "general_upgrade_items": 4,
+          "mod_quality": 1,
+          "next_level_need_coins": 0
+        },
+        "frame_levels": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "8": {
+        "literal_offset": 309,
+        "fields": {
+          "can_enhance": 0,
+          "disassemble_coins": 14,
+          "frame_lv_1": 2,
+          "frame_lv_2": 2,
+          "frame_lv_3": 2,
+          "frame_lv_4": 2,
+          "general_cost_items": 4,
+          "general_upgrade_items": 4,
+          "mod_quality": 4,
+          "next_level_need_coins": 0
+        },
+        "frame_levels": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "17": {
+        "literal_offset": 420,
+        "fields": {
+          "can_enhance": 0,
+          "disassemble_coins": 10000,
+          "frame_lv_1": 5,
+          "frame_lv_2": 5,
+          "frame_lv_3": 5,
+          "frame_lv_4": 2,
+          "general_cost_items": 4,
+          "general_upgrade_items": 4,
+          "mod_quality": 5,
+          "next_level_need_coins": 0
+        },
+        "frame_levels": [
+          5,
+          5,
+          5,
+          2
+        ]
+      }
+    },
+    "all_frame_level_vectors": {
+      "1": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "2": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "3": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "4": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "5": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "6": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "7": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "8": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "9": [
+        3,
+        2,
+        2,
+        2
+      ],
+      "10": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "11": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "12": [
+        4,
+        3,
+        3,
+        2
+      ],
+      "13": [
+        4,
+        4,
+        3,
+        2
+      ],
+      "14": [
+        4,
+        4,
+        4,
+        2
+      ],
+      "15": [
+        5,
+        4,
+        4,
+        2
+      ],
+      "16": [
+        5,
+        5,
+        4,
+        2
+      ],
+      "17": [
+        5,
+        5,
+        5,
+        2
+      ]
+    }
+  },
+  "buff_level_map": {
+    "pyc_sha256": "ea5acaf8800dbc2a2d160be82291c5292016a12e7c8c67b74cf44554f2b74424",
+    "literal_sha256": "e7669d0701bbfa25031a5ad7fed9c3bc48b9aa1ef1bdaac8a7cd53460692b44f",
+    "map_header_literal_offset": 12,
+    "selected_max_level": {
+      "582601000": 5,
+      "582602000": 5,
+      "589318000": 5,
+      "589719000": 5
+    }
+  },
+  "buff_level_data": {
+    "pyc_sha256": "fb0d46a975c0c25ef9abeda96d5b625b5de741d92cf8a3e4b49e74740a08f525",
+    "literal_sha256": "5667f98f77fd46bb9b9a68679ea5284d573aedfcf332fd09bde0374c54b02633",
+    "literal_length": 1040952,
+    "map_header_literal_offset": 986749,
+    "indexed_key_count": 3897,
+    "buff_rows": [
+      {
+        "level": 1,
+        "key_literal_offset": 925618,
+        "row_literal_offset": 925669,
+        "buff_desc": {
+          "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|0",
+          "string_table_index": 9201,
+          "pointer_body_relative": 327576,
+          "string_byte_offset": 925630,
+          "string_raw_hex": "f147"
+        },
+        "display_values_percent": {
+          "literal_offset": 665579,
+          "strings": [
+            "1.2",
+            "0.6"
+          ],
+          "raw_hex": "2705025f54"
+        },
+        "runtime_params": {
+          "literal_offset": 665612,
+          "values": {
+            "2": "0.006",
+            "1": "0.012"
+          },
+          "raw_hex": "76010502028b01018401"
+        },
+        "params_pointer_body_relative": 67556,
+        "desc_value_pointer_body_relative": 67523
+      },
+      {
+        "level": 2,
+        "key_literal_offset": 771897,
+        "row_literal_offset": 771962,
+        "buff_desc": {
+          "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|1",
+          "string_table_index": 9204,
+          "pointer_body_relative": 173855,
+          "string_byte_offset": 771909,
+          "string_raw_hex": "f447"
+        },
+        "display_values_percent": {
+          "literal_offset": 771920,
+          "strings": [
+            "2.4",
+            "1.2"
+          ],
+          "raw_hex": "2705026b5f"
+        },
+        "runtime_params": {
+          "literal_offset": 771953,
+          "values": {
+            "2": "0.012",
+            "1": "0.024"
+          },
+          "raw_hex": "76010502028401017e"
+        },
+        "params_pointer_body_relative": 173897,
+        "desc_value_pointer_body_relative": 173864
+      },
+      {
+        "level": 3,
+        "key_literal_offset": 780364,
+        "row_literal_offset": 780432,
+        "buff_desc": {
+          "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|2",
+          "string_table_index": 9207,
+          "pointer_body_relative": 182322,
+          "string_byte_offset": 780376,
+          "string_raw_hex": "f747"
+        },
+        "display_values_percent": {
+          "literal_offset": 780387,
+          "strings": [
+            "3.6",
+            "1.8"
+          ],
+          "raw_hex": "270502cc018902"
+        },
+        "runtime_params": {
+          "literal_offset": 780422,
+          "values": {
+            "2": "0.018",
+            "1": "0.036"
+          },
+          "raw_hex": "7601050202a80201a001"
+        },
+        "params_pointer_body_relative": 182366,
+        "desc_value_pointer_body_relative": 182331
+      },
+      {
+        "level": 4,
+        "key_literal_offset": 925713,
+        "row_literal_offset": 925764,
+        "buff_desc": {
+          "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|3",
+          "string_table_index": 9210,
+          "pointer_body_relative": 327671,
+          "string_byte_offset": 925725,
+          "string_raw_hex": "fa47"
+        },
+        "display_values_percent": {
+          "literal_offset": 623234,
+          "strings": [
+            "4.8",
+            "2.4"
+          ],
+          "raw_hex": "2705025c6b"
+        },
+        "runtime_params": {
+          "literal_offset": 623267,
+          "values": {
+            "2": "0.024",
+            "1": "0.048"
+          },
+          "raw_hex": "76010502027e0178"
+        },
+        "params_pointer_body_relative": 25211,
+        "desc_value_pointer_body_relative": 25178
+      },
+      {
+        "level": 5,
+        "key_literal_offset": 826955,
+        "row_literal_offset": 827019,
+        "buff_desc": {
+          "native_string": "枪械伤害#7#+{1}%#7#，空中命中额外#7#+{2}%#7#_$S@TIDS$_c3c|4",
+          "string_table_index": 9213,
+          "pointer_body_relative": 228913,
+          "string_byte_offset": 826967,
+          "string_raw_hex": "fd47"
+        },
+        "display_values_percent": {
+          "literal_offset": 826978,
+          "strings": [
+            "6",
+            "3"
+          ],
+          "raw_hex": "2705022623"
+        },
+        "runtime_params": {
+          "literal_offset": 827011,
+          "values": {
+            "2": "0.03",
+            "1": "0.06"
+          },
+          "raw_hex": "76010502023a0142"
+        },
+        "params_pointer_body_relative": 228955,
+        "desc_value_pointer_body_relative": 228922
+      }
+    ]
+  },
+  "aero_frame": {
+    "mod_code": 2400811,
+    "frame": 26,
+    "ordered_entry_numbers": [
+      2601,
+      2602,
+      7405,
+      5101
+    ]
+  },
+  "total_level_8_configured_vector": {
+    "frame_entry_levels": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "first_entry_number": 2601,
+    "first_entry_level": 2,
+    "first_entry_buff_id": 582601000,
+    "first_entry_buff_level": 2,
+    "displayed_weapon_dmg_percent": "2.4",
+    "displayed_additional_aerial_percent": "1.2",
+    "status": "native catalog/tooltip configuration; no owned-roll or runtime application claim"
+  },
+  "consumer_methods": {
+    "ModDataHelper_pyc_sha256": "a536179150a009f368711fdf8c7bd4b48c129333b89c1d08dec295d4f5836d32",
+    "get_mod_v2_levels_body_sha256": "7e51156e1c5613e11572c99020c4a78ec11fc826a450272df2c72e764e4cfcb2",
+    "get_mod_fixed_sub_entries_data_lst_v2_body_sha256": "4e57a8055ef7af2eed4f517ddc4b04cad3a0e9bd8c6ef61b12e4b4236612985e",
+    "level_lookup": "clamp total_levels; new_mod_level_data[t]; int(row.get(frame_lv_(i+1),0)) for range(4); slice to frame subentry count",
+    "entry_lookup": "get_mod_v2_levels(mod_code,total_level), then get_entry_data(entry_no, levels[idx])"
+  },
+  "state_type_labels": {
+    "pyc_sha256": "adfb177b4cdd8fcc16f1d17fde3b83e6ddcc4c113e7d7e89533757556899e493",
+    "state_type_code_to_name": {
+      "2": "JUMPING",
+      "83": "GLIDE",
+      "110": "BEHAVE_MOVING",
+      "111": "FLOAT",
+      "95": "UPDRAFT",
+      "40": "FALLING"
+    }
+  },
+  "limits": [
+    "The five buff rows prove configured text/parameters; graph executor mapping of parameter 1/2 to each branch is not validated.",
+    "The selected owned subentry and live combat application may differ from this read-only total-level preview.",
+    "No duration or expiration rule is inferred from absent life_time fields."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

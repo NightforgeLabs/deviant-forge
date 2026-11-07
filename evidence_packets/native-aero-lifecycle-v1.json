@@ -1,0 +1,319 @@
+{
+  "build_id": "26267212",
+  "buff_data": {
+    "source_literal_path": "/home/dv/Documents/Codex/2026-11-02/task/rawcaptures/effect_sources/buff_data.literal_bytes.bin",
+    "source_literal_sha256": "48eb8011cf45cbb24d91e0fecb695ac669b3823ffcb98e197d28005aa6a5b73f",
+    "map_header_literal_offset": 913334,
+    "row_count": 11544,
+    "family_buff_config_levels": {
+      "589318000": [
+        1
+      ],
+      "589318100": [
+        1
+      ]
+    },
+    "selected": {
+      "589318100": {
+        "composite_key_literal_offset": 545447,
+        "root_row_literal_offset": 545492,
+        "params_literal_offset": 545456,
+        "params_presence_mask_hex": "0xb2149",
+        "selected_fields": [
+          {
+            "name": "buff_max_stack",
+            "type_code": 1,
+            "value": 6,
+            "literal_byte_offset": 545461
+          },
+          {
+            "name": "life_time",
+            "type_code": 18,
+            "value": 10.0,
+            "literal_byte_offset": 545471
+          },
+          {
+            "name": "multi_buff_limit",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 545475
+          },
+          {
+            "name": "refresh_buff_stack",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 545477
+          },
+          {
+            "name": "buff_id",
+            "type_code": 1,
+            "value": 589318100,
+            "literal_byte_offset": 545479
+          },
+          {
+            "name": "buff_level",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 545484
+          },
+          {
+            "name": "refresh_rule",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 545489
+          }
+        ]
+      },
+      "589318000": {
+        "composite_key_literal_offset": 692180,
+        "root_row_literal_offset": 692222,
+        "params_literal_offset": 692189,
+        "params_presence_mask_hex": "0xb114a",
+        "selected_fields": [
+          {
+            "name": "buff_max_stack",
+            "type_code": 17,
+            "value": 1,
+            "literal_byte_offset": 692194
+          },
+          {
+            "name": "life_time",
+            "type_code": 17,
+            "value": 1,
+            "literal_byte_offset": 692204
+          },
+          {
+            "name": "multi_buff_limit",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 692205
+          },
+          {
+            "name": "refresh_buff_stack",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 692207
+          },
+          {
+            "name": "buff_id",
+            "type_code": 1,
+            "value": 589318000,
+            "literal_byte_offset": 692209
+          },
+          {
+            "name": "buff_level",
+            "type_code": 1,
+            "value": 1,
+            "literal_byte_offset": 692214
+          },
+          {
+            "name": "refresh_rule",
+            "type_code": 1,
+            "value": 0,
+            "literal_byte_offset": 692219
+          }
+        ]
+      }
+    }
+  },
+  "graph_lifecycle": {
+    "source_packet_sha256": "502ee43dd9fec111524e06c9b8e4497f87e62b867ce2c3c718799f896ddc133a",
+    "entry_children": [
+      9,
+      33,
+      16,
+      15,
+      2
+    ],
+    "holding_change_children": [
+      4,
+      3
+    ],
+    "weak_hit_child": 31,
+    "reload_true_children": [
+      57,
+      78,
+      23,
+      61,
+      76
+    ],
+    "reset_values": {
+      "init_weakspot_count": 0,
+      "holding_change_weakspot_count": 0,
+      "reload_weakspot_count": 0
+    },
+    "weak_counter_delta": 1,
+    "reload_compare_op": 0
+  },
+  "readable_methods": {
+    "source_sha256": {
+      "buff_base": "1067d9cdf3d208109088762a606249108cd123ec95fb39778d2b69e2cafc2ce1",
+      "buff_server": "659dd4908426f6e02a56fd8b60131978dd102d02791dc2496b7ff63389399e98",
+      "bb_change": "3d70e1be91dec46d5df7649c2faadbba516ba33470d749d5d0587750ac4f0ea5",
+      "bb_save": "5bf7045cb5649a9eef930200c2611346a4d8e41184b1c21aa3b485a270bf7fe8",
+      "buff_utility": "68352ff8bcd69680a49de108a977e71164d787a89b23273b37cd600170916618",
+      "passive_checker": "474f314eab73eef1e822433b0faa78c0293059b8a6d99d9ef511bbf466917af0",
+      "node_compare": "8eca15cf0f9ff5c75c075cf33dead23bda785e18bcff5a41fb7bd0443ae604cf",
+      "checker_common": "1848731a7a86fe67e30ff0f21686983ffda7f6cbdde63e808190ffee699d0449"
+    },
+    "method_body_sha256": {
+      "CompBuffBase.init_buff": "f577e5e8b1a57d8050f62a15c6672b9537b5f91269153727d85986474944ce53",
+      "CompBuffBase.refresh_buff": "0bc99c24c4c9669ae2df6aa4c71d2d8ecc15f85731b0757b31d78d7c241e8cb3",
+      "NodeBBChangeIntData.NodeServer._do": "4c297423835653afca46c2effec434730f62a790df011b05bc1fe7c0b76b7bc8",
+      "NodeBBSaveIntData.NodeServer._do": "6c1cf17feec9b267eea36dc2ac5267a411cba36c6cea17604cc087b3b14022e1",
+      "buff_utility.common_attack_checker": "29121b95b18632568428bcebcaae0fc3c4e411e3545b6178add77cc54802931e",
+      "PassiveChecker.attack_checker": "eb9d87f0dbb4f6bde3fc17c34b7f34d286eac29815deaa89820942dc9624952b",
+      "NodeCompareFloat.NodeMainClient._do": "1d4c4fc06271a1cdb98b8c4be47e7bb207a9a32d6324fbc0d5d03359a72136b8"
+    },
+    "enums": {
+      "AttackDamageType": {
+        "NORMAL": 0,
+        "WEAK": 1,
+        "CRIT": 2
+      },
+      "FormulaAttackType": {
+        "Remote": 2,
+        "Dot": 4
+      },
+      "OpType": {
+        "GE": 0,
+        "LE": 1,
+        "GREATER": 2,
+        "LESS": 3,
+        "EQUAL": 4,
+        "NE": 5
+      },
+      "RefreshLifeTimeRule": {
+        "MAX_TIME": 0,
+        "IGNORE": 3
+      },
+      "StateType": {
+        "HOLDING_CHANGE": 45
+      }
+    },
+    "server_stack_cap": "CompBuffServer inherits CompBuffBase; init_buff uses min(buff_max_stack,incoming buff_stack) for positive cap and refresh_buff uses min(buff_max_stack, old + incoming + refresh_buff_stack).",
+    "server_blackboard_change": "NodeBBChangeIntData.NodeServer._do loads BB int, combines with data via numeral_calculation(operation), and saves BB int."
+  },
+  "weak_hit_filter": {
+    "core_graph_pyc_sha256": "870a3baacbf70b21caeb98536be79970890b5f5361ae50c8e1eb2411ac2637d8",
+    "node_16_attack_args_literal_offset": 3005,
+    "formula_attack_type": {
+      "literal_offset": 2909,
+      "values": [
+        2
+      ]
+    },
+    "attack_damage_type": {
+      "literal_offset": 2898,
+      "values": [
+        1
+      ]
+    },
+    "excluded_keyword_tags": {
+      "literal_offset": 2902,
+      "values": [
+        311,
+        312
+      ]
+    },
+    "keyword_negate": 1,
+    "check_all_bullet": 0,
+    "keyword_source": {
+      "literal_sha256": "d9b5a6c883d8c604a477da2d112efdc42b190fd547f79a16d1a58a1aee06ec8c",
+      "311_suffix": "proj",
+      "312_suffix": "shrap",
+      "311_row_bounds": [
+        4129,
+        4193
+      ],
+      "312_row_bounds": [
+        4193,
+        4246
+      ]
+    },
+    "separate_weak_attack_flag_present": false
+  },
+  "elemental_property_labels": {
+    "affix_pyc_sha256": "a5732321ba5f84fa62fbfca910be49a93a26723d361a43afa28ea1a906d45d17",
+    "english_source_pyc_sha256": "0bd9092f37c3fc4b3d771be76018cef66796e45ce7ca824dfb599a94a1117f95",
+    "english_literal_sha256": "0c7d3663017c114d841ca56805de154cc1b7266e0e652deb45630f2d549d16cc",
+    "properties": {
+      "E32": {
+        "native_property": "element_type_dam_add_rate_fire",
+        "affix_prototype_key": "E3200",
+        "row_bounds": [
+          50818,
+          50854
+        ],
+        "row_sha256": "788adb2a1796915a028721a86e1cdc922e2456bbf2403aa3efe0676fe9e93335",
+        "installed_english_label": "Blaze DMG Bonus",
+        "installed_english_format": "Blaze DMG +{:.1%}",
+        "english_pair_offset": 20458333
+      },
+      "E33": {
+        "native_property": "element_type_dam_add_rate_ice",
+        "affix_prototype_key": "E3300",
+        "row_bounds": [
+          50890,
+          50926
+        ],
+        "row_sha256": "dfc6809db30fd1aa5aad15853e1fc971c513d1f0775b2e3d5a78c524d62fd959",
+        "installed_english_label": "Frost DMG Bonus",
+        "installed_english_format": "Frost DMG +{:.1%}",
+        "english_pair_offset": 20407272
+      },
+      "E34": {
+        "native_property": "element_type_dam_add_rate_lightning",
+        "affix_prototype_key": "E3400",
+        "row_bounds": [
+          50926,
+          50962
+        ],
+        "row_sha256": "7c29aae59598d9f3238514e7f0e0f24bff01a33401bacbadae1806dc01d0abe1",
+        "installed_english_label": "Shock DMG Bonus",
+        "installed_english_format": "Shock DMG +{:.1%}",
+        "english_pair_offset": 20954867
+      },
+      "E38": {
+        "native_property": "element_type_dam_add_rate_explode",
+        "affix_prototype_key": "E3800",
+        "row_bounds": [
+          50998,
+          51034
+        ],
+        "row_sha256": "2f0429f1095b10a33135b31915519491fc8acc62e723c1848a3d142b351afea3",
+        "installed_english_label": "Blast DMG Bonus",
+        "installed_english_format": "Blast DMG +{:.1%}",
+        "english_pair_offset": 20923930
+      }
+    },
+    "scope": "Core secondary graph targets four named element buckets, not a generic Elemental DMG property."
+  },
+  "conditional_fixture": {
+    "magazine_size": 10,
+    "fired_events": 5,
+    "qualifying_weak_remote_events": 3,
+    "nonqualifying_normal_remote_events": 2,
+    "reload_post_event_clip_left": 10,
+    "configured_pre_cap_stack_input": 3,
+    "native_max_stack": 6,
+    "source_scope": "Synthetic controlled events; no owned item or server event occurrence inferred."
+  },
+  "cap_fixture": {
+    "magazine_size": 10,
+    "qualifying_weak_remote_events": 9,
+    "configured_pre_cap_stack_input": 9,
+    "native_new_buff_stack_if_standard_init": 6,
+    "level_4_four_element_bonuses_each": 0.18,
+    "level_5_four_element_bonuses_each": 0.24,
+    "source_scope": "Conditional standard server buff initialization; cast execution and owned level remain unproven."
+  },
+  "limits": [
+    "The core graph is configured to count WEAK Remote damage events, not necessarily unique trigger pulls when a shot has multiple hit events.",
+    "Reload callback dispatch and NodeCastBuffToTarget are not readable server executors. The generic server buff component proves cap behavior if the cast reaches it.",
+    "Native buff lifetime is configured as 10 seconds; any context override or exact expiry after refresh is not established.",
+    "Core rank and frame bonus level remain separate."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

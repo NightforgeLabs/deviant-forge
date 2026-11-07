@@ -1,0 +1,216 @@
+{
+  "source": {
+    "hashes": {
+      "/home/dv/Documents/Codex/2026-11-01/task-5/aug_property_defaults.json": "2a06d260b83100d8ad8c026d132e5d10a4953df514c5e6980fc2da5df25d71a5",
+      "/home/dv/Documents/Codex/2026-11-01/task-5/attack_consumer_captures/CompPropertyFormula.pyc": "1e9e352e0b948b5eb0e4020dc26cf26b78724297329d6fbbbab2352bf5dd54f0",
+      "/home/dv/Documents/Codex/2026-11-01/task-5/attack_consumer_captures/AffixUtils.pyc": "325659f19ca8c55bd82c925162e880db1a49ee12caed4fa6ec8aadbe6a6715f5",
+      "/home/dv/Documents/Codex/2026-11-01/task-5/attack_consumer_captures/attr_const.pyc": "a3ca0592024ba9a69db5ed0fd00131ed1bc392108d7da5e6ecec800b93c9c8e3",
+      "/home/dv/Documents/Codex/2026-11-02/task/rawcaptures/affix_inputs/char_property_data.pyc": "74e5e434d0a34140822f5644c9116d93ff7b560c69f61a98b34b9fcd038ae967",
+      "/home/dv/Documents/Codex/2026-11-02/task/native_attr_id_index_attr_name.json": "a45580bf1d71592fa155308f409f3a685b50a9b9ee82bdf1a918f55330a4238e",
+      "/home/dv/Documents/Codex/2026-11-02/task/native_armor_item_detail_path.json": "05947d5aa025303bba676d46b0f42ecbcafd43af8a9d35a833b29d312e2149ee"
+    },
+    "D41_row": {
+      "bounds": [
+        107695,
+        107735
+      ],
+      "calc_type": 0,
+      "val_type": 2,
+      "init": 0.0,
+      "min": 0.0,
+      "max": 9999.0,
+      "attr_map_join_offsets": [
+        95583,
+        95585
+      ]
+    },
+    "D41_affix_prototypes": {
+      "D4100": {
+        "bounds": [
+          44563,
+          44598
+        ],
+        "attr_id": "D41",
+        "effect_range": 1,
+        "type": 1
+      },
+      "D4101": {
+        "bounds": [
+          49813,
+          49848
+        ],
+        "attr_id": "D41",
+        "effect_range": 1,
+        "type": 2
+      },
+      "D4102": {
+        "bounds": [
+          44137,
+          44172
+        ],
+        "attr_id": "D41",
+        "effect_range": 2,
+        "type": 2
+      }
+    },
+    "init_source_types": [
+      "SOURCE_TYPE_INIT",
+      "SOURCE_TYPE_EQUIP",
+      "SOURCE_TYPE_SUMMON",
+      "SOURCE_TYPE_TRANS",
+      "SOURCE_TYPE_DUNGEON",
+      "SOURCE_TYPE_SEASON_STAGE_ADJUST",
+      "SOURCE_TYPE_DEVIATION_AGE_INIT",
+      "SOURCE_TYPE_DUNGEON_MULTI_SCRIPT"
+    ],
+    "other_examples": {
+      "SOURCE_TYPE_BUFF": 4,
+      "SOURCE_TYPE_PASSIVE": 5,
+      "SOURCE_TYPE_MOD": 26
+    },
+    "method_offsets": {
+      "_calc_attr_default": [
+        3653,
+        3999
+      ],
+      "calc_attr_init_val": [
+        6275,
+        6495
+      ],
+      "_calc_attr_init_val": [
+        6794,
+        6868
+      ],
+      "_calc_attr_by_base_formula": [
+        7096,
+        7200
+      ],
+      "_calc_by_rate_addition_type": [
+        13860,
+        14506
+      ],
+      "server_init": [
+        21899,
+        22243
+      ]
+    },
+    "adjust_method_offsets": [
+      30004,
+      30500
+    ],
+    "conditional_armor_base": {
+      "gear": "Shelterer Hat",
+      "gear_id": 21001005,
+      "tier": 5,
+      "star": 6,
+      "D4100_psi": 115.0,
+      "source_origin": 92.0,
+      "star_ratio": 1.25
+    }
+  },
+  "synthetic_vectors": [
+    {
+      "name": "conditional_stock_armor_only",
+      "inputs": {
+        "base_initial": 0,
+        "init_abs": 115,
+        "init_rate": 0,
+        "init_independent": [],
+        "other_abs": 0,
+        "other_rate": 0,
+        "other_independent": [],
+        "set_value": null
+      },
+      "calculated_init": 115.0,
+      "raw": 115.0,
+      "stored_skill_power": 115.0
+    },
+    {
+      "name": "synthetic_init_and_other",
+      "inputs": {
+        "base_initial": 0,
+        "init_abs": 115,
+        "init_rate": 0.1,
+        "init_independent": [],
+        "other_abs": 20,
+        "other_rate": 0.25,
+        "other_independent": [],
+        "set_value": null
+      },
+      "calculated_init": 126.50000000000001,
+      "raw": 183.125,
+      "stored_skill_power": 183.125
+    },
+    {
+      "name": "synthetic_init_independent",
+      "inputs": {
+        "base_initial": 0,
+        "init_abs": 115,
+        "init_rate": 0.1,
+        "init_independent": [
+          0.5
+        ],
+        "other_abs": 20,
+        "other_rate": 0.25,
+        "other_independent": [],
+        "set_value": null
+      },
+      "calculated_init": 115,
+      "raw": 168.75,
+      "stored_skill_power": 168.75
+    },
+    {
+      "name": "synthetic_other_independent",
+      "inputs": {
+        "base_initial": 0,
+        "init_abs": 115,
+        "init_rate": 0,
+        "init_independent": [],
+        "other_abs": 20,
+        "other_rate": 0.25,
+        "other_independent": [
+          0.5
+        ],
+        "set_value": null
+      },
+      "calculated_init": 115.0,
+      "raw": 135.0,
+      "stored_skill_power": 135.0
+    },
+    {
+      "name": "synthetic_set_override",
+      "inputs": {
+        "base_initial": 0,
+        "init_abs": 115,
+        "init_rate": 0.1,
+        "init_independent": [],
+        "other_abs": 20,
+        "other_rate": 0.25,
+        "other_independent": [],
+        "set_value": 250.56789
+      },
+      "calculated_init": 126.50000000000001,
+      "raw": 250.56789,
+      "stored_skill_power": 250.568
+    },
+    {
+      "name": "synthetic_ceiling",
+      "inputs": {
+        "base_initial": 0,
+        "init_abs": 10000,
+        "init_rate": 0,
+        "init_independent": [],
+        "other_abs": 0,
+        "other_rate": 0,
+        "other_independent": [],
+        "set_value": null
+      },
+      "calculated_init": 10000.0,
+      "raw": 10000.0,
+      "stored_skill_power": 9999
+    }
+  ],
+  "scope": "Only conditional source-qualified D4100=115 is native. Other channel inputs are synthetic. No active owned equipment, holder total or AUG hit is asserted.",
+  "game_code_executed": false,
+  "forge_files_modified": false
+}

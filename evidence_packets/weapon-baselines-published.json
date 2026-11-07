@@ -1,0 +1,14 @@
+{
+  "source_url": "https://raw.githubusercontent.com/lReDragol/OnceHuman_Tools/master/portable_calc_v2/data/menu/calc/bd_json/weapon_list.json",
+  "fetched_date": "2026-11-01",
+  "source_version": "master at fetch; commit SHA not exposed by raw endpoint",
+  "license": "Apache-2.0; see LICENSE-ONCEHUMAN-TOOLS.txt",
+  "model_status": "archived_unanchored_values_removed_from_active_app",
+  "assumed_default_in_calculator": {
+    "stars": 1,
+    "tier": 1,
+    "calibration": 0
+  },
+  "weapons": {},
+  "removed_count": 131
+}

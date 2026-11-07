@@ -1,0 +1,56 @@
+{
+  "schema": "exact_card_source_scope_v1",
+  "native_bridge_source": "~/Documents/Codex/2026-11-02/task-5/mod_v2_display_level_bridge.json",
+  "native_bridge_sha256": "fb77f50c44b230ca2f660408934410e566f353d1cdd8fd38fffc372f8b661673",
+  "interpretation": "Recorded card values can be replayed in an explicit scenario. The selection-card text, owned V2 level badge, stored main entry rank, and active server effect are distinct evidence steps. Do not infer active rank from the shown level or collection rank-5 text.",
+  "records": [
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-precision",
+      "displayed_level": 7,
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0091.png",
+      "source_image_sha256": "1a4c1852f9a2a6d039f2830d508eb9c67cc85b46d8144c15de656b51a9dc20e9",
+      "source_packet_hash_present": false,
+      "source_ui_observation": "mod selection card displays F Equip; the frame does not show this mod equipped",
+      "core_text_scope": "recorded card wording at this displayed level; native active main_entry.entry_level not shown",
+      "active_owned_core_proven": false,
+      "displayed_level_to_active_rank_proven": false,
+      "game_version": "not pinned in v5 row"
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-downstar-deviant-energy",
+      "displayed_level": 9,
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0094.png",
+      "source_image_sha256": "b837495e33c64a3ae8419e6378ba3c391402a9f3eca5ac53c94f8aad9f691854",
+      "source_packet_hash_present": false,
+      "source_ui_observation": "mod selection card displays F Equip; the frame does not show this mod equipped",
+      "core_text_scope": "recorded card wording at this displayed level; native active main_entry.entry_level not shown",
+      "active_owned_core_proven": false,
+      "displayed_level_to_active_rank_proven": false,
+      "game_version": "not pinned in v5 row"
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-resonance",
+      "displayed_level": 9,
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0097.png",
+      "source_image_sha256": "227d4824700bd1c9f822a4ecb50970bbe0f2566211735b562c47c3d72640b860",
+      "source_packet_hash_present": true,
+      "source_ui_observation": "mod selection card displays F Equip; the frame does not show this mod equipped",
+      "core_text_scope": "recorded card wording at this displayed level; native active main_entry.entry_level not shown",
+      "active_owned_core_proven": false,
+      "displayed_level_to_active_rank_proven": false,
+      "game_version": "2026-10-22 current Field Guide recording"
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-aero-deviant-energy",
+      "displayed_level": 12,
+      "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0074.png",
+      "source_image_sha256": "8048c21ca3f439e4032abd76a0586a6e2bba511fb2f5ad6799977fd56ae7fa58",
+      "source_packet_hash_present": true,
+      "source_ui_observation": "mod selection card displays F Equip; the frame does not show this mod equipped",
+      "core_text_scope": "recorded card wording at this displayed level; native active main_entry.entry_level not shown",
+      "active_owned_core_proven": false,
+      "displayed_level_to_active_rank_proven": false,
+      "game_version": "2026-10-22 current Field Guide recording"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "scope": "synthetic recognized held-shield branch; not observed gameplay",
+  "vectors": [
+    {
+      "input": {
+        "name": "partial_absorption",
+        "post_attenuation_damage": 30,
+        "current_shield_hp": 80,
+        "maximum_shield_hp": 100,
+        "invincible_shield_type": false
+      },
+      "shield_hp_after": 50,
+      "shield_be_hit_event": true,
+      "shield_crush_and_destroy_event": false,
+      "damage_hp_without_apply_return": 30,
+      "applied_hp_loss": null,
+      "overflow_applied_to_hp": null
+    },
+    {
+      "input": {
+        "name": "shield_crush",
+        "post_attenuation_damage": 35,
+        "current_shield_hp": 20,
+        "maximum_shield_hp": 100,
+        "invincible_shield_type": false
+      },
+      "shield_hp_after": 0,
+      "shield_be_hit_event": true,
+      "shield_crush_and_destroy_event": true,
+      "damage_hp_without_apply_return": 35,
+      "applied_hp_loss": null,
+      "overflow_applied_to_hp": null
+    },
+    {
+      "input": {
+        "name": "invincible_type",
+        "post_attenuation_damage": 40,
+        "current_shield_hp": 80,
+        "maximum_shield_hp": 100,
+        "invincible_shield_type": true
+      },
+      "shield_hp_after": 80,
+      "shield_be_hit_event": true,
+      "shield_crush_and_destroy_event": false,
+      "damage_hp_without_apply_return": 40,
+      "applied_hp_loss": null,
+      "overflow_applied_to_hp": null
+    }
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

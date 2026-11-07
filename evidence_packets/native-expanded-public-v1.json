@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "status": "bounded public numeric corroboration; source-version and gameplay interpretation unknown",
+  "static_artifact": "expanded_static_weapon_sample.json",
+  "static_artifact_sha256": "6d57091501e27ec8a06163cda610cec1dbe3649bcac53c96e52b5004623ddc21",
+  "source": "THGL exact blueprint and Tier 1 gear URLs; titles and short numeric facts viewed 2026-11-02",
+  "coverage": {
+    "blueprints": 10,
+    "tier_one_gear_pages": 10,
+    "direct_native_numeric_equalities": 40,
+    "observed_star_table_cells": 54,
+    "missing_public_star_table": 1,
+    "half_up_star_product_mismatches": 1
+  },
+  "limits": "Only Tier 1 gear pages were directly viewed for this additional set; Tier II\u2013V native values have no new public page checks. Star product comparisons are numerical cross-checks, not proof of the game runtime formula; at least one published cell differs from decimal half-up. Do not infer per-projectile units, configuration, or calibration. THGL page build/revision unknown.",
+  "records": [
+    {
+      "blueprint_id": 13732401,
+      "tier_one_gear_id": 10732401,
+      "public_blueprint_title": "Critical Pulse B.P.",
+      "public_tier_one_gear_title": "Critical Pulse (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13732401",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10732401",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 310,
+        "Fire Rate": 90,
+        "Magazine Capacity": 1,
+        "Full DMG Range": {
+          "value": 19,
+          "unit": "m"
+        },
+        "DMG per star": [
+          310,
+          326,
+          341,
+          357,
+          372,
+          388
+        ]
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": true,
+      "star_product_half_up_mismatches": [],
+      "star_table_status": "six observed page cells"
+    },
+    {
+      "blueprint_id": 13622301,
+      "tier_one_gear_id": 10622301,
+      "public_blueprint_title": "MG4 - Predator B.P.",
+      "public_tier_one_gear_title": "MG4 - Predator (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13622301",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10622301",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 32,
+        "Fire Rate": 700,
+        "Magazine Capacity": 75,
+        "Full DMG Range": {
+          "value": 31,
+          "unit": "m"
+        },
+        "DMG per star": [
+          32,
+          34,
+          35,
+          37,
+          38,
+          40
+        ]
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": true,
+      "star_product_half_up_mismatches": [],
+      "star_table_status": "six observed page cells"
+    },
+    {
+      "blueprint_id": 13323401,
+      "tier_one_gear_id": 10323401,
+      "public_blueprint_title": "MPS5 - Primal Rage B.P.",
+      "public_tier_one_gear_title": "MPS5 - Primal Rage (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13323401",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10323401",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 37,
+        "Fire Rate": 750,
+        "Magazine Capacity": 30,
+        "Full DMG Range": {
+          "value": 18,
+          "unit": "m"
+        },
+        "DMG per star": [
+          37,
+          39,
+          41,
+          43,
+          44,
+          46
+        ]
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": true,
+      "star_product_half_up_mismatches": [],
+      "star_table_status": "six observed page cells"
+    },
+    {
+      "blueprint_id": 13333401,
+      "tier_one_gear_id": 10333401,
+      "public_blueprint_title": "MPS7 - Outer Space B.P.",
+      "public_tier_one_gear_title": "MPS7 - Outer Space (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13333401",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10333401",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 33,
+        "Fire Rate": 850,
+        "Magazine Capacity": 35,
+        "Full DMG Range": {
+          "value": 16,
+          "unit": "m"
+        },
+        "DMG per star": [
+          33,
+          35,
+          36,
+          38,
+          40,
+          41
+        ]
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": true,
+      "star_product_half_up_mismatches": [],
+      "star_table_status": "six observed page cells"
+    },
+    {
+      "blueprint_id": 13112301,
+      "tier_one_gear_id": 10112301,
+      "public_blueprint_title": "DE.50 - Jaws B.P.",
+      "public_tier_one_gear_title": "DE.50 - Jaws (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13112301",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10112301",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 128,
+        "Fire Rate": 190,
+        "Magazine Capacity": 9,
+        "Full DMG Range": {
+          "value": 20,
+          "unit": "m"
+        },
+        "DMG per star": [
+          128,
+          134,
+          141,
+          147,
+          154,
+          160
+        ]
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": true,
+      "star_product_half_up_mismatches": [],
+      "star_table_status": "six observed page cells"
+    },
+    {
+      "blueprint_id": 13133401,
+      "tier_one_gear_id": 10133401,
+      "public_blueprint_title": "G17 - Hazardous Object B.P.",
+      "public_tier_one_gear_title": "G17 - Hazardous Object (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13133401",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10133401",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 60,
+        "Fire Rate": 410,
+        "Magazine Capacity": 13,
+        "Full DMG Range": {
+          "value": 13,
+          "unit": "m"
+        },
+        "DMG per star": [
+          60,
+          63,
+          66,
+          69,
+          72,
+          75
+        ]
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": true,
+      "star_product_half_up_mismatches": [],
+      "star_table_status": "six observed page cells"
+    },
+    {
+      "blueprint_id": 13212401,
+      "tier_one_gear_id": 10212401,
+      "public_blueprint_title": "Format B.P.",
+      "public_tier_one_gear_title": "DBSG - Format (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13212401",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10212401",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 88,
+        "Fire Rate": 180,
+        "Magazine Capacity": 2,
+        "Full DMG Range": {
+          "value": 7,
+          "unit": "m"
+        },
+        "DMG per star": null
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": null,
+      "star_product_half_up_mismatches": null,
+      "star_table_status": "not present on inspected gear page"
+    },
+    {
+      "blueprint_id": 13122301,
+      "tier_one_gear_id": 10122301,
+      "public_blueprint_title": "R500 - Memento B.P.",
+      "public_tier_one_gear_title": "R500 - Memento (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13122301",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10122301",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 170,
+        "Fire Rate": 145,
+        "Magazine Capacity": 5,
+        "Full DMG Range": {
+          "value": 23,
+          "unit": "m"
+        },
+        "DMG per star": [
+          170,
+          179,
+          187,
+          195,
+          204,
+          213
+        ]
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": false,
+      "star_product_half_up_mismatches": [
+        {
+          "star": 4,
+          "public_page_value": 195,
+          "decimal_half_up_product": 196
+        }
+      ],
+      "star_table_status": "six observed page cells"
+    },
+    {
+      "blueprint_id": 13213401,
+      "tier_one_gear_id": 10213401,
+      "public_blueprint_title": "DBSG - Doombringer B.P.",
+      "public_tier_one_gear_title": "DBSG - Doombringer (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13213401",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10213401",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 62,
+        "Fire Rate": 180,
+        "Magazine Capacity": 2,
+        "Full DMG Range": {
+          "value": 7,
+          "unit": "m"
+        },
+        "DMG per star": [
+          62,
+          65,
+          68,
+          71,
+          74,
+          78
+        ]
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": true,
+      "star_product_half_up_mismatches": [],
+      "star_table_status": "six observed page cells"
+    },
+    {
+      "blueprint_id": 13222301,
+      "tier_one_gear_id": 10222301,
+      "public_blueprint_title": "DB12 - Raining Cash B.P.",
+      "public_tier_one_gear_title": "DB12 - Raining Cash (Tier 1)",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13222301",
+      "tier_one_gear_url": "https://oncehuman.th.gl/db/gear/10222301",
+      "source_access_date": "2026-11-02",
+      "source_game_build": null,
+      "observed_page_fields": {
+        "DMG": 55,
+        "Fire Rate": 105,
+        "Magazine Capacity": 12,
+        "Full DMG Range": {
+          "value": 7,
+          "unit": "m"
+        },
+        "DMG per star": [
+          55,
+          58,
+          61,
+          63,
+          66,
+          69
+        ]
+      },
+      "native_equality_checks": {
+        "DMG_equals_native_gun_preset_attack": true,
+        "Fire_Rate_equals_native_weapon_rpm_affix_value": true,
+        "Magazine_Capacity_equals_native_weapon_magazine_size_affix_value": true,
+        "Full_DMG_Range_equals_native_weapon_range_affix_value": true
+      },
+      "star_product_half_up_numerical_match": true,
+      "star_product_half_up_mismatches": [],
+      "star_table_status": "six observed page cells"
+    }
+  ]
+}

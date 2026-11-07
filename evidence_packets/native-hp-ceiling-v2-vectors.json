@@ -1,0 +1,131 @@
+{
+  "static_controls": {
+    "change_with_max_keys": [
+      "chaos",
+      "dying_hp",
+      "field",
+      "field_type_1",
+      "field_type_2",
+      "food",
+      "purify_limit",
+      "san",
+      "sco_pvp_power",
+      "shadow_value",
+      "shadow_value_2",
+      "sp",
+      "special_purify_limit",
+      "stardust_energy",
+      "structure_field",
+      "stun_value",
+      "toughness",
+      "vital_capacity",
+      "water"
+    ],
+    "hardcoded_attr_mapping": {
+      "food": "real_max_food",
+      "hp": "real_max_hp",
+      "real_max_food": "max_food",
+      "real_max_water": "max_water",
+      "water": "real_max_water"
+    },
+    "percent_preservation_max_keys": [
+      "max_chaos",
+      "max_dying_hp",
+      "max_field",
+      "max_field_type_1",
+      "max_field_type_2",
+      "max_food",
+      "max_purify_limit",
+      "max_san",
+      "max_sco_pvp_power",
+      "max_shadow_value",
+      "max_shadow_value_2",
+      "max_sp",
+      "max_special_purify_limit",
+      "max_stardust_energy",
+      "max_structure_field",
+      "max_stun_value",
+      "max_toughness",
+      "max_vital_capacity",
+      "max_water"
+    ],
+    "source_attr_const_sha256": "a3ca0592024ba9a69db5ed0fd00131ed1bc392108d7da5e6ecec800b93c9c8e3"
+  },
+  "vectors": {
+    "absolute_and_rate": {
+      "inputs": {
+        "base_init_abs": 100,
+        "effective_real_san_hp_ratio": 0.25,
+        "holder_has_real_max_hp": true,
+        "hp_before": 150,
+        "init_abs_change": 0,
+        "init_independent_rates": [],
+        "init_rate": 0.1,
+        "other_abs": 20,
+        "other_independent_rates": [],
+        "other_rate": 0.25,
+        "pvp_max_hp_adjust_enabled": false,
+        "set_value": null
+      },
+      "output": {
+        "hp_after_revalidation": 122,
+        "hp_loss_from_ceiling": 28,
+        "initial_max_hp_channel": 110.00000000000001,
+        "max_hp_after": 162,
+        "raw_max_hp": 162.5,
+        "real_max_hp_after": 122
+      }
+    },
+    "independent_channel_present": {
+      "inputs": {
+        "base_init_abs": 100,
+        "effective_real_san_hp_ratio": 0.25,
+        "holder_has_real_max_hp": true,
+        "hp_before": 150,
+        "init_abs_change": 0,
+        "init_independent_rates": [],
+        "init_rate": 0.1,
+        "other_abs": 20,
+        "other_independent_rates": [
+          0.1,
+          0.2
+        ],
+        "other_rate": 0.25,
+        "pvp_max_hp_adjust_enabled": false,
+        "set_value": null
+      },
+      "output": {
+        "hp_after_revalidation": 98,
+        "hp_loss_from_ceiling": 52,
+        "initial_max_hp_channel": 110.00000000000001,
+        "max_hp_after": 130,
+        "raw_max_hp": 130.0,
+        "real_max_hp_after": 98
+      }
+    },
+    "set_override": {
+      "inputs": {
+        "base_init_abs": 100,
+        "effective_real_san_hp_ratio": 0.25,
+        "holder_has_real_max_hp": true,
+        "hp_before": 150,
+        "init_abs_change": 0,
+        "init_independent_rates": [],
+        "init_rate": 0.1,
+        "other_abs": 20,
+        "other_independent_rates": [],
+        "other_rate": 0.25,
+        "pvp_max_hp_adjust_enabled": false,
+        "set_value": 180.5
+      },
+      "output": {
+        "hp_after_revalidation": 135,
+        "hp_loss_from_ceiling": 15,
+        "initial_max_hp_channel": 110.00000000000001,
+        "max_hp_after": 180,
+        "raw_max_hp": 180.5,
+        "real_max_hp_after": 135
+      }
+    }
+  }
+}

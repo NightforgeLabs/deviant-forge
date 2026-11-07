@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "typed_source_packet": "/home/dv/Documents/Codex/2026-11-02/task/native_attack_affix_typed_inputs.json",
+  "typed_source_archive_sha256": "8007b2e16b71d10ac1e0b215f12a4bd68387c22b304e031c60f9a00b0c3c876a",
+  "generated_attr_map_packet": "/home/dv/Documents/Codex/2026-11-02/task/native_attr_id_index_attr_name.json",
+  "generated_attr_map_count": 838,
+  "direct_attr_map_controls": {
+    "D01": {
+      "attr_id": "D01",
+      "property_name": "attack",
+      "attr_id_string_index": 1000,
+      "property_name_string_index": 93,
+      "attr_id_literal_byte_offset": 95435,
+      "attr_id_raw_hex": "e807",
+      "property_name_literal_byte_offset": 95437,
+      "property_name_raw_hex": "5d"
+    },
+    "D11": {
+      "attr_id": "D11",
+      "property_name": "structure_attack",
+      "attr_id_string_index": 1029,
+      "property_name_string_index": 498,
+      "attr_id_literal_byte_offset": 96241,
+      "attr_id_raw_hex": "8508",
+      "property_name_literal_byte_offset": 96243,
+      "property_name_raw_hex": "f203"
+    },
+    "A02": {
+      "attr_id": "A02",
+      "property_name": "max_hp",
+      "attr_id_string_index": 1454,
+      "property_name_string_index": 102,
+      "attr_id_literal_byte_offset": 95446,
+      "attr_id_raw_hex": "ae0b",
+      "property_name_literal_byte_offset": 95448,
+      "property_name_raw_hex": "66"
+    }
+  },
+  "source_pyc_sha256": {
+    "AffixUtils.pyc": "325659f19ca8c55bd82c925162e880db1a49ee12caed4fa6ec8aadbe6a6715f5",
+    "CompPropertyChangeSources.pyc": "7e00f9ed276751d1aad5cba5e330d264de4436cb2160fceccf8c63ea84c89a4a",
+    "CompPropertyFormula.pyc": "1e9e352e0b948b5eb0e4020dc26cf26b78724297329d6fbbbab2352bf5dd54f0"
+  },
+  "methods": [
+    {
+      "file": "AffixUtils.pyc",
+      "qualname": "convert_affix_infos_to_ability_change",
+      "source_line": 209,
+      "body_range": [
+        11194,
+        11748
+      ],
+      "body_sha256": "d56afa4e6d6921908c63a6e08483eca7aaac3c715ed0618a2b655e57aa2c103e",
+      "names": [
+        "attr_const",
+        "AP_EFFECT_SET",
+        "AP_EFFECT_ALL",
+        "AP_EFFECT_EQUIP",
+        "items",
+        "_logger",
+        "error",
+        "affix_prototype_data",
+        "get",
+        "util_const",
+        "TO_DESIGNER_FLAG",
+        "append",
+        "sum_ability_change_by_affix_prototype"
+      ],
+      "locals": [
+        "affix_infos",
+        "affix_prototype_dict",
+        "affix_id",
+        "affix_val",
+        "config",
+        "effect_range",
+        "ability_change"
+      ]
+    },
+    {
+      "file": "AffixUtils.pyc",
+      "qualname": "sum_ability_change_by_affix_prototype",
+      "source_line": 237,
+      "body_range": [
+        12368,
+        12928
+      ],
+      "body_sha256": "4e6e61204f28303f4e85113e84f56f394757061a217802a1d7b04d4af1b61c1c",
+      "names": [
+        "attr_const",
+        "AP_EFFECT_ALL",
+        "items",
+        "add_effect_all_ability_change",
+        "AP_EFFECT_EQUIP",
+        "add_effect_equip_ability_change",
+        "AC_ABS",
+        "AP_EFFECT_SET"
+      ],
+      "locals": [
+        "affix_prototype_dict",
+        "ability_change",
+        "equip_range_change",
+        "affix_prototype_id",
+        "val_list",
+        "attr",
+        "change"
+      ]
+    },
+    {
+      "file": "AffixUtils.pyc",
+      "qualname": "add_effect_all_ability_change",
+      "source_line": 254,
+      "body_range": [
+        13381,
+        14241
+      ],
+      "body_sha256": "c09275126020f827467a04f51e545af17192fe69f6020ee6a58aa135324c2973",
+      "names": [
+        "_logger",
+        "error",
+        "affix_prototype_data",
+        "get",
+        "util_const",
+        "TO_DESIGNER_FLAG",
+        "get_attr_name_by_attr_id",
+        "attr_const",
+        "AP_CALC_TYPE_ABS",
+        "AC_ABS",
+        "sum",
+        "AP_CALC_TYPE_RATE",
+        "AC_RATE",
+        "extend",
+        "AP_CALC_TYPE_SET",
+        "AC_SET"
+      ],
+      "locals": [
+        "ability_change",
+        "affix_prototype_id",
+        "val_list",
+        "config",
+        "attr_name",
+        "calc_type"
+      ]
+    },
+    {
+      "file": "CompPropertyChangeSources.pyc",
+      "qualname": "CompPropertyChangeSources._update_affix_changes",
+      "source_line": 543,
+      "body_range": [
+        25262,
+        25516
+      ],
+      "body_sha256": "7d48979f11c91d50c821721792e3f390347cf0dacf1b6b27eab07dfbdcb187bc",
+      "names": [
+        "affix_change_infos",
+        "get",
+        "AffixUtils",
+        "convert_affix_infos_to_ability_change",
+        "add_ability_changes"
+      ],
+      "locals": [
+        "cls",
+        "holder",
+        "need_recalc_sources",
+        "all_ability_change",
+        "affix_change_infos",
+        "source_type",
+        "source_id",
+        "affix_infos"
+      ]
+    },
+    {
+      "file": "CompPropertyChangeSources.pyc",
+      "qualname": "CompPropertyChangeSources.add_ability_changes",
+      "source_line": 399,
+      "body_range": [
+        19237,
+        19993
+      ],
+      "body_sha256": "b83162c6dc65eeb5c01b4b63b5d03cbd600e06883c73ad6b0e21c4b08f8105fa",
+      "names": [
+        "items",
+        "remove_source_change",
+        "extend",
+        "attr_const",
+        "AC_ABS",
+        "add_source_change",
+        "AP_CALC_TYPE_ABS",
+        "AC_RATE",
+        "AP_CALC_TYPE_RATE",
+        "AC_SET",
+        "AP_CALC_TYPE_SET",
+        "append",
+        "calc_attr_by_property_formula"
+      ],
+      "locals": [
+        "cls",
+        "holder",
+        "all_ability_change",
+        "recalc_attrs",
+        "source",
+        "attr_change_infos",
+        "source_type",
+        "source_id",
+        "tmp_recalc_attr_list",
+        "attr_name",
+        "attr_infos",
+        "ac_type",
+        "val",
+        "delta_rate"
+      ]
+    },
+    {
+      "file": "CompPropertyChangeSources.pyc",
+      "qualname": "CompPropertyChangeSources._change_attr_changed_values",
+      "source_line": 337,
+      "body_range": [
+        16465,
+        17599
+      ],
+      "body_sha256": "d9406c13e7354bf3baf77df645ed18d92cf4a056092062979bd46225cf2d2495",
+      "names": [
+        "int",
+        "AffixUtils",
+        "is_independent_effect_attr",
+        "attr_const",
+        "AC_CHANGE_SOURCE_INIT",
+        "AC_CHANGE_SOURCE_OTHER",
+        "AP_CALC_TYPE_RATE",
+        "independent_change_values",
+        "remove",
+        "append",
+        "AP_CALC_TYPE_ABS",
+        "abs_change_values",
+        "get",
+        "_logger",
+        "error",
+        "uid",
+        "rate_change_values"
+      ],
+      "locals": [
+        "cls",
+        "holder",
+        "attr_name",
+        "attr_value",
+        "calc_type",
+        "is_sub",
+        "is_equip",
+        "is_independent_attr",
+        "change_source_key",
+        "independent_change_values",
+        "abs_change_values",
+        "pre_val",
+        "rate_change_values"
+      ]
+    },
+    {
+      "file": "CompPropertyFormula.pyc",
+      "qualname": "CompPropertyFormulaBase._calc_attr_default",
+      "source_line": 61,
+      "body_range": [
+        3653,
+        3999
+      ],
+      "body_sha256": "9e47d47ec7d8e035d68820ff4e37bb89758cbb1b75e91a691be1bc68a80c8bc2",
+      "names": [
+        "calc_attr_init_val",
+        "_get_other_change_source_value",
+        "abs_change_values",
+        "rate_change_values",
+        "independent_change_values",
+        "set_change_values",
+        "get",
+        "_calc_attr_by_base_formula"
+      ],
+      "locals": [
+        "cls",
+        "holder",
+        "attr_name",
+        "args",
+        "kwargs",
+        "c_init",
+        "c_abs",
+        "c_rate",
+        "c_independent",
+        "c_set"
+      ]
+    },
+    {
+      "file": "CompPropertyFormula.pyc",
+      "qualname": "CompPropertyFormulaBase._calc_attr_by_base_formula",
+      "source_line": 121,
+      "body_range": [
+        7096,
+        7200
+      ],
+      "body_sha256": "7f44fe8d987020c09615ef4c14117df24a1b3b3ffbe5a4f11f96b427b9d8fcca",
+      "names": [
+        "_calc_by_rate_addition_type"
+      ],
+      "locals": [
+        "cls",
+        "holder",
+        "attr_name",
+        "c_init",
+        "c_abs",
+        "c_rate",
+        "c_independent",
+        "c_set",
+        "val",
+        "abs_val"
+      ]
+    },
+    {
+      "file": "CompPropertyFormula.pyc",
+      "qualname": "CompPropertyFormulaBase._base_calc_attr_imp",
+      "source_line": 39,
+      "body_range": [
+        3017,
+        3259
+      ],
+      "body_sha256": "d5e5363be4cc69ef8db3ced01a9206ee602b2d9e6887df261d3704bea98688f9",
+      "names": [
+        "_CALC_ATT_FUNCS",
+        "get",
+        "getattr",
+        "_logger",
+        "error",
+        "AffixUtils",
+        "adjust_attr_val"
+      ],
+      "locals": [
+        "cls",
+        "holder",
+        "attr_name",
+        "args",
+        "kwargs",
+        "func_name",
+        "func",
+        "val"
+      ]
+    },
+    {
+      "file": "AffixUtils.pyc",
+      "qualname": "adjust_attr_val",
+      "source_line": 613,
+      "body_range": [
+        30004,
+        30500
+      ],
+      "body_sha256": "5f96e1455c3a80f52548db3eb56527f134bdf5eac5eae0b9f6322982cd5a233d",
+      "names": [
+        "char_property_data",
+        "get",
+        "max",
+        "min",
+        "round",
+        "attr_const",
+        "ATTR_VAL_ABS",
+        "int"
+      ],
+      "locals": [
+        "attr_name",
+        "val",
+        "with_max_attr_value",
+        "min_val_override",
+        "max_val_override",
+        "attr_dats",
+        "min_val",
+        "max_val",
+        "val_type",
+        "ret_val"
+      ]
+    },
+    {
+      "file": "CompPropertyChangeSources.pyc",
+      "qualname": "CompPropertyChangeSources.change_rate_dis_counts",
+      "source_line": 613,
+      "body_range": [
+        27043,
+        27477
+      ],
+      "body_sha256": "1850e90b8e02281e15b4835febb4e1d100d61050db2fb4907e122a45ee379567",
+      "names": [
+        "attr_const",
+        "EXPECT_RATE_DIS_COUNTS",
+        "getattr",
+        "utility",
+        "clamp",
+        "CompType",
+        "PROPERTY",
+        "set_attr",
+        "EXPECT_RATE_DIS_COUNT_VERSIONS"
+      ],
+      "locals": [
+        "cls",
+        "holder",
+        "rate",
+        "rate_key",
+        "is_hit",
+        "attr_name",
+        "old_dis_count",
+        "right_count",
+        "new_dis_count",
+        "attr_name_version",
+        "old_dis_count_version"
+      ]
+    }
+  ],
+  "D0100": {
+    "attr_id": "D01",
+    "effect_range": 1,
+    "type": 1,
+    "typed_attack_property": {
+      "init": 0.0,
+      "min": 0.0,
+      "max": 130000.0,
+      "val_type": 1
+    }
+  },
+  "ordinary_abs_path": [
+    "AP_EFFECT_ALL=1 routes D0100 to add_effect_all_ability_change.",
+    "AP_CALC_TYPE_ABS=1 routes its val_list through sum() into AC_ABS.",
+    "add_ability_changes passes AC_ABS to add_source_change with AP_CALC_TYPE_ABS.",
+    "_change_attr_changed_values adds each nonzero ABS value to holder.abs_change_values.",
+    "_calc_attr_default reads init, ABS, RATE, independent and SET source values.",
+    "Without SET or independent branch, _calc_attr_by_base_formula returns (init+ABS)*(1+RATE).",
+    "_base_calc_attr_imp calls AffixUtils.adjust_attr_val to apply property bounds/rounding."
+  ],
+  "crit_count": {
+    "update": "new_dis_count=clamp(old_dis_count+rate-(1 if is_hit else 0),0,1)",
+    "version": "new_version=(old_version+1)%100",
+    "example_old_0_4_rate_0_3": {
+      "is_hit_true": 0,
+      "is_hit_false": 0.7
+    },
+    "scope": "This is the persistent PROPERTY_CHANGE_SOURCES method. Its caller and the semantic binding of is_hit to formula is_crit/final_is_crit remain untraced."
+  },
+  "limits": [
+    "The exact ordering and availability of other equipped, calibration, SET and independent sources is not proved.",
+    "The 130000 property max is a typed config value; ordinary adjust_attr_val also accepts overrides and with_max_attr_value.",
+    "No game code was imported or executed and no installed game file was changed."
+  ]
+}

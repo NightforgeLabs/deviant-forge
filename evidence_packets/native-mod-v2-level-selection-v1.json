@@ -1,0 +1,352 @@
+{
+  "build": "26267212",
+  "game_code_executed": false,
+  "installed_files_modified": false,
+  "source_table": {
+    "path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_join_captures/new_mod_level_data.literal_0.bin",
+    "sha256": "a3ca719e3ec0368638c36cb607e6993cf4a0fd8a5c926b787fd067cf15a60139",
+    "row_schema_offset": 203,
+    "rows": 17
+  },
+  "source_methods": {
+    "helper_pyc_sha256": "a536179150a009f368711fdf8c7bd4b48c129333b89c1d08dec295d4f5836d32",
+    "get_mod_v2_quality_by_total": {
+      "line": 1762,
+      "offset": 70531,
+      "size": 260,
+      "result": "new_mod_level_data[total].mod_quality; fallback to table row 1, then rank 1"
+    },
+    "generate_mod_detail_v2": {
+      "line": 1886,
+      "offset": 76182,
+      "size": 240,
+      "result": "main_entry = {entry_no: prop.main_entry_no, entry_level: get_mod_v2_quality_by_total(max(0,int(initial_total_level)))}; detail includes main_entry and total_level",
+      "final_dict_window": {
+        "pyc_offset": 76400,
+        "raw_hex": "ca04930264065e005e045e06ca025e05ca0593050d00"
+      }
+    },
+    "get_avt_mod_v2_total_level": {
+      "line": 2237,
+      "offset": 86395,
+      "size": 144,
+      "result": "reads mod_bag_v2[mod_code].total_level, default 0"
+    },
+    "get_mod_equip_entry_effect": {
+      "line": 947,
+      "offset": 38591,
+      "size": 310,
+      "result": "collects each mod_data.main_entry entry_no and entry_level, then calls get_mod_entry_affix_data and get_mod_entry_buff_list"
+    },
+    "get_mod_entry_buff_list_listcomp": {
+      "line": 999,
+      "offset": 40624,
+      "size": 228,
+      "result": "looks up MOD_ENTRY_DATA_TABLE[(entry_no,entry_level)] and calls BuffDataHelper.get_buff_id(row.buff_id,entry_level,0)"
+    },
+    "get_mod_v2_quality_by_code": {
+      "line": 1770,
+      "offset": 71021,
+      "size": 108,
+      "note": "Returns special quality 7 for self-Shiny status 1; this is distinct from generate_mod_detail_v2 main_entry.entry_level."
+    },
+    "ui_pyc_sha256": "4e09ea450b9aa3caed9dd7c6c2fdefee3d4937132d4f71e54a42ad70aefac5e6",
+    "ui_read_constant": {
+      "pyc_offset": 3516,
+      "raw_hex": "6c06"
+    },
+    "ui_get_entry_desc_call": {
+      "pyc_offset": 3614,
+      "raw_hex": "de0c"
+    },
+    "ui_constant_pyc_sha256": "979844841dbf7a4e039d557cd87adc3fb218b97cf216fbbbd8ff9598275bd8bf",
+    "ui_constant_assignment": {
+      "pyc_offset": 1346,
+      "raw_hex": "ca055a33"
+    }
+  },
+  "global_total_level_to_entry_rank": [
+    {
+      "total_level": 1,
+      "main_entry_rank": 1,
+      "index_tail_offset": 573,
+      "row_offset": 225,
+      "row_end_offset_exclusive": 237,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 1,
+        "value_offset": 235,
+        "raw_hex": "01",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 2,
+      "main_entry_rank": 1,
+      "index_tail_offset": 575,
+      "row_offset": 237,
+      "row_end_offset_exclusive": 249,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 1,
+        "value_offset": 247,
+        "raw_hex": "01",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 3,
+      "main_entry_rank": 2,
+      "index_tail_offset": 577,
+      "row_offset": 249,
+      "row_end_offset_exclusive": 261,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 2,
+        "value_offset": 259,
+        "raw_hex": "02",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 4,
+      "main_entry_rank": 2,
+      "index_tail_offset": 579,
+      "row_offset": 261,
+      "row_end_offset_exclusive": 273,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 2,
+        "value_offset": 271,
+        "raw_hex": "02",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 5,
+      "main_entry_rank": 3,
+      "index_tail_offset": 581,
+      "row_offset": 273,
+      "row_end_offset_exclusive": 285,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 3,
+        "value_offset": 283,
+        "raw_hex": "03",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 6,
+      "main_entry_rank": 3,
+      "index_tail_offset": 583,
+      "row_offset": 285,
+      "row_end_offset_exclusive": 297,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 3,
+        "value_offset": 295,
+        "raw_hex": "03",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 7,
+      "main_entry_rank": 4,
+      "index_tail_offset": 585,
+      "row_offset": 297,
+      "row_end_offset_exclusive": 309,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 4,
+        "value_offset": 307,
+        "raw_hex": "04",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 8,
+      "main_entry_rank": 4,
+      "index_tail_offset": 587,
+      "row_offset": 309,
+      "row_end_offset_exclusive": 321,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 4,
+        "value_offset": 319,
+        "raw_hex": "04",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 9,
+      "main_entry_rank": 5,
+      "index_tail_offset": 589,
+      "row_offset": 321,
+      "row_end_offset_exclusive": 333,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 5,
+        "value_offset": 331,
+        "raw_hex": "05",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 10,
+      "main_entry_rank": 5,
+      "index_tail_offset": 592,
+      "row_offset": 333,
+      "row_end_offset_exclusive": 345,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 5,
+        "value_offset": 343,
+        "raw_hex": "05",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 11,
+      "main_entry_rank": 5,
+      "index_tail_offset": 595,
+      "row_offset": 345,
+      "row_end_offset_exclusive": 357,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 5,
+        "value_offset": 355,
+        "raw_hex": "05",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 12,
+      "main_entry_rank": 5,
+      "index_tail_offset": 598,
+      "row_offset": 357,
+      "row_end_offset_exclusive": 369,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 5,
+        "value_offset": 367,
+        "raw_hex": "05",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 13,
+      "main_entry_rank": 5,
+      "index_tail_offset": 601,
+      "row_offset": 369,
+      "row_end_offset_exclusive": 381,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 5,
+        "value_offset": 379,
+        "raw_hex": "05",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 14,
+      "main_entry_rank": 5,
+      "index_tail_offset": 604,
+      "row_offset": 381,
+      "row_end_offset_exclusive": 394,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 5,
+        "value_offset": 392,
+        "raw_hex": "05",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 15,
+      "main_entry_rank": 5,
+      "index_tail_offset": 607,
+      "row_offset": 394,
+      "row_end_offset_exclusive": 407,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 5,
+        "value_offset": 405,
+        "raw_hex": "05",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 16,
+      "main_entry_rank": 5,
+      "index_tail_offset": 610,
+      "row_offset": 407,
+      "row_end_offset_exclusive": 420,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 5,
+        "value_offset": 418,
+        "raw_hex": "05",
+        "string": null,
+        "pointer_target": null
+      }
+    },
+    {
+      "total_level": 17,
+      "main_entry_rank": 5,
+      "index_tail_offset": 613,
+      "row_offset": 420,
+      "row_end_offset_exclusive": 433,
+      "mod_quality_field": {
+        "field": "mod_quality",
+        "type_code": 1,
+        "value": 5,
+        "value_offset": 431,
+        "raw_hex": "05",
+        "string": null,
+        "pointer_target": null
+      }
+    }
+  ],
+  "family_10101_available_native_entry_ranks": [
+    4,
+    5
+  ],
+  "family_10101_native_rank_rows": {
+    "4": 114943,
+    "5": 115023
+  },
+  "interpretation": "The fixed rank-5 UI read is a presentation path. The copied generation path selects main_entry.entry_level from total_level, and the copied effect-list path consumes that entry_level. This does not prove which exact live server path creates or applies a specific player-owned mod.",
+  "shiny_boundary": "Self-Shiny quality code 7 is a separate visual/collection classifier; no rank-7 mod_entry_data row for family 10101. Shiny buff activation beyond tooltip is not proven by these client-copy methods."
+}

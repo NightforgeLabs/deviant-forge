@@ -1,0 +1,4672 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_hashes": {
+    "common_terms_packet_sha256": "c39cfbf939e79395b19623393b22dbf9337661f74dfc7d546befedb10cc91889",
+    "attr_map_packet_sha256": "a45580bf1d71592fa155308f409f3a685b50a9b9ee82bdf1a918f55330a4238e",
+    "affix_prototype_pyc_sha256": "a5732321ba5f84fa62fbfca910be49a93a26723d361a43afa28ea1a906d45d17",
+    "affix_prototype_literal_sha256": "7ed99f64c6fa46cf91d7080fa66606984c27d98adcaf9daf3d2c1cf9f50717f3"
+  },
+  "coverage": {
+    "source_term_ids": 59,
+    "typed_options": 118,
+    "unique_affix_codes": 8
+  },
+  "native_affix_prototypes": [
+    {
+      "affix_code": "A5000",
+      "indexed_row_bounds": [
+        44809,
+        44844
+      ],
+      "native_field_tokens": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 837,
+          "decoded_value": 837,
+          "literal_byte_offset": 44811,
+          "raw_hex": "c506",
+          "body_relative_pointer": 837,
+          "target_literal_byte_offset": 44801
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 90,
+          "decoded_value": "A50",
+          "literal_byte_offset": 44813,
+          "raw_hex": "5a"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 44814,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 824,
+          "decoded_value": 824,
+          "literal_byte_offset": 44815,
+          "raw_hex": "b806",
+          "body_relative_pointer": 824,
+          "target_literal_byte_offset": 44788
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 44817,
+          "raw_hex": "01"
+        }
+      },
+      "native_affix_name": {
+        "source_string": "近战攻击速度加成_$S@TIDS$_c17|0",
+        "string_table_index": 902,
+        "literal_string_index_byte_offset": 44799,
+        "translation_target_literal_byte_offset": 44801
+      },
+      "native_affix_display_format": {
+        "source_string": "近战攻击速度+{:.1%}_$S@TIDS$_c17|0",
+        "string_table_index": 905,
+        "literal_string_index_byte_offset": 44786,
+        "translation_target_literal_byte_offset": 44788
+      },
+      "generated_attr_id_to_property": {
+        "attr_id": "A50",
+        "property_name": "melee_speed_add_rate",
+        "attr_id_string_index": 1222,
+        "property_name_string_index": 807,
+        "attr_id_literal_byte_offset": 98420,
+        "attr_id_raw_hex": "c609",
+        "property_name_literal_byte_offset": 98422,
+        "property_name_raw_hex": "a706"
+      }
+    },
+    {
+      "affix_code": "E0100",
+      "indexed_row_bounds": [
+        50028,
+        50063
+      ],
+      "native_field_tokens": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 6056,
+          "decoded_value": 6056,
+          "literal_byte_offset": 50030,
+          "raw_hex": "a82f",
+          "body_relative_pointer": 6056,
+          "target_literal_byte_offset": 50020
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 13,
+          "decoded_value": "E01",
+          "literal_byte_offset": 50032,
+          "raw_hex": "0d"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 50033,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 6043,
+          "decoded_value": 6043,
+          "literal_byte_offset": 50034,
+          "raw_hex": "9b2f",
+          "body_relative_pointer": 6043,
+          "target_literal_byte_offset": 50007
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 50036,
+          "raw_hex": "01"
+        }
+      },
+      "native_affix_name": {
+        "source_string": "暴击率_$S@TIDS$_c17|0",
+        "string_table_index": 1334,
+        "literal_string_index_byte_offset": 50018,
+        "translation_target_literal_byte_offset": 50020
+      },
+      "native_affix_display_format": {
+        "source_string": "暴击率+{:.1%}_$S@TIDS$_c17|0",
+        "string_table_index": 1337,
+        "literal_string_index_byte_offset": 50005,
+        "translation_target_literal_byte_offset": 50007
+      },
+      "generated_attr_id_to_property": {
+        "attr_id": "E01",
+        "property_name": "crit_rate",
+        "attr_id_string_index": 1207,
+        "property_name_string_index": 480,
+        "attr_id_literal_byte_offset": 95658,
+        "attr_id_raw_hex": "b709",
+        "property_name_literal_byte_offset": 95660,
+        "property_name_raw_hex": "e003"
+      }
+    },
+    {
+      "affix_code": "E0200",
+      "indexed_row_bounds": [
+        45306,
+        45341
+      ],
+      "native_field_tokens": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 1334,
+          "decoded_value": 1334,
+          "literal_byte_offset": 45308,
+          "raw_hex": "b60a",
+          "body_relative_pointer": 1334,
+          "target_literal_byte_offset": 45298
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 9,
+          "decoded_value": "E02",
+          "literal_byte_offset": 45310,
+          "raw_hex": "09"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 45311,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 1321,
+          "decoded_value": 1321,
+          "literal_byte_offset": 45312,
+          "raw_hex": "a90a",
+          "body_relative_pointer": 1321,
+          "target_literal_byte_offset": 45285
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 45314,
+          "raw_hex": "01"
+        }
+      },
+      "native_affix_name": {
+        "source_string": "暴击伤害_$S@TIDS$_c17|0",
+        "string_table_index": 1342,
+        "literal_string_index_byte_offset": 45296,
+        "translation_target_literal_byte_offset": 45298
+      },
+      "native_affix_display_format": {
+        "source_string": "暴击伤害+{:.1%}_$S@TIDS$_c17|0",
+        "string_table_index": 1345,
+        "literal_string_index_byte_offset": 45283,
+        "translation_target_literal_byte_offset": 45285
+      },
+      "generated_attr_id_to_property": {
+        "attr_id": "E02",
+        "property_name": "crit_dam_rate",
+        "attr_id_string_index": 1201,
+        "property_name_string_index": 486,
+        "attr_id_literal_byte_offset": 96696,
+        "attr_id_raw_hex": "b109",
+        "property_name_literal_byte_offset": 96698,
+        "property_name_raw_hex": "e603"
+      }
+    },
+    {
+      "affix_code": "E0300",
+      "indexed_row_bounds": [
+        45448,
+        45483
+      ],
+      "native_field_tokens": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 1476,
+          "decoded_value": 1476,
+          "literal_byte_offset": 45450,
+          "raw_hex": "c40b",
+          "body_relative_pointer": 1476,
+          "target_literal_byte_offset": 45440
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 10,
+          "decoded_value": "E03",
+          "literal_byte_offset": 45452,
+          "raw_hex": "0a"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 45453,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 1463,
+          "decoded_value": 1463,
+          "literal_byte_offset": 45454,
+          "raw_hex": "b70b",
+          "body_relative_pointer": 1463,
+          "target_literal_byte_offset": 45427
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 45456,
+          "raw_hex": "01"
+        }
+      },
+      "native_affix_name": {
+        "source_string": "弱点伤害_$S@TIDS$_c17|0",
+        "string_table_index": 1350,
+        "literal_string_index_byte_offset": 45438,
+        "translation_target_literal_byte_offset": 45440
+      },
+      "native_affix_display_format": {
+        "source_string": "弱点伤害+{:.1%}_$S@TIDS$_c17|0",
+        "string_table_index": 1353,
+        "literal_string_index_byte_offset": 45425,
+        "translation_target_literal_byte_offset": 45427
+      },
+      "generated_attr_id_to_property": {
+        "attr_id": "E03",
+        "property_name": "weak_dam_rate",
+        "attr_id_string_index": 1326,
+        "property_name_string_index": 673,
+        "attr_id_literal_byte_offset": 96966,
+        "attr_id_raw_hex": "ae0a",
+        "property_name_literal_byte_offset": 96968,
+        "property_name_raw_hex": "a105"
+      }
+    },
+    {
+      "affix_code": "E3200",
+      "indexed_row_bounds": [
+        50818,
+        50854
+      ],
+      "native_field_tokens": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 6846,
+          "decoded_value": 6846,
+          "literal_byte_offset": 50820,
+          "raw_hex": "be35",
+          "body_relative_pointer": 6846,
+          "target_literal_byte_offset": 50810
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 335,
+          "decoded_value": "E32",
+          "literal_byte_offset": 50822,
+          "raw_hex": "cf02"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 50824,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 6833,
+          "decoded_value": 6833,
+          "literal_byte_offset": 50825,
+          "raw_hex": "b135",
+          "body_relative_pointer": 6833,
+          "target_literal_byte_offset": 50797
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 50827,
+          "raw_hex": "01"
+        }
+      },
+      "native_affix_name": {
+        "source_string": "炽能伤害加成_$S@TIDS$_c17|0",
+        "string_table_index": 1402,
+        "literal_string_index_byte_offset": 50808,
+        "translation_target_literal_byte_offset": 50810
+      },
+      "native_affix_display_format": {
+        "source_string": "炽能伤害+{:.1%}_$S@TIDS$_c17|0",
+        "string_table_index": 1405,
+        "literal_string_index_byte_offset": 50795,
+        "translation_target_literal_byte_offset": 50797
+      },
+      "generated_attr_id_to_property": {
+        "attr_id": "E32",
+        "property_name": "element_type_dam_add_rate_fire",
+        "attr_id_string_index": 1353,
+        "property_name_string_index": 236,
+        "attr_id_literal_byte_offset": 97325,
+        "attr_id_raw_hex": "c90a",
+        "property_name_literal_byte_offset": 97327,
+        "property_name_raw_hex": "ec01"
+      }
+    },
+    {
+      "affix_code": "E3300",
+      "indexed_row_bounds": [
+        50890,
+        50926
+      ],
+      "native_field_tokens": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 6918,
+          "decoded_value": 6918,
+          "literal_byte_offset": 50892,
+          "raw_hex": "8636",
+          "body_relative_pointer": 6918,
+          "target_literal_byte_offset": 50882
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 343,
+          "decoded_value": "E33",
+          "literal_byte_offset": 50894,
+          "raw_hex": "d702"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 50896,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 6905,
+          "decoded_value": 6905,
+          "literal_byte_offset": 50897,
+          "raw_hex": "f935",
+          "body_relative_pointer": 6905,
+          "target_literal_byte_offset": 50869
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 50899,
+          "raw_hex": "01"
+        }
+      },
+      "native_affix_name": {
+        "source_string": "霜寒伤害加成_$S@TIDS$_c17|0",
+        "string_table_index": 1406,
+        "literal_string_index_byte_offset": 50880,
+        "translation_target_literal_byte_offset": 50882
+      },
+      "native_affix_display_format": {
+        "source_string": "霜寒伤害+{:.1%}_$S@TIDS$_c17|0",
+        "string_table_index": 1409,
+        "literal_string_index_byte_offset": 50867,
+        "translation_target_literal_byte_offset": 50869
+      },
+      "generated_attr_id_to_property": {
+        "attr_id": "E33",
+        "property_name": "element_type_dam_add_rate_ice",
+        "attr_id_string_index": 1355,
+        "property_name_string_index": 237,
+        "attr_id_literal_byte_offset": 96768,
+        "attr_id_raw_hex": "cb0a",
+        "property_name_literal_byte_offset": 96770,
+        "property_name_raw_hex": "ed01"
+      }
+    },
+    {
+      "affix_code": "E3400",
+      "indexed_row_bounds": [
+        50926,
+        50962
+      ],
+      "native_field_tokens": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 6954,
+          "decoded_value": 6954,
+          "literal_byte_offset": 50928,
+          "raw_hex": "aa36",
+          "body_relative_pointer": 6954,
+          "target_literal_byte_offset": 50918
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 351,
+          "decoded_value": "E34",
+          "literal_byte_offset": 50930,
+          "raw_hex": "df02"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 50932,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 6941,
+          "decoded_value": 6941,
+          "literal_byte_offset": 50933,
+          "raw_hex": "9d36",
+          "body_relative_pointer": 6941,
+          "target_literal_byte_offset": 50905
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 50935,
+          "raw_hex": "01"
+        }
+      },
+      "native_affix_name": {
+        "source_string": "电离伤害加成_$S@TIDS$_c17|0",
+        "string_table_index": 1410,
+        "literal_string_index_byte_offset": 50916,
+        "translation_target_literal_byte_offset": 50918
+      },
+      "native_affix_display_format": {
+        "source_string": "电离伤害+{:.1%}_$S@TIDS$_c17|0",
+        "string_table_index": 1413,
+        "literal_string_index_byte_offset": 50903,
+        "translation_target_literal_byte_offset": 50905
+      },
+      "generated_attr_id_to_property": {
+        "attr_id": "E34",
+        "property_name": "element_type_dam_add_rate_lightning",
+        "attr_id_string_index": 1357,
+        "property_name_string_index": 239,
+        "attr_id_literal_byte_offset": 95782,
+        "attr_id_raw_hex": "cd0a",
+        "property_name_literal_byte_offset": 95784,
+        "property_name_raw_hex": "ef01"
+      }
+    },
+    {
+      "affix_code": "E3800",
+      "indexed_row_bounds": [
+        50998,
+        51034
+      ],
+      "native_field_tokens": {
+        "affix_name": {
+          "field": "affix_name",
+          "type_code": 11,
+          "raw_value": 7026,
+          "decoded_value": 7026,
+          "literal_byte_offset": 51000,
+          "raw_hex": "f236",
+          "body_relative_pointer": 7026,
+          "target_literal_byte_offset": 50990
+        },
+        "attr_id": {
+          "field": "attr_id",
+          "type_code": 5,
+          "raw_value": 359,
+          "decoded_value": "E38",
+          "literal_byte_offset": 51002,
+          "raw_hex": "e702"
+        },
+        "effect_range": {
+          "field": "effect_range",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 51004,
+          "raw_hex": "01"
+        },
+        "format": {
+          "field": "format",
+          "type_code": 11,
+          "raw_value": 7013,
+          "decoded_value": 7013,
+          "literal_byte_offset": 51005,
+          "raw_hex": "e536",
+          "body_relative_pointer": 7013,
+          "target_literal_byte_offset": 50977
+        },
+        "type": {
+          "field": "type",
+          "type_code": 1,
+          "raw_value": 1,
+          "decoded_value": 1,
+          "literal_byte_offset": 51007,
+          "raw_hex": "01"
+        }
+      },
+      "native_affix_name": {
+        "source_string": "爆炸伤害加成_$S@TIDS$_c17|0",
+        "string_table_index": 1414,
+        "literal_string_index_byte_offset": 50988,
+        "translation_target_literal_byte_offset": 50990
+      },
+      "native_affix_display_format": {
+        "source_string": "爆炸伤害+{:.1%}_$S@TIDS$_c17|0",
+        "string_table_index": 1417,
+        "literal_string_index_byte_offset": 50975,
+        "translation_target_literal_byte_offset": 50977
+      },
+      "generated_attr_id_to_property": {
+        "attr_id": "E38",
+        "property_name": "element_type_dam_add_rate_explode",
+        "attr_id_string_index": 1351,
+        "property_name_string_index": 235,
+        "attr_id_literal_byte_offset": 95754,
+        "attr_id_raw_hex": "c70a",
+        "property_name_literal_byte_offset": 95756,
+        "property_name_raw_hex": "eb01"
+      }
+    }
+  ],
+  "term_options": [
+    {
+      "native_term_id": 3009,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2204,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.14,
+            "type_code": 34,
+            "literal_byte_offset": 2196,
+            "raw_hex": "ec51b81e85ebc13f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.075,
+            "type_code": 34,
+            "literal_byte_offset": 2242,
+            "raw_hex": "333333333333b33f"
+          },
+          "native_max_val": {
+            "value": 0.10500000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 2234,
+            "raw_hex": "e27a14ae47e1ba3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|g",
+            "string_table_index": 31,
+            "literal_string_index_byte_offset": 2216,
+            "translation_target_literal_byte_offset": 2217
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1001,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2301,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2293,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2280,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_max_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2272,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1002,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2336,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2328,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2280,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_max_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2272,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1003,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2380,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2372,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|0",
+            "string_table_index": 15,
+            "literal_string_index_byte_offset": 2359,
+            "translation_target_literal_byte_offset": 2360
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2413,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2405,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|1",
+            "string_table_index": 16,
+            "literal_string_index_byte_offset": 2392,
+            "translation_target_literal_byte_offset": 2393
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1004,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2336,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2328,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2457,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2449,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|2",
+            "string_table_index": 17,
+            "literal_string_index_byte_offset": 2436,
+            "translation_target_literal_byte_offset": 2437
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2001,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 2489,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2481,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2511,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.108,
+            "type_code": 34,
+            "literal_byte_offset": 2503,
+            "raw_hex": "d9cef753e3a5bb3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1005,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2301,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2293,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2556,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2548,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|3",
+            "string_table_index": 18,
+            "literal_string_index_byte_offset": 2535,
+            "translation_target_literal_byte_offset": 2536
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4010,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2609,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.096,
+            "type_code": 34,
+            "literal_byte_offset": 2601,
+            "raw_hex": "fa7e6abc7493b83f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2588,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.096,
+            "type_code": 34,
+            "literal_byte_offset": 2580,
+            "raw_hex": "fa7e6abc7493b83f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2002,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.032,
+            "type_code": 34,
+            "literal_byte_offset": 2663,
+            "raw_hex": "fca9f1d24d62a03f"
+          },
+          "native_max_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 2655,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 2642,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2634,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1006,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2301,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2293,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2280,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_max_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2272,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4003,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2707,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.08000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 2699,
+            "raw_hex": "7c14ae47e17ab43f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|h",
+            "string_table_index": 32,
+            "literal_string_index_byte_offset": 2686,
+            "translation_target_literal_byte_offset": 2687
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.09,
+            "type_code": 34,
+            "literal_byte_offset": 2740,
+            "raw_hex": "0ad7a3703d0ab73f"
+          },
+          "native_max_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 2732,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|i",
+            "string_table_index": 33,
+            "literal_string_index_byte_offset": 2719,
+            "translation_target_literal_byte_offset": 2720
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1007,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "A5000",
+              "string_index": 13,
+              "literal_byte_offset": 2763,
+              "raw_hex": "0d"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2776,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2768,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "melee_speed_add_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2280,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_max_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2272,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1008,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2301,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2293,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2280,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_max_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2272,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1009,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2301,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2293,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2280,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_max_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2272,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 7002,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 2824,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.16,
+            "type_code": 34,
+            "literal_byte_offset": 2816,
+            "raw_hex": "7b14ae47e17ac43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 4006,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 2856,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.16000000000000003,
+            "type_code": 34,
+            "literal_byte_offset": 2848,
+            "raw_hex": "7c14ae47e17ac43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2588,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.096,
+            "type_code": 34,
+            "literal_byte_offset": 2580,
+            "raw_hex": "fa7e6abc7493b83f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1010,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2301,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2293,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2280,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_max_val": {
+            "value": 0.04,
+            "type_code": 34,
+            "literal_byte_offset": 2272,
+            "raw_hex": "7b14ae47e17aa43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 1011,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "A5000",
+              "string_index": 13,
+              "literal_byte_offset": 2763,
+              "raw_hex": "0d"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2776,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2768,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "melee_speed_add_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2900,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 2892,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|4",
+            "string_table_index": 19,
+            "literal_string_index_byte_offset": 2879,
+            "translation_target_literal_byte_offset": 2880
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4011,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2609,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.096,
+            "type_code": 34,
+            "literal_byte_offset": 2601,
+            "raw_hex": "fa7e6abc7493b83f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 2932,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_max_val": {
+            "value": 0.24,
+            "type_code": 34,
+            "literal_byte_offset": 2924,
+            "raw_hex": "b81e85eb51b8ce3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2003,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 2976,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2968,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|5",
+            "string_table_index": 20,
+            "literal_string_index_byte_offset": 2955,
+            "translation_target_literal_byte_offset": 2956
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 3009,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.108,
+            "type_code": 34,
+            "literal_byte_offset": 3001,
+            "raw_hex": "d9cef753e3a5bb3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|6",
+            "string_table_index": 21,
+            "literal_string_index_byte_offset": 2988,
+            "translation_target_literal_byte_offset": 2989
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4012,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 2856,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.16000000000000003,
+            "type_code": 34,
+            "literal_byte_offset": 2848,
+            "raw_hex": "7c14ae47e17ac43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.108,
+            "type_code": 34,
+            "literal_byte_offset": 3041,
+            "raw_hex": "d9cef753e3a5bb3f"
+          },
+          "native_max_val": {
+            "value": 0.144,
+            "type_code": 34,
+            "literal_byte_offset": 3033,
+            "raw_hex": "3bdf4f8d976ec23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2004,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 3086,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 3078,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|7",
+            "string_table_index": 22,
+            "literal_string_index_byte_offset": 3065,
+            "translation_target_literal_byte_offset": 3066
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 2642,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2634,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 5001,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 3118,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 3110,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 2005,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 3163,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 3155,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|8",
+            "string_table_index": 23,
+            "literal_string_index_byte_offset": 3142,
+            "translation_target_literal_byte_offset": 3143
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2511,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.108,
+            "type_code": 34,
+            "literal_byte_offset": 2503,
+            "raw_hex": "d9cef753e3a5bb3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2006,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.08000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3195,
+            "raw_hex": "7c14ae47e17ab43f"
+          },
+          "native_max_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 3187,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 2642,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2634,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3003,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.05,
+            "type_code": 34,
+            "literal_byte_offset": 3239,
+            "raw_hex": "9a9999999999a93f"
+          },
+          "native_max_val": {
+            "value": 0.07,
+            "type_code": 34,
+            "literal_byte_offset": 3231,
+            "raw_hex": "ec51b81e85ebb13f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|b",
+            "string_table_index": 26,
+            "literal_string_index_byte_offset": 3218,
+            "translation_target_literal_byte_offset": 3219
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.075,
+            "type_code": 34,
+            "literal_byte_offset": 3272,
+            "raw_hex": "333333333333b33f"
+          },
+          "native_max_val": {
+            "value": 0.10500000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 3264,
+            "raw_hex": "e27a14ae47e1ba3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|c",
+            "string_table_index": 27,
+            "literal_string_index_byte_offset": 3251,
+            "translation_target_literal_byte_offset": 3252
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2007,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.08000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3195,
+            "raw_hex": "7c14ae47e17ab43f"
+          },
+          "native_max_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 3187,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 3304,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 3296,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2008,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 3348,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 3340,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|9",
+            "string_table_index": 24,
+            "literal_string_index_byte_offset": 3327,
+            "translation_target_literal_byte_offset": 3328
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 3304,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 3296,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2009,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.08000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3195,
+            "raw_hex": "7c14ae47e17ab43f"
+          },
+          "native_max_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 3187,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 3392,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.108,
+            "type_code": 34,
+            "literal_byte_offset": 3384,
+            "raw_hex": "d9cef753e3a5bb3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|a",
+            "string_table_index": 25,
+            "literal_string_index_byte_offset": 3371,
+            "translation_target_literal_byte_offset": 3372
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2010,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 2489,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2481,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 2642,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2634,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2011,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 2489,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2481,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 3304,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 3296,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 2012,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.08000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3195,
+            "raw_hex": "7c14ae47e17ab43f"
+          },
+          "native_max_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 3187,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2511,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.108,
+            "type_code": 34,
+            "literal_byte_offset": 2503,
+            "raw_hex": "d9cef753e3a5bb3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3001,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06000000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 3457,
+            "raw_hex": "ba1e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.08400000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3449,
+            "raw_hex": "1c2fdd240681b53f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.09000000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 3479,
+            "raw_hex": "0bd7a3703d0ab73f"
+          },
+          "native_max_val": {
+            "value": 0.126,
+            "type_code": 34,
+            "literal_byte_offset": 3471,
+            "raw_hex": "54e3a59bc420c03f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3002,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.04000000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 3533,
+            "raw_hex": "7c14ae47e17aa43f"
+          },
+          "native_max_val": {
+            "value": 0.05600000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 3525,
+            "raw_hex": "7ae9263108acac3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 3512,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.084,
+            "type_code": 34,
+            "literal_byte_offset": 3504,
+            "raw_hex": "1b2fdd240681b53f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3004,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.05,
+            "type_code": 34,
+            "literal_byte_offset": 3577,
+            "raw_hex": "9a9999999999a93f"
+          },
+          "native_max_val": {
+            "value": 0.07,
+            "type_code": 34,
+            "literal_byte_offset": 3569,
+            "raw_hex": "ec51b81e85ebb13f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|d",
+            "string_table_index": 28,
+            "literal_string_index_byte_offset": 3556,
+            "translation_target_literal_byte_offset": 3557
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 3512,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.084,
+            "type_code": 34,
+            "literal_byte_offset": 3504,
+            "raw_hex": "1b2fdd240681b53f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4001,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2609,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.096,
+            "type_code": 34,
+            "literal_byte_offset": 2601,
+            "raw_hex": "fa7e6abc7493b83f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.108,
+            "type_code": 34,
+            "literal_byte_offset": 3041,
+            "raw_hex": "d9cef753e3a5bb3f"
+          },
+          "native_max_val": {
+            "value": 0.144,
+            "type_code": 34,
+            "literal_byte_offset": 3033,
+            "raw_hex": "3bdf4f8d976ec23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3005,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.05,
+            "type_code": 34,
+            "literal_byte_offset": 3632,
+            "raw_hex": "9a9999999999a93f"
+          },
+          "native_max_val": {
+            "value": 0.07,
+            "type_code": 34,
+            "literal_byte_offset": 3624,
+            "raw_hex": "ec51b81e85ebb13f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|e",
+            "string_table_index": 29,
+            "literal_string_index_byte_offset": 3611,
+            "translation_target_literal_byte_offset": 3612
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.09000000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 3479,
+            "raw_hex": "0bd7a3703d0ab73f"
+          },
+          "native_max_val": {
+            "value": 0.126,
+            "type_code": 34,
+            "literal_byte_offset": 3471,
+            "raw_hex": "54e3a59bc420c03f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4002,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.048,
+            "type_code": 34,
+            "literal_byte_offset": 3664,
+            "raw_hex": "fa7e6abc7493a83f"
+          },
+          "native_max_val": {
+            "value": 0.064,
+            "type_code": 34,
+            "literal_byte_offset": 3656,
+            "raw_hex": "fca9f1d24d62b03f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2588,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.096,
+            "type_code": 34,
+            "literal_byte_offset": 2580,
+            "raw_hex": "fa7e6abc7493b83f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3006,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2204,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.14,
+            "type_code": 34,
+            "literal_byte_offset": 2196,
+            "raw_hex": "ec51b81e85ebc13f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 3512,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.084,
+            "type_code": 34,
+            "literal_byte_offset": 3504,
+            "raw_hex": "1b2fdd240681b53f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3007,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2204,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.14,
+            "type_code": 34,
+            "literal_byte_offset": 2196,
+            "raw_hex": "ec51b81e85ebc13f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.15,
+            "type_code": 34,
+            "literal_byte_offset": 3706,
+            "raw_hex": "333333333333c33f"
+          },
+          "native_max_val": {
+            "value": 0.21000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3698,
+            "raw_hex": "e27a14ae47e1ca3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3008,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.05,
+            "type_code": 34,
+            "literal_byte_offset": 3749,
+            "raw_hex": "9a9999999999a93f"
+          },
+          "native_max_val": {
+            "value": 0.07,
+            "type_code": 34,
+            "literal_byte_offset": 3741,
+            "raw_hex": "ec51b81e85ebb13f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|f",
+            "string_table_index": 30,
+            "literal_string_index_byte_offset": 3728,
+            "translation_target_literal_byte_offset": 3729
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.15,
+            "type_code": 34,
+            "literal_byte_offset": 3706,
+            "raw_hex": "333333333333c33f"
+          },
+          "native_max_val": {
+            "value": 0.21000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3698,
+            "raw_hex": "e27a14ae47e1ca3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 5002,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.08,
+            "type_code": 34,
+            "literal_byte_offset": 3781,
+            "raw_hex": "7b14ae47e17ab43f"
+          },
+          "native_max_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 3773,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 3010,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06000000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 3457,
+            "raw_hex": "ba1e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.08400000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3449,
+            "raw_hex": "1c2fdd240681b53f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 3512,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.084,
+            "type_code": 34,
+            "literal_byte_offset": 3504,
+            "raw_hex": "1b2fdd240681b53f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3011,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06000000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 3457,
+            "raw_hex": "ba1e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.08400000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3449,
+            "raw_hex": "1c2fdd240681b53f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.15,
+            "type_code": 34,
+            "literal_byte_offset": 3706,
+            "raw_hex": "333333333333c33f"
+          },
+          "native_max_val": {
+            "value": 0.21000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3698,
+            "raw_hex": "e27a14ae47e1ca3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4008,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 3847,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.08000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3839,
+            "raw_hex": "7c14ae47e17ab43f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|l",
+            "string_table_index": 36,
+            "literal_string_index_byte_offset": 3826,
+            "translation_target_literal_byte_offset": 3827
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 2932,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_max_val": {
+            "value": 0.24,
+            "type_code": 34,
+            "literal_byte_offset": 2924,
+            "raw_hex": "b81e85eb51b8ce3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 3012,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 2204,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.14,
+            "type_code": 34,
+            "literal_byte_offset": 2196,
+            "raw_hex": "ec51b81e85ebc13f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.09000000000000001,
+            "type_code": 34,
+            "literal_byte_offset": 3479,
+            "raw_hex": "0bd7a3703d0ab73f"
+          },
+          "native_max_val": {
+            "value": 0.126,
+            "type_code": 34,
+            "literal_byte_offset": 3471,
+            "raw_hex": "54e3a59bc420c03f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4004,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 3901,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.08000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3893,
+            "raw_hex": "7c14ae47e17ab43f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|j",
+            "string_table_index": 34,
+            "literal_string_index_byte_offset": 3880,
+            "translation_target_literal_byte_offset": 3881
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.072,
+            "type_code": 34,
+            "literal_byte_offset": 2588,
+            "raw_hex": "3bdf4f8d976eb23f"
+          },
+          "native_max_val": {
+            "value": 0.096,
+            "type_code": 34,
+            "literal_byte_offset": 2580,
+            "raw_hex": "fa7e6abc7493b83f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4005,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.06,
+            "type_code": 34,
+            "literal_byte_offset": 3945,
+            "raw_hex": "b81e85eb51b8ae3f"
+          },
+          "native_max_val": {
+            "value": 0.08000000000000002,
+            "type_code": 34,
+            "literal_byte_offset": 3937,
+            "raw_hex": "7c14ae47e17ab43f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|k",
+            "string_table_index": 35,
+            "literal_string_index_byte_offset": 3924,
+            "translation_target_literal_byte_offset": 3925
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.108,
+            "type_code": 34,
+            "literal_byte_offset": 3041,
+            "raw_hex": "d9cef753e3a5bb3f"
+          },
+          "native_max_val": {
+            "value": 0.144,
+            "type_code": 34,
+            "literal_byte_offset": 3033,
+            "raw_hex": "3bdf4f8d976ec23f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 4007,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 2856,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.16000000000000003,
+            "type_code": 34,
+            "literal_byte_offset": 2848,
+            "raw_hex": "7c14ae47e17ac43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 2932,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_max_val": {
+            "value": 0.24,
+            "type_code": 34,
+            "literal_byte_offset": 2924,
+            "raw_hex": "b81e85eb51b8ce3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 6001,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.15,
+            "type_code": 34,
+            "literal_byte_offset": 3988,
+            "raw_hex": "333333333333c33f"
+          },
+          "native_max_val": {
+            "value": 0.21,
+            "type_code": 34,
+            "literal_byte_offset": 3980,
+            "raw_hex": "e17a14ae47e1ca3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 4009,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 2856,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.16000000000000003,
+            "type_code": 34,
+            "literal_byte_offset": 2848,
+            "raw_hex": "7c14ae47e17ac43f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.09,
+            "type_code": 34,
+            "literal_byte_offset": 4033,
+            "raw_hex": "0ad7a3703d0ab73f"
+          },
+          "native_max_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 4025,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|m",
+            "string_table_index": 37,
+            "literal_string_index_byte_offset": 4012,
+            "translation_target_literal_byte_offset": 4013
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        }
+      ]
+    },
+    {
+      "native_term_id": 5003,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 4077,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 4069,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|n",
+            "string_table_index": 38,
+            "literal_string_index_byte_offset": 4056,
+            "translation_target_literal_byte_offset": 4057
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 5004,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.2,
+            "type_code": 34,
+            "literal_byte_offset": 4109,
+            "raw_hex": "9a9999999999c93f"
+          },
+          "native_max_val": {
+            "value": 0.3,
+            "type_code": 34,
+            "literal_byte_offset": 4101,
+            "raw_hex": "333333333333d33f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 6002,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0100",
+              "string_index": 11,
+              "literal_byte_offset": 2267,
+              "raw_hex": "0b"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.1,
+            "type_code": 34,
+            "literal_byte_offset": 4141,
+            "raw_hex": "9a9999999999b93f"
+          },
+          "native_max_val": {
+            "value": 0.14,
+            "type_code": 34,
+            "literal_byte_offset": 4133,
+            "raw_hex": "ec51b81e85ebc13f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 6003,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.12,
+            "type_code": 34,
+            "literal_byte_offset": 4185,
+            "raw_hex": "b81e85eb51b8be3f"
+          },
+          "native_max_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 4177,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|o",
+            "string_table_index": 39,
+            "literal_string_index_byte_offset": 4164,
+            "translation_target_literal_byte_offset": 4165
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 6004,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.25,
+            "type_code": 18,
+            "literal_byte_offset": 4217,
+            "raw_hex": "0000803e"
+          },
+          "native_max_val": {
+            "value": 0.35,
+            "type_code": 34,
+            "literal_byte_offset": 4209,
+            "raw_hex": "666666666666d63f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 7001,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0300",
+              "string_index": 12,
+              "literal_byte_offset": 2323,
+              "raw_hex": "0c"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.18,
+            "type_code": 34,
+            "literal_byte_offset": 4245,
+            "raw_hex": "0ad7a3703d0ac73f"
+          },
+          "native_max_val": {
+            "value": 0.24,
+            "type_code": 34,
+            "literal_byte_offset": 4237,
+            "raw_hex": "b81e85eb51b8ce3f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "weak_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 7003,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E3200",
+              "string_index": 8,
+              "literal_byte_offset": 2226,
+              "raw_hex": "08"
+            },
+            {
+              "affix_id": "E3300",
+              "string_index": 9,
+              "literal_byte_offset": 2227,
+              "raw_hex": "09"
+            },
+            {
+              "affix_id": "E3400",
+              "string_index": 10,
+              "literal_byte_offset": 2228,
+              "raw_hex": "0a"
+            },
+            {
+              "affix_id": "E3800",
+              "string_index": 7,
+              "literal_byte_offset": 2229,
+              "raw_hex": "07"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.15,
+            "type_code": 34,
+            "literal_byte_offset": 4290,
+            "raw_hex": "333333333333c33f"
+          },
+          "native_max_val": {
+            "value": 0.2,
+            "type_code": 34,
+            "literal_byte_offset": 4282,
+            "raw_hex": "9a9999999999c93f"
+          },
+          "native_term_description": {
+            "source_string": "元素伤害（炽能、霜寒、电离、爆炸）+{:.1%}_$S@TIDS$_ceb|p",
+            "string_table_index": 40,
+            "literal_string_index_byte_offset": 4269,
+            "translation_target_literal_byte_offset": 4270
+          },
+          "resolved_property_names": [
+            "element_type_dam_add_rate_fire",
+            "element_type_dam_add_rate_ice",
+            "element_type_dam_add_rate_lightning",
+            "element_type_dam_add_rate_explode"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    },
+    {
+      "native_term_id": 7004,
+      "options": [
+        {
+          "ordinal": 0,
+          "affix_codes": [
+            {
+              "affix_id": "E0200",
+              "string_index": 6,
+              "literal_byte_offset": 2168,
+              "raw_hex": "06"
+            }
+          ],
+          "native_min_val": {
+            "value": 0.3,
+            "type_code": 34,
+            "literal_byte_offset": 4322,
+            "raw_hex": "333333333333d33f"
+          },
+          "native_max_val": {
+            "value": 0.4,
+            "type_code": 34,
+            "literal_byte_offset": 4314,
+            "raw_hex": "9a9999999999d93f"
+          },
+          "native_term_description": null,
+          "resolved_property_names": [
+            "crit_dam_rate"
+          ]
+        },
+        {
+          "ordinal": 1,
+          "affix_codes": [],
+          "native_min_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2806,
+            "raw_hex": "00000000"
+          },
+          "native_max_val": {
+            "value": 0.0,
+            "type_code": 18,
+            "literal_byte_offset": 2802,
+            "raw_hex": "00000000"
+          },
+          "native_term_description": null,
+          "resolved_property_names": []
+        }
+      ]
+    }
+  ],
+  "method": "Exact native term option affix IDs join independently indexed affix_prototype_data rows; each typed attr_id joins the 838-entry generated char-property map. Backward translation pointers bind native affix name/format and multi-attribute term descriptions. Retain source min/max float values and raw byte offsets.",
+  "interpretation_gate": "These are potential term stat formats and source ranges, not selected roll values or final on-character percentages. Some options list four elemental affix codes under one grouped native description. The generation consumer separately proves uniform range draw and rounding, but item ownership, selected term/affix and combat activation remain unverified.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

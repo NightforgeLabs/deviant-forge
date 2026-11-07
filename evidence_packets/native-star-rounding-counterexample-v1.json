@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "evidence_only_no_universal_star_formula",
+  "blueprint_id": 13122301,
+  "gear_id": 10122301,
+  "name": "R500 - Memento (Tier 1)",
+  "native_build_id": "26267212",
+  "native_source": {
+    "expanded_static_weapon_sample_sha256": "6d57091501e27ec8a06163cda610cec1dbe3649bcac53c96e52b5004623ddc21",
+    "gun_preset_attack": {
+      "value": 170.0,
+      "raw_hex": "00002a43",
+      "byte_offset": 33139
+    },
+    "preset_attack_radio_4star": {
+      "value": 1.15,
+      "raw_hex": "666666666666f23f",
+      "byte_offset": 12029
+    }
+  },
+  "public_source": {
+    "url": "https://oncehuman.th.gl/db/gear/10122301",
+    "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13122301",
+    "source_game_build": null,
+    "access_date": "2026-11-02",
+    "expanded_public_crosschecks_sha256": "48747355d48d555ea220d57cb0a2fd0f444ffc62328367b77bd274cd474981e1",
+    "displayed_four_star_dmg": 195
+  },
+  "naive_decimal_half_up_product": 196,
+  "conclusion": "The native ratio and attack fields do not establish a universal displayed-DMG or live-game damage equation; no product is admitted to calculator defaults."
+}

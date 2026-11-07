@@ -1,0 +1,760 @@
+{
+  "entries": {
+    "mod:boots_mod:against-all-odds-battle:13:unknown": {
+      "catalog_id": "mod:boots_mod:against-all-odds-battle",
+      "level": 13,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "source_timestamp_seconds": 14,
+      "source_sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame shoes:14:boots_mod:Against All Odds:Battle:13; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "shoes:14:boots_mod:Against All Odds:Battle:13"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "after_hit_damage_reduction_percent",
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 4,
+          "value_percent": 12,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=14s",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "after hitting a unit, for the stated duration"
+        },
+        {
+          "name": "after_damage_reduction_percent",
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 4,
+          "value_percent": 6.4,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=14s",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "after taking damage; duration and cooldown as displayed"
+        },
+        {
+          "name": "metas_kill_heal_percent",
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=14s",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "after defeating a meta"
+        },
+        {
+          "name": "max_hp_percent",
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=14s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:boots_mod:against-all-odds-general:11:unknown": {
+      "catalog_id": "mod:boots_mod:against-all-odds-general",
+      "level": 11,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "source_timestamp_seconds": 21,
+      "source_sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame shoes:21:boots_mod:Against All Odds:General:11; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "shoes:21:boots_mod:Against All Odds:General:11"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "generic_damage_percent",
+          "stat_type": "generic_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=21s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "magazine_capacity_percent",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=21s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "reload_efficiency_percent",
+          "stat_type": "reload_efficiency_percent",
+          "tier": 3,
+          "value_percent": 5.4,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=21s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=21s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:boots_mod:against-all-odds-precision:12:unknown": {
+      "catalog_id": "mod:boots_mod:against-all-odds-precision",
+      "level": 12,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "source_timestamp_seconds": 16,
+      "source_sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame shoes:16:boots_mod:Against All Odds:Precision:12; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "shoes:16:boots_mod:Against All Odds:Precision:12"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "weakspot_damage_percent",
+          "stat_type": "weakspot_damage_percent",
+          "tier": 4,
+          "value_percent": 7.2,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=16s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "weapon_damage_percent",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=16s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "magazine_capacity_percent",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=16s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=16s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:boots_mod:against-all-odds-violent:14:unknown": {
+      "catalog_id": "mod:boots_mod:against-all-odds-violent",
+      "level": 14,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "source_timestamp_seconds": 7,
+      "source_sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame shoes:7:boots_mod:Against All Odds:Violent:14; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "shoes:7:boots_mod:Against All Odds:Violent:14"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "crit_damage_percent",
+          "stat_type": "crit_damage_percent",
+          "tier": 4,
+          "value_percent": 12,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=7s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "weapon_damage_percent",
+          "stat_type": "weapon_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=7s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "magazine_capacity_percent",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=7s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4#t=7s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:boots_mod:ruthless-reaper-deviant-energy:15:unknown": {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-deviant-energy",
+      "level": 15,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+      "source_timestamp_seconds": 39,
+      "source_sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "elemental_damage_percent",
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=39s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "status_damage_percent",
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=39s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "magazine_capacity_percent",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=39s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=39s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:chest_mod:rejuvenating-deviant-energy:9:unknown": {
+      "catalog_id": "mod:chest_mod:rejuvenating-deviant-energy",
+      "level": 9,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+      "source_timestamp_seconds": 9,
+      "source_sha256": "524225c79b4cdacefdba988879864bc2e017d9aef8694f94aba07271c0745bd6",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame top:9:chest_mod:Rejuvenating:Deviant Energy:9; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "top:9:chest_mod:Rejuvenating:Deviant Energy:9"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "elemental_damage_percent",
+          "stat_type": "elemental_damage_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=9s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "status_damage_percent",
+          "stat_type": "status_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=9s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "magazine_capacity_percent",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=9s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=9s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:chest_mod:rejuvenating-lunar:10:unknown": {
+      "catalog_id": "mod:chest_mod:rejuvenating-lunar",
+      "level": 10,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+      "source_timestamp_seconds": 8,
+      "source_sha256": "524225c79b4cdacefdba988879864bc2e017d9aef8694f94aba07271c0745bd6",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame top:8:chest_mod:Rejuvenating:Lunar:10; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "top:8:chest_mod:Rejuvenating:Lunar:10"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "crit_damage_percent",
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "value_percent": 18,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=8s",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "low HP"
+        },
+        {
+          "name": "weapon_damage_percent",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=8s",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "low HP"
+        },
+        {
+          "name": "deviant_damage_reduction_percent",
+          "stat_type": "deviant_damage_reduction_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=8s",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "low HP"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=8s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:chest_mod:rejuvenating-violent:15:unknown": {
+      "catalog_id": "mod:chest_mod:rejuvenating-violent",
+      "level": 15,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+      "source_timestamp_seconds": 4,
+      "source_sha256": "524225c79b4cdacefdba988879864bc2e017d9aef8694f94aba07271c0745bd6",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame top:4:chest_mod:Rejuvenating:Violent:15; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "top:4:chest_mod:Rejuvenating:Violent:15"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "crit_damage_percent",
+          "stat_type": "crit_damage_percent",
+          "tier": 5,
+          "value_percent": 15,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=4s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "weapon_damage_percent",
+          "stat_type": "weapon_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=4s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "magazine_capacity_percent",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=4s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4#t=4s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:gloves_mod:elemental-overload-deviant-energy:17:unknown": {
+      "catalog_id": "mod:gloves_mod:elemental-overload-deviant-energy",
+      "level": 17,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+      "source_timestamp_seconds": 33,
+      "source_sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame tour:33:gloves_mod:Elemental Overload:Deviant Energy:17; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "elemental_damage_percent",
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=33s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "status_damage_percent",
+          "stat_type": "status_damage_percent",
+          "tier": 5,
+          "value_percent": 6,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=33s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "magazine_capacity_percent",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 5,
+          "value_percent": 12,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=33s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=33s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:helmet_mod:deviation-expert-lunar:10:unknown": {
+      "catalog_id": "mod:helmet_mod:deviation-expert-lunar",
+      "level": 10,
+      "source_frame": "/home/dv/Pictures/screenshot-2026-11-01_02-40-19.png",
+      "source_media": "/home/dv/Pictures/screenshot-2026-11-01_02-40-19.png",
+      "source_timestamp_seconds": null,
+      "source_sha256": "f6fe8e64625709bf0f8405c799119f72813a46c25c42f0c131e641affaae2ba1",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_screenshot helmet_old:image:helmet_mod:Deviation Expert:Lunar:10; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "helmet_old:image:helmet_mod:Deviation Expert:Lunar:10",
+        "tour:20:helmet_mod:Deviation Expert:Lunar:10"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "crit_damage_percent",
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "value_percent": 18,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Pictures/screenshot-2026-11-01_02-40-19.png",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "low HP"
+        },
+        {
+          "name": "weapon_damage_percent",
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Pictures/screenshot-2026-11-01_02-40-19.png",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "low HP"
+        },
+        {
+          "name": "deviant_damage_reduction_percent",
+          "stat_type": "deviant_damage_reduction_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Pictures/screenshot-2026-11-01_02-40-19.png",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "low HP"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Pictures/screenshot-2026-11-01_02-40-19.png",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:helmet_mod:deviation-expert-lunar-deviant-energy:10:unknown": {
+      "catalog_id": "mod:helmet_mod:deviation-expert-lunar-deviant-energy",
+      "level": 10,
+      "source_frame": "/home/dv/Pictures/screenshot-2026-11-01_02-40-39.png",
+      "source_media": "/home/dv/Pictures/screenshot-2026-11-01_02-40-39.png",
+      "source_timestamp_seconds": null,
+      "source_sha256": "b0583fb24e54342fa52f1af04d4cb9d30ebc6f2f99474025a858c20448917b1c",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_screenshot helmet_new:image:helmet_mod:Deviation Expert:Lunar Deviant Energy:10; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "helmet_new:image:helmet_mod:Deviation Expert:Lunar Deviant Energy:10"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "elemental_damage_percent",
+          "stat_type": "elemental_damage_percent",
+          "tier": 3,
+          "value_percent": 9.6,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Pictures/screenshot-2026-11-01_02-40-39.png",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "low HP"
+        },
+        {
+          "name": "status_damage_percent",
+          "stat_type": "status_damage_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Pictures/screenshot-2026-11-01_02-40-39.png",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "low HP"
+        },
+        {
+          "name": "deviant_damage_reduction_percent",
+          "stat_type": "deviant_damage_reduction_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Pictures/screenshot-2026-11-01_02-40-39.png",
+          "source_status": "directly observed variant and level; game build version unknown",
+          "condition": "low HP"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Pictures/screenshot-2026-11-01_02-40-39.png",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:mask_mod:thunderclap-deviant-energy:17:unknown": {
+      "catalog_id": "mod:mask_mod:thunderclap-deviant-energy",
+      "level": 17,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+      "source_timestamp_seconds": 28,
+      "source_sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame tour:28:mask_mod:Thunderclap:Deviant Energy:17; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "tour:28:mask_mod:Thunderclap:Deviant Energy:17"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "elemental_damage_percent",
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=28s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "status_damage_percent",
+          "stat_type": "status_damage_percent",
+          "tier": 5,
+          "value_percent": 6,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=28s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "magazine_capacity_percent",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 5,
+          "value_percent": 12,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=28s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=28s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    },
+    "mod:pants_mod:elemental-resonance-deviant-energy-current:15:unknown": {
+      "catalog_id": "mod:pants_mod:elemental-resonance-deviant-energy-current",
+      "level": 15,
+      "source_frame": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+      "source_media": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+      "source_timestamp_seconds": 50,
+      "source_sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+      "recorded_at": "2026-11-01",
+      "evidence_context": "exact held_video_frame tour:50:pants_mod:Elemental Resonance:Deviant Energy:15; game build version unknown",
+      "evidence_status": "direct source observation; exact variant and level; game build version unknown",
+      "source_refs": [
+        "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15"
+      ],
+      "shiny_status": "unknown",
+      "attributes": [
+        {
+          "name": "elemental_damage_percent",
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=50s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "status_damage_percent",
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=50s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "magazine_capacity_percent",
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=50s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        },
+        {
+          "name": "all_damage_boost_percent",
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "unit": "percent",
+          "direction": "increase",
+          "source": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4#t=50s",
+          "source_status": "directly observed variant and level; game build version unknown"
+        }
+      ]
+    }
+  },
+  "source_packet": "evidence_packets/suffix-candidate-v3.json",
+  "ownership_inferred": false
+}

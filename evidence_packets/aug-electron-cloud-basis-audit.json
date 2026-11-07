@@ -1,0 +1,47 @@
+{
+  "catalog_id": "weapon:aug-electron-cloud",
+  "audited_at": "2026-11-01",
+  "scope": "Current published reference for a newly crafted AUG; no player ownership or equipped build inferred",
+  "identity": {
+    "blueprint_id": "13451401",
+    "craft_item_ids": ["10451401", "10451402", "10451403", "10451404", "10451405"],
+    "source": "https://oncehuman.th.gl/db/blueprints/13451401",
+    "status": "named blueprint Crafts links verified"
+  },
+  "item_pages": {
+    "tier_1_to_5_one_star_damage": [34, 53, 84, 132, 201],
+    "source_pattern": "https://wikily.gg/once-human/items/1045140{tier}/",
+    "rpm": 720,
+    "magazine": 40,
+    "status": "item-ID-anchored published values"
+  },
+  "higher_stars": {
+    "tiers_1_to_4": "THGL named gear pages publish six-star tables; installed packet stores exact cells",
+    "tier_5": "THGL named Tier 5 page was inaccessible; Wikily's public build planner shows a modeled 6-star Tier V base damage of 251, but does not supply the missing Tier 5 source table",
+    "tier_5_planner_candidate": 251,
+    "tier_5_planner_source": "https://wikily.gg/once-human/build-planner/4900/",
+    "next_action": "Obtain the exact named Tier 5 star table or a second independent source before binding stars 2–6; never interpolate"
+  },
+  "damage_unit": {
+    "status": "unresolved",
+    "source_findings": "Wikily item page labels 201 as Damage; its build planner calculates a normal hit from displayed base damage. Neither establishes that the game item-page number is independently measured per projectile across target and ammunition conditions.",
+    "scenario": "Guided Compare requires explicit assume_displayed_damage_per_projectile and projectiles_per_shot",
+    "next_action": "One controlled bare direct-hit contrast with target, ammunition, attack, mods and damage bonuses recorded would test the page-to-hit unit; do not infer from a proc total"
+  },
+  "reload_seconds": {
+    "status": "unanchored candidate, not a default",
+    "reference_seconds": 2.3,
+    "reference_score": 47,
+    "source": "https://www.oncehumandb.com/weapons/aug-electron-cloud-f3f93a61b200",
+    "reason": "The source explicitly says its recorded client stats have unconfirmed tier and calibration labels. A reload-score-to-seconds conversion is not established.",
+    "official_transform": "https://www.oncehuman.game/news/update/20250521/40780_1235763.html",
+    "next_action": "Obtain exact named crafted AUG base reload seconds, or enter a measured/explicit scenario reload time; then apply sourced Reload Efficiency separately"
+  },
+  "calibration": {
+    "status": "legacy calibration level removed; blueprint attributes remain variable",
+    "official_source": "https://www.oncehuman.game/news/update/20260121/40780_1282991.html",
+    "release_context": "AUG introduced after the January 2026 removal in the May 2026 weapon release",
+    "aug_release_source": "https://www.oncehuman.game/m/news/official/20260513/40779_1300125.html",
+    "next_action": "Keep classic calibration level at zero for this new item-page scenario; model any chosen calibration blueprint attributes as separate explicit build inputs"
+  }
+}

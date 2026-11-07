@@ -1,0 +1,2962 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-01",
+  "warning": "Candidate keyword families are extracted from a March 2026 community-catalog effect description. They are a search queue, not live mechanic bindings, and unclassified is not direct-only.",
+  "merge_order": [
+    "bindings.json",
+    "bindings-v2-delta.json.revisions",
+    "bindings-v2-delta.json.new_entries"
+  ],
+  "family_input_contract": {
+    "power_surge": [
+      "base_trigger_probability",
+      "trigger_factor_mode",
+      "status_duration",
+      "damage_coefficient",
+      "basis",
+      "damage_class",
+      "element",
+      "crit_eligibility",
+      "weakspot_eligibility"
+    ],
+    "fast_gunner": [
+      "base_trigger_probability",
+      "stack_gain_rule",
+      "stack_cap",
+      "duration_or_decay",
+      "fire_rate_effect",
+      "weapon_damage_effect"
+    ],
+    "burn": [
+      "trigger_probability_or_hit_counter",
+      "tick_interval",
+      "duration",
+      "stack_cap",
+      "damage_coefficient",
+      "basis",
+      "damage_class",
+      "element",
+      "crit_eligibility"
+    ],
+    "frost_vortex": [
+      "trigger_probability_or_hit_counter",
+      "cooldown",
+      "duration",
+      "tick_interval",
+      "damage_coefficient",
+      "basis",
+      "damage_class",
+      "center_distance_rule",
+      "construct_interactions"
+    ],
+    "unstable_bomber": [
+      "trigger_probability_or_hit_counter",
+      "delay",
+      "damage_coefficient",
+      "basis",
+      "damage_class",
+      "blast_radius",
+      "crit_eligibility",
+      "weakspot_eligibility"
+    ],
+    "bounce": [
+      "trigger_probability",
+      "per_bounce_coefficient",
+      "basis",
+      "damage_class",
+      "bounce_count",
+      "target_selection",
+      "same_target_rehit",
+      "crit_eligibility",
+      "weakspot_eligibility"
+    ],
+    "shrapnel": [
+      "trigger_probability_or_hit_counter",
+      "per_part_coefficient",
+      "basis",
+      "damage_class",
+      "hit_part_count",
+      "part_selection",
+      "crit_eligibility",
+      "weakspot_eligibility"
+    ],
+    "fortress_warfare": [
+      "activation",
+      "cooldown",
+      "duration",
+      "team_scope",
+      "buff_values",
+      "stacking_rule"
+    ],
+    "unclassified": [
+      "current_native_tooltip",
+      "unique_effect_presence",
+      "base_weapon_stats_by_tier_calibration"
+    ]
+  },
+  "counts": {
+    "catalog_total": 138,
+    "by_binding_state": {
+      "unbound": 112,
+      "v1_existing": 14,
+      "v2_new": 12
+    },
+    "by_candidate_family": {
+      "unclassified": 94,
+      "burn": 6,
+      "fortress_warfare": 7,
+      "power_surge": 10,
+      "frost_vortex": 4,
+      "shrapnel": 6,
+      "bounce": 4,
+      "fast_gunner": 4,
+      "unstable_bomber": 3
+    }
+  },
+  "rows": [
+    {
+      "catalog_id": "weapon:kam",
+      "name": "KAM",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:kam-crank",
+      "name": "KAM - Crank",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "burn"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "historical_only",
+      "required_inputs_by_family": {
+        "burn": [
+          "trigger_probability_or_hit_counter",
+          "tick_interval",
+          "duration",
+          "stack_cap",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:m416-autumn-equinox",
+      "name": "M416 - Autumn Equinox",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "fortress_warfare"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "fortress_warfare": [
+          "activation",
+          "cooldown",
+          "duration",
+          "team_scope",
+          "buff_values",
+          "stacking_rule"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:oic-8-last-carnival",
+      "name": "OIC-8 - Last Carnival",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:socr-outsider",
+      "name": "SOCR - Outsider",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:kam-abyss-glance",
+      "name": "KAM - Abyss Glance",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "frost_vortex"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "historical_only",
+      "required_inputs_by_family": {
+        "frost_vortex": [
+          "trigger_probability_or_hit_counter",
+          "cooldown",
+          "duration",
+          "tick_interval",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "center_distance_rule",
+          "construct_interactions"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:m416-silent-anabasis",
+      "name": "M416 - Silent Anabasis",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "frost_vortex"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "frost_vortex": [
+          "trigger_probability_or_hit_counter",
+          "cooldown",
+          "duration",
+          "tick_interval",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "center_distance_rule",
+          "construct_interactions"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:socr-the-last-valor",
+      "name": "SOCR - The Last Valor",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "shrapnel"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "preview_historical_only",
+      "required_inputs_by_family": {
+        "shrapnel": [
+          "trigger_probability_or_hit_counter",
+          "per_part_coefficient",
+          "basis",
+          "damage_class",
+          "hit_part_count",
+          "part_selection",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:ultra-force",
+      "name": "Ultra Force",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "fortress_warfare"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "fortress_warfare": [
+          "activation",
+          "cooldown",
+          "duration",
+          "team_scope",
+          "buff_values",
+          "stacking_rule"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:kam-pioneer",
+      "name": "KAM - Pioneer",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "shrapnel"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "shrapnel": [
+          "trigger_probability_or_hit_counter",
+          "per_part_coefficient",
+          "basis",
+          "damage_class",
+          "hit_part_count",
+          "part_selection",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:m416-scorched-earth",
+      "name": "M416 - Scorched Earth",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "burn"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "burn": [
+          "trigger_probability_or_hit_counter",
+          "tick_interval",
+          "duration",
+          "stack_cap",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:socr-sand-dancer",
+      "name": "SOCR - Sand Dancer",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:akm",
+      "name": "AKM",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:m416",
+      "name": "M416",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "fortress_warfare"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "fortress_warfare": [
+          "activation",
+          "cooldown",
+          "duration",
+          "team_scope",
+          "buff_values",
+          "stacking_rule"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:scar",
+      "name": "SCAR",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:xm8",
+      "name": "XM8",
+      "catalog_family": "assault_rifl",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:recurve-crossbow",
+      "name": "Recurve Crossbow",
+      "catalog_family": "crossbows",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:compound-bow",
+      "name": "Compound Bow",
+      "catalog_family": "crossbows",
+      "candidate_keyword_families": [
+        "fortress_warfare"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "fortress_warfare": [
+          "activation",
+          "cooldown",
+          "duration",
+          "team_scope",
+          "buff_values",
+          "stacking_rule"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:critical-pulse",
+      "name": "Critical Pulse",
+      "catalog_family": "crossbows",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "partial_official_release",
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:recurve-bow",
+      "name": "Recurve Bow",
+      "catalog_family": "crossbows",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:rustic-crossbow",
+      "name": "Rustic Crossbow",
+      "catalog_family": "crossbows",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:flamethrower",
+      "name": "Flamethrower",
+      "catalog_family": "heavy_weapon",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mgl",
+      "name": "MGL",
+      "catalog_family": "heavy_weapon",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:rpg7-rocket-launcher",
+      "name": "RPG7 Rocket Launcher",
+      "catalog_family": "heavy_weapon",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mg4-scorched-earth",
+      "name": "MG4 - Scorched Earth",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mg4-mr-squid",
+      "name": "MG4 - Mr Squid",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "bounce"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "partial_official_release_historical",
+      "required_inputs_by_family": {
+        "bounce": [
+          "trigger_probability",
+          "per_bounce_coefficient",
+          "basis",
+          "damage_class",
+          "bounce_count",
+          "target_selection",
+          "same_target_rehit",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mg4-wrath-of-hades",
+      "name": "MG4 - Wrath Of Hades",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "fast_gunner"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "fast_gunner": [
+          "base_trigger_probability",
+          "stack_gain_rule",
+          "stack_cap",
+          "duration_or_decay",
+          "fire_rate_effect",
+          "weapon_damage_effect"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:aurora-fort",
+      "name": "Aurora Fort",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:kvd-boom-boom",
+      "name": "KVD - Boom! Boom!",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "burn"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "historical_only",
+      "required_inputs_by_family": {
+        "burn": [
+          "trigger_probability_or_hit_counter",
+          "tick_interval",
+          "duration",
+          "stack_cap",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mg4-conflicting-memories",
+      "name": "MG4 - Conflicting Memories",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "shrapnel"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "preview_historical_only",
+      "required_inputs_by_family": {
+        "shrapnel": [
+          "trigger_probability_or_hit_counter",
+          "per_part_coefficient",
+          "basis",
+          "damage_class",
+          "hit_part_count",
+          "part_selection",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mg4-predator",
+      "name": "MG4 - Predator",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "fast_gunner"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "partial_official_release",
+      "required_inputs_by_family": {
+        "fast_gunner": [
+          "base_trigger_probability",
+          "stack_gain_rule",
+          "stack_cap",
+          "duration_or_decay",
+          "fire_rate_effect",
+          "weapon_damage_effect"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:kvd-icebreaker",
+      "name": "KVD - Icebreaker",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "frost_vortex"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "frost_vortex": [
+          "trigger_probability_or_hit_counter",
+          "cooldown",
+          "duration",
+          "tick_interval",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "center_distance_rule",
+          "construct_interactions"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mg4-sandstorm",
+      "name": "MG4 - Sandstorm",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:bar",
+      "name": "BAR",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mg4",
+      "name": "MG4",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:rpd",
+      "name": "RPD",
+      "catalog_family": "lmgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:crowbar",
+      "name": "Crowbar",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:frozen-northern-pike",
+      "name": "Frozen Northern Pike",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:long-axe",
+      "name": "Long Axe",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "fortress_warfare"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "fortress_warfare": [
+          "activation",
+          "cooldown",
+          "duration",
+          "team_scope",
+          "buff_values",
+          "stacking_rule"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:stun-baton",
+      "name": "Stun Baton",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:warning-sign",
+      "name": "Warning Sign",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:kukri",
+      "name": "Kukri",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:scourge",
+      "name": "Scourge",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:the-fabled-masamune",
+      "name": "The Fabled Masamune",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:baseball-bat",
+      "name": "Baseball Bat",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:camping-knife",
+      "name": "Camping Knife",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:metal-baseball-bat",
+      "name": "Metal Baseball Bat",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:military-dagger",
+      "name": "Military Dagger",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:military-shovel",
+      "name": "Military Shovel",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:northern-pike",
+      "name": "Northern Pike",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:rusted-blade",
+      "name": "Rusted Blade",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:short-wrench",
+      "name": "Short Wrench",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:wrench",
+      "name": "Wrench",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:broken-bottle",
+      "name": "Broken Bottle",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:fine-dagger",
+      "name": "Fine Dagger",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:fine-steel-pipe",
+      "name": "Fine Steel Pipe",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:machete",
+      "name": "Machete",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:old-baseball-bat",
+      "name": "Old Baseball Bat",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:old-machete",
+      "name": "Old Machete",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:stealthblade",
+      "name": "Stealthblade",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:steel-pipe",
+      "name": "Steel Pipe",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:torch",
+      "name": "Torch",
+      "catalog_family": "melee",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:de-50-wildfire",
+      "name": "DE.50 - Wildfire",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:g17-dusty",
+      "name": "G17 - Dusty",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "shrapnel"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "preview_historical_only",
+      "required_inputs_by_family": {
+        "shrapnel": [
+          "trigger_probability_or_hit_counter",
+          "per_part_coefficient",
+          "basis",
+          "damage_class",
+          "hit_part_count",
+          "part_selection",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:r500-hammerhead-shark",
+      "name": "R500 - Hammerhead Shark",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "historical_only",
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:r500-interfade",
+      "name": "R500 - Interfade",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:de-50-jaws",
+      "name": "DE.50 - Jaws",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unstable_bomber"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unstable_bomber": [
+          "trigger_probability_or_hit_counter",
+          "delay",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "blast_radius",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:g17-cash-only",
+      "name": "G17 - Cash Only",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:g17-hazardous-object",
+      "name": "G17 - Hazardous Object",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "partial_official_release",
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:r500-memento",
+      "name": "R500 - Memento",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "fast_gunner"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "partial_mixed_release_preview",
+      "required_inputs_by_family": {
+        "fast_gunner": [
+          "base_trigger_probability",
+          "stack_gain_rule",
+          "stack_cap",
+          "duration_or_decay",
+          "fire_rate_effect",
+          "weapon_damage_effect"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:de-50-goshawk",
+      "name": "DE.50 - Goshawk",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:r500-hunter",
+      "name": "R500 - Hunter",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:de-50",
+      "name": "DE.50",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:fate-of-the-mystic",
+      "name": "Fate of the Mystic",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:flare-gun",
+      "name": "Flare Gun",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:glock",
+      "name": "Glock",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:r500",
+      "name": "R500",
+      "catalog_family": "pistol",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:acs12-netherworld",
+      "name": "ACS12 - Netherworld",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "fast_gunner"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "fast_gunner": [
+          "base_trigger_probability",
+          "stack_gain_rule",
+          "stack_cap",
+          "duration_or_decay",
+          "fire_rate_effect",
+          "weapon_damage_effect"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:db12-backfire",
+      "name": "DB12 - Backfire",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:dbsg-dual-fury",
+      "name": "DBSG - Dual Fury",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:dual-fury",
+      "name": "Dual Fury",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "burn"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "burn": [
+          "trigger_probability_or_hit_counter",
+          "tick_interval",
+          "duration",
+          "stack_cap",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:old-huntsman",
+      "name": "Old Huntsman",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:acs12-corrosion",
+      "name": "ACS12 - Corrosion",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:acs12-pyroclasm-starter",
+      "name": "ACS12 - Pyroclasm Starter",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "burn"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "partial_preview_numbers",
+      "required_inputs_by_family": {
+        "burn": [
+          "trigger_probability_or_hit_counter",
+          "tick_interval",
+          "duration",
+          "stack_cap",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:db12-raining-cash",
+      "name": "DB12 - Raining Cash",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "fortress_warfare"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "fortress_warfare": [
+          "activation",
+          "cooldown",
+          "duration",
+          "team_scope",
+          "buff_values",
+          "stacking_rule"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:dbsg-doombringer",
+      "name": "DBSG - Doombringer",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "partial_official_release",
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:dbsg-format",
+      "name": "DBSG - Format",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:dbsg-old-huntsman",
+      "name": "DBSG - Old Huntsman",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:s870-sandstorm",
+      "name": "S870 - Sandstorm",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "fortress_warfare"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "fortress_warfare": [
+          "activation",
+          "cooldown",
+          "duration",
+          "team_scope",
+          "buff_values",
+          "stacking_rule"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:aa12",
+      "name": "AA12",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:dbsg",
+      "name": "DBSG",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:dp12",
+      "name": "DP12",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:m870",
+      "name": "M870",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:morgan",
+      "name": "Morgan",
+      "catalog_family": "shotgun",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:kv-sbr-icy-rain",
+      "name": "KV-SBR - Icy Rain",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "frost_vortex"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "frost_vortex": [
+          "trigger_probability_or_hit_counter",
+          "cooldown",
+          "duration",
+          "tick_interval",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "center_distance_rule",
+          "construct_interactions"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps7-div-evo",
+      "name": "MPS7 - Div-Evo",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "shrapnel"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "shrapnel": [
+          "trigger_probability_or_hit_counter",
+          "per_part_coefficient",
+          "basis",
+          "damage_class",
+          "hit_part_count",
+          "part_selection",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:kv-sbr-little-jaws",
+      "name": "KV-SBR - Little Jaws",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unstable_bomber"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "historical_only",
+      "required_inputs_by_family": {
+        "unstable_bomber": [
+          "trigger_probability_or_hit_counter",
+          "delay",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "blast_radius",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps5-kumawink",
+      "name": "MPS5 - Kumawink",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "bounce"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "partial_official_release_historical",
+      "required_inputs_by_family": {
+        "bounce": [
+          "trigger_probability",
+          "per_bounce_coefficient",
+          "basis",
+          "damage_class",
+          "bounce_count",
+          "target_selection",
+          "same_target_rehit",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps5-primal-rage",
+      "name": "MPS5 - Primal Rage",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps7-chaos-domain",
+      "name": "MPS7 - Chaos Domain",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps7-outer-space",
+      "name": "MPS7 - Outer Space",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "power_surge"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "partial_official_release",
+      "required_inputs_by_family": {
+        "power_surge": [
+          "base_trigger_probability",
+          "trigger_factor_mode",
+          "status_duration",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:pdw90-holographic-resonance",
+      "name": "PDW90 - Holographic Resonance",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "partial_preview_numbers",
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:star-vortex",
+      "name": "Star Vortex",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:tec9-additional-rules",
+      "name": "TEC9 - Additional Rules",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "partial_preview_numbers",
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps5-blue-tiger",
+      "name": "MPS5 - Blue Tiger",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "bounce"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "partial_official_release_historical",
+      "required_inputs_by_family": {
+        "bounce": [
+          "trigger_probability",
+          "per_bounce_coefficient",
+          "basis",
+          "damage_class",
+          "bounce_count",
+          "target_selection",
+          "same_target_rehit",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps7-focus",
+      "name": "MPS7 - Focus",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps7-urban-ninja",
+      "name": "MPS7 - Urban Ninja",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:kv-sbr",
+      "name": "KV-SBR",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps5",
+      "name": "MPS5",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mps7",
+      "name": "MPS7",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:nail-gun",
+      "name": "Nail Gun",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:p90",
+      "name": "P90",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:tec9",
+      "name": "TEC9",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:the-trial-of-the-mystic",
+      "name": "The Trial of the Mystic",
+      "catalog_family": "smgs",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:sn700",
+      "name": "SN700",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:aws-338-black-panther",
+      "name": "AWS.338 - Black Panther",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "shrapnel"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "shrapnel": [
+          "trigger_probability_or_hit_counter",
+          "per_part_coefficient",
+          "basis",
+          "damage_class",
+          "hit_part_count",
+          "part_selection",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:sn700-gulped-lore",
+      "name": "SN700 - Gulped Lore",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unstable_bomber"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "partial_official_release_historical",
+      "required_inputs_by_family": {
+        "unstable_bomber": [
+          "trigger_probability_or_hit_counter",
+          "delay",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "blast_radius",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:sr2000-die-another-day",
+      "name": "SR2000 - Die Another Day",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:aws-338-bullseye",
+      "name": "AWS.338 - Bullseye",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:ebr-14-octopus-grilled-rings",
+      "name": "EBR-14 - Octopus! Grilled Rings!",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:hamr-brahminy",
+      "name": "HAMR - Brahminy",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "bounce"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "partial_official_release_historical",
+      "required_inputs_by_family": {
+        "bounce": [
+          "trigger_probability",
+          "per_bounce_coefficient",
+          "basis",
+          "damage_class",
+          "bounce_count",
+          "target_selection",
+          "same_target_rehit",
+          "crit_eligibility",
+          "weakspot_eligibility"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:hamr-hannya",
+      "name": "HAMR - Hannya",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:sks-pathfinder",
+      "name": "SKS - Pathfinder",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "partial_preview_numbers",
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:hamr-crumble",
+      "name": "HAMR - Crumble",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "burn"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "burn": [
+          "trigger_probability_or_hit_counter",
+          "tick_interval",
+          "duration",
+          "stack_cap",
+          "damage_coefficient",
+          "basis",
+          "damage_class",
+          "element",
+          "crit_eligibility"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:sn700-dark-snowflake",
+      "name": "SN700 - Dark Snowflake",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:sr2000-jungle-camouflage",
+      "name": "SR2000 - Jungle Camouflage",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:awm",
+      "name": "AWM",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:m82a1",
+      "name": "M82A1",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:mk14",
+      "name": "MK14",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:sks",
+      "name": "SKS",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:wa2000",
+      "name": "WA2000",
+      "catalog_family": "sniper_rifles",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:socr-cosmic-visitor",
+      "name": "SOCR - Cosmic Visitor",
+      "catalog_family": "Frost Vortex / Ice Spear",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v1_existing",
+      "binding_status": "partial_official_release",
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:aug-electron-cloud",
+      "name": "AUG - Electron Cloud",
+      "catalog_family": "Power Surge / Shock",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "partial_preview_numbers",
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:compound-bow-the-burden-of-betrayal",
+      "name": "Compound Bow - The Burden of Betrayal",
+      "catalog_family": "Bounce / Echo",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "v2_new",
+      "binding_status": "partial_preview_numbers",
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:pyroclasm-starter",
+      "name": "Pyroclasm Starter",
+      "catalog_family": "Burn / Blaze status",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:pathfinder",
+      "name": "Pathfinder",
+      "catalog_family": "Frost charged status",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:sn700-finale",
+      "name": "SN700 - Finale",
+      "catalog_family": "Shrapnel",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    },
+    {
+      "catalog_id": "weapon:qbj97-fiery-trees-and-silver-flowers",
+      "name": "QBJ97 - Fiery Trees and Silver Flowers",
+      "catalog_family": "Unstable Bomber",
+      "candidate_keyword_families": [
+        "unclassified"
+      ],
+      "candidate_basis": "historical_catalog_prose_not_executable",
+      "binding_state": "unbound",
+      "binding_status": null,
+      "required_inputs_by_family": {
+        "unclassified": [
+          "current_native_tooltip",
+          "unique_effect_presence",
+          "base_weapon_stats_by_tier_calibration"
+        ]
+      },
+      "next_evidence": "official_release_search_then_current_native_tooltip_and_crafted_weapon_stats"
+    }
+  ]
+}

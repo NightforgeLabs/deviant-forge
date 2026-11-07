@@ -1,0 +1,221 @@
+{
+  "entries": [
+    {
+      "id": "mod:helmet_mod:mag-expansion-deviant-energy",
+      "kind": "mod",
+      "name": "Mag Expansion",
+      "display_name": "Mag Expansion <Deviant Energy>",
+      "slot": "helmet_mod",
+      "tree": "Mag Expansion",
+      "variant": "Deviant Energy",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Entry-specific drop levels unverified; official Field Guide uses Lv. 1\u201317.",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Screenshot verifies family, suffix glyph, level and rarity only; core effect and rolled attributes unverified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "shiny transformation",
+        "scenario-dependent availability"
+      ],
+      "acquisition": {
+        "method": "dungeon/game mode or Mod Dust crate",
+        "exact_entry_path": null,
+        "source": "official_mods"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "current Field Guide identity confirmed; effect tooltip unavailable",
+      "source": "user_supplied_game_screenshot_2026-10-25"
+    },
+    {
+      "id": "mod:helmet_mod:mag-expansion-precision",
+      "kind": "mod",
+      "name": "Mag Expansion",
+      "display_name": "Mag Expansion <Precision>",
+      "slot": "helmet_mod",
+      "tree": "Mag Expansion",
+      "variant": "Precision",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Entry-specific drop levels unverified; official Field Guide uses Lv. 1\u201317.",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Screenshot verifies family, suffix glyph, level and rarity only; core effect and rolled attributes unverified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "shiny transformation",
+        "scenario-dependent availability"
+      ],
+      "acquisition": {
+        "method": "dungeon/game mode or Mod Dust crate",
+        "exact_entry_path": null,
+        "source": "official_mods"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "current Field Guide identity confirmed; effect tooltip unavailable",
+      "source": "user_supplied_game_screenshot_2026-10-25"
+    },
+    {
+      "id": "mod:helmet_mod:mag-expansion-violent",
+      "kind": "mod",
+      "name": "Mag Expansion",
+      "display_name": "Mag Expansion <Violent>",
+      "slot": "helmet_mod",
+      "tree": "Mag Expansion",
+      "variant": "Violent",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Entry-specific drop levels unverified; official Field Guide uses Lv. 1\u201317.",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Screenshot verifies family, suffix glyph, level and rarity only; core effect and rolled attributes unverified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "shiny transformation",
+        "scenario-dependent availability"
+      ],
+      "acquisition": {
+        "method": "dungeon/game mode or Mod Dust crate",
+        "exact_entry_path": null,
+        "source": "official_mods"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "current Field Guide identity confirmed; effect tooltip unavailable",
+      "source": "user_supplied_game_screenshot_2026-10-25"
+    },
+    {
+      "id": "mod:helmet_mod:mag-expansion-survival",
+      "kind": "mod",
+      "name": "Mag Expansion",
+      "display_name": "Mag Expansion <Survival>",
+      "slot": "helmet_mod",
+      "tree": "Mag Expansion",
+      "variant": "Survival",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Entry-specific drop levels unverified; official Field Guide uses Lv. 1\u201317.",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Screenshot verifies family, suffix glyph, level and rarity only; core effect and rolled attributes unverified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "shiny transformation",
+        "scenario-dependent availability"
+      ],
+      "acquisition": {
+        "method": "dungeon/game mode or Mod Dust crate",
+        "exact_entry_path": null,
+        "source": "official_mods"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "current Field Guide identity confirmed; effect tooltip unavailable",
+      "source": "user_supplied_game_screenshot_2026-10-25"
+    },
+    {
+      "id": "mod:helmet_mod:mag-expansion-general",
+      "kind": "mod",
+      "name": "Mag Expansion",
+      "display_name": "Mag Expansion <General>",
+      "slot": "helmet_mod",
+      "tree": "Mag Expansion",
+      "variant": "General",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Entry-specific drop levels unverified; official Field Guide uses Lv. 1\u201317.",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Screenshot verifies family, suffix glyph, level and rarity only; core effect and rolled attributes unverified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "shiny transformation",
+        "scenario-dependent availability"
+      ],
+      "acquisition": {
+        "method": "dungeon/game mode or Mod Dust crate",
+        "exact_entry_path": null,
+        "source": "official_mods"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "current Field Guide identity confirmed; effect tooltip unavailable",
+      "source": "user_supplied_game_screenshot_2026-10-25"
+    },
+    {
+      "id": "mod:helmet_mod:elemental-havoc-violent",
+      "kind": "mod",
+      "name": "Elemental Havoc",
+      "display_name": "Elemental Havoc <Violent>",
+      "slot": "helmet_mod",
+      "tree": "Elemental Havoc",
+      "variant": "Violent",
+      "rarity": null,
+      "valid_levels": [
+        1,
+        17
+      ],
+      "level_availability": "Entry-specific drop levels unverified; official Field Guide uses Lv. 1\u201317.",
+      "primary_effect": null,
+      "structured_effects": [],
+      "effect_parse_complete": false,
+      "activation_conditions": [],
+      "stacking_rule": "unknown",
+      "effect_scope": "Screenshot verifies family, suffix glyph, level and rarity only; core effect and rolled attributes unverified.",
+      "attribute_names": null,
+      "attribute_values_by_level": {},
+      "variable_fields": [
+        "shiny transformation",
+        "scenario-dependent availability"
+      ],
+      "acquisition": {
+        "method": "dungeon/game mode or Mod Dust crate",
+        "exact_entry_path": null,
+        "source": "official_mods"
+      },
+      "image_url": null,
+      "source_url": null,
+      "data_status": "current Field Guide identity confirmed; effect tooltip unavailable",
+      "source": "user_supplied_game_screenshot_2026-10-25"
+    }
+  ],
+  "evidence": "Six user-supplied Helmet Field Guide screenshots, 2026-10-25; no effect or roll inference."
+}

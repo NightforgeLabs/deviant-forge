@@ -1,0 +1,125 @@
+{
+  "build_id": "26267212",
+  "source_sha256": {
+    "native_mod_item_links.json": "91dc49a443f420a7496ddbbc369a53d103395d1e2a3e67d061bc17fbb74fb9bd",
+    "native_mod_property_records.json": "98c12b8887af00b185edfdf3ff6f69e9874f604f94015e977295d70e6e8ba782",
+    "native_mod_main_entry_groups.json": "4db0d4055d941439f79cd8581aa6dfdf30c1a93ada18f63f6b47b3036cb3f46c",
+    "native_mod_frame_labels.json": "9712fea1fa68302ce583b867f06c78d84c96e7477d5fac282a5ed8585e3c701b",
+    "native_mod_entry_source_records.json": "a7a0bf27341c024f4911bf85a50f9d764e75038c94a564f9226d6c39c6de05f4"
+  },
+  "item_link": {
+    "item_id": 19500811,
+    "mod_code": 2400811,
+    "index_tail_offset": 29696,
+    "row_start_offset": 6443,
+    "mod_code_byte_offset": 6445,
+    "mod_code_raw_hex": "abc49201"
+  },
+  "mod_property_row": {
+    "mod_code": 2400811,
+    "key_byte_offset": 165180,
+    "body_bounds": [
+      120919,
+      120959
+    ],
+    "selected_fields": {
+      "item_no": 19500811,
+      "main_entry_no": 9318,
+      "frame": 26,
+      "is_shiny_mod": 0,
+      "shiny_replace_mod_code": 2410208,
+      "mode_component_id": 19000027
+    },
+    "english_name": {
+      "source_string": "精准充能<御空>_$S@TIDS$_39o6|0",
+      "source_core_text": "精准充能<御空>",
+      "translation_key": "精准充能<御空>",
+      "key_match_mode": "exact_source_text_without_tid_suffix",
+      "english_text": "Precision Charge <Aero>",
+      "native_key_string_index": 223394,
+      "english_value_string_index": 223395,
+      "map_pair_byte_offset": 20475443,
+      "map_pair_raw_hex": "a2d10da3d10d"
+    }
+  },
+  "main_entry_group": {
+    "key": 9318,
+    "member": {
+      "mod_code": 2400811,
+      "byte_offset": 4394,
+      "raw_hex": "abc49201"
+    },
+    "member_count": 22
+  },
+  "frame": {
+    "code": 26,
+    "native_name": "御空_$S@TIDS$_39o9|0",
+    "sub_entry_item_no": [
+      2601,
+      2602,
+      7405,
+      5101
+    ],
+    "activation_mapping_pointer": {
+      "value": 342,
+      "byte_offset": 2180,
+      "raw_hex": "d602"
+    },
+    "activation_mapping_target_offset": 1535,
+    "activation_mapping_target_hex": "0700"
+  },
+  "name_matched_entries_only": [
+    {
+      "entry_id": 19289,
+      "buff_id": 589318000
+    },
+    {
+      "entry_id": 58166,
+      "buff_id": 589318000
+    }
+  ],
+  "published_layout_candidate": {
+    "slot": "pants",
+    "suffix": "Aero",
+    "rows": [
+      "aero_weapon_dmg",
+      "aero_crit_dmg",
+      "dmg_against_enemies",
+      "hp"
+    ],
+    "source_url": "https://oncehuman.th.gl/db/mods/mod_9311"
+  },
+  "weapon_label_collision": {
+    "D0102": {
+      "attr_id": "D01",
+      "property": "attack"
+    },
+    "E4200": {
+      "attr_id": "E42",
+      "property": "attack_type_dam_add_rate_remote"
+    },
+    "same_english_format": "Weapon DMG +{:.1%}"
+  },
+  "candidate_buff_graph": {
+    "entry_index": 48316,
+    "entry_id": 2243682828,
+    "archive_offset": 205006836,
+    "stored_size": 2053,
+    "unpacked_size": 4164,
+    "pyc_sha256": "870a3baacbf70b21caeb98536be79970890b5f5361ae50c8e1eb2411ac2637d8",
+    "literal_sha256": "2ff215387c0122f98f745ac4c515dace0f76f36b35dcf3c562452689648fb9fb",
+    "literal_size": 3893,
+    "candidate_status": "name_matched_entry_buff_only; main_entry_no_to_entry_id_fk_unproven",
+    "game_code_executed": false,
+    "installed_files_modified": false
+  },
+  "limits": [
+    "No captured foreign key links main_entry_no 9318 to name-matched entry 19289 or 58166.",
+    "Frame-26 sub_entry_item_no values are not proven affix IDs or selected rolls.",
+    "No exact native affix code D0102/E4200 attaches to item 19500811 in these rows.",
+    "Aero badge/frame 26 is not a stored item rank or Field Guide level.",
+    "No activation coefficient or damage vector is source-backed."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

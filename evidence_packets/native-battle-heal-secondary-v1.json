@@ -1,0 +1,2278 @@
+{
+  "installed_build_id": "26267212",
+  "buff_id": 581902100,
+  "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_buff_secondary_captures/buff_581902100_1.pyc",
+  "pyc_sha256": "f354778f4e4ca6eac762e8e7b307c2f71da1a00b1d2895cc2636ef1c19c4afd3",
+  "literal_sha256": "b5e48e9dbeccbddbb4c3edbbc2e5096d2b8043be29c7e517bdf31d29564f3a72",
+  "node_map_literal_offset": 2833,
+  "schema_descriptor_literal_offset": 1903,
+  "schema_field_count": 38,
+  "optional_field_count": 37,
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "NodeBuffNone",
+      "node_record_literal_offset": 2032,
+      "wrapper_literal_offset": 1999,
+      "params": {
+        "literal_offset": 1986,
+        "marker_hex": "0xd6",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 1981,
+        "optional_mask_hex": "0000000000",
+        "fields": {
+          "effect_index": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 1990,
+            "raw_hex": "00"
+          }
+        },
+        "record_end_literal_offset": 1991
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2011,
+          "schema_literal_offset": 1858,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "none_task_out",
+              "type_code": 11,
+              "string_index": 49
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "none_task_out",
+              "pointer": {
+                "body_relative": 156,
+                "value_byte_offset": 2013,
+                "value_raw_hex": "9c01",
+                "target_literal_offset": 2005
+              },
+              "leaf": {
+                "literal_offset": 2005,
+                "prefix_hex": "270103050a0696099c010503",
+                "kind": "typed_array",
+                "element_type_code": 1,
+                "values": [
+                  5,
+                  10,
+                  6
+                ],
+                "source_strings": null,
+                "end_literal_offset": 2011,
+                "raw_hex": "270103050a06"
+              }
+            }
+          ],
+          "end_literal_offset": 2015,
+          "raw_hex": "96099c01",
+          "binding_status": "decoded"
+        },
+        "in_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 1862,
+          "schema_literal_offset": 1858,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "none_task_out",
+              "type_code": 11,
+              "string_index": 49
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "none_task_out",
+              "pointer": {
+                "body_relative": 6,
+                "value_byte_offset": 1864,
+                "value_raw_hex": "06",
+                "target_literal_offset": 1855
+              },
+              "leaf": {
+                "literal_offset": 1855,
+                "prefix_hex": "0700310100310b9609061820",
+                "kind": "empty_object",
+                "end_literal_offset": 1857,
+                "raw_hex": "0700"
+              }
+            }
+          ],
+          "end_literal_offset": 1865,
+          "raw_hex": "960906",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 17,
+      "node_type": "NodeGetFloatAttr",
+      "node_record_literal_offset": 2075,
+      "wrapper_literal_offset": 2069,
+      "params": {
+        "literal_offset": 2056,
+        "marker_hex": "0x96",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2058,
+        "optional_mask_hex": "0200000200",
+        "fields": {
+          "attr_name": {
+            "kind": 5,
+            "value": 97,
+            "byte_offset": 2063,
+            "raw_hex": "61",
+            "string": "max_hp"
+          },
+          "percent": {
+            "kind": 18,
+            "value": 100.0,
+            "byte_offset": 2064,
+            "raw_hex": "0000c842"
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 17,
+            "byte_offset": 2068,
+            "raw_hex": "11"
+          }
+        },
+        "record_end_literal_offset": 2069
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2051,
+          "schema_literal_offset": 2047,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "utility",
+              "type_code": 11,
+              "string_index": 8
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "utility",
+              "pointer": {
+                "body_relative": 193,
+                "value_byte_offset": 2054,
+                "value_raw_hex": "c101",
+                "target_literal_offset": 2042
+              },
+              "leaf": {
+                "literal_offset": 2042,
+                "prefix_hex": "2705012f080100080b96c601",
+                "kind": "typed_array",
+                "element_type_code": 5,
+                "values": [
+                  47
+                ],
+                "source_strings": [
+                  "data"
+                ],
+                "end_literal_offset": 2046,
+                "raw_hex": "2705012f"
+              }
+            }
+          ],
+          "end_literal_offset": 2056,
+          "raw_hex": "96c601c101",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 1,
+      "node_type": "NodeGetHolderUid",
+      "node_record_literal_offset": 2105,
+      "wrapper_literal_offset": 2099,
+      "params": {
+        "literal_offset": 2094,
+        "marker_hex": "0xd6",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 1981,
+        "optional_mask_hex": "0000000000",
+        "fields": {
+          "effect_index": {
+            "kind": 1,
+            "value": 1,
+            "byte_offset": 2098,
+            "raw_hex": "01"
+          }
+        },
+        "record_end_literal_offset": 2099
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2089,
+          "schema_literal_offset": 2047,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "utility",
+              "type_code": 11,
+              "string_index": 8
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "utility",
+              "pointer": {
+                "body_relative": 236,
+                "value_byte_offset": 2092,
+                "value_raw_hex": "ec01",
+                "target_literal_offset": 2085
+              },
+              "leaf": {
+                "literal_offset": 2085,
+                "prefix_hex": "2705013096c601ec01d63684",
+                "kind": "typed_array",
+                "element_type_code": 5,
+                "values": [
+                  48
+                ],
+                "source_strings": [
+                  "holder_uid"
+                ],
+                "end_literal_offset": 2089,
+                "raw_hex": "27050130"
+              }
+            }
+          ],
+          "end_literal_offset": 2094,
+          "raw_hex": "96c601ec01",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 19,
+      "node_type": "NodeBBLoadFloatData",
+      "node_record_literal_offset": 2133,
+      "wrapper_literal_offset": 2127,
+      "params": {
+        "literal_offset": 2120,
+        "marker_hex": "0xd6",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2115,
+        "optional_mask_hex": "0800008000",
+        "fields": {
+          "bb_key": {
+            "kind": 5,
+            "value": 58,
+            "byte_offset": 2124,
+            "raw_hex": "3a",
+            "string": "suck_it_all"
+          },
+          "scope": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 2125,
+            "raw_hex": "00"
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 19,
+            "byte_offset": 2126,
+            "raw_hex": "13"
+          }
+        },
+        "record_end_literal_offset": 2127
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2051,
+          "schema_literal_offset": 2047,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "utility",
+              "type_code": 11,
+              "string_index": 8
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "utility",
+              "pointer": {
+                "body_relative": 193,
+                "value_byte_offset": 2054,
+                "value_raw_hex": "c101",
+                "target_literal_offset": 2042
+              },
+              "leaf": {
+                "literal_offset": 2042,
+                "prefix_hex": "2705012f080100080b96c601",
+                "kind": "typed_array",
+                "element_type_code": 5,
+                "values": [
+                  47
+                ],
+                "source_strings": [
+                  "data"
+                ],
+                "end_literal_offset": 2046,
+                "raw_hex": "2705012f"
+              }
+            }
+          ],
+          "end_literal_offset": 2056,
+          "raw_hex": "96c601c101",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 3,
+      "node_type": "NodeDispelBuff",
+      "node_record_literal_offset": 2186,
+      "wrapper_literal_offset": 2180,
+      "params": {
+        "literal_offset": 2165,
+        "marker_hex": "0x96",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2167,
+        "optional_mask_hex": "00f8110000",
+        "fields": {
+          "degrade": {
+            "kind": 3,
+            "value": 0,
+            "byte_offset": 2172,
+            "raw_hex": "00"
+          },
+          "dispel_buff_tag_list": {
+            "kind": 11,
+            "value": 6,
+            "byte_offset": 2173,
+            "raw_hex": "06",
+            "target_literal_offset": 1855
+          },
+          "dispel_debuff_num": {
+            "kind": 1,
+            "value": 1,
+            "byte_offset": 2174,
+            "raw_hex": "01"
+          },
+          "dispel_id_list": {
+            "kind": 11,
+            "value": 6,
+            "byte_offset": 2175,
+            "raw_hex": "06",
+            "target_literal_offset": 1855
+          },
+          "dispel_tag_list": {
+            "kind": 11,
+            "value": 6,
+            "byte_offset": 2176,
+            "raw_hex": "06",
+            "target_literal_offset": 1855
+          },
+          "dispel_type": {
+            "kind": 1,
+            "value": 2,
+            "byte_offset": 2177,
+            "raw_hex": "02"
+          },
+          "match_caster_id": {
+            "kind": 3,
+            "value": 0,
+            "byte_offset": 2178,
+            "raw_hex": "00"
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 3,
+            "byte_offset": 2179,
+            "raw_hex": "03"
+          }
+        },
+        "record_end_literal_offset": 2180
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2159,
+          "schema_literal_offset": 2153,
+          "schema_flag": 1,
+          "schema_fields": [
+            {
+              "name": "heal_value",
+              "type_code": 11,
+              "string_index": 51
+            },
+            {
+              "name": "target_uid",
+              "type_code": 11,
+              "string_index": 50
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "target_uid",
+              "pointer": {
+                "body_relative": 294,
+                "value_byte_offset": 2163,
+                "value_raw_hex": "a602",
+                "target_literal_offset": 2143
+              },
+              "leaf": {
+                "literal_offset": 2143,
+                "prefix_hex": "070301010508053033320201",
+                "kind": "typed_data_link_triple",
+                "end_literal_offset": 2151,
+                "raw_hex": "0703010105080530",
+                "source_node_id": 1,
+                "source_pin": "utility",
+                "source_output_key": "holder_uid"
+              }
+            }
+          ],
+          "optional_prefix_presence_mask": 0,
+          "optional_prefix_presence_byte_offset": 2162,
+          "optional_prefix_presence_raw_hex": "00",
+          "end_literal_offset": 2165,
+          "raw_hex": "96b00200a602",
+          "binding_status": "decoded"
+        },
+        "out_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        }
+      }
+    },
+    {
+      "node_id": 5,
+      "node_type": "NodeChecker",
+      "node_record_literal_offset": 2278,
+      "wrapper_literal_offset": 2263,
+      "params": {
+        "literal_offset": 2239,
+        "marker_hex": "0xd6",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2234,
+        "optional_mask_hex": "8400e03c0e",
+        "fields": {
+          "auto_reset_trigger": {
+            "kind": 3,
+            "value": 0,
+            "byte_offset": 2243,
+            "raw_hex": "00"
+          },
+          "cd": {
+            "kind": 18,
+            "value": 0.0,
+            "byte_offset": 2244,
+            "raw_hex": "00000000"
+          },
+          "max_effect_count": {
+            "kind": 1,
+            "value": 20,
+            "byte_offset": 2248,
+            "raw_hex": "14"
+          },
+          "max_effect_times": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 2249,
+            "raw_hex": "00"
+          },
+          "max_reset_times": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 2250,
+            "raw_hex": "00"
+          },
+          "reset_cd": {
+            "kind": 18,
+            "value": 0.0,
+            "byte_offset": 2251,
+            "raw_hex": "00000000"
+          },
+          "reset_checker": {
+            "kind": 11,
+            "value": 6,
+            "byte_offset": 2255,
+            "raw_hex": "06",
+            "target_literal_offset": 1855
+          },
+          "reset_last_effect": {
+            "kind": 3,
+            "value": 1,
+            "byte_offset": 2256,
+            "raw_hex": "01"
+          },
+          "reset_op": {
+            "kind": 1,
+            "value": 1,
+            "byte_offset": 2257,
+            "raw_hex": "01"
+          },
+          "trigger_checker": {
+            "kind": 11,
+            "value": 380,
+            "byte_offset": 2258,
+            "raw_hex": "fc02",
+            "target_literal_offset": 2229
+          },
+          "trigger_once": {
+            "kind": 3,
+            "value": 0,
+            "byte_offset": 2260,
+            "raw_hex": "00"
+          },
+          "trigger_op": {
+            "kind": 1,
+            "value": 1,
+            "byte_offset": 2261,
+            "raw_hex": "01"
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 5,
+            "byte_offset": 2262,
+            "raw_hex": "05"
+          }
+        },
+        "record_end_literal_offset": 2263
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2273,
+          "schema_literal_offset": 2197,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "trigger",
+              "type_code": 11,
+              "string_index": 46
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "trigger",
+              "pointer": {
+                "body_relative": 420,
+                "value_byte_offset": 2276,
+                "value_raw_hex": "a403",
+                "target_literal_offset": 2269
+              },
+              "leaf": {
+                "literal_offset": 2269,
+                "prefix_hex": "2701010396dc02a40396ab01",
+                "kind": "typed_array",
+                "element_type_code": 1,
+                "values": [
+                  3
+                ],
+                "source_strings": null,
+                "end_literal_offset": 2273,
+                "raw_hex": "27010103"
+              }
+            }
+          ],
+          "end_literal_offset": 2278,
+          "raw_hex": "96dc02a403",
+          "binding_status": "decoded"
+        },
+        "in_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2201,
+          "schema_literal_offset": 2197,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "trigger",
+              "type_code": 11,
+              "string_index": 46
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "trigger",
+              "pointer": {
+                "body_relative": 6,
+                "value_byte_offset": 2204,
+                "value_raw_hex": "06",
+                "target_literal_offset": 1855
+              },
+              "leaf": {
+                "literal_offset": 1855,
+                "prefix_hex": "0700310100310b9609061820",
+                "kind": "empty_object",
+                "end_literal_offset": 1857,
+                "raw_hex": "0700"
+              }
+            }
+          ],
+          "end_literal_offset": 2205,
+          "raw_hex": "96dc0206",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 6,
+      "node_type": "NodeKillEvent",
+      "node_record_literal_offset": 2464,
+      "wrapper_literal_offset": 2449,
+      "params": {
+        "literal_offset": 2430,
+        "marker_hex": "0x96",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2432,
+        "optional_mask_hex": "8001601003",
+        "fields": {
+          "cd": {
+            "kind": 18,
+            "value": 0.0,
+            "byte_offset": 2437,
+            "raw_hex": "00000000"
+          },
+          "check_args": {
+            "kind": 11,
+            "value": 547,
+            "byte_offset": 2441,
+            "raw_hex": "a304",
+            "target_literal_offset": 2396
+          },
+          "max_effect_count": {
+            "kind": 1,
+            "value": 20,
+            "byte_offset": 2443,
+            "raw_hex": "14"
+          },
+          "max_effect_times": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 2444,
+            "raw_hex": "00"
+          },
+          "reset_last_effect": {
+            "kind": 3,
+            "value": 1,
+            "byte_offset": 2445,
+            "raw_hex": "01"
+          },
+          "task_checker": {
+            "kind": 5,
+            "value": 110,
+            "byte_offset": 2446,
+            "raw_hex": "6e",
+            "string": "kill_checker"
+          },
+          "trigger_checker": {
+            "kind": 11,
+            "value": 6,
+            "byte_offset": 2447,
+            "raw_hex": "06",
+            "target_literal_offset": 1855
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 6,
+            "byte_offset": 2448,
+            "raw_hex": "06"
+          }
+        },
+        "record_end_literal_offset": 2449
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2459,
+          "schema_literal_offset": 2197,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "trigger",
+              "type_code": 11,
+              "string_index": 46
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "trigger",
+              "pointer": {
+                "body_relative": 606,
+                "value_byte_offset": 2462,
+                "value_raw_hex": "de04",
+                "target_literal_offset": 2455
+              },
+              "leaf": {
+                "literal_offset": 2455,
+                "prefix_hex": "2701011996dc02de0496ab01",
+                "kind": "typed_array",
+                "element_type_code": 1,
+                "values": [
+                  25
+                ],
+                "source_strings": null,
+                "end_literal_offset": 2459,
+                "raw_hex": "27010119"
+              }
+            }
+          ],
+          "end_literal_offset": 2464,
+          "raw_hex": "96dc02de04",
+          "binding_status": "decoded"
+        },
+        "in_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2295,
+          "schema_literal_offset": 2197,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "trigger",
+              "type_code": 11,
+              "string_index": 46
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "trigger",
+              "pointer": {
+                "body_relative": 440,
+                "value_byte_offset": 2298,
+                "value_raw_hex": "b803",
+                "target_literal_offset": 2289
+              },
+              "leaf": {
+                "literal_offset": 2289,
+                "prefix_hex": "27050368676596dc02b80327",
+                "kind": "typed_array",
+                "element_type_code": 5,
+                "values": [
+                  104,
+                  103,
+                  101
+                ],
+                "source_strings": [
+                  "attacker",
+                  "victim",
+                  "hit_pos"
+                ],
+                "end_literal_offset": 2295,
+                "raw_hex": "270503686765"
+              }
+            }
+          ],
+          "end_literal_offset": 2300,
+          "raw_hex": "96dc02b803",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 7,
+      "node_type": "NodeGetTargetBBFloatData",
+      "node_record_literal_offset": 2517,
+      "wrapper_literal_offset": 2511,
+      "params": {
+        "literal_offset": 2493,
+        "marker_hex": "0x96",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2495,
+        "optional_mask_hex": "58000c0010",
+        "fields": {
+          "bb_key": {
+            "kind": 5,
+            "value": 113,
+            "byte_offset": 2500,
+            "raw_hex": "71",
+            "string": "suck_it"
+          },
+          "buff_id": {
+            "kind": 1,
+            "value": 581902000,
+            "byte_offset": 2501,
+            "raw_hex": "b0bdbc9502"
+          },
+          "buff_owner": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 2506,
+            "raw_hex": "00"
+          },
+          "get_data_type": {
+            "kind": 1,
+            "value": 1,
+            "byte_offset": 2507,
+            "raw_hex": "01"
+          },
+          "mapping_buff": {
+            "kind": 3,
+            "value": 0,
+            "byte_offset": 2508,
+            "raw_hex": "00"
+          },
+          "use_template": {
+            "kind": 3,
+            "value": 1,
+            "byte_offset": 2509,
+            "raw_hex": "01"
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 7,
+            "byte_offset": 2510,
+            "raw_hex": "07"
+          }
+        },
+        "record_end_literal_offset": 2511
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2488,
+          "schema_literal_offset": 2484,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "target_id",
+              "type_code": 11,
+              "string_index": 88
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "target_id",
+              "pointer": {
+                "body_relative": 626,
+                "value_byte_offset": 2491,
+                "value_raw_hex": "f204",
+                "target_literal_offset": 2475
+              },
+              "leaf": {
+                "literal_offset": 2475,
+                "prefix_hex": "070301080508053058010058",
+                "kind": "typed_data_link_triple",
+                "end_literal_offset": 2483,
+                "raw_hex": "0703010805080530",
+                "source_node_id": 8,
+                "source_pin": "utility",
+                "source_output_key": "holder_uid"
+              }
+            }
+          ],
+          "end_literal_offset": 2493,
+          "raw_hex": "96fb04f204",
+          "binding_status": "decoded"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2051,
+          "schema_literal_offset": 2047,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "utility",
+              "type_code": 11,
+              "string_index": 8
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "utility",
+              "pointer": {
+                "body_relative": 193,
+                "value_byte_offset": 2054,
+                "value_raw_hex": "c101",
+                "target_literal_offset": 2042
+              },
+              "leaf": {
+                "literal_offset": 2042,
+                "prefix_hex": "2705012f080100080b96c601",
+                "kind": "typed_array",
+                "element_type_code": 5,
+                "values": [
+                  47
+                ],
+                "source_strings": [
+                  "data"
+                ],
+                "end_literal_offset": 2046,
+                "raw_hex": "2705012f"
+              }
+            }
+          ],
+          "end_literal_offset": 2056,
+          "raw_hex": "96c601c101",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 8,
+      "node_type": "NodeGetHolderUid",
+      "node_record_literal_offset": 2539,
+      "wrapper_literal_offset": 2533,
+      "params": {
+        "literal_offset": 2528,
+        "marker_hex": "0xd6",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 1981,
+        "optional_mask_hex": "0000000000",
+        "fields": {
+          "effect_index": {
+            "kind": 1,
+            "value": 8,
+            "byte_offset": 2532,
+            "raw_hex": "08"
+          }
+        },
+        "record_end_literal_offset": 2533
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2089,
+          "schema_literal_offset": 2047,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "utility",
+              "type_code": 11,
+              "string_index": 8
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "utility",
+              "pointer": {
+                "body_relative": 236,
+                "value_byte_offset": 2092,
+                "value_raw_hex": "ec01",
+                "target_literal_offset": 2085
+              },
+              "leaf": {
+                "literal_offset": 2085,
+                "prefix_hex": "2705013096c601ec01d63684",
+                "kind": "typed_array",
+                "element_type_code": 5,
+                "values": [
+                  48
+                ],
+                "source_strings": [
+                  "holder_uid"
+                ],
+                "end_literal_offset": 2089,
+                "raw_hex": "27050130"
+              }
+            }
+          ],
+          "end_literal_offset": 2094,
+          "raw_hex": "96c601ec01",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 9,
+      "node_type": "NodeBBSaveFloatData",
+      "node_record_literal_offset": 2580,
+      "wrapper_literal_offset": 2574,
+      "params": {
+        "literal_offset": 2567,
+        "marker_hex": "0xd6",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2115,
+        "optional_mask_hex": "0800008000",
+        "fields": {
+          "bb_key": {
+            "kind": 5,
+            "value": 58,
+            "byte_offset": 2571,
+            "raw_hex": "3a",
+            "string": "suck_it_all"
+          },
+          "scope": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 2572,
+            "raw_hex": "00"
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 9,
+            "byte_offset": 2573,
+            "raw_hex": "09"
+          }
+        },
+        "record_end_literal_offset": 2574
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2562,
+          "schema_literal_offset": 2558,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "data",
+              "type_code": 11,
+              "string_index": 47
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "data",
+              "pointer": {
+                "body_relative": 700,
+                "value_byte_offset": 2565,
+                "value_raw_hex": "bc05",
+                "target_literal_offset": 2549
+              },
+              "leaf": {
+                "literal_offset": 2549,
+                "prefix_hex": "070301070508052f2f01002f",
+                "kind": "typed_data_link_triple",
+                "end_literal_offset": 2557,
+                "raw_hex": "070301070508052f",
+                "source_node_id": 7,
+                "source_pin": "utility",
+                "source_output_key": "data"
+              }
+            }
+          ],
+          "end_literal_offset": 2567,
+          "raw_hex": "96c505bc05",
+          "binding_status": "decoded"
+        },
+        "out_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        }
+      }
+    },
+    {
+      "node_id": 10,
+      "node_type": "NodeChecker",
+      "node_record_literal_offset": 2683,
+      "wrapper_literal_offset": 2668,
+      "params": {
+        "literal_offset": 2644,
+        "marker_hex": "0xd6",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2234,
+        "optional_mask_hex": "8400e03c0e",
+        "fields": {
+          "auto_reset_trigger": {
+            "kind": 3,
+            "value": 0,
+            "byte_offset": 2648,
+            "raw_hex": "00"
+          },
+          "cd": {
+            "kind": 18,
+            "value": 0.0,
+            "byte_offset": 2649,
+            "raw_hex": "00000000"
+          },
+          "max_effect_count": {
+            "kind": 1,
+            "value": 20,
+            "byte_offset": 2653,
+            "raw_hex": "14"
+          },
+          "max_effect_times": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 2654,
+            "raw_hex": "00"
+          },
+          "max_reset_times": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 2655,
+            "raw_hex": "00"
+          },
+          "reset_cd": {
+            "kind": 18,
+            "value": 0.0,
+            "byte_offset": 2656,
+            "raw_hex": "00000000"
+          },
+          "reset_checker": {
+            "kind": 11,
+            "value": 6,
+            "byte_offset": 2660,
+            "raw_hex": "06",
+            "target_literal_offset": 1855
+          },
+          "reset_last_effect": {
+            "kind": 3,
+            "value": 1,
+            "byte_offset": 2661,
+            "raw_hex": "01"
+          },
+          "reset_op": {
+            "kind": 1,
+            "value": 1,
+            "byte_offset": 2662,
+            "raw_hex": "01"
+          },
+          "trigger_checker": {
+            "kind": 11,
+            "value": 788,
+            "byte_offset": 2663,
+            "raw_hex": "9406",
+            "target_literal_offset": 2637
+          },
+          "trigger_once": {
+            "kind": 3,
+            "value": 0,
+            "byte_offset": 2665,
+            "raw_hex": "00"
+          },
+          "trigger_op": {
+            "kind": 1,
+            "value": 0,
+            "byte_offset": 2666,
+            "raw_hex": "00"
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 10,
+            "byte_offset": 2667,
+            "raw_hex": "0a"
+          }
+        },
+        "record_end_literal_offset": 2668
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2678,
+          "schema_literal_offset": 2197,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "trigger",
+              "type_code": 11,
+              "string_index": 46
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "trigger",
+              "pointer": {
+                "body_relative": 825,
+                "value_byte_offset": 2681,
+                "value_raw_hex": "b906",
+                "target_literal_offset": 2674
+              },
+              "leaf": {
+                "literal_offset": 2674,
+                "prefix_hex": "2701010996dc02b90696ab01",
+                "kind": "typed_array",
+                "element_type_code": 1,
+                "values": [
+                  9
+                ],
+                "source_strings": null,
+                "end_literal_offset": 2678,
+                "raw_hex": "27010109"
+              }
+            }
+          ],
+          "end_literal_offset": 2683,
+          "raw_hex": "96dc02b906",
+          "binding_status": "decoded"
+        },
+        "in_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2201,
+          "schema_literal_offset": 2197,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "trigger",
+              "type_code": 11,
+              "string_index": 46
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "trigger",
+              "pointer": {
+                "body_relative": 6,
+                "value_byte_offset": 2204,
+                "value_raw_hex": "06",
+                "target_literal_offset": 1855
+              },
+              "leaf": {
+                "literal_offset": 1855,
+                "prefix_hex": "0700310100310b9609061820",
+                "kind": "empty_object",
+                "end_literal_offset": 1857,
+                "raw_hex": "0700"
+              }
+            }
+          ],
+          "end_literal_offset": 2205,
+          "raw_hex": "96dc0206",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 25,
+      "node_type": "NodeHeal",
+      "node_record_literal_offset": 2736,
+      "wrapper_literal_offset": 2730,
+      "params": {
+        "literal_offset": 2718,
+        "marker_hex": "0x96",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2720,
+        "optional_mask_hex": "0004000000",
+        "fields": {
+          "cure_add_rate": {
+            "kind": 18,
+            "value": 100.0,
+            "byte_offset": 2725,
+            "raw_hex": "0000c842"
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 25,
+            "byte_offset": 2729,
+            "raw_hex": "19"
+          }
+        },
+        "record_end_literal_offset": 2730
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2710,
+          "schema_literal_offset": 2153,
+          "schema_flag": 1,
+          "schema_fields": [
+            {
+              "name": "heal_value",
+              "type_code": 11,
+              "string_index": 51
+            },
+            {
+              "name": "target_uid",
+              "type_code": 11,
+              "string_index": 50
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "heal_value",
+              "pointer": {
+                "body_relative": 845,
+                "value_byte_offset": 2714,
+                "value_raw_hex": "cd06",
+                "target_literal_offset": 2694
+              },
+              "leaf": {
+                "literal_offset": 2694,
+                "prefix_hex": "070301160508055b0703011a",
+                "kind": "typed_data_link_triple",
+                "end_literal_offset": 2702,
+                "raw_hex": "070301160508055b",
+                "source_node_id": 22,
+                "source_pin": "utility",
+                "source_output_key": "result"
+              }
+            },
+            {
+              "pin_name": "target_uid",
+              "pointer": {
+                "body_relative": 853,
+                "value_byte_offset": 2716,
+                "value_raw_hex": "d506",
+                "target_literal_offset": 2702
+              },
+              "leaf": {
+                "literal_offset": 2702,
+                "prefix_hex": "0703011a0508053096b00201",
+                "kind": "typed_data_link_triple",
+                "end_literal_offset": 2710,
+                "raw_hex": "0703011a05080530",
+                "source_node_id": 26,
+                "source_pin": "utility",
+                "source_output_key": "holder_uid"
+              }
+            }
+          ],
+          "optional_prefix_presence_mask": 1,
+          "optional_prefix_presence_byte_offset": 2713,
+          "optional_prefix_presence_raw_hex": "01",
+          "end_literal_offset": 2718,
+          "raw_hex": "96b00201cd06d506",
+          "binding_status": "decoded"
+        },
+        "out_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        }
+      }
+    },
+    {
+      "node_id": 26,
+      "node_type": "NodeGetHolderUid",
+      "node_record_literal_offset": 2757,
+      "wrapper_literal_offset": 2751,
+      "params": {
+        "literal_offset": 2746,
+        "marker_hex": "0xd6",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 1981,
+        "optional_mask_hex": "0000000000",
+        "fields": {
+          "effect_index": {
+            "kind": 1,
+            "value": 26,
+            "byte_offset": 2750,
+            "raw_hex": "1a"
+          }
+        },
+        "record_end_literal_offset": 2751
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2089,
+          "schema_literal_offset": 2047,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "utility",
+              "type_code": 11,
+              "string_index": 8
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "utility",
+              "pointer": {
+                "body_relative": 236,
+                "value_byte_offset": 2092,
+                "value_raw_hex": "ec01",
+                "target_literal_offset": 2085
+              },
+              "leaf": {
+                "literal_offset": 2085,
+                "prefix_hex": "2705013096c601ec01d63684",
+                "kind": "typed_array",
+                "element_type_code": 5,
+                "values": [
+                  48
+                ],
+                "source_strings": [
+                  "holder_uid"
+                ],
+                "end_literal_offset": 2089,
+                "raw_hex": "27050130"
+              }
+            }
+          ],
+          "end_literal_offset": 2094,
+          "raw_hex": "96c601ec01",
+          "binding_status": "decoded"
+        }
+      }
+    },
+    {
+      "node_id": 22,
+      "node_type": "NodeBBFloatCalculation",
+      "node_record_literal_offset": 2822,
+      "wrapper_literal_offset": 2816,
+      "params": {
+        "literal_offset": 2807,
+        "marker_hex": "0x96",
+        "schema_literal_offset": 1903,
+        "schema_field_count": 38,
+        "optional_field_count": 37,
+        "optional_mask_literal_offset": 2809,
+        "optional_mask_hex": "0000000100",
+        "fields": {
+          "operation": {
+            "kind": 1,
+            "value": 1,
+            "byte_offset": 2814,
+            "raw_hex": "01"
+          },
+          "effect_index": {
+            "kind": 1,
+            "value": 22,
+            "byte_offset": 2815,
+            "raw_hex": "16"
+          }
+        },
+        "record_end_literal_offset": 2816
+      },
+      "port_maps": {
+        "event_action": {
+          "kind": "unresolved_or_empty",
+          "literal_offset": 1853,
+          "prefix_hex": "06000700310100310b960906"
+        },
+        "in_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2791,
+          "schema_literal_offset": 2785,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "data1",
+              "type_code": 11,
+              "string_index": 94
+            },
+            {
+              "name": "data2",
+              "type_code": 11,
+              "string_index": 93
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "data1",
+              "pointer": {
+                "body_relative": 926,
+                "value_byte_offset": 2794,
+                "value_raw_hex": "9e07",
+                "target_literal_offset": 2775
+              },
+              "leaf": {
+                "literal_offset": 2775,
+                "prefix_hex": "070301110508052f5e5d0200",
+                "kind": "typed_data_link_triple",
+                "end_literal_offset": 2783,
+                "raw_hex": "070301110508052f",
+                "source_node_id": 17,
+                "source_pin": "utility",
+                "source_output_key": "data"
+              }
+            },
+            {
+              "pin_name": "data2",
+              "pointer": {
+                "body_relative": 918,
+                "value_byte_offset": 2796,
+                "value_raw_hex": "9607",
+                "target_literal_offset": 2767
+              },
+              "leaf": {
+                "literal_offset": 2767,
+                "prefix_hex": "070301130508052f07030111",
+                "kind": "typed_data_link_triple",
+                "end_literal_offset": 2775,
+                "raw_hex": "070301130508052f",
+                "source_node_id": 19,
+                "source_pin": "utility",
+                "source_output_key": "data"
+              }
+            }
+          ],
+          "end_literal_offset": 2798,
+          "raw_hex": "96a8079e079607",
+          "binding_status": "decoded"
+        },
+        "out_data_pin": {
+          "kind": "typed_pin_map",
+          "literal_offset": 2802,
+          "schema_literal_offset": 2047,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "utility",
+              "type_code": 11,
+              "string_index": 8
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "utility",
+              "pointer": {
+                "body_relative": 949,
+                "value_byte_offset": 2805,
+                "value_raw_hex": "b507",
+                "target_literal_offset": 2798
+              },
+              "leaf": {
+                "literal_offset": 2798,
+                "prefix_hex": "2705015b96c601b507963600",
+                "kind": "typed_array",
+                "element_type_code": 5,
+                "values": [
+                  91
+                ],
+                "source_strings": [
+                  "result"
+                ],
+                "end_literal_offset": 2802,
+                "raw_hex": "2705015b"
+              }
+            }
+          ],
+          "end_literal_offset": 2807,
+          "raw_hex": "96c601b507",
+          "binding_status": "decoded"
+        }
+      }
+    }
+  ],
+  "control_edges": [
+    {
+      "source": 0,
+      "target": 5,
+      "port": "none_task_out",
+      "leaf_literal_offset": 2005
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "port": "none_task_out",
+      "leaf_literal_offset": 2005
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "port": "none_task_out",
+      "leaf_literal_offset": 2005
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "port": "trigger",
+      "leaf_literal_offset": 2269
+    },
+    {
+      "source": 6,
+      "target": 25,
+      "port": "trigger",
+      "leaf_literal_offset": 2455
+    },
+    {
+      "source": 10,
+      "target": 9,
+      "port": "trigger",
+      "leaf_literal_offset": 2674
+    }
+  ],
+  "data_links": [
+    {
+      "source": 1,
+      "source_pin": "utility",
+      "source_output_key": "holder_uid",
+      "target": 3,
+      "target_pin": "target_uid",
+      "channel": "in_data_pin",
+      "leaf_literal_offset": 2143
+    },
+    {
+      "source": 8,
+      "source_pin": "utility",
+      "source_output_key": "holder_uid",
+      "target": 7,
+      "target_pin": "target_id",
+      "channel": "in_data_pin",
+      "leaf_literal_offset": 2475
+    },
+    {
+      "source": 7,
+      "source_pin": "utility",
+      "source_output_key": "data",
+      "target": 9,
+      "target_pin": "data",
+      "channel": "in_data_pin",
+      "leaf_literal_offset": 2549
+    },
+    {
+      "source": 22,
+      "source_pin": "utility",
+      "source_output_key": "result",
+      "target": 25,
+      "target_pin": "heal_value",
+      "channel": "in_data_pin",
+      "leaf_literal_offset": 2694
+    },
+    {
+      "source": 26,
+      "source_pin": "utility",
+      "source_output_key": "holder_uid",
+      "target": 25,
+      "target_pin": "target_uid",
+      "channel": "in_data_pin",
+      "leaf_literal_offset": 2702
+    },
+    {
+      "source": 17,
+      "source_pin": "utility",
+      "source_output_key": "data",
+      "target": 22,
+      "target_pin": "data1",
+      "channel": "in_data_pin",
+      "leaf_literal_offset": 2775
+    },
+    {
+      "source": 19,
+      "source_pin": "utility",
+      "source_output_key": "data",
+      "target": 22,
+      "target_pin": "data2",
+      "channel": "in_data_pin",
+      "leaf_literal_offset": 2767
+    }
+  ],
+  "checker_configurations": [
+    {
+      "node_id": 5,
+      "trigger_op": 1,
+      "checks": [
+        {
+          "type": "buff_checker",
+          "wrapper_literal_offset": 2223,
+          "params": {
+            "literal_offset": 2205,
+            "marker_hex": "0x96",
+            "schema_literal_offset": 1903,
+            "schema_field_count": 38,
+            "optional_field_count": 37,
+            "optional_mask_literal_offset": 2207,
+            "optional_mask_hex": "30020a4000",
+            "fields": {
+              "buff_id": {
+                "kind": 1,
+                "value": 581902000,
+                "byte_offset": 2212,
+                "raw_hex": "b0bdbc9502"
+              },
+              "buff_lv": {
+                "kind": 1,
+                "value": 1,
+                "byte_offset": 2217,
+                "raw_hex": "01"
+              },
+              "check_caster": {
+                "kind": 1,
+                "value": 0,
+                "byte_offset": 2218,
+                "raw_hex": "00"
+              },
+              "exist": {
+                "kind": 3,
+                "value": 0,
+                "byte_offset": 2219,
+                "raw_hex": "00"
+              },
+              "mapping_buff": {
+                "kind": 3,
+                "value": 1,
+                "byte_offset": 2220,
+                "raw_hex": "01"
+              },
+              "role": {
+                "kind": 1,
+                "value": 0,
+                "byte_offset": 2221,
+                "raw_hex": "00"
+              },
+              "effect_index": {
+                "kind": 1,
+                "value": 4,
+                "byte_offset": 2222,
+                "raw_hex": "04"
+              }
+            },
+            "record_end_literal_offset": 2223
+          }
+        }
+      ]
+    },
+    {
+      "node_id": 10,
+      "trigger_op": 0,
+      "checks": [
+        {
+          "type": "change_buff_checker",
+          "wrapper_literal_offset": 2610,
+          "params": {
+            "literal_offset": 2595,
+            "marker_hex": "0xd6",
+            "schema_literal_offset": 1903,
+            "schema_field_count": 38,
+            "optional_field_count": 37,
+            "optional_mask_literal_offset": 2590,
+            "optional_mask_hex": "3102084000",
+            "fields": {
+              "add_buff": {
+                "kind": 3,
+                "value": 1,
+                "byte_offset": 2599,
+                "raw_hex": "01"
+              },
+              "buff_id": {
+                "kind": 1,
+                "value": 581902000,
+                "byte_offset": 2600,
+                "raw_hex": "b0bdbc9502"
+              },
+              "buff_lv": {
+                "kind": 1,
+                "value": 1,
+                "byte_offset": 2605,
+                "raw_hex": "01"
+              },
+              "check_caster": {
+                "kind": 1,
+                "value": 0,
+                "byte_offset": 2606,
+                "raw_hex": "00"
+              },
+              "mapping_buff": {
+                "kind": 3,
+                "value": 1,
+                "byte_offset": 2607,
+                "raw_hex": "01"
+              },
+              "role": {
+                "kind": 1,
+                "value": 0,
+                "byte_offset": 2608,
+                "raw_hex": "00"
+              },
+              "effect_index": {
+                "kind": 1,
+                "value": 11,
+                "byte_offset": 2609,
+                "raw_hex": "0b"
+              }
+            },
+            "record_end_literal_offset": 2610
+          }
+        },
+        {
+          "type": "change_buff_checker",
+          "wrapper_literal_offset": 2631,
+          "params": {
+            "literal_offset": 2616,
+            "marker_hex": "0xd6",
+            "schema_literal_offset": 1903,
+            "schema_field_count": 38,
+            "optional_field_count": 37,
+            "optional_mask_literal_offset": 2590,
+            "optional_mask_hex": "3102084000",
+            "fields": {
+              "add_buff": {
+                "kind": 3,
+                "value": 0,
+                "byte_offset": 2620,
+                "raw_hex": "00"
+              },
+              "buff_id": {
+                "kind": 1,
+                "value": 581902000,
+                "byte_offset": 2621,
+                "raw_hex": "b0bdbc9502"
+              },
+              "buff_lv": {
+                "kind": 1,
+                "value": 1,
+                "byte_offset": 2626,
+                "raw_hex": "01"
+              },
+              "check_caster": {
+                "kind": 1,
+                "value": 0,
+                "byte_offset": 2627,
+                "raw_hex": "00"
+              },
+              "mapping_buff": {
+                "kind": 3,
+                "value": 1,
+                "byte_offset": 2628,
+                "raw_hex": "01"
+              },
+              "role": {
+                "kind": 1,
+                "value": 0,
+                "byte_offset": 2629,
+                "raw_hex": "00"
+              },
+              "effect_index": {
+                "kind": 1,
+                "value": 12,
+                "byte_offset": 2630,
+                "raw_hex": "0c"
+              }
+            },
+            "record_end_literal_offset": 2631
+          }
+        }
+      ]
+    }
+  ],
+  "kill_event_check_args": {
+    "literal_offset": 2396,
+    "marker_hex": "0x96",
+    "schema_literal_offset": 2334,
+    "schema_field_count": 30,
+    "optional_field_count": 0,
+    "optional_mask_literal_offset": 2399,
+    "optional_mask_hex": "",
+    "fields": {
+      "attack_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2399,
+        "raw_hex": "00"
+      },
+      "attack_type": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2400,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      },
+      "check_all_bullet": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2401,
+        "raw_hex": "00"
+      },
+      "check_all_hit": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2402,
+        "raw_hex": "00"
+      },
+      "check_all_hit_same_one": {
+        "kind": 3,
+        "value": 1,
+        "byte_offset": 2403,
+        "raw_hex": "01"
+      },
+      "check_detect_mark": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2404,
+        "raw_hex": "00"
+      },
+      "check_node": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2405,
+        "raw_hex": "00"
+      },
+      "check_weapon_no": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2406,
+        "raw_hex": "00"
+      },
+      "damage_feature_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2407,
+        "raw_hex": "00"
+      },
+      "damage_feature_type": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2408,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      },
+      "element_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2409,
+        "raw_hex": "00"
+      },
+      "element_type": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2410,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      },
+      "formula_attack_type": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2411,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      },
+      "formula_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2412,
+        "raw_hex": "00"
+      },
+      "hit_part": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2413,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      },
+      "hit_part_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2414,
+        "raw_hex": "00"
+      },
+      "in_weapon_range": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2415,
+        "raw_hex": "00"
+      },
+      "keyword": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2416,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      },
+      "keyword_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2417,
+        "raw_hex": "00"
+      },
+      "keyword_tag": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2418,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      },
+      "keyword_tag_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2419,
+        "raw_hex": "00"
+      },
+      "multi_bullet_one_attack": {
+        "kind": 3,
+        "value": 1,
+        "byte_offset": 2420,
+        "raw_hex": "01"
+      },
+      "node_index": {
+        "kind": 17,
+        "value": 1,
+        "byte_offset": 2421,
+        "raw_hex": "01"
+      },
+      "sub_melee_attack_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2422,
+        "raw_hex": "00"
+      },
+      "sub_melee_attack_type": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2423,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      },
+      "target_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2424,
+        "raw_hex": "00"
+      },
+      "target_type": {
+        "kind": 11,
+        "value": 451,
+        "byte_offset": 2425,
+        "raw_hex": "c303",
+        "target_literal_offset": 2300
+      },
+      "unit_species": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2427,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      },
+      "unit_species_negate": {
+        "kind": 3,
+        "value": 0,
+        "byte_offset": 2428,
+        "raw_hex": "00"
+      },
+      "weapon_no": {
+        "kind": 11,
+        "value": 6,
+        "byte_offset": 2429,
+        "raw_hex": "06",
+        "target_literal_offset": 1855
+      }
+    },
+    "record_end_literal_offset": 2430
+  },
+  "configured_chain": {
+    "parent_buff_id": 581902000,
+    "secondary_buff_id": 581902100,
+    "parent_node_4_dynamic_param_path": "effect_params.params.value \u2190 level params[1]",
+    "parent_node_4_to_node_1_data_pin": "NodeConstFloat.utility.data \u2192 NodeBBSaveFloatData.data",
+    "parent_bb_key": "suck_it",
+    "secondary_node_7_target_bb_key": "suck_it",
+    "secondary_node_7_source_buff_id": 581902000,
+    "secondary_node_7_to_node_9_data_pin": "NodeGetTargetBBFloatData.utility.data \u2192 NodeBBSaveFloatData.data",
+    "secondary_bb_key": "suck_it_all",
+    "secondary_node_17": "NodeGetFloatAttr(max_hp, percent=100) \u2192 data1",
+    "secondary_node_19": "NodeBBLoadFloatData(suck_it_all) \u2192 data2",
+    "secondary_node_22_operation": {
+      "code": 1,
+      "name": "MUL",
+      "source": "AUG_CONNECTED_INPUT_EXPRESSIONS.md; logic_state_const.CalculateOpType"
+    },
+    "secondary_node_25": "NodeHeal(heal_value=node22.result, target_uid=node26.holder_uid, cure_add_rate=100)",
+    "kill_event_target_type_raw_array": {
+      "literal_offset": 2300,
+      "element_type": 1,
+      "values": [
+        0
+      ]
+    },
+    "level_values": [
+      {
+        "entry_level": 1,
+        "configured_parent_factor": 0.024,
+        "display_value_tokens": [
+          "2.4"
+        ],
+        "source_row_literal_offset": 914774
+      },
+      {
+        "entry_level": 2,
+        "configured_parent_factor": 0.048,
+        "display_value_tokens": [
+          "4.8"
+        ],
+        "source_row_literal_offset": 910284
+      },
+      {
+        "entry_level": 3,
+        "configured_parent_factor": 0.072,
+        "display_value_tokens": [
+          "7.2"
+        ],
+        "source_row_literal_offset": 914881
+      },
+      {
+        "entry_level": 4,
+        "configured_parent_factor": 0.096,
+        "display_value_tokens": [
+          "9.6"
+        ],
+        "source_row_literal_offset": 909987
+      },
+      {
+        "entry_level": 5,
+        "configured_parent_factor": 0.12,
+        "display_value_tokens": [
+          "12"
+        ],
+        "source_row_literal_offset": 914976
+      }
+    ],
+    "synthetic_configured_input_vectors": [
+      {
+        "explicit_max_hp": 1000,
+        "explicit_stored_suck_it_all": 0.024,
+        "computed_node22_heal_value_input": 24.0,
+        "actual_hp_restored": null
+      },
+      {
+        "explicit_max_hp": 1000,
+        "explicit_stored_suck_it_all": 0.12,
+        "computed_node22_heal_value_input": 120.0,
+        "actual_hp_restored": null
+      }
+    ],
+    "limits": [
+      "Primary root has sibling save/cast edges; execution order and successful storage are not established.",
+      "Secondary change-buff and kill-event scheduling is not established.",
+      "Kill-event target_type=[0] has no proven Meta/other enum label here.",
+      "NodeHeal server body is not readable; its cure_add_rate=100 is configured editor metadata, not verified HP mutation."
+    ]
+  },
+  "readable_helper_sources": {
+    "NodeGetFloatAttr": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/aug_get_float_capture/NodeGetFloatAttr.pyc",
+      "pyc_sha256": "61426a25a059aa8919ac271522c7efc9236e77cce01694b32725d17c16f3bbfd"
+    },
+    "NodeBBLoadFloatData": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/aug_arithmetic_node_captures/NodeBBLoadFloatData.pyc",
+      "pyc_sha256": "35702a2ac2fb42a82abb76770ba2226b4635e2b12adbb130ed1f1f0e84e2f270"
+    },
+    "NodeGetTargetBBFloatData": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/aug_arithmetic_node_captures/NodeGetTargetBBFloatData.pyc",
+      "pyc_sha256": "10c01d20fb857ec15be2e26b51c57371c8a19ee89123d0ab60589711cb65f1dd"
+    },
+    "NodeBBFloatCalculation": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/aug_arithmetic_node_captures/NodeBBFloatCalculation.pyc",
+      "pyc_sha256": "93bd7593698a2815195b443e7c3c2508de3f76a057fa5940c9d38e1125787da1"
+    },
+    "logic_tree_utility": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/aug_arithmetic_node_captures/logic_tree_utility.pyc",
+      "pyc_sha256": "d33071521599b0d16b8d1c6c1747aa4cfacaec46323cf526f1cdb8029d584e08"
+    },
+    "logic_state_const": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/aug_arithmetic_node_captures/logic_state_const.pyc",
+      "pyc_sha256": "580b7461687642b88bc2bb0a6a17fdf2c201275d4f04fe4992fe68cb8669b517"
+    },
+    "NodeBBSaveFloatData": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/heal_node_helpers/NodeBBSaveFloatData.pyc",
+      "pyc_sha256": "0b9148dc370b69d2a5d7439ea4d8e1ddf1019f4b9df0c0fdd0816d7f4c7419c5"
+    },
+    "NodeHeal": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/heal_node_helpers/NodeHeal.pyc",
+      "pyc_sha256": "c7fb154ebbf9c79939e04ec4a78593caf032427c791e08eb3cfbd01c7a6a7824",
+      "own_server_do_override_present": false
+    },
+    "NodeKillEvent": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/heal_node_helpers/NodeKillEvent.pyc",
+      "pyc_sha256": "f07ea63621880e7f8139d0f5c76eaddf0c31f01dac962bbfc6e678cd8a387de4"
+    },
+    "NormalNodeServerBase": {
+      "path": "/home/dv/Documents/Codex/2026-11-01/task-5/aug_normal_base_capture/LogicTreeNodeNormal.pyc",
+      "pyc_sha256": "041d6b5077750e80976b58f7f60682de682d1ecb2d00d8efacdd518799ff841d",
+      "inherited_do_raises_not_implemented": true
+    }
+  },
+  "scope": "Configured typed graph and links only; actual NodeHeal/NodeBB runtime semantics not inferred.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

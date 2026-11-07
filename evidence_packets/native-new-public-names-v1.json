@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "status": "eighteen exact-ID public blueprint titles joined to native IDs",
+  "native_catalog_artifact": "complete_static_catalog_sample.json",
+  "native_catalog_sha256": "4235d4f689d619600a64f1f3eaf2b40f01143d07315a718d7076b2d76a547f42",
+  "coverage": {
+    "new_blueprint_titles": 18,
+    "direct_tier_one_gear_titles": 8,
+    "newly_checked_tier_two_to_five_pages": 0
+  },
+  "scope_limit": "Public page titles are source-specific. Exact native blueprint\u2192tier gear mappings come from local bytes. Tier I gear titles are populated only where directly inspected. Numeric gear fields and star tables for most of these 18 are not newly public-checked.",
+  "records": [
+    {
+      "blueprint_id": 13131301,
+      "tier_one_gear_id_from_native_mapping": 10131301,
+      "public_blueprint_title": "G17 - Cash Only B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13131301",
+      "public_tier_one_gear_title": "G17 - Cash Only (Tier 1)",
+      "public_tier_one_gear_url_if_directly_checked": "https://oncehuman.th.gl/db/gear/10131301",
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13231301,
+      "tier_one_gear_id_from_native_mapping": 10231301,
+      "public_blueprint_title": "ACS12 - Corrosion B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13231301",
+      "public_tier_one_gear_title": "ACS12 - Corrosion (Tier 1)",
+      "public_tier_one_gear_url_if_directly_checked": "https://oncehuman.th.gl/db/gear/10231301",
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13234301,
+      "tier_one_gear_id_from_native_mapping": 10234301,
+      "public_blueprint_title": "ACS12 - Pyroclasm Starter B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13234301",
+      "public_tier_one_gear_title": "ACS12 - Pyroclasm Starter (Tier 1)",
+      "public_tier_one_gear_url_if_directly_checked": "https://oncehuman.th.gl/db/gear/10234301",
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13731401,
+      "tier_one_gear_id_from_native_mapping": 10731401,
+      "public_blueprint_title": "Compound Bow B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13731401",
+      "public_tier_one_gear_title": "Compound Bow (Tier 1)",
+      "public_tier_one_gear_url_if_directly_checked": "https://oncehuman.th.gl/db/gear/10731401",
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13311301,
+      "tier_one_gear_id_from_native_mapping": 10311301,
+      "public_blueprint_title": "KV-SBR - Little Jaws B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13311301",
+      "public_tier_one_gear_title": "KV-SBR - Little Jaws (Tier 1)",
+      "public_tier_one_gear_url_if_directly_checked": "https://oncehuman.th.gl/db/gear/10311301",
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13321301,
+      "tier_one_gear_id_from_native_mapping": 10321301,
+      "public_blueprint_title": "MPS5 - Kumawink B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13321301",
+      "public_tier_one_gear_title": "MPS5 - Kumawink (Tier 1)",
+      "public_tier_one_gear_url_if_directly_checked": "https://oncehuman.th.gl/db/gear/10321301",
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13341401,
+      "tier_one_gear_id_from_native_mapping": 10341401,
+      "public_blueprint_title": "PDW90 - Holographic Resonance B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13341401",
+      "public_tier_one_gear_title": "PDW90 - Holographic Resonance (Tier 1)",
+      "public_tier_one_gear_url_if_directly_checked": "https://oncehuman.th.gl/db/gear/10341401",
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13521401,
+      "tier_one_gear_id_from_native_mapping": 10521401,
+      "public_blueprint_title": "AWS.338 - Bullseye B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13521401",
+      "public_tier_one_gear_title": "AWS.338 - Bullseye (Tier 1)",
+      "public_tier_one_gear_url_if_directly_checked": "https://oncehuman.th.gl/db/gear/10521401",
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13442301,
+      "tier_one_gear_id_from_native_mapping": 10442301,
+      "public_blueprint_title": "M416 - Silent Anabasis B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13442301",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13361401,
+      "tier_one_gear_id_from_native_mapping": 10361401,
+      "public_blueprint_title": "FP9 - Additional Rules B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13361401",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13411301,
+      "tier_one_gear_id_from_native_mapping": 10411301,
+      "public_blueprint_title": "SOCR - The Last Valor B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13411301",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13422301,
+      "tier_one_gear_id_from_native_mapping": 10422301,
+      "public_blueprint_title": "KAM - Abyss Glance B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13422301",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13531301,
+      "tier_one_gear_id_from_native_mapping": 10531301,
+      "public_blueprint_title": "HAMR - Hannya B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13531301",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13532401,
+      "tier_one_gear_id_from_native_mapping": 10532401,
+      "public_blueprint_title": "HAMR - Brahminy B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13532401",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13551401,
+      "tier_one_gear_id_from_native_mapping": 10551401,
+      "public_blueprint_title": "SKS - Pathfinder B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13551401",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13561401,
+      "tier_one_gear_id_from_native_mapping": 10561401,
+      "public_blueprint_title": "EBR-14 - Octopus! Grilled Rings! B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13561401",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13624301,
+      "tier_one_gear_id_from_native_mapping": 10624301,
+      "public_blueprint_title": "MG4 - Conflicting Memories B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13624301",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    },
+    {
+      "blueprint_id": 13631301,
+      "tier_one_gear_id_from_native_mapping": 10631301,
+      "public_blueprint_title": "KVD - Boom! Boom! B.P.",
+      "public_blueprint_url": "https://oncehuman.th.gl/db/blueprints/13631301",
+      "public_tier_one_gear_title": null,
+      "public_tier_one_gear_url_if_directly_checked": null,
+      "source_access_date": "2026-11-02",
+      "public_page_build": null
+    }
+  ]
+}

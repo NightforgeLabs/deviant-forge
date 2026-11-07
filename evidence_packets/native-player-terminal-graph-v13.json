@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "native_graph_version": 13,
+  "source_pyc_sha256": {
+    "damage_formula.pyc": "244bf28269e6b46ae9fafc164c14f33e95822616775abaf64484224c119117ee",
+    "CompDamageFormula.pyc": "6aa212978067cf11a1de412915f1904dc6d7da5365746d79c0d305b3773dc4df",
+    "CompBeHitServer.pyc": "face8eca67ea51e5fb5aa53e60efe4b2e589b00db97b93095f98ac70d0a70799"
+  },
+  "methods": [
+    {
+      "method": "CompBeHitServer._pre_calc_damage",
+      "line": 905,
+      "body_range": [
+        45476,
+        47572
+      ],
+      "body_sha256": "390db163a1eec927ae33f695f054a710196ed5351f2795efb4cc4c19962cea85",
+      "names": [
+        "get",
+        "part_info",
+        "min",
+        "BodyPartType",
+        "Normal",
+        "Weak",
+        "value",
+        "Hard",
+        "unit_entity_type",
+        "HUMAN_UNIT_SOUL_TUPLE",
+        "HUMAN_BODY_PART_DEFINE",
+        "CompType",
+        "CAMP",
+        "check_is_both_player_relate_camp",
+        "uid",
+        "unit_const",
+        "PVP_ADJUST_SOUL_TUPLE",
+        "HolderProxy",
+        "readonly_holder",
+        "AttrUnitBase",
+        "_get_attack_pvp_tier",
+        "dcs_extend.component.buff.buff_const",
+        "BuffTagType",
+        "FROST",
+        "combat_utility",
+        "is_summon_entity",
+        "RADIATION",
+        "check_shield_info",
+        "_is_missile_object",
+        "_is_missile_hp_type_fixed_times",
+        "DAMAGE_FORMULA",
+        "calc_damage",
+        "calc_damage_with_field"
+      ]
+    },
+    {
+      "method": "CompBeHitServer.get_damage_hp_without_apply",
+      "line": 967,
+      "body_range": [
+        49397,
+        50275
+      ],
+      "body_sha256": "41aba1a40fc315370059acda68d577e70bbfdc8d42b7952ac55b8f4a7ebbdc68",
+      "names": [
+        "update",
+        "CompType",
+        "STATE",
+        "check_state",
+        "StateType",
+        "MOVING",
+        "SWIMMING",
+        "_pre_calc_damage",
+        "_calc_damage_attenuation",
+        "get",
+        "_is_missile_object",
+        "_process_shield",
+        "_check_level_adapter_damage_hp",
+        "_get_level_adapter_damage_hp",
+        "_get_dps_corrected_damage_hp",
+        "_is_can_consume_field",
+        "_get_field_value",
+        "max",
+        "_need_check_invincible",
+        "avoid_be_hit",
+        "InvincibleLevel",
+        "NO"
+      ]
+    },
+    {
+      "method": "CompDamageFormula.calc_damage",
+      "line": 93,
+      "body_range": [
+        5211,
+        5867
+      ],
+      "body_sha256": "9c72f1102abc871cb9d2abc00a1dd8c4632483645bebd1f512f406837cb7d015",
+      "names": [
+        "_is_damage_stat_gated",
+        "range",
+        "_gen_zero_damage_info",
+        "pop",
+        "CompType",
+        "FORMULA_ADAPTER",
+        "get_formula_obj",
+        "formula_const",
+        "FORMULA_TREE_NAME_DAMAGE",
+        "_gen_update_leaf_infos",
+        "get_formula_damage_result",
+        "pre_gen_crit_dis_count",
+        "append"
+      ]
+    },
+    {
+      "method": "CompDamageFormula.get_formula_damage_result",
+      "line": 208,
+      "body_range": [
+        10894,
+        11520
+      ],
+      "body_sha256": "e4bc8c28e3e042e3d98d26c9d8adf9f83dacd965e5ba4ad973fa19882614f0ca",
+      "names": [
+        "len",
+        "join",
+        "set",
+        "keys",
+        "update_leaves_fast",
+        "update_leaves",
+        "get_values_by_names",
+        "formula_const",
+        "DEFAULT_DAMAGE_NEED_LEAF_KEYS",
+        "_get_final_attack",
+        "max",
+        "round"
+      ]
+    },
+    {
+      "method": "CompDamageFormula._get_final_attack",
+      "line": 240,
+      "body_range": [
+        12264,
+        12426
+      ],
+      "body_sha256": "4384a086a916bd4f8a428d4de92749e00e2f3e17600f6019a17ffd059e79f1cf",
+      "names": [
+        "int",
+        "get"
+      ]
+    }
+  ],
+  "terminal_nodes": {
+    "85": [
+      "NameExpr",
+      "base_attack",
+      84
+    ],
+    "84": [
+      "NameExpr",
+      "attack",
+      -1
+    ],
+    "198": [
+      "NameExpr",
+      "final_is_weak",
+      197
+    ],
+    "275": [
+      "BinopListExpr",
+      41,
+      "<",
+      274
+    ],
+    "280": [
+      "NameExpr",
+      "final_is_crit",
+      279
+    ],
+    "283": [
+      "BinopListExpr",
+      280,
+      "*",
+      272
+    ],
+    "296": [
+      "BinopListExpr",
+      198,
+      "*",
+      295
+    ],
+    "298": [
+      "BinopListExpr",
+      284,
+      "+",
+      297
+    ],
+    "300": [
+      "BinopListExpr",
+      1,
+      "+",
+      299
+    ],
+    "301": [
+      "BinopListExpr",
+      142,
+      "*",
+      250,
+      "*",
+      14,
+      "*",
+      300,
+      "*",
+      113,
+      "*",
+      240,
+      "*",
+      244,
+      "*",
+      149,
+      "*",
+      287
+    ],
+    "303": [
+      "BinopListExpr",
+      156,
+      "*",
+      302,
+      "+",
+      157
+    ],
+    "308": [
+      "BinopListExpr",
+      155,
+      "*",
+      144,
+      "*",
+      147,
+      "*",
+      289,
+      "*",
+      101,
+      "*",
+      124,
+      "*",
+      285,
+      "*",
+      307,
+      "*",
+      167
+    ],
+    "310": [
+      "BinopListExpr",
+      36,
+      "*",
+      309,
+      "+",
+      49
+    ],
+    "312": [
+      "BinopListExpr",
+      85,
+      "*",
+      304,
+      "*",
+      311,
+      "*",
+      145
+    ],
+    "313": [
+      "FunctionExpr",
+      "max",
+      312,
+      0
+    ]
+  },
+  "additional_factor_nodes": [
+    142,
+    250,
+    14,
+    300,
+    113,
+    240,
+    244,
+    149,
+    287
+  ],
+  "mitigation_factor_nodes": [
+    155,
+    144,
+    147,
+    289,
+    101,
+    124,
+    285,
+    307,
+    167
+  ],
+  "terminal_equation": "max(attack * (u*A + 1-u) * (v*M + 1-v) * special, 0), where A/M are the ordered products listed in factor nodes; u=use_final_dam_add_rate, v=use_final_ignore_dam_rate",
+  "target_branch": "CompBeHitServer._pre_calc_damage sets weak body-part indicator and part dam_rate, sets dis_dam_rate=min(hit_info value,1), calls DAMAGE_FORMULA.calc_damage except fixed-times missile branch, then combat_utility.calc_damage_with_field.",
+  "multishot": "CompDamageFormula.calc_damage calls pre_gen_crit_dis_count between repeated damage_amount results, distinct from persistent PROPERTY_CHANGE_SOURCES.change_rate_dis_counts.",
+  "synthetic_intermediate_vector": {
+    "verified_equipped_attack_input": 100,
+    "additional_product": 1.8,
+    "mitigation_product": 0.8,
+    "special_factor": 1.0,
+    "use_final_dam_add_rate": 1.0,
+    "use_final_ignore_dam_rate": 1.0,
+    "graph_final_attack": 144.0
+  },
+  "limits": "The graph output precedes field/attenuation/shield/level-adapter/DPS correction and final HP application. The ordinary equipped attack producer and source of per-bullet attack_rate remain unresolved.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

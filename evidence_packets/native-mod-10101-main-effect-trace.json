@@ -1,0 +1,468 @@
+{
+  "build": "26267212",
+  "game_code_executed": false,
+  "installed_files_modified": false,
+  "sources": {
+    "/home/dv/Documents/Codex/2026-11-02/task/rawcaptures/category_first_pass/mod_entry_data.literal_bytes.bin": "5305fa5c6a63b8706541c6b86f1e7a171a1be4d2afbda5d45fe7c001988ef30a",
+    "/home/dv/Documents/Codex/2026-11-02/task-5/mod_method_captures/84932_buff_level_data.literal_2.bin": "5667f98f77fd46bb9b9a68679ea5284d573aedfcf332fd09bde0374c54b02633",
+    "/home/dv/Documents/Codex/2026-11-02/task-5/mod_method_captures/33828_buff_level_map.literal_2.bin": "e7669d0701bbfa25031a5ad7fed9c3bc48b9aa1ef1bdaac8a7cd53460692b44f",
+    "/home/dv/Documents/Codex/2026-11-02/task-5/mod_method_captures/60576_buff_580101000_1.literal_2.bin": "28c6f4a4985e90ba0726e197a1919ae0f7c861b03b5e5e69117d6cbf595b23bf",
+    "/home/dv/Documents/Codex/2026-11-02/task-5/mod_method_captures/84315_buff_589636000_1.literal_2.bin": "e469364c730016170145d36cdc11421e2bde47ff7c291e357e434162444ff827"
+  },
+  "mod_entry_table": {
+    "count": 1262,
+    "distinct_families": 283,
+    "family_10101_rows": [
+      {
+        "entry_no": 10101,
+        "entry_level": 4,
+        "key_offset": 114923,
+        "key_raw_hex": "270102f54e04",
+        "row_offset": 114943,
+        "index_tail_offset": 163335,
+        "buff_id": {
+          "field": "buff_id",
+          "type_code": 1,
+          "value": 580101000,
+          "value_offset": 114950,
+          "raw_hex": "88c7ce9402",
+          "string": null,
+          "pointer_target": null
+        },
+        "record_end_offset": 114963
+      },
+      {
+        "entry_no": 10101,
+        "entry_level": 5,
+        "key_offset": 115003,
+        "key_raw_hex": "270102f54e05",
+        "row_offset": 115023,
+        "index_tail_offset": 163347,
+        "buff_id": {
+          "field": "buff_id",
+          "type_code": 1,
+          "value": 580101000,
+          "value_offset": 115030,
+          "raw_hex": "88c7ce9402",
+          "string": null,
+          "pointer_target": null
+        },
+        "record_end_offset": 115042
+      }
+    ],
+    "correction": "First index varint is an offset to a composite (entry_no, entry_level) key, not an entry ID."
+  },
+  "buff_level_map_hit": {
+    "offset": 9586,
+    "key": 580101000,
+    "max_level": 5,
+    "raw_hex": "88c7ce940205"
+  },
+  "ordinary_effect_display_levels": [
+    {
+      "effect_level": 1,
+      "per_part_percent": 3,
+      "cap_percent": 9,
+      "key": {
+        "key_offset": 898623,
+        "key_raw_hex": "27010288c7ce940201",
+        "row_offset": 898683,
+        "index_tail_offset": 1035719
+      },
+      "buff_desc": {
+        "string": "碎弹命中部位越多，碎弹伤害越高，每个部位+{1}%，最高{2}%_$S@TIDS$_c3c|0",
+        "string_index": 7875,
+        "source_token_offset": 898632,
+        "target_offset": 898637
+      },
+      "desc_values": [
+        {
+          "string_index": 35,
+          "string": "3",
+          "value_offset": 832056,
+          "raw_hex": "23"
+        },
+        {
+          "string_index": 81,
+          "string": "9",
+          "value_offset": 832057,
+          "raw_hex": "51"
+        }
+      ],
+      "params_pointer": {
+        "field": "params",
+        "type_code": 11,
+        "value": 300618,
+        "value_offset": 898697,
+        "raw_hex": "caac12",
+        "string": null,
+        "pointer_target": 898674
+      },
+      "params": {
+        "2": "0.09",
+        "1": "0.03"
+      },
+      "desc_values_pointer": {
+        "field": "desc_value",
+        "type_code": 11,
+        "value": 233997,
+        "value_offset": 898711,
+        "raw_hex": "8da40e",
+        "string": null,
+        "pointer_target": 832053
+      },
+      "record_end_offset": 898728
+    },
+    {
+      "effect_level": 2,
+      "per_part_percent": 6,
+      "cap_percent": 18,
+      "key": {
+        "key_offset": 709002,
+        "key_raw_hex": "27010288c7ce940202",
+        "row_offset": 709067,
+        "index_tail_offset": 1024229
+      },
+      "buff_desc": {
+        "string": "碎弹命中部位越多，碎弹伤害越高，每个部位+{1}%，最高{2}%_$S@TIDS$_c3c|1",
+        "string_index": 7878,
+        "source_token_offset": 709011,
+        "target_offset": 709016
+      },
+      "desc_values": [
+        {
+          "string_index": 38,
+          "string": "6",
+          "value_offset": 709028,
+          "raw_hex": "26"
+        },
+        {
+          "string_index": 122,
+          "string": "18",
+          "value_offset": 709029,
+          "raw_hex": "7a"
+        }
+      ],
+      "params_pointer": {
+        "field": "params",
+        "type_code": 11,
+        "value": 111002,
+        "value_offset": 709081,
+        "raw_hex": "9ae306",
+        "string": null,
+        "pointer_target": 709058
+      },
+      "params": {
+        "2": "0.18",
+        "1": "0.06"
+      },
+      "desc_values_pointer": {
+        "field": "desc_value",
+        "type_code": 11,
+        "value": 110969,
+        "value_offset": 709095,
+        "raw_hex": "f9e206",
+        "string": null,
+        "pointer_target": 709025
+      },
+      "record_end_offset": 709112
+    },
+    {
+      "effect_level": 3,
+      "per_part_percent": 9,
+      "cap_percent": 27,
+      "key": {
+        "key_offset": 898728,
+        "key_raw_hex": "27010288c7ce940203",
+        "row_offset": 898795,
+        "index_tail_offset": 1035725
+      },
+      "buff_desc": {
+        "string": "碎弹命中部位越多，碎弹伤害越高，每个部位+{1}%，最高{2}%_$S@TIDS$_c3c|2",
+        "string_index": 7881,
+        "source_token_offset": 898737,
+        "target_offset": 898742
+      },
+      "desc_values": [
+        {
+          "string_index": 81,
+          "string": "9",
+          "value_offset": 898754,
+          "raw_hex": "51"
+        },
+        {
+          "string_index": 149,
+          "string": "27",
+          "value_offset": 898755,
+          "raw_hex": "9501"
+        }
+      ],
+      "params_pointer": {
+        "field": "params",
+        "type_code": 11,
+        "value": 300729,
+        "value_offset": 898809,
+        "raw_hex": "b9ad12",
+        "string": null,
+        "pointer_target": 898785
+      },
+      "params": {
+        "2": "0.27",
+        "1": "0.09"
+      },
+      "desc_values_pointer": {
+        "field": "desc_value",
+        "type_code": 11,
+        "value": 300695,
+        "value_offset": 898823,
+        "raw_hex": "97ad12",
+        "string": null,
+        "pointer_target": 898751
+      },
+      "record_end_offset": 898840
+    },
+    {
+      "effect_level": 4,
+      "per_part_percent": 12,
+      "cap_percent": 36,
+      "key": {
+        "key_offset": 898840,
+        "key_raw_hex": "27010288c7ce940204",
+        "row_offset": 898906,
+        "index_tail_offset": 1035731
+      },
+      "buff_desc": {
+        "string": "碎弹命中部位越多，碎弹伤害越高，每个部位+{1}%，最高{2}%_$S@TIDS$_c3c|3",
+        "string_index": 7884,
+        "source_token_offset": 898849,
+        "target_offset": 898854
+      },
+      "desc_values": [
+        {
+          "string_index": 47,
+          "string": "12",
+          "value_offset": 898866,
+          "raw_hex": "2f"
+        },
+        {
+          "string_index": 225,
+          "string": "36",
+          "value_offset": 898867,
+          "raw_hex": "e101"
+        }
+      ],
+      "params_pointer": {
+        "field": "params",
+        "type_code": 11,
+        "value": 300841,
+        "value_offset": 898920,
+        "raw_hex": "a9ae12",
+        "string": null,
+        "pointer_target": 898897
+      },
+      "params": {
+        "2": "0.36",
+        "1": "0.12"
+      },
+      "desc_values_pointer": {
+        "field": "desc_value",
+        "type_code": 11,
+        "value": 300807,
+        "value_offset": 898934,
+        "raw_hex": "87ae12",
+        "string": null,
+        "pointer_target": 898863
+      },
+      "record_end_offset": 898951
+    },
+    {
+      "effect_level": 5,
+      "per_part_percent": 15,
+      "cap_percent": 45,
+      "key": {
+        "key_offset": 843025,
+        "key_raw_hex": "27010288c7ce940205",
+        "row_offset": 843091,
+        "index_tail_offset": 1032233
+      },
+      "buff_desc": {
+        "string": "碎弹命中部位越多，碎弹伤害越高，每个部位+{1}%，最高{2}%_$S@TIDS$_c3c|4",
+        "string_index": 7888,
+        "source_token_offset": 843034,
+        "target_offset": 843039
+      },
+      "desc_values": [
+        {
+          "string_index": 41,
+          "string": "15",
+          "value_offset": 843051,
+          "raw_hex": "29"
+        },
+        {
+          "string_index": 199,
+          "string": "45",
+          "value_offset": 843052,
+          "raw_hex": "c701"
+        }
+      ],
+      "params_pointer": {
+        "field": "params",
+        "type_code": 11,
+        "value": 245026,
+        "value_offset": 843105,
+        "raw_hex": "a2fa0e",
+        "string": null,
+        "pointer_target": 843082
+      },
+      "params": {
+        "2": "0.45",
+        "1": "0.15"
+      },
+      "desc_values_pointer": {
+        "field": "desc_value",
+        "type_code": 11,
+        "value": 244992,
+        "value_offset": 843119,
+        "raw_hex": "80fa0e",
+        "string": null,
+        "pointer_target": 843048
+      },
+      "record_end_offset": 843136
+    }
+  ],
+  "shiny_buff_level_row": {
+    "key": {
+      "key_offset": 657902,
+      "key_raw_hex": "270102a0c394990201",
+      "row_offset": 657953,
+      "index_tail_offset": 1021259
+    },
+    "buff_desc": {
+      "string": "碎弹伤害+5%_$S@TIDS$_c3c|0",
+      "string_index": 11736,
+      "source_token_offset": 657925,
+      "target_offset": 657930
+    },
+    "buff_template_id": {
+      "field": "buff_template_id",
+      "type_code": 1,
+      "value": 589636000,
+      "value_offset": 657970,
+      "raw_hex": "a0c3949902",
+      "string": null,
+      "pointer_target": null
+    },
+    "record_end_offset": 657993
+  },
+  "ordinary_graph": {
+    "source_info_offset": 720,
+    "wrapper_offset": 751,
+    "node_type": "NodeRelateAttrChange",
+    "fields": [
+      {
+        "field": "src_attr",
+        "type_code": 5,
+        "value": 31,
+        "value_offset": 724,
+        "raw_hex": "1f",
+        "string": "tag_bullet_body_type_num_shrap",
+        "pointer_target": null
+      },
+      {
+        "field": "src_check_type",
+        "type_code": 1,
+        "value": 0,
+        "value_offset": 725,
+        "raw_hex": "00",
+        "string": null,
+        "pointer_target": null
+      },
+      {
+        "field": "src_shield_name",
+        "type_code": 5,
+        "value": 30,
+        "value_offset": 726,
+        "raw_hex": "1e",
+        "string": "",
+        "pointer_target": null
+      },
+      {
+        "field": "src_standard_value",
+        "type_code": 18,
+        "value": 1.0,
+        "value_offset": 727,
+        "raw_hex": "0000803f",
+        "string": null,
+        "pointer_target": null
+      },
+      {
+        "field": "src_type",
+        "type_code": 1,
+        "value": 0,
+        "value_offset": 731,
+        "raw_hex": "00",
+        "string": null,
+        "pointer_target": null
+      },
+      {
+        "field": "tar_attr",
+        "type_code": 5,
+        "value": 25,
+        "value_offset": 732,
+        "raw_hex": "19",
+        "string": "keyword_proc_dam_add_rate_shrap",
+        "pointer_target": null
+      },
+      {
+        "field": "tar_check_type",
+        "type_code": 1,
+        "value": 0,
+        "value_offset": 733,
+        "raw_hex": "00",
+        "string": null,
+        "pointer_target": null
+      },
+      {
+        "field": "tar_standard_value",
+        "type_code": 34,
+        "value": 0.15,
+        "value_offset": 734,
+        "raw_hex": "333333333333c33f",
+        "string": null,
+        "pointer_target": null
+      },
+      {
+        "field": "tar_value_restriction",
+        "type_code": 34,
+        "value": 0.45,
+        "value_offset": 742,
+        "raw_hex": "cdccccccccccdc3f",
+        "string": null,
+        "pointer_target": null
+      },
+      {
+        "field": "effect_index",
+        "type_code": 1,
+        "value": 4,
+        "value_offset": 750,
+        "raw_hex": "04",
+        "string": null,
+        "pointer_target": null
+      }
+    ],
+    "dynamic_param_path_offsets": [
+      562,
+      574
+    ],
+    "dynamic_param_map_offset": 591
+  },
+  "shiny_graph": {
+    "literal_sha256": "e469364c730016170145d36cdc11421e2bde47ff7c291e357e434162444ff827",
+    "node_types": [
+      "NodeConstFloat",
+      "NodeChangeAttrInputValue",
+      "NodeBuffNone"
+    ]
+  },
+  "limits": "Display vector and graph configuration are source-backed. Runtime arithmetic, exact dynamic-parameter indexing, and all suffix/field-guide-level scaling require separate proof."
+}

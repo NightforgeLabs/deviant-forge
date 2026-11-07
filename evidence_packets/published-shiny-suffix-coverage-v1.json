@@ -1,0 +1,4444 @@
+{
+  "schema_version": "published_shiny_level17_suffix_candidates_v1",
+  "ordinary_formula_sha256": "7657764b0a88e76a414ad097279420d68f58426982a70e55b6d891733b4a1d98",
+  "runtime_catalog_v2_sha256": "518a7e5b0e0151293877a60665f4650b7eeb03ecd8fca0eff0e00067e8c8aaa0",
+  "source_url": "https://www.oncehuman.game/news/devBlog/20251212/40781_1276354.html",
+  "source_interpretation": "Official December 2025 plan says Shiny preserves the sub-attributes of the corresponding Lv17 mod. Availability, ownership, core effect and main-attribute increase require separate sources.",
+  "profile_artifact": "shiny_level17_suffix_candidates.jsonl.gz",
+  "statistics": {
+    "current_generation_identity_records": 632,
+    "conditional_published_suffix_candidates": 629,
+    "blocked_missing_layout": 3,
+    "candidate_numeric_bonus_lines": 2516,
+    "candidate_identities_with_current_listing_match": 628,
+    "verified_identity_specific_shiny_availability": 0,
+    "verified_identity_specific_shiny_core_effects": 0,
+    "ownership_inferred": false
+  },
+  "identities": [
+    {
+      "catalog_id": "mod:helmet_mod:deviation-expert-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:deviation-expert-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:deviation-expert-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:deviation-expert-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:deviation-expert-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:deviation-expert-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:deviation-expert-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:deviation-expert-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:deviation-expert-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:elemental-havoc-violence",
+      "status": "blocked",
+      "reason": "no_named_suffix_or_fixed_layout",
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:first-move-advantage-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:first-move-advantage-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:first-move-advantage-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:first-move-advantage-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:first-move-advantage-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:first-move-advantage-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:first-move-advantage-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:first-move-advantage-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:first-move-advantage-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:momentum-up-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:precise-strike-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:precise-strike-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:precise-strike-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:precise-strike-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:precise-strike-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:precise-strike-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:precise-strike-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:precise-strike-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:precise-strike-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:quick-toss-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:quick-toss-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:quick-toss-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:quick-toss-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:quick-toss-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:quick-toss-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:quick-toss-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:quick-toss-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:quick-toss-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:work-of-proficiency-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:work-of-proficiency-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:work-of-proficiency-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:work-of-proficiency-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:work-of-proficiency-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:work-of-proficiency-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:work-of-proficiency-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:work-of-proficiency-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:work-of-proficiency-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blaze-amplifier-burn",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blaze-amplifier-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blaze-amplifier-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blaze-amplifier-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blaze-amplifier-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blitzkrieg-fast-gunner",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blitzkrieg-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blitzkrieg-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blitzkrieg-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:blitzkrieg-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:break-bounce-bounce",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:break-bounce-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:break-bounce-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:break-bounce-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:break-bounce-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-unstable-bomber",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-barrage-fast-gunner",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-barrage-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-barrage-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-barrage-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-barrage-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-shrapnel",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:first-electrocution-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:first-electrocution-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:first-electrocution-power-surge",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:first-electrocution-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:first-electrocution-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frost-construct-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frost-construct-frost-vortex",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frost-construct-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frost-construct-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frost-construct-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-frost-vortex",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:light-cannon-fortress-warfare",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:light-cannon-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:light-cannon-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:light-cannon-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:light-cannon-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:most-wanted-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:most-wanted-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:most-wanted-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:most-wanted-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:pinpoint-strike-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:pinpoint-strike-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:pinpoint-strike-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:pinpoint-strike-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:pinpoint-strike-unstable-bomber",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:pinpoint-strike-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:precise-bounce-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:precision-bounce-bounce",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:precision-bounce-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:precision-bounce-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:precision-bounce-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:retrusion-explosion-burn",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:retrusion-explosion-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:retrusion-explosion-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:retrusion-explosion-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:retrusion-explosion-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:shrapnel-carnage-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:shrapnel-carnage-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:shrapnel-carnage-shrapnel",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:shrapnel-carnage-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:shrapnel-carnage-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:targeted-strike-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:targeted-strike-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:targeted-strike-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:targeted-strike-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:thunderclap-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:thunderclap-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:thunderclap-power-surge",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:thunderclap-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:thunderclap-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:unbreakable-fortress-warfare",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:unbreakable-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:unbreakable-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:unbreakable-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:unbreakable-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:ardent-shield-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:critical-rescue-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-guard-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:head-on-conflict-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:healing-fortification-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:quick-comeback-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:rejuvenating-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:resist-advantage-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:status-immune-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-resonant-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-melee-default",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-melee-default",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precise-charge-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:covered-advance-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ferocious-charge-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:ruthless-reaper-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-battle",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-mirror-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-phantasmal",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-phantasmal-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-wild",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-wild-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-resistance",
+      "status": "blocked",
+      "reason": "no_named_suffix_or_fixed_layout",
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-resonance",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-resonance-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": true
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-general",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-lunar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-crescent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-lunar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-crescent-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:most-wanted-the-bull-s-eye",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-mirror",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-downstar",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-downstar-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-violent",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-precision",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-resistance",
+      "status": "blocked",
+      "reason": "slot_suffix_not_in_published_sample",
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-survival",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:targeted-strike-the-bull-s-eye",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-aero",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-aero-deviant-energy",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": true,
+      "terminology_alias_applied": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-deviant-energy-current",
+      "status": "published_formula_candidate_current_generation",
+      "reason": null,
+      "current_listing_identity_match": false,
+      "terminology_alias_applied": false
+    }
+  ]
+}

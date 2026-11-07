@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "status": "bounded_identity_mapping_decoded; remaining row fields undecoded",
+  "source": {
+    "artifact": "rawcaptures/gun_blueprint_data.literal_bytes.bin",
+    "sha256": "60b277261a0306b27bc7d9a92b4000167585e531ac4414a7f5993d985809cfbb",
+    "archive_entry": "game_common\\data\\gun_blueprint_data.pyc",
+    "archive_manifest": "gun_blueprint_entry_manifest.json",
+    "steam_build_id": "26267212"
+  },
+  "format_evidence": {
+    "string_table_count": 413,
+    "source_native_name_index_3": "gun_item_no",
+    "source_native_name_index_23": "gun_item_no2blueprint_no_map",
+    "sorted_hash_index_count": 387,
+    "tail_index_entry_count": 387,
+    "blueprint_rows_tag_1": 385,
+    "special_mapping_row_id": 33000401,
+    "special_mapping_region_offsets": [
+      48922,
+      52939
+    ],
+    "offset_base": 27951,
+    "assumption": "Tail triplets are unsigned LEB128 key, relative value offset, tag. The five public identities independently match one gear ID inside each indexed row and one adjacent gear/blueprint pair inside the special region. Full bindict schema is not established."
+  },
+  "first_decoded_identity": {
+    "blueprint_id": 13451401,
+    "gear_id": 10451401,
+    "public_name_for_cross_check_only": "AUG - Electron Cloud",
+    "tail_index_entry_offset": 57859,
+    "tail_index_entry_bytes_hex": "8981b506fc7101",
+    "row_start_offset": 42539,
+    "row_end_offset_exclusive": 42604,
+    "row_length_bytes": 65,
+    "gear_varuint_offset_in_row": 16,
+    "gear_varuint_absolute_offset": 42555,
+    "mapping_pair_absolute_offset": 50831,
+    "mapping_pair_bytes_hex": "c9f3fd048981b506",
+    "raw_row_hex": "01f4710a16d87101c985f206d309452ac9f3fd04ff0b950350270105e787c101e887c101e987c101ea87c101eb87c1010701058b020c020597020bb072967714cb"
+  },
+  "other_public_identity_cross_checks": [
+    {
+      "blueprint_id": 13413301,
+      "gear_id": 10413301,
+      "public_name_for_cross_check_only": "SOCR - Cosmic Visitor",
+      "tail_index_entry_offset": 56991,
+      "tail_index_entry_bytes_hex": "b5d7b206943f01",
+      "row_start_offset": 36035,
+      "row_end_offset_exclusive": 36083,
+      "row_length_bytes": 48,
+      "gear_varuint_offset_in_row": 16,
+      "gear_varuint_absolute_offset": 36051,
+      "mapping_pair_absolute_offset": 52647,
+      "mapping_pair_bytes_hex": "f5c9fb04b5d7b206",
+      "raw_row_hex": null
+    },
+    {
+      "blueprint_id": 13742201,
+      "gear_id": 10742201,
+      "public_name_for_cross_check_only": "Compound Bow - The Burden of Betrayal",
+      "tail_index_entry_offset": 57306,
+      "tail_index_entry_bytes_hex": "f9e0c606e85101",
+      "row_start_offset": 38423,
+      "row_end_offset_exclusive": 38489,
+      "row_length_bytes": 66,
+      "gear_varuint_offset_in_row": 17,
+      "gear_varuint_absolute_offset": 38440,
+      "mapping_pair_absolute_offset": 51063,
+      "mapping_pair_bytes_hex": "b9d38f05f9e0c606",
+      "raw_row_hex": null
+    },
+    {
+      "blueprint_id": 13512301,
+      "gear_id": 10512301,
+      "public_name_for_cross_check_only": "SN700 - Finale",
+      "tail_index_entry_offset": 57908,
+      "tail_index_entry_bytes_hex": "eddcb806f07401",
+      "row_start_offset": 42911,
+      "row_end_offset_exclusive": 42960,
+      "row_length_bytes": 49,
+      "gear_varuint_offset_in_row": 16,
+      "gear_varuint_absolute_offset": 42927,
+      "mapping_pair_absolute_offset": 52471,
+      "mapping_pair_bytes_hex": "adcf8105eddcb806",
+      "raw_row_hex": null
+    },
+    {
+      "blueprint_id": 13641201,
+      "gear_id": 10641201,
+      "public_name_for_cross_check_only": "QBJ97 - Fiery Trees and Silver Flowers",
+      "tail_index_entry_offset": 56697,
+      "tail_index_entry_bytes_hex": "f1cbc006832d01",
+      "row_start_offset": 33714,
+      "row_end_offset_exclusive": 33764,
+      "row_length_bytes": 50,
+      "gear_varuint_offset_in_row": 17,
+      "gear_varuint_absolute_offset": 33731,
+      "mapping_pair_absolute_offset": 50447,
+      "mapping_pair_bytes_hex": "b1be8905f1cbc006",
+      "raw_row_hex": null
+    }
+  ],
+  "unverified_fields": [
+    "damage",
+    "units",
+    "tier",
+    "star",
+    "configuration",
+    "calibration",
+    "source-native row field association beyond gun_item_no"
+  ],
+  "code_execution": "none; captured bytes read as data only"
+}

@@ -1,0 +1,6049 @@
+{
+  "counts": {
+    "cross_slot_relations": 150,
+    "full_layout_relations": 115,
+    "held_observations": 18,
+    "nov1_cross_slot_relations": 84,
+    "original_layouts_full": 6,
+    "original_layouts_no_cross_slot": 1,
+    "original_layouts_partial": 1,
+    "original_tier_candidates_cross_validated": 23,
+    "partial_layout_relations": 35,
+    "prior_packet_cross_slot_relations": 66,
+    "tier_conflicts": 0,
+    "unique_matching_stat_tiers": 42
+  },
+  "cross_slot_relations": [
+    {
+      "a": "mod:boots_mod:against-all-odds-precision:7",
+      "b": "mod:chest_mod:ardent-shield-precision:14",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:boots_mod:against-all-odds-precision:7",
+      "b": "mod:chest_mod:enduring-shield-precision:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:boots_mod:against-all-odds-precision:7",
+      "b": "mod:chest_mod:head-guard-precision:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:boots_mod:against-all-odds-precision:7",
+      "b": "mod:chest_mod:head-on-conflict-precision:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:boots_mod:against-all-odds-precision:7",
+      "b": "mod:chest_mod:quick-comeback-precision:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:boots_mod:against-all-odds-precision:7",
+      "b": "mod:chest_mod:resist-advantage-precision:7",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "weakspot_damage_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "weapon_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 1,
+          "value_percent": 1.5,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:boots_mod:against-all-odds-precision:7",
+      "b": "mod:chest_mod:status-immune-precision:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:boots_mod:against-all-odds-precision:7",
+      "b": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "weakspot_damage_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 1,
+          "value_percent": 1.5,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:boots_mod:against-all-odds-precision:7",
+      "b": "top:6:chest_mod:Rejuvenating:Precision:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:boots_mod:power-of-striving-downstar-deviant-energy:9",
+      "b": "mod:pants_mod:reload-rampage-downstar-deviant-energy:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "pants_mod"
+      ],
+      "suffix": "Downstar Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-battle:8",
+      "b": "shoes:14:boots_mod:Against All Odds:Battle:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Battle"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-general:8",
+      "b": "mod:helmet_mod:overflow-general:8",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "helmet_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-general:8",
+      "b": "shoes:21:boots_mod:Against All Odds:General:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-precision:14",
+      "b": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-precision:14",
+      "b": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "weakspot_damage_percent",
+          "tier": 4,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-survival:12",
+      "b": "mod:pants_mod:distant-strike-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-survival:12",
+      "b": "mod:weapon_mod:shock-diffusion-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-survival:12",
+      "b": "mod:weapon_mod:shock-rampage-survival:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-survival:12",
+      "b": "mod:weapon_mod:static-shock-survival:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-survival:12",
+      "b": "mod:weapon_mod:surge-amplifier-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:ardent-shield-violent:8",
+      "b": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Violent"
+    },
+    {
+      "a": "mod:chest_mod:critical-rescue-battle:12",
+      "b": "shoes:14:boots_mod:Against All Odds:Battle:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 4,
+          "value_percent": 12.0,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Battle"
+    },
+    {
+      "a": "mod:chest_mod:critical-rescue-general:8",
+      "b": "mod:helmet_mod:overflow-general:8",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "helmet_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:critical-rescue-general:8",
+      "b": "shoes:21:boots_mod:Against All Odds:General:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:critical-rescue-survival:7",
+      "b": "mod:pants_mod:distant-strike-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:critical-rescue-survival:7",
+      "b": "mod:weapon_mod:shock-diffusion-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:critical-rescue-survival:7",
+      "b": "mod:weapon_mod:shock-rampage-survival:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:critical-rescue-survival:7",
+      "b": "mod:weapon_mod:static-shock-survival:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:critical-rescue-survival:7",
+      "b": "mod:weapon_mod:surge-amplifier-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:critical-rescue-violent:10",
+      "b": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Violent"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-deviant-energy:8",
+      "b": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-deviant-energy:8",
+      "b": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "mask_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-deviant-energy:8",
+      "b": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-deviant-energy:8",
+      "b": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-deviant-energy:8",
+      "b": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-deviant-energy:8",
+      "b": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-general:9",
+      "b": "mod:helmet_mod:overflow-general:8",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "helmet_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-general:9",
+      "b": "shoes:21:boots_mod:Against All Odds:General:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "generic_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-precision:10",
+      "b": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-precision:10",
+      "b": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:enduring-shield-violent:9",
+      "b": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Violent"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-battle:9",
+      "b": "shoes:14:boots_mod:Against All Odds:Battle:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Battle"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-deviant-energy:7",
+      "b": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-deviant-energy:7",
+      "b": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "mask_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-deviant-energy:7",
+      "b": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-deviant-energy:7",
+      "b": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-deviant-energy:7",
+      "b": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-deviant-energy:7",
+      "b": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-precision:12",
+      "b": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-precision:12",
+      "b": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "weakspot_damage_percent",
+          "tier": 4,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-survival:14",
+      "b": "mod:pants_mod:distant-strike-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-survival:14",
+      "b": "mod:weapon_mod:shock-diffusion-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-survival:14",
+      "b": "mod:weapon_mod:shock-rampage-survival:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-survival:14",
+      "b": "mod:weapon_mod:static-shock-survival:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-survival:14",
+      "b": "mod:weapon_mod:surge-amplifier-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:head-guard-violent:10",
+      "b": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Violent"
+    },
+    {
+      "a": "mod:chest_mod:head-on-conflict-battle:6",
+      "b": "shoes:14:boots_mod:Against All Odds:Battle:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Battle"
+    },
+    {
+      "a": "mod:chest_mod:head-on-conflict-general:8",
+      "b": "mod:helmet_mod:overflow-general:8",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "helmet_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:head-on-conflict-general:8",
+      "b": "shoes:21:boots_mod:Against All Odds:General:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:head-on-conflict-precision:11",
+      "b": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:head-on-conflict-precision:11",
+      "b": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:head-on-conflict-violent:10",
+      "b": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Violent"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-battle:10",
+      "b": "shoes:14:boots_mod:Against All Odds:Battle:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Battle"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-deviant-energy:15",
+      "b": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-deviant-energy:15",
+      "b": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8.0,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "mask_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-deviant-energy:15",
+      "b": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8.0,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-deviant-energy:15",
+      "b": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8.0,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-deviant-energy:15",
+      "b": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8.0,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-deviant-energy:15",
+      "b": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-general:7",
+      "b": "mod:helmet_mod:overflow-general:8",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "helmet_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-general:7",
+      "b": "shoes:21:boots_mod:Against All Odds:General:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-precision:13",
+      "b": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-precision:13",
+      "b": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "weakspot_damage_percent",
+          "tier": 4,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-survival:8",
+      "b": "mod:pants_mod:distant-strike-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-survival:8",
+      "b": "mod:weapon_mod:shock-diffusion-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-survival:8",
+      "b": "mod:weapon_mod:shock-rampage-survival:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-survival:8",
+      "b": "mod:weapon_mod:static-shock-survival:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:quick-comeback-survival:8",
+      "b": "mod:weapon_mod:surge-amplifier-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:rejuvenating-survival:8",
+      "b": "mod:pants_mod:distant-strike-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:rejuvenating-survival:8",
+      "b": "mod:weapon_mod:shock-diffusion-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:rejuvenating-survival:8",
+      "b": "mod:weapon_mod:shock-rampage-survival:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:rejuvenating-survival:8",
+      "b": "mod:weapon_mod:static-shock-survival:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:rejuvenating-survival:8",
+      "b": "mod:weapon_mod:surge-amplifier-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:rejuvenating-violent:13",
+      "b": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "crit_damage_percent",
+          "tier": 4,
+          "value_percent": 12.0,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "weapon_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Violent"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-battle:13",
+      "b": "shoes:14:boots_mod:Against All Odds:Battle:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 4,
+          "value_percent": 12.0,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 4,
+          "value_percent": 6.4,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Battle"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-general:7",
+      "b": "mod:helmet_mod:overflow-general:8",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "helmet_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-general:7",
+      "b": "shoes:21:boots_mod:Against All Odds:General:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-precision:7",
+      "b": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "weakspot_damage_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 1,
+          "value_percent": 1.5,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-precision:7",
+      "b": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-survival:12",
+      "b": "mod:pants_mod:distant-strike-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-survival:12",
+      "b": "mod:weapon_mod:shock-diffusion-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-survival:12",
+      "b": "mod:weapon_mod:shock-rampage-survival:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-survival:12",
+      "b": "mod:weapon_mod:static-shock-survival:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-survival:12",
+      "b": "mod:weapon_mod:surge-amplifier-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:resist-advantage-violent:7",
+      "b": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Violent"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-battle:7",
+      "b": "shoes:14:boots_mod:Against All Odds:Battle:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Battle"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-deviant-energy:10",
+      "b": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-deviant-energy:10",
+      "b": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "mask_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-deviant-energy:10",
+      "b": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-deviant-energy:10",
+      "b": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-deviant-energy:10",
+      "b": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-deviant-energy:10",
+      "b": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "status_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-general:10",
+      "b": "mod:helmet_mod:overflow-general:8",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "helmet_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-general:10",
+      "b": "shoes:21:boots_mod:Against All Odds:General:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "generic_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-precision:11",
+      "b": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-precision:11",
+      "b": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-survival:11",
+      "b": "mod:pants_mod:distant-strike-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-survival:11",
+      "b": "mod:weapon_mod:shock-diffusion-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-survival:11",
+      "b": "mod:weapon_mod:shock-rampage-survival:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-survival:11",
+      "b": "mod:weapon_mod:static-shock-survival:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-survival:11",
+      "b": "mod:weapon_mod:surge-amplifier-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 3,
+      "layout_status": "partial",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:chest_mod:status-immune-violent:10",
+      "b": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Violent"
+    },
+    {
+      "a": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "b": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "boots_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:gloves_mod:lifeforce-boost-precision:5",
+      "b": "top:6:chest_mod:Rejuvenating:Precision:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "mod:helmet_mod:overflow-general:8",
+      "b": "shoes:21:boots_mod:Against All Odds:General:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "helmet_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:helmet_mod:overflow-general:8",
+      "b": "top:11:chest_mod:Rejuvenating:General:8",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "helmet_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "mod:pants_mod:distant-strike-survival:10",
+      "b": "mod:weapon_mod:shock-diffusion-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "monster_damage_received_percent",
+          "tier": 2,
+          "value_percent": 3.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "pants_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:pants_mod:distant-strike-survival:10",
+      "b": "mod:weapon_mod:shock-rampage-survival:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "pants_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:pants_mod:distant-strike-survival:10",
+      "b": "mod:weapon_mod:static-shock-survival:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "pants_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:pants_mod:distant-strike-survival:10",
+      "b": "mod:weapon_mod:surge-amplifier-survival:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "prior_packet_cross_slot",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "max_hp_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 3,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "monster_damage_received_percent",
+          "tier": 2,
+          "value_percent": 3.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "pants_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Survival"
+    },
+    {
+      "a": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "b": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "mask_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "b": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "gloves_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "b": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "b": "tour:44:chest_mod:Ardent Shield:Deviant Energy:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "b": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "pants_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "b": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 4,
+          "value_percent": 6.4,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "mod:weapon_mod:shock-diffusion-deviant-energy:13",
+      "b": "top:9:chest_mod:Rejuvenating:Deviant Energy:9",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3.0,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "weapon_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:20:helmet_mod:Deviation Expert:Lunar:10",
+      "b": "top:8:chest_mod:Rejuvenating:Lunar:10",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "value_percent": 18,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "deviant_damage_reduction_percent",
+          "tier": 2,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "helmet_mod"
+      ],
+      "suffix": "Lunar"
+    },
+    {
+      "a": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "b": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "status_damage_percent",
+          "tier": 5,
+          "value_percent": 6,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 5,
+          "value_percent": 12,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "gloves_mod",
+        "mask_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "b": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "mask_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "b": "tour:44:chest_mod:Ardent Shield:Deviant Energy:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "mask_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "b": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "mask_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "b": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "mask_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "b": "top:9:chest_mod:Rejuvenating:Deviant Energy:9",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "mask_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "b": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "b": "tour:44:chest_mod:Ardent Shield:Deviant Energy:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "b": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "gloves_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "b": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "b": "top:9:chest_mod:Rejuvenating:Deviant Energy:9",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "gloves_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "b": "tour:44:chest_mod:Ardent Shield:Deviant Energy:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "b": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 0,
+          "same_tier": true,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8,
+          "values_match": true
+        },
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "b": "top:9:chest_mod:Rejuvenating:Deviant Energy:9",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:44:chest_mod:Ardent Shield:Deviant Energy:11",
+      "b": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:44:chest_mod:Ardent Shield:Deviant Energy:11",
+      "b": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "status_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "b": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "b": "top:9:chest_mod:Rejuvenating:Deviant Energy:9",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "chest_mod",
+        "pants_mod"
+      ],
+      "suffix": "Deviant Energy"
+    },
+    {
+      "a": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "b": "top:4:chest_mod:Rejuvenating:Violent:15",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "weapon_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Violent"
+    },
+    {
+      "a": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "b": "top:6:chest_mod:Rejuvenating:Precision:11",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 1,
+          "same_tier": true,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6,
+          "values_match": true
+        },
+        {
+          "index": 2,
+          "same_tier": true,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2,
+          "values_match": true
+        },
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Precision"
+    },
+    {
+      "a": "shoes:21:boots_mod:Against All Odds:General:11",
+      "b": "top:11:chest_mod:Rejuvenating:General:8",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "General"
+    },
+    {
+      "a": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "b": "top:9:chest_mod:Rejuvenating:Deviant Energy:9",
+      "conflicting_tier_rows": [],
+      "evidence_group": "nov1_held_source",
+      "layout_rows_matching": 4,
+      "layout_status": "full",
+      "matching_tier_rows": [
+        {
+          "index": 3,
+          "same_tier": true,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3,
+          "values_match": true
+        }
+      ],
+      "slots": [
+        "boots_mod",
+        "chest_mod"
+      ],
+      "suffix": "Deviant Energy"
+    }
+  ],
+  "exclusions": [
+    {
+      "item": "chest Survival third row",
+      "reason": "Top screenshot label has ambiguous increase/reduction sign; cannot equate to confirmed monster damage received reduction in weapon/pants sources"
+    },
+    {
+      "item": "pants Aero original layout",
+      "reason": "held independent observations show Aero only on pants; no cross-slot transfer corroboration"
+    },
+    {
+      "item": "Lunar Deviant Energy outside helmet",
+      "reason": "only one observed slot; no cross-slot transfer corroboration"
+    },
+    {
+      "item": "rarity, game build, ownership and future upgrades",
+      "reason": "not established by these cross-slot matches; validate each target slot and level before use"
+    }
+  ],
+  "independent_observations": [
+    {
+      "family": "Deviation Expert",
+      "game_build_version": null,
+      "id": "tour:20:helmet_mod:Deviation Expert:Lunar:10",
+      "level": 10,
+      "rows": [
+        {
+          "condition": "scales_with_low_hp",
+          "index": 0,
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "value_percent": 18
+        },
+        {
+          "condition": "scales_with_low_hp",
+          "index": 1,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "scales_with_low_hp",
+          "index": 2,
+          "stat_type": "deviant_damage_reduction_percent",
+          "tier": 2,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "helmet_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+        "sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+        "time_seconds": 20
+      },
+      "suffix": "Lunar",
+      "tier_vector": [
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "family": "Thunderclap",
+      "game_build_version": null,
+      "id": "tour:28:mask_mod:Thunderclap:Deviant Energy:17",
+      "level": 17,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "status_damage_percent",
+          "tier": 5,
+          "value_percent": 6
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 5,
+          "value_percent": 12
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "mask_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+        "sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+        "time_seconds": 28
+      },
+      "suffix": "Deviant Energy",
+      "tier_vector": [
+        5,
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "family": "Elemental Overload",
+      "game_build_version": null,
+      "id": "tour:33:gloves_mod:Elemental Overload:Deviant Energy:17",
+      "level": 17,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "status_damage_percent",
+          "tier": 5,
+          "value_percent": 6
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 5,
+          "value_percent": 12
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "gloves_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+        "sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+        "time_seconds": 33
+      },
+      "suffix": "Deviant Energy",
+      "tier_vector": [
+        5,
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "family": "Ruthless Reaper",
+      "game_build_version": null,
+      "id": "tour:39:boots_mod:Ruthless Reaper:Deviant Energy:15",
+      "level": 15,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "boots_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+        "sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+        "time_seconds": 39
+      },
+      "suffix": "Deviant Energy",
+      "tier_vector": [
+        5,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "family": "Ardent Shield",
+      "game_build_version": null,
+      "id": "tour:44:chest_mod:Ardent Shield:Deviant Energy:11",
+      "level": 11,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "elemental_damage_percent",
+          "tier": 3,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "status_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "chest_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+        "sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+        "time_seconds": 44
+      },
+      "suffix": "Deviant Energy",
+      "tier_vector": [
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "family": "Elemental Resonance",
+      "game_build_version": null,
+      "id": "tour:50:pants_mod:Elemental Resonance:Deviant Energy:15",
+      "level": 15,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "elemental_damage_percent",
+          "tier": 5,
+          "value_percent": 8
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "status_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "pants_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+        "sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+        "time_seconds": 50
+      },
+      "suffix": "Deviant Energy",
+      "tier_vector": [
+        5,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "family": "Against All Odds",
+      "game_build_version": null,
+      "id": "shoes:7:boots_mod:Against All Odds:Violent:14",
+      "level": 14,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "crit_damage_percent",
+          "tier": 4,
+          "value_percent": 12
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "weapon_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "boots_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+        "sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+        "time_seconds": 7
+      },
+      "suffix": "Violent",
+      "tier_vector": [
+        4,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "family": "Against All Odds",
+      "game_build_version": null,
+      "id": "shoes:14:boots_mod:Against All Odds:Battle:13",
+      "level": 13,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "after_hit_damage_reduction_percent",
+          "tier": 4,
+          "value_percent": 12
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "after_damage_reduction_percent",
+          "tier": 4,
+          "value_percent": 6.4
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "metas_kill_heal_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "max_hp_percent",
+          "tier": 2,
+          "value_percent": 2.4
+        }
+      ],
+      "slot": "boots_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+        "sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+        "time_seconds": 14
+      },
+      "suffix": "Battle",
+      "tier_vector": [
+        4,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "family": "Against All Odds",
+      "game_build_version": null,
+      "id": "shoes:16:boots_mod:Against All Odds:Precision:12",
+      "level": 12,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "weakspot_damage_percent",
+          "tier": 4,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "boots_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+        "sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+        "time_seconds": 16
+      },
+      "suffix": "Precision",
+      "tier_vector": [
+        4,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "family": "Against All Odds",
+      "game_build_version": null,
+      "id": "shoes:21:boots_mod:Against All Odds:General:11",
+      "level": 11,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "generic_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 3,
+          "value_percent": 5.4
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "boots_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+        "sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+        "time_seconds": 21
+      },
+      "suffix": "General",
+      "tier_vector": [
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "family": "Against All Odds",
+      "game_build_version": null,
+      "id": "shoes:24:boots_mod:Against All Odds:Deviant Energy:12",
+      "level": 12,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "elemental_damage_percent",
+          "tier": 4,
+          "value_percent": 6.4
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "status_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "boots_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+        "sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6",
+        "time_seconds": 24
+      },
+      "suffix": "Deviant Energy",
+      "tier_vector": [
+        4,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "family": "Rejuvenating",
+      "game_build_version": null,
+      "id": "top:4:chest_mod:Rejuvenating:Violent:15",
+      "level": 15,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "crit_damage_percent",
+          "tier": 5,
+          "value_percent": 15
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "weapon_damage_percent",
+          "tier": 4,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 4,
+          "value_percent": 9.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "chest_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+        "sha256": "524225c79b4cdacefdba988879864bc2e017d9aef8694f94aba07271c0745bd6",
+        "time_seconds": 4
+      },
+      "suffix": "Violent",
+      "tier_vector": [
+        5,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "family": "Rejuvenating",
+      "game_build_version": null,
+      "id": "top:6:chest_mod:Rejuvenating:Precision:11",
+      "level": 11,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "weakspot_damage_percent",
+          "tier": 3,
+          "value_percent": 5.4
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 3.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "chest_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+        "sha256": "524225c79b4cdacefdba988879864bc2e017d9aef8694f94aba07271c0745bd6",
+        "time_seconds": 6
+      },
+      "suffix": "Precision",
+      "tier_vector": [
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "family": "Rejuvenating",
+      "game_build_version": null,
+      "id": "top:8:chest_mod:Rejuvenating:Lunar:10",
+      "level": 10,
+      "rows": [
+        {
+          "condition": "scales_with_low_hp",
+          "index": 0,
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "value_percent": 18
+        },
+        {
+          "condition": "scales_with_low_hp",
+          "index": 1,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "scales_with_low_hp",
+          "index": 2,
+          "stat_type": "deviant_damage_reduction_percent",
+          "tier": 2,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "chest_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+        "sha256": "524225c79b4cdacefdba988879864bc2e017d9aef8694f94aba07271c0745bd6",
+        "time_seconds": 8
+      },
+      "suffix": "Lunar",
+      "tier_vector": [
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "family": "Rejuvenating",
+      "game_build_version": null,
+      "id": "top:9:chest_mod:Rejuvenating:Deviant Energy:9",
+      "level": 9,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "elemental_damage_percent",
+          "tier": 3,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "status_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "chest_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+        "sha256": "524225c79b4cdacefdba988879864bc2e017d9aef8694f94aba07271c0745bd6",
+        "time_seconds": 9
+      },
+      "suffix": "Deviant Energy",
+      "tier_vector": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "family": "Rejuvenating",
+      "game_build_version": null,
+      "id": "top:11:chest_mod:Rejuvenating:General:8",
+      "level": 8,
+      "rows": [
+        {
+          "condition": "unconditional",
+          "index": 0,
+          "stat_type": "generic_damage_percent",
+          "tier": 2,
+          "value_percent": 2.4
+        },
+        {
+          "condition": "unconditional",
+          "index": 1,
+          "stat_type": "magazine_capacity_percent",
+          "tier": 2,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 2,
+          "stat_type": "reload_efficiency_percent",
+          "tier": 2,
+          "value_percent": 3.6
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "chest_mod",
+      "source": {
+        "kind": "held_video_frame",
+        "path": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+        "sha256": "524225c79b4cdacefdba988879864bc2e017d9aef8694f94aba07271c0745bd6",
+        "time_seconds": 11
+      },
+      "suffix": "General",
+      "tier_vector": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "family": "Deviation Expert",
+      "game_build_version": null,
+      "id": "helmet_old:image:helmet_mod:Deviation Expert:Lunar:10",
+      "level": 10,
+      "rows": [
+        {
+          "condition": "scales_with_low_hp",
+          "index": 0,
+          "stat_type": "crit_damage_percent",
+          "tier": 3,
+          "value_percent": 18
+        },
+        {
+          "condition": "scales_with_low_hp",
+          "index": 1,
+          "stat_type": "weapon_damage_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "scales_with_low_hp",
+          "index": 2,
+          "stat_type": "deviant_damage_reduction_percent",
+          "tier": 2,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "helmet_mod",
+      "source": {
+        "kind": "held_screenshot",
+        "path": "/home/dv/Pictures/screenshot-2026-11-01_02-40-19.png",
+        "sha256": "f6fe8e64625709bf0f8405c799119f72813a46c25c42f0c131e641affaae2ba1",
+        "time_seconds": null
+      },
+      "suffix": "Lunar",
+      "tier_vector": [
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "family": "Deviation Expert",
+      "game_build_version": null,
+      "id": "helmet_new:image:helmet_mod:Deviation Expert:Lunar Deviant Energy:10",
+      "level": 10,
+      "rows": [
+        {
+          "condition": "scales_with_low_hp",
+          "index": 0,
+          "stat_type": "elemental_damage_percent",
+          "tier": 3,
+          "value_percent": 9.6
+        },
+        {
+          "condition": "scales_with_low_hp",
+          "index": 1,
+          "stat_type": "status_damage_percent",
+          "tier": 3,
+          "value_percent": 7.2
+        },
+        {
+          "condition": "scales_with_low_hp",
+          "index": 2,
+          "stat_type": "deviant_damage_reduction_percent",
+          "tier": 2,
+          "value_percent": 4.8
+        },
+        {
+          "condition": "unconditional",
+          "index": 3,
+          "stat_type": "all_damage_boost_percent",
+          "tier": 2,
+          "value_percent": 3
+        }
+      ],
+      "slot": "helmet_mod",
+      "source": {
+        "kind": "held_screenshot",
+        "path": "/home/dv/Pictures/screenshot-2026-11-01_02-40-39.png",
+        "sha256": "b0583fb24e54342fa52f1af04d4cb9d30ebc6f2f99474025a858c20448917b1c",
+        "time_seconds": null
+      },
+      "suffix": "Lunar Deviant Energy",
+      "tier_vector": [
+        3,
+        3,
+        2,
+        2
+      ]
+    }
+  ],
+  "original_eight_layout_coverage": [
+    {
+      "full_pairs": 7,
+      "independent_cross_slot_pairs": 7,
+      "partial_pairs": 0,
+      "slot": "chest_mod",
+      "status": "full_cross_slot_corroboration",
+      "suffix": "Battle"
+    },
+    {
+      "full_pairs": 36,
+      "independent_cross_slot_pairs": 36,
+      "partial_pairs": 0,
+      "slot": "chest_mod",
+      "status": "full_cross_slot_corroboration",
+      "suffix": "Deviant Energy"
+    },
+    {
+      "full_pairs": 16,
+      "independent_cross_slot_pairs": 16,
+      "partial_pairs": 0,
+      "slot": "chest_mod",
+      "status": "full_cross_slot_corroboration",
+      "suffix": "General"
+    },
+    {
+      "full_pairs": 24,
+      "independent_cross_slot_pairs": 24,
+      "partial_pairs": 0,
+      "slot": "chest_mod",
+      "status": "full_cross_slot_corroboration",
+      "suffix": "Precision"
+    },
+    {
+      "full_pairs": 0,
+      "independent_cross_slot_pairs": 35,
+      "partial_pairs": 35,
+      "slot": "chest_mod",
+      "status": "partial_cross_slot_corroboration",
+      "suffix": "Survival"
+    },
+    {
+      "full_pairs": 9,
+      "independent_cross_slot_pairs": 9,
+      "partial_pairs": 0,
+      "slot": "chest_mod",
+      "status": "full_cross_slot_corroboration",
+      "suffix": "Violent"
+    },
+    {
+      "full_pairs": 0,
+      "independent_cross_slot_pairs": 0,
+      "partial_pairs": 0,
+      "slot": "pants_mod",
+      "status": "no_cross_slot_corroboration",
+      "suffix": "Aero"
+    },
+    {
+      "full_pairs": 4,
+      "independent_cross_slot_pairs": 32,
+      "partial_pairs": 28,
+      "slot": "weapon_mod",
+      "status": "full_cross_slot_corroboration",
+      "suffix": "Survival"
+    }
+  ],
+  "original_fifty_tier_validation": [
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 2,
+      "example_pair": [
+        "mod:chest_mod:critical-rescue-battle:12",
+        "shoes:14:boots_mod:Against All Odds:Battle:13"
+      ],
+      "row_index": 0,
+      "suffix": "Battle",
+      "tier": 4,
+      "value_percent": 12.0
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 2,
+      "example_pair": [
+        "mod:chest_mod:critical-rescue-battle:12",
+        "shoes:14:boots_mod:Against All Odds:Battle:13"
+      ],
+      "row_index": 2,
+      "suffix": "Battle",
+      "tier": 3,
+      "value_percent": 7.2
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 5,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-battle:8",
+        "shoes:14:boots_mod:Against All Odds:Battle:13"
+      ],
+      "row_index": 3,
+      "suffix": "Battle",
+      "tier": 2,
+      "value_percent": 2.4
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 2,
+      "example_pair": [
+        "mod:chest_mod:status-immune-deviant-energy:10",
+        "shoes:24:boots_mod:Against All Odds:Deviant Energy:12"
+      ],
+      "row_index": 1,
+      "suffix": "Deviant Energy",
+      "tier": 3,
+      "value_percent": 3.6
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 30,
+      "example_pair": [
+        "mod:chest_mod:enduring-shield-deviant-energy:8",
+        "mod:weapon_mod:shock-diffusion-deviant-energy:13"
+      ],
+      "row_index": 3,
+      "suffix": "Deviant Energy",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 6,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-general:8",
+        "mod:helmet_mod:overflow-general:8"
+      ],
+      "row_index": 0,
+      "suffix": "General",
+      "tier": 2,
+      "value_percent": 2.4
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 2,
+      "example_pair": [
+        "mod:chest_mod:enduring-shield-general:9",
+        "shoes:21:boots_mod:Against All Odds:General:11"
+      ],
+      "row_index": 0,
+      "suffix": "General",
+      "tier": 3,
+      "value_percent": 3.6
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 7,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-general:8",
+        "mod:helmet_mod:overflow-general:8"
+      ],
+      "row_index": 1,
+      "suffix": "General",
+      "tier": 2,
+      "value_percent": 4.8
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 8,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-general:8",
+        "mod:helmet_mod:overflow-general:8"
+      ],
+      "row_index": 2,
+      "suffix": "General",
+      "tier": 2,
+      "value_percent": 3.6
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 12,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-general:8",
+        "mod:helmet_mod:overflow-general:8"
+      ],
+      "row_index": 3,
+      "suffix": "General",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 3,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-precision:14",
+        "shoes:16:boots_mod:Against All Odds:Precision:12"
+      ],
+      "row_index": 0,
+      "suffix": "Precision",
+      "tier": 4,
+      "value_percent": 7.2
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 5,
+      "example_pair": [
+        "mod:chest_mod:enduring-shield-precision:10",
+        "shoes:16:boots_mod:Against All Odds:Precision:12"
+      ],
+      "row_index": 1,
+      "suffix": "Precision",
+      "tier": 3,
+      "value_percent": 3.6
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 2,
+      "example_pair": [
+        "mod:boots_mod:against-all-odds-precision:7",
+        "mod:chest_mod:enduring-shield-precision:10"
+      ],
+      "row_index": 2,
+      "suffix": "Precision",
+      "tier": 2,
+      "value_percent": 4.8
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 5,
+      "example_pair": [
+        "mod:chest_mod:head-guard-precision:12",
+        "shoes:16:boots_mod:Against All Odds:Precision:12"
+      ],
+      "row_index": 2,
+      "suffix": "Precision",
+      "tier": 3,
+      "value_percent": 7.2
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 7,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-precision:14",
+        "shoes:16:boots_mod:Against All Odds:Precision:12"
+      ],
+      "row_index": 3,
+      "suffix": "Precision",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 3,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-survival:12",
+        "mod:weapon_mod:shock-rampage-survival:12"
+      ],
+      "row_index": 0,
+      "suffix": "Survival",
+      "tier": 4,
+      "value_percent": 4.8
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 15,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-survival:12",
+        "mod:pants_mod:distant-strike-survival:10"
+      ],
+      "row_index": 1,
+      "suffix": "Survival",
+      "tier": 3,
+      "value_percent": 4.8
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 30,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-survival:12",
+        "mod:pants_mod:distant-strike-survival:10"
+      ],
+      "row_index": 3,
+      "suffix": "Survival",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "candidate_slot": "chest_mod",
+      "cross_slot_pairs": 8,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-violent:8",
+        "shoes:7:boots_mod:Against All Odds:Violent:14"
+      ],
+      "row_index": 3,
+      "suffix": "Violent",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "candidate_slot": "weapon_mod",
+      "cross_slot_pairs": 6,
+      "example_pair": [
+        "mod:chest_mod:status-immune-survival:11",
+        "mod:weapon_mod:shock-diffusion-survival:10"
+      ],
+      "row_index": 0,
+      "suffix": "Survival",
+      "tier": 3,
+      "value_percent": 3.6
+    },
+    {
+      "candidate_slot": "weapon_mod",
+      "cross_slot_pairs": 16,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-survival:12",
+        "mod:weapon_mod:shock-diffusion-survival:10"
+      ],
+      "row_index": 1,
+      "suffix": "Survival",
+      "tier": 3,
+      "value_percent": 4.8
+    },
+    {
+      "candidate_slot": "weapon_mod",
+      "cross_slot_pairs": 2,
+      "example_pair": [
+        "mod:pants_mod:distant-strike-survival:10",
+        "mod:weapon_mod:shock-diffusion-survival:10"
+      ],
+      "row_index": 2,
+      "suffix": "Survival",
+      "tier": 2,
+      "value_percent": 3.2
+    },
+    {
+      "candidate_slot": "weapon_mod",
+      "cross_slot_pairs": 28,
+      "example_pair": [
+        "mod:chest_mod:ardent-shield-survival:12",
+        "mod:weapon_mod:shock-diffusion-survival:10"
+      ],
+      "row_index": 3,
+      "suffix": "Survival",
+      "tier": 2,
+      "value_percent": 3.0
+    }
+  ],
+  "parent_packet_sha256": "ee84f350d8d4a65b772495991d134217bce365eb6d0eef8cc76a6828a6bd8514",
+  "purpose": "cross-slot validation of suffix evidence packet; no automatic gameplay or score transfer",
+  "schema_version": 2,
+  "source_files": [
+    {
+      "path": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+      "sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298"
+    },
+    {
+      "path": "/home/dv/Videos/screenrecording-2026-11-01_00-54-18.mp4",
+      "sha256": "31c815af5aa3a654b9454886f922f9b63620c77780f6f94d8bfb8ccc2c0306f6"
+    },
+    {
+      "path": "/home/dv/Videos/screenrecording-2026-11-01_01-45-18.mp4",
+      "sha256": "524225c79b4cdacefdba988879864bc2e017d9aef8694f94aba07271c0745bd6"
+    },
+    {
+      "path": "/home/dv/Pictures/screenshot-2026-11-01_02-40-19.png",
+      "sha256": "f6fe8e64625709bf0f8405c799119f72813a46c25c42f0c131e641affaae2ba1"
+    },
+    {
+      "path": "/home/dv/Pictures/screenshot-2026-11-01_02-40-39.png",
+      "sha256": "b0583fb24e54342fa52f1af04d4cb9d30ebc6f2f99474025a858c20448917b1c"
+    }
+  ],
+  "source_scope": "held Oct 2026 Field Guide source plus Nov 1 2026 recordings and screenshots; exact game build versions unverified",
+  "unique_cross_slot_stat_tiers": [
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "after_damage_reduction_percent",
+      "suffix": "Battle",
+      "tier": 4,
+      "value_percent": 6.4
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "after_hit_damage_reduction_percent",
+      "suffix": "Battle",
+      "tier": 4,
+      "value_percent": 12.0
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "max_hp_percent",
+      "suffix": "Battle",
+      "tier": 2,
+      "value_percent": 2.4
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "metas_kill_heal_percent",
+      "suffix": "Battle",
+      "tier": 3,
+      "value_percent": 7.2
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ],
+        [
+          "boots_mod",
+          "gloves_mod"
+        ],
+        [
+          "boots_mod",
+          "mask_mod"
+        ],
+        [
+          "boots_mod",
+          "pants_mod"
+        ],
+        [
+          "boots_mod",
+          "weapon_mod"
+        ],
+        [
+          "chest_mod",
+          "gloves_mod"
+        ],
+        [
+          "chest_mod",
+          "mask_mod"
+        ],
+        [
+          "chest_mod",
+          "pants_mod"
+        ],
+        [
+          "chest_mod",
+          "weapon_mod"
+        ],
+        [
+          "gloves_mod",
+          "mask_mod"
+        ],
+        [
+          "gloves_mod",
+          "pants_mod"
+        ],
+        [
+          "gloves_mod",
+          "weapon_mod"
+        ],
+        [
+          "mask_mod",
+          "pants_mod"
+        ],
+        [
+          "mask_mod",
+          "weapon_mod"
+        ],
+        [
+          "pants_mod",
+          "weapon_mod"
+        ]
+      ],
+      "stat_type": "all_damage_boost_percent",
+      "suffix": "Deviant Energy",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "weapon_mod"
+        ]
+      ],
+      "stat_type": "elemental_damage_percent",
+      "suffix": "Deviant Energy",
+      "tier": 4,
+      "value_percent": 6.4
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ],
+        [
+          "boots_mod",
+          "gloves_mod"
+        ],
+        [
+          "boots_mod",
+          "mask_mod"
+        ],
+        [
+          "boots_mod",
+          "pants_mod"
+        ],
+        [
+          "chest_mod",
+          "gloves_mod"
+        ],
+        [
+          "chest_mod",
+          "mask_mod"
+        ],
+        [
+          "chest_mod",
+          "pants_mod"
+        ],
+        [
+          "gloves_mod",
+          "mask_mod"
+        ],
+        [
+          "gloves_mod",
+          "pants_mod"
+        ],
+        [
+          "mask_mod",
+          "pants_mod"
+        ]
+      ],
+      "stat_type": "elemental_damage_percent",
+      "suffix": "Deviant Energy",
+      "tier": 5,
+      "value_percent": 8.0
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ],
+        [
+          "boots_mod",
+          "weapon_mod"
+        ],
+        [
+          "chest_mod",
+          "weapon_mod"
+        ]
+      ],
+      "stat_type": "magazine_capacity_percent",
+      "suffix": "Deviant Energy",
+      "tier": 3,
+      "value_percent": 7.2
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ],
+        [
+          "boots_mod",
+          "pants_mod"
+        ],
+        [
+          "chest_mod",
+          "pants_mod"
+        ]
+      ],
+      "stat_type": "magazine_capacity_percent",
+      "suffix": "Deviant Energy",
+      "tier": 4,
+      "value_percent": 9.6
+    },
+    {
+      "slot_pairs": [
+        [
+          "gloves_mod",
+          "mask_mod"
+        ]
+      ],
+      "stat_type": "magazine_capacity_percent",
+      "suffix": "Deviant Energy",
+      "tier": 5,
+      "value_percent": 12
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "status_damage_percent",
+      "suffix": "Deviant Energy",
+      "tier": 3,
+      "value_percent": 3.6
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ],
+        [
+          "boots_mod",
+          "pants_mod"
+        ],
+        [
+          "boots_mod",
+          "weapon_mod"
+        ],
+        [
+          "chest_mod",
+          "pants_mod"
+        ],
+        [
+          "chest_mod",
+          "weapon_mod"
+        ],
+        [
+          "pants_mod",
+          "weapon_mod"
+        ]
+      ],
+      "stat_type": "status_damage_percent",
+      "suffix": "Deviant Energy",
+      "tier": 4,
+      "value_percent": 4.8
+    },
+    {
+      "slot_pairs": [
+        [
+          "gloves_mod",
+          "mask_mod"
+        ]
+      ],
+      "stat_type": "status_damage_percent",
+      "suffix": "Deviant Energy",
+      "tier": 5,
+      "value_percent": 6
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "pants_mod"
+        ]
+      ],
+      "stat_type": "elemental_damage_percent",
+      "suffix": "Downstar Deviant Energy",
+      "tier": 3,
+      "value_percent": 4.8
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "pants_mod"
+        ]
+      ],
+      "stat_type": "max_hp_percent",
+      "suffix": "Downstar Deviant Energy",
+      "tier": 2,
+      "value_percent": 2.4
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ],
+        [
+          "boots_mod",
+          "helmet_mod"
+        ],
+        [
+          "chest_mod",
+          "helmet_mod"
+        ]
+      ],
+      "stat_type": "all_damage_boost_percent",
+      "suffix": "General",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "helmet_mod"
+        ]
+      ],
+      "stat_type": "generic_damage_percent",
+      "suffix": "General",
+      "tier": 2,
+      "value_percent": 2.4
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "generic_damage_percent",
+      "suffix": "General",
+      "tier": 3,
+      "value_percent": 3.6
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "helmet_mod"
+        ]
+      ],
+      "stat_type": "magazine_capacity_percent",
+      "suffix": "General",
+      "tier": 2,
+      "value_percent": 4.8
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "magazine_capacity_percent",
+      "suffix": "General",
+      "tier": 3,
+      "value_percent": 7.2
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "helmet_mod"
+        ]
+      ],
+      "stat_type": "reload_efficiency_percent",
+      "suffix": "General",
+      "tier": 2,
+      "value_percent": 3.6
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "helmet_mod"
+        ]
+      ],
+      "stat_type": "all_damage_boost_percent",
+      "suffix": "Lunar",
+      "tier": 2,
+      "value_percent": 3
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "helmet_mod"
+        ]
+      ],
+      "stat_type": "crit_damage_percent",
+      "suffix": "Lunar",
+      "tier": 3,
+      "value_percent": 18
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "helmet_mod"
+        ]
+      ],
+      "stat_type": "deviant_damage_reduction_percent",
+      "suffix": "Lunar",
+      "tier": 2,
+      "value_percent": 4.8
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "helmet_mod"
+        ]
+      ],
+      "stat_type": "weapon_damage_percent",
+      "suffix": "Lunar",
+      "tier": 3,
+      "value_percent": 7.2
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ],
+        [
+          "boots_mod",
+          "gloves_mod"
+        ],
+        [
+          "chest_mod",
+          "gloves_mod"
+        ]
+      ],
+      "stat_type": "all_damage_boost_percent",
+      "suffix": "Precision",
+      "tier": 1,
+      "value_percent": 1.5
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "all_damage_boost_percent",
+      "suffix": "Precision",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "magazine_capacity_percent",
+      "suffix": "Precision",
+      "tier": 2,
+      "value_percent": 4.8
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "magazine_capacity_percent",
+      "suffix": "Precision",
+      "tier": 3,
+      "value_percent": 7.2
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ],
+        [
+          "boots_mod",
+          "gloves_mod"
+        ],
+        [
+          "chest_mod",
+          "gloves_mod"
+        ]
+      ],
+      "stat_type": "weakspot_damage_percent",
+      "suffix": "Precision",
+      "tier": 2,
+      "value_percent": 3.6
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "weakspot_damage_percent",
+      "suffix": "Precision",
+      "tier": 4,
+      "value_percent": 7.2
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "weapon_damage_percent",
+      "suffix": "Precision",
+      "tier": 2,
+      "value_percent": 2.4
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "weapon_damage_percent",
+      "suffix": "Precision",
+      "tier": 3,
+      "value_percent": 3.6
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "pants_mod"
+        ],
+        [
+          "chest_mod",
+          "weapon_mod"
+        ],
+        [
+          "pants_mod",
+          "weapon_mod"
+        ]
+      ],
+      "stat_type": "after_damage_reduction_percent",
+      "suffix": "Survival",
+      "tier": 3,
+      "value_percent": 4.8
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "pants_mod"
+        ],
+        [
+          "chest_mod",
+          "weapon_mod"
+        ],
+        [
+          "pants_mod",
+          "weapon_mod"
+        ]
+      ],
+      "stat_type": "all_damage_boost_percent",
+      "suffix": "Survival",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "pants_mod"
+        ],
+        [
+          "chest_mod",
+          "weapon_mod"
+        ],
+        [
+          "pants_mod",
+          "weapon_mod"
+        ]
+      ],
+      "stat_type": "max_hp_percent",
+      "suffix": "Survival",
+      "tier": 3,
+      "value_percent": 3.6
+    },
+    {
+      "slot_pairs": [
+        [
+          "chest_mod",
+          "weapon_mod"
+        ]
+      ],
+      "stat_type": "max_hp_percent",
+      "suffix": "Survival",
+      "tier": 4,
+      "value_percent": 4.8
+    },
+    {
+      "slot_pairs": [
+        [
+          "pants_mod",
+          "weapon_mod"
+        ]
+      ],
+      "stat_type": "monster_damage_received_percent",
+      "suffix": "Survival",
+      "tier": 2,
+      "value_percent": 3.2
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "all_damage_boost_percent",
+      "suffix": "Violent",
+      "tier": 2,
+      "value_percent": 3.0
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "crit_damage_percent",
+      "suffix": "Violent",
+      "tier": 4,
+      "value_percent": 12.0
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "magazine_capacity_percent",
+      "suffix": "Violent",
+      "tier": 4,
+      "value_percent": 9.6
+    },
+    {
+      "slot_pairs": [
+        [
+          "boots_mod",
+          "chest_mod"
+        ]
+      ],
+      "stat_type": "weapon_damage_percent",
+      "suffix": "Violent",
+      "tier": 4,
+      "value_percent": 4.8
+    }
+  ]
+}

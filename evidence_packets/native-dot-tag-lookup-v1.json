@@ -1,0 +1,51 @@
+{
+  "build_id": "26267212",
+  "source_sha256": {
+    "element_type_data.literal.bin": "10f1a8965443e8c973c5363b5fb9ef1be3f014d99f63b399339f61875ff47580",
+    "buff_tag_data.literal.bin": "d9b5a6c883d8c604a477da2d112efdc42b190fd547f79a16d1a58a1aee06ec8c",
+    "attack_consumer_captures/FormulaManagerHelper.pyc": "b11b532d0be1b543aa90ebf06be1d145e96036d7c4997af18f3e5d0b8e7cfb1e",
+    "aug_effect_node_captures/NodeDurativeAttack.pyc": "0e04fa1d31d86caf025082b0d3ca059f5238f03715547ad159e838a8382218a8"
+  },
+  "element": {
+    "key_type": "numeric indexed key",
+    "key": 3,
+    "row_bounds": [
+      1388,
+      1416
+    ],
+    "suffix_string": "lightning",
+    "string_token_offset": 1404,
+    "negative_controls": {
+      "1": "fire",
+      "2": "ice",
+      "4": "machine"
+    }
+  },
+  "keyword": {
+    "key_type": "numeric indexed key",
+    "key": 302,
+    "row_bounds": [
+      3555,
+      3623
+    ],
+    "suffix_string": "surge",
+    "string_token_offset": 3581,
+    "negative_controls": {
+      "301": "scorch",
+      "303": "vortex"
+    }
+  },
+  "lookup_loader": {
+    "pyc_sha256": "b11b532d0be1b543aa90ebf06be1d145e96036d7c4997af18f3e5d0b8e7cfb1e",
+    "preload_body_offset": 28870,
+    "preload_body_sha256": "829768b6dfbb9fe41acd2eed438bee554d9985c367fae6a8e891adba68b1d334"
+  },
+  "is_keyword_damage": {
+    "configured_aug_value": 0,
+    "editor_declares_effect_on_damage_settlement": true,
+    "readable_node_executor_body_present": false,
+    "exact_keyword_type_leaf_assignment_proven": false
+  },
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

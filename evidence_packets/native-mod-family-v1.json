@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "status": "native_family_membership_identity_only",
+  "source": {
+    "installed_build_id": "26267212",
+    "group_packet_sha256": "4db0d4055d941439f79cd8581aa6dfdf30c1a93ada18f63f6b47b3036cb3f46c",
+    "source_literal_sha256": "b0ddd8d13b4f3802f97659f1e51eeb0196e9750d6489f62cef8535793153234d",
+    "native_group_records": 102,
+    "native_mod_codes_grouped": 1662
+  },
+  "coverage": {
+    "catalog_families_corroborated": 23,
+    "catalog_identities_corroborated": 64,
+    "other_catalog_families_unverified": "not counted as absent"
+  },
+  "limits": [
+    "Native main-entry grouping proves membership, not effect rank or formula.",
+    "Only exact public/native item-ID links are included; no name-only transfer."
+  ],
+  "families": [
+    {
+      "slot": "boots_mod",
+      "catalog_family": "Secluded Strike",
+      "native_main_entry_no": 9415,
+      "catalog_ids": [
+        "mod:boots_mod:secluded-strike-mirror"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "boots_mod",
+      "catalog_family": "Slow and Steady",
+      "native_main_entry_no": 9416,
+      "catalog_ids": [
+        "mod:boots_mod:slow-and-steady-deviant-energy",
+        "mod:boots_mod:slow-and-steady-downstar",
+        "mod:boots_mod:slow-and-steady-downstar-deviant-energy",
+        "mod:boots_mod:slow-and-steady-precision",
+        "mod:boots_mod:slow-and-steady-resistance",
+        "mod:boots_mod:slow-and-steady-survival",
+        "mod:boots_mod:slow-and-steady-violent"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "gloves_mod",
+      "catalog_family": "Crit Amplifier",
+      "native_main_entry_no": 9512,
+      "catalog_ids": [
+        "mod:gloves_mod:crit-amplifier-aero",
+        "mod:gloves_mod:crit-amplifier-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "gloves_mod",
+      "catalog_family": "Crit Boost",
+      "native_main_entry_no": 9511,
+      "catalog_ids": [
+        "mod:gloves_mod:crit-boost-aero",
+        "mod:gloves_mod:crit-boost-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "gloves_mod",
+      "catalog_family": "Elemental Overload",
+      "native_main_entry_no": 9519,
+      "catalog_ids": [
+        "mod:gloves_mod:elemental-overload-aero",
+        "mod:gloves_mod:elemental-overload-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "gloves_mod",
+      "catalog_family": "Lifeforce Boost",
+      "native_main_entry_no": 9514,
+      "catalog_ids": [
+        "mod:gloves_mod:lifeforce-boost-aero",
+        "mod:gloves_mod:lifeforce-boost-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "gloves_mod",
+      "catalog_family": "Melee Amplifier",
+      "native_main_entry_no": 9517,
+      "catalog_ids": [
+        "mod:gloves_mod:melee-amplifier-aero",
+        "mod:gloves_mod:melee-amplifier-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "gloves_mod",
+      "catalog_family": "Status Enhancement",
+      "native_main_entry_no": 9515,
+      "catalog_ids": [
+        "mod:gloves_mod:status-enhancement-aero",
+        "mod:gloves_mod:status-enhancement-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "gloves_mod",
+      "catalog_family": "Weakspot DMG Boost",
+      "native_main_entry_no": 9513,
+      "catalog_ids": [
+        "mod:gloves_mod:weakspot-dmg-boost-aero",
+        "mod:gloves_mod:weakspot-dmg-boost-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "gloves_mod",
+      "catalog_family": "Weapon Amplifier",
+      "native_main_entry_no": 9516,
+      "catalog_ids": [
+        "mod:gloves_mod:weapon-amplifier-aero",
+        "mod:gloves_mod:weapon-amplifier-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "helmet_mod",
+      "catalog_family": "Fortune's Favor",
+      "native_main_entry_no": 9116,
+      "catalog_ids": [
+        "mod:helmet_mod:fortune-s-favor-crescent",
+        "mod:helmet_mod:fortune-s-favor-crescent-deviant-energy",
+        "mod:helmet_mod:fortune-s-favor-deviant-energy",
+        "mod:helmet_mod:fortune-s-favor-general",
+        "mod:helmet_mod:fortune-s-favor-lunar",
+        "mod:helmet_mod:fortune-s-favor-lunar-deviant-energy",
+        "mod:helmet_mod:fortune-s-favor-survival",
+        "mod:helmet_mod:fortune-s-favor-violent"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "mask_mod",
+      "catalog_family": "Most Wanted",
+      "native_main_entry_no": 9625,
+      "catalog_ids": [
+        "mod:mask_mod:most-wanted-the-bull-s-eye"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "mask_mod",
+      "catalog_family": "Targeted Strike",
+      "native_main_entry_no": 9617,
+      "catalog_ids": [
+        "mod:mask_mod:targeted-strike-the-bull-s-eye"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Abnormal Increase",
+      "native_main_entry_no": 9315,
+      "catalog_ids": [
+        "mod:pants_mod:abnormal-increase-aero",
+        "mod:pants_mod:abnormal-increase-aero-deviant-energy",
+        "mod:pants_mod:abnormal-increase-deviant-energy",
+        "mod:pants_mod:abnormal-increase-downstar",
+        "mod:pants_mod:abnormal-increase-downstar-deviant-energy",
+        "mod:pants_mod:abnormal-increase-general",
+        "mod:pants_mod:abnormal-increase-precision",
+        "mod:pants_mod:abnormal-increase-resonance",
+        "mod:pants_mod:abnormal-increase-resonance-deviant-energy",
+        "mod:pants_mod:abnormal-increase-survival",
+        "mod:pants_mod:abnormal-increase-violent"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Bullet Siphon",
+      "native_main_entry_no": 9313,
+      "catalog_ids": [
+        "mod:pants_mod:bullet-siphon-aero",
+        "mod:pants_mod:bullet-siphon-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Critical Surge",
+      "native_main_entry_no": 9320,
+      "catalog_ids": [
+        "mod:pants_mod:critical-surge-aero",
+        "mod:pants_mod:critical-surge-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Deadshot",
+      "native_main_entry_no": 9314,
+      "catalog_ids": [
+        "mod:pants_mod:deadshot-aero",
+        "mod:pants_mod:deadshot-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Distant Strike",
+      "native_main_entry_no": 9317,
+      "catalog_ids": [
+        "mod:pants_mod:distant-strike-aero",
+        "mod:pants_mod:distant-strike-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Elemental Resonance",
+      "native_main_entry_no": 9319,
+      "catalog_ids": [
+        "mod:pants_mod:elemental-resonance-aero",
+        "mod:pants_mod:elemental-resonance-aero-deviant-energy",
+        "mod:pants_mod:elemental-resonance-deviant-energy-current"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Melee Momentum",
+      "native_main_entry_no": 9316,
+      "catalog_ids": [
+        "mod:pants_mod:melee-momentum-aero",
+        "mod:pants_mod:melee-momentum-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Precision Charge",
+      "native_main_entry_no": 9318,
+      "catalog_ids": [
+        "mod:pants_mod:precision-charge-aero",
+        "mod:pants_mod:precision-charge-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Reload Rampage",
+      "native_main_entry_no": 9311,
+      "catalog_ids": [
+        "mod:pants_mod:reload-rampage-aero",
+        "mod:pants_mod:reload-rampage-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    },
+    {
+      "slot": "pants_mod",
+      "catalog_family": "Three Strikes",
+      "native_main_entry_no": 9312,
+      "catalog_ids": [
+        "mod:pants_mod:three-strikes-aero",
+        "mod:pants_mod:three-strikes-aero-deviant-energy"
+      ],
+      "effect_formula_inferred": false
+    }
+  ]
+}

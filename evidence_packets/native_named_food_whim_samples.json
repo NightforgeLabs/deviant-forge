@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_hashes": {
+    "item_data_literal_sha256": "bcb0eed8c4d9ca658179558ee4e6002b3f13b686c7839e09a9a7aa695eea8035",
+    "item_use_para_literal_sha256": "a2b5c4bd09f43c845c61be889743e3ada8e28a58e49d5ade4be8b2bb8dd643ac",
+    "cuisine_packet_sha256": "baea8a2048b63a41c39d6ec253d083a865499b7549f65ca53fac212df47ae38b"
+  },
+  "method": "Exact indexed native item IDs, validated backward localization pointers for name/effect wording, native 14-field item-use descriptor, body-relative buff and survival arrays. Public exact-ID pages only cross-check labels; installed raw strings/bytes are retained.",
+  "coverage": {
+    "named_samples": 2,
+    "food_with_native_buff_id": 1,
+    "whim_potion_with_explicit_numeric_source_description": 1
+  },
+  "interpretation_gate": "Gingerdrop description says a defense boost and item use references buff 403137000, but no verified defense amount or duration is decoded. Utter Delight item description states 35% longer duration for other newly added Whims; its item-use buff_effect_list is empty and the runtime application is not decoded. Raw survival arrays are not translated into gameplay bars without a native enum definition.",
+  "records": [
+    {
+      "item_id": 30110378,
+      "category_for_this_sample": "food",
+      "public_exact_id_crosscheck": "https://oncehuman.th.gl/db/consumables/30110378",
+      "item_data_row_bounds": [
+        6978587,
+        6978719
+      ],
+      "source_item_name": {
+        "source_string": "硬邦邦姜糖_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 6978663,
+        "pointer_raw_hex": "eec717",
+        "pointer_body_relative": 386030,
+        "translation_object_byte_offset": 6978577,
+        "string_table_index": 35268,
+        "string_index_byte_offset": 6978574,
+        "string_index_raw_hex": "c49302"
+      },
+      "source_description_effect_line": {
+        "source_string": "将姜块熬化后制成的糖果，坚硬无比，含在嘴中似乎让自身的防御能力都获得了极大地提升。\n#cd1356a随时间腐败，在获得24小时后转化为变质的料理_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 6978618,
+        "pointer_raw_hex": "cec717",
+        "pointer_body_relative": 385998,
+        "translation_object_byte_offset": 6978545,
+        "string_table_index": 35269,
+        "string_index_byte_offset": 6978542,
+        "string_index_raw_hex": "c59302"
+      },
+      "cuisine_type_record_if_present": {
+        "item_id": 30110378,
+        "cuisine_type": 1,
+        "index_tail_offset": 5729,
+        "value_byte_offset": 38,
+        "value_raw_hex": "01"
+      },
+      "item_use_row_bounds": [
+        83518,
+        83538
+      ],
+      "item_use_field_tokens": {
+        "exclusion_id": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 83520,
+          "raw_hex": "00",
+          "source_string": null
+        },
+        "bag_behavior_name": {
+          "value": 19,
+          "type_code": 5,
+          "byte_offset": 83521,
+          "raw_hex": "13",
+          "source_string": "eat once"
+        },
+        "behavior_name": {
+          "value": 21,
+          "type_code": 5,
+          "byte_offset": 83522,
+          "raw_hex": "15",
+          "source_string": "Survival_eat_once"
+        },
+        "buff_effect_list": {
+          "value": 18467,
+          "type_code": 11,
+          "byte_offset": 83523,
+          "raw_hex": "a39001",
+          "source_string": null
+        },
+        "cd_id": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 83526,
+          "raw_hex": "00",
+          "source_string": null
+        },
+        "custom_cd_id": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 83527,
+          "raw_hex": "00",
+          "source_string": null
+        },
+        "other_param": {
+          "value": 0,
+          "type_code": 5,
+          "byte_offset": 83528,
+          "raw_hex": "00",
+          "source_string": ""
+        },
+        "para_list1": {
+          "value": 4,
+          "type_code": 11,
+          "byte_offset": 83529,
+          "raw_hex": "04",
+          "source_string": null
+        },
+        "para_list2": {
+          "value": 4,
+          "type_code": 11,
+          "byte_offset": 83530,
+          "raw_hex": "04",
+          "source_string": null
+        },
+        "para_list3": {
+          "value": 4,
+          "type_code": 11,
+          "byte_offset": 83531,
+          "raw_hex": "04",
+          "source_string": null
+        },
+        "related_func": {
+          "value": 18,
+          "type_code": 5,
+          "byte_offset": 83532,
+          "raw_hex": "12",
+          "source_string": "food"
+        },
+        "survive_type_list": {
+          "value": 353,
+          "type_code": 11,
+          "byte_offset": 83533,
+          "raw_hex": "e102",
+          "source_string": null
+        },
+        "survive_value_list": {
+          "value": 701,
+          "type_code": 11,
+          "byte_offset": 83535,
+          "raw_hex": "bd05",
+          "source_string": null
+        },
+        "underwater_behavior_name": {
+          "value": 0,
+          "type_code": 5,
+          "byte_offset": 83537,
+          "raw_hex": "00",
+          "source_string": ""
+        }
+      },
+      "buff_effect_list": {
+        "type_code": 1,
+        "pointer_body_relative": 18467,
+        "array_start_offset": 83510,
+        "array_end_offset_exclusive": 83518,
+        "values": [
+          {
+            "value": 403137000,
+            "byte_offset": 83513,
+            "raw_hex": "e8c39dc001"
+          }
+        ]
+      },
+      "survive_type_list": {
+        "type_code": 5,
+        "pointer_body_relative": 353,
+        "array_start_offset": 65396,
+        "array_end_offset_exclusive": 65403,
+        "values": [
+          {
+            "value": 18,
+            "byte_offset": 65399,
+            "raw_hex": "12",
+            "source_string": "food"
+          },
+          {
+            "value": 0,
+            "byte_offset": 65400,
+            "raw_hex": "00",
+            "source_string": ""
+          },
+          {
+            "value": 0,
+            "byte_offset": 65401,
+            "raw_hex": "00",
+            "source_string": ""
+          },
+          {
+            "value": 0,
+            "byte_offset": 65402,
+            "raw_hex": "00",
+            "source_string": ""
+          }
+        ]
+      },
+      "survive_value_list": {
+        "type_code": 1,
+        "pointer_body_relative": 701,
+        "array_start_offset": 65744,
+        "array_end_offset_exclusive": 65751,
+        "values": [
+          {
+            "value": 100,
+            "byte_offset": 65747,
+            "raw_hex": "64"
+          },
+          {
+            "value": 0,
+            "byte_offset": 65748,
+            "raw_hex": "00"
+          },
+          {
+            "value": 0,
+            "byte_offset": 65749,
+            "raw_hex": "00"
+          },
+          {
+            "value": 0,
+            "byte_offset": 65750,
+            "raw_hex": "00"
+          }
+        ]
+      }
+    },
+    {
+      "item_id": 30139002,
+      "category_for_this_sample": "whim_potion",
+      "public_exact_id_crosscheck": "https://oncehuman.th.gl/db/consumables/30139002",
+      "item_data_row_bounds": [
+        8641878,
+        8642021
+      ],
+      "source_item_name": {
+        "source_string": "欢愉_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8641948,
+        "pointer_raw_hex": "a98a7d",
+        "pointer_body_relative": 2049321,
+        "translation_object_byte_offset": 8641868,
+        "string_table_index": 36850,
+        "string_index_byte_offset": 8641865,
+        "string_index_raw_hex": "f29f02"
+      },
+      "source_description_effect_line": {
+        "source_string": "你被持续地鼓舞着，持续期间，其他新增异想的持续时间延长35%_$S@TIDS$_cg0|0",
+        "pointer_byte_offset": 8641905,
+        "pointer_raw_hex": "898a7d",
+        "pointer_body_relative": 2049289,
+        "translation_object_byte_offset": 8641836,
+        "string_table_index": 36849,
+        "string_index_byte_offset": 8641833,
+        "string_index_raw_hex": "f19f02"
+      },
+      "cuisine_type_record_if_present": null,
+      "item_use_row_bounds": [
+        84804,
+        84836
+      ],
+      "item_use_field_tokens": {
+        "exclusion_id": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 84806,
+          "raw_hex": "00",
+          "source_string": null
+        },
+        "bag_behavior_name": {
+          "value": 45,
+          "type_code": 5,
+          "byte_offset": 84807,
+          "raw_hex": "2d",
+          "source_string": "injection"
+        },
+        "behavior_name": {
+          "value": 48,
+          "type_code": 5,
+          "byte_offset": 84808,
+          "raw_hex": "30",
+          "source_string": "Survival_bloodreturn"
+        },
+        "buff_effect_list": {
+          "value": 4,
+          "type_code": 11,
+          "byte_offset": 84809,
+          "raw_hex": "04",
+          "source_string": null
+        },
+        "cd_id": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 84810,
+          "raw_hex": "00",
+          "source_string": null
+        },
+        "custom_cd_id": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 84811,
+          "raw_hex": "00",
+          "source_string": null
+        },
+        "other_param": {
+          "value": 0,
+          "type_code": 5,
+          "byte_offset": 84812,
+          "raw_hex": "00",
+          "source_string": ""
+        },
+        "para_list1": {
+          "value": 4,
+          "type_code": 11,
+          "byte_offset": 84813,
+          "raw_hex": "04",
+          "source_string": null
+        },
+        "para_list2": {
+          "value": 4,
+          "type_code": 11,
+          "byte_offset": 84814,
+          "raw_hex": "04",
+          "source_string": null
+        },
+        "para_list3": {
+          "value": 4,
+          "type_code": 11,
+          "byte_offset": 84815,
+          "raw_hex": "04",
+          "source_string": null
+        },
+        "related_func": {
+          "value": 29,
+          "type_code": 5,
+          "byte_offset": 84816,
+          "raw_hex": "1d",
+          "source_string": "bandage"
+        },
+        "survive_type_list": {
+          "value": 1480,
+          "type_code": 11,
+          "byte_offset": 84817,
+          "raw_hex": "c80b",
+          "source_string": null
+        },
+        "survive_value_list": {
+          "value": 19750,
+          "type_code": 11,
+          "byte_offset": 84819,
+          "raw_hex": "a69a01",
+          "source_string": null
+        },
+        "underwater_behavior_name": {
+          "value": 0,
+          "type_code": 5,
+          "byte_offset": 84822,
+          "raw_hex": "00",
+          "source_string": ""
+        }
+      },
+      "buff_effect_list": {
+        "pointer_body_relative": 4,
+        "target_offset": 65047,
+        "target_prefix_hex": "0700",
+        "values": [],
+        "note": "empty source object; no buff ID in this field"
+      },
+      "survive_type_list": {
+        "type_code": 5,
+        "pointer_body_relative": 1480,
+        "array_start_offset": 66523,
+        "array_end_offset_exclusive": 66530,
+        "values": [
+          {
+            "value": 60,
+            "byte_offset": 66526,
+            "raw_hex": "3c",
+            "source_string": "get_image"
+          },
+          {
+            "value": 0,
+            "byte_offset": 66527,
+            "raw_hex": "00",
+            "source_string": ""
+          },
+          {
+            "value": 0,
+            "byte_offset": 66528,
+            "raw_hex": "00",
+            "source_string": ""
+          },
+          {
+            "value": 0,
+            "byte_offset": 66529,
+            "raw_hex": "00",
+            "source_string": ""
+          }
+        ]
+      },
+      "survive_value_list": {
+        "type_code": 1,
+        "pointer_body_relative": 19750,
+        "array_start_offset": 84793,
+        "array_end_offset_exclusive": 84804,
+        "values": [
+          {
+            "value": 530001300,
+            "byte_offset": 84796,
+            "raw_hex": "94dbdcfc01"
+          },
+          {
+            "value": 0,
+            "byte_offset": 84801,
+            "raw_hex": "00"
+          },
+          {
+            "value": 0,
+            "byte_offset": 84802,
+            "raw_hex": "00"
+          },
+          {
+            "value": 0,
+            "byte_offset": 84803,
+            "raw_hex": "00"
+          }
+        ]
+      }
+    }
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

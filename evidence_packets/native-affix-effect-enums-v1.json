@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_archive_sha256": "8007b2e16b71d10ac1e0b215f12a4bd68387c22b304e031c60f9a00b0c3c876a",
+  "copied_pyc_hashes": {
+    "attr_const.pyc": "a3ca0592024ba9a69db5ed0fd00131ed1bc392108d7da5e6ecec800b93c9c8e3",
+    "AffixUtils.pyc": "325659f19ca8c55bd82c925162e880db1a49ee12caed4fa6ec8aadbe6a6715f5",
+    "shoot_const.pyc": "ec17290afbc5fb766d06080e825d38b5d3b90a121f4d2df0dba0f52be6e0f86c"
+  },
+  "assignment_control": {
+    "module": "dcs_extend.const.shoot_const",
+    "class": "ShootMode",
+    "class_code_sha256": "653b7ffc3a8f379f2c3036ad2044cff03b015156fd01982f399c263dfd8d4730",
+    "meaning": "Known compact class sequence maps ca constant load and 5a name store. The source lane inspects raw code bytes only."
+  },
+  "attr_const_assignment_window": {
+    "module": "dcs_extend.const.attr_const",
+    "pyc_byte_range": [
+      11050,
+      11090
+    ],
+    "raw_hex": "ca005aa8f002ca225aa9f002ca235aaaf002ca645aabf002ca225aacf002ca235aadf002ca645aae",
+    "sha256": "64b2d801c6d53b635c32eb6e33793d9f3634f135a0d0296faa67454594f9c0a3",
+    "assignments": [
+      {
+        "name": "AP_EFFECT_DEFAULT",
+        "value": 0,
+        "name_index": 168,
+        "constant_index": 0,
+        "relative_code_offset": 11008,
+        "pyc_byte_offset": 11050,
+        "raw_hex": "ca005aa8"
+      },
+      {
+        "name": "AP_EFFECT_ALL",
+        "value": 1,
+        "name_index": 169,
+        "constant_index": 546,
+        "relative_code_offset": 11012,
+        "pyc_byte_offset": 11054,
+        "raw_hex": "f002ca225aa9"
+      },
+      {
+        "name": "AP_EFFECT_EQUIP",
+        "value": 2,
+        "name_index": 170,
+        "constant_index": 547,
+        "relative_code_offset": 11018,
+        "pyc_byte_offset": 11060,
+        "raw_hex": "f002ca235aaa"
+      },
+      {
+        "name": "AP_EFFECT_SET",
+        "value": 3,
+        "name_index": 171,
+        "constant_index": 612,
+        "relative_code_offset": 11024,
+        "pyc_byte_offset": 11066,
+        "raw_hex": "f002ca645aab"
+      },
+      {
+        "name": "AP_CALC_TYPE_ABS",
+        "value": 1,
+        "name_index": 172,
+        "constant_index": 546,
+        "relative_code_offset": 11030,
+        "pyc_byte_offset": 11072,
+        "raw_hex": "f002ca225aac"
+      },
+      {
+        "name": "AP_CALC_TYPE_RATE",
+        "value": 2,
+        "name_index": 173,
+        "constant_index": 547,
+        "relative_code_offset": 11036,
+        "pyc_byte_offset": 11078,
+        "raw_hex": "f002ca235aad"
+      },
+      {
+        "name": "AP_CALC_TYPE_SET",
+        "value": 3,
+        "name_index": 174,
+        "constant_index": 612,
+        "relative_code_offset": 11042,
+        "pyc_byte_offset": 11084,
+        "raw_hex": "f002ca645aae"
+      }
+    ],
+    "extended_index_note": "The bounded f0 02 prefix is interpreted as a high constant-index byte; the selected indices 546/547/612 resolve to 1/2/3, whereas unextended indices 34/35/100 are unrelated strings."
+  },
+  "effect_range_consumer_metadata": {
+    "module": "dcs_extend.common.AffixUtils",
+    "method": "sum_ability_change_by_affix_prototype",
+    "first_line": 237,
+    "referenced_effect_names": [
+      "AP_EFFECT_ALL",
+      "AP_EFFECT_EQUIP",
+      "AP_EFFECT_SET"
+    ],
+    "code_sha256": "4e6e61204f28303f4e85113e84f56f394757061a217802a1d7b04d4af1b61c1c"
+  },
+  "D0100_source_relation": {
+    "effect_range_value": 1,
+    "effect_range_enum": "AP_EFFECT_ALL",
+    "type_value": 1,
+    "type_enum": "AP_CALC_TYPE_ABS",
+    "source_typed_packet": "native_attack_affix_typed_inputs.json",
+    "source_typed_packet_sha256": "f61ae124cecd57e8dfc796ddf8749f6aa5a55feeaccaf81d1b415731d7e4c976"
+  },
+  "interpretation_gate": "The numeric enum identity is bounded and source-backed. Which equipment instance contributes D0100 and how all active affix values/calibration accumulate still requires consumer/state analysis; this packet does not compute final attack.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

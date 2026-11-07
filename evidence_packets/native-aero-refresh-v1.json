@@ -1,0 +1,365 @@
+{
+  "build_id": "26267212",
+  "core_graph_source_sha256": "502ee43dd9fec111524e06c9b8e4497f87e62b867ce2c3c718799f896ddc133a",
+  "core_graph_pyc_sha256": "870a3baacbf70b21caeb98536be79970890b5f5361ae50c8e1eb2411ac2637d8",
+  "reload_branch": {
+    "reload_event_node": 15,
+    "condition_node": 35,
+    "true_branch_sibling_node_ids": [
+      57,
+      78,
+      23,
+      61,
+      76
+    ],
+    "dispel_ids_by_node": {
+      "57": [
+        58931810400
+      ],
+      "78": [
+        58931810500
+      ]
+    },
+    "cast_node": 61,
+    "cast_parameters": {
+      "buff_id": 589318100,
+      "buff_lv": 1,
+      "destroy_buff_on_leave": 0,
+      "mapping_buff": 1,
+      "reset": 0,
+      "effect_index": 61
+    },
+    "cast_stack_source_node": 60,
+    "cast_target_uid_source_node": 62,
+    "weak_count_reset_node": 76,
+    "runtime_sibling_order": "unproven"
+  },
+  "mapping_helper": {
+    "method": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/BuffDataHelper.pyc",
+      "source_sha256": "8f689e6d31c92d41a23550594c41c6e10db41d92eb7f0475ec7532db911dea3b",
+      "body_sha256": "aa242320ff4f44ab91e04609d4f8bbce1641492c46f25af632436ca6e7dec029",
+      "first_line": 71,
+      "args": [
+        "buff_template_id",
+        "level",
+        "star"
+      ],
+      "constants": [
+        null,
+        0,
+        "%s%02d%02d",
+        -2
+      ],
+      "names": [
+        "Env",
+        "common_data",
+        "BUFF_LEVEL_MAP",
+        "get",
+        "BUFF_STAR_MAP",
+        "int",
+        "str"
+      ]
+    },
+    "level_map_source_sha256": "ea5acaf8800dbc2a2d160be82291c5292016a12e7c8c67b74cf44554f2b74424",
+    "max_level_for_secondary_template": 5,
+    "scope": "Readable generic ID formatter; no proved call from this cast executor."
+  },
+  "missing_executors": {
+    "NodeCastBuffToTarget": {
+      "source_sha256": "d05bac6668de1a9f493eeedc459293a878536ee9f420231c0c6ba1fd8def96a5",
+      "method_names": [
+        "<module>",
+        "NodeServer",
+        "NodeServer.need_reset"
+      ],
+      "server_base": {
+        "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/aug_normal_base_capture/LogicTreeNodeNormal.pyc",
+        "source_sha256": "041d6b5077750e80976b58f7f60682de682d1ecb2d00d8efacdd518799ff841d",
+        "body_sha256": "47ee80e7c214e5b99764009e8753b748b5e63620b8cccb34debce3caa445fb8d",
+        "first_line": 62,
+        "args": [
+          "cls",
+          "holder",
+          "effect_uid",
+          "effect_args"
+        ],
+        "constants": [
+          null
+        ],
+        "names": [
+          "NotImplementedError"
+        ]
+      },
+      "meaning": "No readable NodeServer._do override or cast-to-buff-component binding."
+    },
+    "NodeReloadSucEvent": {
+      "source_sha256": "4b80367a9ef6325c0411008d1a3de8e4f7876b447ace868891338b267da12ca0",
+      "method_names": [
+        "<module>",
+        "NodeServer",
+        "NodeServer.need_reset"
+      ],
+      "meaning": "No readable NodeServer._do/event callback dispatch."
+    }
+  },
+  "generic_buff_component": {
+    "source_config": {
+      "buff_max_stack": 6,
+      "life_time": 10.0,
+      "multi_buff_limit": 1,
+      "refresh_buff_stack": 0,
+      "buff_id": 589318100,
+      "buff_level": 1,
+      "refresh_rule": 0
+    },
+    "init_buff": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/CompBuffBase.pyc",
+      "source_sha256": "1067d9cdf3d208109088762a606249108cd123ec95fb39778d2b69e2cafc2ce1",
+      "body_sha256": "f577e5e8b1a57d8050f62a15c6672b9537b5f91269153727d85986474944ce53",
+      "first_line": 89,
+      "args": [
+        "cls",
+        "holder",
+        "buff_index",
+        "remove_handle",
+        "buff_args",
+        "buff_params",
+        "life_time"
+      ],
+      "constants": [
+        null,
+        "buff_id",
+        "buff_max_stack",
+        -1,
+        "multi_buff_enable",
+        false,
+        1,
+        0,
+        "buff_stack",
+        "buff_template_id",
+        "buff_level",
+        "caster",
+        "time_rate",
+        0.0,
+        "effect_rate",
+        "attached_buff_list",
+        "degrade",
+        "degrade_stack",
+        "degrade_stack_percent",
+        "degrade_time",
+        "create_time",
+        "life_time",
+        "is_debuff",
+        "caster_idx",
+        "tree_rid",
+        "remove_handler",
+        "state",
+        "item_no",
+        "item_id",
+        "",
+        "auto_remove_depend_item",
+        "us_log",
+        "client_sim_state",
+        "icon_path",
+        "owner",
+        "template_max_level_able",
+        "bb_data",
+        "ori_source_info",
+        "snapshot_data",
+        "float_attr_snapshot_data",
+        true,
+        "buff_tag",
+        "buff_sub_tags",
+        "hand_hold_effect",
+        "unique_tag"
+      ],
+      "names": [
+        "get",
+        "min",
+        "IdManager",
+        "NoneId",
+        "alloc_caster_idx",
+        "time",
+        "BuffState",
+        "INIT",
+        "dict",
+        "buff_dict",
+        "buff_icon_dict",
+        "buff_id_to_stack_dict",
+        "buff_index_dict",
+        "append",
+        "buff_caster_to_owner",
+        "str",
+        "buff_count_limit",
+        "_add_buff_map",
+        "_register_destroy_condition",
+        "_get_recalc_template_max_level_buff_info",
+        "_stop_recalc_template_max_level_buff_effect",
+        "max",
+        "keys",
+        "_start_logic_tree",
+        "_throw_buff_tag_event_imp",
+        "CompType",
+        "EVENT",
+        "bubble_event",
+        "EventType",
+        "on_buff_tag_stack_change",
+        "on_buff_sub_tag_stack_change",
+        "on_buff_stack_change",
+        "_register_hand_hold_effect",
+        "buff_unique_dict",
+        "BUFF_MGR_SERVER",
+        "notify_ui_on_unique_buff_add",
+        "buff_item_index_list",
+        "buff_item_id_index_list",
+        "update_buff_need_show_dict"
+      ]
+    },
+    "refresh_buff": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/CompBuffBase.pyc",
+      "source_sha256": "1067d9cdf3d208109088762a606249108cd123ec95fb39778d2b69e2cafc2ce1",
+      "body_sha256": "0bc99c24c4c9669ae2df6aa4c71d2d8ecc15f85731b0757b31d78d7c241e8cb3",
+      "first_line": 280,
+      "args": [
+        "cls",
+        "holder",
+        "buff_params",
+        "buff_index",
+        "remove_handle",
+        "life_time",
+        "buff_args"
+      ],
+      "constants": [
+        null,
+        "Can not find buff runtime data for buff_index: %s, uid: %s",
+        false,
+        "buff_stack",
+        "buff_max_stack",
+        "refresh_buff_stack",
+        0,
+        "buff_id",
+        "trigger_count",
+        "refresh_rule",
+        "create_time",
+        "bb_data",
+        "tree_rid",
+        -1,
+        "light buff received bb_data on refresh, data dropped. buff_id=%s",
+        "on_buff_change",
+        true,
+        "add_buff_trigger_guide",
+        "buff_tag",
+        "buff_sub_tags",
+        "notify_task_buff_stack_change",
+        "us_log"
+      ],
+      "names": [
+        "buff_dict",
+        "get",
+        "logger",
+        "error",
+        "uid",
+        "min",
+        "buff_frequency_dict",
+        "RefreshLifeTimeRule",
+        "IGNORE",
+        "time",
+        "CompType",
+        "LOGIC_TREE_BB",
+        "save_data_to_bb",
+        "items",
+        "update",
+        "BuffState",
+        "READY",
+        "buff_id_to_stack_dict",
+        "get_owner_uid",
+        "BuffDataHelper",
+        "get_buff_template_id",
+        "EVENT",
+        "bubble_event",
+        "dispatch_soul_action",
+        "BUFF_MGR_SERVER",
+        "notify_client_update_ui_on_buff_add",
+        "EventType",
+        "on_buff_tag_stack_change",
+        "on_buff_sub_tag_stack_change",
+        "on_buff_stack_change",
+        "game_common.task.event_define.step_player_buff_stack",
+        "PLAYER_BUFF_STACK_WHITELIST",
+        "dict",
+        "LOGIC_TREE",
+        "update_us_log",
+        "notify_countdown_on_life_change"
+      ]
+    },
+    "refresh_buff_time": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/CompBuffBase.pyc",
+      "source_sha256": "1067d9cdf3d208109088762a606249108cd123ec95fb39778d2b69e2cafc2ce1",
+      "body_sha256": "f4b25035df2c838d284020fd8a7b243e0d4ffe77bbca16fef53dee476d2e8c06",
+      "first_line": 358,
+      "args": [
+        "cls",
+        "holder",
+        "buff_index",
+        "remove_handle",
+        "life_time"
+      ],
+      "constants": [
+        null,
+        "Can not find buff runtime data for buff_index: %s, uid: %s",
+        false,
+        "buff_id"
+      ],
+      "names": [
+        "buff_dict",
+        "get",
+        "logger",
+        "error",
+        "uid",
+        "update",
+        "BuffState",
+        "READY",
+        "time",
+        "get_owner_uid",
+        "CompType",
+        "BUFF_MGR_SERVER",
+        "notify_client_update_ui_on_buff_add",
+        "notify_countdown_on_life_change"
+      ]
+    },
+    "conditional_rules": [
+      "new buff: if multi_buff_enable is true, stack=1; otherwise positive max caps incoming stack with min(max,incoming)",
+      "refresh existing buff: incoming candidate=old+incoming+refresh_buff_stack; positive max caps candidate with min(max,candidate)",
+      "refresh_buff writes computed stack and supplied life_time; it changes create_time to now only for IGNORE, otherwise retains prior create_time",
+      "refresh_buff_time separately writes supplied life_time and create_time=time.time()"
+    ],
+    "synthetic_vectors": [
+      {
+        "operation": "new",
+        "incoming": 9,
+        "max": 6,
+        "result": 6
+      },
+      {
+        "operation": "refresh",
+        "old": 4,
+        "incoming": 3,
+        "refresh_buff_stack": 0,
+        "max": 6,
+        "result": 6
+      },
+      {
+        "operation": "refresh",
+        "old": 2,
+        "incoming": 1,
+        "refresh_buff_stack": 0,
+        "max": 6,
+        "result": 3
+      }
+    ],
+    "scope": "Shared server component branch if invoked. Actual graph casting, dispelling, mapped level and expiry timing remain unproven."
+  },
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

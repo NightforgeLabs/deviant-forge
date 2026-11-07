@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "source": "Wikily individual crafted item pages, inspected 2026-11-01",
+  "scope": "Exact blueprint-linked named item/tier pages; 1-star displayed damage for all 25 tier rows, higher-star cells only where directly retrieved. Calibration, projectile unit and reload seconds unverified.",
+  "rows": {
+    "weapon:socr-cosmic-visitor": {
+      "name": "SOCR - Cosmic Visitor",
+      "tiers": {
+        "1": {
+          "item_id": "10413301",
+          "damage": 45,
+          "page_title": "SOCR - Cosmic Visitor (Tier 1)",
+          "wikily_url": "https://wikily.gg/once-human/items/10413301",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10413301",
+          "star_damage": {
+            "1": 45,
+            "2": 47,
+            "3": 50,
+            "4": 52,
+            "5": 54,
+            "6": 56
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "2": {
+          "item_id": "10413302",
+          "damage": 70,
+          "page_title": "SOCR - Cosmic Visitor (Tier 2)",
+          "wikily_url": "https://wikily.gg/once-human/items/10413302",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10413302",
+          "star_damage": {
+            "1": 70,
+            "2": 74,
+            "3": 77,
+            "4": 81,
+            "5": 84,
+            "6": 88
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "3": {
+          "item_id": "10413303",
+          "damage": 111,
+          "page_title": "SOCR - Cosmic Visitor (Tier 3)",
+          "wikily_url": "https://wikily.gg/once-human/items/10413303",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10413303",
+          "star_damage": {
+            "1": 111,
+            "2": 117,
+            "3": 122,
+            "4": 128,
+            "5": 133,
+            "6": 139
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "4": {
+          "item_id": "10413304",
+          "damage": 174,
+          "page_title": "SOCR - Cosmic Visitor (Tier 4)",
+          "wikily_url": "https://wikily.gg/once-human/items/10413304",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10413304",
+          "star_damage": {
+            "1": 174,
+            "2": 183,
+            "3": 191,
+            "4": 200,
+            "5": 209,
+            "6": 218
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "5": {
+          "item_id": "10413305",
+          "damage": 264,
+          "page_title": "SOCR - Cosmic Visitor (Tier 5)",
+          "wikily_url": "https://wikily.gg/once-human/items/10413305",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10413305",
+          "star_damage": {
+            "1": 264,
+            "2": 277,
+            "3": 290,
+            "4": 304,
+            "5": 317,
+            "6": 330
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        }
+      },
+      "rpm_reference": 515,
+      "magazine_reference": 30,
+      "timing_scope": "item page reference; reload seconds and shot cycle unknown",
+      "blueprint_id": "13413301",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13413301",
+      "blueprint_title": "SOCR - Cosmic Visitor B.P.",
+      "identity_chain": "THGL blueprint Crafts link to the exact named gear tier page; Wikily item page corroborates displayed tier-1-star damage",
+      "star_damage_status": "source_table_all_tiers",
+      "blueprint_craft_item_ids": [
+        "10413301",
+        "10413302",
+        "10413303",
+        "10413304",
+        "10413305"
+      ]
+    },
+    "weapon:aug-electron-cloud": {
+      "name": "AUG - Electron Cloud",
+      "tiers": {
+        "1": {
+          "item_id": "10451401",
+          "damage": 34,
+          "page_title": "AUG - Electron Cloud (Tier 1)",
+          "wikily_url": "https://wikily.gg/once-human/items/10451401",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10451401",
+          "star_damage": {
+            "1": 34,
+            "2": 36,
+            "3": 37,
+            "4": 39,
+            "5": 41,
+            "6": 43
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "2": {
+          "item_id": "10451402",
+          "damage": 53,
+          "page_title": "AUG - Electron Cloud (Tier 2)",
+          "wikily_url": "https://wikily.gg/once-human/items/10451402",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10451402",
+          "star_damage": {
+            "1": 53,
+            "2": 56,
+            "3": 58,
+            "4": 61,
+            "5": 64,
+            "6": 66
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "3": {
+          "item_id": "10451403",
+          "damage": 84,
+          "page_title": "AUG - Electron Cloud (Tier 3)",
+          "wikily_url": "https://wikily.gg/once-human/items/10451403",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10451403",
+          "star_damage": {
+            "1": 84,
+            "2": 88,
+            "3": 92,
+            "4": 97,
+            "5": 101,
+            "6": 105
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "4": {
+          "item_id": "10451404",
+          "damage": 132,
+          "page_title": "AUG - Electron Cloud (Tier 4)",
+          "wikily_url": "https://wikily.gg/once-human/items/10451404",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10451404",
+          "star_damage": {
+            "1": 132,
+            "2": 139,
+            "3": 145,
+            "4": 152,
+            "5": 158,
+            "6": 165
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "5": {
+          "item_id": "10451405",
+          "damage": 201,
+          "page_title": "AUG - Electron Cloud (Tier 5)",
+          "wikily_url": "https://wikily.gg/once-human/items/10451405",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10451405",
+          "star_damage": {
+            "1": 201
+          },
+          "star_damage_source": "Wikily exact tier page displayed damage; THGL higher-star table not retrieved"
+        }
+      },
+      "rpm_reference": 720,
+      "magazine_reference": 40,
+      "timing_scope": "item page reference; reload seconds and shot cycle unknown",
+      "blueprint_id": "13451401",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13451401",
+      "blueprint_title": "AUG - Electron Cloud B.P.",
+      "identity_chain": "THGL blueprint Crafts link to the exact named gear tier page; Wikily item page corroborates displayed tier-1-star damage",
+      "star_damage_status": "source_table_partial",
+      "blueprint_craft_item_ids": [
+        "10451401",
+        "10451402",
+        "10451403",
+        "10451404",
+        "10451405"
+      ],
+      "calibration_context": {
+        "legacy_level": "removed_before_weapon_release",
+        "official_removal_source": "https://www.oncehuman.game/news/update/20260121/40780_1282991.html",
+        "official_weapon_release_source": "https://www.oncehuman.game/m/news/official/20260513/40779_1300125.html",
+        "selected_calibration_blueprint_attributes": "separate_variable_input_not_in_item_page_damage"
+      }
+    },
+    "weapon:compound-bow-the-burden-of-betrayal": {
+      "name": "Compound Bow - The Burden of Betrayal",
+      "tiers": {
+        "1": {
+          "item_id": "10742201",
+          "damage": 133,
+          "page_title": "Compound Bow - The Burden of Betrayal (Tier 1)",
+          "wikily_url": "https://wikily.gg/once-human/items/10742201",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10742201",
+          "star_damage": {
+            "1": 133,
+            "2": 140,
+            "3": 146,
+            "4": 153,
+            "5": 160,
+            "6": 166
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "2": {
+          "item_id": "10742202",
+          "damage": 204,
+          "page_title": "Compound Bow - The Burden of Betrayal (Tier 2)",
+          "wikily_url": "https://wikily.gg/once-human/items/10742202",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10742202",
+          "star_damage": {
+            "1": 204,
+            "2": 214,
+            "3": 224,
+            "4": 235,
+            "5": 245,
+            "6": 255
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "3": {
+          "item_id": "10742203",
+          "damage": 326,
+          "page_title": "Compound Bow - The Burden of Betrayal (Tier 3)",
+          "wikily_url": "https://wikily.gg/once-human/items/10742203",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10742203",
+          "star_damage": {
+            "1": 326,
+            "2": 342,
+            "3": 359,
+            "4": 375,
+            "5": 391,
+            "6": 408
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "4": {
+          "item_id": "10742204",
+          "damage": 510,
+          "page_title": "Compound Bow - The Burden of Betrayal (Tier 4)",
+          "wikily_url": "https://wikily.gg/once-human/items/10742204",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10742204",
+          "star_damage": {
+            "1": 510,
+            "2": 536,
+            "3": 561,
+            "4": 587,
+            "5": 612,
+            "6": 638
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "5": {
+          "item_id": "10742205",
+          "damage": 775,
+          "page_title": "Compound Bow - The Burden of Betrayal (Tier 5)",
+          "wikily_url": "https://wikily.gg/once-human/items/10742205",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10742205",
+          "star_damage": {
+            "1": 775
+          },
+          "star_damage_source": "Wikily exact tier page displayed damage; THGL higher-star table not retrieved"
+        }
+      },
+      "rpm_reference": 65,
+      "magazine_reference": 1,
+      "timing_scope": "item page reference; reload seconds and shot cycle unknown",
+      "blueprint_id": "13742201",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13742201",
+      "blueprint_title": "Compound Bow - The Burden of Betrayal B.P.",
+      "identity_chain": "THGL blueprint Crafts link to the exact named gear tier page; Wikily item page corroborates displayed tier-1-star damage",
+      "star_damage_status": "source_table_partial",
+      "blueprint_craft_item_ids": [
+        "10742201",
+        "10742202",
+        "10742203",
+        "10742204",
+        "10742205"
+      ]
+    },
+    "weapon:sn700-finale": {
+      "name": "SN700 - Finale",
+      "tiers": {
+        "1": {
+          "item_id": "10512301",
+          "damage": 182,
+          "page_title": "SN700 - Finale (Tier 1)",
+          "wikily_url": "https://wikily.gg/once-human/items/10512301",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10512301",
+          "star_damage": {
+            "1": 182,
+            "2": 191,
+            "3": 200,
+            "4": 209,
+            "5": 218,
+            "6": 228
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "2": {
+          "item_id": "10512302",
+          "damage": 280,
+          "page_title": "SN700 - Finale (Tier 2)",
+          "wikily_url": "https://wikily.gg/once-human/items/10512302",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10512302",
+          "star_damage": {
+            "1": 280,
+            "2": 294,
+            "3": 308,
+            "4": 322,
+            "5": 336,
+            "6": 350
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "3": {
+          "item_id": "10512303",
+          "damage": 448,
+          "page_title": "SN700 - Finale (Tier 3)",
+          "wikily_url": "https://wikily.gg/once-human/items/10512303",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10512303",
+          "star_damage": {
+            "1": 448,
+            "2": 470,
+            "3": 493,
+            "4": 515,
+            "5": 538,
+            "6": 560
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "4": {
+          "item_id": "10512304",
+          "damage": 700,
+          "page_title": "SN700 - Finale (Tier 4)",
+          "wikily_url": "https://wikily.gg/once-human/items/10512304",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10512304",
+          "star_damage": {
+            "1": 700,
+            "2": 735,
+            "3": 770,
+            "4": 805,
+            "5": 840,
+            "6": 875
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "5": {
+          "item_id": "10512305",
+          "damage": 1064,
+          "page_title": "SN700 - Finale (Tier 5)",
+          "wikily_url": "https://wikily.gg/once-human/items/10512305",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10512305",
+          "star_damage": {
+            "1": 1064
+          },
+          "star_damage_source": "Wikily exact tier page displayed damage; THGL higher-star table not retrieved"
+        }
+      },
+      "rpm_reference": 40,
+      "magazine_reference": 5,
+      "timing_scope": "item page reference; reload seconds and shot cycle unknown",
+      "blueprint_id": "13512301",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13512301",
+      "blueprint_title": "SN700 - Finale B.P.",
+      "identity_chain": "THGL blueprint Crafts link to the exact named gear tier page; Wikily item page corroborates displayed tier-1-star damage",
+      "star_damage_status": "source_table_partial",
+      "blueprint_craft_item_ids": [
+        "10512301",
+        "10512302",
+        "10512303",
+        "10512304",
+        "10512305"
+      ]
+    },
+    "weapon:qbj97-fiery-trees-and-silver-flowers": {
+      "name": "QBJ97 - Firey Trees and Silver Flowers",
+      "catalog_spelling": "Fiery",
+      "tiers": {
+        "1": {
+          "item_id": "10641201",
+          "damage": 35,
+          "page_title": "QBJ97 - Firey Trees and Silver Flowers (Tier 1)",
+          "wikily_url": "https://wikily.gg/once-human/items/10641201",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10641201",
+          "star_damage": {
+            "1": 35,
+            "2": 37,
+            "3": 39,
+            "4": 40,
+            "5": 42,
+            "6": 44
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "2": {
+          "item_id": "10641202",
+          "damage": 54,
+          "page_title": "QBJ97 - Firey Trees and Silver Flowers (Tier 2)",
+          "wikily_url": "https://wikily.gg/once-human/items/10641202",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10641202",
+          "star_damage": {
+            "1": 54,
+            "2": 57,
+            "3": 59,
+            "4": 62,
+            "5": 65,
+            "6": 68
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "3": {
+          "item_id": "10641203",
+          "damage": 86,
+          "page_title": "QBJ97 - Firey Trees and Silver Flowers (Tier 3)",
+          "wikily_url": "https://wikily.gg/once-human/items/10641203",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10641203",
+          "star_damage": {
+            "1": 86,
+            "2": 90,
+            "3": 95,
+            "4": 99,
+            "5": 103,
+            "6": 108
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "4": {
+          "item_id": "10641204",
+          "damage": 134,
+          "page_title": "QBJ97 - Firey Trees and Silver Flowers (Tier 4)",
+          "wikily_url": "https://wikily.gg/once-human/items/10641204",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10641204",
+          "star_damage": {
+            "1": 134,
+            "2": 141,
+            "3": 147,
+            "4": 154,
+            "5": 161,
+            "6": 168
+          },
+          "star_damage_source": "THGL exact gear DMG per star table"
+        },
+        "5": {
+          "item_id": "10641205",
+          "damage": 204,
+          "page_title": "QBJ97 - Firey Trees and Silver Flowers (Tier 5)",
+          "wikily_url": "https://wikily.gg/once-human/items/10641205",
+          "thgl_gear_url": "https://oncehuman.th.gl/db/gear/10641205",
+          "star_damage": {
+            "1": 204
+          },
+          "star_damage_source": "Wikily exact tier page displayed damage; THGL higher-star table not retrieved"
+        }
+      },
+      "rpm_reference": 650,
+      "magazine_reference": 60,
+      "timing_scope": "item page reference; reload seconds and shot cycle unknown",
+      "blueprint_id": "13641201",
+      "blueprint_url": "https://oncehuman.th.gl/db/blueprints/13641201",
+      "blueprint_title": "Fiery B.P.",
+      "identity_chain": "THGL blueprint Crafts link to the exact named gear tier page; Wikily item page corroborates displayed tier-1-star damage",
+      "star_damage_status": "source_table_partial",
+      "blueprint_craft_item_ids": [
+        "10641201",
+        "10641202",
+        "10641203",
+        "10641204",
+        "10641205"
+      ]
+    }
+  },
+  "rejected_mixed_identity_example": {
+    "tier_1": {
+      "item_id": "10421301",
+      "title": "KAM - Crank (Tier 1)",
+      "damage": 35
+    },
+    "tier_4": {
+      "item_id": "10421304",
+      "title": "KAM - Burning Rage (Tier 4)",
+      "damage": 134
+    },
+    "reason": "Different named item; must not infer Crank tier scaling"
+  },
+  "verification_note": "Every stored tier title must match its own named gear page; item ID suffix alone is not identity evidence. Prior KAM Crank/Burning Rage cross-name pair is rejected."
+}

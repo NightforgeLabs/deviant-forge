@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "scope": "Read-only visual observations from a user-provided historical gear tour; not the current November 2 loadout",
+  "source": {
+    "video": "/home/dv/Videos/screenrecording-2026-11-01_00-41-18.mp4",
+    "sha256": "0f9a959921f8b42618751fd1191ed2bc621b62199b681ab2afe2d09774cf7298",
+    "duration_seconds": 56.883333,
+    "dimensions": [3840, 1080],
+    "capture_build": null,
+    "frame_method": "ffmpeg fps=1 read-only extraction to gear_tour_frames/; timestamps are approximate video seconds; original MP4 untouched",
+    "frame_directory": "/home/dv/Documents/Codex/2026-11-02/task-7/gear_tour_frames"
+  },
+  "temporal_gate": {
+    "recording_date": "2026-11-01",
+    "later_observations_date": "2026-11-02",
+    "historical_gear_summary": {"primary_weapon_attack": 456, "fire_rate": 792, "magazine_capacity": 60, "psi_intensity": 856, "max_hp": 14795, "pollution_resist": 80},
+    "historical_summary_frame": {"second": 24, "sha256": "abf572c1aefa573f0737e56f45d8e1a5564f72036b03a1e9bec1ab993528f0ca"},
+    "later_screenshot_summary": {"primary_weapon_attack": 422, "fire_rate": 720, "magazine_capacity": 58, "psi_intensity": 793, "max_hp": 14402},
+    "later_screenshot_source": "/home/dv/Projects/once-human-advisor/evidence_packets/observed-character-panels-20261102-v1.json",
+    "later_screenshot_visual_context": {"primary_weapon_slot_1_rating": 1720, "gear_slot_count_display": "6/50", "top_rating": 1228, "shoes_rating": 1300, "exact_item_titles_visible": false},
+    "later_screenshot_image_sha256": "c0a5071c5eb534ef3eb33f4d944e9197e68891f0fd1daf90475fbfdbaaffba23",
+    "historical_video_visual_context": {"primary_weapon_slot_1_rating": 1720, "gear_slot_count_display": "14/50", "top_rating": 1276, "shoes_rating": 1372},
+    "same_weapon_identity_inference": "The later weapon icon/model and slot rating appear similar to the historical AUG, but no November 2 title/tooltip is visible. Do not promote visual similarity or equal rating to exact current identity.",
+    "decision": "Do not merge November 1 item details and rolls into November 2 active configuration without a direct later identity link. Summary Attack 456 is a separate panel value from owned AUG tooltip DMG 400."
+  },
+  "aug_detail_review": {
+    "bounded_video_seconds_reviewed": [11.0, 17.5],
+    "sampling": "2 frames per second plus existing native one-second frames 12–17",
+    "sequence": [
+      {"seconds": "11.0–11.5", "screen": "Backpack and character overview"},
+      {"seconds": "12.0–13.5", "screen": "Gear Config, selected primary weapon, AUG item tooltip visible by about 12.5s"},
+      {"seconds": "14.0–17.0", "screen": "AUG detail viewer showing attached Shock Rampage mod and its effect panel"},
+      {"seconds": "17.5", "screen": "Return to Gear Config"}
+    ],
+    "tooltip_region_xyxy_in_3840x1080_frame": [2800, 25, 3230, 1080],
+    "mod_name_region_xyxy_in_3840x1080_frame": [80, 260, 700, 1020],
+    "mod_effect_region_xyxy_in_3840x1080_frame": [3310, 240, 3800, 850],
+    "calibration_print_or_term_panel_visible": false,
+    "accessory_detail_panel_visible": false,
+    "calibration_or_accessory_values_recovered": false,
+    "limit": "Absence is scoped to this reviewed video segment, not proof that the item had no calibration or accessories."
+  },
+  "equipped_items_at_recording_time": [
+    {
+      "slot": "primary_weapon_1",
+      "name_visible": "AUG – Electron Cloud",
+      "tier": 5,
+      "stars_visible": 6,
+      "rating_visible": 1720,
+      "tooltip_basic_stats": {"DMG": 400, "Fire Rate": 720, "MAG": 40},
+      "other_tooltip_rows": {"Crit Rate": "10%", "Crit DMG": "25%", "Weakspot DMG": "60%", "Elemental DMG": "15.7%"},
+      "durability_visible": "15/100",
+      "ownership_cues": ["selected weapon slot 1 in Gear Config", "avatar visibly holding weapon", "weapon details show attached mod with E badge and U Unequip"],
+      "frames": [{"second": 13, "sha256": "4254ebb858b79ce54ca51aef0272d5881075b00ebf8b83cae4ff0f891ec0b150"}, {"second": 14, "sha256": "158e78259850de91922494034d3b0930be227b4daf8d715c81ebdcfca346d1cb"}, {"second": 15, "sha256": "7837ca4e04ceaa1362eee3de641bd49cd264a631ecc2e29fb4969acfc31d76a5"}],
+      "limits": ["Calibration print/term IDs and values are not visible", "Not a November 2 current-weapon identity or damage value"]
+    },
+    {
+      "slot": "helmet", "name_visible": "Mayfly Goggles", "tier": 5, "rating_visible": 1366,
+      "frame": {"second": 19, "sha256": "aee414968577e0401b49fe1e124c61998d56b5cfffff3635c30f4273cc7116c8"},
+      "limits": ["Star count and item basic-stat tooltip not established by this frame"]
+    },
+    {
+      "slot": "mask", "name_visible": "Shelterer Mask", "tier": 5, "stars_visible": 6, "rating_visible": 1420,
+      "tooltip_basic_stats": {"HP": 648, "Pollution Resist": 16, "Psi Intensity": 201},
+      "durability_visible": "375/400",
+      "ownership_cues": ["selected mask slot", "U Unequip visible"],
+      "frames": [{"second": 23, "sha256": "4d6d7881db1c28b8e1b009e57c2466709bc500625dfc90635818924fa0f789eb"}, {"second": 24, "sha256": "abf572c1aefa573f0737e56f45d8e1a5564f72036b03a1e9bec1ab993528f0ca"}]
+    },
+    {"slot": "gloves", "name_visible": "Savior Gloves", "tier": 5, "rating_visible": 1420, "frame": {"second": 33, "sha256": "0bdd95fe64fb77776bdbe7f697528592e90cf122761dbe54dbf8fdd4ad0a38f5"}, "limits": ["Star count and item basic-stat tooltip not established by this frame"]},
+    {"slot": "shoes", "name_visible": "Savior Shoes", "tier": 5, "rating_visible": 1372, "frame": {"second": 39, "sha256": "92e8374a9e5e8453c4bcaa99e23f6eeeafb810d1fbaf1ca23b3c7a7e0ce1092b"}, "limits": ["Star count and item basic-stat tooltip not established by this frame"]},
+    {
+      "slot": "top", "name_visible": "Shelterer Top", "tier": 5, "rating_visible": 1276,
+      "tooltip_basic_stats": {"HP": 3367, "Pollution Resist": 16, "Psi Intensity": 112},
+      "durability_visible": "374/400",
+      "frames": [{"second": 43, "sha256": "99d57348f3295926d262cf54df94d4a451dd0842067ef774e039cf68c112e7cb"}, {"second": 44, "sha256": "5f8039243a36358b7f670455169fbcb58e3d7db299e4d315a7328ea93c20a952"}],
+      "limits": ["Gold star cue visible but count not confidently established"]
+    },
+    {"slot": "pants", "name_visible": "Savior Pants", "tier": 5, "rating_visible": 1372, "frame": {"second": 49, "sha256": "3ffbc3e45ef7d2484109f6f293188d2abca678a979c29efedf7947a77da13000"}, "limits": ["Star count and item basic-stat tooltip not established by this frame"]}
+  ],
+  "attached_mods_at_recording_time": [
+    {
+      "slot": "primary_weapon_1", "name_visible": "Shock Rampage", "suffix_visible": "Power Surge", "level_visible": 17,
+      "core_effect_visible": "Inflicting Power Surge grants +5.0% Power Surge Trigger Chance (based on weapon's Trigger Chance) for 5.0s, up to 4.0 stacks.",
+      "rolls_visible": ["Power Surge DMG +6.0%", "Power Surge Trigger Chance +6.0%", "Shock DMG +6.0%", "Increases damage dealt to all DMG Boost by +3.0%"],
+      "equip_cues": ["E badge", "U Unequip"], "frame": {"second": 15, "sha256": "7837ca4e04ceaa1362eee3de641bd49cd264a631ecc2e29fb4969acfc31d76a5"}
+    },
+    {
+      "slot": "helmet", "name_visible": "Deviation Expert", "suffix_visible": "Lunar", "level_visible": 10,
+      "core_effect_visible": "Range -25.0%, Fire Rate +10.0%, Status DMG +20.0%",
+      "rolls_visible": ["The lower your HP, the higher your Crit DMG, up to +18.0%", "The lower your HP, the higher your Weapon DMG, up to +7.2%", "The lower your HP, the higher your DMG Reduction against Deviants, up to +4.8%", "Increases damage dealt to all DMG Boost by +3.0%"],
+      "frame": {"second": 19, "sha256": "aee414968577e0401b49fe1e124c61998d56b5cfffff3635c30f4273cc7116c8"}
+    },
+    {
+      "slot": "mask", "name_visible": "Thunderclap", "suffix_visible": "Deviant Energy", "level_visible": 17,
+      "core_effect_visible": "After triggering Power Surge 20 times, the next hit summons Celestial Thunder (Shock DMG of 200.0% Psi Intensity).",
+      "rolls_visible": ["Element (Blaze, Frost, Shock, Blast) DMG +8.0%", "Status DMG +6.0%", "Magazine Capacity +12.0%", "Increases damage dealt to all DMG Boost by +3.0%"],
+      "equip_cues": ["E badge", "U Unequip"], "frame": {"second": 28, "sha256": "a0f598008883706e468784084b2e4402165251f557cf5158cfb56dd47b7c0f9a"}
+    },
+    {
+      "slot": "gloves", "name_visible": "Elemental Overload", "suffix_visible": "Deviant Energy", "level_visible": 17,
+      "core_effect_visible": "Element DMG (Blaze, Frost, Shock, Blast) +18.0%",
+      "rolls_visible": ["Element (Blaze, Frost, Shock, Blast) DMG +8.0%", "Status DMG +6.0%", "Magazine Capacity +12.0%", "Increases damage dealt to all DMG Boost by +3.0%"],
+      "equip_cues": ["E badge", "U Unequip"], "frame": {"second": 33, "sha256": "0bdd95fe64fb77776bdbe7f697528592e90cf122761dbe54dbf8fdd4ad0a38f5"}
+    },
+    {
+      "slot": "shoes", "name_visible": "Ruthless Reaper", "suffix_visible": "Deviant Energy", "level_visible": 15,
+      "core_effect_visible": "After getting 2.0 kills, refill 100.0% of your magazine from your reserves.",
+      "rolls_visible": ["Element (Blaze, Frost, Shock, Blast) DMG +8.0%", "Status DMG +4.8%", "Magazine Capacity +9.6%", "Increases damage dealt to all DMG Boost by +3.0%"],
+      "equip_cues": ["E badge", "U Unequip"], "frame": {"second": 39, "sha256": "92e8374a9e5e8453c4bcaa99e23f6eeeafb810d1fbaf1ca23b3c7a7e0ce1092b"}
+    },
+    {
+      "slot": "top", "name_visible": "Ardent Shield", "suffix_visible": "Deviant Energy", "level_visible": 11,
+      "core_effect_visible": "While the shield is active, you gain 15.0% DMG Reduction. When the shield exceeds 1,000, single instances of DMG will not penetrate the shield.",
+      "rolls_visible": ["Element (Blaze, Frost, Shock, Blast) DMG +4.8%", "Status DMG +3.6%", "Magazine Capacity +7.2%", "Increases damage dealt to all DMG Boost by +3.0%"],
+      "equip_cues": ["E badge"], "frame": {"second": 44, "sha256": "5f8039243a36358b7f670455169fbcb58e3d7db299e4d315a7328ea93c20a952"}
+    },
+    {
+      "slot": "pants", "name_visible": "Elemental Resonance", "suffix_visible": "Deviant Energy", "level_visible": 15,
+      "core_effect_visible": "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +1.0% for 15.0s upon reloading, up to +24.0%.",
+      "rolls_visible": ["Element (Blaze, Frost, Shock, Blast) DMG +8.0%", "Status DMG +4.8%", "Magazine Capacity +9.6%", "Increases damage dealt to all DMG Boost by +3.0%"],
+      "equip_cues": ["E badge", "U Unequip"], "frame": {"second": 50, "sha256": "945943a57f962cb726b6c2a89db93dff35da929908c4b65d507d3e13c9eb06a0"}
+    }
+  ],
+  "cross_item_visible": {
+    "shelterer_set_counter": "2/4",
+    "active_two_piece_line": "Element DMG (Blaze, Frost, Shock, Blast) +8%",
+    "source_frame_seconds": [23, 43],
+    "activation_boundary": "Historical gear tour only; do not carry set bonus into November 2 calculations without current set identity."
+  },
+  "mod_frame_regions_xyxy_in_3840x1080": {
+    "primary_weapon_1_second_15": {"title_and_unequip": [80, 260, 700, 1020], "effect_panel": [3310, 240, 3800, 850]},
+    "helmet_second_19": {"title_and_mod": [80, 240, 580, 640], "effect_panel": [3310, 240, 3800, 880]},
+    "mask_second_28": {"title_and_unequip": [80, 240, 710, 1030], "effect_panel": [3310, 240, 3800, 880]},
+    "gloves_second_33": {"title_and_unequip": [80, 120, 740, 850], "effect_panel": [3310, 240, 3800, 850]},
+    "shoes_second_39": {"title_and_unequip": [80, 240, 740, 1030], "effect_panel": [3310, 240, 3800, 850]},
+    "top_second_44": {"title_and_mod": [80, 120, 580, 400], "effect_panel": [3310, 240, 3800, 880]},
+    "pants_second_50": {"title_and_unequip": [80, 120, 740, 850], "effect_panel": [3310, 240, 3800, 880]}
+  },
+  "other_existing_source_review": [
+    {"source": "/home/dv/Projects/once-human-advisor/static/artwork/observed-character-panel-20261102-overview.png", "sha256": "c0a5071c5eb534ef3eb33f4d944e9197e68891f0fd1daf90475fbfdbaaffba23", "finding": "Current screenshot has a Gear Config overview, no selected item tooltip or exact item title."},
+    {"source": "/home/dv/Projects/once-human-advisor/static/artwork/observed-character-panel-20261102-expanded.png", "sha256": "b1447d8d38524720fd2f0191e460d2d528ebac9aa7d02536f5cc80a4b7efa3ec", "finding": "Current screenshot expands character stats, no selected item tooltip or exact item title."},
+    {"source": "/home/dv/Projects/once-human-advisor/RECORDING_REVIEW.md", "finding": "October 22 indexed recording contains blueprint and Field Guide unlock observations; its existing review found no confirmed crafted/equipped weapon tooltip."},
+    {"source": "/home/dv/Videos/screenrecording-2026-10-26_00-02-05.mp4", "review": "4-second contact sample", "finding": "combat footage; no sampled item tooltip"},
+    {"source": "/home/dv/Videos/screenrecording-2026-10-26_00-05-49.mp4", "review": "4-second contact sample", "finding": "combat footage; no sampled item tooltip"},
+    {"source": "/home/dv/Videos/screenrecording-2026-10-26_00-25-06.mp4", "review": "4-second contact sample", "finding": "combat footage and a brief end-of-clip gear overview; no sampled item tooltip"}
+  ],
+  "missing_for_current_calculation": [
+    "November 2 primary weapon name, tier, stars, item tooltip damage and calibration print/term IDs",
+    "November 2 individual armor identities, tiers, stars, and mod selections/rolls",
+    "November 1 weapon and armor calibration/upgrade instance details beyond visible tooltip rows",
+    "Direct time-linked bridge showing that November 1 selected items remained equipped on November 2",
+    "Live active buffs, target, and hit/Power Surge executor timing"
+  ],
+  "import_rule": "Keep these as historical observed instance facts. Do not copy their bonuses or item numbers into a current build or infer hidden numeric IDs from art."
+}

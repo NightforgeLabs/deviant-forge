@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "source_build": "26267212",
+  "source_archive_entry": {
+    "index": 23607,
+    "name": "dcs_extend\\const\\shoot_const.pyc",
+    "id": 1095577592,
+    "archive_offset": 109502708,
+    "compressed_sha256": "9db313b1daae4426e8fb2124dd33bd6150b1451b6a378a83ead938628cdc365f",
+    "pyc_sha256": "ec17290afbc5fb766d06080e825d38b5d3b90a121f4d2df0dba0f52be6e0f86c"
+  },
+  "class_body": {
+    "name": "ShootMode",
+    "first_line": 174,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "NONE",
+      "SINGLE",
+      "BURST",
+      "AUTO"
+    ],
+    "constants": [
+      "ShootMode",
+      -1,
+      1,
+      2,
+      3,
+      null
+    ],
+    "body_code_hex": "d60080005a01260000002601000026020000260300002604000026050000",
+    "body_sha256": "ddfdd74ca3c5c7e29e532c25f0c78d7c317e78ea438f964d44d49d1d3e1ccf9a"
+  },
+  "independent_mode_text_sha256": "cfc43c2b8ef52fd57fb9831b57e4ce0b903b225d56c412a7f8272d051f8b7b5d",
+  "mapping": {
+    "SINGLE": 1,
+    "BURST": 2,
+    "AUTO": 3
+  },
+  "limits": "Static class constants and native UI labels corroborate enum numbers; runtime mode overrides and global round binding remain unobserved.",
+  "game_code_executed": false,
+  "game_files_modified": false
+}

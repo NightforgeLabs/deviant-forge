@@ -1,0 +1,1120 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-01",
+  "purpose": "Isolated source-backed weapon mechanic bindings; not an installed calculator rule set.",
+  "basis_values": [
+    "attack",
+    "psi",
+    null
+  ],
+  "damage_class_values": [
+    "weapon",
+    "status",
+    "unknown",
+    null
+  ],
+  "source_legend": {
+    "may25": {
+      "url": "https://www.oncehuman.game/news/update/20250521/40780_1235763.html",
+      "date": "2025-05-21",
+      "status": "official_release_at_date"
+    },
+    "jun25": {
+      "url": "https://www.oncehuman.game/news/update/20250617/40780_1241054.html",
+      "date": "2025-06-17",
+      "status": "official_release_at_date"
+    },
+    "oct25": {
+      "url": "https://www.oncehuman.game/news/update/20251029/40780_1267745.html",
+      "date": "2025-10-29",
+      "status": "official_release_at_date"
+    },
+    "feb26": {
+      "url": "https://www.oncehuman.game/news/update/20260225/40780_1288020.html",
+      "date": "2026-02-25",
+      "status": "official_release_type_only"
+    },
+    "feb_preview": {
+      "url": "https://www.oncehuman.game/news/devBlog/20260212/40781_1287008.html",
+      "date": "2026-02-23",
+      "status": "official_preview_numbers_not_live_verified"
+    },
+    "oct26": {
+      "url": "https://www.oncehuman.game/news/update/20261021/40780_1317280.html",
+      "date": "2026-10-21",
+      "status": "official_release_at_date"
+    },
+    "community_march": {
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/tree/d6b1d5b99f84cb6ddc6b8f85144ee067af2a4e45",
+      "date": "2026-03",
+      "status": "historical_community_snapshot"
+    },
+    "nov24": {
+      "url": "https://www.oncehuman.game/news/devBlog/20241123/40781_1195665.html",
+      "date": "2024-11-23",
+      "status": "historical_official_preview_not_final"
+    }
+  },
+  "entries": {
+    "weapon:mps7-outer-space": {
+      "name": "MPS7 - Outer Space",
+      "status": "partial_official_release",
+      "sources": [
+        "may25",
+        "oct25"
+      ],
+      "events": [
+        {
+          "event": "power_surge",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.3,
+            "probability_type": "absolute"
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "power_surge"
+          }
+        },
+        {
+          "event": "celestial_lightning",
+          "trigger": {
+            "kind": "per_target_hit_counter",
+            "requires_target_status": "power_surge",
+            "hits": 12,
+            "reset": "unknown"
+          },
+          "damage": {
+            "basis": "psi",
+            "damage_class": "unknown",
+            "element": "shock",
+            "coefficient": 5.0,
+            "crit_eligible": null,
+            "weakspot_eligible": null,
+            "tags": [
+              "elemental",
+              "lightning"
+            ],
+            "pvp_multiplier": 0.4
+          }
+        },
+        {
+          "event": "reload_surge_factor",
+          "trigger": {
+            "kind": "after_reload"
+          },
+          "buff": {
+            "stat": "power_surge_trigger_chance",
+            "operation": "relative_to_weapon_base_chance",
+            "fraction": 0.4,
+            "duration_seconds": 6
+          }
+        },
+        {
+          "event": "shock_bonus",
+          "trigger": {
+            "kind": "always"
+          },
+          "buff": {
+            "stat": "shock_elemental_damage",
+            "operation": "additive_percent",
+            "fraction": 0.3
+          }
+        }
+      ],
+      "unknowns": [
+        "lightning damage class (Weapon versus Status)",
+        "lightning crit and weakspot eligibility",
+        "counter reset on target change/status expiry",
+        "current weapon Attack/RPM/magazine by tier and calibration",
+        "interaction of elemental and Power Surge damage bonuses"
+      ],
+      "notes": "October 2025 release supersedes the May 2025 15-hit/300%-Psi lightning; 30% base chance and reload factor come from May release and need current tooltip confirmation."
+    },
+    "weapon:mg4-predator": {
+      "name": "MG4 - Predator",
+      "status": "partial_official_release",
+      "sources": [
+        "may25",
+        "jun25"
+      ],
+      "events": [
+        {
+          "event": "fast_gunner",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.4,
+            "probability_type": "absolute"
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "fast_gunner"
+          }
+        },
+        {
+          "event": "unlimited_ammo",
+          "trigger": {
+            "kind": "stack_count_multiple",
+            "stack": "fast_gunner",
+            "multiple": 5
+          },
+          "buff": {
+            "stat": "ammo_consumption",
+            "operation": "unlimited_ammo",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "event": "same_target_ramp",
+          "trigger": {
+            "kind": "consecutive_hits_same_target"
+          },
+          "buff": {
+            "stat": "weapon_damage",
+            "operation": "additive_per_hit",
+            "fraction_per_hit": 0.04,
+            "max_fraction": 0.8,
+            "target_change": "halve_stacks"
+          }
+        },
+        {
+          "event": "high_magazine_attack",
+          "trigger": {
+            "kind": "ammo_fraction_above",
+            "threshold_exclusive": 0.4
+          },
+          "buff": {
+            "stat": "attack",
+            "operation": "additive_percent",
+            "fraction": 0.6
+          }
+        }
+      ],
+      "unknowns": [
+        "Fast Gunner stack generation and cap",
+        "same-target ramp timing relative to hit damage",
+        "fractional stack rounding after target switch",
+        "Attack versus Weapon DMG stacking",
+        "current weapon base stats by tier/calibration"
+      ],
+      "notes": "June 2025 release supersedes May +2% per hit and >50% magazine threshold."
+    },
+    "weapon:g17-hazardous-object": {
+      "name": "G17 - Hazardous Object",
+      "status": "partial_official_release",
+      "sources": [
+        "may25"
+      ],
+      "events": [
+        {
+          "event": "unstable_bomber",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.25,
+            "probability_type": "absolute"
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "unstable_bomber"
+          }
+        },
+        {
+          "event": "thrown_reload_blast",
+          "trigger": {
+            "kind": "on_reload",
+            "consumes_remaining_ammo": true,
+            "radius_meters": 3
+          },
+          "damage": {
+            "basis": "psi",
+            "damage_class": "unknown",
+            "element": "blast",
+            "coefficient": {
+              "kind": "affine_capped",
+              "base": 0.5,
+              "per_ammo": 0.18,
+              "cap": 4.8
+            },
+            "crit_eligible": null,
+            "weakspot_eligible": null,
+            "tags": [
+              "unstable_bomber"
+            ],
+            "pvp_multiplier": 0.28
+          }
+        },
+        {
+          "event": "reload_time",
+          "trigger": {
+            "kind": "always"
+          },
+          "buff": {
+            "stat": "reload_time",
+            "operation": "relative_percent",
+            "fraction": -0.4
+          }
+        },
+        {
+          "event": "ammo_refund",
+          "trigger": {
+            "kind": "after_thrown_reload"
+          },
+          "outcomes": [
+            {
+              "probability": 0.75,
+              "fraction_of_expended_ammo": 0.75
+            },
+            {
+              "probability": 0.25,
+              "fraction_of_expended_ammo": 0.25
+            }
+          ]
+        },
+        {
+          "event": "bomber_ramp",
+          "trigger": {
+            "kind": "on_unstable_bomber_damage"
+          },
+          "buff": {
+            "stat": [
+              "unstable_bomber_damage",
+              "unstable_bomber_range"
+            ],
+            "operation": "additive_per_stack",
+            "fraction_per_stack": 0.1,
+            "max_fraction": 0.5,
+            "duration_seconds": 10
+          }
+        }
+      ],
+      "unknowns": [
+        "thrown blast damage class",
+        "crit and weakspot eligibility",
+        "reload refund rounding",
+        "blast interaction with target count",
+        "current weapon base stats by tier/calibration"
+      ],
+      "notes": "The formula consumes remaining ammo; it is not a constant 480%-Psi blast."
+    },
+    "weapon:dbsg-doombringer": {
+      "name": "DBSG - Doombringer",
+      "status": "partial_official_release",
+      "sources": [
+        "may25",
+        "jun25"
+      ],
+      "events": [
+        {
+          "event": "bullseye",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.3,
+            "nearby_override": {
+              "distance_meters_lte": 8,
+              "probability": 0.8
+            }
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "bullseye"
+          }
+        },
+        {
+          "event": "pellet_attack_ramp",
+          "trigger": {
+            "kind": "all_pellets_hit_non_meta_human"
+          },
+          "buff": {
+            "stat": "attack",
+            "operation": "additive_per_stack",
+            "fraction_per_stack": 0.12,
+            "max_stacks": 3,
+            "duration_seconds": 15
+          }
+        },
+        {
+          "event": "marked_crit",
+          "trigger": {
+            "kind": "hit_marked_unit"
+          },
+          "buff": {
+            "stat": "crit_rate",
+            "operation": "additive_percent_points",
+            "fraction": 0.3
+          }
+        },
+        {
+          "event": "bullseye_defense",
+          "trigger": {
+            "kind": "on_bullseye_trigger"
+          },
+          "buff": {
+            "stat": "damage_reduction",
+            "operation": "additive_per_stack",
+            "fraction_per_stack": 0.05,
+            "max_stacks": 4,
+            "duration_seconds": 8
+          }
+        }
+      ],
+      "unknowns": [
+        "pellet count and per-pellet damage by tier",
+        "whether mark applies before marked-hit crit on same shot",
+        "current weapon base stats and reload calibration"
+      ],
+      "notes": "May announcement said Doombringer was still under testing. June release is the later numeric source, not a present-day tooltip."
+    },
+    "weapon:critical-pulse": {
+      "name": "Critical Pulse",
+      "status": "partial_official_release",
+      "sources": [
+        "may25"
+      ],
+      "events": [
+        {
+          "event": "continuous_surge",
+          "trigger": {
+            "kind": "on_hit"
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "continuous_power_surge",
+            "window_seconds": 3,
+            "initial_interval_seconds": 0.5,
+            "minimum_interval_seconds": 0.26,
+            "max_stacks": 5,
+            "pvp_multiplier": 0.4
+          }
+        },
+        {
+          "event": "deviant_particle",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.7,
+            "probability_type": "absolute"
+          },
+          "effect": {
+            "kind": "generate_collectable_charge"
+          }
+        },
+        {
+          "event": "lightning_orb_tick",
+          "trigger": {
+            "kind": "charged_hit_spend_one_charge",
+            "tick_interval_seconds": 0.5,
+            "radius_meters": 5
+          },
+          "damage": {
+            "basis": "psi",
+            "damage_class": "status",
+            "element": "shock",
+            "coefficient": 0.75,
+            "crit_eligible": null,
+            "weakspot_eligible": null,
+            "tags": [
+              "power_surge"
+            ],
+            "pvp_multiplier": 0.25
+          }
+        },
+        {
+          "event": "orb_particle",
+          "trigger": {
+            "kind": "on_orb_damage",
+            "probability": 0.05,
+            "probability_type": "absolute"
+          },
+          "effect": {
+            "kind": "generate_collectable_charge",
+            "lifetime_seconds": 3
+          }
+        },
+        {
+          "event": "shock_bonus",
+          "trigger": {
+            "kind": "always"
+          },
+          "buff": {
+            "stat": "shock_elemental_damage",
+            "operation": "additive_percent",
+            "fraction": 0.3
+          }
+        }
+      ],
+      "unknowns": [
+        "orb lifetime and maximum tick count",
+        "charge collection probability/pathing",
+        "continuous surge stack-to-interval curve",
+        "continuous surge damage coefficient/class",
+        "current weapon base stats"
+      ],
+      "notes": "Orb is explicitly Status damage despite its Psi basis. Continuous Surge damage class is not inferred."
+    },
+    "weapon:socr-cosmic-visitor": {
+      "name": "SOCR - Cosmic Visitor",
+      "status": "partial_official_release",
+      "sources": [
+        "oct26"
+      ],
+      "events": [
+        {
+          "event": "frost_vortex",
+          "trigger": {
+            "kind": "on_weapon_hit",
+            "probability": null,
+            "first_hit_after_reload_guaranteed": true
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "frost_vortex"
+          }
+        },
+        {
+          "event": "hit_count_ice_spear",
+          "trigger": {
+            "kind": "hit_counter",
+            "hits": null
+          },
+          "damage": {
+            "basis": null,
+            "damage_class": null,
+            "element": null,
+            "coefficient": null,
+            "crit_eligible": null,
+            "weakspot_eligible": null,
+            "tags": [
+              "ice_spear",
+              "ice_construct"
+            ],
+            "pvp_multiplier": null
+          }
+        },
+        {
+          "event": "vortex_ice_spears",
+          "trigger": {
+            "kind": "on_frost_vortex_generated",
+            "count": null
+          },
+          "damage": {
+            "basis": null,
+            "damage_class": null,
+            "element": null,
+            "coefficient": null,
+            "crit_eligible": null,
+            "weakspot_eligible": null,
+            "tags": [
+              "ice_spear",
+              "ice_construct"
+            ],
+            "pvp_multiplier": null
+          }
+        },
+        {
+          "event": "kill_ice_spears",
+          "trigger": {
+            "kind": "on_kill",
+            "count": null,
+            "cooldown_seconds": null
+          },
+          "damage": {
+            "basis": null,
+            "damage_class": null,
+            "element": null,
+            "coefficient": null,
+            "crit_eligible": null,
+            "weakspot_eligible": null,
+            "tags": [
+              "ice_spear",
+              "ice_construct"
+            ],
+            "pvp_multiplier": null
+          }
+        }
+      ],
+      "unknowns": [
+        "base Frost Vortex probability",
+        "hit threshold",
+        "spear counts",
+        "spear hit/explosion coefficients and bases",
+        "spear element/damage class/crit/weakspot eligibility",
+        "kill cooldown",
+        "current weapon base stats"
+      ],
+      "notes": "October 2026 official announcement establishes event graph and Ice Construct tag, but omits the numerical spear parameters. Do not treat missing counts as zero."
+    },
+    "weapon:acs12-pyroclasm-starter": {
+      "name": "ACS12 - Pyroclasm Starter",
+      "status": "partial_preview_numbers",
+      "sources": [
+        "feb26",
+        "feb_preview"
+      ],
+      "events": [
+        {
+          "event": "dragons_breath",
+          "trigger": {
+            "kind": "charged_attack_or_bullet"
+          },
+          "damage": {
+            "basis": "attack",
+            "damage_class": "status",
+            "element": "blaze",
+            "coefficient": 0.95,
+            "crit_eligible": true,
+            "weakspot_eligible": true,
+            "tags": [
+              "charged_elemental"
+            ],
+            "pvp_multiplier": null
+          }
+        },
+        {
+          "event": "burn",
+          "trigger": {
+            "kind": "on_shooting_hit",
+            "probability": 0.27
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "burn"
+          }
+        },
+        {
+          "event": "charge_particle",
+          "trigger": {
+            "kind": "on_shooting_hit",
+            "probability": 0.2
+          },
+          "effect": {
+            "kind": "generate_collectable_charge",
+            "duration_seconds": 60
+          }
+        },
+        {
+          "event": "charge_stack_bonus",
+          "trigger": {
+            "kind": "charge_consumed_on_reload"
+          },
+          "buff": {
+            "stat": "charged_bullet_damage",
+            "fraction_per_stack": 0.08,
+            "max_stacks": 4,
+            "until": "next_reload"
+          }
+        }
+      ],
+      "unknowns": [
+        "preview coefficient not verified in shipped tooltip",
+        "charge acquisition/consumption and uptime",
+        "current weapon base stats"
+      ],
+      "notes": "February 25 release confirms charged shots changed to Status DMG and keyword trigger is shooting hit. Numeric coefficient is from earlier dev-blog test values only; block numeric ranking until current evidence or explicitly labeled preview simulation."
+    },
+    "weapon:sks-pathfinder": {
+      "name": "SKS - Pathfinder",
+      "status": "partial_preview_numbers",
+      "sources": [
+        "feb26",
+        "feb_preview"
+      ],
+      "events": [
+        {
+          "event": "charged_ice_spike",
+          "trigger": {
+            "kind": "charged_attack_or_bullet"
+          },
+          "damage": {
+            "basis": "attack",
+            "damage_class": "status",
+            "element": "frost",
+            "coefficient": 1.1,
+            "crit_eligible": true,
+            "weakspot_eligible": true,
+            "tags": [
+              "charged_elemental"
+            ],
+            "pvp_multiplier": null
+          }
+        },
+        {
+          "event": "frost_vortex",
+          "trigger": {
+            "kind": "on_shooting_hit",
+            "cooldown_seconds": 5,
+            "cooldown_reduction_seconds_per_hit": 1
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "frost_vortex"
+          }
+        },
+        {
+          "event": "charge_particle",
+          "trigger": {
+            "kind": "on_shooting_hit",
+            "probability": 0.6
+          },
+          "effect": {
+            "kind": "generate_collectable_charge",
+            "extra_max_charge_stacks": 10
+          }
+        },
+        {
+          "event": "charged_frost_bonus",
+          "trigger": {
+            "kind": "after_charged_shot"
+          },
+          "buff": {
+            "stat": "frost_elemental_damage",
+            "fraction_per_stack": 0.08,
+            "max_stacks": 3,
+            "duration_seconds": 15
+          }
+        }
+      ],
+      "unknowns": [
+        "preview coefficient not verified in shipped tooltip",
+        "charge acquisition/consumption and uptime",
+        "current weapon base stats"
+      ],
+      "notes": "February 25 release confirms charged shots changed to Status DMG and keyword trigger is shooting hit. Numeric coefficient is from earlier dev-blog test values only; block numeric ranking until current evidence or explicitly labeled preview simulation."
+    },
+    "weapon:tec9-additional-rules": {
+      "name": "TEC9 - Additional Rules",
+      "status": "partial_preview_numbers",
+      "sources": [
+        "feb26",
+        "feb_preview"
+      ],
+      "events": [
+        {
+          "event": "elemental_bullet",
+          "trigger": {
+            "kind": "charged_attack_or_bullet"
+          },
+          "damage": {
+            "basis": "attack",
+            "damage_class": "status",
+            "element": "variable_deviation",
+            "coefficient": 1.2,
+            "crit_eligible": true,
+            "weakspot_eligible": true,
+            "tags": [
+              "charged_elemental"
+            ],
+            "pvp_multiplier": null
+          }
+        },
+        {
+          "event": "fortress_warfare",
+          "trigger": {
+            "kind": "on_shooting_hit",
+            "cooldown_seconds": 10
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "fortress_warfare"
+          }
+        },
+        {
+          "event": "deviant_power_reload",
+          "trigger": {
+            "kind": "reload_empty_magazine"
+          },
+          "effect": {
+            "kind": "restore_deviant_power",
+            "fraction_of_magazine": 0.25,
+            "max_points": 20
+          }
+        },
+        {
+          "event": "fortress_crit",
+          "trigger": {
+            "kind": "during_fortress_warfare"
+          },
+          "buff": {
+            "stat": "crit_rate",
+            "operation": "additive_percent_points",
+            "fraction": 0.15
+          }
+        }
+      ],
+      "unknowns": [
+        "preview coefficient not verified in shipped tooltip",
+        "charge acquisition/consumption and uptime",
+        "current weapon base stats"
+      ],
+      "notes": "February 25 release confirms charged shots changed to Status DMG and keyword trigger is shooting hit. Numeric coefficient is from earlier dev-blog test values only; block numeric ranking until current evidence or explicitly labeled preview simulation."
+    },
+    "weapon:kam-crank": {
+      "name": "KAM - Crank",
+      "status": "historical_only",
+      "sources": [
+        "community_march"
+      ],
+      "events": [
+        {
+          "event": "burn",
+          "trigger": {
+            "kind": "hit_counter",
+            "hits": 7
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "burn"
+          }
+        }
+      ],
+      "unknowns": [
+        "current seven-hit rule confirmation",
+        "Burn damage/stack formula",
+        "kill-conditioned reload buff specifics",
+        "current weapon base stats"
+      ],
+      "notes": "Pinned community snapshot is an identity/mechanic lead, not a current binding."
+    },
+    "weapon:kvd-boom-boom": {
+      "name": "KVD - Boom! Boom!",
+      "status": "historical_only",
+      "sources": [
+        "nov24",
+        "community_march"
+      ],
+      "events": [
+        {
+          "event": "burn",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.18
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "burn"
+          }
+        },
+        {
+          "event": "explosion",
+          "trigger": {
+            "kind": "on_hit",
+            "cooldown_seconds": 2
+          },
+          "damage": {
+            "basis": "psi",
+            "damage_class": "unknown",
+            "element": "blaze",
+            "coefficient": 3.0,
+            "crit_eligible": null,
+            "weakspot_eligible": null,
+            "tags": [
+              "explosion"
+            ],
+            "pvp_multiplier": 0.4
+          }
+        },
+        {
+          "event": "explosion_burn",
+          "trigger": {
+            "kind": "on_explosion_hit"
+          },
+          "effect": {
+            "kind": "add_burn_stack",
+            "count": 1
+          }
+        }
+      ],
+      "unknowns": [
+        "current Burn and explosion values",
+        "explosion damage class/crit/weakspot eligibility",
+        "current weapon base stats"
+      ],
+      "notes": "November 2024 dev blog explicitly warns these were not final values. Historical explosion triggers on hit, separately from Burn; cannot support a current numeric winner."
+    },
+    "weapon:kam-abyss-glance": {
+      "name": "KAM - Abyss Glance",
+      "status": "historical_only",
+      "sources": [
+        "nov24"
+      ],
+      "events": [
+        {
+          "event": "frost_vortex",
+          "trigger": {
+            "kind": "hit_counter",
+            "hits": 15,
+            "weakspot_hit_counts_as": 2
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "frost_vortex"
+          }
+        },
+        {
+          "event": "vortex_center_bonus",
+          "trigger": {
+            "kind": "target_inside_frost_vortex"
+          },
+          "buff": {
+            "stat": "frost_vortex_damage",
+            "max_fraction": 2.0,
+            "distance_curve": null
+          }
+        }
+      ],
+      "unknowns": [
+        "current hit threshold and bonuses",
+        "center-distance curve",
+        "current weapon base stats"
+      ],
+      "notes": "November 2024 preview gives 15-hit trigger and weakspot double count, not final current tooltip."
+    },
+    "weapon:kv-sbr-little-jaws": {
+      "name": "KV-SBR - Little Jaws",
+      "status": "historical_only",
+      "sources": [
+        "nov24"
+      ],
+      "events": [
+        {
+          "event": "unstable_bomber",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 1.0,
+            "cooldown_seconds": 0.9
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "unstable_bomber",
+            "delay_bonus_seconds": 0.2
+          }
+        },
+        {
+          "event": "marked_target_ramp",
+          "trigger": {
+            "kind": "hit_target_with_pending_unstable_bomber"
+          },
+          "buff": {
+            "stat": "pending_unstable_bomber_final_damage",
+            "fraction_per_hit": 0.2
+          }
+        },
+        {
+          "event": "delay_bonus",
+          "trigger": {
+            "kind": "unstable_bomber_delay_increase"
+          },
+          "buff": {
+            "stat": "unstable_bomber_damage",
+            "fraction_per_tenth_second": 0.2
+          }
+        }
+      ],
+      "unknowns": [
+        "current trigger/cooldown/delay values",
+        "Unstable Bomber base damage and class",
+        "pending-bomb ramp cap",
+        "current weapon base stats"
+      ],
+      "notes": "Historical November 2024 preview, explicitly nonfinal. A cooldown on a 100% on-hit keyword is not an unrestricted every-hit trigger."
+    },
+    "weapon:r500-hammerhead-shark": {
+      "name": "R500 - Hammerhead Shark",
+      "status": "historical_only",
+      "sources": [
+        "nov24"
+      ],
+      "events": [
+        {
+          "event": "power_surge",
+          "trigger": {
+            "kind": "on_hit",
+            "probability": 0.4,
+            "weakspot_override_probability": 0.9
+          },
+          "effect": {
+            "kind": "keyword_trigger",
+            "keyword": "power_surge"
+          }
+        },
+        {
+          "event": "shock_chain",
+          "trigger": {
+            "kind": "hit_target_with_power_surge",
+            "targets": "nearby_power_surge_targets"
+          },
+          "damage": {
+            "basis": "psi",
+            "damage_class": "unknown",
+            "element": "shock",
+            "coefficient": 0.6,
+            "crit_eligible": null,
+            "weakspot_eligible": null,
+            "tags": [
+              "power_surge"
+            ],
+            "pvp_multiplier": null
+          }
+        },
+        {
+          "event": "shock_chain_primary_multiplier",
+          "trigger": {
+            "kind": "primary_target"
+          },
+          "buff": {
+            "stat": "shock_chain_damage",
+            "operation": "multiplier",
+            "factor": 1.5
+          }
+        },
+        {
+          "event": "ammo_restore",
+          "trigger": {
+            "kind": "shock_damage_counter",
+            "instances": 4
+          },
+          "effect": {
+            "kind": "restore_ammo",
+            "rounds": 1
+          }
+        }
+      ],
+      "unknowns": [
+        "current trigger rates and coefficients",
+        "shock damage class and target cap",
+        "whether primary multiplier affects coefficient before bonuses",
+        "current weapon base stats"
+      ],
+      "notes": "Historical November 2024 preview, explicitly nonfinal; base and weakspot chances are distinct absolute chances."
+    }
+  },
+  "catalog_coverage": {
+    "catalog_weapon_count": 138,
+    "bound_weapon_count": 14,
+    "unbound_catalog_ids": [
+      "weapon:aa12",
+      "weapon:acs12-corrosion",
+      "weapon:acs12-netherworld",
+      "weapon:akm",
+      "weapon:aug-electron-cloud",
+      "weapon:aurora-fort",
+      "weapon:awm",
+      "weapon:aws-338-black-panther",
+      "weapon:aws-338-bullseye",
+      "weapon:bar",
+      "weapon:baseball-bat",
+      "weapon:broken-bottle",
+      "weapon:camping-knife",
+      "weapon:compound-bow",
+      "weapon:compound-bow-the-burden-of-betrayal",
+      "weapon:crowbar",
+      "weapon:db12-backfire",
+      "weapon:db12-raining-cash",
+      "weapon:dbsg",
+      "weapon:dbsg-dual-fury",
+      "weapon:dbsg-format",
+      "weapon:dbsg-old-huntsman",
+      "weapon:de-50",
+      "weapon:de-50-goshawk",
+      "weapon:de-50-jaws",
+      "weapon:de-50-wildfire",
+      "weapon:dp12",
+      "weapon:dual-fury",
+      "weapon:ebr-14-octopus-grilled-rings",
+      "weapon:fate-of-the-mystic",
+      "weapon:fine-dagger",
+      "weapon:fine-steel-pipe",
+      "weapon:flamethrower",
+      "weapon:flare-gun",
+      "weapon:frozen-northern-pike",
+      "weapon:g17-cash-only",
+      "weapon:g17-dusty",
+      "weapon:glock",
+      "weapon:hamr-brahminy",
+      "weapon:hamr-crumble",
+      "weapon:hamr-hannya",
+      "weapon:kam",
+      "weapon:kam-pioneer",
+      "weapon:kukri",
+      "weapon:kv-sbr",
+      "weapon:kv-sbr-icy-rain",
+      "weapon:kvd-icebreaker",
+      "weapon:long-axe",
+      "weapon:m416",
+      "weapon:m416-autumn-equinox",
+      "weapon:m416-scorched-earth",
+      "weapon:m416-silent-anabasis",
+      "weapon:m82a1",
+      "weapon:m870",
+      "weapon:machete",
+      "weapon:metal-baseball-bat",
+      "weapon:mg4",
+      "weapon:mg4-conflicting-memories",
+      "weapon:mg4-mr-squid",
+      "weapon:mg4-sandstorm",
+      "weapon:mg4-scorched-earth",
+      "weapon:mg4-wrath-of-hades",
+      "weapon:mgl",
+      "weapon:military-dagger",
+      "weapon:military-shovel",
+      "weapon:mk14",
+      "weapon:morgan",
+      "weapon:mps5",
+      "weapon:mps5-blue-tiger",
+      "weapon:mps5-kumawink",
+      "weapon:mps5-primal-rage",
+      "weapon:mps7",
+      "weapon:mps7-chaos-domain",
+      "weapon:mps7-div-evo",
+      "weapon:mps7-focus",
+      "weapon:mps7-urban-ninja",
+      "weapon:nail-gun",
+      "weapon:northern-pike",
+      "weapon:oic-8-last-carnival",
+      "weapon:old-baseball-bat",
+      "weapon:old-huntsman",
+      "weapon:old-machete",
+      "weapon:p90",
+      "weapon:pathfinder",
+      "weapon:pdw90-holographic-resonance",
+      "weapon:pyroclasm-starter",
+      "weapon:qbj97-fiery-trees-and-silver-flowers",
+      "weapon:r500",
+      "weapon:r500-hunter",
+      "weapon:r500-interfade",
+      "weapon:r500-memento",
+      "weapon:recurve-bow",
+      "weapon:recurve-crossbow",
+      "weapon:rpd",
+      "weapon:rpg7-rocket-launcher",
+      "weapon:rusted-blade",
+      "weapon:rustic-crossbow",
+      "weapon:s870-sandstorm",
+      "weapon:scar",
+      "weapon:scourge",
+      "weapon:short-wrench",
+      "weapon:sks",
+      "weapon:sn700",
+      "weapon:sn700-dark-snowflake",
+      "weapon:sn700-finale",
+      "weapon:sn700-gulped-lore",
+      "weapon:socr-outsider",
+      "weapon:socr-sand-dancer",
+      "weapon:socr-the-last-valor",
+      "weapon:sr2000-die-another-day",
+      "weapon:sr2000-jungle-camouflage",
+      "weapon:star-vortex",
+      "weapon:stealthblade",
+      "weapon:steel-pipe",
+      "weapon:stun-baton",
+      "weapon:tec9",
+      "weapon:the-fabled-masamune",
+      "weapon:the-trial-of-the-mystic",
+      "weapon:torch",
+      "weapon:ultra-force",
+      "weapon:wa2000",
+      "weapon:warning-sign",
+      "weapon:wrench",
+      "weapon:xm8"
+    ]
+  },
+  "execution_gate": "Only calculate a mechanic when all required trigger, damage, and state parameters are known and source status is accepted by caller. Null is unknown, never zero. Historical and preview numbers require explicit opt-in and cannot support a current-build winner."
+}

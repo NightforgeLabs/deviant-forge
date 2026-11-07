@@ -1,0 +1,24 @@
+{
+  "source": "identity-specific public detail page",
+  "checked_utc_date": "2026-11-01",
+  "entries": {
+    "mod:pants_mod:elemental-resonance-deviant-energy-current": {
+      "exact_name": "Elemental Resonance",
+      "exact_slot": "pants_mod",
+      "exact_variant": "Deviant Energy",
+      "source_url": "https://www.oncehumandb.com/mods/elemental-resonance-deviant-energy",
+      "detail_source_urls": [
+        "https://www.oncehumandb.com/mods/elemental-resonance-deviant-energy"
+      ],
+      "detail_effect_variants": [
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.2% for 15s upon reloading, up to +4.8%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +1% for 15s upon reloading, up to +24%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.6% for 15s upon reloading, up to +14.4%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.4% for 15s upon reloading, up to +9.6%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.8% for 15s upon reloading, up to +19.2%."
+      ],
+      "source_item_id": "19500368",
+      "data_status": "identity-specific community detail page, 2026-11-01; effect ranks not mapped to Field Guide levels; core candidates only"
+    }
+  }
+}

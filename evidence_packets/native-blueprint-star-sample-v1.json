@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "status": "source-native ratio value decoded; final damage formula/configuration remains unverified",
+  "source": "installed build 26267212 script.npk; gun_blueprint_attr_data literal bytes",
+  "source_literal_sha256": "0d282c630a2453a73c62445f7ea499812ae6baa1f890937acdaa5207fb620ee1",
+  "descriptor_pairs_offset": 2187,
+  "descriptor_fields": [
+    {
+      "native_field": "base_attr_val1",
+      "type_code": 18
+    },
+    {
+      "native_field": "base_attr_val1",
+      "type_code": 34
+    },
+    {
+      "native_field": "base_attr_val2",
+      "type_code": 18
+    },
+    {
+      "native_field": "base_attr_val2",
+      "type_code": 34
+    },
+    {
+      "native_field": "base_attr_val3",
+      "type_code": 18
+    },
+    {
+      "native_field": "base_attr_val3",
+      "type_code": 34
+    },
+    {
+      "native_field": "preset_attack_radio",
+      "type_code": 18
+    },
+    {
+      "native_field": "preset_attack_radio",
+      "type_code": 34
+    }
+  ],
+  "method": "Find blueprint ID followed by star and row marker 9626; decode the fourth numeric field using the header descriptor and tag width; require a unique record for each star.",
+  "records": [
+    {
+      "blueprint_id": 13451401,
+      "name": "AUG - Electron Cloud",
+      "stars": [
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.0,
+          "type_code": 18,
+          "blueprint_id": 13451401,
+          "star": 1,
+          "record_start_offset": 38125,
+          "value_byte_offset": 38153,
+          "value_raw_hex": "0000803f",
+          "record_end_marker_offset": 38157,
+          "record_tag_hex": "66"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.05,
+          "type_code": 34,
+          "blueprint_id": 13451401,
+          "star": 2,
+          "record_start_offset": 46098,
+          "value_byte_offset": 46126,
+          "value_raw_hex": "cdccccccccccf03f",
+          "record_end_marker_offset": 46134,
+          "record_tag_hex": "a6"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.1,
+          "type_code": 34,
+          "blueprint_id": 13451401,
+          "star": 3,
+          "record_start_offset": 6702,
+          "value_byte_offset": 6730,
+          "value_raw_hex": "9a9999999999f13f",
+          "record_end_marker_offset": 6738,
+          "record_tag_hex": "a6"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.15,
+          "type_code": 34,
+          "blueprint_id": 13451401,
+          "star": 4,
+          "record_start_offset": 6537,
+          "value_byte_offset": 6565,
+          "value_raw_hex": "666666666666f23f",
+          "record_end_marker_offset": 6573,
+          "record_tag_hex": "a6"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.2,
+          "type_code": 34,
+          "blueprint_id": 13451401,
+          "star": 5,
+          "record_start_offset": 37236,
+          "value_byte_offset": 37264,
+          "value_raw_hex": "333333333333f33f",
+          "record_end_marker_offset": 37272,
+          "record_tag_hex": "a6"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.25,
+          "type_code": 18,
+          "blueprint_id": 13451401,
+          "star": 6,
+          "record_start_offset": 46161,
+          "value_byte_offset": 46189,
+          "value_raw_hex": "0000a03f",
+          "record_end_marker_offset": 46193,
+          "record_tag_hex": "66"
+        }
+      ]
+    },
+    {
+      "blueprint_id": 13413301,
+      "name": "SOCR - Cosmic Visitor",
+      "stars": [
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.0,
+          "type_code": 18,
+          "blueprint_id": 13413301,
+          "star": 1,
+          "record_start_offset": 23860,
+          "value_byte_offset": 23892,
+          "value_raw_hex": "0000803f",
+          "record_end_marker_offset": 23896,
+          "record_tag_hex": "6a"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.05,
+          "type_code": 34,
+          "blueprint_id": 13413301,
+          "star": 2,
+          "record_start_offset": 22037,
+          "value_byte_offset": 22069,
+          "value_raw_hex": "cdccccccccccf03f",
+          "record_end_marker_offset": 22077,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.1,
+          "type_code": 34,
+          "blueprint_id": 13413301,
+          "star": 3,
+          "record_start_offset": 23506,
+          "value_byte_offset": 23538,
+          "value_raw_hex": "9a9999999999f13f",
+          "record_end_marker_offset": 23546,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.15,
+          "type_code": 34,
+          "blueprint_id": 13413301,
+          "star": 4,
+          "record_start_offset": 21756,
+          "value_byte_offset": 21788,
+          "value_raw_hex": "666666666666f23f",
+          "record_end_marker_offset": 21796,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.2,
+          "type_code": 34,
+          "blueprint_id": 13413301,
+          "star": 5,
+          "record_start_offset": 36626,
+          "value_byte_offset": 36658,
+          "value_raw_hex": "333333333333f33f",
+          "record_end_marker_offset": 36666,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.25,
+          "type_code": 18,
+          "blueprint_id": 13413301,
+          "star": 6,
+          "record_start_offset": 42042,
+          "value_byte_offset": 42074,
+          "value_raw_hex": "0000a03f",
+          "record_end_marker_offset": 42078,
+          "record_tag_hex": "6a"
+        }
+      ]
+    },
+    {
+      "blueprint_id": 13742201,
+      "name": "Compound Bow - The Burden of Betrayal",
+      "stars": [
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.0,
+          "type_code": 18,
+          "blueprint_id": 13742201,
+          "star": 1,
+          "record_start_offset": 37361,
+          "value_byte_offset": 37389,
+          "value_raw_hex": "0000803f",
+          "record_end_marker_offset": 37393,
+          "record_tag_hex": "5a"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.05,
+          "type_code": 34,
+          "blueprint_id": 13742201,
+          "star": 2,
+          "record_start_offset": 37588,
+          "value_byte_offset": 37616,
+          "value_raw_hex": "cdccccccccccf03f",
+          "record_end_marker_offset": 37624,
+          "record_tag_hex": "9a"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.1,
+          "type_code": 34,
+          "blueprint_id": 13742201,
+          "star": 3,
+          "record_start_offset": 37830,
+          "value_byte_offset": 37858,
+          "value_raw_hex": "9a9999999999f13f",
+          "record_end_marker_offset": 37866,
+          "record_tag_hex": "9a"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.15,
+          "type_code": 34,
+          "blueprint_id": 13742201,
+          "star": 4,
+          "record_start_offset": 38011,
+          "value_byte_offset": 38039,
+          "value_raw_hex": "666666666666f23f",
+          "record_end_marker_offset": 38047,
+          "record_tag_hex": "9a"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.2,
+          "type_code": 34,
+          "blueprint_id": 13742201,
+          "star": 5,
+          "record_start_offset": 38250,
+          "value_byte_offset": 38278,
+          "value_raw_hex": "333333333333f33f",
+          "record_end_marker_offset": 38286,
+          "record_tag_hex": "9a"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.25,
+          "type_code": 18,
+          "blueprint_id": 13742201,
+          "star": 6,
+          "record_start_offset": 38415,
+          "value_byte_offset": 38443,
+          "value_raw_hex": "0000a03f",
+          "record_end_marker_offset": 38447,
+          "record_tag_hex": "5a"
+        }
+      ]
+    },
+    {
+      "blueprint_id": 13512301,
+      "name": "SN700 - Finale",
+      "stars": [
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.0,
+          "type_code": 18,
+          "blueprint_id": 13512301,
+          "star": 1,
+          "record_start_offset": 47485,
+          "value_byte_offset": 47517,
+          "value_raw_hex": "0000803f",
+          "record_end_marker_offset": 47521,
+          "record_tag_hex": "6a"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.05,
+          "type_code": 34,
+          "blueprint_id": 13512301,
+          "star": 2,
+          "record_start_offset": 8399,
+          "value_byte_offset": 8431,
+          "value_raw_hex": "cdccccccccccf03f",
+          "record_end_marker_offset": 8439,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.1,
+          "type_code": 34,
+          "blueprint_id": 13512301,
+          "star": 3,
+          "record_start_offset": 47547,
+          "value_byte_offset": 47579,
+          "value_raw_hex": "9a9999999999f13f",
+          "record_end_marker_offset": 47587,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.15,
+          "type_code": 34,
+          "blueprint_id": 13512301,
+          "star": 4,
+          "record_start_offset": 47614,
+          "value_byte_offset": 47646,
+          "value_raw_hex": "666666666666f23f",
+          "record_end_marker_offset": 47654,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.2,
+          "type_code": 34,
+          "blueprint_id": 13512301,
+          "star": 5,
+          "record_start_offset": 7648,
+          "value_byte_offset": 7680,
+          "value_raw_hex": "333333333333f33f",
+          "record_end_marker_offset": 7688,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.25,
+          "type_code": 18,
+          "blueprint_id": 13512301,
+          "star": 6,
+          "record_start_offset": 47681,
+          "value_byte_offset": 47713,
+          "value_raw_hex": "0000a03f",
+          "record_end_marker_offset": 47717,
+          "record_tag_hex": "6a"
+        }
+      ]
+    },
+    {
+      "blueprint_id": 13641201,
+      "name": "QBJ97 - Fiery Trees and Silver Flowers",
+      "stars": [
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.0,
+          "type_code": 18,
+          "blueprint_id": 13641201,
+          "star": 1,
+          "record_start_offset": 55324,
+          "value_byte_offset": 55356,
+          "value_raw_hex": "0000803f",
+          "record_end_marker_offset": 55360,
+          "record_tag_hex": "6a"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.05,
+          "type_code": 34,
+          "blueprint_id": 13641201,
+          "star": 2,
+          "record_start_offset": 55386,
+          "value_byte_offset": 55418,
+          "value_raw_hex": "cdccccccccccf03f",
+          "record_end_marker_offset": 55426,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.1,
+          "type_code": 34,
+          "blueprint_id": 13641201,
+          "star": 3,
+          "record_start_offset": 55563,
+          "value_byte_offset": 55595,
+          "value_raw_hex": "9a9999999999f13f",
+          "record_end_marker_offset": 55603,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.15,
+          "type_code": 34,
+          "blueprint_id": 13641201,
+          "star": 4,
+          "record_start_offset": 55630,
+          "value_byte_offset": 55662,
+          "value_raw_hex": "666666666666f23f",
+          "record_end_marker_offset": 55670,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.2,
+          "type_code": 34,
+          "blueprint_id": 13641201,
+          "star": 5,
+          "record_start_offset": 55697,
+          "value_byte_offset": 55729,
+          "value_raw_hex": "333333333333f33f",
+          "record_end_marker_offset": 55737,
+          "record_tag_hex": "aa"
+        },
+        {
+          "native_field": "preset_attack_radio",
+          "value": 1.25,
+          "type_code": 18,
+          "blueprint_id": 13641201,
+          "star": 6,
+          "record_start_offset": 55764,
+          "value_byte_offset": 55796,
+          "value_raw_hex": "0000a03f",
+          "record_end_marker_offset": 55800,
+          "record_tag_hex": "6a"
+        }
+      ]
+    }
+  ],
+  "limitations": "The stored ratio and raw gun_preset_attack are verified independently. Their arithmetic, final rounding, and any live effects or configuration are not established by this parser."
+}

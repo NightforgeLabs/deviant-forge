@@ -1,0 +1,2311 @@
+{
+  "schema_version": "mod_core_v4_partial_outputs",
+  "v2_packet_sha256": "7a81675e627fe236b6127d280647f3c751e59e7bbd728a3ffdf13b1be01a2560",
+  "v3_delta_sha256": "92c5ca1ef4983c9fa534e4d722a8ffa66e2e3227f4634d795b58eea595d2e7ce",
+  "statistics": {
+    "partial_rules": 198,
+    "adapter_status_counts": {
+      "known_component_executable": 137,
+      "descriptor_only": 61
+    },
+    "operator_counts_executable": {
+      "event_modifier_duration_unknown": 9,
+      "weapon_switch_decay_partial": 9,
+      "safe_haven_partial": 14,
+      "distance_scaling_partial": 9,
+      "previous_magazine_event_counter": 9,
+      "previous_magazine_rate_conversion_partial": 10,
+      "heal_on_event": 11,
+      "stat_conversion": 7,
+      "resource_recovery_on_event": 6,
+      "base_plus_hp_cost_timed_stack_partial": 14,
+      "base_plus_unknown_curve": 14,
+      "base_plus_hp_threshold_partial": 14,
+      "distance_triggered_ammo_partial": 11
+    }
+  },
+  "bindings": [
+    {
+      "catalog_id": "mod:helmet_mod:overflow-crescent",
+      "operator": "event_modifier_duration_unknown",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: duration_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-crescent-deviant-energy",
+      "operator": "event_modifier_duration_unknown",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: duration_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-deviant-energy",
+      "operator": "event_modifier_duration_unknown",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: duration_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-general",
+      "operator": "event_modifier_duration_unknown",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: duration_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-lunar",
+      "operator": "event_modifier_duration_unknown",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: duration_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-lunar-deviant-energy",
+      "operator": "event_modifier_duration_unknown",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: duration_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-precision",
+      "operator": "event_modifier_duration_unknown",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: duration_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-survival",
+      "operator": "event_modifier_duration_unknown",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: duration_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:overflow-violent",
+      "operator": "event_modifier_duration_unknown",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "duration_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: duration_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-crescent",
+      "operator": "weapon_switch_decay_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "decay_basis",
+        "effect_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, effect_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-crescent-deviant-energy",
+      "operator": "weapon_switch_decay_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "decay_basis",
+        "effect_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, effect_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-deviant-energy",
+      "operator": "weapon_switch_decay_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "decay_basis",
+        "effect_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, effect_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-general",
+      "operator": "weapon_switch_decay_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "decay_basis",
+        "effect_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, effect_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-lunar",
+      "operator": "weapon_switch_decay_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "decay_basis",
+        "effect_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, effect_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-lunar-deviant-energy",
+      "operator": "weapon_switch_decay_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "decay_basis",
+        "effect_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, effect_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-precision",
+      "operator": "weapon_switch_decay_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "decay_basis",
+        "effect_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, effect_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-survival",
+      "operator": "weapon_switch_decay_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "decay_basis",
+        "effect_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, effect_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:helmet_mod:weapon-symphony-violent",
+      "operator": "weapon_switch_decay_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "decay_basis",
+        "effect_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, effect_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast",
+      "operator": "bomb_hit_counter_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hit_counter_scope, maximum_bonus.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-deviant-energy",
+      "operator": "bomb_hit_counter_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hit_counter_scope, maximum_bonus.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-general",
+      "operator": "bomb_hit_counter_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hit_counter_scope, maximum_bonus.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-precision",
+      "operator": "bomb_hit_counter_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hit_counter_scope, maximum_bonus.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-survival",
+      "operator": "bomb_hit_counter_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hit_counter_scope, maximum_bonus.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-unstable-bomber",
+      "operator": "bomb_hit_counter_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hit_counter_scope, maximum_bonus.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-violent",
+      "operator": "bomb_hit_counter_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hit_counter_scope, maximum_bonus.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel",
+      "operator": "shrapnel_special_hit_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: explosion_radius, explosion_target_multiplicity.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-general",
+      "operator": "shrapnel_special_hit_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: explosion_radius, explosion_target_multiplicity.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-precision",
+      "operator": "shrapnel_special_hit_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: explosion_radius, explosion_target_multiplicity.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-shrapnel",
+      "operator": "shrapnel_special_hit_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: explosion_radius, explosion_target_multiplicity.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-survival",
+      "operator": "shrapnel_special_hit_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: explosion_radius, explosion_target_multiplicity.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-violent",
+      "operator": "shrapnel_special_hit_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: explosion_radius, explosion_target_multiplicity.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-deviant-energy",
+      "operator": "decaying_final_damage_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, minimum_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-frost-vortex",
+      "operator": "decaying_final_damage_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, minimum_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-general",
+      "operator": "decaying_final_damage_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, minimum_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-survival",
+      "operator": "decaying_final_damage_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, minimum_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-violent",
+      "operator": "decaying_final_damage_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: decay_basis, minimum_or_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-battle",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-deviant-energy",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-general",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-lunar",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-lunar-deviant-energy",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-mirror",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-mirror-deviant-energy",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-phantasmal",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-phantasmal-deviant-energy",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-precision",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-survival",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-violent",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-wild",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:chest_mod:enduring-shield-wild-deviant-energy",
+      "operator": "safe_haven_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "damage_received_counter_unit",
+        "shield_percent_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_received_counter_unit, shield_percent_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-deviant-energy",
+      "operator": "distance_scaling_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: cap_applies_to_increment_or_total, distance_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-downstar",
+      "operator": "distance_scaling_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: cap_applies_to_increment_or_total, distance_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-downstar-deviant-energy",
+      "operator": "distance_scaling_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: cap_applies_to_increment_or_total, distance_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-general",
+      "operator": "distance_scaling_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: cap_applies_to_increment_or_total, distance_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-precision",
+      "operator": "distance_scaling_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: cap_applies_to_increment_or_total, distance_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-resonance",
+      "operator": "distance_scaling_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: cap_applies_to_increment_or_total, distance_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-resonance-deviant-energy",
+      "operator": "distance_scaling_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: cap_applies_to_increment_or_total, distance_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-survival",
+      "operator": "distance_scaling_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: cap_applies_to_increment_or_total, distance_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-violent",
+      "operator": "distance_scaling_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "cap_applies_to_increment_or_total",
+        "distance_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: cap_applies_to_increment_or_total, distance_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-deviant-energy",
+      "operator": "previous_magazine_event_counter",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: simultaneous_magazine_and_timer_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-downstar",
+      "operator": "previous_magazine_event_counter",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: simultaneous_magazine_and_timer_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-downstar-deviant-energy",
+      "operator": "previous_magazine_event_counter",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: simultaneous_magazine_and_timer_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-general",
+      "operator": "previous_magazine_event_counter",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: simultaneous_magazine_and_timer_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-precision",
+      "operator": "previous_magazine_event_counter",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: simultaneous_magazine_and_timer_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-resonance",
+      "operator": "previous_magazine_event_counter",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: simultaneous_magazine_and_timer_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-resonance-deviant-energy",
+      "operator": "previous_magazine_event_counter",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: simultaneous_magazine_and_timer_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-survival",
+      "operator": "previous_magazine_event_counter",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: simultaneous_magazine_and_timer_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-violent",
+      "operator": "previous_magazine_event_counter",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "simultaneous_magazine_and_timer_expiration"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: simultaneous_magazine_and_timer_expiration.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precise-charge-general",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-deviant-energy",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-downstar",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-downstar-deviant-energy",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-precision",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-resonance",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-resonance-deviant-energy",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-survival",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-violent",
+      "operator": "previous_magazine_rate_conversion_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rate_step_rounding"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rate_step_rounding.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:rush-hour",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:blaze-blessing",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:blaze-blessing-burn",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:blaze-blessing-deviant-energy",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:blaze-blessing-general",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:blaze-blessing-survival",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:blaze-blessing-violent",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-bounce",
+      "operator": "bounce_target_count_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: whether_initial_target_counts.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-general",
+      "operator": "bounce_target_count_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: whether_initial_target_counts.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-precision",
+      "operator": "bounce_target_count_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: whether_initial_target_counts.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-survival",
+      "operator": "bounce_target_count_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: whether_initial_target_counts.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-violent",
+      "operator": "bounce_target_count_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: whether_initial_target_counts.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:frosty-blessing-deviant-energy",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:frosty-blessing-frost-vortex",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:frosty-blessing-general",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:frosty-blessing-survival",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:frosty-blessing-violent",
+      "operator": "heal_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-general",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-precision",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-survival",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-the-bulls-eye",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-violent",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precise-rush-general",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: ramp_rate_or_trigger.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: ramp_rate_or_trigger.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush-fast-gunner",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: ramp_rate_or_trigger.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush-precision",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: ramp_rate_or_trigger.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush-survival",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: ramp_rate_or_trigger.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush-violent",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: ramp_rate_or_trigger.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:reckless-bomber",
+      "operator": "stat_conversion",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rounding_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:reckless-bomber-deviant-energy",
+      "operator": "stat_conversion",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rounding_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:reckless-bomber-general",
+      "operator": "stat_conversion",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rounding_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:reckless-bomber-precision",
+      "operator": "stat_conversion",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rounding_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:reckless-bomber-survival",
+      "operator": "stat_conversion",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rounding_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:reckless-bomber-unstable-bomber",
+      "operator": "stat_conversion",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rounding_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:reckless-bomber-violent",
+      "operator": "stat_conversion",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "rounding_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:recover-mark",
+      "operator": "resource_recovery_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_and_stamina_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_and_stamina_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:recover-mark-general",
+      "operator": "resource_recovery_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_and_stamina_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_and_stamina_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:recover-mark-precision",
+      "operator": "resource_recovery_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_and_stamina_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_and_stamina_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:recover-mark-survival",
+      "operator": "resource_recovery_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_and_stamina_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_and_stamina_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:recover-mark-the-bulls-eye",
+      "operator": "resource_recovery_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_and_stamina_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_and_stamina_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:recover-mark-violent",
+      "operator": "resource_recovery_on_event",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "hp_and_stamina_basis"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: hp_and_stamina_basis.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand",
+      "operator": "fortress_party_scaling_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: per_player_scaling.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-fortress-warfare",
+      "operator": "fortress_party_scaling_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: per_player_scaling.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-general",
+      "operator": "fortress_party_scaling_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: per_player_scaling.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-precision",
+      "operator": "fortress_party_scaling_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: per_player_scaling.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-survival",
+      "operator": "fortress_party_scaling_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: per_player_scaling.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-violent",
+      "operator": "fortress_party_scaling_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: per_player_scaling.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-battle",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-deviant-energy",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-downstar",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-downstar-deviant-energy",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-general",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-mirror",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-mirror-deviant-energy",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-phantasmal",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-phantasmal-deviant-energy",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-precision",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-survival",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-violent",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-wild",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:against-all-odds-wild-deviant-energy",
+      "operator": "base_plus_hp_cost_timed_stack_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension",
+        "stack_expiration_policy"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension, stack_expiration_policy.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-battle",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-deviant-energy",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-downstar",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-downstar-deviant-energy",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-general",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-mirror",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-mirror-deviant-energy",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-phantasmal",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-phantasmal-deviant-energy",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-precision",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-survival",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-violent",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-wild",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:power-of-striving-wild-deviant-energy",
+      "operator": "base_plus_unknown_curve",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "stamina_loss_to_damage_curve",
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: stamina_loss_to_damage_curve, additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-battle",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-downstar",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-downstar-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-general",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-mirror",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-mirror-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-phantasmal",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-phantasmal-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-precision",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-survival",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-violent",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-wild",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-wild-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: rounding_at_step_boundary, maximum_stack_or_cap.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-general",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-mirror",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-mirror-deviant-energy",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-phantasmal",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-phantasmal-deviant-energy",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-wild",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-wild-deviant-energy",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-deviant-energy",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-downstar",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-downstar-deviant-energy",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-fury",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-precision",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-resistance",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:steady-hand-survival",
+      "operator": "base_plus_hp_threshold_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "additional_damage_dimension"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: additional_damage_dimension.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-general",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-violent",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-precision",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-the-bull-s-eye",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-survival",
+      "operator": "marked_target_damage_direction_partial",
+      "adapter_status": "descriptor_only",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: damage_actor_and_target_direction.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-general",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-violent",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-precision",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-deviant-energy",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-resonance",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-downstar",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-resonance-deviant-energy",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-downstar-deviant-energy",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-survival",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-aero",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-load-aero-deviant-energy",
+      "operator": "distance_triggered_ammo_partial",
+      "adapter_status": "known_component_executable",
+      "unresolved": [
+        "distance_comparison",
+        "bullet_source"
+      ],
+      "next_action": "Obtain an exact current tooltip or controlled combat observation resolving: distance_comparison, bullet_source.",
+      "numeric_binding": "primary community snapshot only unless exact observation separately matches",
+      "whole_dps_certified": false
+    }
+  ]
+}

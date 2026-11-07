@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_hashes": {
+    "graph_capture_manifest_sha256": "4714dc5bcb3845cdd2b2f235367da8a17ae8bd04e0625e82f5bc9df82bd48253",
+    "named_review_view_sha256": "1dbe11c6ebfcbca82adc0d6cfa8cd7084ad4f5e8db0871166c3715db3b5c4671",
+    "native_attr_id_map_sha256": "a45580bf1d71592fa155308f409f3a685b50a9b9ee82bdf1a918f55330a4238e"
+  },
+  "records": [
+    {
+      "item_id": 30119705,
+      "installed_english_item_title": "Heavy Strike Azure Cake",
+      "installed_english_item_description": "A cake made with a mushroom base, stewed with lean meat and corn oil, which stimulates internal perks and enhances performance in combat.\n#cd1356a Decays over time and becomes Spoiled Food 24 hours after obtained.",
+      "source_item_category": "食物_$S@TIDS$_cg0|96",
+      "direct_buff_effect_list_id": 499008005,
+      "nominal_life_time_seconds": 1200.0,
+      "graph_entry": {
+        "buff_id": 499008005,
+        "archive_index": 70508,
+        "entry_name": "game_common\\data\\logic_tree\\buff_499008005_1.pyc",
+        "entry_id": 3261230631,
+        "stored_size": 429,
+        "unpacked_size": 1142,
+        "compressed_sha256": "3b704dc0d074ef0796beac6051a3e601d43592e935750e7e0b93415ff3130016",
+        "pyc_sha256": "9843391bd0544d56ac10abb1739a5d4e9e0a73f96389bf650a5c5453b19a2f21",
+        "literal_sha256": "7b2557c1387a2b98ee9bd7ad9d4f127bce58e0c30c2e48161e3d030b216657af",
+        "literal_path": "food_bonus_graphs/buff_499008005_1.literal_bytes.bin",
+        "pyc_path": "food_bonus_graphs/buff_499008005_1.pyc"
+      },
+      "graph": {
+        "body_offset": 600,
+        "node_list_offset": 836,
+        "root": {
+          "record_offset": 640,
+          "descriptor_offset": 626,
+          "entry_node_id": 0,
+          "name": "buff_499008005_1",
+          "tid_raw": 17328,
+          "dynamic_params_offset": 618,
+          "preload_res_list_offset": 616,
+          "source_info_offset": 604
+        },
+        "entry_event_action_map": {
+          "kind": "typed_pin_map",
+          "literal_offset": 692,
+          "schema_literal_offset": 681,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "none_task_out",
+              "type_code": 11,
+              "string_index": 7
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "none_task_out",
+              "pointer": {
+                "body_relative": 88,
+                "value_byte_offset": 694,
+                "value_raw_hex": "58",
+                "target_literal_offset": 688
+              },
+              "leaf": {
+                "literal_offset": 688,
+                "prefix_hex": "270101059651580c0a050906",
+                "kind": "typed_array",
+                "element_type_code": 1,
+                "values": [
+                  5
+                ],
+                "source_strings": null,
+                "end_literal_offset": 692,
+                "raw_hex": "27010105"
+              }
+            }
+          ],
+          "end_literal_offset": 695,
+          "raw_hex": "965158",
+          "binding_status": "decoded"
+        },
+        "nodes": [
+          {
+            "node_id": 0,
+            "record_offset": 712,
+            "node_type_code": 1,
+            "node_type": "NodeBuffNone",
+            "wrapper_offset": 676,
+            "source_info_offset": 664,
+            "port_map_offsets": {
+              "event_action": 692,
+              "in_data_pin": 618,
+              "out_data_pin": 685
+            }
+          },
+          {
+            "node_id": 5,
+            "record_offset": 828,
+            "node_type_code": 2,
+            "node_type": "NodeChangeAttr",
+            "wrapper_offset": 823,
+            "source_info_offset": 815,
+            "port_map_offsets": {
+              "event_action": 618,
+              "in_data_pin": 618,
+              "out_data_pin": 618
+            }
+          }
+        ],
+        "change_attr_array_offset": 804,
+        "attributes": [
+          {
+            "record_offset": 736,
+            "descriptor_offset": 724,
+            "attribute": "unit_prototype_dam_add_rate_creeps",
+            "attribute_string_index": 27,
+            "attributeChangeSpeed": "corrupted_hp_loss_speed",
+            "extra_value": 0.0,
+            "extra_value_byte_offset": 740,
+            "value_float64": 0.1,
+            "value_byte_offset": 744,
+            "value_raw_hex": "9a9999999999b93f",
+            "value_type_raw": 1,
+            "native_attr_id_if_mapped": "E101"
+          },
+          {
+            "record_offset": 753,
+            "descriptor_offset": 724,
+            "attribute": "unit_prototype_dam_add_rate_boss",
+            "attribute_string_index": 29,
+            "attributeChangeSpeed": "corrupted_hp_loss_speed",
+            "extra_value": 0.0,
+            "extra_value_byte_offset": 757,
+            "value_float64": 0.1,
+            "value_byte_offset": 761,
+            "value_raw_hex": "9a9999999999b93f",
+            "value_type_raw": 1,
+            "native_attr_id_if_mapped": "E100"
+          },
+          {
+            "record_offset": 770,
+            "descriptor_offset": 724,
+            "attribute": "unit_prototype_dam_add_rate_elite",
+            "attribute_string_index": 30,
+            "attributeChangeSpeed": "corrupted_hp_loss_speed",
+            "extra_value": 0.0,
+            "extra_value_byte_offset": 774,
+            "value_float64": 0.1,
+            "value_byte_offset": 778,
+            "value_raw_hex": "9a9999999999b93f",
+            "value_type_raw": 1,
+            "native_attr_id_if_mapped": "E99"
+          },
+          {
+            "record_offset": 787,
+            "descriptor_offset": 724,
+            "attribute": "unit_prototype_dam_add_rate_leader",
+            "attribute_string_index": 31,
+            "attributeChangeSpeed": "corrupted_hp_loss_speed",
+            "extra_value": 0.0,
+            "extra_value_byte_offset": 791,
+            "value_float64": 0.1,
+            "value_byte_offset": 795,
+            "value_raw_hex": "9a9999999999b93f",
+            "value_type_raw": 1,
+            "native_attr_id_if_mapped": "E102"
+          }
+        ],
+        "graph_condition": "Entry NodeBuffNone directly targets NodeChangeAttr; no other condition node exists in this two-node graph."
+      },
+      "interpretation": "Typed attribute target and raw float64 value on an entry-connected graph. NodeChangeAttr application/operator, runtime recipient/stacking, and any external item-use gate are not proven."
+    },
+    {
+      "item_id": 30119710,
+      "installed_english_item_title": "Star Sprinter Drink",
+      "installed_english_item_description": "A mysterious beverage brewed by fermenting scarlet calamus and sage, mixed with pickled cucumber juice. After drinking, limbs become light, allowing one to move freely in the RaidZone.\n#cd1356a Decays over time and becomes Spoiled Food 24 hours after obtained.",
+      "source_item_category": "食物_$S@TIDS$_cg0|9b",
+      "direct_buff_effect_list_id": 499008010,
+      "nominal_life_time_seconds": 1800.0,
+      "graph_entry": {
+        "buff_id": 499008010,
+        "archive_index": 38178,
+        "entry_name": "game_common\\data\\logic_tree\\buff_499008010_1.pyc",
+        "entry_id": 1772605627,
+        "stored_size": 377,
+        "unpacked_size": 957,
+        "compressed_sha256": "c8993dc36981d78ca54a9606d14af003c29487c8946b0990b49df6c2fe230d5b",
+        "pyc_sha256": "5e69b6ebd3e718831b2e5a7ba87a2316cbdf0e3b36ff1a585a88d305408b7b64",
+        "literal_sha256": "3dab3d98360ddbf3ffbf8ca7faff098c32610d0ae54855f04d046c4c36516969",
+        "literal_path": "food_bonus_graphs/buff_499008010_1.literal_bytes.bin",
+        "pyc_path": "food_bonus_graphs/buff_499008010_1.pyc"
+      },
+      "graph": {
+        "body_offset": 474,
+        "node_list_offset": 607,
+        "root": {
+          "record_offset": 647,
+          "descriptor_offset": 633,
+          "entry_node_id": 0,
+          "name": "buff_499008010_1",
+          "tid_raw": 17333,
+          "dynamic_params_offset": 495,
+          "preload_res_list_offset": 478,
+          "source_info_offset": 615
+        },
+        "entry_event_action_map": {
+          "kind": "typed_pin_map",
+          "literal_offset": 492,
+          "schema_literal_offset": 481,
+          "schema_flag": 0,
+          "schema_fields": [
+            {
+              "name": "none_task_out",
+              "type_code": 11,
+              "string_index": 2
+            }
+          ],
+          "pointer_values": [
+            {
+              "pin_name": "none_task_out",
+              "pointer": {
+                "body_relative": 14,
+                "value_byte_offset": 494,
+                "value_raw_hex": "0e",
+                "target_literal_offset": 488
+              },
+              "leaf": {
+                "literal_offset": 488,
+                "prefix_hex": "2701010c96070e06000b090a",
+                "kind": "typed_array",
+                "element_type_code": 1,
+                "values": [
+                  12
+                ],
+                "source_strings": null,
+                "end_literal_offset": 492,
+                "raw_hex": "2701010c"
+              }
+            }
+          ],
+          "end_literal_offset": 495,
+          "raw_hex": "96070e",
+          "binding_status": "decoded"
+        },
+        "nodes": [
+          {
+            "node_id": 0,
+            "record_offset": 544,
+            "node_type_code": 1,
+            "node_type": "NodeBuffNone",
+            "wrapper_offset": 523,
+            "source_info_offset": 511,
+            "port_map_offsets": {
+              "event_action": 492,
+              "in_data_pin": 495,
+              "out_data_pin": 485
+            }
+          },
+          {
+            "node_id": 12,
+            "record_offset": 600,
+            "node_type_code": 2,
+            "node_type": "NodeChangeAttr",
+            "wrapper_offset": 596,
+            "source_info_offset": 589,
+            "port_map_offsets": {
+              "event_action": 495,
+              "in_data_pin": 495,
+              "out_data_pin": 495
+            }
+          }
+        ],
+        "change_attr_array_offset": 585,
+        "attributes": [
+          {
+            "record_offset": 568,
+            "descriptor_offset": 556,
+            "attribute": "move_speed_add_rate",
+            "attribute_string_index": 27,
+            "attributeChangeSpeed": "corrupted_hp_loss_speed",
+            "extra_value": 0.0,
+            "extra_value_byte_offset": 572,
+            "value_float64": 0.08,
+            "value_byte_offset": 576,
+            "value_raw_hex": "7b14ae47e17ab43f",
+            "value_type_raw": 1,
+            "native_attr_id_if_mapped": "S01"
+          }
+        ],
+        "graph_condition": "Entry NodeBuffNone directly targets NodeChangeAttr; no other condition node exists in this two-node graph."
+      },
+      "interpretation": "Typed attribute target and raw float64 value on an entry-connected graph. NodeChangeAttr application/operator, runtime recipient/stacking, and any external item-use gate are not proven."
+    }
+  ],
+  "limits": [
+    "Values 0.1 and 0.08 are native float64 fields with add_rate attribute names; do not convert them to applied percentages without the missing NodeChangeAttr consumer.",
+    "The item descriptions are exact installed English localization lines, not independent numeric validation.",
+    "The Star Sprinter Drink description mentions RaidZone; this two-node graph has no local zone predicate. External eligibility remains unknown.",
+    "Nominal life_time comes from typed buff_data in seconds; actual duration may differ under refresh and duration modifiers."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

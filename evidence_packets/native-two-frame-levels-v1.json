@@ -1,0 +1,4430 @@
+{
+  "build_id": "26267212",
+  "variants": {
+    "Shock Diffusion <Survival>": {
+      "frame": 19,
+      "family": 10302,
+      "variants": [
+        {
+          "mode": "ordinary",
+          "mod_code": 2400434,
+          "item_id": 19500434,
+          "mod_property_row_offset": 106736,
+          "shiny_buff_id": 0,
+          "shiny_replace_mod_code": 2410174
+        },
+        {
+          "mode": "shiny",
+          "mod_code": 2410174,
+          "item_id": 19505174,
+          "mod_property_row_offset": 121442,
+          "shiny_buff_id": 589633000,
+          "shiny_replace_mod_code": 0
+        }
+      ],
+      "frame_row_offset": 1933,
+      "entry_ids": [
+        5101,
+        7402,
+        7403,
+        7405
+      ],
+      "entry_id_byte_offsets": [
+        1914,
+        1916,
+        1918,
+        1920
+      ]
+    },
+    "Shatter Them All <Shrapnel>": {
+      "frame": 1201,
+      "family": 10101,
+      "variants": [
+        {
+          "mode": "ordinary",
+          "mod_code": 2400304,
+          "item_id": 19500304,
+          "mod_property_row_offset": 71717,
+          "shiny_buff_id": 0,
+          "shiny_replace_mod_code": 2410109
+        },
+        {
+          "mode": "shiny",
+          "mod_code": 2410109,
+          "item_id": 19505109,
+          "mod_property_row_offset": 77111,
+          "shiny_buff_id": 589636000,
+          "shiny_replace_mod_code": 0
+        }
+      ],
+      "frame_row_offset": 1723,
+      "entry_ids": [
+        7311,
+        7313,
+        7314,
+        7405
+      ],
+      "entry_id_byte_offsets": [
+        1699,
+        1701,
+        1703,
+        1705
+      ]
+    }
+  },
+  "level_table_source": {
+    "literal_sha256": "a3ca719e3ec0368638c36cb607e6993cf4a0fd8a5c926b787fd067cf15a60139",
+    "lookup_helper": {
+      "pyc_sha256": "a536179150a009f368711fdf8c7bd4b48c129333b89c1d08dec295d4f5836d32",
+      "get_mod_v2_levels_body_sha256": "7e51156e1c5613e11572c99020c4a78ec11fc826a450272df2c72e764e4cfcb2",
+      "get_mod_fixed_sub_entries_data_lst_v2_body_sha256": "4e57a8055ef7af2eed4f517ddc4b04cad3a0e9bd8c6ef61b12e4b4236612985e"
+    }
+  },
+  "entry_source": {
+    "literal_path": "150451",
+    "literal_sha256": "5305fa5c6a63b8706541c6b86f1e7a171a1be4d2afbda5d45fe7c001988ef30a",
+    "map_header_offset": 150485,
+    "composite_key_count": 1262
+  },
+  "buff_source": {
+    "pyc_path": "/home/dv/Documents/Codex/2026-11-01/task-5/mod_v2_tooltip_captures/buff_level_data.pyc",
+    "pyc_sha256": "fb0d46a975c0c25ef9abeda96d5b625b5de741d92cf8a3e4b49e74740a08f525",
+    "literal_sha256": "5667f98f77fd46bb9b9a68679ea5284d573aedfcf332fd09bde0374c54b02633",
+    "map_header_offset": 986749,
+    "indexed_key_count": 3897
+  },
+  "direct_affix_provenance": {
+    "source_pyc_sha256": "a5732321ba5f84fa62fbfca910be49a93a26723d361a43afa28ea1a906d45d17",
+    "source_literal_sha256": "7ed99f64c6fa46cf91d7080fa66606984c27d98adcaf9daf3d2c1cf9f50717f3",
+    "native_id_map_literal_sha256": "b2119ebce482e99843e5e0e3248daeaddef01d707d462d72c76858e358c87c7e",
+    "rows": {
+      "A0202": {
+        "row_bounds": [
+          44598,
+          44633
+        ],
+        "row_sha256": "7cc8f4aff3819d9146f4105d3930d8617675fd93a54960ed6bc535947e13ead1",
+        "native_attr_id": "A02",
+        "native_property": "max_hp",
+        "effect_range": 1,
+        "type": 2
+      },
+      "J1200": {
+        "row_bounds": [
+          47452,
+          47488
+        ],
+        "row_sha256": "6298db5ba9f93c8eab582bccb374e79a5119bad75012834372d57e9ee579e2ea",
+        "native_attr_id": "J12",
+        "native_property": "keyword_proc_dam_add_rate_shrap",
+        "effect_range": 1,
+        "type": 1
+      },
+      "J6100": {
+        "row_bounds": [
+          47668,
+          47704
+        ],
+        "row_sha256": "09bf471d1c81852cb703ed7decd1f75fa370132e1db041bfe70624ceb238a417",
+        "native_attr_id": "J61",
+        "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+        "effect_range": 1,
+        "type": 1
+      },
+      "J8100": {
+        "row_bounds": [
+          55083,
+          55119
+        ],
+        "row_sha256": "dd746a8a1e663a8022250d57b719d578713583cc95632b80f6c8d89530670774",
+        "native_attr_id": "J81",
+        "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+        "effect_range": 1,
+        "type": 1
+      }
+    }
+  },
+  "buff_graph_name_provenance": {
+    "589721000": {
+      "pyc_sha256": "94951c6b50299d71f62454801921e2f7707c9d662774fddf199855bed909aeee",
+      "literal_sha256": "1b10af557742bb2b550727eaf0412797835d2768d0dc054289a54431cc4919f4",
+      "selected_native_strings": [
+        {
+          "text": "NodeBeHitEvent",
+          "string_index": 84,
+          "literal_byte_offset": 1424
+        },
+        {
+          "text": "NodeCastBuffToTarget",
+          "string_index": 85,
+          "literal_byte_offset": 1438
+        }
+      ],
+      "interpretation_limit": "Names alone do not establish execution, duration, or applied coefficient."
+    },
+    "589722000": {
+      "pyc_sha256": "0f1eebedf1ff6461647b50d0965ddf2d3ad8de4fa7b15e7ec159bba8b68c3502",
+      "literal_sha256": "17407f6ccbac375dc68be46ecf9e161df1b999d06b36347f1d2391736604669f",
+      "selected_native_strings": [
+        {
+          "text": "species_dam_ignore_rate_vulcher",
+          "string_index": 27,
+          "literal_byte_offset": 414
+        },
+        {
+          "text": "species_dam_ignore_rate_alters",
+          "string_index": 28,
+          "literal_byte_offset": 445
+        },
+        {
+          "text": "species_dam_ignore_rate_rosetta",
+          "string_index": 29,
+          "literal_byte_offset": 475
+        }
+      ],
+      "interpretation_limit": "Names alone do not establish execution, duration, or applied coefficient."
+    },
+    "589719000": {
+      "pyc_sha256": "9d0f3f9f520ef2fe62c06e7615f97214722d4f415177d4ccaf532820b0ef275a",
+      "literal_sha256": "8dc34be842cd004c7fe656aacac16461230f9fb552197409dbfeff8b7fb049e0",
+      "selected_native_strings": [
+        {
+          "text": "unit_prototype_dam_add_rate_creeps",
+          "string_index": 24,
+          "literal_byte_offset": 396
+        },
+        {
+          "text": "unit_prototype_dam_add_rate_elite",
+          "string_index": 27,
+          "literal_byte_offset": 443
+        },
+        {
+          "text": "unit_prototype_dam_add_rate_leader",
+          "string_index": 28,
+          "literal_byte_offset": 476
+        },
+        {
+          "text": "unit_prototype_dam_add_rate_boss",
+          "string_index": 29,
+          "literal_byte_offset": 510
+        }
+      ],
+      "interpretation_limit": "Names alone do not establish execution, duration, or applied coefficient."
+    },
+    "589721100": {
+      "pyc_sha256": "bb888e7587d6878fb64489c58a88ce1541d0d16db6d9077ce5ce80d7560551f5",
+      "literal_sha256": "b66c34a0c8d2b227fb4db7a87be43c594825e4b0186fcb5ac37facaa33fb3014",
+      "selected_native_strings": [
+        {
+          "text": "attack_type_ignore_dam_rate_remote",
+          "string_index": 70,
+          "literal_byte_offset": 1126
+        },
+        {
+          "text": "attack_type_ignore_dam_rate_dot",
+          "string_index": 57,
+          "literal_byte_offset": 892
+        }
+      ],
+      "interpretation_limit": "Names alone do not establish execution, duration, or applied coefficient."
+    }
+  },
+  "typed_buff_graph_attributes": {
+    "589721100": {
+      "pyc_sha256": "bb888e7587d6878fb64489c58a88ce1541d0d16db6d9077ce5ce80d7560551f5",
+      "literal_sha256": "b66c34a0c8d2b227fb4db7a87be43c594825e4b0186fcb5ac37facaa33fb3014",
+      "node_map_literal_offset": 1846,
+      "typed_attributes": [
+        {
+          "node_id": 5,
+          "native_attr_id": "G53",
+          "native_property": "attack_type_ignore_dam_rate_dot",
+          "params_literal_offset": 1720
+        },
+        {
+          "node_id": 5,
+          "native_attr_id": "G52",
+          "native_property": "attack_type_ignore_dam_rate_remote",
+          "params_literal_offset": 1738
+        }
+      ]
+    },
+    "589722000": {
+      "pyc_sha256": "0f1eebedf1ff6461647b50d0965ddf2d3ad8de4fa7b15e7ec159bba8b68c3502",
+      "literal_sha256": "17407f6ccbac375dc68be46ecf9e161df1b999d06b36347f1d2391736604669f",
+      "node_map_literal_offset": 786,
+      "typed_attributes": [
+        {
+          "node_id": 1,
+          "native_attr_id": "G64",
+          "native_property": "species_dam_ignore_rate_vulcher",
+          "params_literal_offset": 673
+        },
+        {
+          "node_id": 2,
+          "native_attr_id": "G62",
+          "native_property": "species_dam_ignore_rate_alters",
+          "params_literal_offset": 703
+        },
+        {
+          "node_id": 3,
+          "native_attr_id": "G63",
+          "native_property": "species_dam_ignore_rate_rosetta",
+          "params_literal_offset": 726
+        }
+      ]
+    },
+    "589719000": {
+      "pyc_sha256": "9d0f3f9f520ef2fe62c06e7615f97214722d4f415177d4ccaf532820b0ef275a",
+      "literal_sha256": "8dc34be842cd004c7fe656aacac16461230f9fb552197409dbfeff8b7fb049e0",
+      "node_map_literal_offset": 869,
+      "typed_attributes": [
+        {
+          "node_id": 1,
+          "native_attr_id": "E101",
+          "native_property": "unit_prototype_dam_add_rate_creeps",
+          "params_literal_offset": 720
+        },
+        {
+          "node_id": 2,
+          "native_attr_id": "E99",
+          "native_property": "unit_prototype_dam_add_rate_elite",
+          "params_literal_offset": 755
+        },
+        {
+          "node_id": 3,
+          "native_attr_id": "E102",
+          "native_property": "unit_prototype_dam_add_rate_leader",
+          "params_literal_offset": 779
+        },
+        {
+          "node_id": 4,
+          "native_attr_id": "E100",
+          "native_property": "unit_prototype_dam_add_rate_boss",
+          "params_literal_offset": 803
+        }
+      ]
+    }
+  },
+  "selected_entry_rows": {
+    "7402:4": {
+      "entry_no": 7402,
+      "entry_level": 4,
+      "composite_key_literal_offset": 93516,
+      "entry_row_literal_offset": 93535,
+      "buff_id": 589721000,
+      "kind": "buff"
+    },
+    "7402:5": {
+      "entry_no": 7402,
+      "entry_level": 5,
+      "composite_key_literal_offset": 93892,
+      "entry_row_literal_offset": 93911,
+      "buff_id": 589721000,
+      "kind": "buff"
+    },
+    "7402:3": {
+      "entry_no": 7402,
+      "entry_level": 3,
+      "composite_key_literal_offset": 94269,
+      "entry_row_literal_offset": 94288,
+      "buff_id": 589721000,
+      "kind": "buff"
+    },
+    "7313:6": {
+      "entry_no": 7313,
+      "entry_level": 6,
+      "composite_key_literal_offset": 102706,
+      "entry_row_literal_offset": 102759,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|5",
+      "affix_id": "J6100",
+      "native_attr_id": "J61",
+      "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+      "affix_array_literal_offset": 102725,
+      "affix_value_literal_offset": 102735,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.3,
+      "display_percent": "30",
+      "description_value_literal_offset": 102730
+    },
+    "7313:5": {
+      "entry_no": 7313,
+      "entry_level": 5,
+      "composite_key_literal_offset": 103126,
+      "entry_row_literal_offset": 103158,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|4",
+      "affix_id": "J6100",
+      "native_attr_id": "J61",
+      "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+      "affix_array_literal_offset": 102725,
+      "affix_value_literal_offset": 100311,
+      "affix_value_type_code": 18,
+      "configured_fraction": 0.25,
+      "display_percent": "25",
+      "description_value_literal_offset": 100306
+    },
+    "7405:6": {
+      "entry_no": 7405,
+      "entry_level": 6,
+      "composite_key_literal_offset": 108108,
+      "entry_row_literal_offset": 108128,
+      "buff_id": 589719000,
+      "kind": "buff"
+    },
+    "7405:3": {
+      "entry_no": 7405,
+      "entry_level": 3,
+      "composite_key_literal_offset": 108382,
+      "entry_row_literal_offset": 108402,
+      "buff_id": 589719000,
+      "kind": "buff"
+    },
+    "5101:4": {
+      "entry_no": 5101,
+      "entry_level": 4,
+      "composite_key_literal_offset": 110912,
+      "entry_row_literal_offset": 110946,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|3",
+      "affix_id": "A0202",
+      "native_attr_id": "A02",
+      "native_property": "max_hp",
+      "affix_array_literal_offset": 102106,
+      "affix_value_literal_offset": 87735,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.048,
+      "display_percent": "4.8",
+      "description_value_literal_offset": 87731
+    },
+    "5101:3": {
+      "entry_no": 5101,
+      "entry_level": 3,
+      "composite_key_literal_offset": 111009,
+      "entry_row_literal_offset": 111043,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|2",
+      "affix_id": "A0202",
+      "native_attr_id": "A02",
+      "native_property": "max_hp",
+      "affix_array_literal_offset": 102106,
+      "affix_value_literal_offset": 87663,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.036,
+      "display_percent": "3.6",
+      "description_value_literal_offset": 87659
+    },
+    "7402:6": {
+      "entry_no": 7402,
+      "entry_level": 6,
+      "composite_key_literal_offset": 116126,
+      "entry_row_literal_offset": 116146,
+      "buff_id": 589721000,
+      "kind": "buff"
+    },
+    "7403:2": {
+      "entry_no": 7403,
+      "entry_level": 2,
+      "composite_key_literal_offset": 119449,
+      "entry_row_literal_offset": 119469,
+      "buff_id": 589722000,
+      "kind": "buff"
+    },
+    "7403:1": {
+      "entry_no": 7403,
+      "entry_level": 1,
+      "composite_key_literal_offset": 119563,
+      "entry_row_literal_offset": 119583,
+      "buff_id": 589722000,
+      "kind": "buff"
+    },
+    "7402:2": {
+      "entry_no": 7402,
+      "entry_level": 2,
+      "composite_key_literal_offset": 121732,
+      "entry_row_literal_offset": 121752,
+      "buff_id": 589721000,
+      "kind": "buff"
+    },
+    "7314:6": {
+      "entry_no": 7314,
+      "entry_level": 6,
+      "composite_key_literal_offset": 122644,
+      "entry_row_literal_offset": 122683,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|5",
+      "affix_id": "J8100",
+      "native_attr_id": "J81",
+      "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+      "affix_array_literal_offset": 122664,
+      "affix_value_literal_offset": 88996,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.18,
+      "display_percent": "18",
+      "description_value_literal_offset": 88992
+    },
+    "7314:4": {
+      "entry_no": 7314,
+      "entry_level": 4,
+      "composite_key_literal_offset": 122786,
+      "entry_row_literal_offset": 122820,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+      "affix_id": "J8100",
+      "native_attr_id": "J81",
+      "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+      "affix_array_literal_offset": 122664,
+      "affix_value_literal_offset": 88770,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.12,
+      "display_percent": "12",
+      "description_value_literal_offset": 88766
+    },
+    "7313:4": {
+      "entry_no": 7313,
+      "entry_level": 4,
+      "composite_key_literal_offset": 124687,
+      "entry_row_literal_offset": 124721,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+      "affix_id": "J6100",
+      "native_attr_id": "J61",
+      "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+      "affix_array_literal_offset": 102725,
+      "affix_value_literal_offset": 123864,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.2,
+      "display_percent": "20",
+      "description_value_literal_offset": 123860
+    },
+    "5101:1": {
+      "entry_no": 5101,
+      "entry_level": 1,
+      "composite_key_literal_offset": 128009,
+      "entry_row_literal_offset": 128043,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|0",
+      "affix_id": "A0202",
+      "native_attr_id": "A02",
+      "native_property": "max_hp",
+      "affix_array_literal_offset": 102106,
+      "affix_value_literal_offset": 86980,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.012,
+      "display_percent": "1.2",
+      "description_value_literal_offset": 86976
+    },
+    "5101:2": {
+      "entry_no": 5101,
+      "entry_level": 2,
+      "composite_key_literal_offset": 128065,
+      "entry_row_literal_offset": 128099,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|1",
+      "affix_id": "A0202",
+      "native_attr_id": "A02",
+      "native_property": "max_hp",
+      "affix_array_literal_offset": 102106,
+      "affix_value_literal_offset": 87165,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.024,
+      "display_percent": "2.4",
+      "description_value_literal_offset": 87161
+    },
+    "5101:5": {
+      "entry_no": 5101,
+      "entry_level": 5,
+      "composite_key_literal_offset": 128122,
+      "entry_row_literal_offset": 128156,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|4",
+      "affix_id": "A0202",
+      "native_attr_id": "A02",
+      "native_property": "max_hp",
+      "affix_array_literal_offset": 102106,
+      "affix_value_literal_offset": 87460,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.06,
+      "display_percent": "6",
+      "description_value_literal_offset": 87456
+    },
+    "5101:6": {
+      "entry_no": 5101,
+      "entry_level": 6,
+      "composite_key_literal_offset": 128178,
+      "entry_row_literal_offset": 128212,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|5",
+      "affix_id": "A0202",
+      "native_attr_id": "A02",
+      "native_property": "max_hp",
+      "affix_array_literal_offset": 102106,
+      "affix_value_literal_offset": 87055,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.072,
+      "display_percent": "7.2",
+      "description_value_literal_offset": 87051
+    },
+    "7311:2": {
+      "entry_no": 7311,
+      "entry_level": 2,
+      "composite_key_literal_offset": 129829,
+      "entry_row_literal_offset": 129863,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+      "affix_id": "J1200",
+      "native_attr_id": "J12",
+      "native_property": "keyword_proc_dam_add_rate_shrap",
+      "affix_array_literal_offset": 103037,
+      "affix_value_literal_offset": 87165,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.024,
+      "display_percent": "2.4",
+      "description_value_literal_offset": 87161
+    },
+    "7311:1": {
+      "entry_no": 7311,
+      "entry_level": 1,
+      "composite_key_literal_offset": 129982,
+      "entry_row_literal_offset": 130016,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+      "affix_id": "J1200",
+      "native_attr_id": "J12",
+      "native_property": "keyword_proc_dam_add_rate_shrap",
+      "affix_array_literal_offset": 103037,
+      "affix_value_literal_offset": 86980,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.012,
+      "display_percent": "1.2",
+      "description_value_literal_offset": 86976
+    },
+    "7403:4": {
+      "entry_no": 7403,
+      "entry_level": 4,
+      "composite_key_literal_offset": 131892,
+      "entry_row_literal_offset": 131912,
+      "buff_id": 589722000,
+      "kind": "buff"
+    },
+    "7311:3": {
+      "entry_no": 7311,
+      "entry_level": 3,
+      "composite_key_literal_offset": 136028,
+      "entry_row_literal_offset": 136062,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+      "affix_id": "J1200",
+      "native_attr_id": "J12",
+      "native_property": "keyword_proc_dam_add_rate_shrap",
+      "affix_array_literal_offset": 103037,
+      "affix_value_literal_offset": 87663,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.036,
+      "display_percent": "3.6",
+      "description_value_literal_offset": 87659
+    },
+    "7311:4": {
+      "entry_no": 7311,
+      "entry_level": 4,
+      "composite_key_literal_offset": 136085,
+      "entry_row_literal_offset": 136119,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+      "affix_id": "J1200",
+      "native_attr_id": "J12",
+      "native_property": "keyword_proc_dam_add_rate_shrap",
+      "affix_array_literal_offset": 103037,
+      "affix_value_literal_offset": 87735,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.048,
+      "display_percent": "4.8",
+      "description_value_literal_offset": 87731
+    },
+    "7311:5": {
+      "entry_no": 7311,
+      "entry_level": 5,
+      "composite_key_literal_offset": 136142,
+      "entry_row_literal_offset": 136176,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|4",
+      "affix_id": "J1200",
+      "native_attr_id": "J12",
+      "native_property": "keyword_proc_dam_add_rate_shrap",
+      "affix_array_literal_offset": 103037,
+      "affix_value_literal_offset": 87460,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.06,
+      "display_percent": "6",
+      "description_value_literal_offset": 87456
+    },
+    "7311:6": {
+      "entry_no": 7311,
+      "entry_level": 6,
+      "composite_key_literal_offset": 136198,
+      "entry_row_literal_offset": 136232,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|5",
+      "affix_id": "J1200",
+      "native_attr_id": "J12",
+      "native_property": "keyword_proc_dam_add_rate_shrap",
+      "affix_array_literal_offset": 103037,
+      "affix_value_literal_offset": 87055,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.072,
+      "display_percent": "7.2",
+      "description_value_literal_offset": 87051
+    },
+    "7313:1": {
+      "entry_no": 7313,
+      "entry_level": 1,
+      "composite_key_literal_offset": 136406,
+      "entry_row_literal_offset": 136440,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+      "affix_id": "J6100",
+      "native_attr_id": "J61",
+      "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+      "affix_array_literal_offset": 102725,
+      "affix_value_literal_offset": 91389,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.05,
+      "display_percent": "5",
+      "description_value_literal_offset": 91384
+    },
+    "7313:2": {
+      "entry_no": 7313,
+      "entry_level": 2,
+      "composite_key_literal_offset": 136514,
+      "entry_row_literal_offset": 136548,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+      "affix_id": "J6100",
+      "native_attr_id": "J61",
+      "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+      "affix_array_literal_offset": 102725,
+      "affix_value_literal_offset": 99389,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.1,
+      "display_percent": "10",
+      "description_value_literal_offset": 99385
+    },
+    "7313:3": {
+      "entry_no": 7313,
+      "entry_level": 3,
+      "composite_key_literal_offset": 136569,
+      "entry_row_literal_offset": 136603,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+      "affix_id": "J6100",
+      "native_attr_id": "J61",
+      "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+      "affix_array_literal_offset": 102725,
+      "affix_value_literal_offset": 87347,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.15,
+      "display_percent": "15",
+      "description_value_literal_offset": 87343
+    },
+    "7314:1": {
+      "entry_no": 7314,
+      "entry_level": 1,
+      "composite_key_literal_offset": 136624,
+      "entry_row_literal_offset": 136658,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+      "affix_id": "J8100",
+      "native_attr_id": "J81",
+      "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+      "affix_array_literal_offset": 122664,
+      "affix_value_literal_offset": 88472,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.03,
+      "display_percent": "3",
+      "description_value_literal_offset": 88468
+    },
+    "7314:2": {
+      "entry_no": 7314,
+      "entry_level": 2,
+      "composite_key_literal_offset": 136791,
+      "entry_row_literal_offset": 136825,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+      "affix_id": "J8100",
+      "native_attr_id": "J81",
+      "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+      "affix_array_literal_offset": 122664,
+      "affix_value_literal_offset": 87460,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.06,
+      "display_percent": "6",
+      "description_value_literal_offset": 87456
+    },
+    "7314:3": {
+      "entry_no": 7314,
+      "entry_level": 3,
+      "composite_key_literal_offset": 136847,
+      "entry_row_literal_offset": 136881,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+      "affix_id": "J8100",
+      "native_attr_id": "J81",
+      "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+      "affix_array_literal_offset": 122664,
+      "affix_value_literal_offset": 88649,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.09,
+      "display_percent": "9",
+      "description_value_literal_offset": 88645
+    },
+    "7314:5": {
+      "entry_no": 7314,
+      "entry_level": 5,
+      "composite_key_literal_offset": 137017,
+      "entry_row_literal_offset": 137051,
+      "buff_id": 0,
+      "kind": "direct_affix",
+      "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|4",
+      "affix_id": "J8100",
+      "native_attr_id": "J81",
+      "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+      "affix_array_literal_offset": 122664,
+      "affix_value_literal_offset": 87347,
+      "affix_value_type_code": 34,
+      "configured_fraction": 0.15,
+      "display_percent": "15",
+      "description_value_literal_offset": 87343
+    },
+    "7405:5": {
+      "entry_no": 7405,
+      "entry_level": 5,
+      "composite_key_literal_offset": 139274,
+      "entry_row_literal_offset": 139294,
+      "buff_id": 589719000,
+      "kind": "buff"
+    },
+    "7405:1": {
+      "entry_no": 7405,
+      "entry_level": 1,
+      "composite_key_literal_offset": 139479,
+      "entry_row_literal_offset": 139499,
+      "buff_id": 589719000,
+      "kind": "buff"
+    },
+    "7402:1": {
+      "entry_no": 7402,
+      "entry_level": 1,
+      "composite_key_literal_offset": 141433,
+      "entry_row_literal_offset": 141453,
+      "buff_id": 589721000,
+      "kind": "buff"
+    },
+    "7403:3": {
+      "entry_no": 7403,
+      "entry_level": 3,
+      "composite_key_literal_offset": 143013,
+      "entry_row_literal_offset": 143033,
+      "buff_id": 589722000,
+      "kind": "buff"
+    },
+    "7403:5": {
+      "entry_no": 7403,
+      "entry_level": 5,
+      "composite_key_literal_offset": 143053,
+      "entry_row_literal_offset": 143073,
+      "buff_id": 589722000,
+      "kind": "buff"
+    },
+    "7403:6": {
+      "entry_no": 7403,
+      "entry_level": 6,
+      "composite_key_literal_offset": 143092,
+      "entry_row_literal_offset": 143112,
+      "buff_id": 589722000,
+      "kind": "buff"
+    },
+    "7405:2": {
+      "entry_no": 7405,
+      "entry_level": 2,
+      "composite_key_literal_offset": 143171,
+      "entry_row_literal_offset": 143191,
+      "buff_id": 589719000,
+      "kind": "buff"
+    },
+    "7405:4": {
+      "entry_no": 7405,
+      "entry_level": 4,
+      "composite_key_literal_offset": 143211,
+      "entry_row_literal_offset": 143231,
+      "buff_id": 589719000,
+      "kind": "buff"
+    }
+  },
+  "selected_buff_rows": {
+    "589721000:5": {
+      "buff_id": 589721000,
+      "entry_level": 5,
+      "key_literal_offset": 617281,
+      "row_literal_offset": 617352,
+      "presence_mask_hex": "0x152",
+      "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|4",
+      "display_values": [
+        "8",
+        "3",
+        "6"
+      ],
+      "display_values_literal_offset": 617332,
+      "configured_params": null,
+      "params_literal_offset": null
+    },
+    "589721000:2": {
+      "buff_id": 589721000,
+      "entry_level": 2,
+      "key_literal_offset": 624245,
+      "row_literal_offset": 624316,
+      "presence_mask_hex": "0x152",
+      "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|1",
+      "display_values": [
+        "3.2",
+        "3",
+        "6"
+      ],
+      "display_values_literal_offset": 624296,
+      "configured_params": null,
+      "params_literal_offset": null
+    },
+    "589721000:3": {
+      "buff_id": 589721000,
+      "entry_level": 3,
+      "key_literal_offset": 684039,
+      "row_literal_offset": 684104,
+      "presence_mask_hex": "0x152",
+      "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|2",
+      "display_values": [
+        "4.8",
+        "3",
+        "6"
+      ],
+      "display_values_literal_offset": 601495,
+      "configured_params": null,
+      "params_literal_offset": null
+    },
+    "589719000:1": {
+      "buff_id": 589719000,
+      "entry_level": 1,
+      "key_literal_offset": 781425,
+      "row_literal_offset": 781490,
+      "presence_mask_hex": "0x2152",
+      "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+      "display_values": [
+        "1.5"
+      ],
+      "display_values_literal_offset": 653992,
+      "configured_params": {
+        "1": "0.015"
+      },
+      "params_literal_offset": 654024
+    },
+    "589719000:2": {
+      "buff_id": 589719000,
+      "entry_level": 2,
+      "key_literal_offset": 886670,
+      "row_literal_offset": 886735,
+      "presence_mask_hex": "0x2152",
+      "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+      "display_values": [
+        "3"
+      ],
+      "display_values_literal_offset": 610568,
+      "configured_params": {
+        "1": "0.03"
+      },
+      "params_literal_offset": 607495
+    },
+    "589722000:2": {
+      "buff_id": 589722000,
+      "entry_level": 2,
+      "key_literal_offset": 908541,
+      "row_literal_offset": 908606,
+      "presence_mask_hex": "0x2152",
+      "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|1",
+      "display_values": [
+        "3.2"
+      ],
+      "display_values_literal_offset": 606822,
+      "configured_params": {
+        "1": "0.032"
+      },
+      "params_literal_offset": 599217
+    },
+    "589722000:1": {
+      "buff_id": 589722000,
+      "entry_level": 1,
+      "key_literal_offset": 908766,
+      "row_literal_offset": 908831,
+      "presence_mask_hex": "0x2152",
+      "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|0",
+      "display_values": [
+        "1.6"
+      ],
+      "display_values_literal_offset": 676489,
+      "configured_params": {
+        "1": "0.016"
+      },
+      "params_literal_offset": 676521
+    },
+    "589719000:5": {
+      "buff_id": 589719000,
+      "entry_level": 5,
+      "key_literal_offset": 960839,
+      "row_literal_offset": 960909,
+      "presence_mask_hex": "0x2152",
+      "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|4",
+      "display_values": [
+        "7.5"
+      ],
+      "display_values_literal_offset": 960876,
+      "configured_params": {
+        "1": "0.075"
+      },
+      "params_literal_offset": 674718
+    },
+    "589719000:3": {
+      "buff_id": 589719000,
+      "entry_level": 3,
+      "key_literal_offset": 961285,
+      "row_literal_offset": 961350,
+      "presence_mask_hex": "0x2152",
+      "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|2",
+      "display_values": [
+        "4.5"
+      ],
+      "display_values_literal_offset": 604850,
+      "configured_params": {
+        "1": "0.045"
+      },
+      "params_literal_offset": 604881
+    },
+    "589719000:4": {
+      "buff_id": 589719000,
+      "entry_level": 4,
+      "key_literal_offset": 972970,
+      "row_literal_offset": 973035,
+      "presence_mask_hex": "0x2152",
+      "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|3",
+      "display_values": [
+        "6"
+      ],
+      "display_values_literal_offset": 599619,
+      "configured_params": {
+        "1": "0.06"
+      },
+      "params_literal_offset": 599649
+    },
+    "589721000:1": {
+      "buff_id": 589721000,
+      "entry_level": 1,
+      "key_literal_offset": 973079,
+      "row_literal_offset": 973144,
+      "presence_mask_hex": "0x152",
+      "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|0",
+      "display_values": [
+        "1.6",
+        "3",
+        "6"
+      ],
+      "display_values_literal_offset": 725968,
+      "configured_params": null,
+      "params_literal_offset": null
+    },
+    "589721000:4": {
+      "buff_id": 589721000,
+      "entry_level": 4,
+      "key_literal_offset": 973296,
+      "row_literal_offset": 973361,
+      "presence_mask_hex": "0x152",
+      "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|3",
+      "display_values": [
+        "6.4",
+        "3",
+        "6"
+      ],
+      "display_values_literal_offset": 913022,
+      "configured_params": null,
+      "params_literal_offset": null
+    },
+    "589722000:3": {
+      "buff_id": 589722000,
+      "entry_level": 3,
+      "key_literal_offset": 973873,
+      "row_literal_offset": 973938,
+      "presence_mask_hex": "0x2152",
+      "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|2",
+      "display_values": [
+        "4.8"
+      ],
+      "display_values_literal_offset": 615663,
+      "configured_params": {
+        "1": "0.048"
+      },
+      "params_literal_offset": 615695
+    },
+    "589722000:4": {
+      "buff_id": 589722000,
+      "entry_level": 4,
+      "key_literal_offset": 973984,
+      "row_literal_offset": 974049,
+      "presence_mask_hex": "0x2152",
+      "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|3",
+      "display_values": [
+        "6.4"
+      ],
+      "display_values_literal_offset": 751750,
+      "configured_params": {
+        "1": "0.064"
+      },
+      "params_literal_offset": 751783
+    },
+    "589722000:5": {
+      "buff_id": 589722000,
+      "entry_level": 5,
+      "key_literal_offset": 974095,
+      "row_literal_offset": 974160,
+      "presence_mask_hex": "0x2152",
+      "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|4",
+      "display_values": [
+        "8"
+      ],
+      "display_values_literal_offset": 628857,
+      "configured_params": {
+        "1": "0.08"
+      },
+      "params_literal_offset": 628889
+    }
+  },
+  "catalog_previews": {
+    "Shock Diffusion <Survival>": [
+      {
+        "total_level": 1,
+        "frame_entry_levels": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 128043,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "1.2",
+            "affix_value_literal_offset": 86980
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "locked",
+            "entry_level": 0
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "locked",
+            "entry_level": 0
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "locked",
+            "entry_level": 0
+          }
+        ]
+      },
+      {
+        "total_level": 2,
+        "frame_entry_levels": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 128043,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "1.2",
+            "affix_value_literal_offset": 86980
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 141453,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.6",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 973144,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "locked",
+            "entry_level": 0
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "locked",
+            "entry_level": 0
+          }
+        ]
+      },
+      {
+        "total_level": 3,
+        "frame_entry_levels": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 128043,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "1.2",
+            "affix_value_literal_offset": 86980
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 141453,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.6",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 973144,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 119583,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.6"
+            ],
+            "buff_row_literal_offset": 908831,
+            "configured_params": {
+              "1": "0.016"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "locked",
+            "entry_level": 0
+          }
+        ]
+      },
+      {
+        "total_level": 4,
+        "frame_entry_levels": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 128043,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "1.2",
+            "affix_value_literal_offset": 86980
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 141453,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.6",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 973144,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 119583,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.6"
+            ],
+            "buff_row_literal_offset": 908831,
+            "configured_params": {
+              "1": "0.016"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 139499,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.5"
+            ],
+            "buff_row_literal_offset": 781490,
+            "configured_params": {
+              "1": "0.015"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 5,
+        "frame_entry_levels": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 128099,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "2.4",
+            "affix_value_literal_offset": 87165
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 141453,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.6",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 973144,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 119583,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.6"
+            ],
+            "buff_row_literal_offset": 908831,
+            "configured_params": {
+              "1": "0.016"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 139499,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.5"
+            ],
+            "buff_row_literal_offset": 781490,
+            "configured_params": {
+              "1": "0.015"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 6,
+        "frame_entry_levels": [
+          2,
+          2,
+          1,
+          1
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 128099,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "2.4",
+            "affix_value_literal_offset": 87165
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 121752,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3.2",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 624316,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 119583,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.6"
+            ],
+            "buff_row_literal_offset": 908831,
+            "configured_params": {
+              "1": "0.016"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 139499,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.5"
+            ],
+            "buff_row_literal_offset": 781490,
+            "configured_params": {
+              "1": "0.015"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 7,
+        "frame_entry_levels": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 128099,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "2.4",
+            "affix_value_literal_offset": 87165
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 121752,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3.2",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 624316,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 119469,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3.2"
+            ],
+            "buff_row_literal_offset": 908606,
+            "configured_params": {
+              "1": "0.032"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 139499,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.5"
+            ],
+            "buff_row_literal_offset": 781490,
+            "configured_params": {
+              "1": "0.015"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 8,
+        "frame_entry_levels": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 128099,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "2.4",
+            "affix_value_literal_offset": 87165
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 121752,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3.2",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 624316,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 119469,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3.2"
+            ],
+            "buff_row_literal_offset": 908606,
+            "configured_params": {
+              "1": "0.032"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 9,
+        "frame_entry_levels": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 111043,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "3.6",
+            "affix_value_literal_offset": 87663
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 121752,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3.2",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 624316,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 119469,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3.2"
+            ],
+            "buff_row_literal_offset": 908606,
+            "configured_params": {
+              "1": "0.032"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 10,
+        "frame_entry_levels": [
+          3,
+          3,
+          2,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 111043,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "3.6",
+            "affix_value_literal_offset": 87663
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 94288,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|2",
+            "display_values": [
+              "4.8",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 684104,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 119469,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3.2"
+            ],
+            "buff_row_literal_offset": 908606,
+            "configured_params": {
+              "1": "0.032"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 11,
+        "frame_entry_levels": [
+          3,
+          3,
+          3,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 111043,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "3.6",
+            "affix_value_literal_offset": 87663
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 94288,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|2",
+            "display_values": [
+              "4.8",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 684104,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 143033,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|2",
+            "display_values": [
+              "4.8"
+            ],
+            "buff_row_literal_offset": 973938,
+            "configured_params": {
+              "1": "0.048"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 12,
+        "frame_entry_levels": [
+          4,
+          3,
+          3,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 110946,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "4.8",
+            "affix_value_literal_offset": 87735
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 94288,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|2",
+            "display_values": [
+              "4.8",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 684104,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 143033,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|2",
+            "display_values": [
+              "4.8"
+            ],
+            "buff_row_literal_offset": 973938,
+            "configured_params": {
+              "1": "0.048"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 13,
+        "frame_entry_levels": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 110946,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "4.8",
+            "affix_value_literal_offset": 87735
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 93535,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|3",
+            "display_values": [
+              "6.4",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 973361,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 143033,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|2",
+            "display_values": [
+              "4.8"
+            ],
+            "buff_row_literal_offset": 973938,
+            "configured_params": {
+              "1": "0.048"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 14,
+        "frame_entry_levels": [
+          4,
+          4,
+          4,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 110946,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "4.8",
+            "affix_value_literal_offset": 87735
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 93535,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|3",
+            "display_values": [
+              "6.4",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 973361,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 131912,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|3",
+            "display_values": [
+              "6.4"
+            ],
+            "buff_row_literal_offset": 974049,
+            "configured_params": {
+              "1": "0.064"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 15,
+        "frame_entry_levels": [
+          5,
+          4,
+          4,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 128156,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|4",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 93535,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|3",
+            "display_values": [
+              "6.4",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 973361,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 131912,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|3",
+            "display_values": [
+              "6.4"
+            ],
+            "buff_row_literal_offset": 974049,
+            "configured_params": {
+              "1": "0.064"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 16,
+        "frame_entry_levels": [
+          5,
+          5,
+          4,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 128156,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|4",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 93911,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|4",
+            "display_values": [
+              "8",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 617352,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 131912,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|3",
+            "display_values": [
+              "6.4"
+            ],
+            "buff_row_literal_offset": 974049,
+            "configured_params": {
+              "1": "0.064"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 17,
+        "frame_entry_levels": [
+          5,
+          5,
+          5,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 5101,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 128156,
+            "kind": "direct_affix",
+            "affix_id": "A0202",
+            "native_attr_id": "A02",
+            "native_property": "max_hp",
+            "native_description": "最大生命值#7#+{1}%#7#_$S@TIDS$_cih|4",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 2,
+            "entry_no": 7402,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 93911,
+            "kind": "buff",
+            "buff_id": 589721000,
+            "native_description": "受伤后获得伤害减免#7#{1}%#7#，持续#7#{2}#7#秒，冷却#7#{3}#7#秒_$S@TIDS$_c3c|4",
+            "display_values": [
+              "8",
+              "3",
+              "6"
+            ],
+            "buff_row_literal_offset": 617352,
+            "configured_params": null,
+            "native_attributes": [
+              {
+                "attr_id": "G52",
+                "property": "attack_type_ignore_dam_rate_remote"
+              },
+              {
+                "attr_id": "G53",
+                "property": "attack_type_ignore_dam_rate_dot"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 3,
+            "entry_no": 7403,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 143073,
+            "kind": "buff",
+            "buff_id": 589722000,
+            "native_description": "受到怪物伤害降低#7#+{1}%#7#_$S@TIDS$_c3c|4",
+            "display_values": [
+              "8"
+            ],
+            "buff_row_literal_offset": 974160,
+            "configured_params": {
+              "1": "0.08"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "G64",
+                "property": "species_dam_ignore_rate_vulcher"
+              },
+              {
+                "attr_id": "G62",
+                "property": "species_dam_ignore_rate_alters"
+              },
+              {
+                "attr_id": "G63",
+                "property": "species_dam_ignore_rate_rosetta"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      }
+    ],
+    "Shatter Them All <Shrapnel>": [
+      {
+        "total_level": 1,
+        "frame_entry_levels": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 130016,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "1.2",
+            "affix_value_literal_offset": 86980
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "locked",
+            "entry_level": 0
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "locked",
+            "entry_level": 0
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "locked",
+            "entry_level": 0
+          }
+        ]
+      },
+      {
+        "total_level": 2,
+        "frame_entry_levels": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 130016,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "1.2",
+            "affix_value_literal_offset": 86980
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 136440,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "5",
+            "affix_value_literal_offset": 91389
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "locked",
+            "entry_level": 0
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "locked",
+            "entry_level": 0
+          }
+        ]
+      },
+      {
+        "total_level": 3,
+        "frame_entry_levels": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 130016,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "1.2",
+            "affix_value_literal_offset": 86980
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 136440,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "5",
+            "affix_value_literal_offset": 91389
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 136658,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "3",
+            "affix_value_literal_offset": 88472
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "locked",
+            "entry_level": 0
+          }
+        ]
+      },
+      {
+        "total_level": 4,
+        "frame_entry_levels": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 130016,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "1.2",
+            "affix_value_literal_offset": 86980
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 136440,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "5",
+            "affix_value_literal_offset": 91389
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 136658,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "3",
+            "affix_value_literal_offset": 88472
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 139499,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.5"
+            ],
+            "buff_row_literal_offset": 781490,
+            "configured_params": {
+              "1": "0.015"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 5,
+        "frame_entry_levels": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 129863,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "2.4",
+            "affix_value_literal_offset": 87165
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 136440,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "5",
+            "affix_value_literal_offset": 91389
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 136658,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "3",
+            "affix_value_literal_offset": 88472
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 139499,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.5"
+            ],
+            "buff_row_literal_offset": 781490,
+            "configured_params": {
+              "1": "0.015"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 6,
+        "frame_entry_levels": [
+          2,
+          2,
+          1,
+          1
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 129863,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "2.4",
+            "affix_value_literal_offset": 87165
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 136548,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "10",
+            "affix_value_literal_offset": 99389
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 136658,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|0",
+            "display_percent": "3",
+            "affix_value_literal_offset": 88472
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 139499,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.5"
+            ],
+            "buff_row_literal_offset": 781490,
+            "configured_params": {
+              "1": "0.015"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 7,
+        "frame_entry_levels": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 129863,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "2.4",
+            "affix_value_literal_offset": 87165
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 136548,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "10",
+            "affix_value_literal_offset": 99389
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 136825,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 1,
+            "entry_row_literal_offset": 139499,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|0",
+            "display_values": [
+              "1.5"
+            ],
+            "buff_row_literal_offset": 781490,
+            "configured_params": {
+              "1": "0.015"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 8,
+        "frame_entry_levels": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 129863,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "2.4",
+            "affix_value_literal_offset": 87165
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 136548,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "10",
+            "affix_value_literal_offset": 99389
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 136825,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 9,
+        "frame_entry_levels": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 136062,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "3.6",
+            "affix_value_literal_offset": 87663
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 136548,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "10",
+            "affix_value_literal_offset": 99389
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 136825,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 10,
+        "frame_entry_levels": [
+          3,
+          3,
+          2,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 136062,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "3.6",
+            "affix_value_literal_offset": 87663
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 136603,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "15",
+            "affix_value_literal_offset": 87347
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 136825,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|1",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 11,
+        "frame_entry_levels": [
+          3,
+          3,
+          3,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 136062,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "3.6",
+            "affix_value_literal_offset": 87663
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 136603,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "15",
+            "affix_value_literal_offset": 87347
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 136881,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "9",
+            "affix_value_literal_offset": 88649
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 12,
+        "frame_entry_levels": [
+          4,
+          3,
+          3,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 136119,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "4.8",
+            "affix_value_literal_offset": 87735
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 136603,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "15",
+            "affix_value_literal_offset": 87347
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 136881,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "9",
+            "affix_value_literal_offset": 88649
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 13,
+        "frame_entry_levels": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 136119,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "4.8",
+            "affix_value_literal_offset": 87735
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 124721,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "20",
+            "affix_value_literal_offset": 123864
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 3,
+            "entry_row_literal_offset": 136881,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|2",
+            "display_percent": "9",
+            "affix_value_literal_offset": 88649
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 14,
+        "frame_entry_levels": [
+          4,
+          4,
+          4,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 136119,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "4.8",
+            "affix_value_literal_offset": 87735
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 124721,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "20",
+            "affix_value_literal_offset": 123864
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 122820,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "12",
+            "affix_value_literal_offset": 88770
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 15,
+        "frame_entry_levels": [
+          5,
+          4,
+          4,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 136176,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|4",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 124721,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "20",
+            "affix_value_literal_offset": 123864
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 122820,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "12",
+            "affix_value_literal_offset": 88770
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 16,
+        "frame_entry_levels": [
+          5,
+          5,
+          4,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 136176,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|4",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 103158,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|4",
+            "display_percent": "25",
+            "affix_value_literal_offset": 100311
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 4,
+            "entry_row_literal_offset": 122820,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|3",
+            "display_percent": "12",
+            "affix_value_literal_offset": 88770
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      },
+      {
+        "total_level": 17,
+        "frame_entry_levels": [
+          5,
+          5,
+          5,
+          2
+        ],
+        "ordered_lines": [
+          {
+            "position": 1,
+            "entry_no": 7311,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 136176,
+            "kind": "direct_affix",
+            "affix_id": "J1200",
+            "native_attr_id": "J12",
+            "native_property": "keyword_proc_dam_add_rate_shrap",
+            "native_description": "碎弹伤害#7#+{1}%#7#_$S@TIDS$_cih|4",
+            "display_percent": "6",
+            "affix_value_literal_offset": 87460
+          },
+          {
+            "position": 2,
+            "entry_no": 7313,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 103158,
+            "kind": "direct_affix",
+            "affix_id": "J6100",
+            "native_attr_id": "J61",
+            "native_property": "keyword_proc_crit_dam_add_rate_shrap",
+            "native_description": "碎弹暴击伤害#7#+{1}%#7#_$S@TIDS$_cih|4",
+            "display_percent": "25",
+            "affix_value_literal_offset": 100311
+          },
+          {
+            "position": 3,
+            "entry_no": 7314,
+            "state": "configured",
+            "entry_level": 5,
+            "entry_row_literal_offset": 137051,
+            "kind": "direct_affix",
+            "affix_id": "J8100",
+            "native_attr_id": "J81",
+            "native_property": "keyword_proc_weak_dam_add_rate_shrap",
+            "native_description": "碎弹弱点伤害#7#+{1}%#7#_$S@TIDS$_cih|4",
+            "display_percent": "15",
+            "affix_value_literal_offset": 87347
+          },
+          {
+            "position": 4,
+            "entry_no": 7405,
+            "state": "configured",
+            "entry_level": 2,
+            "entry_row_literal_offset": 143191,
+            "kind": "buff",
+            "buff_id": 589719000,
+            "native_description": "对所有怪物伤害提升#7#+{1}%#7#_$S@TIDS$_c3c|1",
+            "display_values": [
+              "3"
+            ],
+            "buff_row_literal_offset": 886735,
+            "configured_params": {
+              "1": "0.03"
+            },
+            "native_attributes": [
+              {
+                "attr_id": "E101",
+                "property": "unit_prototype_dam_add_rate_creeps"
+              },
+              {
+                "attr_id": "E99",
+                "property": "unit_prototype_dam_add_rate_elite"
+              },
+              {
+                "attr_id": "E102",
+                "property": "unit_prototype_dam_add_rate_leader"
+              },
+              {
+                "attr_id": "E100",
+                "property": "unit_prototype_dam_add_rate_boss"
+              }
+            ],
+            "attribute_scope": "Typed graph attributes; buff application is not inferred from catalog text."
+          }
+        ]
+      }
+    ]
+  },
+  "scope": "Configured catalog lines by total level. Core rank and Shiny bonus are separate; no owned activation is inferred.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

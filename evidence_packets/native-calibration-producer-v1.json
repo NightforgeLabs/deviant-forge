@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_pyc_sha256": {
+    "GunCoreHelper.pyc": "d5cfaf2cd935090fb151dc37cc331faf13b7539b7e01a4ed6c1671cd2cd42c2b",
+    "EquipHelper.pyc": "f41a764f1d2520f073145f87c2f5722c8ced4327e7b145e8c23adea6747a53ca",
+    "ItemHandler.pyc": "c83bb90db25bf54eacd62308ec5b6d0ee788df211d14b0d5c90565ad7764d2d7"
+  },
+  "calibration_table_manifest": "/home/dv/Documents/Codex/2026-11-01/task-5/calibration_data_captures/manifest.json",
+  "methods": [
+    {
+      "file": "GunCoreHelper.pyc",
+      "qualname": "generate_correct_print_term_id",
+      "source_line": 1175,
+      "body_range": [
+        44821,
+        45211
+      ],
+      "body_sha256": "97dc5857fc130fd3e30fddd25ae1efe11bffe6a265f927cf4145742246d93462",
+      "names": [
+        "Env",
+        "common_data",
+        "GUN_CORRECT_PRINT_DATA",
+        "get",
+        "sum",
+        "random",
+        "uniform",
+        "range",
+        "len"
+      ],
+      "literal_keys": [
+        "affix_ids",
+        "affix_ids_weight"
+      ]
+    },
+    {
+      "file": "GunCoreHelper.pyc",
+      "qualname": "generate_correct_term_data",
+      "source_line": 1157,
+      "body_range": [
+        43953,
+        44363
+      ],
+      "body_sha256": "ad3c538dfe0847b772b5f4b5a79d93624f8fe6f091bc7a77072181971c0cfa78",
+      "names": [
+        "Env",
+        "common_data",
+        "GUN_CORRECT_COMMON_TERMS_DATA",
+        "get",
+        "enumerate",
+        "round",
+        "random",
+        "uniform",
+        "append"
+      ],
+      "literal_keys": [
+        "terms",
+        "min_val",
+        "max_val",
+        "affix_ids",
+        "term_id",
+        "term_index",
+        "affix_id",
+        "affix_val"
+      ]
+    },
+    {
+      "file": "GunCoreHelper.pyc",
+      "qualname": "generate_gun_correct_print_info",
+      "source_line": 1190,
+      "body_range": [
+        45624,
+        46046
+      ],
+      "body_sha256": "76f1ac193845b0acd64118c14b22ad018881cdf78aa67cf714ff315a7d5c2da2",
+      "names": [
+        "get_gun_correct_print_info",
+        "get",
+        "generate_correct_print_term_id",
+        "generate_correct_term_data",
+        "len",
+        "round",
+        "random",
+        "uniform"
+      ],
+      "literal_keys": [
+        "is_valid",
+        "buff_id",
+        "affix_val_range",
+        "gun_correct_affix_val",
+        "gun_correct_print_info"
+      ]
+    },
+    {
+      "file": "GunCoreHelper.pyc",
+      "qualname": "get_gun_correct_affix_desc",
+      "source_line": 1337,
+      "body_range": [
+        51948,
+        52856
+      ],
+      "body_sha256": "ffd1a64ff0d4ff1b90a48285a5b6ff9d0135c6489fecd15e1ee788a625bf4509",
+      "names": [
+        "DataMgr",
+        "common_data",
+        "get",
+        "BuffDataHelper",
+        "get_format_desc",
+        "append",
+        "len",
+        "get_global_param_data",
+        "setdefault",
+        "list",
+        "values",
+        "sort",
+        "_get_correct_affix_desc"
+      ],
+      "literal_keys": [
+        "buff_level_data",
+        "skill_code",
+        "skill_lv",
+        "calibration_style_gun",
+        "term_index",
+        "is_buff",
+        "affix_data",
+        "affix_id",
+        "affix_val",
+        "term_id"
+      ]
+    },
+    {
+      "file": "EquipHelper.pyc",
+      "qualname": "get_affix_info",
+      "source_line": 67,
+      "body_range": [
+        2647,
+        2881
+      ],
+      "body_sha256": "dabaf3e9902437181659bcb0a7eb4d1638ca673f9517195cdd78bded251cb25b",
+      "names": [
+        "get_equip_orig_property_value",
+        "range",
+        "len",
+        "get"
+      ],
+      "literal_keys": [
+        "base_attr_name_list",
+        "base_attr_val_list"
+      ]
+    },
+    {
+      "file": "EquipHelper.pyc",
+      "qualname": "get_reinforce_attr_val",
+      "source_line": 208,
+      "body_range": [
+        8293,
+        8515
+      ],
+      "body_sha256": "8277e39fd0ec9575bb971e7a9c4d82397677144c69bca709efdd9a4d8c105603",
+      "names": [
+        "get"
+      ],
+      "literal_keys": [
+        "reinforce_0",
+        "reinforce_1",
+        "reinforce_2",
+        "reinforce_3"
+      ]
+    },
+    {
+      "file": "EquipHelper.pyc",
+      "qualname": "random_reinforce_attr",
+      "source_line": 269,
+      "body_range": [
+        10090,
+        10402
+      ],
+      "body_sha256": "95962c46410e8b84856f2d1eb15ec63fefa2963edc7398747f91f34692685208",
+      "names": [
+        "get_item_equip_slot_type",
+        "EquipConst",
+        "SHIELD_SLOT_TYPE_TO_POS",
+        "get",
+        "find_all_attr",
+        "len",
+        "random",
+        "choice",
+        "find_attr",
+        "get_reinforce_attr_val"
+      ],
+      "literal_keys": []
+    },
+    {
+      "file": "ItemHandler.pyc",
+      "qualname": "EquipBasePageHandler.deal_deputy_attr",
+      "source_line": 1118,
+      "body_range": [
+        48062,
+        48562
+      ],
+      "body_sha256": "dd3fb42e58647ec0097c1900ef7fbdaed11ef0ae8c48f11c7f74d24aec013c42",
+      "names": [
+        "get",
+        "EquipHelper",
+        "random_reinforce_attr",
+        "update",
+        "str",
+        "get_affix_id",
+        "EquipConst",
+        "REINFORCE_ATTR_DURA"
+      ],
+      "literal_keys": [
+        "reinforce_lv",
+        "deputy_attr",
+        "other_info",
+        "inc_dur_percent"
+      ]
+    }
+  ],
+  "typed_calibration_affixes": {
+    "E0100": {
+      "row_bounds": [
+        50028,
+        50063
+      ],
+      "row_sha256": "ac672257a8667b9d991f88727d6a1f06988c0454fb41a7c1cd4c97bc7829217b",
+      "typed_fields": {
+        "affix_name": 6056,
+        "attr_id": "E01",
+        "effect_range": 1,
+        "format": 6043,
+        "type": 1
+      },
+      "property_name": "crit_rate"
+    },
+    "E0200": {
+      "row_bounds": [
+        45306,
+        45341
+      ],
+      "row_sha256": "9ff427ca3ab980ceec45e9517b88b7a332889a6ec8907b5033f2d4c419793e32",
+      "typed_fields": {
+        "affix_name": 1334,
+        "attr_id": "E02",
+        "effect_range": 1,
+        "format": 1321,
+        "type": 1
+      },
+      "property_name": "crit_dam_rate"
+    },
+    "E0300": {
+      "row_bounds": [
+        45448,
+        45483
+      ],
+      "row_sha256": "60f957158fb0f05ea6c8f1a94ae5369101fba3e7be74b8d4b6215ff4dd146b89",
+      "typed_fields": {
+        "affix_name": 1476,
+        "attr_id": "E03",
+        "effect_range": 1,
+        "format": 1463,
+        "type": 1
+      },
+      "property_name": "weak_dam_rate"
+    },
+    "E4300": {
+      "row_bounds": [
+        51106,
+        51142
+      ],
+      "row_sha256": "e6d975bba7db438ccf037e751089559a2b0458eb5b9be4d578e9b27dfd59c48c",
+      "typed_fields": {
+        "affix_name": 7134,
+        "attr_id": "E43",
+        "effect_range": 1,
+        "format": 7121,
+        "type": 1
+      },
+      "property_name": "attack_type_dam_add_rate_dot"
+    }
+  },
+  "generator": {
+    "term_selection": "print_info.affix_ids and affix_ids_weight; draw uniform(0,sum(weights)), walk cumulative weights, select one term ID.",
+    "term_roll": "For each selected term_data, affix_val=round(random.uniform(min_val,max_val),3); emit term_id,term_index,affix_id,affix_val for every affix_id in that term.",
+    "print_roll": "For a valid selected print, return gun_correct_print_info with gun_correct_affix_list, skill fields, can_break, correct_item_no; if affix_val_range has length 2, roll gun_correct_affix_val=round(random.uniform(low,high),3)."
+  },
+  "enhancement_distinction": "EquipBasePageHandler.deal_deputy_attr uses reinforce_lv and random_reinforce_attr to generate deputy_attr from reinforce_0..3 fields. This is item creation/detail data, not proven combat activation or the separate equip_make_strengthen_rule table.",
+  "limits": [
+    "No copied consumer yet maps an owned item selected calibration print or reinforce detail to active holder affix_infos or D01.",
+    "The E43 property is attack_type_dam_add_rate_dot, not the base attack property D01; no direct-hit graph path is asserted for it.",
+    "Generator uses RNG, so blueprint ID alone does not determine a selected roll.",
+    "No game code was imported/executed; installed game files were read only."
+  ]
+}

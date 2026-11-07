@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_server_pyc_sha256": "d088426eec3ccc127020b714e14ca93314680477c925648e903d6c0e76d00a76",
+  "typed_tag_maps": [
+    {
+      "archive_entry_index": 39,
+      "entry_name": "game_common\\data\\buff_tag_prop_map.pyc",
+      "pyc_sha256": "6a1f46f04b424a68737c0380e325c69c0a8fe2de28588910d2a473b5114f71e1",
+      "literal_sha256": "980645b46fa19bb8837114145550844e391aa48566de666aa17a91128fa32ce8",
+      "tag_key": 305,
+      "row_offset": 616,
+      "index_tail_offset": 716,
+      "descriptor_offset": 610,
+      "time_extend_add_rate": {
+        "attribute": "tag_buff_time_extend_add_rate_armed",
+        "byte_offset": 618,
+        "raw_hex": "0c"
+      },
+      "time_reduce_add_rate": {
+        "attribute": "",
+        "byte_offset": 619,
+        "raw_hex": "03"
+      }
+    },
+    {
+      "archive_entry_index": 10905,
+      "entry_name": "game_common\\data\\buff_sub_tag_prop_map.pyc",
+      "pyc_sha256": "fcbba406c12c4cb31a67c8b812cc2c9d44a4b3eaee494f79c526f4fe90f740b8",
+      "literal_sha256": "412864f2d056e64df5692057bf1f542f203c9400947d721d94f54ee77cbd595f",
+      "tag_key": 101,
+      "row_offset": 187,
+      "index_tail_offset": 215,
+      "descriptor_offset": 181,
+      "time_extend_add_rate": {
+        "attribute": "tag_buff_time_extend_add_rate_all",
+        "byte_offset": 189,
+        "raw_hex": "03"
+      },
+      "time_reduce_add_rate": {
+        "attribute": "",
+        "byte_offset": 190,
+        "raw_hex": "02"
+      }
+    }
+  ],
+  "server_duration_methods": [
+    {
+      "method": "CompBuffMgrServer._cal_buff_life_time",
+      "first_source_line": 396,
+      "code_offset": 23757,
+      "code_sha256": "5402eb4309cc40eb3da537c4d3cf2483fc05992f92b5b2ad8052ed1a088ee31a",
+      "names": [
+        "Env",
+        "common_data",
+        "get",
+        "AffixUtils",
+        "get_holder_property_attr",
+        "_get_anomaly_time_extend"
+      ],
+      "constants": [
+        null,
+        0,
+        "buff_tag_prop_map",
+        "time_reduce_add_rate",
+        "",
+        0.0,
+        1,
+        "buff_sub_tag_prop_map"
+      ]
+    },
+    {
+      "method": "CompBuffMgrServer._get_anomaly_time_extend",
+      "first_source_line": 413,
+      "code_offset": 24856,
+      "code_sha256": "7ee685f4216570c86230cdd477cf6c66905e1523318791189cacfcb312854184",
+      "names": [
+        "HolderProxy",
+        "readonly_holder",
+        "AttrProperty",
+        "Env",
+        "common_data",
+        "get",
+        "AffixUtils",
+        "get_holder_property_attr"
+      ],
+      "constants": [
+        null,
+        1.0,
+        "buff_tag_prop_map",
+        "time_extend_add_rate",
+        "",
+        0.0,
+        "buff_sub_tag_prop_map"
+      ]
+    }
+  ],
+  "conditional_duration_component": {
+    "expression": "base_life_time * product(1 - each tag/subtag time_reduce_add_rate) * (1 + sum(each tag/subtag time_extend_add_rate))",
+    "status": "static local-opcode inference; attribute values and actual applied buffs not supplied",
+    "operator_evidence": "Locally controlled 7d0a subtraction and 7d05 multiplication; 7d0d += agrees with independent next_buff_index += 1 control; 7d12 *= follows CPython 3.11 binary-op argument order and repeated life_time update structure.",
+    "eligibility": "Buff tag key 305 maps to the armed extension attribute; buff subtag key 101 maps to an attribute named all-buff extension. The name does not prove every buff has that subtag. Other keys are not decoded here.",
+    "not_a_mutation_time_extend_consumer": true
+  },
+  "mutation_time_extend_consumer_status": "No use of that exact attribute appears in the bounded copied buff manager, attribute, food utility, or item-use modules. It remains an identified source property without a verified duration consumer.",
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

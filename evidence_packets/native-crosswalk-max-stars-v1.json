@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "source_access_date": "2026-11-02",
+  "scope": "Exact public blueprint page title and explicitly stated Max Stars; no crafted damage formula",
+  "records": [
+    {
+      "blueprint_id": 13421101,
+      "public_blueprint_title": "KAM B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13421101"
+    },
+    {
+      "blueprint_id": 13441301,
+      "public_blueprint_title": "M416 - Autumn Equinox B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13441301"
+    },
+    {
+      "blueprint_id": 13431301,
+      "public_blueprint_title": "OIC-8 - Last Carnival B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13431301"
+    },
+    {
+      "blueprint_id": 13412301,
+      "public_blueprint_title": "SOCR - Outsider B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13412301"
+    },
+    {
+      "blueprint_id": 13421201,
+      "public_blueprint_title": "KAM - Pioneer B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13421201"
+    },
+    {
+      "blueprint_id": 13442101,
+      "public_blueprint_title": "M416 - Scorched Earth B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13442101"
+    },
+    {
+      "blueprint_id": 13411201,
+      "public_blueprint_title": "SOCR - Sand Dancer B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13411201"
+    },
+    {
+      "blueprint_id": 13441101,
+      "public_blueprint_title": "M416 B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13441101"
+    },
+    {
+      "blueprint_id": 13721301,
+      "public_blueprint_title": "Recurve Crossbow B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13721301"
+    },
+    {
+      "blueprint_id": 13741201,
+      "public_blueprint_title": "Recurve Bow B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13741201"
+    },
+    {
+      "blueprint_id": 13711101,
+      "public_blueprint_title": "Rustic Crossbow B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13711101"
+    },
+    {
+      "blueprint_id": 13800401,
+      "public_blueprint_title": "Flamethrower B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13800401"
+    },
+    {
+      "blueprint_id": 13621301,
+      "public_blueprint_title": "MG4 - Wrath Of Hades B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13621301"
+    },
+    {
+      "blueprint_id": 13631201,
+      "public_blueprint_title": "KVD - Icebreaker B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13631201"
+    },
+    {
+      "blueprint_id": 13621201,
+      "public_blueprint_title": "MG4 - Sandstorm B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13621201"
+    },
+    {
+      "blueprint_id": 13621101,
+      "public_blueprint_title": "MG4 B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13621101"
+    },
+    {
+      "blueprint_id": 13111301,
+      "public_blueprint_title": "DE.50 - Wildfire B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13111301"
+    },
+    {
+      "blueprint_id": 13131201,
+      "public_blueprint_title": "G17 - Dusty B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13131201"
+    },
+    {
+      "blueprint_id": 13123301,
+      "public_blueprint_title": "Hammerhead Shark B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13123301"
+    },
+    {
+      "blueprint_id": 13121301,
+      "public_blueprint_title": "R500 - Interfade B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13121301"
+    },
+    {
+      "blueprint_id": 13121201,
+      "public_blueprint_title": "R500 - Hunter 500 B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13121201"
+    },
+    {
+      "blueprint_id": 13233301,
+      "public_blueprint_title": "ACS12 - Netherworld B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13233301"
+    },
+    {
+      "blueprint_id": 13221301,
+      "public_blueprint_title": "DB12 - Backfire B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13221301"
+    },
+    {
+      "blueprint_id": 13211301,
+      "public_blueprint_title": "DBSG - Dual Fury B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13211301"
+    },
+    {
+      "blueprint_id": 13211201,
+      "public_blueprint_title": "DBSG - Old Huntsman B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13211201"
+    },
+    {
+      "blueprint_id": 13211101,
+      "public_blueprint_title": "DBSG B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13211101"
+    },
+    {
+      "blueprint_id": 13311201,
+      "public_blueprint_title": "KV-SBR - Icy Rain B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13311201"
+    },
+    {
+      "blueprint_id": 13331301,
+      "public_blueprint_title": "MPS7 - Div-Evo B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13331301"
+    },
+    {
+      "blueprint_id": 13321201,
+      "public_blueprint_title": "MPS5 - Blue Tiger B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13321201"
+    },
+    {
+      "blueprint_id": 13332201,
+      "public_blueprint_title": "MPS7 - Urban Ninja B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13332201"
+    },
+    {
+      "blueprint_id": 13311101,
+      "public_blueprint_title": "KV-SBR B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13311101"
+    },
+    {
+      "blueprint_id": 13321101,
+      "public_blueprint_title": "MPS5 B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13321101"
+    },
+    {
+      "blueprint_id": 13331101,
+      "public_blueprint_title": "MPS7 B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13331101"
+    },
+    {
+      "blueprint_id": 13511101,
+      "public_blueprint_title": "SN700 B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13511101"
+    },
+    {
+      "blueprint_id": 13521301,
+      "public_blueprint_title": "AWS.338 - Black Panther B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13521301"
+    },
+    {
+      "blueprint_id": 13511301,
+      "public_blueprint_title": "SN700 - Gulped Lore B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13511301"
+    },
+    {
+      "blueprint_id": 13541301,
+      "public_blueprint_title": "SR2000 - Die Another Day B.P.",
+      "published_max_stars": 5,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13541301"
+    },
+    {
+      "blueprint_id": 13531201,
+      "public_blueprint_title": "HAMR - Crumble B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13531201"
+    },
+    {
+      "blueprint_id": 13511201,
+      "public_blueprint_title": "SN700 - Dark Snowflake B.P.",
+      "published_max_stars": 4,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13511201"
+    },
+    {
+      "blueprint_id": 13551101,
+      "public_blueprint_title": "SKS B.P.",
+      "published_max_stars": 3,
+      "source_url": "https://oncehuman.th.gl/db/blueprints/13551101"
+    }
+  ]
+}

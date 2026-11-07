@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "scope": "Caller eligibility coverage for scheduled landed shots; not game proc odds",
+  "weapons": {
+    "weapon:critical-pulse": {"hit_action_kind": "critical_pulse_start_orb", "coverage": "conditional", "ineligible_reason": "no_observed_charge_spent"},
+    "weapon:r500-hammerhead-shark": {"hit_action_kind": "hammerhead_chain_hit", "coverage": "every_landed_hit"},
+    "weapon:kvd-boom-boom": {"hit_action_kind": "boom_boom_hit", "coverage": "every_landed_hit"},
+    "weapon:acs12-pyroclasm-starter": {"hit_action_kind": "pyroclasm_charged_shot", "coverage": "conditional", "ineligible_reason": "ordinary_uncharged_round"},
+    "weapon:sks-pathfinder": {"hit_action_kind": "pathfinder_charged_shot", "coverage": "conditional", "ineligible_reason": "ordinary_uncharged_shot"},
+    "weapon:pdw90-holographic-resonance": {"hit_action_kind": "holographic_hit", "coverage": "every_landed_hit"}
+  }
+}

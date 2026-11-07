@@ -1,0 +1,205 @@
+{
+  "schema_version": 2,
+  "scope": "24 formerly partial timed or resource ordinary identities",
+  "source_ledger": "public-core-operator-ledger-v1.json",
+  "counts": {
+    "blocked_attack_basis_and_mark_events": 1,
+    "conditional_direct_timeline": 6,
+    "conditional_sourced_packet_timeline": 17
+  },
+  "records": [
+    {
+      "catalog_id": "mod:mask_mod:most-wanted-the-bull-s-eye",
+      "family": "Most Wanted",
+      "normal_source_item_id": "19500401",
+      "operator": "marked_enemy_attack_stacks_unbound_basis",
+      "execution_status": "blocked_attack_basis_and_mark_events",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-aero",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500808",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-aero-deviant-energy",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500818",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-deviant-energy",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500364",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-downstar",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500534",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-downstar-deviant-energy",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500628",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-general",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500061",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-precision",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500263",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-resonance",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500465",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-resonance-deviant-energy",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500583",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-survival",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500662",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-violent",
+      "family": "Abnormal Increase",
+      "normal_source_item_id": "19500162",
+      "operator": "empty_magazine_status_stacks",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-aero",
+      "family": "Critical Surge",
+      "normal_source_item_id": "19500813",
+      "operator": "empty_magazine_independent_crit_stacks",
+      "execution_status": "conditional_direct_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-aero-deviant-energy",
+      "family": "Critical Surge",
+      "normal_source_item_id": "19500823",
+      "operator": "empty_magazine_independent_crit_stacks",
+      "execution_status": "conditional_direct_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-aero",
+      "family": "Deadshot",
+      "normal_source_item_id": "19500807",
+      "operator": "crit_hit_stack_until_reload",
+      "execution_status": "conditional_direct_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-aero-deviant-energy",
+      "family": "Deadshot",
+      "normal_source_item_id": "19500817",
+      "operator": "crit_hit_stack_until_reload",
+      "execution_status": "conditional_direct_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-aero",
+      "family": "Elemental Resonance",
+      "normal_source_item_id": "19500812",
+      "operator": "previous_magazine_elemental_instances",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-aero-deviant-energy",
+      "family": "Elemental Resonance",
+      "normal_source_item_id": "19500822",
+      "operator": "previous_magazine_elemental_instances",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-aero",
+      "family": "Precision Charge",
+      "normal_source_item_id": "19500811",
+      "operator": "previous_magazine_weakspot_rate",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-aero-deviant-energy",
+      "family": "Precision Charge",
+      "normal_source_item_id": "19500821",
+      "operator": "previous_magazine_weakspot_rate",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-aero",
+      "family": "Reload Rampage",
+      "normal_source_item_id": "19500804",
+      "operator": "kill_refill_and_damage_until_reload",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-aero-deviant-energy",
+      "family": "Reload Rampage",
+      "normal_source_item_id": "19500814",
+      "operator": "kill_refill_and_damage_until_reload",
+      "execution_status": "conditional_sourced_packet_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-aero",
+      "family": "Three Strikes",
+      "normal_source_item_id": "19500805",
+      "operator": "post_reload_first_hits_weakspot",
+      "execution_status": "conditional_direct_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-aero-deviant-energy",
+      "family": "Three Strikes",
+      "normal_source_item_id": "19500815",
+      "operator": "post_reload_first_hits_weakspot",
+      "execution_status": "conditional_direct_timeline",
+      "source_item_effect_level_to_field_guide_level": null
+    }
+  ],
+  "note": "Execution is conditional on selected unranked source text, exact suffix inputs and named event assumptions; no current-game rank mapping is inferred."
+}

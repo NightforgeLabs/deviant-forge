@@ -1,0 +1,221 @@
+{
+  "schema": "deviant-forge.calibration-test",
+  "schema_version": 1,
+  "generated_at": null,
+  "storage": "download only; not saved to Forge",
+  "context": {
+    "scenario": "",
+    "patch_or_date": "",
+    "target": "",
+    "weapon": "",
+    "tier": "",
+    "blueprint_stars": "",
+    "gear_and_sets": "",
+    "mods_and_levels": "",
+    "tech_level_and_active_rows": "",
+    "ammunition": "",
+    "buffs_and_deviant": "",
+    "target_category_bonuses": ""
+  },
+  "trials": [
+    {
+      "calibration": "Energy",
+      "status": "not_tested",
+      "calibration_rolls": "",
+      "notes": "",
+      "metrics": {
+        "trial_seconds": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "pre_effect_reload_seconds": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "shots_fired": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "shots_landed": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "body_only_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "crit_only_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "weakspot_only_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "crit_weakspot_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "body_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "crit_body_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "weakspot_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "crit_weakspot_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "power_surge_eligible_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "power_surge_triggers": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "power_surge_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "orb_appearances": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "orb_impacts": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "orb_damage": {
+          "value": null,
+          "origin": "unknown"
+        }
+      },
+      "consistency_warnings": [],
+      "provenance_warnings": [],
+      "calibration_rolls_evidence": "not_tested",
+      "reload_confirmed_pre_effect": false
+    },
+    {
+      "calibration": "Rapid Shot",
+      "status": "not_tested",
+      "calibration_rolls": "",
+      "notes": "",
+      "metrics": {
+        "trial_seconds": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "pre_effect_reload_seconds": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "shots_fired": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "shots_landed": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "body_only_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "crit_only_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "weakspot_only_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "crit_weakspot_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "body_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "crit_body_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "weakspot_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "crit_weakspot_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "power_surge_eligible_hits": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "power_surge_triggers": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "power_surge_damage": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "orb_appearances": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "orb_impacts": {
+          "value": null,
+          "origin": "unknown"
+        },
+        "orb_damage": {
+          "value": null,
+          "origin": "unknown"
+        }
+      },
+      "consistency_warnings": [],
+      "provenance_warnings": [],
+      "calibration_rolls_evidence": "not_tested",
+      "reload_confirmed_pre_effect": false
+    }
+  ],
+  "uncertainties": {
+    "trigger_hypotheses": {
+      "base_chance_percent": {
+        "value": null,
+        "origin": "unknown"
+      },
+      "listed_increase_percent": {
+        "value": null,
+        "origin": "unknown"
+      },
+      "note": "Relative p × (1 + r) versus percentage-point p + r are alternative hypotheses, not verified game rules. Count eligible hits and ordinary triggers separately; do not infer AUG orb count from either."
+    },
+    "all_damage_boost": {
+      "without_roll_body_hit": {
+        "value": null,
+        "origin": "unknown"
+      },
+      "with_roll_body_hit": {
+        "value": null,
+        "origin": "unknown"
+      },
+      "note": "Hold target, body-hit type, range and other buffs fixed if both states are naturally available. The All DMG bucket and its interaction with target-category bonuses remain unverified."
+    }
+  },
+  "source_notes": [
+    "Maurice Tier V five-filled-star AUG crafting preview, 2026-10-24: 241 DMG, 720 RPM, 40 MAG (libfile_b01c1d5ded9081918892fbd7b7f674b7); reference only, not a trial measurement.",
+    "Energy and Rapid Shot calibration tooltip screenshots, 2026-10-24 (libfile_a52887f909c481918310b2bac02dc446; libfile_2ddcabd50f60819187d35ddc0e411389); photographed rolls are not proof of stacking order.",
+    "Shock Rampage Power Surge Lv17 game tooltip, 2026-10-24 (libfile_84a17de486208191951ea249c448e8c6); core trigger text and suffix roll are distinct.",
+    "Official 2025-05-21 reload note: final reload time = base reload time / (1 + Reload Efficiency bonus). Reload Speed is a separately displayed term: https://www.oncehuman.game/news/update/20250521/40780_1235763.html",
+    "Official AUG field update effective 2026-05-27: https://www.oncehuman.game/news/devBlog/20260521/40781_1301130.html; proc/orb damage coefficient and inheritance remain unverified."
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "reviewed_on": "2026-10-25",
+  "current_patch": "3.1.1 (October 21, 2026)",
+  "coverage": [
+    {
+      "area": "Mod Field Guide, fixed subattributes, level 17 and duplicates",
+      "status": "researched",
+      "detail": "Official system description; individual mod effects and values still require current tooltips."
+    },
+    {
+      "area": "Weapon accessories and Precision Components",
+      "status": "researched",
+      "detail": "Official acquisition change; component cost and current availability require in-game confirmation."
+    },
+    {
+      "area": "Weapon firing and reload throughput",
+      "status": "partially supported",
+      "detail": "Can calculate a labeled finite-cycle baseline from observed damage, cadence, magazine and reload. A May 2025 official rule divides base reload time by 1 + Reload Efficiency; whether a current Reload Speed roll maps to that stat is unverified. Enemy defenses, proc damage and many bonuses remain unknown."
+    },
+    {
+      "area": "Proc, status, crit, weak spot, set and temporary buff interactions",
+      "status": "unknown",
+      "detail": "No global formula is assumed. Comparisons involving these are incomplete until effect-specific evidence is entered."
+    },
+    {
+      "area": "SOCR - Cosmic Visitor / Snowline Elite Vest",
+      "status": "researched",
+      "detail": "Official 3.1.1 effects known qualitatively; proc coefficients and rates unknown."
+    },
+    {
+      "area": "AUG - Electron Cloud, Compound Bow and MG4 families",
+      "status": "partially supported",
+      "detail": "Official balance changes demonstrate distinct families, but no current complete numerical formula is available."
+    },
+    {
+      "area": "Inventory extraction on Maurice's actual recordings",
+      "status": "partially supported",
+      "detail": "User recordings were processed and reviewed. The latest video has 43 reviewed owned proposals and 172 source-checked typed attribute rows; seven ambiguous Survival signs remain excluded. These proposals have not been committed to owned inventory. Recognition beyond reviewed frames is not certified."
+    },
+    {
+      "area": "Charged status and crit eligibility: Pathfinder, Pyroclasm Starter, Additional Rules",
+      "status": "partially supported",
+      "detail": "Official preview identifies component type and eligibility; current values and activation require game confirmation."
+    },
+    {
+      "area": "Ghost Link and Treacherous Tides thresholds",
+      "status": "partially supported",
+      "detail": "Official live notes identify thresholds and conditional bonuses. Cross-bonus stacking and live uptime are not calculated."
+    },
+    {
+      "area": "Frost, Bounce/Echo, Shrapnel and Unstable Bomber synergies",
+      "status": "researched",
+      "detail": "Official qualitative interactions power build audit; missing coefficients remain unknown."
+    },
+    {
+      "area": "Aero and Downstar mod suffix activation",
+      "status": "researched",
+      "detail": "Official qualitative activation; exact suffix values and current availability remain unverified."
+    }
+  ],
+  "sources": [
+    {
+      "id": "patch311",
+      "title": "Version 3.1.1 Update Announcement",
+      "url": "https://www.oncehuman.game/news/update/20261021/40780_1317280.html",
+      "published": "2026-10-21",
+      "verified": "2026-10-25",
+      "mode": "scenario dependent, check in-game",
+      "status": "official",
+      "notes": "Current Isles release says Cradle is unavailable there and active Mod attribute count depends on Tech level. It also covers new Frost gear. This is not a complete combat formula."
+    },
+    {
+      "id": "reload2025",
+      "title": "May 2025 Combat Balance Update",
+      "url": "https://www.oncehuman.game/news/update/20250521/40780_1235763.html",
+      "published": "2025-05-21",
+      "verified": "2026-10-25",
+      "mode": "historical reload rule; current roll label mapping unverified",
+      "status": "official",
+      "notes": "Defines final reload time as base reload time divided by 1 + Reload Efficiency bonus, and distinguishes Reload Speed from Reload Efficiency. Does not establish that the photographed current Rapid Shot Reload Speed +10% roll is an Efficiency bonus."
+    },
+    {
+      "id": "frost",
+      "title": "New Weapons and Armor Coming Soon",
+      "url": "https://www.oncehuman.game/banner/20261014/41906_1316338.html",
+      "published": "2026-10-12",
+      "verified": "2026-10-22",
+      "mode": "check scenario availability",
+      "status": "official",
+      "notes": "SOCR Cosmic Visitor and Snowline Elite Vest qualitative effects."
+    },
+    {
+      "id": "mods",
+      "title": "Mod System Overhaul and Compensation Plan",
+      "url": "https://www.oncehuman.game/news/devBlog/20251212/40781_1276354.html",
+      "published": "2025-12-12",
+      "verified": "2026-10-22",
+      "mode": "general, subject to later patches",
+      "status": "official",
+      "notes": "Field Guide, fixed subattributes, level 17 progression."
+    },
+    {
+      "id": "modfaq",
+      "title": "FAQ on the New Mod System",
+      "url": "https://www.oncehuman.game/news/devBlog/20260123/40781_1283429.html",
+      "published": "2026-01-23",
+      "verified": "2026-10-22",
+      "mode": "historical starting point",
+      "status": "official",
+      "notes": "Historical shiny mod information; later acquisition changes supersede portions."
+    },
+    {
+      "id": "collection",
+      "title": "Collection System Optimization and Shiny Mods",
+      "url": "https://www.oncehuman.game/news/devBlog/20260622/40781_1305064.html",
+      "published": "2026-06-22",
+      "verified": "2026-10-22",
+      "mode": "scenario dependent",
+      "status": "official",
+      "notes": "Precision Components unlock accessories; Scenario Honor and Mod Collection Progress offer shiny rewards."
+    },
+    {
+      "id": "calibration",
+      "title": "Comprehensive Optimization of Calibration and Accessories",
+      "url": "https://www.oncehuman.game/m/news/devBlog/20260113/40781_1281545.html",
+      "published": "2026-01-13",
+      "verified": "2026-10-22",
+      "mode": "general, subject to later patches",
+      "status": "official",
+      "notes": "Calibration at workbench removed; calibration blueprint attributes applied at craft time."
+    },
+    {
+      "id": "maybalance",
+      "title": "May Combat Balance Adjustments",
+      "url": "https://www.oncehuman.game/news/devBlog/20260521/40781_1301130.html",
+      "published": "2026-05-21",
+      "verified": "2026-10-22",
+      "mode": "check current patch and PvP rules",
+      "status": "official",
+      "notes": "AUG Electron Cloud and Compound Bow effects changed; figures not reused blindly."
+    },
+    {
+      "id": "septbalance",
+      "title": "Version 3.0.6 Update Announcement",
+      "url": "https://www.oncehuman.game/news/update/20261009/40780_1314019.html",
+      "published": "2026-09-16",
+      "verified": "2026-10-22",
+      "mode": "scenario dependent",
+      "status": "official",
+      "notes": "MG4 Conflicting Memories and set balance changes; requires re-verification of affected builds."
+    },
+    {
+      "id": "septpreview",
+      "title": "September Combat Balance Dev Blog (test values)",
+      "url": "https://www.oncehuman.game/news/devBlog/20260910/40781_1313572.html",
+      "published": "2026-09-10",
+      "verified": "2026-11-01",
+      "mode": "preview only",
+      "status": "official preview",
+      "notes": "Treacherous Tides 4-piece shield amount, trigger and cooldown are explicitly test values; release update does not restate the numbers."
+    },
+    {
+      "id": "janreload",
+      "title": "Version 2.3.1 Reload Efficiency Conversion",
+      "url": "https://www.oncehuman.game/news/update/20260121/40780_1282991.html",
+      "published": "2026-01-21",
+      "verified": "2026-11-01",
+      "mode": "non-RaidZone",
+      "status": "official release",
+      "notes": "Bastille two-piece became +15% Reload Efficiency, replacing +20% Reload Speed. Base weapon reload time remains a separate required input."
+    },
+    {
+      "id": "fairplay",
+      "title": "Once Human Fair Play Policy",
+      "url": "https://www.oncehuman.game/20251127/43274_1229046.html",
+      "published": "2025-11-27",
+      "verified": "2026-10-22",
+      "mode": "general",
+      "status": "official",
+      "notes": "App stays outside game process and relies on user-selected recordings."
+    },
+    {
+      "id": "febbalance",
+      "title": "February Combat Balance Adjustments",
+      "url": "https://www.oncehuman.game/news/devBlog/20260212/40781_1287008.html",
+      "published": "2026-02-23",
+      "verified": "2026-10-22",
+      "mode": "non-RaidZone applicability requires confirmation",
+      "status": "official dev preview; implementation check pending",
+      "notes": "Charged Pathfinder, Pyroclasm Starter and Additional Rules become Status DMG while retaining crit/weak-spot eligibility; Gilded Gauntlets enable Burn crit. Preview warns values may change."
+    },
+    {
+      "id": "julygear",
+      "title": "Version 3.0.1 Update Announcement",
+      "url": "https://www.oncehuman.game/news/update/20260709/40780_1307147.html",
+      "published": "2026-07-09",
+      "verified": "2026-10-22",
+      "mode": "non-RaidZone",
+      "status": "official live update",
+      "notes": "QBJ97 Unstable Bomber, SN700 Finale Shrapnel, Wind Intepreter Cap and Ghost Link thresholds."
+    },
+    {
+      "id": "mayweapons",
+      "title": "May New Weapons and Armor",
+      "url": "https://www.oncehuman.game/news/devBlog/20260507/40781_1299391.html",
+      "published": "2026-05-07",
+      "verified": "2026-10-22",
+      "mode": "non-RaidZone",
+      "status": "official",
+      "notes": "Electron Cloud Shock orb and Burden of Betrayal Bounce/Echo component distinction."
+    },
+    {
+      "id": "aeromod",
+      "title": "Visional Wheel S4 Gravity Abyss Dev Blog",
+      "url": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html",
+      "published": "2026-05-22",
+      "verified": "2026-10-22",
+      "mode": "Vision World / scenario-dependent",
+      "status": "official dev preview",
+      "notes": "Aero suffix can activate in any aerial state including jumping; Downstar favors elevation differences. Current numeric attributes require tooltip confirmation."
+    }
+  ],
+  "acquisition_paths": [
+    {
+      "name": "Weapon accessories",
+      "path": "Collection system Precision Components",
+      "source": "collection",
+      "cost": null,
+      "difficulty": null,
+      "prerequisites": "Collection progress; verify component requirement in game"
+    },
+    {
+      "name": "Shiny mods",
+      "path": "Scenario Honor rating or Mod Collection Progress",
+      "source": "collection",
+      "cost": null,
+      "difficulty": null,
+      "prerequisites": "Corresponding rating or collection milestone; check current scenario"
+    },
+    {
+      "name": "Mod upgrades",
+      "path": "Obtain higher-level mod entries in Mods Field Guide",
+      "source": "mods",
+      "cost": null,
+      "difficulty": null,
+      "prerequisites": "Exact source and level rewards vary; inspect in-game Field Guide"
+    }
+  ],
+  "catalog": [
+    {
+      "name": "SOCR - Cosmic Visitor",
+      "slot": "primary",
+      "family": "Frost Vortex / Ice Spear",
+      "source": "patch311",
+      "mode": "scenario dependent",
+      "status": "official",
+      "acquisition": "Blueprint in October 21 update mailbox until November 8, 2026; verify eligibility now"
+    },
+    {
+      "name": "Snowline Elite Vest",
+      "slot": "chest",
+      "family": "Frost Vortex",
+      "source": "patch311",
+      "mode": "scenario dependent",
+      "status": "official",
+      "acquisition": "Blueprint in October 21 update mailbox until November 8, 2026; verify eligibility now"
+    },
+    {
+      "name": "AUG - Electron Cloud",
+      "slot": "primary",
+      "family": "Power Surge / Shock",
+      "source": "mayweapons",
+      "mode": "non-RaidZone",
+      "status": "official",
+      "acquisition": null
+    },
+    {
+      "name": "Compound Bow - The Burden of Betrayal",
+      "slot": "primary",
+      "family": "Bounce / Echo",
+      "source": "maybalance",
+      "mode": "non-RaidZone",
+      "status": "official",
+      "acquisition": null
+    },
+    {
+      "name": "Pyroclasm Starter",
+      "slot": "primary",
+      "family": "Burn / Blaze status",
+      "source": "febbalance",
+      "mode": "check current scenario",
+      "status": "official preview",
+      "acquisition": null
+    },
+    {
+      "name": "Gilded Gauntlets",
+      "slot": "gloves",
+      "family": "Burn crit",
+      "source": "febbalance",
+      "mode": "check current scenario",
+      "status": "official preview",
+      "acquisition": null
+    },
+    {
+      "name": "Pathfinder",
+      "slot": "primary",
+      "family": "Frost charged status",
+      "source": "febbalance",
+      "mode": "check current scenario",
+      "status": "official preview",
+      "acquisition": null
+    },
+    {
+      "name": "TEC9 - Additional Rules",
+      "slot": "primary",
+      "family": "Elemental charged status",
+      "source": "febbalance",
+      "mode": "check current scenario",
+      "status": "official preview",
+      "acquisition": null
+    },
+    {
+      "name": "SN700 - Finale",
+      "slot": "primary",
+      "family": "Shrapnel",
+      "source": "julygear",
+      "mode": "non-RaidZone",
+      "status": "official",
+      "acquisition": "Blueprint system; exact current cost unknown"
+    },
+    {
+      "name": "QBJ97 - Fiery Trees and Silver Flowers",
+      "slot": "primary",
+      "family": "Unstable Bomber",
+      "source": "julygear",
+      "mode": "non-RaidZone",
+      "status": "official",
+      "acquisition": "Blueprint system; exact current cost unknown"
+    },
+    {
+      "name": "Wind Intepreter Cap",
+      "slot": "helmet",
+      "family": "Unstable Bomber",
+      "source": "julygear",
+      "mode": "non-RaidZone",
+      "status": "official",
+      "acquisition": null
+    },
+    {
+      "name": "Aero suffix mod",
+      "slot": "weapon_mod",
+      "family": "Aerial activation",
+      "source": "aeromod",
+      "mode": "Vision World / scenario dependent",
+      "status": "official preview",
+      "acquisition": "Visional mod selection and related rewards; verify current scenario"
+    },
+    {
+      "name": "Downstar suffix mod",
+      "slot": "weapon_mod",
+      "family": "Elevation difference",
+      "source": "aeromod",
+      "mode": "Vision World / scenario dependent",
+      "status": "official preview",
+      "acquisition": "Visional mod selection and related rewards; verify current scenario"
+    }
+  ]
+}

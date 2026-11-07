@@ -1,0 +1,1362 @@
+{
+  "schema_version": "mod_core_v5_partial_remediation",
+  "v2_packet_sha256": "7a81675e627fe236b6127d280647f3c751e59e7bbd728a3ffdf13b1be01a2560",
+  "v4_partial_packet_sha256": "f80f8df51072c53a6bd9d0c092428c379d10dbf1b6b7b49537575ae9a1abd0fe",
+  "scope": "Only the 61 v4 descriptor-only rows. New adapters return bounded first-step/event outputs without completing any partial rule.",
+  "statistics": {
+    "rows": 61,
+    "statuses": {
+      "bounded_known_component_executable": 33,
+      "source_parameter_blocked": 28
+    },
+    "operators": {
+      "bomb_hit_counter_partial": 7,
+      "shrapnel_special_hit_partial": 6,
+      "decaying_final_damage_partial": 5,
+      "hp_loss_conversion_partial": 15,
+      "bounce_target_count_partial": 5,
+      "marked_target_damage_direction_partial": 11,
+      "fast_gunner_weakspot_ramp_partial": 6,
+      "fortress_party_scaling_partial": 6
+    },
+    "source_issues": {
+      "historical_5_hit_vs_later_4_hit_conflict": 1,
+      "current_page_identity_but_no_exact_level": 49,
+      "historical_or_unmatched_identity": 11
+    },
+    "exact_level_observations": 0
+  },
+  "rows": [
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast",
+      "operator": "bomb_hit_counter_partial",
+      "source_issue": "historical_5_hit_vs_later_4_hit_conflict",
+      "source_url": null,
+      "current_listing_match": false,
+      "source_conflict_evidence_url": "https://www.oncehuman.game/news/devBlog/20241123/40781_1195665.html",
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hits_for_this_bomb"
+      ],
+      "safety_gate": "First complete hit-count step only; later steps blocked by unknown cap/scope.",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Provide a bomb-scoped qualified hit count and verify any bonus cap with a controlled hit sequence.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-deviant-energy",
+      "operator": "bomb_hit_counter_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/delayed-blast-deviant-energy",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hits_for_this_bomb"
+      ],
+      "safety_gate": "First complete hit-count step only; later steps blocked by unknown cap/scope.",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Provide a bomb-scoped qualified hit count and verify any bonus cap with a controlled hit sequence.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-general",
+      "operator": "bomb_hit_counter_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/delayed-blast-general",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hits_for_this_bomb"
+      ],
+      "safety_gate": "First complete hit-count step only; later steps blocked by unknown cap/scope.",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Provide a bomb-scoped qualified hit count and verify any bonus cap with a controlled hit sequence.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-precision",
+      "operator": "bomb_hit_counter_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/delayed-blast-precision",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hits_for_this_bomb"
+      ],
+      "safety_gate": "First complete hit-count step only; later steps blocked by unknown cap/scope.",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Provide a bomb-scoped qualified hit count and verify any bonus cap with a controlled hit sequence.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-survival",
+      "operator": "bomb_hit_counter_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/delayed-blast-survival",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hits_for_this_bomb"
+      ],
+      "safety_gate": "First complete hit-count step only; later steps blocked by unknown cap/scope.",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Provide a bomb-scoped qualified hit count and verify any bonus cap with a controlled hit sequence.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-unstable-bomber",
+      "operator": "bomb_hit_counter_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/delayed-blast-unstable-bomber",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hits_for_this_bomb"
+      ],
+      "safety_gate": "First complete hit-count step only; later steps blocked by unknown cap/scope.",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Provide a bomb-scoped qualified hit count and verify any bonus cap with a controlled hit sequence.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:delayed-blast-violent",
+      "operator": "bomb_hit_counter_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/delayed-blast-violent",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hits_for_this_bomb"
+      ],
+      "safety_gate": "First complete hit-count step only; later steps blocked by unknown cap/scope.",
+      "unresolved": [
+        "hit_counter_scope",
+        "maximum_bonus"
+      ],
+      "next_action": "Provide a bomb-scoped qualified hit count and verify any bonus cap with a controlled hit sequence.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel",
+      "operator": "shrapnel_special_hit_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": null,
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "shrapnel_ordinal"
+      ],
+      "safety_gate": "Special event descriptor only; no explosion damage amount.",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Measure the twentieth Shrapnel explosion radius and target multiplicity; validate its base damage and crit handling.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-general",
+      "operator": "shrapnel_special_hit_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/explosive-shrapnel-general",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "shrapnel_ordinal"
+      ],
+      "safety_gate": "Special event descriptor only; no explosion damage amount.",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Measure the twentieth Shrapnel explosion radius and target multiplicity; validate its base damage and crit handling.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-precision",
+      "operator": "shrapnel_special_hit_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/explosive-shrapnel-precision",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "shrapnel_ordinal"
+      ],
+      "safety_gate": "Special event descriptor only; no explosion damage amount.",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Measure the twentieth Shrapnel explosion radius and target multiplicity; validate its base damage and crit handling.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-shrapnel",
+      "operator": "shrapnel_special_hit_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/explosive-shrapnel-shrapnel",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "shrapnel_ordinal"
+      ],
+      "safety_gate": "Special event descriptor only; no explosion damage amount.",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Measure the twentieth Shrapnel explosion radius and target multiplicity; validate its base damage and crit handling.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-survival",
+      "operator": "shrapnel_special_hit_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/explosive-shrapnel-survival",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "shrapnel_ordinal"
+      ],
+      "safety_gate": "Special event descriptor only; no explosion damage amount.",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Measure the twentieth Shrapnel explosion radius and target multiplicity; validate its base damage and crit handling.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:explosive-shrapnel-violent",
+      "operator": "shrapnel_special_hit_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/explosive-shrapnel-violent",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "shrapnel_ordinal"
+      ],
+      "safety_gate": "Special event descriptor only; no explosion damage amount.",
+      "unresolved": [
+        "explosion_radius",
+        "explosion_target_multiplicity"
+      ],
+      "next_action": "Measure the twentieth Shrapnel explosion radius and target multiplicity; validate its base damage and crit handling.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-deviant-energy",
+      "operator": "decaying_final_damage_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/frostwave-wither-deviant-energy",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "seconds_since_effect_start"
+      ],
+      "safety_gate": "Activation instant only; later times blocked.",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Measure Frost Vortex final damage at activation and later seconds to establish the decay basis and endpoint.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-frost-vortex",
+      "operator": "decaying_final_damage_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/frostwave-wither-frost-vortex",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "seconds_since_effect_start"
+      ],
+      "safety_gate": "Activation instant only; later times blocked.",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Measure Frost Vortex final damage at activation and later seconds to establish the decay basis and endpoint.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-general",
+      "operator": "decaying_final_damage_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/frostwave-wither-general",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "seconds_since_effect_start"
+      ],
+      "safety_gate": "Activation instant only; later times blocked.",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Measure Frost Vortex final damage at activation and later seconds to establish the decay basis and endpoint.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-survival",
+      "operator": "decaying_final_damage_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/frostwave-wither-survival",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "seconds_since_effect_start"
+      ],
+      "safety_gate": "Activation instant only; later times blocked.",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Measure Frost Vortex final damage at activation and later seconds to establish the decay basis and endpoint.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:mask_mod:frostwave-wither-violent",
+      "operator": "decaying_final_damage_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/frostwave-wither-violent",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "seconds_since_effect_start"
+      ],
+      "safety_gate": "Activation instant only; later times blocked.",
+      "unresolved": [
+        "decay_basis",
+        "minimum_or_expiration"
+      ],
+      "next_action": "Measure Frost Vortex final damage at activation and later seconds to establish the decay basis and endpoint.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:pants_mod:rush-hour",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": null,
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-bounce",
+      "operator": "bounce_target_count_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/bounce-rampage-bounce",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "selectable_target_count"
+      ],
+      "safety_gate": "Descriptor only; target-count baseline unknown.",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Compare Bounce damage with one, two and three selectable targets to identify whether the initial target counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-general",
+      "operator": "bounce_target_count_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/bounce-rampage-general",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "selectable_target_count"
+      ],
+      "safety_gate": "Descriptor only; target-count baseline unknown.",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Compare Bounce damage with one, two and three selectable targets to identify whether the initial target counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-precision",
+      "operator": "bounce_target_count_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/bounce-rampage-precision",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "selectable_target_count"
+      ],
+      "safety_gate": "Descriptor only; target-count baseline unknown.",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Compare Bounce damage with one, two and three selectable targets to identify whether the initial target counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-survival",
+      "operator": "bounce_target_count_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/bounce-rampage-survival",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "selectable_target_count"
+      ],
+      "safety_gate": "Descriptor only; target-count baseline unknown.",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Compare Bounce damage with one, two and three selectable targets to identify whether the initial target counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:bounce-rampage-violent",
+      "operator": "bounce_target_count_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/bounce-rampage-violent",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "selectable_target_count"
+      ],
+      "safety_gate": "Descriptor only; target-count baseline unknown.",
+      "unresolved": [
+        "whether_initial_target_counts"
+      ],
+      "next_action": "Compare Bounce damage with one, two and three selectable targets to identify whether the initial target counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": null,
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-general",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-general",
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-precision",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-precision",
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-survival",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-survival",
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-the-bulls-eye",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-the-bulls-eye",
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunters-perk-violent",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-violent",
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precise-rush-general",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/precise-rush-general",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "fast_gunner_active",
+        "continuous_fire_seconds"
+      ],
+      "safety_gate": "Descriptor only; +45% cap is known but accrual curve is not.",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Record Weakspot DMG immediately after Fast Gunner activation and during continuous fire over three seconds to identify ramp trigger and rate.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": null,
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "fast_gunner_active",
+        "continuous_fire_seconds"
+      ],
+      "safety_gate": "Descriptor only; +45% cap is known but accrual curve is not.",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Record Weakspot DMG immediately after Fast Gunner activation and during continuous fire over three seconds to identify ramp trigger and rate.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush-fast-gunner",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/precision-rush-fast-gunner",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "fast_gunner_active",
+        "continuous_fire_seconds"
+      ],
+      "safety_gate": "Descriptor only; +45% cap is known but accrual curve is not.",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Record Weakspot DMG immediately after Fast Gunner activation and during continuous fire over three seconds to identify ramp trigger and rate.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush-precision",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/precision-rush-precision",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "fast_gunner_active",
+        "continuous_fire_seconds"
+      ],
+      "safety_gate": "Descriptor only; +45% cap is known but accrual curve is not.",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Record Weakspot DMG immediately after Fast Gunner activation and during continuous fire over three seconds to identify ramp trigger and rate.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush-survival",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": "https://www.oncehumandb.com/mods/precision-rush-survival",
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "fast_gunner_active",
+        "continuous_fire_seconds"
+      ],
+      "safety_gate": "Descriptor only; +45% cap is known but accrual curve is not.",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Record Weakspot DMG immediately after Fast Gunner activation and during continuous fire over three seconds to identify ramp trigger and rate.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:precision-rush-violent",
+      "operator": "fast_gunner_weakspot_ramp_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/precision-rush-violent",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "fast_gunner_active",
+        "continuous_fire_seconds"
+      ],
+      "safety_gate": "Descriptor only; +45% cap is known but accrual curve is not.",
+      "unresolved": [
+        "ramp_rate_or_trigger"
+      ],
+      "next_action": "Record Weakspot DMG immediately after Fast Gunner activation and during continuous fire over three seconds to identify ramp trigger and rate.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand",
+      "operator": "fortress_party_scaling_partial",
+      "source_issue": "historical_or_unmatched_identity",
+      "source_url": null,
+      "current_listing_match": false,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "players_inside_fortress"
+      ],
+      "safety_gate": "Descriptor only; 40% cap is known but per-player formula is not.",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Compare Weapon DMG with one, two and three players inside Fortress Warfare to establish the per-player slope and whether self counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-fortress-warfare",
+      "operator": "fortress_party_scaling_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/united-we-stand-fortress-warfare",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "players_inside_fortress"
+      ],
+      "safety_gate": "Descriptor only; 40% cap is known but per-player formula is not.",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Compare Weapon DMG with one, two and three players inside Fortress Warfare to establish the per-player slope and whether self counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-general",
+      "operator": "fortress_party_scaling_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/united-we-stand-general",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "players_inside_fortress"
+      ],
+      "safety_gate": "Descriptor only; 40% cap is known but per-player formula is not.",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Compare Weapon DMG with one, two and three players inside Fortress Warfare to establish the per-player slope and whether self counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-precision",
+      "operator": "fortress_party_scaling_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/united-we-stand-precision",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "players_inside_fortress"
+      ],
+      "safety_gate": "Descriptor only; 40% cap is known but per-player formula is not.",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Compare Weapon DMG with one, two and three players inside Fortress Warfare to establish the per-player slope and whether self counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-survival",
+      "operator": "fortress_party_scaling_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/united-we-stand-survival",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "players_inside_fortress"
+      ],
+      "safety_gate": "Descriptor only; 40% cap is known but per-player formula is not.",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Compare Weapon DMG with one, two and three players inside Fortress Warfare to establish the per-player slope and whether self counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:united-we-stand-violent",
+      "operator": "fortress_party_scaling_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/united-we-stand-violent",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "players_inside_fortress"
+      ],
+      "safety_gate": "Descriptor only; 40% cap is known but per-player formula is not.",
+      "unresolved": [
+        "per_player_scaling"
+      ],
+      "next_action": "Compare Weapon DMG with one, two and three players inside Fortress Warfare to establish the per-player slope and whether self counts.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-battle",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-battle",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-deviant-energy",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-downstar",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-downstar",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-downstar-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-downstar-deviant-energy",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-general",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-general",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-mirror",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-mirror",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-mirror-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-mirror-deviant-energy",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-phantasmal",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-phantasmal",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-phantasmal-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-phantasmal-deviant-energy",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-precision",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-precision",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-survival",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-survival",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-violent",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-violent",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-wild",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-wild",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:boots_mod:rush-hour-wild-deviant-energy",
+      "operator": "hp_loss_conversion_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/rush-hour-wild-deviant-energy",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "bounded_known_component_executable",
+      "required_context": [
+        "qualified_hp_loss_percent"
+      ],
+      "safety_gate": "Exactly one qualified 10% loss step only; larger loss blocked.",
+      "unresolved": [
+        "rounding_at_step_boundary",
+        "maximum_stack_or_cap"
+      ],
+      "next_action": "Verify whether HP loss means current missing HP or cumulative consumption, then test a second step to find the cap and rounding.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-general",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-general",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-violent",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-violent",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-precision",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-precision",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-the-bull-s-eye",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-the-bulls-eye",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    },
+    {
+      "catalog_id": "mod:weapon_mod:hunter-s-perk-survival",
+      "operator": "marked_target_damage_direction_partial",
+      "source_issue": "current_page_identity_but_no_exact_level",
+      "source_url": "https://www.oncehumandb.com/mods/hunters-perk-survival",
+      "current_listing_match": true,
+      "source_conflict_evidence_url": null,
+      "exact_level_observation": false,
+      "source_numeric_binding": "community_text_unbound_to_level",
+      "v5_status": "source_parameter_blocked",
+      "required_context": [
+        "marked_target",
+        "meta_target"
+      ],
+      "safety_gate": "Descriptor only; damage actor/target direction unknown.",
+      "unresolved": [
+        "damage_actor_and_target_direction"
+      ],
+      "next_action": "Inspect the exact tooltip or compare incoming and outgoing damage against Metas to determine whose damage is reduced.",
+      "current_level_comparison_allowed": false,
+      "whole_dps_certified": false
+    }
+  ]
+}

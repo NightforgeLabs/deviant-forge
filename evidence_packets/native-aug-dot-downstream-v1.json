@@ -1,0 +1,100 @@
+{
+  "source_hashes": {
+    "/home/dv/Documents/Codex/2026-11-01/task-5/be_hit_server_capture/CompBeHitServer.pyc": "face8eca67ea51e5fb5aa53e60efe4b2e589b00db97b93095f98ac70d0a70799",
+    "/home/dv/Documents/Codex/2026-11-01/task-5/shield_settlement_capture/24730_dcs_extend\\component\\CompBeHitCommon.pyc": "accfc688e30e341b8bc43f3113c7e1c929bcb9f2c1e9edc697d6f883e6ba48b2",
+    "/home/dv/Documents/Codex/2026-11-01/task-5/attack_consumer_captures/CompDamageFormula.pyc": "6aa212978067cf11a1de412915f1904dc6d7da5365746d79c0d305b3773dc4df",
+    "/home/dv/Documents/Codex/2026-11-01/task-5/attack_consumer_captures/formula_const.pyc": "db441046402c48186681a6cc2ef49a34e1009e6d91bcfd1e2728315b60e098a1",
+    "/home/dv/Documents/Codex/2026-11-01/task-5/attack_consumer_captures/damage_formula.pyc": "244bf28269e6b46ae9fafc164c14f33e95822616775abaf64484224c119117ee",
+    "/home/dv/Documents/Codex/2026-11-01/task-5/aug_effect_node_captures/NodeDurativeAttack.pyc": "0e04fa1d31d86caf025082b0d3ca059f5238f03715547ad159e838a8382218a8",
+    "/home/dv/Documents/Codex/2026-11-01/task-5/aug_normal_base_capture/LogicTreeNodeNormal.pyc": "041d6b5077750e80976b58f7f60682de682d1ecb2d00d8efacdd518799ff841d",
+    "/home/dv/Documents/Codex/2026-11-01/task-5/aug_typed_node_configs.json": "e8fb4c1c6594e4a34d112f4b285d98358d8bc1fa5c37ee9574a2e63d76efea86",
+    "/home/dv/Documents/Codex/2026-11-02/task/native_aug_graph_port_ledger.json": "621a83b838363ef51c7a628d705e8af3c88e8e8c6851eb41de866bdfa6f1a805"
+  },
+  "selected_aug_nodes": {
+    "129": {
+      "config": {
+        "formula_attack_type": 4,
+        "element_type": 3,
+        "is_buff_damage": 1,
+        "is_keyword_damage": 0,
+        "keyword": 302,
+        "use_final_dam_add_rate": 1,
+        "use_final_ignore_dam_rate": 1
+      },
+      "attack_value_source_node": 140
+    },
+    "215": {
+      "config": {
+        "formula_attack_type": 4,
+        "element_type": 3,
+        "is_buff_damage": 1,
+        "is_keyword_damage": 0,
+        "keyword": 302,
+        "use_final_dam_add_rate": 1,
+        "use_final_ignore_dam_rate": 1
+      },
+      "attack_value_source_node": 172
+    }
+  },
+  "formula_attack_type_4_name": "Dot",
+  "verified_downstream": {
+    "durative_event_method": [
+      21488,
+      24202
+    ],
+    "durative_processing_method": [
+      27938,
+      30298
+    ],
+    "common_calculation_method": [
+      19388,
+      20276
+    ],
+    "common_damage_method": [
+      21606,
+      25082
+    ],
+    "formula_damage_method": [
+      5211,
+      5867
+    ],
+    "formula_result_method": [
+      10894,
+      11520
+    ],
+    "target_keyword_special_case": 302,
+    "weak_body_part_flag_set_for_Dot": false,
+    "crit_eligibility": "conditional; native graph uses keyword and other guards"
+  },
+  "conditional_vector": {
+    "inputs": {
+      "skill_power": 100.0,
+      "skill_dam_base_dam_surge": 0.5,
+      "dam_up": 0.0,
+      "pvp_ratio": 1.0,
+      "all_other_graph_factors": 1.0,
+      "executor_maps_attack_value_to_hit_info_attack": true,
+      "formula_attack_type": 4,
+      "damage_amount": 1,
+      "final_attack_rate_dic": null
+    },
+    "configured_attack_value": 50.0,
+    "formula_stage": 50,
+    "controlled_player_settlement": {
+      "status": "SUCCESS",
+      "post_attenuation_damage": 50,
+      "health_input": 50,
+      "damage_after_sync": 50,
+      "reported_real_damage_hp": 50,
+      "holder_hp_after": 50,
+      "actual_hp_damage": 50,
+      "hp_change_value": 50,
+      "actual_total_damage": 50,
+      "health_take_damage_called": true,
+      "death_action_requested": null
+    }
+  },
+  "missing_bridge": "Copied NodeDurativeAttack.NodeServer has no _do; NormalNodeServerBase._do raises NotImplementedError. No readable method proves attack_value\u2192hit_info attacker_infos.attack or propagation of configured flags into the target event.",
+  "game_code_executed": false,
+  "forge_files_modified": false
+}

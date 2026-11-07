@@ -1,0 +1,1116 @@
+{
+  "schema_version": 1,
+  "source_manifest": "/home/dv/Documents/Codex/2026-11-01/task-5/attack_consumer_captures/manifest.json",
+  "source_pyc_sha256": {
+    "damage_formula.pyc": "244bf28269e6b46ae9fafc164c14f33e95822616775abaf64484224c119117ee",
+    "CompDamageFormula.pyc": "6aa212978067cf11a1de412915f1904dc6d7da5365746d79c0d305b3773dc4df",
+    "Expr.pyc": "cd450e7843aec5752b66d085293b40e47f740e5b8c50ce4aaded582960ae0398",
+    "FormulaData.pyc": "afebb642dc7f2c6ca47c0169026b445509e67b9ccfac75b839858fdba2a8f108"
+  },
+  "graph": {
+    "version": 13,
+    "source_module": "game_common.data.formula_data.damage_formula",
+    "original_pyc_graph_tuple_byte_range": [
+      15637,
+      28373
+    ],
+    "original_pyc_graph_tuple_sha256": "aba2f1e8b66b3bf464bc169c2c30aed6aadd638153985e28dfc00e6bf8db0c9b",
+    "node_count": 314,
+    "final_attack_target_node": 313,
+    "selected_nodes": {
+      "0": {
+        "dependents": [
+          33,
+          207,
+          195,
+          246,
+          225,
+          122,
+          133,
+          90,
+          257,
+          272,
+          295,
+          86,
+          243,
+          153,
+          313,
+          41,
+          279
+        ],
+        "descriptor": [
+          "NumberExpr",
+          0
+        ],
+        "default": 0
+      },
+      "1": {
+        "dependents": [
+          176,
+          191,
+          192,
+          263,
+          227,
+          74,
+          209,
+          173,
+          181,
+          195,
+          141,
+          92,
+          53,
+          242,
+          250,
+          300,
+          240,
+          287,
+          157,
+          146,
+          288,
+          199,
+          97,
+          165,
+          155,
+          144,
+          101,
+          124,
+          285,
+          307,
+          49,
+          41,
+          279
+        ],
+        "descriptor": [
+          "NumberExpr",
+          1
+        ],
+        "default": 1
+      },
+      "14": {
+        "dependents": [
+          301
+        ],
+        "descriptor": [
+          "NameExpr",
+          "unit_part_weak_dam_rate",
+          -1
+        ],
+        "default": 0
+      },
+      "28": {
+        "dependents": [
+          293
+        ],
+        "descriptor": [
+          "NameExpr",
+          "weak_dam_rate",
+          -1
+        ],
+        "default": 0
+      },
+      "36": {
+        "dependents": [
+          49,
+          310
+        ],
+        "descriptor": [
+          "NameExpr",
+          "use_final_ignore_dam_rate",
+          -1
+        ],
+        "default": 0
+      },
+      "40": {
+        "dependents": [
+          41
+        ],
+        "descriptor": [
+          "NameExpr",
+          "_RANDOM",
+          -1
+        ],
+        "default": 0
+      },
+      "41": {
+        "dependents": [
+          275,
+          161
+        ],
+        "descriptor": [
+          "FunctionExpr",
+          "random",
+          0,
+          1,
+          40
+        ],
+        "default": 0.195281223275
+      },
+      "49": {
+        "dependents": [
+          310
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          1,
+          "-",
+          36
+        ],
+        "default": 1
+      },
+      "56": {
+        "dependents": [
+          277
+        ],
+        "descriptor": [
+          "NameExpr",
+          "BB.defined_fixed_crit",
+          -1
+        ],
+        "default": 0
+      },
+      "59": {
+        "dependents": [
+          274
+        ],
+        "descriptor": [
+          "NameExpr",
+          "crit_rate_dis_count",
+          -1
+        ],
+        "default": 0
+      },
+      "84": {
+        "dependents": [
+          85
+        ],
+        "descriptor": [
+          "NameExpr",
+          "attack",
+          -1
+        ],
+        "default": 0
+      },
+      "85": {
+        "dependents": [
+          312
+        ],
+        "descriptor": [
+          "NameExpr",
+          "base_attack",
+          84
+        ],
+        "default": 0
+      },
+      "88": {
+        "dependents": [
+          270
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_cirt_dam_rate",
+          87
+        ],
+        "default": 0
+      },
+      "102": {
+        "dependents": [
+          162
+        ],
+        "descriptor": [
+          "NameExpr",
+          "is_weak",
+          -1
+        ],
+        "default": 0
+      },
+      "110": {
+        "dependents": [
+          111
+        ],
+        "descriptor": [
+          "NameExpr",
+          "non_weak_convert_to_weak_rate",
+          -1
+        ],
+        "default": 0
+      },
+      "111": {
+        "dependents": [
+          160
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_weak_rate",
+          110
+        ],
+        "default": 0
+      },
+      "113": {
+        "dependents": [
+          301
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_element_type_dam_add_rate",
+          86
+        ],
+        "default": 1
+      },
+      "142": {
+        "dependents": [
+          301
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_skill_rate",
+          141
+        ],
+        "default": 1
+      },
+      "145": {
+        "dependents": [
+          312
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_special_regulate_factor",
+          65
+        ],
+        "default": 0
+      },
+      "149": {
+        "dependents": [
+          301
+        ],
+        "descriptor": [
+          "NameExpr",
+          "dis_dam_rate",
+          -1
+        ],
+        "default": 0
+      },
+      "159": {
+        "dependents": [
+          160
+        ],
+        "descriptor": [
+          "NameExpr",
+          "weak_rate_dis_count",
+          -1
+        ],
+        "default": 0
+      },
+      "160": {
+        "dependents": [
+          161
+        ],
+        "descriptor": [
+          "FunctionExpr",
+          "get_expect_rate",
+          111,
+          159,
+          52
+        ],
+        "default": 0
+      },
+      "161": {
+        "dependents": [
+          162
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          41,
+          "<",
+          160
+        ],
+        "default": 0
+      },
+      "162": {
+        "dependents": [
+          197
+        ],
+        "descriptor": [
+          "FunctionExpr",
+          "max",
+          102,
+          161
+        ],
+        "default": 0
+      },
+      "163": {
+        "dependents": [
+          256
+        ],
+        "descriptor": [
+          "NameExpr",
+          "crit_rate",
+          -1
+        ],
+        "default": 0
+      },
+      "194": {
+        "dependents": [
+          195
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          192,
+          "+",
+          183
+        ],
+        "default": 1
+      },
+      "195": {
+        "dependents": [
+          196
+        ],
+        "descriptor": [
+          "FunctionExpr",
+          "clamp",
+          194,
+          0,
+          1
+        ],
+        "default": 1
+      },
+      "196": {
+        "dependents": [
+          197
+        ],
+        "descriptor": [
+          "NameExpr",
+          "use_weak",
+          195
+        ],
+        "default": 1
+      },
+      "197": {
+        "dependents": [
+          198
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          196,
+          "*",
+          162
+        ],
+        "default": 0
+      },
+      "155": {
+        "dependents": [
+          308
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          1,
+          "+",
+          46,
+          "-",
+          154
+        ],
+        "default": 1
+      },
+      "156": {
+        "dependents": [
+          157,
+          303
+        ],
+        "descriptor": [
+          "NameExpr",
+          "use_final_dam_add_rate",
+          -1
+        ],
+        "default": 0
+      },
+      "157": {
+        "dependents": [
+          303
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          1,
+          "-",
+          156
+        ],
+        "default": 1
+      },
+      "198": {
+        "dependents": [
+          296,
+          199,
+          223
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_is_weak",
+          197
+        ],
+        "default": 0
+      },
+      "240": {
+        "dependents": [
+          301
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          1,
+          "+",
+          239
+        ],
+        "default": 1
+      },
+      "244": {
+        "dependents": [
+          301
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_field_dam_add_rate",
+          243
+        ],
+        "default": 1
+      },
+      "249": {
+        "dependents": [
+          250
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_keyword_damage_add_rate",
+          248
+        ],
+        "default": 0
+      },
+      "250": {
+        "dependents": [
+          301
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          1,
+          "+",
+          249
+        ],
+        "default": 1
+      },
+      "267": {
+        "dependents": [
+          278
+        ],
+        "descriptor": [
+          "NameExpr",
+          "use_crit",
+          266
+        ],
+        "default": 0
+      },
+      "270": {
+        "dependents": [
+          271
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          88,
+          "+",
+          137,
+          "+",
+          130,
+          "+",
+          262
+        ],
+        "default": 0
+      },
+      "271": {
+        "dependents": [
+          272
+        ],
+        "descriptor": [
+          "NameExpr",
+          "crit_dam_add_rate",
+          270
+        ],
+        "default": 0
+      },
+      "272": {
+        "dependents": [
+          283
+        ],
+        "descriptor": [
+          "FunctionExpr",
+          "max",
+          271,
+          0
+        ],
+        "default": 0
+      },
+      "273": {
+        "dependents": [
+          274
+        ],
+        "descriptor": [
+          "NameExpr",
+          "random_speed_factor_crit",
+          -1
+        ],
+        "default": 0
+      },
+      "274": {
+        "dependents": [
+          275
+        ],
+        "descriptor": [
+          "FunctionExpr",
+          "get_expect_rate",
+          258,
+          59,
+          273
+        ],
+        "default": 0
+      },
+      "275": {
+        "dependents": [
+          276
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          41,
+          "<",
+          274
+        ],
+        "default": 0
+      },
+      "276": {
+        "dependents": [
+          277
+        ],
+        "descriptor": [
+          "NameExpr",
+          "is_crit",
+          275
+        ],
+        "default": 0
+      },
+      "277": {
+        "dependents": [
+          278
+        ],
+        "descriptor": [
+          "FunctionExpr",
+          "get_final_is_crit",
+          56,
+          276
+        ],
+        "default": 0
+      },
+      "278": {
+        "dependents": [
+          279
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          267,
+          "*",
+          277
+        ],
+        "default": 0
+      },
+      "279": {
+        "dependents": [
+          280
+        ],
+        "descriptor": [
+          "FunctionExpr",
+          "clamp",
+          278,
+          0,
+          1
+        ],
+        "default": 0
+      },
+      "280": {
+        "dependents": [
+          281,
+          283
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_is_crit",
+          279
+        ],
+        "default": 0
+      },
+      "283": {
+        "dependents": [
+          284
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          280,
+          "*",
+          272
+        ],
+        "default": 0
+      },
+      "284": {
+        "dependents": [
+          298
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_crit_dam_add_rate",
+          283
+        ],
+        "default": 0
+      },
+      "286": {
+        "dependents": [
+          287
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_dam_add_rate",
+          -1
+        ],
+        "default": 0
+      },
+      "287": {
+        "dependents": [
+          301
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          1,
+          "+",
+          286
+        ],
+        "default": 1
+      },
+      "293": {
+        "dependents": [
+          294
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          28,
+          "+",
+          292,
+          "+",
+          269
+        ],
+        "default": 0
+      },
+      "294": {
+        "dependents": [
+          295
+        ],
+        "descriptor": [
+          "NameExpr",
+          "weak_dam_add_rate",
+          293
+        ],
+        "default": 0
+      },
+      "295": {
+        "dependents": [
+          296
+        ],
+        "descriptor": [
+          "FunctionExpr",
+          "max",
+          294,
+          0
+        ],
+        "default": 0
+      },
+      "296": {
+        "dependents": [
+          297
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          198,
+          "*",
+          295
+        ],
+        "default": 0
+      },
+      "297": {
+        "dependents": [
+          298
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_weak_dam_add_rate",
+          296
+        ],
+        "default": 0
+      },
+      "298": {
+        "dependents": [
+          299
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          284,
+          "+",
+          297
+        ],
+        "default": 0
+      },
+      "299": {
+        "dependents": [
+          300
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_crite_weakness_factor",
+          298
+        ],
+        "default": 0
+      },
+      "300": {
+        "dependents": [
+          301
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          1,
+          "+",
+          299
+        ],
+        "default": 1
+      },
+      "301": {
+        "dependents": [
+          302
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          142,
+          "*",
+          250,
+          "*",
+          14,
+          "*",
+          300,
+          "*",
+          113,
+          "*",
+          240,
+          "*",
+          244,
+          "*",
+          149,
+          "*",
+          287
+        ],
+        "default": 0
+      },
+      "302": {
+        "dependents": [
+          303
+        ],
+        "descriptor": [
+          "NameExpr",
+          "attack_additional_rate",
+          301
+        ],
+        "default": 0
+      },
+      "303": {
+        "dependents": [
+          304
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          156,
+          "*",
+          302,
+          "+",
+          157
+        ],
+        "default": 1
+      },
+      "304": {
+        "dependents": [
+          312
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_attack_additional_rate",
+          303
+        ],
+        "default": 1
+      },
+      "305": {
+        "dependents": [
+          306
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          201,
+          "+",
+          223
+        ],
+        "default": 0
+      },
+      "306": {
+        "dependents": [
+          307
+        ],
+        "descriptor": [
+          "NameExpr",
+          "weak_or_none_ignore_dam_rate",
+          305
+        ],
+        "default": 0
+      },
+      "307": {
+        "dependents": [
+          308
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          1,
+          "-",
+          306
+        ],
+        "default": 1
+      },
+      "308": {
+        "dependents": [
+          309
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          155,
+          "*",
+          144,
+          "*",
+          147,
+          "*",
+          289,
+          "*",
+          101,
+          "*",
+          124,
+          "*",
+          285,
+          "*",
+          307,
+          "*",
+          167
+        ],
+        "default": 1
+      },
+      "309": {
+        "dependents": [
+          310
+        ],
+        "descriptor": [
+          "NameExpr",
+          "attack_ignore_dam_rate",
+          308
+        ],
+        "default": 1
+      },
+      "310": {
+        "dependents": [
+          311
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          36,
+          "*",
+          309,
+          "+",
+          49
+        ],
+        "default": 1
+      },
+      "311": {
+        "dependents": [
+          312
+        ],
+        "descriptor": [
+          "NameExpr",
+          "final_attack_ignore_dam_rate",
+          310
+        ],
+        "default": 1
+      },
+      "312": {
+        "dependents": [
+          313
+        ],
+        "descriptor": [
+          "BinopListExpr",
+          85,
+          "*",
+          304,
+          "*",
+          311,
+          "*",
+          145
+        ],
+        "default": 0
+      },
+      "313": {
+        "dependents": [],
+        "descriptor": [
+          "FunctionExpr",
+          "max",
+          312,
+          0
+        ],
+        "default": 0
+      }
+    }
+  },
+  "methods": [
+    {
+      "qualname": "CompDamageFormula._get_final_attack",
+      "source_line": 240,
+      "body_absolute_offset": 12264,
+      "body_length": 162,
+      "body_sha256": "4384a086a916bd4f8a428d4de92749e00e2f3e17600f6019a17ffd059e79f1cf",
+      "names": [
+        "int",
+        "get"
+      ],
+      "constants": [
+        "None",
+        "'final_attack'",
+        "'rate'",
+        "'formula_attack_type'",
+        "'formula_type_rate'",
+        "1.0"
+      ]
+    },
+    {
+      "qualname": "CompDamageFormula.get_formula_damage_result",
+      "source_line": 208,
+      "body_absolute_offset": 10894,
+      "body_length": 626,
+      "body_sha256": "e4bc8c28e3e042e3d98d26c9d8adf9f83dacd965e5ba4ad973fa19882614f0ca",
+      "names": [
+        "len",
+        "join",
+        "set",
+        "keys",
+        "update_leaves_fast",
+        "update_leaves",
+        "get_values_by_names",
+        "formula_const",
+        "DEFAULT_DAMAGE_NEED_LEAF_KEYS",
+        "_get_final_attack",
+        "max",
+        "round"
+      ],
+      "constants": [
+        "None",
+        "3",
+        "'_'",
+        "0",
+        "1.0",
+        "'final_is_crit'",
+        "'final_is_weak'",
+        "'final_crit_rate'",
+        "'final_anomaly_rate'",
+        "'final_weak_rate'",
+        "'use_crit'",
+        "'use_weak'",
+        "'crit_rate_dis_count'",
+        "'base_attack'",
+        "'final_attack_additional_rate'",
+        "False",
+        "('damage_hp', 'is_crit', 'is_anomaly', 'is_weak', 'final_crit_rate', 'final_anomaly_rate', 'final_weak_rate', 'use_weak', 'use_crit', 'crit_rate_dis_count', 'attacker_base_damage')"
+      ]
+    },
+    {
+      "qualname": "BinopListExpr.update",
+      "source_line": 80,
+      "body_absolute_offset": 4454,
+      "body_length": 326,
+      "body_sha256": "72cd501d6ad6158c0a36be0f14edd76648d478f3f8b7bb935f9ce10082ec8b94",
+      "names": [
+        "contents",
+        "get_expr_val",
+        "isinstance",
+        "int",
+        "float",
+        "binop",
+        "set_val"
+      ],
+      "constants": [
+        "None",
+        "0",
+        "'+'",
+        "1",
+        "'=='",
+        "1.0",
+        "0.0"
+      ]
+    },
+    {
+      "qualname": "BinopListExpr.binop",
+      "source_line": 95,
+      "body_absolute_offset": 5141,
+      "body_length": 360,
+      "body_sha256": "4db66bfb2e63b8096b736b40a1b2063c71f73b90c4a281fcb8df6cebf2f28f80",
+      "names": [],
+      "constants": [
+        "None",
+        "'+'",
+        "'-'",
+        "'*'",
+        "'/'",
+        "0",
+        "0.0",
+        "1.0",
+        "'**'",
+        "'<'",
+        "'<='",
+        "'>'",
+        "'>='",
+        "'=='",
+        "'!='",
+        "'||'"
+      ]
+    },
+    {
+      "qualname": "get_final_is_crit",
+      "source_line": 22,
+      "body_absolute_offset": 1172,
+      "body_length": 30,
+      "body_sha256": "dc0093b3d42b3841fc601b002c570b4525c2f875e91f9dd6853e90ef565427c1",
+      "names": [],
+      "constants": [
+        "None",
+        "0"
+      ]
+    },
+    {
+      "qualname": "get_expect_rate",
+      "source_line": 18,
+      "body_absolute_offset": 980,
+      "body_length": 56,
+      "body_sha256": "a51f55f2920c2fb7bfe38753dd08720087de95982bff6618970c1fac1837b6eb",
+      "names": [
+        "utility",
+        "get_expect_rate"
+      ],
+      "constants": [
+        "None"
+      ]
+    }
+  ],
+  "synthetic_graph_layer_fixture": {
+    "base_attack": 100,
+    "crit_add": 0.5,
+    "weak_add": 0.3,
+    "crit_weak_factor": 1.8,
+    "final_attack_before_rounding": 180.0
+  },
+  "scope": "Original copied bytes and literal DAG; no game module execution or runtime access."
+}

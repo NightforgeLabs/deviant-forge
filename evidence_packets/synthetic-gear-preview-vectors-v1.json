@@ -1,0 +1,81 @@
+{
+  "scope": "synthetic offline source-trace reference, not player values",
+  "weapon_preview_vectors": [
+    {
+      "name": "replace_abs",
+      "remaining_changes": {
+        "abs": {
+          "init": {},
+          "other": {
+            "attack": 20.0
+          }
+        },
+        "rate": {
+          "init": {},
+          "other": {}
+        }
+      },
+      "selected_channels": {
+        "abs": {
+          "attack": 200.0
+        },
+        "rate": {}
+      },
+      "equation_inputs": {
+        "init": 0.0,
+        "abs": 220.0,
+        "rate": 0.0
+      },
+      "raw": 220.0,
+      "display": 220
+    },
+    {
+      "name": "replace_abs_and_rate",
+      "remaining_changes": {
+        "abs": {
+          "init": {},
+          "other": {
+            "attack": 50.0
+          }
+        },
+        "rate": {
+          "init": {},
+          "other": {
+            "attack": 0.05
+          }
+        }
+      },
+      "selected_channels": {
+        "abs": {
+          "attack": 200.0
+        },
+        "rate": {
+          "attack": 0.1
+        }
+      },
+      "equation_inputs": {
+        "init": 0.0,
+        "abs": 250.0,
+        "rate": 0.15000000000000002
+      },
+      "raw": 287.5,
+      "display": 288
+    }
+  ],
+  "helper_vectors": {
+    "independent_rate_add": 0.3860000000000001,
+    "independent_rate_minus": 0.31599999999999995,
+    "independent_abs_add": 115.50000000000001,
+    "init_independent_ignores_plain_rate": 110.00000000000001,
+    "other_independent_ignores_plain_rate": 55.00000000000001,
+    "set_overrides_all_channels": 320,
+    "set_zero": 0,
+    "wrapper_selected_zero_set_falls_back": 30,
+    "half_even_10_5": 10,
+    "half_even_11_5": 12,
+    "floor": 0,
+    "ceiling": 130000
+  },
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

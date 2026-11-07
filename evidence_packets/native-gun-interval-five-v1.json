@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "source_literal_sha256": "7ba048990ee6da61bd37bd82b00e1a11aa8f4df792e429ebae5342a91f505212",
+  "prior_exact_identity_suffix_packet_sha256": "b7f7fd1da5df7886026460d98d0f42e445481eef1a623911c4e3be553dd4abb6",
+  "source_capture_manifest_sha256": "a45719c20343f493db7dc6ace07a842b0f978900d5108bc0b11daee511df8895",
+  "method": "Use native ordered descriptor (34 float fields with 18/34 alternatives) and indexed exact gun rows. Enumerate bounded finite float paths; anchor their end to independently typed fields68\u201385 with valid ADS source name, accessory/bullet identity, 200-unit fly range and bullet speed. Require every anchored path to agree on each target float value/type/offset. Independently parse the five typed fields128\u2013132 ending at the previously verified field133 suffix; require unique sticker/viewkick string controls. No extracted game code execution.",
+  "coverage": {
+    "exact_weapon_gun_rows": 5,
+    "target_native_fields_per_row": 6
+  },
+  "native_descriptor_positions": {
+    "auto_time_interval": [
+      10,
+      11
+    ],
+    "burst_bullet_interval": [
+      16,
+      17
+    ],
+    "plug_time": [
+      34,
+      35
+    ],
+    "single_time_interval": [
+      60,
+      61
+    ],
+    "burst_bullet_num": [
+      85
+    ],
+    "shoot_time_to_trigger_plug": [
+      128
+    ]
+  },
+  "unit_and_formula_gate": "Native *_time_interval/plug_time names and a separate statically recovered consumer support seconds, but this packet itself preserves raw table values/types only. Burst count is native integer; trigger-plug is raw 0/1 integer. Final fire rate, mode selection, rounding and affix/modifier application require the consumer proof from the formula lane; do not derive them solely by matching published RPM.",
+  "records": [
+    {
+      "blueprint_id": 13451401,
+      "gear_id": 10451401,
+      "gun_no": 10450141,
+      "gun_row_bounds": [
+        122688,
+        123168
+      ],
+      "row_header_pointer_raw": {
+        "value": 50355,
+        "byte_offset": 122691,
+        "raw_hex": "b38903"
+      },
+      "float_segment_start_offset": 122694,
+      "anchored_float_segment_end_offset": 122934,
+      "anchored_float_parse_paths": 3,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0833,
+          "byte_offset": 122730,
+          "raw_hex": "a5bdc1172653b53f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0833,
+          "byte_offset": 122754,
+          "raw_hex": "a5bdc1172653b53f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 122822,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0833,
+          "byte_offset": 122906,
+          "raw_hex": "a5bdc1172653b53f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 122977,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 123091,
+          "raw_hex": "00"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 122934,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10450011,
+          "byte_offset": 122935,
+          "raw_hex": "dbe8fd04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 615,
+          "byte_offset": 122939,
+          "raw_hex": "e704",
+          "source_string": "fp_10450011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10450011,
+          "byte_offset": 122956,
+          "raw_hex": "dbe8fd04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 122960,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 122973,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 123092,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 537,
+          "source_string": "stk_aug"
+        },
+        "viewkick_no": {
+          "string_table_index": 185,
+          "source_string": "10410011"
+        }
+      },
+      "public_fire_rate_crosscheck_only": 720
+    },
+    {
+      "blueprint_id": 13413301,
+      "gear_id": 10413301,
+      "gun_no": 10410331,
+      "gun_row_bounds": [
+        108668,
+        109106
+      ],
+      "row_header_pointer_raw": {
+        "value": 27457,
+        "byte_offset": 108671,
+        "raw_hex": "c1d601"
+      },
+      "float_segment_start_offset": 108674,
+      "anchored_float_segment_end_offset": 108902,
+      "anchored_float_parse_paths": 1,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 108710,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.1166,
+          "byte_offset": 108734,
+          "raw_hex": "7daeb6627fd9bd3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 108802,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.12,
+          "byte_offset": 108878,
+          "raw_hex": "b81e85eb51b8be3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 108945,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 109059,
+          "raw_hex": "00"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 108902,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10410131,
+          "byte_offset": 108903,
+          "raw_hex": "93b1fb04"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 525,
+          "byte_offset": 108907,
+          "raw_hex": "8d04",
+          "source_string": "fp_10410131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10410131,
+          "byte_offset": 108924,
+          "raw_hex": "93b1fb04"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 108928,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 480.0,
+          "byte_offset": 108941,
+          "raw_hex": "0000f043"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 109060,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 278,
+          "source_string": "stk_scar"
+        },
+        "viewkick_no": {
+          "string_table_index": 185,
+          "source_string": "10410011"
+        }
+      },
+      "public_fire_rate_crosscheck_only": 515
+    },
+    {
+      "blueprint_id": 13742201,
+      "gear_id": 10742201,
+      "gun_no": 10742211,
+      "gun_row_bounds": [
+        64904,
+        65333
+      ],
+      "row_header_pointer_raw": {
+        "value": 37447,
+        "byte_offset": 64907,
+        "raw_hex": "c7a402"
+      },
+      "float_segment_start_offset": 64910,
+      "anchored_float_segment_end_offset": 65126,
+      "anchored_float_parse_paths": 1,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 64946,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 64966,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 65026,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.93,
+          "byte_offset": 65102,
+          "raw_hex": "c3f5285c8fc2ed3f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 65173,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 65287,
+          "raw_hex": "00"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 903,
+          "byte_offset": 65126,
+          "raw_hex": "8707"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10742211,
+          "byte_offset": 65128,
+          "raw_hex": "c3d38f05"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 578,
+          "byte_offset": 65132,
+          "raw_hex": "c204",
+          "source_string": "fp_10741211"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10742211,
+          "byte_offset": 65152,
+          "raw_hex": "c3d38f05"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 65156,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 250.0,
+          "byte_offset": 65169,
+          "raw_hex": "00007a43"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 65288,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 579,
+          "source_string": "stk_bow"
+        },
+        "viewkick_no": {
+          "string_table_index": 576,
+          "source_string": "10741211"
+        }
+      },
+      "public_fire_rate_crosscheck_only": 65
+    },
+    {
+      "blueprint_id": 13512301,
+      "gear_id": 10512301,
+      "gun_no": 10510151,
+      "gun_row_bounds": [
+        39024,
+        39455
+      ],
+      "row_header_pointer_raw": {
+        "value": 11567,
+        "byte_offset": 39027,
+        "raw_hex": "af5a"
+      },
+      "float_segment_start_offset": 39029,
+      "anchored_float_segment_end_offset": 39241,
+      "anchored_float_parse_paths": 1,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 39065,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 39085,
+          "raw_hex": "0000003f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 1.0,
+          "byte_offset": 39141,
+          "raw_hex": "0000803f"
+        },
+        "single_time_interval": {
+          "type_code": 18,
+          "value": 0.5,
+          "byte_offset": 39221,
+          "raw_hex": "0000003f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 39287,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 1,
+          "type_code": 1,
+          "byte_offset": 39401,
+          "raw_hex": "01"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 39241,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10510131,
+          "byte_offset": 39242,
+          "raw_hex": "b3be8105"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 590,
+          "byte_offset": 39246,
+          "raw_hex": "ce04",
+          "source_string": "fp_10510131"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10510131,
+          "byte_offset": 39266,
+          "raw_hex": "b3be8105"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 39270,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 550.0,
+          "byte_offset": 39283,
+          "raw_hex": "00800944"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 39402,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 276,
+          "source_string": "stk_m700"
+        },
+        "viewkick_no": {
+          "string_table_index": 259,
+          "source_string": "10510011"
+        }
+      },
+      "public_fire_rate_crosscheck_only": 40
+    },
+    {
+      "blueprint_id": 13641201,
+      "gear_id": 10641201,
+      "gun_no": 10640131,
+      "gun_row_bounds": [
+        151559,
+        151987
+      ],
+      "row_header_pointer_raw": {
+        "value": 123675,
+        "byte_offset": 151562,
+        "raw_hex": "9bc607"
+      },
+      "float_segment_start_offset": 151565,
+      "anchored_float_segment_end_offset": 151781,
+      "anchored_float_parse_paths": 1,
+      "native_fields": {
+        "auto_time_interval": {
+          "type_code": 34,
+          "value": 0.0923,
+          "byte_offset": 151601,
+          "raw_hex": "8cb96b09f9a0b73f"
+        },
+        "burst_bullet_interval": {
+          "type_code": 34,
+          "value": 0.0923,
+          "byte_offset": 151625,
+          "raw_hex": "8cb96b09f9a0b73f"
+        },
+        "plug_time": {
+          "type_code": 18,
+          "value": 0.0,
+          "byte_offset": 151689,
+          "raw_hex": "00000000"
+        },
+        "single_time_interval": {
+          "type_code": 34,
+          "value": 0.0923,
+          "byte_offset": 151753,
+          "raw_hex": "8cb96b09f9a0b73f"
+        },
+        "burst_bullet_num": {
+          "type_code": 1,
+          "value": 0,
+          "byte_offset": 151824,
+          "raw_hex": "00"
+        },
+        "shoot_time_to_trigger_plug": {
+          "value": 0,
+          "type_code": 1,
+          "byte_offset": 151940,
+          "raw_hex": "00"
+        }
+      },
+      "anchor_controls": {
+        "acc_strength_no": {
+          "type_code": 5,
+          "value": 0,
+          "byte_offset": 151781,
+          "raw_hex": "00"
+        },
+        "accessory_seq_no": {
+          "type_code": 1,
+          "value": 10640011,
+          "byte_offset": 151782,
+          "raw_hex": "8bb58905"
+        },
+        "ads_no": {
+          "type_code": 5,
+          "value": 520,
+          "byte_offset": 151786,
+          "raw_hex": "8804",
+          "source_string": "fp_10640011"
+        },
+        "bullet_base_no": {
+          "type_code": 1,
+          "value": 10640011,
+          "byte_offset": 151803,
+          "raw_hex": "8bb58905"
+        },
+        "bullet_fly_max_dis": {
+          "type_code": 18,
+          "value": 200.0,
+          "byte_offset": 151807,
+          "raw_hex": "00004843"
+        },
+        "bullet_speed": {
+          "type_code": 18,
+          "value": 450.0,
+          "byte_offset": 151820,
+          "raw_hex": "0000e143"
+        },
+        "shoulder_shot_ratio": {
+          "value": 0.75,
+          "type_code": 18,
+          "byte_offset": 151941,
+          "raw_hex": "0000403f"
+        },
+        "sticker_no": {
+          "string_table_index": 521,
+          "source_string": "stk_qbj97"
+        },
+        "viewkick_no": {
+          "string_table_index": 515,
+          "source_string": "10640011"
+        }
+      },
+      "public_fire_rate_crosscheck_only": 650
+    }
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

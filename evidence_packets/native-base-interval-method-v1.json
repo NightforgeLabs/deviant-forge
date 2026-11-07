@@ -1,0 +1,702 @@
+{
+  "schema_version": 1,
+  "source_pyc_sha256": "891bbda57741ffa7c4dd27e13d58c0a65534b29621838e9c4b86d95e1f1fa1b5",
+  "method": "get_gun_shoot_interval",
+  "source_line": 510,
+  "body_absolute_offset": 28422,
+  "body_length": 554,
+  "body_sha256": "da982bdaac2c77ac163dc460417585c18cc4e530d89c4011be70f17a3adaa453",
+  "names": [
+    "get_gun_params_by_gun_no",
+    "dcs_extend.const.shoot_const",
+    "ShootMode",
+    "get",
+    "SINGLE",
+    "BURST",
+    "AUTO"
+  ],
+  "constants": [
+    "None",
+    "0",
+    "('ShootMode',)",
+    "'default_shoot_mode'",
+    "'shoot_time_to_trigger_plug'",
+    "'single_time_interval'",
+    "'plug_time'",
+    "'burst_bullet_interval'",
+    "'burst_bullet_num'",
+    "'auto_time_interval'"
+  ],
+  "locals": [
+    "gun_no",
+    "gun_base_params",
+    "ShootMode",
+    "shoot_mode",
+    "shoot_time_to_trigger_plug",
+    "is_plug_gun",
+    "single_time_interval",
+    "plug_time",
+    "burst_bullet_interval",
+    "burst_bullet_num"
+  ],
+  "import_prologue_interval": [
+    28454,
+    28466
+  ],
+  "getter_method": {
+    "name": "get_gun_params_by_gun_no",
+    "absolute_offset": 22837,
+    "names": [
+      "gun_base_params_data",
+      "get"
+    ]
+  },
+  "round_binding_check": {
+    "rpm_uses_global_round": true,
+    "module_top_level_names_include_round": false,
+    "limit": "Runtime global injection and builtins binding are not observed."
+  },
+  "decoded_words_from_28466": [
+    {
+      "absolute_offset": 28466,
+      "raw_hex": "5e01",
+      "local_opcode": "LOAD_FAST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28468,
+      "raw_hex": "de07",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 7,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28488,
+      "raw_hex": "ca03",
+      "local_opcode": "LOAD_CONST",
+      "arg": 3,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28490,
+      "raw_hex": "ac01",
+      "local_opcode": "PRECALL",
+      "arg": 1,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28494,
+      "raw_hex": "e201",
+      "local_opcode": "CALL",
+      "arg": 1,
+      "cache_units_after": 4
+    },
+    {
+      "absolute_offset": 28504,
+      "raw_hex": "6403",
+      "local_opcode": "STORE_FAST",
+      "arg": 3,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28506,
+      "raw_hex": "5e03",
+      "local_opcode": "LOAD_FAST",
+      "arg": 3,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28508,
+      "raw_hex": "5e02",
+      "local_opcode": "LOAD_FAST",
+      "arg": 2,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28510,
+      "raw_hex": "de08",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 8,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28530,
+      "raw_hex": "7702",
+      "local_opcode": "COMPARE_OP",
+      "arg": 2,
+      "cache_units_after": 2
+    },
+    {
+      "absolute_offset": 28536,
+      "raw_hex": "bc61",
+      "local_opcode": "POP_JUMP_FORWARD_IF_FALSE",
+      "arg": 97,
+      "cache_units_after": 0,
+      "forward_target": 28732
+    },
+    {
+      "absolute_offset": 28538,
+      "raw_hex": "5e01",
+      "local_opcode": "LOAD_FAST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28540,
+      "raw_hex": "de07",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 7,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28560,
+      "raw_hex": "ca04",
+      "local_opcode": "LOAD_CONST",
+      "arg": 4,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28562,
+      "raw_hex": "ca01",
+      "local_opcode": "LOAD_CONST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28564,
+      "raw_hex": "ac02",
+      "local_opcode": "PRECALL",
+      "arg": 2,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28568,
+      "raw_hex": "e202",
+      "local_opcode": "CALL",
+      "arg": 2,
+      "cache_units_after": 4
+    },
+    {
+      "absolute_offset": 28578,
+      "raw_hex": "6404",
+      "local_opcode": "STORE_FAST",
+      "arg": 4,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28580,
+      "raw_hex": "5e04",
+      "local_opcode": "LOAD_FAST",
+      "arg": 4,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28582,
+      "raw_hex": "ca01",
+      "local_opcode": "LOAD_CONST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28584,
+      "raw_hex": "7704",
+      "local_opcode": "COMPARE_OP",
+      "arg": 4,
+      "cache_units_after": 2
+    },
+    {
+      "absolute_offset": 28590,
+      "raw_hex": "6405",
+      "local_opcode": "STORE_FAST",
+      "arg": 5,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28592,
+      "raw_hex": "5e01",
+      "local_opcode": "LOAD_FAST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28594,
+      "raw_hex": "de07",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 7,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28614,
+      "raw_hex": "ca05",
+      "local_opcode": "LOAD_CONST",
+      "arg": 5,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28616,
+      "raw_hex": "ac01",
+      "local_opcode": "PRECALL",
+      "arg": 1,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28620,
+      "raw_hex": "e201",
+      "local_opcode": "CALL",
+      "arg": 1,
+      "cache_units_after": 4
+    },
+    {
+      "absolute_offset": 28630,
+      "raw_hex": "6406",
+      "local_opcode": "STORE_FAST",
+      "arg": 6,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28632,
+      "raw_hex": "5e05",
+      "local_opcode": "LOAD_FAST",
+      "arg": 5,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28634,
+      "raw_hex": "bc1c",
+      "local_opcode": "POP_JUMP_FORWARD_IF_FALSE",
+      "arg": 28,
+      "cache_units_after": 0,
+      "forward_target": 28692
+    },
+    {
+      "absolute_offset": 28636,
+      "raw_hex": "5e01",
+      "local_opcode": "LOAD_FAST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28638,
+      "raw_hex": "de07",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 7,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28658,
+      "raw_hex": "ca06",
+      "local_opcode": "LOAD_CONST",
+      "arg": 6,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28660,
+      "raw_hex": "ac01",
+      "local_opcode": "PRECALL",
+      "arg": 1,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28664,
+      "raw_hex": "e201",
+      "local_opcode": "CALL",
+      "arg": 1,
+      "cache_units_after": 4
+    },
+    {
+      "absolute_offset": 28674,
+      "raw_hex": "6407",
+      "local_opcode": "STORE_FAST",
+      "arg": 7,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28676,
+      "raw_hex": "5e06",
+      "local_opcode": "LOAD_FAST",
+      "arg": 6,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28678,
+      "raw_hex": "5e07",
+      "local_opcode": "LOAD_FAST",
+      "arg": 7,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28680,
+      "raw_hex": "5e04",
+      "local_opcode": "LOAD_FAST",
+      "arg": 4,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28682,
+      "raw_hex": "7d0b",
+      "local_opcode": "BINARY_OP",
+      "arg": 11,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28686,
+      "raw_hex": "7d00",
+      "local_opcode": "BINARY_OP",
+      "arg": 0,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28690,
+      "raw_hex": "0d00",
+      "local_opcode": "RETURN_VALUE",
+      "arg": 0,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28692,
+      "raw_hex": "5e01",
+      "local_opcode": "LOAD_FAST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28694,
+      "raw_hex": "de07",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 7,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28714,
+      "raw_hex": "ca05",
+      "local_opcode": "LOAD_CONST",
+      "arg": 5,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28716,
+      "raw_hex": "ac01",
+      "local_opcode": "PRECALL",
+      "arg": 1,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28720,
+      "raw_hex": "e201",
+      "local_opcode": "CALL",
+      "arg": 1,
+      "cache_units_after": 4
+    },
+    {
+      "absolute_offset": 28730,
+      "raw_hex": "0d00",
+      "local_opcode": "RETURN_VALUE",
+      "arg": 0,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28732,
+      "raw_hex": "5e03",
+      "local_opcode": "LOAD_FAST",
+      "arg": 3,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28734,
+      "raw_hex": "5e02",
+      "local_opcode": "LOAD_FAST",
+      "arg": 2,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28736,
+      "raw_hex": "de0a",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 10,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28756,
+      "raw_hex": "7702",
+      "local_opcode": "COMPARE_OP",
+      "arg": 2,
+      "cache_units_after": 2
+    },
+    {
+      "absolute_offset": 28762,
+      "raw_hex": "bc44",
+      "local_opcode": "POP_JUMP_FORWARD_IF_FALSE",
+      "arg": 68,
+      "cache_units_after": 0,
+      "forward_target": 28900
+    },
+    {
+      "absolute_offset": 28764,
+      "raw_hex": "5e01",
+      "local_opcode": "LOAD_FAST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28766,
+      "raw_hex": "de07",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 7,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28786,
+      "raw_hex": "ca07",
+      "local_opcode": "LOAD_CONST",
+      "arg": 7,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28788,
+      "raw_hex": "ac01",
+      "local_opcode": "PRECALL",
+      "arg": 1,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28792,
+      "raw_hex": "e201",
+      "local_opcode": "CALL",
+      "arg": 1,
+      "cache_units_after": 4
+    },
+    {
+      "absolute_offset": 28802,
+      "raw_hex": "6408",
+      "local_opcode": "STORE_FAST",
+      "arg": 8,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28804,
+      "raw_hex": "5e01",
+      "local_opcode": "LOAD_FAST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28806,
+      "raw_hex": "de07",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 7,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28826,
+      "raw_hex": "ca08",
+      "local_opcode": "LOAD_CONST",
+      "arg": 8,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28828,
+      "raw_hex": "ac01",
+      "local_opcode": "PRECALL",
+      "arg": 1,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28832,
+      "raw_hex": "e201",
+      "local_opcode": "CALL",
+      "arg": 1,
+      "cache_units_after": 4
+    },
+    {
+      "absolute_offset": 28842,
+      "raw_hex": "6409",
+      "local_opcode": "STORE_FAST",
+      "arg": 9,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28844,
+      "raw_hex": "5e01",
+      "local_opcode": "LOAD_FAST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28846,
+      "raw_hex": "de07",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 7,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28866,
+      "raw_hex": "ca05",
+      "local_opcode": "LOAD_CONST",
+      "arg": 5,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28868,
+      "raw_hex": "ac01",
+      "local_opcode": "PRECALL",
+      "arg": 1,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28872,
+      "raw_hex": "e201",
+      "local_opcode": "CALL",
+      "arg": 1,
+      "cache_units_after": 4
+    },
+    {
+      "absolute_offset": 28882,
+      "raw_hex": "6406",
+      "local_opcode": "STORE_FAST",
+      "arg": 6,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28884,
+      "raw_hex": "5e08",
+      "local_opcode": "LOAD_FAST",
+      "arg": 8,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28886,
+      "raw_hex": "5e09",
+      "local_opcode": "LOAD_FAST",
+      "arg": 9,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28888,
+      "raw_hex": "7d05",
+      "local_opcode": "BINARY_OP",
+      "arg": 5,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28892,
+      "raw_hex": "5e06",
+      "local_opcode": "LOAD_FAST",
+      "arg": 6,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28894,
+      "raw_hex": "7d00",
+      "local_opcode": "BINARY_OP",
+      "arg": 0,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28898,
+      "raw_hex": "0d00",
+      "local_opcode": "RETURN_VALUE",
+      "arg": 0,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28900,
+      "raw_hex": "5e03",
+      "local_opcode": "LOAD_FAST",
+      "arg": 3,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28902,
+      "raw_hex": "5e02",
+      "local_opcode": "LOAD_FAST",
+      "arg": 2,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28904,
+      "raw_hex": "de0c",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 12,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28924,
+      "raw_hex": "7702",
+      "local_opcode": "COMPARE_OP",
+      "arg": 2,
+      "cache_units_after": 2
+    },
+    {
+      "absolute_offset": 28930,
+      "raw_hex": "bc14",
+      "local_opcode": "POP_JUMP_FORWARD_IF_FALSE",
+      "arg": 20,
+      "cache_units_after": 0,
+      "forward_target": 28972
+    },
+    {
+      "absolute_offset": 28932,
+      "raw_hex": "5e01",
+      "local_opcode": "LOAD_FAST",
+      "arg": 1,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28934,
+      "raw_hex": "de07",
+      "local_opcode": "LOAD_ATTR_OR_METHOD",
+      "arg": 7,
+      "cache_units_after": 9
+    },
+    {
+      "absolute_offset": 28954,
+      "raw_hex": "ca09",
+      "local_opcode": "LOAD_CONST",
+      "arg": 9,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28956,
+      "raw_hex": "ac01",
+      "local_opcode": "PRECALL",
+      "arg": 1,
+      "cache_units_after": 1
+    },
+    {
+      "absolute_offset": 28960,
+      "raw_hex": "e201",
+      "local_opcode": "CALL",
+      "arg": 1,
+      "cache_units_after": 4
+    },
+    {
+      "absolute_offset": 28970,
+      "raw_hex": "0d00",
+      "local_opcode": "RETURN_VALUE",
+      "arg": 0,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28972,
+      "raw_hex": "ca00",
+      "local_opcode": "LOAD_CONST",
+      "arg": 0,
+      "cache_units_after": 0
+    },
+    {
+      "absolute_offset": 28974,
+      "raw_hex": "0d00",
+      "local_opcode": "RETURN_VALUE",
+      "arg": 0,
+      "cache_units_after": 0
+    }
+  ],
+  "branch_targets": {
+    "28536": 28732,
+    "28634": 28692,
+    "28762": 28900,
+    "28930": 28972
+  },
+  "method_note": "Original bytes only; no game module import/execution or runtime interaction."
+}

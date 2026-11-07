@@ -1,0 +1,35 @@
+DEVIANT FORGE - HOW TO INSTALL (Windows)
+========================================
+
+First install (one time):
+
+  1. Right-click the Deviant Forge zip and choose "Extract All...".
+  2. Open the extracted folder and double-click
+         "INSTALL or UPDATE - double-click me.bat"
+  3. When it finishes, Deviant Forge opens in your browser.
+
+From then on, ONLY open it with the "Deviant Forge" shortcut on your Desktop
+(it's also in the Start menu).
+
+Updates:
+
+  When a new version is out, Deviant Forge shows a green bar at the top:
+  "Deviant Forge <version> is ready". Press "Update now" (or "Later").
+  It downloads the update, checks it, installs it and restarts by itself.
+  You can also download the newest zip from
+      https://github.com/NightforgeLabs/deviant-forge/releases/latest
+  and do the 3 steps above again - that works too.
+
+Good to know:
+
+  - The real copy lives in  %LOCALAPPDATA%\DeviantForge\app
+  - Your saved gear lives in %LOCALAPPDATA%\DeviantForge\data  (updates never touch it)
+  - The last 3 versions are kept in %LOCALAPPDATA%\DeviantForge\backups
+  - After installing you can delete the zip and the extracted folder.
+  - Old unzipped copies get a note saying "OLD COPY"; you can delete those folders too.
+  - Not sure which version you have? It's shown in the left sidebar under "App version".
+  - Deviant Forge only reads public game data and what you type in. It never touches the
+    game, its files, or its memory.
+
+Needs Python 3.10 or newer (python.org). During Python setup, tick "Add python.exe to PATH".
+If the installer says Python was not found, install it and run the installer again.

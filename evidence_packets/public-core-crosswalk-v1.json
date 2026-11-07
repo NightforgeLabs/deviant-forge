@@ -1,0 +1,1151 @@
+{
+  "schema_version": 1,
+  "scope": "64 current Field Guide identities with display-only unranked main-effect variants",
+  "source_catalog_systems_sha256": "9ab6c3117be23d81c73f86ab9a3b04161d88daf84d0715fcf0d93e35925ba8c1",
+  "normal_item_crosswalk_count": 57,
+  "shiny_only_count": 7,
+  "no_rank_conversion": true,
+  "records": [
+    {
+      "catalog_id": "mod:boots_mod:secluded-strike-mirror",
+      "name": "Secluded Strike",
+      "slot": "boots_mod",
+      "suffix": "Mirror",
+      "normal_source_item_id": "19500738",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500738",
+      "shiny_source_item_id": "19505768",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505768",
+      "effect_text_variants_unranked": [
+        "Having no enemies within 7 meters around you grants +9% Weapon and Status DMG.",
+        "Having no enemies within 7 meters around you grants +15% Weapon and Status DMG.",
+        "Having no enemies within 7 meters around you grants +3% Weapon and Status DMG.",
+        "Having no enemies within 7 meters around you grants +12% Weapon and Status DMG.",
+        "Having no enemies within 7 meters around you grants +6% Weapon and Status DMG."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-deviant-energy",
+      "name": "Slow and Steady",
+      "slot": "boots_mod",
+      "suffix": "Deviant Energy",
+      "normal_source_item_id": null,
+      "normal_source_item_url": null,
+      "shiny_source_item_id": "19505485",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505485",
+      "effect_text_variants_unranked": [
+        "Melee, Weapon, Status DMG +10%. When HP is above 90%, grants +10% additional DMG.",
+        "Melee, Weapon, Status DMG +4%. When HP is above 90%, grants +4% additional DMG.",
+        "Melee, Weapon, Status DMG +2%. When HP is above 90%, grants +2% additional DMG.",
+        "Melee, Weapon, Status DMG +8%. When HP is above 90%, grants +8% additional DMG.",
+        "Melee, Weapon, Status DMG +6%. When HP is above 90%, grants +6% additional DMG."
+      ],
+      "source_status": "shiny_only_no_normal_source_item",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-downstar",
+      "name": "Slow and Steady",
+      "slot": "boots_mod",
+      "suffix": "Downstar",
+      "normal_source_item_id": null,
+      "normal_source_item_url": null,
+      "shiny_source_item_id": "19505237",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505237",
+      "effect_text_variants_unranked": [
+        "Melee, Weapon, Status DMG +10%. When HP is above 90%, grants +10% additional DMG.",
+        "Melee, Weapon, Status DMG +4%. When HP is above 90%, grants +4% additional DMG.",
+        "Melee, Weapon, Status DMG +2%. When HP is above 90%, grants +2% additional DMG.",
+        "Melee, Weapon, Status DMG +8%. When HP is above 90%, grants +8% additional DMG.",
+        "Melee, Weapon, Status DMG +6%. When HP is above 90%, grants +6% additional DMG."
+      ],
+      "source_status": "shiny_only_no_normal_source_item",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-downstar-deviant-energy",
+      "name": "Slow and Steady",
+      "slot": "boots_mod",
+      "suffix": "Downstar Deviant Energy",
+      "normal_source_item_id": null,
+      "normal_source_item_url": null,
+      "shiny_source_item_id": "19505246",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505246",
+      "effect_text_variants_unranked": [
+        "Melee, Weapon, Status DMG +10%. When HP is above 90%, grants +10% additional DMG.",
+        "Melee, Weapon, Status DMG +4%. When HP is above 90%, grants +4% additional DMG.",
+        "Melee, Weapon, Status DMG +2%. When HP is above 90%, grants +2% additional DMG.",
+        "Melee, Weapon, Status DMG +8%. When HP is above 90%, grants +8% additional DMG.",
+        "Melee, Weapon, Status DMG +6%. When HP is above 90%, grants +6% additional DMG."
+      ],
+      "source_status": "shiny_only_no_normal_source_item",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-precision",
+      "name": "Slow and Steady",
+      "slot": "boots_mod",
+      "suffix": "Precision",
+      "normal_source_item_id": null,
+      "normal_source_item_url": null,
+      "shiny_source_item_id": "19505421",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505421",
+      "effect_text_variants_unranked": [
+        "Melee, Weapon, Status DMG +10%. When HP is above 90%, grants +10% additional DMG.",
+        "Melee, Weapon, Status DMG +4%. When HP is above 90%, grants +4% additional DMG.",
+        "Melee, Weapon, Status DMG +2%. When HP is above 90%, grants +2% additional DMG.",
+        "Melee, Weapon, Status DMG +8%. When HP is above 90%, grants +8% additional DMG.",
+        "Melee, Weapon, Status DMG +6%. When HP is above 90%, grants +6% additional DMG."
+      ],
+      "source_status": "shiny_only_no_normal_source_item",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-resistance",
+      "name": "Slow and Steady",
+      "slot": "boots_mod",
+      "suffix": "Resistance",
+      "normal_source_item_id": null,
+      "normal_source_item_url": null,
+      "shiny_source_item_id": "19505548",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505548",
+      "effect_text_variants_unranked": [
+        "Melee, Weapon, Status DMG +10%. When HP is above 90%, grants +10% additional DMG.",
+        "Melee, Weapon, Status DMG +4%. When HP is above 90%, grants +4% additional DMG.",
+        "Melee, Weapon, Status DMG +2%. When HP is above 90%, grants +2% additional DMG.",
+        "Melee, Weapon, Status DMG +8%. When HP is above 90%, grants +8% additional DMG.",
+        "Melee, Weapon, Status DMG +6%. When HP is above 90%, grants +6% additional DMG."
+      ],
+      "source_status": "shiny_only_no_normal_source_item",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-survival",
+      "name": "Slow and Steady",
+      "slot": "boots_mod",
+      "suffix": "Survival",
+      "normal_source_item_id": null,
+      "normal_source_item_url": null,
+      "shiny_source_item_id": "19505669",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505669",
+      "effect_text_variants_unranked": [
+        "Melee, Weapon, Status DMG +10%. When HP is above 90%, grants +10% additional DMG.",
+        "Melee, Weapon, Status DMG +4%. When HP is above 90%, grants +4% additional DMG.",
+        "Melee, Weapon, Status DMG +2%. When HP is above 90%, grants +2% additional DMG.",
+        "Melee, Weapon, Status DMG +8%. When HP is above 90%, grants +8% additional DMG.",
+        "Melee, Weapon, Status DMG +6%. When HP is above 90%, grants +6% additional DMG."
+      ],
+      "source_status": "shiny_only_no_normal_source_item",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:boots_mod:slow-and-steady-violent",
+      "name": "Slow and Steady",
+      "slot": "boots_mod",
+      "suffix": "Violent",
+      "normal_source_item_id": null,
+      "normal_source_item_url": null,
+      "shiny_source_item_id": "19505358",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505358",
+      "effect_text_variants_unranked": [
+        "Melee, Weapon, Status DMG +10%. When HP is above 90%, grants +10% additional DMG.",
+        "Melee, Weapon, Status DMG +4%. When HP is above 90%, grants +4% additional DMG.",
+        "Melee, Weapon, Status DMG +2%. When HP is above 90%, grants +2% additional DMG.",
+        "Melee, Weapon, Status DMG +8%. When HP is above 90%, grants +8% additional DMG.",
+        "Melee, Weapon, Status DMG +6%. When HP is above 90%, grants +6% additional DMG."
+      ],
+      "source_status": "shiny_only_no_normal_source_item",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-aero",
+      "name": "Crit Amplifier",
+      "slot": "gloves_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500789",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500789",
+      "shiny_source_item_id": "19505186",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505186",
+      "effect_text_variants_unranked": [
+        "Crit Rate +10%, Crit DMG +15%.",
+        "Crit Rate +5%, Crit DMG +15%.",
+        "Crit Rate +2%, Crit DMG +8%.",
+        "Crit Rate +2%, Crit DMG +4%.",
+        "Crit Rate +2%, Crit DMG +12%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-amplifier-aero-deviant-energy",
+      "name": "Crit Amplifier",
+      "slot": "gloves_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500797",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500797",
+      "shiny_source_item_id": "19505194",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505194",
+      "effect_text_variants_unranked": [
+        "Crit Rate +10%, Crit DMG +15%.",
+        "Crit Rate +5%, Crit DMG +15%.",
+        "Crit Rate +2%, Crit DMG +8%.",
+        "Crit Rate +2%, Crit DMG +4%.",
+        "Crit Rate +2%, Crit DMG +12%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-aero",
+      "name": "Crit Boost",
+      "slot": "gloves_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500788",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500788",
+      "shiny_source_item_id": "19505185",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505185",
+      "effect_text_variants_unranked": [
+        "Crit Rate +15%",
+        "Crit Rate +12%",
+        "Crit Rate +6%",
+        "Crit Rate +3%",
+        "Crit Rate +9%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:crit-boost-aero-deviant-energy",
+      "name": "Crit Boost",
+      "slot": "gloves_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500796",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500796",
+      "shiny_source_item_id": "19505193",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505193",
+      "effect_text_variants_unranked": [
+        "Crit Rate +15%",
+        "Crit Rate +12%",
+        "Crit Rate +6%",
+        "Crit Rate +3%",
+        "Crit Rate +9%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-aero",
+      "name": "Elemental Overload",
+      "slot": "gloves_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500795",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500795",
+      "shiny_source_item_id": "19505192",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505192",
+      "effect_text_variants_unranked": [
+        "Element DMG (Blaze, Frost, Shock, Blast) +9%.",
+        "Element DMG (Blaze, Frost, Shock, Blast) +6%.",
+        "Element DMG (Blaze, Frost, Shock, Blast) +15%.",
+        "Element DMG (Blaze, Frost, Shock, Blast) +12%.",
+        "Element DMG (Blaze, Frost, Shock, Blast) +18%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:elemental-overload-aero-deviant-energy",
+      "name": "Elemental Overload",
+      "slot": "gloves_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500803",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500803",
+      "shiny_source_item_id": "19505200",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505200",
+      "effect_text_variants_unranked": [
+        "Element DMG (Blaze, Frost, Shock, Blast) +9%.",
+        "Element DMG (Blaze, Frost, Shock, Blast) +6%.",
+        "Element DMG (Blaze, Frost, Shock, Blast) +15%.",
+        "Element DMG (Blaze, Frost, Shock, Blast) +12%.",
+        "Element DMG (Blaze, Frost, Shock, Blast) +18%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-aero",
+      "name": "Lifeforce Boost",
+      "slot": "gloves_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500791",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500791",
+      "shiny_source_item_id": "19505188",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505188",
+      "effect_text_variants_unranked": [
+        "HP +8%",
+        "HP +4%",
+        "HP +10%",
+        "HP +6%",
+        "HP +12%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:lifeforce-boost-aero-deviant-energy",
+      "name": "Lifeforce Boost",
+      "slot": "gloves_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500799",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500799",
+      "shiny_source_item_id": "19505196",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505196",
+      "effect_text_variants_unranked": [
+        "HP +8%",
+        "HP +4%",
+        "HP +10%",
+        "HP +6%",
+        "HP +12%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-aero",
+      "name": "Melee Amplifier",
+      "slot": "gloves_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500794",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500794",
+      "shiny_source_item_id": "19505191",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505191",
+      "effect_text_variants_unranked": [
+        "Melee DMG +8%",
+        "Melee DMG +20%",
+        "Melee DMG +4%",
+        "Melee DMG +16%",
+        "Melee DMG +12%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:melee-amplifier-aero-deviant-energy",
+      "name": "Melee Amplifier",
+      "slot": "gloves_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500802",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500802",
+      "shiny_source_item_id": "19505199",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505199",
+      "effect_text_variants_unranked": [
+        "Melee DMG +8%",
+        "Melee DMG +20%",
+        "Melee DMG +4%",
+        "Melee DMG +16%",
+        "Melee DMG +12%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-aero",
+      "name": "Status Enhancement",
+      "slot": "gloves_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500792",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500792",
+      "shiny_source_item_id": "19505189",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505189",
+      "effect_text_variants_unranked": [
+        "Status DMG +8%",
+        "Status DMG +20%",
+        "Status DMG +12%",
+        "Status DMG +4%",
+        "Status DMG +16%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:status-enhancement-aero-deviant-energy",
+      "name": "Status Enhancement",
+      "slot": "gloves_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500800",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500800",
+      "shiny_source_item_id": "19505197",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505197",
+      "effect_text_variants_unranked": [
+        "Status DMG +8%",
+        "Status DMG +20%",
+        "Status DMG +12%",
+        "Status DMG +4%",
+        "Status DMG +16%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-aero",
+      "name": "Weakspot DMG Boost",
+      "slot": "gloves_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500790",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500790",
+      "shiny_source_item_id": "19505187",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505187",
+      "effect_text_variants_unranked": [
+        "Weakspot DMG +10%",
+        "Weakspot DMG +5%",
+        "Weakspot DMG +25%",
+        "Weakspot DMG +15%",
+        "Weakspot DMG +20%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weakspot-dmg-boost-aero-deviant-energy",
+      "name": "Weakspot DMG Boost",
+      "slot": "gloves_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500798",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500798",
+      "shiny_source_item_id": "19505195",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505195",
+      "effect_text_variants_unranked": [
+        "Weakspot DMG +10%",
+        "Weakspot DMG +5%",
+        "Weakspot DMG +25%",
+        "Weakspot DMG +15%",
+        "Weakspot DMG +20%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-aero",
+      "name": "Weapon Amplifier",
+      "slot": "gloves_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500793",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500793",
+      "shiny_source_item_id": "19505190",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505190",
+      "effect_text_variants_unranked": [
+        "Weapon DMG +3%",
+        "Weapon DMG +9%",
+        "Weapon DMG +6%",
+        "Weapon DMG +12%",
+        "Weapon DMG +15%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:gloves_mod:weapon-amplifier-aero-deviant-energy",
+      "name": "Weapon Amplifier",
+      "slot": "gloves_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500801",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500801",
+      "shiny_source_item_id": "19505198",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505198",
+      "effect_text_variants_unranked": [
+        "Weapon DMG +3%",
+        "Weapon DMG +9%",
+        "Weapon DMG +6%",
+        "Weapon DMG +12%",
+        "Weapon DMG +15%"
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-crescent",
+      "name": "Fortune's Favor",
+      "slot": "helmet_mod",
+      "suffix": "Crescent",
+      "normal_source_item_id": "19500446",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500446",
+      "shiny_source_item_id": "19505519",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505519",
+      "effect_text_variants_unranked": [
+        "Cannot deal Weakspot DMG. Crit Rate +10% and Crit DMG +30%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +20%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +15%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +10%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +25%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-crescent-deviant-energy",
+      "name": "Fortune's Favor",
+      "slot": "helmet_mod",
+      "suffix": "Crescent Deviant Energy",
+      "normal_source_item_id": "19500564",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500564",
+      "shiny_source_item_id": "19505613",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505613",
+      "effect_text_variants_unranked": [
+        "Cannot deal Weakspot DMG. Crit Rate +10% and Crit DMG +30%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +20%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +15%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +10%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +25%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-deviant-energy",
+      "name": "Fortune's Favor",
+      "slot": "helmet_mod",
+      "suffix": "Deviant Energy",
+      "normal_source_item_id": "19500244",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500244",
+      "shiny_source_item_id": "19505392",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505392",
+      "effect_text_variants_unranked": [
+        "Cannot deal Weakspot DMG. Crit Rate +10% and Crit DMG +30%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +20%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +15%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +10%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +25%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-general",
+      "name": "Fortune's Favor",
+      "slot": "helmet_mod",
+      "suffix": "General",
+      "normal_source_item_id": "19500042",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500042",
+      "shiny_source_item_id": "19505264",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505264",
+      "effect_text_variants_unranked": [
+        "Cannot deal Weakspot DMG. Crit Rate +10% and Crit DMG +30%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +20%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +15%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +10%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +25%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-lunar",
+      "name": "Fortune's Favor",
+      "slot": "helmet_mod",
+      "suffix": "Lunar",
+      "normal_source_item_id": "19500345",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500345",
+      "shiny_source_item_id": "19505455",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505455",
+      "effect_text_variants_unranked": [
+        "Cannot deal Weakspot DMG. Crit Rate +10% and Crit DMG +30%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +20%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +15%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +10%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +25%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-lunar-deviant-energy",
+      "name": "Fortune's Favor",
+      "slot": "helmet_mod",
+      "suffix": "Lunar Deviant Energy",
+      "normal_source_item_id": "19500515",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500515",
+      "shiny_source_item_id": "19505582",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505582",
+      "effect_text_variants_unranked": [
+        "Cannot deal Weakspot DMG. Crit Rate +10% and Crit DMG +30%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +20%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +15%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +10%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +25%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-survival",
+      "name": "Fortune's Favor",
+      "slot": "helmet_mod",
+      "suffix": "Survival",
+      "normal_source_item_id": "19500609",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500609",
+      "shiny_source_item_id": "19505649",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505649",
+      "effect_text_variants_unranked": [
+        "Cannot deal Weakspot DMG. Crit Rate +10% and Crit DMG +30%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +20%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +15%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +10%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +25%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:helmet_mod:fortune-s-favor-violent",
+      "name": "Fortune's Favor",
+      "slot": "helmet_mod",
+      "suffix": "Violent",
+      "normal_source_item_id": "19500143",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500143",
+      "shiny_source_item_id": "19505328",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505328",
+      "effect_text_variants_unranked": [
+        "Cannot deal Weakspot DMG. Crit Rate +10% and Crit DMG +30%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +20%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +15%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +10%.",
+        "Cannot deal Weakspot DMG. Crit Rate +8% and Crit DMG +25%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:mask_mod:most-wanted-the-bull-s-eye",
+      "name": "Most Wanted",
+      "slot": "mask_mod",
+      "suffix": "The Bull's Eye",
+      "normal_source_item_id": "19500401",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500401",
+      "shiny_source_item_id": "19505510",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505510",
+      "effect_text_variants_unranked": [
+        "Every time an enemy is marked, Attack +2% for 8s. Effect can stack up to 3 times.",
+        "Every time an enemy is marked, Attack +3% for 8s. Effect can stack up to 3 times.",
+        "Every time an enemy is marked, Attack +4% for 8s. Effect can stack up to 3 times.",
+        "Every time an enemy is marked, Attack +1% for 8s. Effect can stack up to 3 times.",
+        "Every time an enemy is marked, Attack +5% for 8s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:mask_mod:targeted-strike-the-bull-s-eye",
+      "name": "Targeted Strike",
+      "slot": "mask_mod",
+      "suffix": "The Bull's Eye",
+      "normal_source_item_id": "19500393",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500393",
+      "shiny_source_item_id": "19505502",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505502",
+      "effect_text_variants_unranked": [
+        "When hitting marked enemies, Crit Rate +4%, and Crit DMG +10%.",
+        "When hitting marked enemies, Crit Rate +2%, and Crit DMG +5%.",
+        "When hitting marked enemies, Crit Rate +10%, and Crit DMG +25%.",
+        "When hitting marked enemies, Crit Rate +6%, and Crit DMG +15%.",
+        "When hitting marked enemies, Crit Rate +8%, and Crit DMG +20%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-aero",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500808",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500808",
+      "shiny_source_item_id": "19505205",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505205",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-aero-deviant-energy",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500818",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500818",
+      "shiny_source_item_id": "19505215",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505215",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-deviant-energy",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Deviant Energy",
+      "normal_source_item_id": "19500364",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500364",
+      "shiny_source_item_id": "19505474",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505474",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-downstar",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Downstar",
+      "normal_source_item_id": "19500534",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500534",
+      "shiny_source_item_id": "19505227",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505227",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-downstar-deviant-energy",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Downstar Deviant Energy",
+      "normal_source_item_id": "19500628",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500628",
+      "shiny_source_item_id": "19505254",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505254",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-general",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "General",
+      "normal_source_item_id": "19500061",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500061",
+      "shiny_source_item_id": "19505283",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505283",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-precision",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Precision",
+      "normal_source_item_id": "19500263",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500263",
+      "shiny_source_item_id": "19505411",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505411",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-resonance",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Resonance",
+      "normal_source_item_id": "19500465",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500465",
+      "shiny_source_item_id": "19505538",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505538",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-resonance-deviant-energy",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Resonance Deviant Energy",
+      "normal_source_item_id": "19500583",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500583",
+      "shiny_source_item_id": "19505632",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505632",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-survival",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Survival",
+      "normal_source_item_id": "19500662",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500662",
+      "shiny_source_item_id": "19505692",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505692",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:abnormal-increase-violent",
+      "name": "Abnormal Increase",
+      "slot": "pants_mod",
+      "suffix": "Violent",
+      "normal_source_item_id": "19500162",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500162",
+      "shiny_source_item_id": "19505347",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505347",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Status DMG +10% for 12s. Effect can stack up to 3 times.",
+        "When the magazine is empty, Status DMG +8% for 12s. Effect can stack up to 3 times."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-aero",
+      "name": "Bullet Siphon",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500806",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500806",
+      "shiny_source_item_id": "19505203",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505203",
+      "effect_text_variants_unranked": [
+        "Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%.",
+        "Weapon DMG +5%. Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:bullet-siphon-aero-deviant-energy",
+      "name": "Bullet Siphon",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500816",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500816",
+      "shiny_source_item_id": "19505213",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505213",
+      "effect_text_variants_unranked": [
+        "Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%.",
+        "Weapon DMG +5%. Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-aero",
+      "name": "Critical Surge",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500813",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500813",
+      "shiny_source_item_id": "19505210",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505210",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Crit DMG +3% for 12s. Stacks independently, up to 3 stack(s).",
+        "When the magazine is empty, Crit DMG +12% for 12s. Stacks independently, up to 3 stack(s).",
+        "When the magazine is empty, Crit DMG +9% for 12s. Stacks independently, up to 3 stack(s).",
+        "When the magazine is empty, Crit DMG +6% for 12s. Stacks independently, up to 3 stack(s).",
+        "When the magazine is empty, Crit DMG +15% for 12s. Stacks independently, up to 3 stack(s)."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:critical-surge-aero-deviant-energy",
+      "name": "Critical Surge",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500823",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500823",
+      "shiny_source_item_id": "19505220",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505220",
+      "effect_text_variants_unranked": [
+        "When the magazine is empty, Crit DMG +3% for 12s. Stacks independently, up to 3 stack(s).",
+        "When the magazine is empty, Crit DMG +12% for 12s. Stacks independently, up to 3 stack(s).",
+        "When the magazine is empty, Crit DMG +9% for 12s. Stacks independently, up to 3 stack(s).",
+        "When the magazine is empty, Crit DMG +6% for 12s. Stacks independently, up to 3 stack(s).",
+        "When the magazine is empty, Crit DMG +15% for 12s. Stacks independently, up to 3 stack(s)."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-aero",
+      "name": "Deadshot",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500807",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500807",
+      "shiny_source_item_id": "19505204",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505204",
+      "effect_text_variants_unranked": [
+        "Each Crit Hit by non-melee weapons grants +4% Crit DMG, up to 36%. The effect is removed upon the next reload.",
+        "Each Crit Hit by non-melee weapons grants +5% Crit DMG, up to 45%. The effect is removed upon the next reload."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:deadshot-aero-deviant-energy",
+      "name": "Deadshot",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500817",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500817",
+      "shiny_source_item_id": "19505214",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505214",
+      "effect_text_variants_unranked": [
+        "Each Crit Hit by non-melee weapons grants +4% Crit DMG, up to 36%. The effect is removed upon the next reload.",
+        "Each Crit Hit by non-melee weapons grants +5% Crit DMG, up to 45%. The effect is removed upon the next reload."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-aero",
+      "name": "Distant Strike",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500810",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500810",
+      "shiny_source_item_id": "19505207",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505207",
+      "effect_text_variants_unranked": [
+        "Weakspot DMG +10% when a bullet hits a target more than 20 meters away. For every additional 1 meter(s) away from the target, Weakspot DMG +1%, up to +20%.",
+        "Weakspot DMG +20% when a bullet hits a target more than 20 meters away. For every additional 1 meter(s) away from the target, Weakspot DMG +1%, up to +20%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:distant-strike-aero-deviant-energy",
+      "name": "Distant Strike",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500820",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500820",
+      "shiny_source_item_id": "19505217",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505217",
+      "effect_text_variants_unranked": [
+        "Weakspot DMG +10% when a bullet hits a target more than 20 meters away. For every additional 1 meter(s) away from the target, Weakspot DMG +1%, up to +20%.",
+        "Weakspot DMG +20% when a bullet hits a target more than 20 meters away. For every additional 1 meter(s) away from the target, Weakspot DMG +1%, up to +20%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-aero",
+      "name": "Elemental Resonance",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500812",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500812",
+      "shiny_source_item_id": "19505209",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505209",
+      "effect_text_variants_unranked": [
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.2% for 15s upon reloading, up to +4.8%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +1% for 15s upon reloading, up to +24%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.6% for 15s upon reloading, up to +14.4%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.4% for 15s upon reloading, up to +9.6%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.8% for 15s upon reloading, up to +19.2%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-aero-deviant-energy",
+      "name": "Elemental Resonance",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500822",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500822",
+      "shiny_source_item_id": "19505219",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505219",
+      "effect_text_variants_unranked": [
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.2% for 15s upon reloading, up to +4.8%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +1% for 15s upon reloading, up to +24%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.6% for 15s upon reloading, up to +14.4%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.4% for 15s upon reloading, up to +9.6%.",
+        "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +0.8% for 15s upon reloading, up to +19.2%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:elemental-resonance-deviant-energy-current",
+      "name": "Elemental Resonance",
+      "slot": "pants_mod",
+      "suffix": "Deviant Energy",
+      "normal_source_item_id": "19500368",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500368",
+      "shiny_source_item_id": "19505478",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505478",
+      "effect_text_variants_unranked": [],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-aero",
+      "name": "Melee Momentum",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500809",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500809",
+      "shiny_source_item_id": "19505206",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505206",
+      "effect_text_variants_unranked": [
+        "Melee DMG +15%. After a melee kill, recover 25% of max Stamina.",
+        "Melee DMG +20%. After a melee kill, recover 30% of max Stamina."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:melee-momentum-aero-deviant-energy",
+      "name": "Melee Momentum",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500819",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500819",
+      "shiny_source_item_id": "19505216",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505216",
+      "effect_text_variants_unranked": [
+        "Melee DMG +15%. After a melee kill, recover 25% of max Stamina.",
+        "Melee DMG +20%. After a melee kill, recover 30% of max Stamina."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-aero",
+      "name": "Precision Charge",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500811",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500811",
+      "shiny_source_item_id": "19505208",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505208",
+      "effect_text_variants_unranked": [
+        "For every 10% Weakspot hit rate of the previous magazine, Elemental DMG +4%, up to 24%, lasting for 10s. Reloading resets the calculation.",
+        "For every 10% Weakspot hit rate of the previous magazine, Elemental DMG +3%, up to 18%, lasting for 10s. Reloading resets the calculation."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:precision-charge-aero-deviant-energy",
+      "name": "Precision Charge",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500821",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500821",
+      "shiny_source_item_id": "19505218",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505218",
+      "effect_text_variants_unranked": [
+        "For every 10% Weakspot hit rate of the previous magazine, Elemental DMG +4%, up to 24%, lasting for 10s. Reloading resets the calculation.",
+        "For every 10% Weakspot hit rate of the previous magazine, Elemental DMG +3%, up to 18%, lasting for 10s. Reloading resets the calculation."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-aero",
+      "name": "Reload Rampage",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500804",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500804",
+      "shiny_source_item_id": "19505201",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505201",
+      "effect_text_variants_unranked": [
+        "After killing an enemy, refill 2 bullets from reserves (no more than 50% of the Magazine Capacity). Weapon DMG and Status DMG +5% until next reload.",
+        "After killing an enemy, refill 2 bullets from reserves (no more than 50% of the Magazine Capacity). Weapon DMG and Status DMG +10% until next reload."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:reload-rampage-aero-deviant-energy",
+      "name": "Reload Rampage",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500814",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500814",
+      "shiny_source_item_id": "19505211",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505211",
+      "effect_text_variants_unranked": [
+        "After killing an enemy, refill 2 bullets from reserves (no more than 50% of the Magazine Capacity). Weapon DMG and Status DMG +5% until next reload.",
+        "After killing an enemy, refill 2 bullets from reserves (no more than 50% of the Magazine Capacity). Weapon DMG and Status DMG +10% until next reload."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-aero",
+      "name": "Three Strikes",
+      "slot": "pants_mod",
+      "suffix": "Aero",
+      "normal_source_item_id": "19500805",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500805",
+      "shiny_source_item_id": "19505202",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505202",
+      "effect_text_variants_unranked": [
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +20%.",
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +30%.",
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +40%.",
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +50%.",
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +10%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    },
+    {
+      "catalog_id": "mod:pants_mod:three-strikes-aero-deviant-energy",
+      "name": "Three Strikes",
+      "slot": "pants_mod",
+      "suffix": "Aero Deviant Energy",
+      "normal_source_item_id": "19500815",
+      "normal_source_item_url": "https://wikily.gg/once-human/mods/19500815",
+      "shiny_source_item_id": "19505212",
+      "shiny_source_item_url": "https://wikily.gg/once-human/mods/19505212",
+      "effect_text_variants_unranked": [
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +20%.",
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +30%.",
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +40%.",
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +50%.",
+        "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +10%."
+      ],
+      "source_status": "normal_item_crosswalk_rank_unmapped",
+      "field_guide_level_mapping": null
+    }
+  ]
+}

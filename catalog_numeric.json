@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "official_level_source": "https://www.oncehuman.game/news/devBlog/20251212/40781_1276354.html",
+  "scope": "Current Field Guide fixed subattributes at exact observed levels. Two official Shiny Lv. 17 cards supply ordinary Lv. 17 subattributes under the official same-subattribute rule; their Shiny main/Flash effects remain separate. No interpolation or claim about unseen tiers.",
+  "profiles": {
+    "mod:weapon_mod:shock-diffusion-power-surge": {
+      "11": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/4b87070460d84e5e915976973512305d/0001.png",
+        "attributes": [
+          {
+            "name": "Power Surge DMG",
+            "value_percent": 3.6
+          },
+          {
+            "name": "Power Surge Trigger Chance",
+            "value_percent": 3.6
+          },
+          {
+            "name": "Shock DMG",
+            "value_percent": 3.6
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          }
+        ]
+      }
+    },
+    "mod:helmet_mod:overflow-general": {
+      "8": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0033.png",
+        "attributes": [
+          {
+            "name": "DMG",
+            "value_percent": 2.4
+          },
+          {
+            "name": "Magazine Capacity",
+            "value_percent": 4.8
+          },
+          {
+            "name": "Reload Efficiency",
+            "value_percent": 3.6
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          }
+        ],
+        "verified_main_effect": {
+          "text": "When reloading an empty magazine, Magazine Capacity +30%.",
+          "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0033.png",
+          "source_sha256": "649f9b2efb82f72c6f5f5509a7ff5f17e1ad15c47d5227de1f2faf3ccc15385f",
+          "game_version": "2026-10-22 current Field Guide recording",
+          "source_status": "visually checked current Field Guide tooltip at this exact level"
+        }
+      }
+    },
+    "mod:pants_mod:precision-charge-aero": {
+      "8": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0061.png",
+        "attributes": [
+          {
+            "name": "Weapon DMG",
+            "value_percent": 2.4,
+            "conditional_bonus_percent": 1.2,
+            "condition": "aerial hit"
+          },
+          {
+            "name": "Crit DMG",
+            "value_percent": 6.0,
+            "conditional_bonus_percent": 3.0,
+            "condition": "aerial hit"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          },
+          {
+            "name": "Max HP",
+            "value_percent": 2.4
+          }
+        ]
+      },
+      "17": {
+        "source_url": "https://www.playnews.gg/en/guides/once-human-the-gravity-abyss-vision-guide-for-august-2026-crystals-aerial-hunt-and-aero-mods",
+        "source_status": "corroborated community report of level-17 Aero four-stat sheet; applies to this recorded ordered Aero layout",
+        "attributes": [
+          {
+            "name": "Weapon DMG",
+            "value_percent": 6.0,
+            "conditional_bonus_percent": 3.0,
+            "condition": "aerial hit"
+          },
+          {
+            "name": "Crit DMG",
+            "value_percent": 15.0,
+            "conditional_bonus_percent": 7.5,
+            "condition": "aerial hit"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 7.5
+          },
+          {
+            "name": "Max HP",
+            "value_percent": 2.4
+          }
+        ]
+      }
+    },
+    "mod:pants_mod:bullet-siphon-aero-deviant-energy": {
+      "12": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0074.png",
+        "attributes": [
+          {
+            "name": "Status DMG",
+            "value_percent": 4.8,
+            "conditional_bonus_percent": 2.4,
+            "condition": "aerial hit"
+          },
+          {
+            "name": "Elemental DMG",
+            "value_percent": 4.8,
+            "conditional_bonus_percent": 2.4,
+            "condition": "aerial hit"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 4.5
+          },
+          {
+            "name": "Max HP",
+            "value_percent": 2.4
+          }
+        ],
+        "verified_main_effect": {
+          "text": "Weapon DMG +5%. Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%.",
+          "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0074.png",
+          "source_sha256": "8048c21ca3f439e4032abd76a0586a6e2bba511fb2f5ad6799977fd56ae7fa58",
+          "game_version": "2026-10-22 current Field Guide recording",
+          "source_status": "visually checked current Field Guide tooltip at this exact level"
+        }
+      }
+    },
+    "mod:pants_mod:reload-rampage-downstar-deviant-energy": {
+      "11": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0078.png",
+        "attributes": [
+          {
+            "name": "Elemental DMG",
+            "value_percent": 4.8,
+            "conditional_bonus_percent": 2.4,
+            "condition": "enemy below player, maximum at 5 meters"
+          },
+          {
+            "name": "Status DMG",
+            "value_percent": 3.6,
+            "conditional_bonus_percent": 1.8,
+            "condition": "enemy below player, maximum at 5 meters"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 4.5
+          },
+          {
+            "name": "Max HP",
+            "value_percent": 2.4
+          }
+        ]
+      }
+    },
+    "mod:chest_mod:resist-advantage-precision": {
+      "7": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0047.png",
+        "attributes": [
+          {
+            "name": "Weakspot DMG",
+            "value_percent": 3.6
+          },
+          {
+            "name": "Weapon DMG",
+            "value_percent": 2.4
+          },
+          {
+            "name": "Magazine Capacity",
+            "value_percent": 4.8
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 1.5
+          }
+        ]
+      }
+    },
+    "mod:boots_mod:power-of-striving-downstar-deviant-energy": {
+      "9": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0094.png",
+        "attributes": [
+          {
+            "name": "Elemental DMG",
+            "value_percent": 4.8,
+            "conditional_bonus_percent": 2.4,
+            "condition": "enemy below player, maximum at 5 meters"
+          },
+          {
+            "name": "Status DMG",
+            "value_percent": 2.4,
+            "conditional_bonus_percent": 1.2,
+            "condition": "enemy below player, maximum at 5 meters"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          },
+          {
+            "name": "Max HP",
+            "value_percent": 2.4
+          }
+        ],
+        "verified_main_effect": {
+          "text": "Weapon and Status DMG +10%. Stamina loss grants an additional DMG boost, up to +20%.",
+          "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0094.png",
+          "source_status": "visually checked current Field Guide tooltip at this exact level"
+        }
+      }
+    },
+    "mod:gloves_mod:lifeforce-boost-precision": {
+      "5": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0104.png",
+        "attributes": [
+          {
+            "name": "Weakspot DMG",
+            "value_percent": 3.6
+          },
+          {
+            "name": "Weapon DMG",
+            "value_percent": 1.2
+          },
+          {
+            "name": "Magazine Capacity",
+            "value_percent": 2.4
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 1.5
+          }
+        ]
+      }
+    },
+    "mod:weapon_mod:shock-rampage-survival": {
+      "12": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0009.png",
+        "attributes": [
+          {
+            "name": "Max HP",
+            "value_percent": 4.8
+          },
+          {
+            "name": "Damage reduction after taking damage",
+            "value_percent": 4.8,
+            "condition": "for 3 seconds after taking damage; 6-second cooldown"
+          },
+          {
+            "name": "Damage from monsters received",
+            "value_percent": 4.8,
+            "direction": "reduction"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          }
+        ]
+      }
+    },
+    "mod:weapon_mod:shock-diffusion-survival": {
+      "10": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0010.png",
+        "attributes": [
+          {
+            "name": "Max HP",
+            "value_percent": 3.6
+          },
+          {
+            "name": "Damage reduction after taking damage",
+            "value_percent": 4.8,
+            "condition": "for 3 seconds after taking damage; 6-second cooldown"
+          },
+          {
+            "name": "Damage from monsters received",
+            "value_percent": 3.2,
+            "direction": "reduction"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          }
+        ]
+      }
+    },
+    "mod:weapon_mod:static-shock-survival": {
+      "11": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0014.png",
+        "attributes": [
+          {
+            "name": "Max HP",
+            "value_percent": 3.6
+          },
+          {
+            "name": "Damage reduction after taking damage",
+            "value_percent": 4.8,
+            "condition": "for 3 seconds after taking damage; 6-second cooldown"
+          },
+          {
+            "name": "Damage from monsters received",
+            "value_percent": 4.8,
+            "direction": "reduction"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          }
+        ],
+        "verified_main_effect": {
+          "text": "Power Surge Status duration -50%, and Power Surge DMG +20%.",
+          "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0014.png",
+          "source_sha256": "b145ccbea1588c360da01fb030a8d98b4b388bf74ce2241d367ee9464d7de533",
+          "game_version": "2026-10-22 current Field Guide recording",
+          "source_status": "visually checked current Field Guide tooltip at this exact level"
+        }
+      }
+    },
+    "mod:weapon_mod:surge-amplifier-survival": {
+      "10": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0015.png",
+        "attributes": [
+          {
+            "name": "Max HP",
+            "value_percent": 3.6
+          },
+          {
+            "name": "Damage reduction after taking damage",
+            "value_percent": 4.8,
+            "condition": "for 3 seconds after taking damage; 6-second cooldown"
+          },
+          {
+            "name": "Damage from monsters received",
+            "value_percent": 3.2,
+            "direction": "reduction"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          }
+        ],
+        "verified_main_effect": {
+          "text": "Inflicting Power Surge grants Power Surge DMG +5% for 3s, up to 4 stack(s).",
+          "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0015.png",
+          "source_sha256": "9c65a3a6c52dee834fea8d0eb5d69b8952793b87f19be42f26926c5ce035c094",
+          "game_version": "2026-10-22 current Field Guide recording",
+          "source_status": "visually checked current Field Guide tooltip at this exact level"
+        }
+      }
+    },
+    "mod:boots_mod:against-all-odds-precision": {
+      "7": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0091.png",
+        "attributes": [
+          {
+            "name": "Weakspot DMG",
+            "value_percent": 3.6
+          },
+          {
+            "name": "Weapon DMG",
+            "value_percent": 2.4
+          },
+          {
+            "name": "Magazine Capacity",
+            "value_percent": 4.8
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 1.5
+          }
+        ],
+        "verified_main_effect": {
+          "text": "Weapon and Status DMG +10%. For every +5% Max HP consumed, gains an additional +5%, lasting 5s, stacking up to 3 stack(s).",
+          "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0091.png",
+          "source_status": "visually checked current Field Guide tooltip at this exact level"
+        }
+      }
+    },
+    "mod:weapon_mod:shock-diffusion-deviant-energy": {
+      "13": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0011.png",
+        "attributes": [
+          {
+            "name": "Element DMG (Blaze, Frost, Shock, Blast)",
+            "value_percent": 6.4
+          },
+          {
+            "name": "Status DMG",
+            "value_percent": 4.8
+          },
+          {
+            "name": "Magazine Capacity",
+            "value_percent": 7.2
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          }
+        ]
+      }
+    },
+    "mod:pants_mod:distant-strike-survival": {
+      "10": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0064.png",
+        "attributes": [
+          {
+            "name": "Max HP",
+            "value_percent": 3.6
+          },
+          {
+            "name": "Damage reduction after taking damage",
+            "value_percent": 4.8,
+            "condition": "for 3 seconds after taking damage; 6-second cooldown"
+          },
+          {
+            "name": "Damage from monsters received",
+            "value_percent": 3.2,
+            "direction": "reduction"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          }
+        ],
+        "verified_main_effect": {
+          "text": "Weakspot DMG +20% when a bullet hits a target more than 20 meters away. For every additional 1 meter(s) away from the target, Weakspot DMG +1%, up to +20%.",
+          "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0064.png",
+          "source_sha256": "cc5a6f5159e376919c14ea0ba06870d46df1303e1a2a14caa50d795dd2617127",
+          "game_version": "2026-10-22 current Field Guide recording",
+          "source_status": "visually checked current Field Guide tooltip at this exact level"
+        }
+      }
+    },
+    "mod:gloves_mod:elemental-overload-resonance": {
+      "9": {
+        "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0097.png",
+        "attributes": [
+          {
+            "name": "Elemental DMG on weakspot hit",
+            "value_percent": 0.6,
+            "condition": "per weakspot damage instance; up to 8 stacks for 6 seconds"
+          },
+          {
+            "name": "Weakspot DMG on elemental hit",
+            "value_percent": 0.8,
+            "condition": "per elemental damage instance; up to 6 stacks for 8 seconds"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 3.0
+          },
+          {
+            "name": "Magazine Capacity",
+            "value_percent": 4.8
+          }
+        ],
+        "verified_main_effect": {
+          "text": "Element DMG (Blaze, Frost, Shock, Blast) +18%.",
+          "source_image": "data/media/b0aad7d457fd4e699605ae1f78d4ec51/frames/1b99d4a1dce94a8294f2459acf6303a7/0097.png",
+          "source_sha256": "227d4824700bd1c9f822a4ecb50970bbe0f2566211735b562c47c3d72640b860",
+          "game_version": "2026-10-22 current Field Guide recording",
+          "source_status": "visually checked current Field Guide tooltip at this exact level"
+        }
+      }
+    },
+    "mod:pants_mod:elemental-resonance-aero": {
+      "17": {
+        "source_image": "research/official-gravity-en-6.png",
+        "source_url": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html",
+        "source_image_url": "https://r.res.easebar.com/pic/20260522/d68d8f83-22d1-4561-ae09-a7f717e775ee.png",
+        "source_sha256": "36879f030b802302fd4bfeffd5e879b9c6d5c3a06dcf4b96add72dfef797db6b",
+        "game_version": "Gravity Abyss S4 preview, 2026-05-22",
+        "observed_system": "current_field_guide_shiny",
+        "source_status": "official pictured Shiny Lv. 17; ordinary Lv. 17 shares subattributes by official Field Guide rule",
+        "attributes": [
+          {
+            "name": "Weapon DMG",
+            "value_percent": 6.0,
+            "unit": "percent",
+            "direction": "increase",
+            "conditional_bonus_percent": 3.0,
+            "condition": "aerial hit"
+          },
+          {
+            "name": "Crit DMG",
+            "value_percent": 15.0,
+            "unit": "percent",
+            "direction": "increase",
+            "conditional_bonus_percent": 7.5,
+            "condition": "aerial hit"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 7.5,
+            "unit": "percent",
+            "direction": "increase"
+          },
+          {
+            "name": "Max HP",
+            "value_percent": 2.4,
+            "unit": "percent",
+            "direction": "increase"
+          }
+        ],
+        "verified_shiny_main_effect": {
+          "text": "For each instance of Elemental DMG dealt from the previous magazine, the next magazine gains Elemental DMG +1.0% for 15.0s upon reloading, up to +24.0%.",
+          "flash_effect": "Elemental DMG +2%",
+          "source_image": "research/official-gravity-en-6.png",
+          "source_url": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html"
+        }
+      }
+    },
+    "mod:boots_mod:ferocious-charge-downstar": {
+      "17": {
+        "source_image": "research/official-gravity-en-6.png",
+        "source_url": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html",
+        "source_image_url": "https://r.res.easebar.com/pic/20260522/d68d8f83-22d1-4561-ae09-a7f717e775ee.png",
+        "source_sha256": "36879f030b802302fd4bfeffd5e879b9c6d5c3a06dcf4b96add72dfef797db6b",
+        "game_version": "Gravity Abyss S4 preview, 2026-05-22",
+        "observed_system": "current_field_guide_shiny",
+        "source_status": "official pictured Shiny Lv. 17; ordinary Lv. 17 shares subattributes by official Field Guide rule",
+        "attributes": [
+          {
+            "name": "Weapon DMG",
+            "value_percent": 6.0,
+            "unit": "percent",
+            "direction": "increase",
+            "conditional_bonus_percent": 3.0,
+            "condition": "target lower than player within 5 meters"
+          },
+          {
+            "name": "Crit DMG",
+            "value_percent": 15.0,
+            "unit": "percent",
+            "direction": "increase",
+            "conditional_bonus_percent": 7.5,
+            "condition": "target lower than player within 5 meters"
+          },
+          {
+            "name": "All DMG Boost",
+            "value_percent": 7.5,
+            "unit": "percent",
+            "direction": "increase"
+          },
+          {
+            "name": "Max HP",
+            "value_percent": 2.4,
+            "unit": "percent",
+            "direction": "increase"
+          }
+        ],
+        "verified_shiny_main_effect": {
+          "text": "Killing enemies within 10 meters grants Melee, Weapon, Status DMG +20.0% for 8s.",
+          "flash_effect": "Melee/Weapon/Status DMG +1.5%",
+          "source_image": "research/official-gravity-en-6.png",
+          "source_url": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html"
+        }
+      }
+    }
+  }
+}

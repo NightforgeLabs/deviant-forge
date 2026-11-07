@@ -1,0 +1,37 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const nodes=new Map();
+const get=s=>{if(!nodes.has(s))nodes.set(s,{value:'',checked:false,hidden:false,innerHTML:'',isConnected:true});return nodes.get(s)};
+let resolveRequest,requested;
+const ctx={document:{querySelector:get},esc:x=>String(x??''),api:(path,data)=>{requested={path,data};return new Promise(resolve=>resolveRequest=resolve)}};
+vm.createContext(ctx);vm.runInContext(fs.readFileSync('static/planned_compare_ui.js','utf8'),ctx);
+const html=ctx.plannedComparisonCard();
+assert(html.includes('pc-setA')&&html.includes('pc-setB')&&html.includes('pc-setHp')&&html.includes('pc-setReload'));
+for(const [id,value] of Object.entries({mode:'set',setA:'bastille',setB:'treacherous_tides',setDamage:'251',setCrit:'.1',setCritBonus:'.25',setHits:'40',setHp:'',setReload:'2',setPsi:'',setOrbs:'',shield:'unknown',element:'shared_bucket'}))get('#pc-'+id).value=value;
+function item(id,weapon,bullet,reload){return {name:id+' · two pieces',set_id:id.toLowerCase().replaceAll(' ','_'),weapon_damage_percent:weapon,status_damage_percent:0,elemental_damage_percent:0,reload_efficiency_percent:reload,reload_seconds_if_entered:reload?2/1.15:2,unresolved_conditions:weapon==null?['whether HP is above 70%']:[],evidence:['Dated official rule'],known_bullet_component:bullet??10291,selected_bullet_component:bullet,expected_root_procs_under_independent_trials:12,power_surge_damage_per_psi:7.8,orb_damage_per_psi_per_enemy_hit:.546,power_surge_component:null,orb_component:null,modeled_components_sum:null}}
+const result=(hp=null,a=item('Bastille',null,null,15),b=item('Treacherous Tides',null,null,0))=>({result:{a,b,identical_choice:false,hp_percent:hp,savior_shield:'unknown',landed_body_hits:40,pre_effect_reload_seconds:2,psi_intensity:null,orb_enemy_hits:null,baseline_source:'dated unsaved estimate',delta_b_minus_a_bullets:a.selected_bullet_component==null||b.selected_bullet_component==null?null:b.selected_bullet_component-a.selected_bullet_component,delta_b_minus_a_entered_components:null,assumptions:['Exactly two pieces.']}});
+(async()=>{
+ const first=ctx.runPlannedComparison();
+ assert.equal(requested.path,'planned-set-compare');
+ assert.equal(requested.data.set_a,'bastille');assert.equal(requested.data.set_b,'treacherous_tides');
+ assert.equal(requested.data.hp_percent,null);assert.equal(requested.data.pre_effect_reload_seconds,2);
+ assert.equal(requested.data.pieces_per_alternative,2);
+ resolveRequest(result());await first;
+ assert(get('#pc-result').innerHTML.includes('no set lead is assigned'));
+ assert(get('#pc-result').innerHTML.includes('Bastille')&&get('#pc-result').innerHTML.includes('+15% Reload Efficiency'));
+ assert(get('#pc-result').innerHTML.includes('Enter shared current HP'));
+ get('#pc-setHp').value='70';ctx.plannedComparisonChanged();
+ const second=ctx.runPlannedComparison();assert.equal(requested.data.hp_percent,70);
+ resolveRequest(result(70,item('Bastille',0,10291,15),item('Treacherous Tides',0,10291,0)));await second;
+ assert(get('#pc-result').innerHTML.includes('A and B tie'));
+ assert(get('#pc-result').innerHTML.includes('shared HP 70%'));
+ const below=ctx.plannedSetResult(result(69.999,item('Bastille',0,10291,15),item('Treacherous Tides',12,11525.92,0)));
+ assert(below.includes('shared HP 69.999%'));
+ get('#pc-setHp').value='69.999';const old=ctx.runPlannedComparison();const oldResolve=resolveRequest;
+ get('#pc-setB').value='savior';ctx.plannedComparisonChanged();
+ oldResolve(result());await old;
+ assert(get('#pc-result').innerHTML.includes('Inputs changed'));
+ ctx.plannedReset();
+ assert.equal(get('#pc-setA').value,'shelterer');assert.equal(get('#pc-setB').value,'savior');
+ assert.equal(get('#pc-setHp').value,'');assert.equal(get('#pc-setReload').value,'');
+ console.log('Four-set UI passed: shared conditions, exact two pieces, unknown/70 boundary, stale edit, reset');
+})().catch(error=>{console.error(error);process.exitCode=1});

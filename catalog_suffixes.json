@@ -1,0 +1,16 @@
+{
+  "source": "https://www.oncehuman.game/news/devBlog/20260116/40781_1282292.html",
+  "rules": {
+    "Mirror": {"condition": "attacking from behind", "effects": ["weapon_damage_percent", "critical_damage_percent", "nonplayer_front_damage_reduction_percent"]},
+    "Mirror Deviant Energy": {"condition": "attacking from behind", "effects": ["status_damage_percent", "elemental_damage_percent", "nonplayer_front_damage_reduction_percent"]},
+    "Wild": {"condition": "distance to enemy; closer increases bonus", "effects": ["weapon_damage_percent", "critical_damage_percent", "nonplayer_ranged_damage_reduction_percent"]},
+    "Wild Deviant Energy": {"condition": "distance to enemy; closer increases bonus", "effects": ["status_damage_percent", "elemental_damage_percent", "nonplayer_ranged_damage_reduction_percent"]},
+    "Phantasmal": {"condition": "duration after weapon switch; defensive effect below HP threshold", "effects": ["weapon_damage_percent", "critical_damage_percent", "nonplayer_damage_reduction_percent"]},
+    "Phantasmal Deviant Energy": {"condition": "duration after weapon switch; defensive effect below HP threshold", "effects": ["status_damage_percent", "elemental_damage_percent", "nonplayer_damage_reduction_percent"]},
+    "Aero": {"condition": "aerial state, including jumping", "effects": ["unknown_suffix_bonus"], "source": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html"},
+    "Aero Deviant Energy": {"condition": "aerial state, including jumping", "effects": ["unknown_suffix_bonus"], "source": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html"},
+    "Downstar": {"condition": "elevation difference between player and enemy", "effects": ["unknown_suffix_bonus"], "source": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html"},
+    "Downstar Deviant Energy": {"condition": "elevation difference between player and enemy", "effects": ["unknown_suffix_bonus"], "source": "https://www.oncehuman.game/news/devBlog/20260522/40781_1301328.html"}
+  },
+  "numeric_status": "unknown; official announcement gives effect families and conditions but no magnitudes or stacking"
+}

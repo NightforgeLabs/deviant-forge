@@ -1,0 +1,815 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "crate_item_id": 37560018,
+  "crate_installed_english_name": "Random Pal Deviation",
+  "crate_english_translation": {
+    "source_string": "随机幻兽帕鲁异常物_$S@TIDS$_cg0|0",
+    "source_core_text": "随机幻兽帕鲁异常物",
+    "translation_key": "随机幻兽帕鲁异常物",
+    "key_match_mode": "exact_source_text_without_tid_suffix",
+    "english_text": "Random Pal Deviation",
+    "native_key_string_index": 46028,
+    "english_value_string_index": 46029,
+    "map_pair_byte_offset": 20569971,
+    "map_pair_raw_hex": "cce702cde702"
+  },
+  "crate_installed_english_description": "Open for a chance to obtain a Cattiva, Chillet, or Chillet Ignis (Skill & Activity Rating: Lv. 3-5). #[k=b5]A max-level Cattiva, Chillet, or Chillet Ignis is guaranteed with up to 15 attempts.#[k] Guaranteed pulls will not repeat. Deviations gained this way are bound and cannot be traded or discarded.",
+  "crate_description_translation": {
+    "source_string": "打开宝箱可获得一个捣蛋猫、疾旋鼬或桃旋鼬，异能评级、活性评级在3-5级之间。#[k=b5]最多15次必定获得异能评级为5、活性评级为5的捣蛋猫、疾旋鼬或桃旋鼬#[k]，每次保底不会重复。获取的异常物为绑定状态，不能进行丢弃或交易。_$S@TIDS$_cg0|0",
+    "source_core_text": "打开宝箱可获得一个捣蛋猫、疾旋鼬或桃旋鼬，异能评级、活性评级在3-5级之间。#[k=b5]最多15次必定获得异能评级为5、活性评级为5的捣蛋猫、疾旋鼬或桃旋鼬#[k]，每次保底不会重复。获取的异常物为绑定状态，不能进行丢弃或交易。",
+    "translation_key": "打开宝箱可获得一个捣蛋猫、疾旋鼬或桃旋鼬，异能评级、活性评级在3-5级之间。#[k=b5]最多15次必定获得异能评级为5、活性评级为5的捣蛋猫、疾旋鼬或桃旋鼬#[k]，每次保底不会重复。获取的异常物为绑定状态，不能进行丢弃或交易。",
+    "key_match_mode": "exact_source_text_without_tid_suffix",
+    "english_text": "Open for a chance to obtain a Cattiva, Chillet, or Chillet Ignis (Skill & Activity Rating: Lv. 3-5). #[k=b5]A max-level Cattiva, Chillet, or Chillet Ignis is guaranteed with up to 15 attempts.#[k] Guaranteed pulls will not repeat. Deviations gained this way are bound and cannot be traded or discarded.",
+    "native_key_string_index": 129786,
+    "english_value_string_index": 129787,
+    "map_pair_byte_offset": 20897749,
+    "map_pair_raw_hex": "faf507fbf507"
+  },
+  "crate_icon_asset": "icon_summer_2_lv4_new.png",
+  "source_hashes": {
+    "named_pal_crate_packet_sha256": "69c899fed69b606e93403c332fd0b1134c3df2085833e16ea568d7ba8b9aeb45",
+    "item_data_literal_sha256": "bcb0eed8c4d9ca658179558ee4e6002b3f13b686c7839e09a9a7aa695eea8035",
+    "english_translation_pyc_sha256": "0bd9092f37c3fc4b3d771be76018cef66796e45ce7ca824dfb599a94a1117f95",
+    "open_module_inventory_sha256": "0393cf6466ee54729f911913cffcd61e73520afbc871147f289ed19f30c59f68"
+  },
+  "pools": [
+    {
+      "pool_id": 37560018001,
+      "role_from_crate_config": "normal",
+      "total_weight_raw": {
+        "encoded_value": 3200,
+        "type_code": 1,
+        "byte_offset": 568,
+        "raw_hex": "8019"
+      },
+      "rewards": [
+        {
+          "item_id": 36000061,
+          "installed_english_name": "Cattiva",
+          "english_translation": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|0",
+            "source_core_text": "捣蛋猫",
+            "translation_key": "捣蛋猫",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Cattiva",
+            "native_key_string_index": 114609,
+            "english_value_string_index": 114610,
+            "map_pair_byte_offset": 20889315,
+            "map_pair_raw_hex": "b1ff06b2ff06"
+          },
+          "skill_rating_from_source_text": 3,
+          "activity_rating_from_source_text": 3,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 8909246,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal02.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 261,
+            "byte_offset": 8909293,
+            "raw_hex": "8502"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 500,
+            "byte_offset": 524,
+            "raw_hex": "f403"
+          }
+        },
+        {
+          "item_id": 36000062,
+          "installed_english_name": "Cattiva",
+          "english_translation": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|1",
+            "source_core_text": "捣蛋猫",
+            "translation_key": "捣蛋猫",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Cattiva",
+            "native_key_string_index": 114609,
+            "english_value_string_index": 114610,
+            "map_pair_byte_offset": 20889315,
+            "map_pair_raw_hex": "b1ff06b2ff06"
+          },
+          "skill_rating_from_source_text": 3,
+          "activity_rating_from_source_text": 4,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 8977544,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal02.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 261,
+            "byte_offset": 8977591,
+            "raw_hex": "8502"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 1000,
+            "byte_offset": 526,
+            "raw_hex": "e807"
+          }
+        },
+        {
+          "item_id": 36000063,
+          "installed_english_name": "Cattiva",
+          "english_translation": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|2",
+            "source_core_text": "捣蛋猫",
+            "translation_key": "捣蛋猫",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Cattiva",
+            "native_key_string_index": 114609,
+            "english_value_string_index": 114610,
+            "map_pair_byte_offset": 20889315,
+            "map_pair_raw_hex": "b1ff06b2ff06"
+          },
+          "skill_rating_from_source_text": 4,
+          "activity_rating_from_source_text": 3,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 9267222,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal02.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 261,
+            "byte_offset": 9267269,
+            "raw_hex": "8502"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 1500,
+            "byte_offset": 528,
+            "raw_hex": "dc0b"
+          }
+        },
+        {
+          "item_id": 36000064,
+          "installed_english_name": "Cattiva",
+          "english_translation": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|3",
+            "source_core_text": "捣蛋猫",
+            "translation_key": "捣蛋猫",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Cattiva",
+            "native_key_string_index": 114609,
+            "english_value_string_index": 114610,
+            "map_pair_byte_offset": 20889315,
+            "map_pair_raw_hex": "b1ff06b2ff06"
+          },
+          "skill_rating_from_source_text": 4,
+          "activity_rating_from_source_text": 4,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 8895426,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal02.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 261,
+            "byte_offset": 8895473,
+            "raw_hex": "8502"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 2000,
+            "byte_offset": 530,
+            "raw_hex": "d00f"
+          }
+        },
+        {
+          "item_id": 36000065,
+          "installed_english_name": "Cattiva",
+          "english_translation": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|4",
+            "source_core_text": "捣蛋猫",
+            "translation_key": "捣蛋猫",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Cattiva",
+            "native_key_string_index": 114609,
+            "english_value_string_index": 114610,
+            "map_pair_byte_offset": 20889315,
+            "map_pair_raw_hex": "b1ff06b2ff06"
+          },
+          "skill_rating_from_source_text": 4,
+          "activity_rating_from_source_text": 5,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 9267891,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal02.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 261,
+            "byte_offset": 9267938,
+            "raw_hex": "8502"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 2550,
+            "byte_offset": 532,
+            "raw_hex": "f613"
+          }
+        },
+        {
+          "item_id": 36000066,
+          "installed_english_name": "Cattiva",
+          "english_translation": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|5",
+            "source_core_text": "捣蛋猫",
+            "translation_key": "捣蛋猫",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Cattiva",
+            "native_key_string_index": 114609,
+            "english_value_string_index": 114610,
+            "map_pair_byte_offset": 20889315,
+            "map_pair_raw_hex": "b1ff06b2ff06"
+          },
+          "skill_rating_from_source_text": 5,
+          "activity_rating_from_source_text": 4,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 7421119,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal02.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 261,
+            "byte_offset": 7421164,
+            "raw_hex": "8502"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 3200,
+            "byte_offset": 534,
+            "raw_hex": "8019"
+          }
+        }
+      ]
+    },
+    {
+      "pool_id": 37560018002,
+      "role_from_crate_config": "normal",
+      "total_weight_raw": {
+        "encoded_value": 3250,
+        "type_code": 1,
+        "byte_offset": 133,
+        "raw_hex": "b219"
+      },
+      "rewards": [
+        {
+          "item_id": 36000075,
+          "installed_english_name": "Chillet Ignis",
+          "english_translation": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|0",
+            "source_core_text": "桃旋鼬",
+            "translation_key": "桃旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet Ignis",
+            "native_key_string_index": 150397,
+            "english_value_string_index": 150398,
+            "map_pair_byte_offset": 20983695,
+            "map_pair_raw_hex": "fd9609fe9609"
+          },
+          "skill_rating_from_source_text": 3,
+          "activity_rating_from_source_text": 3,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 9156771,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03_1.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 271,
+            "byte_offset": 9156818,
+            "raw_hex": "8f02"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 500,
+            "byte_offset": 76,
+            "raw_hex": "f403"
+          }
+        },
+        {
+          "item_id": 36000076,
+          "installed_english_name": "Chillet Ignis",
+          "english_translation": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|1",
+            "source_core_text": "桃旋鼬",
+            "translation_key": "桃旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet Ignis",
+            "native_key_string_index": 150397,
+            "english_value_string_index": 150398,
+            "map_pair_byte_offset": 20983695,
+            "map_pair_raw_hex": "fd9609fe9609"
+          },
+          "skill_rating_from_source_text": 3,
+          "activity_rating_from_source_text": 4,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 9268718,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03_1.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 271,
+            "byte_offset": 9268765,
+            "raw_hex": "8f02"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 1000,
+            "byte_offset": 78,
+            "raw_hex": "e807"
+          }
+        },
+        {
+          "item_id": 36000077,
+          "installed_english_name": "Chillet Ignis",
+          "english_translation": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|2",
+            "source_core_text": "桃旋鼬",
+            "translation_key": "桃旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet Ignis",
+            "native_key_string_index": 150397,
+            "english_value_string_index": 150398,
+            "map_pair_byte_offset": 20983695,
+            "map_pair_raw_hex": "fd9609fe9609"
+          },
+          "skill_rating_from_source_text": 4,
+          "activity_rating_from_source_text": 3,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 6942935,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03_1.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 271,
+            "byte_offset": 6942980,
+            "raw_hex": "8f02"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 1500,
+            "byte_offset": 80,
+            "raw_hex": "dc0b"
+          }
+        },
+        {
+          "item_id": 36000078,
+          "installed_english_name": "Chillet Ignis",
+          "english_translation": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|3",
+            "source_core_text": "桃旋鼬",
+            "translation_key": "桃旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet Ignis",
+            "native_key_string_index": 150397,
+            "english_value_string_index": 150398,
+            "map_pair_byte_offset": 20983695,
+            "map_pair_raw_hex": "fd9609fe9609"
+          },
+          "skill_rating_from_source_text": 4,
+          "activity_rating_from_source_text": 4,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 9146867,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03_1.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 271,
+            "byte_offset": 9146914,
+            "raw_hex": "8f02"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 2000,
+            "byte_offset": 82,
+            "raw_hex": "d00f"
+          }
+        },
+        {
+          "item_id": 36000079,
+          "installed_english_name": "Chillet Ignis",
+          "english_translation": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|4",
+            "source_core_text": "桃旋鼬",
+            "translation_key": "桃旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet Ignis",
+            "native_key_string_index": 150397,
+            "english_value_string_index": 150398,
+            "map_pair_byte_offset": 20983695,
+            "map_pair_raw_hex": "fd9609fe9609"
+          },
+          "skill_rating_from_source_text": 4,
+          "activity_rating_from_source_text": 5,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 9268854,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03_1.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 271,
+            "byte_offset": 9268901,
+            "raw_hex": "8f02"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 2600,
+            "byte_offset": 84,
+            "raw_hex": "a814"
+          }
+        },
+        {
+          "item_id": 36000080,
+          "installed_english_name": "Chillet Ignis",
+          "english_translation": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|5",
+            "source_core_text": "桃旋鼬",
+            "translation_key": "桃旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet Ignis",
+            "native_key_string_index": 150397,
+            "english_value_string_index": 150398,
+            "map_pair_byte_offset": 20983695,
+            "map_pair_raw_hex": "fd9609fe9609"
+          },
+          "skill_rating_from_source_text": 5,
+          "activity_rating_from_source_text": 4,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 8729927,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03_1.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 271,
+            "byte_offset": 8729974,
+            "raw_hex": "8f02"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 3250,
+            "byte_offset": 86,
+            "raw_hex": "b219"
+          }
+        }
+      ]
+    },
+    {
+      "pool_id": 37560018003,
+      "role_from_crate_config": "normal",
+      "total_weight_raw": {
+        "encoded_value": 3250,
+        "type_code": 1,
+        "byte_offset": 3200,
+        "raw_hex": "b219"
+      },
+      "rewards": [
+        {
+          "item_id": 36000068,
+          "installed_english_name": "Chillet",
+          "english_translation": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|0",
+            "source_core_text": "疾旋鼬",
+            "translation_key": "疾旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet",
+            "native_key_string_index": 156790,
+            "english_value_string_index": 156791,
+            "map_pair_byte_offset": 20441043,
+            "map_pair_raw_hex": "f6c809f7c809"
+          },
+          "skill_rating_from_source_text": 3,
+          "activity_rating_from_source_text": 3,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 8246882,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 274,
+            "byte_offset": 8246927,
+            "raw_hex": "9202"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 500,
+            "byte_offset": 76,
+            "raw_hex": "f403"
+          }
+        },
+        {
+          "item_id": 36000069,
+          "installed_english_name": "Chillet",
+          "english_translation": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|1",
+            "source_core_text": "疾旋鼬",
+            "translation_key": "疾旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet",
+            "native_key_string_index": 156790,
+            "english_value_string_index": 156791,
+            "map_pair_byte_offset": 20441043,
+            "map_pair_raw_hex": "f6c809f7c809"
+          },
+          "skill_rating_from_source_text": 3,
+          "activity_rating_from_source_text": 4,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 8391282,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 274,
+            "byte_offset": 8391327,
+            "raw_hex": "9202"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 1000,
+            "byte_offset": 78,
+            "raw_hex": "e807"
+          }
+        },
+        {
+          "item_id": 36000070,
+          "installed_english_name": "Chillet",
+          "english_translation": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|2",
+            "source_core_text": "疾旋鼬",
+            "translation_key": "疾旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet",
+            "native_key_string_index": 156790,
+            "english_value_string_index": 156791,
+            "map_pair_byte_offset": 20441043,
+            "map_pair_raw_hex": "f6c809f7c809"
+          },
+          "skill_rating_from_source_text": 4,
+          "activity_rating_from_source_text": 3,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 8731080,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 274,
+            "byte_offset": 8731127,
+            "raw_hex": "9202"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 1500,
+            "byte_offset": 80,
+            "raw_hex": "dc0b"
+          }
+        },
+        {
+          "item_id": 36000071,
+          "installed_english_name": "Chillet",
+          "english_translation": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|3",
+            "source_core_text": "疾旋鼬",
+            "translation_key": "疾旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet",
+            "native_key_string_index": 156790,
+            "english_value_string_index": 156791,
+            "map_pair_byte_offset": 20441043,
+            "map_pair_raw_hex": "f6c809f7c809"
+          },
+          "skill_rating_from_source_text": 4,
+          "activity_rating_from_source_text": 4,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 9268163,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 274,
+            "byte_offset": 9268210,
+            "raw_hex": "9202"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 2000,
+            "byte_offset": 82,
+            "raw_hex": "d00f"
+          }
+        },
+        {
+          "item_id": 36000072,
+          "installed_english_name": "Chillet",
+          "english_translation": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|4",
+            "source_core_text": "疾旋鼬",
+            "translation_key": "疾旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet",
+            "native_key_string_index": 156790,
+            "english_value_string_index": 156791,
+            "map_pair_byte_offset": 20441043,
+            "map_pair_raw_hex": "f6c809f7c809"
+          },
+          "skill_rating_from_source_text": 4,
+          "activity_rating_from_source_text": 5,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 9268582,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 274,
+            "byte_offset": 9268629,
+            "raw_hex": "9202"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 2600,
+            "byte_offset": 84,
+            "raw_hex": "a814"
+          }
+        },
+        {
+          "item_id": 36000073,
+          "installed_english_name": "Chillet",
+          "english_translation": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|5",
+            "source_core_text": "疾旋鼬",
+            "translation_key": "疾旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet",
+            "native_key_string_index": 156790,
+            "english_value_string_index": 156791,
+            "map_pair_byte_offset": 20441043,
+            "map_pair_raw_hex": "f6c809f7c809"
+          },
+          "skill_rating_from_source_text": 5,
+          "activity_rating_from_source_text": 4,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 7927891,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 274,
+            "byte_offset": 7927936,
+            "raw_hex": "9202"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 3250,
+            "byte_offset": 86,
+            "raw_hex": "b219"
+          }
+        }
+      ]
+    },
+    {
+      "pool_id": 37560018004,
+      "role_from_crate_config": "rare",
+      "total_weight_raw": {
+        "encoded_value": 300,
+        "type_code": 1,
+        "byte_offset": 1225,
+        "raw_hex": "ac02"
+      },
+      "rewards": [
+        {
+          "item_id": 36000067,
+          "installed_english_name": "Cattiva",
+          "english_translation": {
+            "source_string": "捣蛋猫_$S@TIDS$_cg0|6",
+            "source_core_text": "捣蛋猫",
+            "translation_key": "捣蛋猫",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Cattiva",
+            "native_key_string_index": 114609,
+            "english_value_string_index": 114610,
+            "map_pair_byte_offset": 20889315,
+            "map_pair_raw_hex": "b1ff06b2ff06"
+          },
+          "skill_rating_from_source_text": 5,
+          "activity_rating_from_source_text": 5,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 9268027,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal02.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 261,
+            "byte_offset": 9268074,
+            "raw_hex": "8502"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 100,
+            "byte_offset": 1199,
+            "raw_hex": "64"
+          }
+        },
+        {
+          "item_id": 36000074,
+          "installed_english_name": "Chillet",
+          "english_translation": {
+            "source_string": "疾旋鼬_$S@TIDS$_cg0|6",
+            "source_core_text": "疾旋鼬",
+            "translation_key": "疾旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet",
+            "native_key_string_index": 156790,
+            "english_value_string_index": 156791,
+            "map_pair_byte_offset": 20441043,
+            "map_pair_raw_hex": "f6c809f7c809"
+          },
+          "skill_rating_from_source_text": 5,
+          "activity_rating_from_source_text": 5,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 6847826,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 274,
+            "byte_offset": 6847871,
+            "raw_hex": "9202"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 200,
+            "byte_offset": 1200,
+            "raw_hex": "c801"
+          }
+        },
+        {
+          "item_id": 36000081,
+          "installed_english_name": "Chillet Ignis",
+          "english_translation": {
+            "source_string": "桃旋鼬_$S@TIDS$_cg0|6",
+            "source_core_text": "桃旋鼬",
+            "translation_key": "桃旋鼬",
+            "key_match_mode": "exact_source_text_without_tid_suffix",
+            "english_text": "Chillet Ignis",
+            "native_key_string_index": 150397,
+            "english_value_string_index": 150398,
+            "map_pair_byte_offset": 20983695,
+            "map_pair_raw_hex": "fd9609fe9609"
+          },
+          "skill_rating_from_source_text": 5,
+          "activity_rating_from_source_text": 5,
+          "rating_is_source_description_not_runtime_stat": true,
+          "item_data_row_offset": 7244134,
+          "icon_field": {
+            "asset_name": "icon_containments_cbt2_sco_pal03_1.png",
+            "slot": 65,
+            "field": "icon",
+            "type_code": 5,
+            "value": 271,
+            "byte_offset": 7244179,
+            "raw_hex": "8f02"
+          },
+          "quantity_configured": 1,
+          "raw_weight_threshold": {
+            "value": 300,
+            "byte_offset": 1202,
+            "raw_hex": "ac02"
+          }
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "pools": 4,
+    "normal_pools": 3,
+    "rare_pools": 1,
+    "reward_item_variants": 21
+  },
+  "configured_rare_threshold": 15,
+  "runtime_limits": [
+    "No verified pool-selection, weight normalization or final reward odds.",
+    "No verified pity counter/reset or duplicate-avoidance executor.",
+    "Source rating text is not observed runtime item state.",
+    "Installed item presence does not prove current availability."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false
+}

@@ -1,0 +1,358 @@
+{
+  "source_pyc_sha256": "156e21565337a3b2d64ac36709b4be72c0974ac0d3a1ff88734a619866d22604",
+  "literal_sha256": "74fcb94dfc6b8602ed84ff7377853fdac9b73ef6c4e22962078f2ba266f2a8da",
+  "literal_bytes": 194,
+  "string_pool": {
+    "offsets": [
+      0,
+      5,
+      12,
+      19,
+      26,
+      33,
+      44
+    ],
+    "names": [
+      "value",
+      "value_2",
+      "value_3",
+      "value_1",
+      "value_4",
+      "max_hp_rate"
+    ],
+    "body_base": 76
+  },
+  "body_bounds": [
+    80,
+    183
+  ],
+  "body_length_word_offset": 76,
+  "range_map_offset": 145,
+  "range_map_pointer_pairs": [
+    [
+      4,
+      23
+    ],
+    [
+      34,
+      23
+    ],
+    [
+      50,
+      23
+    ]
+  ],
+  "ranges_in_native_order": [
+    {
+      "key_pointer": 4,
+      "key_array_offset": 80,
+      "range": [
+        {
+          "value": 0.2,
+          "type_code": 34,
+          "offset": 83,
+          "raw_hex": "9a9999999999c93f"
+        },
+        {
+          "value": 0.4,
+          "type_code": 34,
+          "offset": 91,
+          "raw_hex": "9a9999999999d93f"
+        }
+      ],
+      "value_pointer": 23,
+      "adjustment_array_offset": 99,
+      "multiplier": 1.0,
+      "addend": 0.0
+    },
+    {
+      "key_pointer": 34,
+      "key_array_offset": 110,
+      "range": [
+        {
+          "value": 0.6,
+          "type_code": 34,
+          "offset": 112,
+          "raw_hex": "22333333333333e33f"
+        },
+        {
+          "value": 10.0,
+          "type_code": 18,
+          "offset": 121,
+          "raw_hex": "1200002041"
+        }
+      ],
+      "value_pointer": 23,
+      "adjustment_array_offset": 99,
+      "multiplier": 1.0,
+      "addend": 0.0
+    },
+    {
+      "key_pointer": 50,
+      "key_array_offset": 126,
+      "range": [
+        {
+          "value": 0.4,
+          "type_code": 34,
+          "offset": 129,
+          "raw_hex": "9a9999999999d93f"
+        },
+        {
+          "value": 0.6,
+          "type_code": 34,
+          "offset": 137,
+          "raw_hex": "333333333333e33f"
+        }
+      ],
+      "value_pointer": 23,
+      "adjustment_array_offset": 99,
+      "multiplier": 1.0,
+      "addend": 0.0
+    }
+  ],
+  "variant_descriptor_offset": 160,
+  "variant_row_offset": 172,
+  "variant_fields": {
+    "value": {
+      "pointer": 69,
+      "range_map_offset": 145
+    },
+    "value_1": {
+      "pointer": 69,
+      "range_map_offset": 145
+    },
+    "value_2": {
+      "pointer": 69,
+      "range_map_offset": 145
+    },
+    "value_3": {
+      "pointer": 69,
+      "range_map_offset": 145
+    },
+    "value_4": {
+      "pointer": 69,
+      "range_map_offset": 145
+    }
+  },
+  "outer_map_offset": 179,
+  "outer_map_key": "max_hp_rate",
+  "outer_map_value_row_offset": 172,
+  "consumer_pyc_sha256": "1e9e352e0b948b5eb0e4020dc26cf26b78724297329d6fbbbab2352bf5dd54f0",
+  "consumer_method_offset": 20000,
+  "comparison_code_interval": [
+    20396,
+    20422
+  ],
+  "bracket_rule": "lower < c_rate <= upper",
+  "adjustment_rule": "c_rate = multiplier * c_rate + addend",
+  "boundary_vectors": [
+    {
+      "rate": 0.2,
+      "variant": "value",
+      "range": null,
+      "output": 0.2
+    },
+    {
+      "rate": 0.2,
+      "variant": "value_1",
+      "range": null,
+      "output": 0.2
+    },
+    {
+      "rate": 0.2,
+      "variant": "value_2",
+      "range": null,
+      "output": 0.2
+    },
+    {
+      "rate": 0.2,
+      "variant": "value_3",
+      "range": null,
+      "output": 0.2
+    },
+    {
+      "rate": 0.2,
+      "variant": "value_4",
+      "range": null,
+      "output": 0.2
+    },
+    {
+      "rate": 0.4,
+      "variant": "value",
+      "range": [
+        0.2,
+        0.4
+      ],
+      "output": 0.4
+    },
+    {
+      "rate": 0.4,
+      "variant": "value_1",
+      "range": [
+        0.2,
+        0.4
+      ],
+      "output": 0.4
+    },
+    {
+      "rate": 0.4,
+      "variant": "value_2",
+      "range": [
+        0.2,
+        0.4
+      ],
+      "output": 0.4
+    },
+    {
+      "rate": 0.4,
+      "variant": "value_3",
+      "range": [
+        0.2,
+        0.4
+      ],
+      "output": 0.4
+    },
+    {
+      "rate": 0.4,
+      "variant": "value_4",
+      "range": [
+        0.2,
+        0.4
+      ],
+      "output": 0.4
+    },
+    {
+      "rate": 0.6,
+      "variant": "value",
+      "range": [
+        0.4,
+        0.6
+      ],
+      "output": 0.6
+    },
+    {
+      "rate": 0.6,
+      "variant": "value_1",
+      "range": [
+        0.4,
+        0.6
+      ],
+      "output": 0.6
+    },
+    {
+      "rate": 0.6,
+      "variant": "value_2",
+      "range": [
+        0.4,
+        0.6
+      ],
+      "output": 0.6
+    },
+    {
+      "rate": 0.6,
+      "variant": "value_3",
+      "range": [
+        0.4,
+        0.6
+      ],
+      "output": 0.6
+    },
+    {
+      "rate": 0.6,
+      "variant": "value_4",
+      "range": [
+        0.4,
+        0.6
+      ],
+      "output": 0.6
+    },
+    {
+      "rate": 10.0,
+      "variant": "value",
+      "range": [
+        0.6,
+        10.0
+      ],
+      "output": 10.0
+    },
+    {
+      "rate": 10.0,
+      "variant": "value_1",
+      "range": [
+        0.6,
+        10.0
+      ],
+      "output": 10.0
+    },
+    {
+      "rate": 10.0,
+      "variant": "value_2",
+      "range": [
+        0.6,
+        10.0
+      ],
+      "output": 10.0
+    },
+    {
+      "rate": 10.0,
+      "variant": "value_3",
+      "range": [
+        0.6,
+        10.0
+      ],
+      "output": 10.0
+    },
+    {
+      "rate": 10.0,
+      "variant": "value_4",
+      "range": [
+        0.6,
+        10.0
+      ],
+      "output": 10.0
+    },
+    {
+      "rate": 10.1,
+      "variant": "value",
+      "range": null,
+      "output": 10.1
+    },
+    {
+      "rate": 10.1,
+      "variant": "value_1",
+      "range": null,
+      "output": 10.1
+    },
+    {
+      "rate": 10.1,
+      "variant": "value_2",
+      "range": null,
+      "output": 10.1
+    },
+    {
+      "rate": 10.1,
+      "variant": "value_3",
+      "range": null,
+      "output": 10.1
+    },
+    {
+      "rate": 10.1,
+      "variant": "value_4",
+      "range": null,
+      "output": 10.1
+    }
+  ],
+  "trailer_word_offset": 183,
+  "trailer_word_raw_hex": "2fc77ea0",
+  "tail_offset_word_offset": 187,
+  "tail_offset": 191,
+  "tail_entries": [
+    {
+      "key_string_index": 5,
+      "key": "max_hp_rate",
+      "value_pointer": 96
+    }
+  ],
+  "uninterpreted": "Four-byte trailer word at 183 is pinned but its checksum/hash meaning is not asserted.",
+  "game_code_executed": false
+}

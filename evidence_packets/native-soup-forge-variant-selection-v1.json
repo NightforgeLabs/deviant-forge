@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "installed_build_id": "26267212",
+  "forge_data_pyc_sha256": "674a1e190668b7f5e445863ecfc1e1a33a587308772e727f5e9120c398b04d7e",
+  "forge_data_literal_sha256": "1b83a2c004f9da2e17adce6a3e0cff06ca94c01f2ca146631a3ea3c5fba69462",
+  "root_map_header_byte_offset": 1047135,
+  "root_map_directory_end_byte_offset": 1682180,
+  "root_map_entry_count": 17021,
+  "root_map_key_type_counts": {
+    "1": 5788,
+    "11": 11232,
+    "5": 1
+  },
+  "soup_item_id": 30110374,
+  "soup_base_forge_no": 1200379,
+  "item_to_forge_dict": {
+    "map_literal_offset": 1047135,
+    "map_entry_count": 6524,
+    "soup_item_key": 30110374,
+    "soup_value_pointer": 477222,
+    "soup_list_literal_offset": 955480,
+    "soup_list_raw_hex": "070301fba1490b97901d0b9e901d",
+    "ordered_soup_forge_keys": [
+      1200379,
+      [
+        1200379,
+        1
+      ],
+      [
+        1200379,
+        222
+      ]
+    ]
+  },
+  "soup_configured_rows": [
+    {
+      "map_ordinal": 22,
+      "map_tail_byte_offset": 1682308,
+      "map_tail_raw_hex": "01fba149bb0e",
+      "forge_record_byte_offset": 480109,
+      "key": {
+        "key_type": "scalar",
+        "value": 1200379
+      },
+      "configured_ingredients": [
+        {
+          "item_id": 30102922,
+          "installed_english_name": "Deviated Mint",
+          "native_name": "变异薄荷_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8563084,
+          "translation_pair_byte_offset": 20492816,
+          "quantity": 1
+        },
+        {
+          "item_id": 30102007,
+          "installed_english_name": "Pumpkin",
+          "native_name": "南瓜_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7974074,
+          "translation_pair_byte_offset": 20794356,
+          "quantity": 2
+        },
+        {
+          "item_id": 30102011,
+          "installed_english_name": "Seaweed",
+          "native_name": "海草_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8186957,
+          "translation_pair_byte_offset": 21106877,
+          "quantity": 2
+        },
+        {
+          "item_id": 933,
+          "installed_english_name": null,
+          "name_status": "no_indexed_item_data_row",
+          "quantity": 3
+        }
+      ],
+      "configured_seconds": 5,
+      "station_method_ids": [
+        52,
+        514,
+        609,
+        53,
+        515
+      ],
+      "configured_valid_time_leaf": {
+        "pointer_body_relative": 49,
+        "literal_offset": 478307,
+        "kind": "empty_object",
+        "raw_hex": "0700"
+      },
+      "forge_display_raw": 0,
+      "forge_display_byte_offset": 480133,
+      "configured_field_names": [
+        "bp_exp",
+        "destruct_return_list",
+        "diamond_bp_exp",
+        "forge_display",
+        "forge_heap_max_num",
+        "forge_method",
+        "fuel_cost_item",
+        "item_forge_tab",
+        "valid_time",
+        "attrs",
+        "bp_type",
+        "build_lv",
+        "cost_item_list",
+        "cost_num_list",
+        "eternal_sands_num",
+        "exp",
+        "item_no",
+        "item_num",
+        "seconds"
+      ],
+      "season_no_field_present": false,
+      "can_invent_field_present": false,
+      "is_diy_field_present": false
+    },
+    {
+      "map_ordinal": 10611,
+      "map_tail_byte_offset": 1758726,
+      "map_tail_raw_hex": "0b97901de7d92e",
+      "forge_record_byte_offset": 1243417,
+      "key": {
+        "key_type": "tuple",
+        "values": [
+          1200379,
+          1
+        ],
+        "literal_offset": 955465,
+        "raw_hex": "270102fba14901"
+      },
+      "configured_ingredients": [
+        {
+          "item_id": 30102922,
+          "installed_english_name": "Deviated Mint",
+          "native_name": "变异薄荷_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8563084,
+          "translation_pair_byte_offset": 20492816,
+          "quantity": 1
+        },
+        {
+          "item_id": 30102007,
+          "installed_english_name": "Pumpkin",
+          "native_name": "南瓜_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7974074,
+          "translation_pair_byte_offset": 20794356,
+          "quantity": 2
+        },
+        {
+          "item_id": 30102011,
+          "installed_english_name": "Seaweed",
+          "native_name": "海草_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8186957,
+          "translation_pair_byte_offset": 21106877,
+          "quantity": 2
+        },
+        {
+          "item_id": 933,
+          "installed_english_name": null,
+          "name_status": "no_indexed_item_data_row",
+          "quantity": 3
+        }
+      ],
+      "configured_seconds": 5,
+      "station_method_ids": [
+        52,
+        514,
+        609,
+        53,
+        515,
+        71
+      ],
+      "configured_valid_time_leaf": {
+        "pointer_body_relative": 49,
+        "literal_offset": 478307,
+        "kind": "empty_object",
+        "raw_hex": "0700"
+      },
+      "forge_display_raw": 0,
+      "forge_display_byte_offset": 1243441,
+      "configured_field_names": [
+        "bp_exp",
+        "destruct_return_list",
+        "diamond_bp_exp",
+        "forge_display",
+        "forge_heap_max_num",
+        "forge_method",
+        "fuel_cost_item",
+        "item_forge_tab",
+        "valid_time",
+        "attrs",
+        "bp_type",
+        "build_lv",
+        "cost_item_list",
+        "cost_num_list",
+        "eternal_sands_num",
+        "exp",
+        "item_no",
+        "item_num",
+        "seconds"
+      ],
+      "season_no_field_present": false,
+      "can_invent_field_present": false,
+      "is_diy_field_present": false
+    },
+    {
+      "map_ordinal": 10613,
+      "map_tail_byte_offset": 1758740,
+      "map_tail_raw_hex": "0b9e901df0da2e",
+      "forge_record_byte_offset": 1243554,
+      "key": {
+        "key_type": "tuple",
+        "values": [
+          1200379,
+          222
+        ],
+        "literal_offset": 955472,
+        "raw_hex": "270102fba149de01"
+      },
+      "configured_ingredients": [
+        {
+          "item_id": 30102007,
+          "installed_english_name": "Pumpkin",
+          "native_name": "南瓜_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 7974074,
+          "translation_pair_byte_offset": 20794356,
+          "quantity": 1
+        },
+        {
+          "item_id": 30102922,
+          "installed_english_name": "Deviated Mint",
+          "native_name": "变异薄荷_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8563084,
+          "translation_pair_byte_offset": 20492816,
+          "quantity": 1
+        },
+        {
+          "item_id": 30100012,
+          "installed_english_name": "Purified Water",
+          "native_name": "纯水_$S@TIDS$_cg0|0",
+          "name_status": "exact_installed_translation",
+          "item_name_pointer_byte_offset": 8547506,
+          "translation_pair_byte_offset": 21216987,
+          "quantity": 1
+        }
+      ],
+      "configured_seconds": 20,
+      "station_method_ids": [
+        53,
+        515,
+        609
+      ],
+      "configured_valid_time_leaf": {
+        "pointer_body_relative": 49,
+        "literal_offset": 478307,
+        "kind": "empty_object",
+        "raw_hex": "0700"
+      },
+      "forge_display_raw": 0,
+      "forge_display_byte_offset": 1243578,
+      "configured_field_names": [
+        "bp_exp",
+        "destruct_return_list",
+        "diamond_bp_exp",
+        "forge_display",
+        "forge_heap_max_num",
+        "forge_method",
+        "fuel_cost_item",
+        "item_forge_tab",
+        "valid_time",
+        "attrs",
+        "bp_type",
+        "build_lv",
+        "cost_item_list",
+        "cost_num_list",
+        "eternal_sands_num",
+        "exp",
+        "item_no",
+        "item_num",
+        "seconds"
+      ],
+      "season_no_field_present": false,
+      "can_invent_field_present": false,
+      "is_diy_field_present": false
+    }
+  ],
+  "ui_selection_rule": "The crafting UI obtains active server forge_season_no values, takes the matching (raw_formula_no, season_no) row when available, suppresses the base row when an active season override exists, then checks disabled formula list, valid_time, hidden/display field and live meme unlock. The generic resolver falls back to scalar base when no active tuple exists.",
+  "synthetic_selection_scope": "Assume the client candidate map contains all three Soup keys and all disable, time, visibility, unlock and build-station gates pass. These are branch vectors, not observed UI selections.",
+  "synthetic_selection_examples": [
+    {
+      "supplied_server_forge_season_no_list": [
+        0
+      ],
+      "expected_selected_key": 1200379
+    },
+    {
+      "supplied_server_forge_season_no_list": [
+        0,
+        1
+      ],
+      "expected_selected_key": [
+        1200379,
+        1
+      ]
+    },
+    {
+      "supplied_server_forge_season_no_list": [
+        0,
+        222
+      ],
+      "expected_selected_key": [
+        1200379,
+        222
+      ]
+    }
+  ],
+  "ingredient_933_role": "Typed cost_item_list value; the normal-zone cost constructor carries it as item_no and the UI resource check passes it to ClientAvatar.get_bag_item_no_num. It is separate from the cost_money and fuel branches. No indexed item_data row or readable bag-count implementation identifies its display name/category.",
+  "source_methods": {
+    "forge_variant_resolver": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/item_affix_consumer_captures/ForgeDataHelper.pyc",
+      "source_pyc_sha256": "c02abceb91016ed0a35a5550ad926d66cd32b8416a10c2787658de171cab584d",
+      "first_line": 443,
+      "code_bytes_offset": 12451,
+      "code_length": 370,
+      "body_sha256": "7b6a25b8b05eff18fc8a70fde138f92cbfce6d0877990d9a1fe19ef3fea4b1e0",
+      "names": [
+        "DataMgr",
+        "common_data",
+        "get",
+        "check_is_forge_no_disabled",
+        "SeasonHelper",
+        "get_season_forge_season_no_list"
+      ],
+      "simple_constants": [
+        null,
+        "forge_data",
+        "is_diy",
+        0
+      ]
+    },
+    "forge_disabled_gate": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/item_affix_consumer_captures/ForgeDataHelper.pyc",
+      "source_pyc_sha256": "c02abceb91016ed0a35a5550ad926d66cd32b8416a10c2787658de171cab584d",
+      "first_line": 2561,
+      "code_bytes_offset": 88081,
+      "code_length": 678,
+      "body_sha256": "6872beea4a6b78e94fb4e7ad18da2d4b08af4bffc2e4110ba91842ea33b7b71c",
+      "names": [
+        "isinstance",
+        "tuple",
+        "len",
+        "SeasonHelper",
+        "batch_get_template_info_by_server_num",
+        "Env",
+        "is_server",
+        "server_switch",
+        "ENABLE_TECH_V2_RESET",
+        "getattr",
+        "get_proxy_by_name",
+        "DataMgr",
+        "common_data",
+        "get",
+        "imp_get_season_forge_season_no_list"
+      ],
+      "simple_constants": [
+        null,
+        1,
+        0,
+        true,
+        false,
+        "CodeSwitchMgr",
+        "ENABLE_TECH_V2_RESET",
+        "forge_data",
+        "deleted",
+        "is_diy"
+      ]
+    },
+    "forge_item_reverse_lookup": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/item_affix_consumer_captures/ForgeDataHelper.pyc",
+      "source_pyc_sha256": "c02abceb91016ed0a35a5550ad926d66cd32b8416a10c2787658de171cab584d",
+      "first_line": 903,
+      "code_bytes_offset": 31230,
+      "code_length": 262,
+      "body_sha256": "b4aac9ff16717e1ae76557bffdc63b0ce9a957f791ad1c1f497b11ea0521c965",
+      "names": [
+        "DataMgr",
+        "common_data",
+        "get",
+        "get_forge_no_by_server_num"
+      ],
+      "simple_constants": [
+        null,
+        "forge_data",
+        0,
+        "item_to_forge_dict"
+      ]
+    },
+    "forge_cost_item_info": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/item_affix_consumer_captures/ForgeDataHelper.pyc",
+      "source_pyc_sha256": "c02abceb91016ed0a35a5550ad926d66cd32b8416a10c2787658de171cab584d",
+      "first_line": 469,
+      "code_bytes_offset": 13616,
+      "code_length": 660,
+      "body_sha256": "e1e2157feb8c26d3b39bbbf5cbb3fdf36a89a70add47df4194568d61092f1e76",
+      "names": [
+        "neverland_utils",
+        "is_neverland_zone",
+        "get_forge_no_by_server_num",
+        "DataMgr",
+        "common_data",
+        "get",
+        "range",
+        "len",
+        "append",
+        "const",
+        "COIN_NEVERLAND_MATERIALS"
+      ],
+      "simple_constants": [
+        null,
+        "forge_data",
+        "cost_item_list",
+        "cost_num_list",
+        "eternal_sands_num",
+        0
+      ]
+    },
+    "forge_visibility_field": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/item_affix_consumer_captures/ForgeDataHelper.pyc",
+      "source_pyc_sha256": "c02abceb91016ed0a35a5550ad926d66cd32b8416a10c2787658de171cab584d",
+      "first_line": 862,
+      "code_bytes_offset": 30049,
+      "code_length": 214,
+      "body_sha256": "351e8352e7a848e116cd185572735b42bb275f216c1713274d6ffc5dae8a4c02",
+      "names": [
+        "get",
+        "DataMgr",
+        "common_data"
+      ],
+      "simple_constants": [
+        null,
+        "forge_display",
+        0,
+        "forge_data"
+      ]
+    },
+    "server_forge_season_list": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/cuisine_recipe_source_captures/SeasonHelper.pyc",
+      "source_pyc_sha256": "ab43b48e616d7bc77f57f639232a8d9a80258466728ff5c997dd6cce87e185e5",
+      "first_line": 810,
+      "code_bytes_offset": 36782,
+      "code_length": 74,
+      "body_sha256": "9b5165644f9c5cd5b7974d38858bad2e6a69ebfa22e9d40e5ae609b270c06128",
+      "names": [
+        "get_template_info_by_server_num",
+        "imp_get_season_forge_season_no_list"
+      ],
+      "simple_constants": [
+        null,
+        "forge_season_no"
+      ]
+    },
+    "forge_season_list_normalizer": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/cuisine_recipe_source_captures/SeasonHelper.pyc",
+      "source_pyc_sha256": "ab43b48e616d7bc77f57f639232a8d9a80258466728ff5c997dd6cce87e185e5",
+      "first_line": 825,
+      "code_bytes_offset": 37063,
+      "code_length": 128,
+      "body_sha256": "2651a45fa11457e0ff93ce6d256a1c28a74de189fd6f2426ab97ac6ce392ee9f",
+      "names": [
+        "isinstance",
+        "int",
+        "tuple"
+      ],
+      "simple_constants": [
+        null,
+        0
+      ]
+    },
+    "crafting_ui_formula_filter": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/cuisine_recipe_source_captures/ForgeFormulaMgr.pyc",
+      "source_pyc_sha256": "3b69d300262832c4f63616c7d2ccfca224ba8dd569d11355c20677f70da8e3fb",
+      "first_line": 66,
+      "code_bytes_offset": 2638,
+      "code_length": 1626,
+      "body_sha256": "bba92226784f61fdad2793d1e9aa21115930cd9eb7947b3e705e1df2e1914f09",
+      "names": [
+        "entities.ClientAvatar",
+        "ClientAvatar",
+        "game_common.season",
+        "SeasonHelper",
+        "game_common.bag.BagHelper",
+        "BagHelper",
+        "DataMgr",
+        "client_data",
+        "get",
+        "set",
+        "union",
+        "tuple",
+        "dict",
+        "fromkeys",
+        "get_instance",
+        "server_num",
+        "batch_get_template_info_by_server_num",
+        "imp_get_season_forge_season_no_list",
+        "common_data",
+        "get_meme_lib_no",
+        "time_utility",
+        "get_server_time",
+        "isinstance",
+        "forge_helper",
+        "check_is_forge_no_disabled",
+        "ForgeFormulaMgr",
+        "FORGE_NO_CACHE",
+        "get_forge_no_by_server_num",
+        "len",
+        "formula_can_hide",
+        "is_memes_unlocked",
+        "update"
+      ],
+      "simple_constants": [
+        null,
+        0,
+        "forge_formula_map_data",
+        "FORGE_FORMULA_BUILD_MAP",
+        1,
+        "forge_data",
+        "meme_id_2_lib_groups_data",
+        "meme_group_system_unlock_config",
+        "meme_group_system_unlock_config_group_data",
+        false,
+        true,
+        "valid_time",
+        2,
+        "item_no"
+      ]
+    },
+    "crafting_ui_resource_dict": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/cuisine_recipe_source_captures/ForgeFormulaMgr.pyc",
+      "source_pyc_sha256": "3b69d300262832c4f63616c7d2ccfca224ba8dd569d11355c20677f70da8e3fb",
+      "first_line": 164,
+      "code_bytes_offset": 7177,
+      "code_length": 780,
+      "body_sha256": "18fe8d0c7f867da87ebd730bcede861812cbb957a3ed3c56b4d1f9a3cb121718",
+      "names": [
+        "entities.ClientAvatar",
+        "ClientAvatar",
+        "get_instance",
+        "cur_space_no",
+        "forge_helper",
+        "get_formula_cost_item_info",
+        "get_extra_cost_item_info",
+        "dict",
+        "zip",
+        "update",
+        "add_fuel_cost",
+        "is_in_neverland",
+        "get_cost_money",
+        "check_cost_items_by_affix",
+        "items"
+      ],
+      "simple_constants": [
+        null,
+        0,
+        true
+      ]
+    },
+    "crafting_ui_bag_requirement": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/cuisine_recipe_source_captures/ForgeFormulaMgr.pyc",
+      "source_pyc_sha256": "3b69d300262832c4f63616c7d2ccfca224ba8dd569d11355c20677f70da8e3fb",
+      "first_line": 223,
+      "code_bytes_offset": 10119,
+      "code_length": 256,
+      "body_sha256": "2ff9ee9c70c2d08e4ee0911b565c037f09cda3d8665fc8cf3541f5caf0e4ee2a",
+      "names": [
+        "entities.ClientAvatar",
+        "ClientAvatar",
+        "get_formula_res_dict",
+        "get_instance",
+        "server_num",
+        "list",
+        "items",
+        "get_bag_item_num"
+      ],
+      "simple_constants": [
+        null,
+        0,
+        true,
+        false
+      ]
+    },
+    "crafting_ui_bag_count": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/cuisine_recipe_source_captures/ForgeFormulaMgr.pyc",
+      "source_pyc_sha256": "3b69d300262832c4f63616c7d2ccfca224ba8dd569d11355c20677f70da8e3fb",
+      "first_line": 218,
+      "code_bytes_offset": 9822,
+      "code_length": 88,
+      "body_sha256": "25cc56ebb27e97aad97ddfe1c4bcfdc7967c8256ed1e4c6db4cc4b6a2b7cf8ab",
+      "names": [
+        "entities.ClientAvatar",
+        "ClientAvatar",
+        "get_instance",
+        "get_bag_item_no_num"
+      ],
+      "simple_constants": [
+        null,
+        0
+      ]
+    },
+    "produce_ui_season_recipe": {
+      "source_path": "/home/dv/Documents/Codex/2026-11-01/task-5/cuisine_recipe_source_captures/UIProduceDataModel.pyc",
+      "source_pyc_sha256": "8bb11c2467bdfee1eaba269354db51667c3bb2eb8f84dac17421282a58ae0381",
+      "first_line": 363,
+      "code_bytes_offset": 18091,
+      "code_length": 166,
+      "body_sha256": "783b6628ed999fd552918695bf0393c2b9340cc94272227891c586b4caed2f93",
+      "names": [
+        "ClientAvatar",
+        "get_instance",
+        "get_forge_history_count",
+        "ForgeDataHelper",
+        "get_forge_no_by_server_num",
+        "server_num"
+      ],
+      "simple_constants": [
+        null
+      ]
+    }
+  },
+  "remaining_limits": [
+    "The current server_num, active forge season list, disable list, tech/meme unlock state, item counts and actual UI visibility are not observed.",
+    "The parser does not decode a name or item_data identity for cost item_no 933.",
+    "Configured seconds are not a live craft timer; buffs/queue can affect timing."
+  ],
+  "game_code_executed": false,
+  "installed_files_modified": false,
+  "forge_files_modified": false
+}
