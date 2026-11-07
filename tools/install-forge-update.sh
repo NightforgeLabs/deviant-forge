@@ -2,7 +2,7 @@
 # Deviant Forge optimizer update. Backs up first; never touches data/ or game files.
 set -euo pipefail
 APP="${APP:-$(cd "$(dirname "$0")/.." && pwd)}"
-PKG=/tmp/forge-update.tgz
+PKG="${1:-/tmp/forge-update.tgz}"
 [ -f "$APP/server.py" ] && [ -f "$APP/forge.py" ] || { echo "Not a Deviant Forge folder: $APP (run this from the app's tools/ folder, or set APP=...)"; exit 1; }
 STAMP=$(date +%Y%m%d-%H%M%S)
 BACKUP="$HOME/deviant-forge-backup-$STAMP.tgz"

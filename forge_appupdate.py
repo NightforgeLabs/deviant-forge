@@ -27,6 +27,7 @@ import tarfile
 import io
 import threading
 import time
+import urllib.parse
 import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
@@ -82,6 +83,18 @@ def parse_release(d: dict) -> dict:
                        for a in d.get("assets") or []]}
 
 
+def latest_from_page() -> dict:
+    """github.com/<repo>/releases/latest redirects to .../releases/tag/<tag>. No notes this way."""
+    req = urllib.request.Request(PAGE, method="HEAD", headers={"User-Agent": f"DeviantForge/{current()}"})
+    with urllib.request.urlopen(req, timeout=8) as r:
+        final = r.geturl()
+    m = re.search(r"/releases/tag/([^/?#]+)$", final)
+    if not m:
+        raise RuntimeError("no release yet")
+    tag = urllib.parse.unquote(m.group(1))
+    return parse_release({"tag_name": tag, "html_url": final, "body": ""})
+
+
 def check(force: bool = False) -> None:
     if not enabled():
         return
@@ -94,6 +107,10 @@ def check(force: bool = False) -> None:
         err = None
     except Exception as e:  # noqa: BLE001  (offline, rate limited, no release yet ...)
         rel, err = None, str(e)
+        try:  # the API allows 60 checks an hour per address; the release page link has no such limit
+            rel, err = latest_from_page(), None
+        except Exception:  # noqa: BLE001
+            pass
     with _lock:
         _st.update(checked_at=time.time(), error=err)
         if rel:
@@ -259,7 +276,7 @@ def _run_install() -> None:
             repack_linux(pkg, out)
             pkg.unlink(missing_ok=True)
             md5 = hashlib.md5(out.read_bytes()).hexdigest()
-            cmd = f"md5sum {out} && bash {APP / 'tools' / 'install-forge-update.sh'}"
+            cmd = f"md5sum {out} && bash {APP / 'tools' / 'install-forge-update.sh'}" + ("" if str(out) == "/tmp/forge-update.tgz" else f" {out}")
             _set(stage="ready_manual", pct=100, msg=f"Downloaded and checked (md5 {md5}). Run this in a terminal:",
                  command=cmd)
             return
